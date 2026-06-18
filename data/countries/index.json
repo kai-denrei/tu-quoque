@@ -1,5 +1,5 @@
 {
-  "count": 42,
+  "count": 57,
   "countries": [
     {
       "iso": "AFG",
@@ -8,10 +8,22 @@
       "status": "VERIFIED"
     },
     {
+      "iso": "AGO",
+      "name": "Angola",
+      "events": 5,
+      "status": "UNVERIFIED"
+    },
+    {
       "iso": "ARG",
       "name": "Argentina",
       "events": 4,
       "status": "UNVERIFIED"
+    },
+    {
+      "iso": "AUS",
+      "name": "Australia",
+      "events": 4,
+      "status": "VERIFIED"
     },
     {
       "iso": "BGD",
@@ -36,6 +48,18 @@
       "name": "China",
       "events": 5,
       "status": "VERIFIED"
+    },
+    {
+      "iso": "CIV",
+      "name": "Cote d'Ivoire",
+      "events": 4,
+      "status": "UNVERIFIED"
+    },
+    {
+      "iso": "CMR",
+      "name": "Cameroon",
+      "events": 4,
+      "status": "UNVERIFIED"
     },
     {
       "iso": "COD",
@@ -83,6 +107,12 @@
       "iso": "GBR",
       "name": "United Kingdom",
       "events": 5,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "GHA",
+      "name": "Ghana",
+      "events": 3,
       "status": "VERIFIED"
     },
     {
@@ -164,8 +194,32 @@
       "status": "VERIFIED"
     },
     {
+      "iso": "MOZ",
+      "name": "Mozambique",
+      "events": 5,
+      "status": "UNVERIFIED"
+    },
+    {
+      "iso": "MYS",
+      "name": "Malaysia",
+      "events": 5,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "NER",
+      "name": "Niger",
+      "events": 3,
+      "status": "VERIFIED"
+    },
+    {
       "iso": "NGA",
       "name": "Nigeria",
+      "events": 4,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "NPL",
+      "name": "Nepal",
       "events": 4,
       "status": "VERIFIED"
     },
@@ -176,10 +230,28 @@
       "status": "UNVERIFIED"
     },
     {
+      "iso": "PER",
+      "name": "Peru",
+      "events": 5,
+      "status": "UNVERIFIED"
+    },
+    {
       "iso": "PHL",
       "name": "Philippines",
       "events": 4,
       "status": "VERIFIED"
+    },
+    {
+      "iso": "POL",
+      "name": "Poland",
+      "events": 5,
+      "status": "UNVERIFIED"
+    },
+    {
+      "iso": "PRK",
+      "name": "North Korea",
+      "events": 4,
+      "status": "UNVERIFIED"
     },
     {
       "iso": "RUS",
@@ -192,6 +264,12 @@
       "name": "Rwanda",
       "events": 2,
       "status": "VERIFIED"
+    },
+    {
+      "iso": "SAU",
+      "name": "Saudi Arabia",
+      "events": 4,
+      "status": "UNVERIFIED"
     },
     {
       "iso": "SDN",
@@ -232,6 +310,18 @@
     {
       "iso": "USA",
       "name": "United States of America",
+      "events": 4,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "UZB",
+      "name": "Uzbekistan",
+      "events": 4,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "VEN",
+      "name": "Venezuela",
       "events": 4,
       "status": "VERIFIED"
     },

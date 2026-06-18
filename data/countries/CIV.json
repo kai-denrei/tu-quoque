@@ -1,0 +1,197 @@
+{
+  "iso": "CIV",
+  "name": "Cote d'Ivoire",
+  "note": "Cote d'Ivoire's two ledgers converge on the same recent decade, which is the dual-lens point in its starkest form: the very crisis in which Ivorians were the mass victims is also the crisis in which Ivorian forces were mass perpetrators, with the line between victim-people and perpetrator-state running not between communities but between the rival armies and militias that each claimed to represent the nation. On the victim side the deepest wound is the French colonial conquest and the forced-labour regime that followed — Samori Toure's scorched-earth war, the decades-long suppression of Baoule resistance, and the corvee/blood-tax system that worked and conscripted Ivorians to death — but the colonial death toll is genuinely unrecoverable from the available record and is left null rather than guessed at. The best-quantified victim event is the 2010-2011 post-election crisis, in which roughly 3,000 civilians were killed. That same crisis supplies much of the perpetrator ledger: the Duekoue massacre, in which pro-Ouattara Republican Forces (FRCI) and allied dozo hunters killed hundreds of mostly Guere civilians, sits beside the earlier pattern of Gbagbo-era state killing (the 2000 Yopougon mass grave, the March 2004 Abidjan crackdown) in which the Ivorian state's own gendarmes and soldiers gunned down opposition supporters. No figure here was inflated to balance the columns; where scholarship diverges (the Duekoue toll especially) the dispute is shown, and the colonial toll is left unquantified because no defensible number exists.",
+  "events": [
+    {
+      "id": "civ-1",
+      "country": "CIV",
+      "role": "victim",
+      "title": "French colonial conquest and the forced-labour regime",
+      "era": "c.1893–1946",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "A decades-long armed conquest — Samori Toure's war, the suppression of Baoule and other resistance, and the conscription/corvee system that worked people to death — combining battlefield killing with a coercive labour regime; tiered WAR for the conquest's organized armed violence rather than EXT, since the aim was subjugation and extraction, not the destruction of a defined people.",
+      "agent": "The French Third Republic — colonial troops and administrators waging the 'pacification' campaigns and imposing the indigenat code, the head tax, the corvee (forced labour), prestation, and the 'blood tax' of conscription into tirailleur units",
+      "toll": {
+        "display": "uncounted; no defensible death total exists",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "No comprehensive death toll exists for the French conquest and forced-labour era in Cote d'Ivoire, and none is invented here. The record documents the scale and brutality — Samori Toure's scorched-earth war and the 1898 French capture of him; a Baoule guerrilla resistance fought roughly 1893-1911 that France suppressed with significant military force; and a forced-labour system (corvee, prestation, head tax, conscription) that killed an unrecorded number on roads, plantations and military service, with mass repression noted into the 1930s. Colonial administrators had strong incentives to obscure these realities, so even contemporary figures are unreliable. The toll is left null because no sourceable number for deaths exists; this event is marked UNVERIFIED accordingly.",
+        "caveat": null
+      },
+      "received_lens": "suppressed",
+      "summary": "France took the territory by force over more than two decades — breaking Samori Toure's empire (he was captured in 1898 and died in exile in 1900) and grinding down a long Baoule guerrilla resistance into the 1910s — then ruled through the indigenat code, head taxes, conscription and the corvee, working and drafting Ivorians under a coercive labour regime that killed an unrecorded number until forced labour was abolished in 1946. The colonial record was deliberately kept thin.",
+      "relevance": "The conquered and conscripted colony of this ledger is the same state whose own post-independence forces later appear on the perpetrator ledger — subjugation absorbed, then reproduced internally.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Encyclopaedia Britannica, 'History of Cote d'Ivoire' — French conquest, Baoule/Anyi/Abe resistance to forced labour and head taxes, WWI conscription and resulting revolts, mass repression in the 1930s",
+          "supports": "summary",
+          "url": "https://www.britannica.com/topic/history-of-Cote-dIvoire",
+          "caveat": "Tertiary reference work; used for the documented existence and character of the conquest and forced-labour regime, not for any death figure (which it does not supply)."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Indigenat' (Native code, France) — the corvee, prestation, head tax and 'blood tax' (forced conscription into tirailleur units) imposed across French West Africa including Cote d'Ivoire",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Indig%C3%A9nat",
+          "caveat": "Tertiary aggregator; used for the structure of the legal/labour regime, which is well documented, not for casualty figures."
+        },
+        {
+          "kind": "reference",
+          "cite": "Britannica, 'Samory' — Samori Toure's scorched-earth resistance against French expansion, his 1898 capture and 1900 death in exile",
+          "supports": "summary",
+          "url": "https://www.britannica.com/biography/Samory",
+          "caveat": "Tertiary reference work; corroborates the conquest narrative but provides no overall death toll."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "civ-2",
+      "country": "CIV",
+      "role": "victim",
+      "title": "The 2010–2011 post-election crisis",
+      "era": "2010–2011",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "A five-month armed conflict triggered by a disputed election in which both sides' forces killed civilians on political, ethnic and religious lines — organized armed violence with heavy civilian targeting, so WAR; the deliberate ethnic massacres within it (e.g. Duekoue) shade toward atrocity but the overall event is a civil war.",
+      "agent": "Both sides — Laurent Gbagbo's security forces, the Ivorian Popular Front and allied 'Young Patriots' militias and death squads, AND Alassane Ouattara's Republican Forces (FRCI) and allied dozo hunters — with French and UN (UNOCI) forces intervening to end the fighting",
+      "toll": {
+        "display": "~3,000 civilians killed",
+        "disputed": false,
+        "low": 3000,
+        "high": 3000,
+        "unit": "deaths",
+        "note": "Human Rights Watch states that at least 3,000 people were killed and more than 150 women raped over the roughly five months of violence following the disputed 28 November 2010 election; more than 450,000 Ivorians were displaced (the displacement figure corroborated by the Wikipedia compilation). AUDIT NOTE: the ~3,000 figure is HRW's widely cited consensus total and is verified to HRW; the UN's own contemporary reporting cited far lower interim figures (UNOCI: 462+ deaths by 24 March 2011; 1,012+ in the western region by May 2011) as the conflict escalated, so the ~3,000 should NOT be co-attributed to the UN. Some early-phase counts (e.g. 1,000-1,500 before full-scale war) reflect only the opening months. The low and high are set to the HRW consensus ~3,000; the figure is a floor ('at least'), so the true toll may be somewhat higher. Single-number toll (low=high), sourced to a single organisation (HRW) — flagged but the source is verified and the figure is a documented floor.",
+        "caveat": null
+      },
+      "received_lens": "contested",
+      "summary": "When Gbagbo refused to concede the November 2010 election to Ouattara, the country slid into five months of armed conflict; Gbagbo's forces, militias and death squads attacked Ouattara supporters while Ouattara's Republican Forces fought their way to Abidjan, and over roughly 3,000 civilians were killed — many targeted by name, origin or community — before Gbagbo was captured in April 2011 with French and UN help. Both sides committed war crimes and crimes against humanity.",
+      "relevance": "Ivorian civilians were the mass victims of this war — but the forces that killed them were also Ivorian, which is why the same crisis supplies entries on this country's perpetrator ledger.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Human Rights Watch, 'Cote d'Ivoire: Justice for 2010-11 Crimes Stagnates' (8 May 2018) — 'In the resulting five months of violence and armed conflict, at least 3,000 people were killed, and more than 150 women raped'",
+          "supports": "toll.low",
+          "url": "https://www.hrw.org/news/2018/05/08/cote-divoire-justice-2010-11-crimes-stagnates",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "UN News, 'Death toll from post-electoral violence in Cote d'Ivoire rising, UN reports' (March 2011) — UN tracking of the rising civilian toll during the crisis",
+          "supports": "summary",
+          "url": "https://news.un.org/en/story/2011/03/370162",
+          "caveat": "Contemporary UN reporting from mid-crisis; figures it cites are interim and lower than the final ~3,000, used here for the UN's documentation of escalating civilian killing."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, '2010–2011 Ivorian crisis' — overall ~3,000 deaths, 100+ missing, 450,000+ displaced, and the role of Gbagbo death squads and pro-Ouattara forces",
+          "supports": "tier",
+          "url": "https://en.wikipedia.org/wiki/2010%E2%80%932011_Ivorian_crisis",
+          "caveat": "Tertiary aggregator; used for displacement and structural detail corroborated by HRW and UN reporting."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "civ-3",
+      "country": "CIV",
+      "role": "perpetrator",
+      "title": "Gbagbo-era state killing of opposition supporters: Yopougon and the 2004 Abidjan crackdown",
+      "era": "2000–2004",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Targeted state killing of perceived political opponents — gendarmes executing detained RDR supporters in 2000 and security forces shooting opposition marchers in 2004 — politically motivated repression by the state, so POL rather than the larger-scale armed conflict of WAR.",
+      "agent": "The Ivorian state under Laurent Gbagbo — paramilitary gendarmes of the Abobo camp (2000) and the security forces that crushed a banned anti-Gbagbo march (March 2004)",
+      "toll": {
+        "display": "57 killed at Yopougon (2000); ~120 killed in the March 2004 crackdown",
+        "disputed": false,
+        "low": 57,
+        "high": 177,
+        "unit": "deaths",
+        "note": "Two well-documented episodes of state killing. The 'Charnier de Yopougon' (October 2000): 57 young men, mostly detained RDR supporters, were shot by gendarmes and dumped in a mass grave near Yopougon, Abidjan; eight gendarmes charged in 2001 were all acquitted. The March 2004 crackdown on a banned opposition march: a UN inquiry found at least 120 killed, 274 wounded and 20 disappeared, with victims targeted by name, origin or community. The low (57) is the firmly attributed Yopougon count; the high (~177) sums Yopougon plus the ~120 of 2004. These are two specific atrocities, not a full tally of Gbagbo-era state violence.",
+        "caveat": null
+      },
+      "received_lens": "denied",
+      "summary": "During and after the 2000 election Gbagbo's gendarmes shot 57 detained opposition (RDR) supporters and dumped them in a mass grave outside Yopougon in Abidjan — the eight gendarmes charged were all acquitted in 2001 — and in March 2004 the security forces crushed a banned anti-Gbagbo march, killing at least 120 people, wounding 274 and disappearing 20, a UN inquiry found, with victims picked out by name, origin or community.",
+      "relevance": "Before Ivorians became the mass victims of 2010-11, the Ivorian state was already killing its own citizens for their politics and ethnicity — the perpetrator pattern that the later crisis would amplify.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Human Rights Watch, 'The New Racism: The Political Manipulation of Ethnicity in Cote d'Ivoire' (2001) — the 57 bodies of the Charnier de Yopougon, the gendarmes responsible, and the 2001 acquittals",
+          "supports": "toll.low",
+          "url": "https://www.hrw.org/report/2001/08/28/new-racism/political-manipulation-ethnicity-cote-divoire",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Amnesty International, 'Cote d'Ivoire: A Succession of Unpunished Crimes' (2003, AFR 31/007/2003) — documents the Yopougon massacre and other mass graves (Daloa, Monoko-Zohi, Man) attributed to government and security forces",
+          "supports": "summary",
+          "url": "https://www.amnesty.org/en/documents/AFR31/007/2003/en/",
+          "caveat": "Human-rights advocacy organization; rigorous documentation but used here for the specific, corroborated atrocities it records, not for any aggregate political framing."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'First Ivorian Civil War' — UN inquiry finding at least 120 killed, 274 wounded and 20 disappeared in the March 2004 crackdown on the banned anti-Gbagbo march",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/First_Ivorian_Civil_War",
+          "caveat": "Tertiary aggregator; the 2004 figures are attributed to a UN inquiry and corroborated by contemporary reporting."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "civ-4",
+      "country": "CIV",
+      "role": "perpetrator",
+      "title": "The Duékoué massacre",
+      "era": "2011",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "A concentrated massacre of civilians selected by ethnicity (mostly Guere) as one armed faction took a town — deliberate identity-based mass killing, so POL/atrocity rather than incidental WAR combat death.",
+      "agent": "Pro-Ouattara forces — the Republican Forces of Cote d'Ivoire (FRCI) and allied dozo traditional hunters and Burkinabe militiamen — as they took Duekoue on 28-29 March 2011 (with a minority of the dead attributed to retreating pro-Gbagbo forces and militias)",
+      "toll": {
+        "display": "~330 to ~800–1,000 killed",
+        "disputed": true,
+        "low": 330,
+        "high": 1000,
+        "unit": "deaths",
+        "note": "Estimates diverge sharply. The Ouattara government / a UN spokesman cited ~330 killed in Duekoue; the ICRC (Red Cross) counted 'at least 800' in the Carrefour neighbourhood; the UN human-rights division reported 505 dead in Duekoue (944 in the wider Moyen-Cavally region); and Caritas estimated 800 to 1,000. The UN found mixed responsibility: of one count of ~330, more than 100 were killed by Gbagbo's troops while the majority were executed by pro-Ouattara dozos. The low (330) is the most conservative UN/government figure; the high (1,000) is the Caritas upper bound. HRW attributed the bulk of the killing of Guere civilians to pro-Ouattara FRCI, dozos and Burkinabe militia.",
+        "caveat": null
+      },
+      "received_lens": "contested",
+      "summary": "As pro-Ouattara Republican Forces (FRCI) took the western town of Duekoue on 28-29 March 2011, they and allied dozo hunters and Burkinabe militiamen killed hundreds of civilians, most of them Guere singled out by ethnicity, in the worst single atrocity of the post-election crisis; estimates run from the UN/government ~330 to the Red Cross's 800 and Caritas's 800-1,000, and the UN attributed the majority of the killing to the pro-Ouattara side, with a smaller share to retreating Gbagbo forces.",
+      "relevance": "The forces that 'liberated' the country for the internationally recognized winner committed the crisis's worst single massacre against an ethnic group — the victors' atrocity that the victim ledger's '3,000 killed' partly conceals.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Human Rights Watch (French), 'Cote d'Ivoire: Les forces de Ouattara ont tue et viole des civils pendant leur offensive' (9 April 2011) — attributes the massacre of hundreds of Guere civilians at Duekoue to pro-Ouattara FRCI, dozos and Burkinabe militia",
+          "supports": "summary",
+          "url": "https://www.hrw.org/fr/news/2011/04/09/cote-divoire-les-forces-de-ouattara-ont-tue-et-viole-des-civils-pendant-leur",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Second Ivorian Civil War' — compiles the divergent Duekoue tolls (UN/government ~330, ICRC 'at least 800', UN human-rights 505 in town / 944 region, Caritas 800-1,000) and the UN's mixed-responsibility finding",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Second_Ivorian_Civil_War",
+          "caveat": "Tertiary aggregator; each figure is individually attributed to its named source (ICRC, UN, Caritas, government) and used here only as a compilation of those attributed numbers."
+        },
+        {
+          "kind": "press",
+          "cite": "UN News, 'Death toll in Ivorian post-election violence surpassed 1,000 – UN' (May 2011) — UN human-rights division reporting on the western killings including Duekoue and the regional toll",
+          "supports": "toll.low",
+          "url": "https://news.un.org/en/story/2011/05/376492-death-toll-ivorian-post-election-violence-surpassed-1000-un",
+          "caveat": "Contemporary UN reporting; cited for the UN division's figures on the western massacres — verified to directly state 'At least 505 of the victims were killed in western city of Duekoue' and a regional toll of 1,012, corroborating the low end and the regional figure."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

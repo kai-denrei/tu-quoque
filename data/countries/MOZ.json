@@ -1,0 +1,239 @@
+{
+  "iso": "MOZ",
+  "name": "Mozambique",
+  "note": "Researched 2026-06-18 from scratch (no prior seed), via real web sources (Wikipedia, Amnesty International, mozambiquehistory.net, scholarly work by Benedito Machava, the Gersony Report literature, and ACLED-derived press counts). Both ledgers are populated. The victim ledger is the heavier of the two and spans three eras: Portuguese colonial massacre (Wiriyamu, 1972), the civil war (1977-1992) in which Mozambicans died overwhelmingly at the hands of the foreign-backed RENAMO insurgency and the famine that war produced, and the ongoing jihadist insurgency in Cabo Delgado (2017-present). The perpetrator ledger covers atrocities by Mozambique's own state and forces: the FRELIMO 're-education' camp and political-repression system of the socialist era (1974-1990s), and the documented war crimes of Mozambican security forces (FADM, police) against civilians in the Cabo Delgado counter-insurgency. A deliberate disputed-figure caution: the English Wikipedia civil-war article asserts '30,000 inmates died' in FRELIMO re-education camps; the leading scholar of those camps, Benedito Luís Machava, estimates deaths in the low thousands ('over a thousand') and stresses reliable figures are hard to establish, so the higher number is treated as unverified/disputed and is NOT carried as fact. The Gersony Report's ~100,000-killed-by-RENAMO figure (Mamdani) is likewise flagged as an extrapolation from a small interview sample that some scholars dispute. No event, toll, or source has been invented to balance the ledgers.",
+  "events": [
+    {
+      "id": "moz-1",
+      "country": "MOZ",
+      "role": "victim",
+      "title": "The Wiriyamu Massacre",
+      "era": "1972",
+      "era_band": "colonial",
+      "tier": "EXT",
+      "tier_reasoning": "Portuguese commandos, acting on an order to 'kill them all,' deliberately exterminated the entire civilian population of a village — women and children included — as collective punishment for suspected support of FRELIMO; the intent to wipe out a defined group of people places the act at EXT.",
+      "agent": "The Portuguese 6th Company of Commandos in Mozambique, directed by agents of the colonial secret police (PIDE/DGS), under the planning of agent Chico Kachavi, during the colonial counter-insurgency",
+      "toll": {
+        "display": "~150 (Red Cross) to ~300 (Expresso investigation); disputed",
+        "disputed": true,
+        "low": 150,
+        "high": 300,
+        "unit": "deaths",
+        "note": "The International Committee of the Red Cross figure was about 150 villagers killed; a later investigation by the Portuguese newspaper Expresso, based on soldiers' testimonies, put the toll around 300. All victims were civilians, including women and children. This is a deliberate-killing count, not a famine or demographic estimate. AUDIT QUARANTINE (2026-06-18, source-integrity): the toll itself is solid — both endpoints are independently confirmed (Red Cross 150, Expresso 300; the 300 figure is corroborated by multiple secondary sources). The event is set UNVERIFIED solely because one of its three sources was MISATTRIBUTED: the scholarly cite 'Cutting Heads or Winning Hearts' (Civil Wars 14:1, 2012) is by Reis & Oliveira, NOT Dhada, and that paper actually DISPUTES the massacre's reported scale rather than reconstructing it — the inverse of the framing it was cited for. The citation has been corrected to Dhada's genuine Wiriyamu scholarship (Civil Wars 15:4 response + his Klein-Prize monographs); a re-verification of the corrected source's full text is recommended before flipping this back to VERIFIED."
+      },
+      "received_lens": "denied",
+      "summary": "On 16 December 1972, in the Tete district village of Wiriyamu, Portuguese commandos carried out 'Operation Marosca,' rounding up and killing the villagers as punishment for allegedly sheltering FRELIMO guerrillas. The killing was concealed by the colonial regime and only reached the world in July 1973 when the British Catholic priest Adrian Hastings and two Spanish missionaries published accounts; the exposure helped erode support for Portugal's colonial wars and fed into the 1974 collapse of the Estado Novo regime in Lisbon.",
+      "relevance": "Wiriyamu is the anchor of Mozambique's victim ledger — a colonized people massacred by an imperial power that then denied it — and it sets the moral floor against which the post-independence Mozambican state's own coercion is measured in the perpetrator ledger.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wiriyamu Massacre (Wikipedia) — 16 December 1972; Portuguese 6th Company of Commandos directed by PIDE/DGS; 'Operation Marosca'; Red Cross figure ~150, Expresso later ~300; all victims civilian; exposed by Adrian Hastings (1973); Portuguese PM António Costa in 2022 called it 'an unforgivable act that dishonours Portuguese history'",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Wiriyamu_Massacre",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Mustafah Dhada, 'The Wiriyamu Massacre of 1972: Response to Reis and Oliveira', Civil Wars 15:4 (2013) — and Dhada's monographs 'The Portuguese Massacre of Wiriyamu in Colonial Mozambique, 1964–2013' (2016 Martin A. Klein Prize, AHA) and 'The Wiriyamu Massacre: An Oral History, 1960–1974' (Bloomsbury) — the authoritative scholarly reconstruction of the massacre and Operation Marosca, defending its historicity against the skeptical Reis/Oliveira thesis",
+          "supports": "summary",
+          "url": "https://www.tandfonline.com/doi/abs/10.1080/13698249.2013.853428",
+          "caveat": "AUDIT CORRECTION (2026-06-18): the original record mis-cited 'Cutting Heads or Winning Hearts' (Civil Wars 14:1, 2012) to Mustafah Dhada — that article is by Bruno C. Reis and Pedro A. Oliveira and is the SKEPTICAL paper that questions whether the massacre as reported occurred, the inverse of the supporting framing claimed. Replaced with Dhada's actual works on Wiriyamu, which exist and are authoritative (2016 Klein Prize). Abstract/landing pages were consulted, not full text; cited for the existence and framing of the scholarly account, not for a toll figure (toll is sourced separately to the Red Cross and Expresso ranges)."
+        },
+        {
+          "kind": "press",
+          "cite": "Africanews / Club of Mozambique, 'Mozambique: 50th anniversary of the Portuguese led Wiriyamu massacre' (Dec. 2022) — commemoration coverage confirming the 1972 date, the civilian death toll, and Portugal's belated official acknowledgement",
+          "supports": "summary",
+          "url": "https://clubofmozambique.com/news/mozambique-50th-anniversary-of-the-portuguese-led-wiriyamu-massacre/",
+          "caveat": null
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "moz-2",
+      "country": "MOZ",
+      "role": "victim",
+      "title": "The Mozambican Civil War and its famine",
+      "era": "1977–1992",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "A fifteen-year armed conflict in which roughly a million people died, the great majority of civilian killings attributed to one belligerent (RENAMO) and hundreds of thousands of further deaths from war-aggravated famine; mass death arising from an armed conflict and its deliberate targeting of civilians places it at WAR.",
+      "agent": "The RENAMO insurgency — founded, armed, and financed first by white-ruled Rhodesia and then by apartheid South Africa to destabilize the FRELIMO government — committed the overwhelming majority of civilian atrocities; the FRELIMO government also committed abuses, and war-aggravated drought produced mass famine deaths on top of the killing",
+      "toll": {
+        "display": "~1,000,000 dead (combat, atrocity, and war-driven famine combined); of murders, ~94-95% attributed to RENAMO",
+        "disputed": true,
+        "low": 1000000,
+        "high": 1000000,
+        "unit": "deaths",
+        "note": "The widely cited total is about one million dead over 1977-1992, combining people killed in fighting and atrocities with those who starved when the war wrecked food supply and worsened the 1984 famine; an additional ~5 million were displaced. This is a mixed combat-plus-famine estimate, not a precise body count. Attribution of civilian killings is itself a finding: the 1988 Gersony Report concluded that refugees attributed roughly 94% of murders, 94% of abductions, and 93% of lootings to RENAMO, and Mahmood Mamdani cites it for an estimate of as many as 100,000 civilians murdered by RENAMO — a figure some scholars dispute as a worst-case extrapolation from a small (~80-interview) sample. The Homoine massacre of July 1987 (424 civilians killed by RENAMO) is the single best-documented incident."
+      },
+      "received_lens": "memorial",
+      "summary": "From 1977 the Marxist FRELIMO government fought RENAMO, an insurgency built up by Rhodesia and then apartheid South Africa to wreck the new state. RENAMO's campaign was defined by terror against rural civilians — mass killings such as the Homoine massacre (424 dead in 1987), abductions, child-soldier conscription, and mutilation — while the war's collapse of food supply and the 1984 drought drove a famine that killed hundreds of thousands more. Around a million Mozambicans died and roughly five million were displaced before the 1992 Rome peace accord.",
+      "relevance": "For Mozambique's people the civil war is overwhelmingly a victim event — most civilian killing was done by a foreign-sponsored insurgency — yet the same war also implicates the Mozambican state in abuses of its own, which is why FRELIMO's distinct, peacetime repression appears separately in the perpetrator ledger rather than being folded into this entry.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Mozambican Civil War (Wikipedia) — 30 May 1977 to 4 October 1992; >1,000,000 dead including hundreds of thousands from famine (notably 1984); RENAMO backed by Rhodesia then South Africa; ~5 million displaced; Homoine massacre (July 1987) of 424 civilians; Gersony Report figures (94% of murders attributed to RENAMO)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Mozambican_Civil_War",
+          "caveat": "The same article asserts '30,000 inmates died' in FRELIMO re-education camps; that figure is NOT carried here as fact because it conflicts with the leading scholar's much lower estimate (see moz-4). The ~1,000,000 total is a standard but soft combat-plus-famine estimate."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Robert Gersony, 'Summary of Mozambican Refugee Accounts of Principally Conflict-Related Experience in Mozambique' (US State Department, April 1988) — the 'Gersony Report'; refugees attributed ~94% of murders to RENAMO and described systematic killing of civilians; basis for Mamdani's estimate of up to 100,000 killed by RENAMO",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Mozambican_Civil_War",
+          "caveat": "The Gersony Report's 100,000 conclusion has been criticized as a worst-case extrapolation from roughly 80 interviews; the primary report itself was consulted via secondary descriptions (Wikipedia and the Heritage Foundation 1988 commentary), not the original document, so it is cited for attribution-share findings rather than as a precise toll."
+        },
+        {
+          "kind": "press",
+          "cite": "BlackPast.org, 'The Mozambican Civil War (1977-1992)' — overview confirming the ~1 million death toll, ~5 million displaced, RENAMO's external sponsorship, and the war's brutality against civilians",
+          "supports": "toll.high",
+          "url": "https://blackpast.org/global-african-history/the-mozambican-civil-war-1977-1992/",
+          "caveat": "An encyclopedic summary, not original research; corroborates the standard ~1 million figure rather than independently deriving it."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "moz-3",
+      "country": "MOZ",
+      "role": "victim",
+      "title": "The Cabo Delgado jihadist insurgency",
+      "era": "2017–present",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "An ongoing armed insurgency in which jihadist fighters have deliberately massacred, beheaded, and abducted civilians and emptied entire towns; mass civilian death arising from an armed conflict with deliberate targeting of non-combatants places it at WAR.",
+      "agent": "The jihadist insurgency Ansar al-Sunna (locally 'al-Shabaab,' unrelated to the Somali group), later affiliated as Islamic State – Mozambique Province, which has massacred and abducted civilians across Cabo Delgado province",
+      "toll": {
+        "display": "~2,600–2,760 civilians killed (of ~6,250–6,570 total deaths); ACLED-derived",
+        "disputed": false,
+        "low": 2600,
+        "high": 2760,
+        "unit": "deaths",
+        "note": "ACLED-derived counts give roughly 2,631 civilians killed within a total of about 6,257 conflict deaths over the first eight years (per 2025 reporting), with other tallies citing ~2,759 civilians of ~6,570 total; the total had risen toward ~6,418 by early 2026. Hundreds of thousands have been displaced (figures have ranged from ~700,000 at the 2021 peak to ~850,000 in 2024). These are event-data conflict counts and span both insurgent and security-force killings; the civilian range here reflects deaths in the insurgency overall, of which the jihadist group is responsible for the large majority."
+      },
+      "received_lens": "contested",
+      "summary": "Since the first attack in October 2017, jihadist fighters of Ansar al-Sunna — later flying the Islamic State's banner — have waged an insurgency across the gas-rich northern province of Cabo Delgado, beheading and massacring villagers, abducting women and children, and overrunning towns; the 2021 assault on Palma drove a multinational and Rwandan military intervention. Thousands of civilians have been killed and hundreds of thousands displaced, with attacks continuing into 2025-2026.",
+      "relevance": "Cabo Delgado is the contemporary face of Mozambique's victim ledger — its people again the targets of mass killing by an armed movement — while the government's own forces, drawn in to fight that insurgency, generated the abuses recorded as the second entry in the perpetrator ledger.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Insurgency in Cabo Delgado (Wikipedia) — began 5 October 2017; Ansar al-Sunna / Islamic State – Mozambique Province; cited total ~6,570 killed including ~2,759 civilians; Battle of Palma (2021); documented extrajudicial killings by government forces as well",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Insurgency_in_Cabo_Delgado",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "Club of Mozambique, 'ACLED estimates 8-year Cabo Delgado death toll at 6,257' (2025) — ACLED-derived total of 6,257 deaths including at least 2,631 civilians over eight years; November 2025 cited as the year's deadliest month for civilians",
+          "supports": "toll.low",
+          "url": "https://clubofmozambique.com/news/mozambique-acled-estimates-8-year-cabo-delgado-death-toll-at-6257-293116/",
+          "caveat": "Press relay of ACLED event-data estimates; conflict event counts carry inherent undercount and methodological uncertainty."
+        },
+        {
+          "kind": "press",
+          "cite": "Human Rights Watch, 'Five Years On, Justice Still a Dream for Cabo Delgado Victims' (24 Nov 2022) — documents the scale of atrocities against civilians by the insurgents and the climate of impunity",
+          "supports": "summary",
+          "url": "https://www.hrw.org/news/2022/11/24/five-years-justice-still-dream-cabo-delgado-victims",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "moz-4",
+      "country": "MOZ",
+      "role": "perpetrator",
+      "title": "FRELIMO re-education camps and socialist-era repression",
+      "era": "1974–1990",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "The ruling party ran a network of internment camps and forced-deportation campaigns to 'remake' political opponents and 'undesirables,' with detainees dying of starvation, disease, punishment, and execution, and reintroduced capital punishment with public firing-squad executions; sustained state political repression with lethal consequences places it at POL.",
+      "agent": "The FRELIMO government and ruling party under President Samora Machel, through the security services (SNASP), which ran the 're-education centres,' the 1983-1988 'Operation Production' deportations, and public executions under Law 2/79",
+      "toll": {
+        "display": "deaths in the low thousands (scholar Machava: 'over a thousand'); higher figures unverified/disputed",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "No reliable death count exists and none is invented. Benedito Luís Machava, the leading historian of the camps (The Morality of Revolution: Reeducation Camps and the Politics of Punishment in Socialist Mozambique), estimates that over a thousand inmates may have died from starvation, disease, punishment, or execution, while stressing that firm figures cannot be established. An American correspondent in 1980 estimated about 10,000 detainees in the camps that year, of whom ~3,000 were political prisoners; 'Operation Production' (1983-1988) forcibly deported an estimated ~50,000 people from the cities. A figure of '30,000 inmates died' appears on English Wikipedia's civil-war article but is NOT supported by Machava's scholarship and is treated here as unverified/disputed. Because the lethal toll cannot be expressed as a sourced range, low/high are null and the event is UNVERIFIED."
+      },
+      "received_lens": "suppressed",
+      "summary": "After independence in 1975 the FRELIMO government built a network of remote 're-education centres' to discipline political opponents, religious figures, sex workers, and others it deemed enemies of the socialist revolution, where inmates died of hunger, disease, punishment, and execution; in 1983-1988 'Operation Production' forcibly deported tens of thousands of city-dwellers to the countryside, and under a 1979 law the state carried out public firing-squad executions. The camps and deportations are a comparatively suppressed chapter of the FRELIMO founding myth.",
+      "relevance": "The liberation movement celebrated for freeing Mozambique from Portuguese rule also imprisoned, deported, and killed its own citizens to enforce ideological conformity — the dual lens in its sharpest form, the victims' liberators becoming jailers of the same people.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Benedito Luís Machava, 'The Morality of Revolution: Reeducation Camps and the Politics of Punishment in Socialist Mozambique' (Ohio University Press / Yale dissertation; see also Journal of Social History review, 2024) — documents the FRELIMO camp network (1974-1990) and estimates 'over a thousand' inmate deaths while cautioning that reliable figures cannot be established",
+          "supports": "toll.high",
+          "url": "https://www.ohioswallow.com/9780821425831/the-morality-of-revolution/",
+          "caveat": "The publisher landing page and journal review were consulted, not the full monograph; cited for the 'over a thousand' deaths estimate and the deliberate rejection of the higher 30,000 figure. This is the authoritative scholarly source and the reason the higher Wikipedia number is treated as unverified."
+        },
+        {
+          "kind": "reference",
+          "cite": "Mozambique History Network (mozambiquehistory.net), 'Punishment' dossier — reintroduction of capital punishment under Law 2/79 (March 1979); public firing-squad executions in April 1983; poor prison conditions during universal food rationing",
+          "supports": "summary",
+          "url": "https://www.mozambiquehistory.net/punishment.php",
+          "caveat": "A documentary compilation (collected primary clippings and commentary) rather than peer-reviewed analysis; useful for the legal/execution facts, with no overall toll provided."
+        },
+        {
+          "kind": "press",
+          "cite": "The Washington Post, 'Mozambican Reeducation Camps Raise Rights Questions' (7 May 1980) — contemporary reporting estimating ~10,000 detainees in the camps, of whom ~3,000 were considered political prisoners",
+          "supports": "summary",
+          "url": "https://www.washingtonpost.com/archive/politics/1980/05/07/mozambican-reeducation-camps-raise-rights-questions/47283dab-18a2-44f3-bac1-0ca0064102ea/",
+          "caveat": "Contemporary 1980 estimate of detainee numbers, not deaths; figures are journalistic approximations of the period."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "moz-5",
+      "country": "MOZ",
+      "role": "perpetrator",
+      "title": "Mozambican security-force war crimes in Cabo Delgado",
+      "era": "2017–2021",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Government soldiers and police committed extrajudicial executions, torture, sexual violence, and mutilation of bodies against civilians and detainees during a counter-insurgency, including filmed killings and dumping of bodies in mass graves; deliberate unlawful killing of non-combatants in an armed conflict places it at WAR.",
+      "agent": "Mozambican government security forces — the Armed Defence Forces of Mozambique (FADM) and police — and allied local militia, during the Cabo Delgado counter-insurgency",
+      "toll": {
+        "display": "no comprehensive count; documented case-by-case (e.g. 15 men executed; a woman shot 36 times on video; men shot into a mass grave)",
+        "disputed": false,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "No comprehensive death toll exists for security-force killings specifically, and none is invented. Amnesty International's 2021 report 'What I Saw Is Death' documented specific war crimes by government forces: the extrajudicial execution of a naked woman shot 36 times by FADM members as she fled Awasse (verified from social-media video by Amnesty's Crisis Evidence Lab); blindfolded men shot and dumped in a mass grave after the attack on Quissanga; rape, beatings, and summary executions of detained men; and attempted beheading, torture, dismemberment, and discarding of corpses into mass graves. The Wikipedia insurgency article separately notes troops executing 15 suspected insurgents and government fire sinking a refugee boat killing ~40 civilians. Counts are case-by-case, so low/high are null."
+      },
+      "received_lens": "contested",
+      "summary": "Fighting the Cabo Delgado insurgency from 2017 onward, Mozambican soldiers and police carried out extrajudicial executions, torture, rape, and mutilation against civilians and suspected fighters: Amnesty International verified a video of FADM troops shooting a fleeing woman 36 times near Awasse, documented men blindfolded and shot into a mass grave after the Quissanga attack, and recorded attempted beheadings and the dumping of bodies in mass graves. The government has resisted accountability, and the abuses are publicly contested rather than acknowledged.",
+      "relevance": "The same state whose people are being massacred by jihadists in Cabo Delgado (moz-3) has itself killed, tortured, and raped civilians in the name of fighting that insurgency — the victim and perpetrator roles unfolding in the same province at the same moment, the cleanest live demonstration of the atlas's refusal of a single lens.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "Amnesty International, '\"What I Saw Is Death\": War Crimes in Mozambique's Forgotten Cape' (AFR 41/3545/2021) — documents extrajudicial executions, torture, sexual violence, and body mutilation by Mozambican government security forces; the Awasse video of a woman shot 36 times by FADM verified by Amnesty's Crisis Evidence Lab; men shot into a mass grave after the Quissanga attack",
+          "supports": "summary",
+          "url": "https://www.amnesty.org/en/documents/afr41/3545/2021/en/",
+          "caveat": "Amnesty is a human-rights advocacy organization; its findings here are based on 79 displaced-person interviews, verified video, and satellite imagery, and it documents abuses by all parties (insurgents, government forces, and the Dyck Advisory Group private contractor), not government forces alone."
+        },
+        {
+          "kind": "press",
+          "cite": "Amnesty International news release, 'Mozambique: Civilians killed as war crimes committed by armed group, government forces, and private military contractors' (2 March 2021) — summary of the report's government-force findings: extrajudicial executions, torture, mutilation; over 1,300 civilians killed and 500,000+ displaced at time of report",
+          "supports": "summary",
+          "url": "https://www.amnesty.org/en/latest/news/2021/03/mozambique-civilians-killed-as-war-crimes-committed-by-armed-group-government-forces-and-private-military-contractors-new-report/",
+          "caveat": "Advocacy press release accompanying the report; the same all-parties caveat applies."
+        },
+        {
+          "kind": "reference",
+          "cite": "Insurgency in Cabo Delgado (Wikipedia) — corroborates government-force abuses: Mozambican troops executing 15 suspected insurgents, a refugee boat sunk by government fire killing ~40 civilians, and militia executions of suspected insurgents",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Insurgency_in_Cabo_Delgado",
+          "caveat": "Encyclopedic aggregation of news reports; individual incidents carry the uncertainty of wartime reporting."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

@@ -1,0 +1,232 @@
+{
+  "iso": "POL",
+  "name": "Poland",
+  "note": "Poland's twentieth century is the textbook case for the dual lens. The victim ledger is overwhelming — German and Soviet occupiers between them killed roughly a sixth of the country's people, including almost all of Polish Jewry — and Polish national memory rightly centres it. But the same record holds a perpetrator ledger that Polish memory has fought hard over: ethnic Poles who murdered their Jewish neighbours in the summer-1941 pogroms (Jedwabne the emblem), and the Soviet-installed communist Polish state that expelled millions of Germans and forcibly deported its own Ukrainian minority. The asymmetry is real and is not flattened here — Poland suffered far more than it inflicted — but pretending the perpetrator ledger is empty is exactly the distortion this atlas exists to refuse. Tiers tag the act, not the nation.",
+  "events": [
+    {
+      "id": "pol-1",
+      "country": "POL",
+      "role": "victim",
+      "title": "The Holocaust of Polish Jewry",
+      "era": "1939–45",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "Nazi Germany set out to annihilate the Jews of Poland as a people, building most of its dedicated killing centres on Polish soil — deliberate destruction of a group as such, the defining extermination case.",
+      "agent": "Nazi German occupation state (SS, Einsatzgruppen, Order Police, camp administration), on occupied Polish territory",
+      "toll": {
+        "display": "~2.8–3 million Polish Jews",
+        "disputed": false,
+        "low": 2700000,
+        "high": 3000000,
+        "unit": "deaths",
+        "note": "About 3.3 million Jews lived in pre-war Poland; roughly 90% were murdered, leaving around 380,000 survivors. The IPN settles on ~2.8 million Polish Jews killed; USHMM and Yad Vashem cite 'over 90%' and 'about 3 million.' Most died in the six extermination camps Germany built on Polish soil — Chełmno, Bełżec, Sobibór, Treblinka, Majdanek, and Auschwitz-Birkenau — and in the ghettos and mass shootings. The range reflects scholarly precision, not doubt about the genocide."
+      },
+      "received_lens": "memorial",
+      "summary": "On occupied Polish territory Nazi Germany carried out the core of the Holocaust, murdering the great majority of Poland's roughly 3.3 million Jews. Germans herded Jews into sealed ghettos like Warsaw's, then deported them to extermination camps built on Polish land — Treblinka, Bełżec, Sobibór, Chełmno, Majdanek, and Auschwitz — where they were gassed, alongside hundreds of thousands shot in mass graves. Around nine in ten Polish Jews were killed.",
+      "relevance": "Poland was both the largest Jewish homeland in Europe and the ground on which Germany destroyed it — the victim ledger's heaviest single entry, and the backdrop against which the country's own perpetrator ledger (the 1941 pogroms) is most painful to read. AUDIT 2026-06-18: tier EXT independently re-derived (deliberate destruction of a group as such) and confirmed; all three sources (USHMM 'at least 3 million Jewish citizens'; Yad Vashem 3.3M pre-war/~380,000 survivors/six named camps; IPN 2.7–2.9M) verified against the live pages.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "USHMM Holocaust Encyclopedia, 'Polish Victims' — over 90% of Polish Jewry (~3 million) murdered; at least 3 million Jewish Polish citizens killed",
+          "supports": "toll.high",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/polish-victims",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Yad Vashem, 'Murder of the Jews of Poland' — 3.3 million pre-war, ~380,000 survivors, six extermination camps",
+          "supports": "summary",
+          "url": "https://www.yadvashem.org/holocaust/about/fate-of-jews/poland.html",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Institute of National Remembrance (IPN) figures via 'World War II casualties of Poland' — ~2.7–2.9 million Polish Jews killed, midpoint ~2.8 million",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/World_War_II_casualties_of_Poland",
+          "caveat": "Tertiary aggregator used to relay the IPN's published casualty figures; the underlying authority is the IPN, not Wikipedia."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "pol-2",
+      "country": "POL",
+      "role": "victim",
+      "title": "German Occupation Terror Against Ethnic Poles",
+      "era": "1939–45",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "Germany did not seek to kill every Pole but to decapitate and subjugate the nation — murdering its intelligentsia and leadership (the AB-Aktion), shooting hostages in reprisal, and working deportees to death — a campaign of political and national destruction below the threshold of total extermination.",
+      "agent": "Nazi German occupation state (SS, police, Wehrmacht, Generalgouvernement administration)",
+      "toll": {
+        "display": "~1.8–2.8 million non-Jewish Polish civilians",
+        "disputed": true,
+        "low": 1800000,
+        "high": 2800000,
+        "unit": "deaths",
+        "note": "USHMM states Germany killed 'between 1.8 and 1.9 million non-Jewish Polish civilians.' The IPN's broader figure for ethnic-Pole deaths under German occupation is about 2.77 million, which includes civilians killed in reprisals, the AB-Aktion murders of teachers, priests and other leaders, those who died as forced labourers (at least 1.5 million were deported for labour), and deaths in concentration camps and the 1944 Warsaw Uprising. The range reflects different counting boundaries, not a disputed event."
+      },
+      "received_lens": "memorial",
+      "summary": "Germany ruled occupied Poland by terror aimed at the nation itself. The AB-Aktion and earlier sweeps shot thousands of teachers, priests, professors and other leaders to leave the population leaderless; the occupiers took and executed hostages in reprisal for resistance, deported at least 1.5 million Poles to slave labour, and crushed the 1944 Warsaw Uprising with mass killings of civilians. Between roughly 1.8 and 2.8 million non-Jewish Poles died.",
+      "relevance": "The non-Jewish Polish dead are central to how Poland remembers the war as a nation of victims — a memory so total that admitting Poles were also, in places, perpetrators has been the country's hardest reckoning.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "USHMM Holocaust Encyclopedia, 'Polish Victims' — 1.8–1.9 million non-Jewish Polish civilians killed; AB-Aktion, reprisals, 1.5 million deported for forced labour",
+          "supports": "toll.low",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/polish-victims",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Institute of National Remembrance (IPN) figures via 'World War II casualties of Poland' — ~2.77 million ethnic Poles killed under German occupation",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/World_War_II_casualties_of_Poland",
+          "caveat": "Tertiary aggregator relaying IPN figures; the higher number uses broader counting boundaries (forced-labour and camp deaths) than the USHMM civilian figure."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "pol-3",
+      "country": "POL",
+      "role": "victim",
+      "title": "Katyn Massacre & Soviet Repression",
+      "era": "1939–41",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "The Soviet state targeted Poland's officer corps, police and elites for murder and mass deportation to break the Polish nation's capacity to resist — a deliberate political decapitation, not a campaign to exterminate Poles as such.",
+      "agent": "Soviet state — Stalin's Politburo and the NKVD, in Soviet-occupied eastern Poland",
+      "toll": {
+        "display": "~21,857 executed at Katyn and related sites; tens of thousands more dead among ~320,000+ deportees",
+        "disputed": true,
+        "low": 21857,
+        "high": 150000,
+        "unit": "deaths",
+        "note": "Soviet documents declassified in 1990 record 21,857 Polish prisoners executed by the NKVD in spring 1940 on Stalin's order — the Katyn massacre, comprising captured officers, police, border guards and intelligentsia. Beyond Katyn, the IPN confirms about 150,000 deaths from Soviet repression overall, including those who died among hundreds of thousands deported to the Gulag and Central Asia; historian Czesław Łuczak put total ethnic-Pole losses in the Soviet zone as high as ~500,000. The 21,857 is a documented count; the higher figures fold in deportation deaths and are estimates."
+      },
+      "received_lens": "suppressed",
+      "summary": "When the USSR invaded eastern Poland in 1939 it set out to destroy the Polish elite. On Stalin's written order the NKVD shot 21,857 captured Polish officers, policemen and intellectuals in spring 1940 — the Katyn massacre — and dumped them in mass graves. Hundreds of thousands more Poles were deported east to the Gulag and Kazakhstan, where many died of cold, hunger and overwork. For half a century the Soviets blamed Katyn on the Germans.",
+      "relevance": "Poland was crushed from both sides at once — Nazi from the west, Soviet from the east — and the decades-long Soviet lie about Katyn shows how a victim's truth can be buried by the occupier who later 'liberated' the country.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Katyn massacre' — 21,857 Polish prisoners executed per 1990 Soviet declassified documents",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Katyn_massacre",
+          "caveat": "Tertiary aggregator; the 21,857 figure traces to the Soviet NKVD records declassified in 1990 (the Shelepin note and Politburo order)."
+        },
+        {
+          "kind": "reference",
+          "cite": "Encyclopaedia Britannica, 'Katyn Massacre' — ~22,000 Polish military and police officers, border guards and intelligentsia executed on Stalin's order",
+          "supports": "summary",
+          "url": "https://www.britannica.com/event/Katyn-Massacre",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "IPN figures and Czesław Łuczak estimate via 'World War II casualties of Poland' — ~150,000 (IPN) to ~500,000 (Łuczak) deaths under Soviet occupation",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/World_War_II_casualties_of_Poland",
+          "caveat": "Tertiary aggregator relaying the IPN's confirmed 150,000 and Łuczak's higher extrapolation, which includes deportation deaths and is contested."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "pol-4",
+      "country": "POL",
+      "role": "perpetrator",
+      "title": "Jedwabne & the Summer 1941 Pogroms",
+      "era": "1941",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "Ethnic Poles set out to wipe out the Jewish community of their own town and dozens of others in a matter of days — local, group-targeted annihilation by neighbours, an extermination act in microcosm even where the wider Holocaust was German-driven.",
+      "agent": "Ethnic Polish townspeople in the Łomża–Białystok region, in the German-occupied former Soviet zone (with German encouragement and presence)",
+      "toll": {
+        "display": "~340 at Jedwabne (older estimates to ~1,600); hundreds more across ~20+ towns",
+        "disputed": true,
+        "low": 340,
+        "high": 1600,
+        "unit": "deaths",
+        "note": "The IPN's 2000–2003 investigation concluded that at least 340 Jews were murdered at Jedwabne on 10 July 1941 — roughly 40–50 men killed first, then about 300 people of all ages locked in a barn and burned alive — carried out by Polish residents, not Germans. An older figure of ~1,600 (from the monument) the IPN judged 'highly unlikely.' Jedwabne was one of more than twenty localities in the region (Wąsosz ~150–250, Radziłów ~500–800) where Poles killed Jews that summer; the per-town numbers remain debated."
+      },
+      "received_lens": "contested",
+      "summary": "In the weeks after Germany overran the formerly Soviet-occupied northeast, ethnic Poles in dozens of towns turned on their Jewish neighbours. In Jedwabne on 10 July 1941, local Poles drove the town's Jews into a barn and burned at least 300 of them alive, having beaten and shot others first; the IPN found Poles did the killing, with Germans present and approving but not coercing. Similar massacres struck Radziłów, Wąsosz and over twenty other places.",
+      "relevance": "The single hardest entry for Polish memory: a nation that was overwhelmingly the war's victim also produced neighbours who murdered Jews face-to-face — and the decades of denial, threats and revisionism since Jan Gross's 'Neighbors' show exactly how a perpetrator ledger gets fought rather than faced.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Jedwabne pogrom' — IPN (2002) conclusion of at least 340 victims; older ~1,600 figure judged unlikely; Polish perpetrators, German consent",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Jedwabne_pogrom",
+          "caveat": "Tertiary aggregator; the 340 floor and the perpetrator/German-role findings trace to the IPN's published investigation conclusions."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Jewish Historical Institute (ŻIH), 'Mass murder of Jewish citizens in Jedwabne, Radziłów and other locations... summer 1941' — regional pogroms, Polish perpetrators",
+          "supports": "summary",
+          "url": "https://www.jhi.pl/en/articles/mass-murder-of-jews-jedwabne-summer-1941,661",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "World Jewish Congress, 'Hundreds of Jews massacred in Jedwabne pogrom' — leads with the IPN 'at least 340' but records the historical debate over 'whether 200, or 250, or 1,600 people were murdered', anchoring the disputed high end",
+          "supports": "toll.high",
+          "url": "https://www.worldjewishcongress.org/en/news/this-week-in-jewish-history--hundreds-of-jews-massacred-in-jedwabne-pogrom",
+          "caveat": "Advocacy organisation. Verified 2026-06-18: the page does cite the 1,600 figure but only inside a list of debated estimates, and it does NOT itself frame Jedwabne as 'one of ~20+ towns' (an earlier cite overstated this); the regional-wave scope is carried instead by the ŻIH/Żbikowski source, which gives ~1,000 for Jedwabne and confirms 67 locations. Used only to anchor the disputed high end, which the IPN considers unlikely."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "pol-5",
+      "country": "POL",
+      "role": "perpetrator",
+      "title": "Postwar Expulsion of Germans & Operation Vistula",
+      "era": "1945–47",
+      "era_band": "modern",
+      "tier": "STR",
+      "tier_reasoning": "The communist Polish state forcibly uprooted millions of Germans and its own Ukrainian minority; most deaths came from cold, hunger, disease and abuse in transit and in internment camps rather than from a campaign to kill the groups as such — coerced displacement whose lethality was structural.",
+      "agent": "Soviet-installed communist Polish state — Polish army, militia, and internment-camp administration (e.g. Łambinowice)",
+      "toll": {
+        "display": "German deaths debated, ~60,000 (camps/violence) to several hundred thousand; ~141,000 Ukrainians deported in Operation Vistula",
+        "disputed": true,
+        "low": 60000,
+        "high": 400000,
+        "unit": "deaths",
+        "note": "QUARANTINE (verified 2026-06-18): two source-attribution defects found in the German-expulsion figures, so the German death-toll range here is provisional. (1) The clause that 'the 1995–96 joint German–Polish commission judged the old demographic figures based on faulty data' was a MISATTRIBUTION — the 1995–96 commission that reached that conclusion was the joint German–CZECH commission, and its 'faulty data' finding concerned the ~220,000–270,000 figure for expulsions from CZECHOSLOVAKIA (revised down to ~15,000–30,000), not the Polish/Oder–Neisse figures. No German–Polish commission verdict on the Oder–Neisse toll was confirmed. (2) The breakdown previously read off the German Federal Archives (Bundesarchiv) 1974 study was inaccurate: that study's components total ~610,000 (138,000 violent deaths 1945; 205,000 deported to the USSR; 40,000 forced labour in NE Prussia; 227,000 in post-war internment camps), with 'at least 400,000' as its stated floor — it does NOT yield the '~60,000 camp deaths' figure cited here. Substance that DOES hold: of ~4.5 million Germans on the ceded territories, the great majority were expelled by 1948; the 1958 West German Schieder study put losses east of the Oder–Neisse near 2 million; later archival work and the wider literature place the toll far lower (Bundesarchiv floor ~400,000); much of the mortality was disease and starvation during flight before the Red Army, not directly at Polish hands. The Łambinowice (Lamsdorf) camp under commandant Czesław Gęborski is documented (Wikipedia/Gęborski confirms the barn-fire incident that killed ~48); the broader ~1,000–1,500 camp-death range and its attribution to the Central Museum of Prisoners of War (CMJW) could NOT be confirmed on the cited page and should be re-sourced to CMJW directly. Operation Vistula (1947) is solidly verified: ~141,000 Ukrainians, Lemkos and Boykos forcibly resettled by the Soviet-installed communist Polish state and its army to break the UPA insurgency; deaths there were far smaller but real (Jaworzno camp imprisoned ~3,936 with deaths from torture/typhus; the ~160 Jaworzno-death and 56-villager Zawadka Morochowska figures need re-sourcing)."
+      },
+      "received_lens": "contested",
+      "summary": "After the war the Soviet-installed Polish state cleared its new western lands of Germans, expelling roughly four million by 1948; many died of hunger, disease and violence in transit and in Polish internment camps such as Łambinowice, where about 1,000–1,500 perished. In 1947 the same regime mounted Operation Vistula, forcibly deporting some 141,000 Ukrainians, Lemkos and Boykos from the southeast to break the Ukrainian insurgency, scattering them across the country and interning leaders at Jaworzno.",
+      "relevance": "Poland as perpetrator wears communist colours: a Soviet-backed government doing to Germans and to its own Ukrainian minority what conquerors had just done to Poles — and the wildly inflated German death tolls long pushed by expellee lobbies are themselves a caution against the relativising use of any victim count. AUDIT 2026-06-18: marked UNVERIFIED. Tier STR independently re-derived and CONFIRMED correct (coerced displacement; mortality structural — cold/hunger/disease/abuse in transit and camps — not a campaign to kill the groups as such; this is precisely the STR-not-EXT distinction). Operation Vistula (~141,000 deported, anti-UPA, communist-state agent) is fully verified. The German-expulsion side carries two source-attribution defects (a misattributed '1995–96 German–Polish commission' that was actually German–Czech re Czechoslovakia, and an inaccurate '~60,000 Bundesarchiv camp-deaths' figure where the 1974 study reports 227,000), plus an unconfirmed Łambinowice ~1,000–1,500 / CMJW attribution — see toll.note and source caveats. Event stays UNVERIFIED until the German death-toll figures are re-sourced cleanly.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Estimates of number of deaths in connection with expulsion of Germans after WWII' (and 'Demographic estimates of the flight and expulsion of Germans') — German Federal Archives (1974) components total ~610,000 east of Oder–Neisse with 'at least 400,000' as the stated floor (138,000 violent 1945; 205,000 deported to USSR; 40,000 NE Prussia labour; 227,000 internment camps); Schieder (1954–61) ~2 million for the Oder–Neisse region",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Estimates_of_number_of_deaths_in_connection_with_expulsion_of_Germans_after_WWII",
+          "caveat": "Tertiary aggregator; figures are heavily contested and politicised — expellee-lobby/Schieder estimates run to ~2 million, later archival research (Bundesarchiv floor ~400,000) far lower. Verified 2026-06-18: the '1995–96 German–Polish commission disputed the data' claim was a misattribution (it was the German–CZECH commission re Czechoslovakia) and is corrected/removed; the '~60,000 camp deaths' figure is NOT what the 1974 Bundesarchiv study reports (that study gives 227,000 internment-camp deaths). Source retained for the contested high end but flagged UNVERIFIED at event level pending cleaner sourcing."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Operation Vistula' — ~141,000 Ukrainians/Lemkos/Boykos forcibly resettled by the Polish army in 1947; Jaworzno camp deaths",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Operation_Vistula",
+          "caveat": "Tertiary aggregator; relays the ~141,000 deportation figure and camp-death accounts from the IPN and Ukrainian sources."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Czesław Gęborski' — Gęborski was commandant of the Polish-run Łambinowice (Lamsdorf) internment camp 1945; the page confirms a barn-fire incident in which ~48 prisoners died (burned and shot)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Czes%C5%82aw_G%C4%99borski",
+          "caveat": "Tertiary aggregator. Verified 2026-06-18: the cited page confirms ONLY the commandant role and the ~48-death barn-fire incident; it does NOT state the broader '~1,000–1,500 German deaths' for the camp, nor does it cite the Central Museum of Prisoners of War (CMJW). The ~1,000–1,500 range is a real, widely-cited figure for Łambinowice but must be re-sourced to CMJW directly before this can be marked VERIFIED."
+        }
+      ],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

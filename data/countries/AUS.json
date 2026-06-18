@@ -1,0 +1,179 @@
+{
+  "iso": "AUS",
+  "name": "Australia",
+  "note": "Built from scratch. The perpetrator ledger is the heavier and better-documented side: the colonial frontier wars (1788–1930s) and the Stolen Generations (c.1905–1970s) are the two best-evidenced mass-atrocity records of the colonial and Australian state against Aboriginal and Torres Strait Islander peoples. A deliberate framing choice underlies the whole entry: the deepest mass death on Australian soil was the catastrophic decline of the Aboriginal population after 1788 — from introduced disease, dispossession, starvation and killing — but its principal agent was the British/colonial Australian state, so it is recorded in the PERPETRATOR ledger (frontier wars, EXT for the killing component, with disease-driven collapse kept explicit and separable), not as a victim event with no human author. This is the dual-lens point: the same nation that suffered war crimes against its soldiers and the bombing of its own territory in 1939–45 was, on its own continent, the perpetrator against the peoples it dispossessed. The victim ledger is therefore drawn from the WWII Pacific war, where Australians were victims of an external agent (Imperial Japan): the Sandakan death marches and the bombing of Darwin. Frontier-war and Stolen-Generations tolls are genuinely contested — sourced low and high ends are given for both, and where no defensible number exists the figure is left null with a note rather than invented. The asymmetry is real and is not balanced with fabricated events.",
+  "events": [
+    {
+      "id": "aus-1",
+      "country": "AUS",
+      "role": "perpetrator",
+      "title": "The Australian frontier wars and colonial frontier massacres",
+      "era": "1788–1934",
+      "era_band": "colonial",
+      "tier": "EXT",
+      "tier_reasoning": "Across the continent, settlers, native police and colonial authorities deliberately killed Aboriginal groups to seize and hold land — repeated massacres aimed at destroying or driving out distinct peoples, which is the EXT (deliberate destruction of a group) reading; the far larger demographic collapse from introduced disease and dispossession is a separate STR-type mechanism, kept explicit in the toll note rather than merged into the killing count.",
+      "agent": "British colonists, pastoralists, settler militias, and colonial Native Police forces across the Australian colonies",
+      "toll": {
+        "display": "≥11,000 documented massacre deaths; estimates of total frontier killing run to 60,000–100,000+",
+        "disputed": true,
+        "low": 11000,
+        "high": 100000,
+        "unit": "deaths",
+        "note": "The University of Newcastle 'Colonial Frontier Massacres in Australia, 1788–1930' project (led by Lyndall Ryan) documents 10,374 Aboriginal and Torres Strait Islander people killed in massacres of six or more, across more than 400 massacres — an explicitly conservative minimum (the rounded ≥11,000 floor reflects ongoing additions to the dataset). Higher whole-of-frontier estimates of killing include Henry Reynolds's 'over 30,000' and Ørsted-Jensen and Evans's estimate of roughly 60,000–67,000 in Queensland alone, with a national frontier death toll they put at 'probably no less than 100,000.' These higher figures are contested by historians such as Jonathan Richards and Mark Finnane, who argue the systematic data are too thin for precise totals. The low and high here bracket documented massacre deaths versus the broadest whole-of-frontier killing estimates; they do NOT include the much larger population decline from introduced disease (especially the 1789 smallpox epidemic), starvation from dispossession, and reduced fertility, which scholars treat separately. Roughly 2,000–2,500 settlers were also killed in frontier conflict (Reynolds)."
+      },
+      "received_lens": "contested",
+      "summary": "From the 1788 invasion into the 1930s, British settlers and colonial police seized Aboriginal land across the continent and, where the original owners resisted or simply stood in the way, killed them — in more than four hundred documented massacres and countless smaller acts, alongside a far larger collapse of the Aboriginal population from introduced disease, hunger and dispossession. Australia long taught this as peaceful settlement rather than as conquest.",
+      "relevance": "A prosperous modern democracy that styles itself a land of the 'fair go' was founded on the dispossession and killing of the peoples already living there — a history still fought over in its own national debate.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "University of Newcastle, 'Colonial Frontier Massacres in Australia, 1788–1930' (Lyndall Ryan et al.) — 10,374 Aboriginal/Torres Strait Islander deaths across 400+ massacres, described as conservative minimum estimates",
+          "supports": "toll.low",
+          "url": "https://c21ch.newcastle.edu.au/colonialmassacres/statistics.php",
+          "caveat": "Counts only massacres (defined as six or more killed) for which evidence survives; the project itself states the true figure is higher because massacres were under-reported and covered up. Used for the documented massacre floor, not a full frontier death count."
+        },
+        {
+          "kind": "reference",
+          "cite": "Australian frontier wars — Wikipedia (Indigenous death estimates ~11,000–14,000 documented massacres to 'no less than 100,000' nationally; ~2,500 settlers; conflict 1788–1934)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Australian_frontier_wars",
+          "caveat": "Tertiary aggregator summarizing Ryan, Reynolds, and Ørsted-Jensen & Evans for the high end and the noting the Richards/Finnane critique that the higher totals outrun the systematic data. High end is a scholarly estimate, not a verified count."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "University of Newcastle Newsroom, 'New evidence reveals Aboriginal massacres committed on extensive scale' (2022) — more than 10,000 lives lost in over 400 massacres per the eighth-year massacre map",
+          "supports": "summary",
+          "url": "https://www.newcastle.edu.au/newsroom/featured/new-evidence-reveals-aboriginal-massacres-committed-on-extensive-scale",
+          "caveat": "University press release reporting its own project's findings; consistent with the peer-reviewed massacre map data."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "aus-2",
+      "country": "AUS",
+      "role": "perpetrator",
+      "title": "The Stolen Generations",
+      "era": "c.1905–1970s",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "Government agencies and church missions forcibly removed Aboriginal and Torres Strait Islander children from their families under assimilation policy — a sustained state program of coercive group destruction-by-removal rather than mass killing, so it is tiered POL (atrocity by state policy); the 1997 'Bringing Them Home' inquiry judged it to meet the legal definition of genocide, a finding noted but not used to retier as EXT given the absence of a death-toll mechanism.",
+      "agent": "Australian federal and state/territory governments (Protectors of Aborigines, Aboriginal protection boards, police) and church-run missions and institutions",
+      "toll": {
+        "display": "~20,000–25,000 to 'at least 100,000' children removed (not a death toll)",
+        "disputed": true,
+        "low": 20000,
+        "high": 100000,
+        "unit": "deaths",
+        "note": "UNIT CAVEAT: this toll counts CHILDREN FORCIBLY REMOVED, not deaths — the harm of this atrocity is the removal itself (loss of family, culture and language), and there is no reliable systematic death count, so a deaths figure is not given. The 1997 'Bringing Them Home' report estimated 'between one in three and one in ten' Aboriginal children were separated from their families across the policy era, and derived an upper figure of 'at least 100,000.' Historian Robert Manne argued the lower 'one in ten' end is more defensible, estimating roughly 20,000–25,000 children removed over about six decades from a 1994 ABS survey. The low/high bracket Manne's estimate against the report's maximum. Removals ran from around 1905 to the 1970s. The 'unit: deaths' field is retained for schema consistency but the display and note make clear this is a count of removals, not killings."
+      },
+      "received_lens": "flagellated",
+      "summary": "From the early 1900s into the 1970s, Australian governments and church missions took Aboriginal and Torres Strait Islander children — especially those of mixed descent — from their families by force, to be raised in institutions or with white families and assimilated out of their culture. The 1997 'Bringing Them Home' inquiry documented the system and concluded it met the international legal definition of genocide; the Prime Minister formally apologised to the Stolen Generations in 2008.",
+      "relevance": "A liberal democracy that presents itself as a defender of the family and the rule of law ran, for most of a century, a policy of taking Indigenous children from their parents that its own national inquiry called genocide.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "Human Rights and Equal Opportunity Commission, 'Bringing Them Home: Report of the National Inquiry into the Separation of Aboriginal and Torres Strait Islander Children from Their Families' (1997) — 'between one in three and one in ten' removed; 'at least 100,000'; finding of genocide",
+          "supports": "toll.high",
+          "url": "https://humanrights.gov.au/our-work/bringing-them-home-report-1997",
+          "caveat": "Official Australian government inquiry report; the 'at least 100,000' figure is a high-end extrapolation from the one-in-three estimate and is contested as an overcount by some historians."
+        },
+        {
+          "kind": "reference",
+          "cite": "Stolen Generations — Wikipedia (Bringing Them Home 'at least 100,000'; Robert Manne estimate ~20,000–25,000 over six decades; removals c.1905–1970s; carried out by government agencies and church missions)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Stolen_Generations",
+          "caveat": "Tertiary aggregator; cited for Manne's lower estimate and the chronology and agents. The true number is genuinely uncertain because removals were recorded inconsistently across jurisdictions."
+        },
+        {
+          "kind": "reference",
+          "cite": "AIATSIS, 'The Stolen Generations' — overview of removal policies, agencies, and the Bringing Them Home inquiry",
+          "supports": "summary",
+          "url": "https://aiatsis.gov.au/explore/stolen-generations",
+          "caveat": "Australian government cultural institution; authoritative on the policy and history."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "aus-3",
+      "country": "AUS",
+      "role": "victim",
+      "title": "The Sandakan death marches",
+      "era": "1942–1945",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Imperial Japan worked, starved, and killed Australian and British prisoners of war at the Sandakan camp and on forced marches to Ranau — deliberate wartime atrocity against surrendered combatants in violation of the laws of war, not a campaign to exterminate Australians as a people.",
+      "agent": "Imperial Japanese Army (Sandakan POW camp and Ranau march guards, North Borneo)",
+      "toll": {
+        "display": "~2,400 Allied POW dead, including ~1,787 Australians; 6 survivors",
+        "disputed": false,
+        "low": 1787,
+        "high": 2400,
+        "unit": "deaths",
+        "note": "Of about 2,400 Allied prisoners held at Sandakan in North Borneo — roughly 1,787 Australians and around 641 British — almost all died between January and August 1945, at the camp, on a series of forced marches to Ranau, or at Ranau itself. Prisoners already malnourished and sick were marched with rations for only a fraction of the distance; those who collapsed were killed or left to die, and those too weak to march and left behind at Sandakan also died or were killed. Only six men — all Australian escapees — survived. The Australian War Memorial calls it 'the greatest single atrocity committed against Australians in war.' The low/high mark the Australian dead versus the total Allied dead, not a scholarly dispute."
+      },
+      "received_lens": "memorial",
+      "summary": "Imperial Japan held about 2,400 Australian and British prisoners at Sandakan in North Borneo, forcing them to build an airfield on starvation rations. As the war turned in 1945 the Japanese marched the survivors inland toward Ranau in stages; men who fell were shot or left to die, and those left behind at the camp perished too. Of around 2,400 prisoners only six survived — all Australian escapees.",
+      "relevance": "Here Australia is the victim — of war crimes against its captured soldiers — while on its own continent it was the perpetrator against Aboriginal peoples; the same nation in both ledgers.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Australian War Memorial, 'Stolen Years: Australian prisoners of war — Sandakan' (~2,000+ Australian and British prisoners; only six, all Australian, survived; 'the greatest single atrocity committed against Australians in war')",
+          "supports": "toll.high",
+          "url": "https://www.awm.gov.au/visit/exhibitions/stolenyears/ww2/japan/sandakan",
+          "caveat": "Australian government memorial source; figures are mainstream and uncontested but the framing is national-commemorative."
+        },
+        {
+          "kind": "reference",
+          "cite": "Sandakan Death Marches — Wikipedia (~2,400 Allied dead incl. ~1,787 Australians and ~641 British, Jan–Aug 1945; 6 survivors)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Sandakan_Death_Marches",
+          "caveat": "Tertiary aggregator; the figures are well documented in Australian POW and war-crimes literature and corroborated by the Australian War Memorial and Department of Veterans' Affairs."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "aus-4",
+      "country": "AUS",
+      "role": "victim",
+      "title": "The bombing of Darwin",
+      "era": "1942",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Imperial Japan launched a large carrier and land-based air attack on the Australian town and harbour of Darwin, killing service personnel and civilians — an act of war on Australian soil striking both military and civilian targets, tiered WAR.",
+      "agent": "Imperial Japanese Navy and Army air forces (carrier and land-based aircraft)",
+      "toll": {
+        "display": "~236–250+ killed (official ~236; Lowe Commission ~250); 300–400+ wounded",
+        "disputed": true,
+        "low": 236,
+        "high": 250,
+        "unit": "deaths",
+        "note": "On 19 February 1942, 188 carrier aircraft in two raids — followed by land-based bombers — struck Darwin, its harbour and airfields. The official death toll is about 236; the contemporary Lowe Commission concluded 'approximately 250,' and a 2001 memorial plaque listed 292. Some far higher figures (900–1,500) circulate but are rejected by historians such as Peter Stanley and Peter Grose as fancifully high. Between 300 and 400-plus people were wounded. The dead included Australian, US and other Allied service personnel, merchant seamen, and civilians. The low/high reflect the official figure versus the Lowe Commission's higher estimate; the much larger claims are treated as unreliable and excluded. This was the largest single attack ever mounted by a foreign power on Australia."
+      },
+      "received_lens": "memorial",
+      "summary": "On 19 February 1942, Imperial Japan sent 188 aircraft against Darwin in two waves, bombing the town, its airfields and the ships in its harbour, followed by a land-based raid — the largest attack ever mounted by a foreign power on Australia. Around 236 to 250 people were killed, military and civilian alike, and many more wounded; the attack brought the Pacific war directly onto Australian soil.",
+      "relevance": "Australia experienced direct mass-casualty attack on its own territory by an external power — a victim of war — even as it was, on the same continent, the perpetrator of frontier killing and child removal against Aboriginal peoples.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Bombing of Darwin — Wikipedia (188 aircraft in two raids, 19 Feb 1942; official ~236 killed, Lowe Commission ~250, higher claims rejected by Stanley and Grose; 300–400+ wounded; largest foreign attack on Australia)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Bombing_of_Darwin",
+          "caveat": "Tertiary aggregator summarizing the Lowe Commission and historians Peter Stanley and Peter Grose; cited for the disputed death-toll range and the rejection of the inflated 900–1,500 figures."
+        },
+        {
+          "kind": "reference",
+          "cite": "National Archives of Australia, fact sheet 195 'The bombing of Darwin' / Australian War Memorial, 'Darwin Air Raids' — attack details and casualty figures",
+          "supports": "summary",
+          "url": "https://www.awm.gov.au/articles/encyclopedia/air_raids/darwin",
+          "caveat": "Australian government sources; authoritative on the attack but national-commemorative in framing."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

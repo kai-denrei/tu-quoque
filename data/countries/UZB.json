@@ -1,0 +1,172 @@
+{
+  "iso": "UZB",
+  "name": "Uzbekistan",
+  "note": "Two ledgers held open, but they are deeply asymmetric — and the asymmetry is itself the point. For almost all of the modern era the land now called Uzbekistan was not a sovereign actor but a conquered and then colonised periphery: subdued by the Russian Empire in the 1860s–70s, swept into the Russian Civil War, and absorbed into the Soviet Union. Its victim ledger is therefore heavy and well documented — the Russian conquest of the khanates, the Turkestan famine of 1917–20, and the 1918 destruction of the Kokand Autonomy by Bolshevik forces. The state-directed crimes of the Soviet period (collectivisation, the 1937–38 Terror that gutted the Uzbek national and intellectual elite, the cotton-monoculture coercion) were ordered from Moscow and are recorded primarily on Russia's perpetrator ledger; they overlap with Uzbekistan's victim history. A genuinely sovereign Uzbek perpetrator ledger only opens after independence in 1991, and its clearest entry is the 2005 Andijan massacre, when the Uzbek state turned its own guns on its own people. The decades-long state-run forced-labour cotton system under President Karimov was a massive, well-documented coercion of millions but is not a mass-death event and so is noted here rather than ledgered as an atrocity with a death toll. No perpetrator event was invented to balance the books; the imbalance reflects the historical record.",
+  "events": [
+    {
+      "id": "uzb-1",
+      "country": "UZB",
+      "role": "victim",
+      "title": "The Russian Conquest of the Uzbek Khanates",
+      "era": "1865–1876",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "A war of imperial conquest in which Russian columns stormed the cities and field armies of Kokand, Bukhara, and Khiva; the killing was concentrated in sieges and battles and in the sack of taken towns, the method of subjugation rather than a campaign to destroy a people as such.",
+      "agent": "Russian Imperial army in Turkestan (commanders incl. Mikhail Chernyayev and Konstantin von Kaufman)",
+      "toll": {
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "display": "no reliable aggregate count; single engagements ran to thousands of dead — Jizzakh 1866 ~6,000 defenders killed; the 1866 campaign reported >12,000 local dead",
+        "disputed": true,
+        "note": "No defensible total exists for the whole conquest. Individual actions are sourced: at the storming of Jizzakh in October 1866 the Bukharan side is reported to have lost about 6,000 killed and 3,000 captured against trivial Russian losses, and the 1866 campaign as a whole is reported at more than 12,000 local dead versus a few hundred Russian casualties. These are battle figures from a tertiary aggregation of nineteenth-century Russian accounts and should be read as orders of magnitude, not audited counts; the conquest also caused uncounted deaths from displacement and the disruption of irrigation and trade. Toll.low/high left null because no honest aggregate death count for the conquest as a whole is sourceable."
+      },
+      "received_lens": "suppressed",
+      "summary": "From 1865 Russian forces drove into the settled Uzbek heartland, taking Tashkent in 1865, storming Jizzakh in 1866, and capturing Samarkand in 1868, which reduced the Emirate of Bukhara and the Khanate of Khiva to Russian protectorates and ended the Khanate of Kokand by annexation in 1876. The fighting was lopsided — repeating rifles and artillery against khanate levies — and individual storms such as Jizzakh left thousands of defenders dead. The conquest folded the region into the Russian Empire as the colony of Turkestan.",
+      "relevance": "The opening of Uzbekistan's victim ledger is a colonial conquest, the event that ended local sovereignty and made nearly everything that followed — Soviet rule included — a story of a people governed by outsiders.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Russian conquest of Central Asia' and 'Battle of Jizzakh' — Jizzakh 18 Oct 1866 ~6,000 killed / 3,000 captured (vs 6 Russian killed, 98 wounded); 1866 campaign >12,000 local dead vs ~500 Russian killed/wounded; chronology of Tashkent 1865, Samarkand 1868, Kokand annexed 1876; commanders Chernyayev and von Kaufman",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Russian_conquest_of_Central_Asia",
+          "caveat": "Tertiary aggregator drawing on nineteenth-century Russian campaign accounts that systematically inflated enemy dead and minimised their own; the battle figures are indicative, not audited, hence disputed:true and the aggregate left null. Audit 2026-06-18: figures and chronology verified verbatim against both Wikipedia articles; the lopsided ratios (6,000 vs 6 at Jizzakh) reflect the colonial-source bias noted here."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Alexander Morrison, 'The Russian Conquest of Central Asia' (Cambridge University Press, 2021), esp. ch. 6 'War with Bukhara, 1866–8'",
+          "supports": "summary",
+          "url": "https://www.cambridge.org/core/books/abs/russian-conquest-of-central-asia/war-with-bukhara-18668/A8673BC6683BD800D26FF44514801D16",
+          "caveat": "Cited from the publisher's chapter listing and abstract, not read in full; used to anchor the conquest's chronology and scholarly framing rather than a specific number. Audit 2026-06-18: book confirmed real — 'The Russian Conquest of Central Asia: A Study in Imperial Expansion, 1814–1914', CUP 2020 (2021 reissue), ch. 6 'War with Bukhara, 1866–8' verified extant."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "uzb-2",
+      "country": "UZB",
+      "role": "victim",
+      "title": "The Turkestan Famine",
+      "era": "1917–1920",
+      "era_band": "modern",
+      "tier": "STR",
+      "tier_reasoning": "Classed STR because the mass death came through demographic collapse — the breakdown of grain supply and trade after 1917, compounded by requisitioning and civil war, producing famine and epidemic rather than the deliberate killing of a defined group.",
+      "agent": "collapse of food supply under the Tashkent Soviet and Russian Civil War conditions, worsened by Bolshevik grain requisitioning and the cotton monoculture imposed in the colonial period",
+      "toll": {
+        "low": 400000,
+        "high": 1000000,
+        "unit": "deaths",
+        "display": "~400,000 (≈19% of affected population) to ~1,000,000 (Buttino); Ryskulov estimated ~one third of the population dead",
+        "disputed": true,
+        "note": "Estimates diverge sharply. The historian Marco Buttino's study of the depopulation of Turkestan in 1917–20 concludes the famine may have killed on the order of one million people. Lower demographic estimates put deaths at roughly 19% of the affected population, about 400,000, while the contemporary Soviet Central Asian leader Turar Ryskulov estimated that around a third of the population — some 750,000 — died. The figures are region-wide for Russian Turkestan, of which the settled Uzbek (and Tajik, Kazakh, Kyrgyz, Turkmen) populations were a major part, so they cannot be cleanly attributed to today's Uzbekistan alone. Low/high bracket the demographic low against Buttino's ~1M; disputed:true."
+      },
+      "received_lens": "suppressed",
+      "summary": "When the 1917 revolutions severed Turkestan's grain link to Russia, the colony — pushed into cotton monoculture and short of food even before the war — slid into famine. Bolshevik requisitioning, the chaos of the civil war, and the priority given to feeding the cities deepened the catastrophe, and starvation and epidemic disease swept the countryside from late 1917 into the early 1920s. Estimates of the dead range from several hundred thousand to about a million.",
+      "relevance": "A demographic collapse that killed on the scale of the better-known Kazakh famines yet is almost absent from outside memory — a reminder that some of the heaviest victim events leave the faintest trace in the record.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Marco Buttino, 'Study of the economic crisis and depopulation in Turkestan, 1917–1920', Central Asian Survey 9:4 (1990), 59–74 — famine may have killed ~1 million",
+          "supports": "toll.high",
+          "url": "https://www.tandfonline.com/doi/pdf/10.1080/02634939008400725",
+          "caveat": "Accessed via abstract and secondary citation rather than read in full (publisher PDF is paywalled / returned 403); Buttino's ~1M is the high anchor and is itself an estimate of a poorly recorded demographic collapse. Audit 2026-06-18: article confirmed real (Central Asian Survey 9:4, 1990, pp. 59–74); Buttino in fact gives a still-higher figure of ~2 million lost / 27% of population 1916–20, so the ~1M high anchor is conservative relative to the source."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Kazakh famine of 1919–1922' — ~400,000–750,000 dead; Ryskulov's ~one-third estimate (~750,000). Hamilton College Central Asian History (Keller) corroborates Buttino's ~1M Turkestan attribution only.",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Kazakh_famine_of_1919%E2%80%931922",
+          "caveat": "Audit 2026-06-18, CITATION CORRECTED: the original entry credited the Hamilton/Keller page with the ~19%/~400,000/Ryskulov low figures, but on inspection that page carries ONLY Buttino's ~1M — it does NOT contain the low-end numbers. The low end (400,000) and Ryskulov's one-third (~750,000) are sourced instead to the Wikipedia 'Kazakh famine of 1919–1922' article, where they are verified; the Keller URL is retained for its Buttino corroboration only. Figures cover Russian Turkestan broadly and overlap with the Kazakh famine of the same years, so attribution to modern Uzbekistan is approximate, hence disputed:true."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "uzb-3",
+      "country": "UZB",
+      "role": "victim",
+      "title": "The Destruction of the Kokand Autonomy",
+      "era": "1918 (February)",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "Classed POL because the killing was the violent crushing of a political project — the Muslim-led autonomous government at Kokand — by storming the city and massacring its inhabitants, mass violence aimed at destroying a self-government and its supporters rather than annihilating an ethnic group as such.",
+      "agent": "Tashkent Soviet (Russian-dominated) and Red Army forces under Konstantin Osipov",
+      "toll": {
+        "low": 10000,
+        "high": 25000,
+        "unit": "deaths",
+        "display": "~14,000 (commonly cited) up to ~25,000 dead; some accounts say 'over 10,000'",
+        "disputed": true,
+        "note": "Death-toll estimates for the storm and sack of Kokand in February 1918 cluster around 14,000 (Eurasianet: 'about 14,000 people dead' and much of Kokand in ashes), with the Wikipedia 'Turkestan Autonomy' article saying the city was sacked and 'over 10,000 residents were massacred' and the Wikipedia 'Basmachi movement' article giving the upper figure as a 'pogrom' in which 'as many as 25,000' died. The wide spread reflects the absence of any reliable count from a city pillaged amid civil-war chaos. Low/high bracket the ~10,000 floor against the ~25,000 ceiling; disputed:true. QUARANTINE (audit 2026-06-18): the original record attributed participation to 'Armenian Dashnak auxiliaries'; this detail could NOT be verified in any cited neutral source (neither the Basmachi nor Turkestan Autonomy Wikipedia articles mention Dashnaks). It appears only in partisan Azerbaijani-state-aligned media (aze.media, news.az, karabakh.org) within the Armenia–Azerbaijan information conflict, plus Soviet-era publications; it has been removed from the agent and summary pending a verifiable scholarly source."
+      },
+      "received_lens": "suppressed",
+      "summary": "In late 1917 Muslim reformers in the Fergana Valley proclaimed the Kokand Autonomy, a short-lived autonomous government, after the Russian-dominated Tashkent Soviet refused them a share of power. In February 1918 the Tashkent Soviet sent Red Army troops, who stormed Kokand, pillaged it, and massacred its inhabitants — by most accounts on the order of 14,000 dead, by some up to 25,000. The slaughter ended the autonomy after about three months and drove survivors into the Basmachi insurgency.",
+      "relevance": "The first attempt at Central Asian self-rule was put down by mass killing carried out in the name of the new Soviet order — a victim event for the Uzbeks that is, on the same map, part of the perpetrator ledger of the Soviet state run from Moscow.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Basmachi movement' — February 1918 storm of Kokand; 'pogrom' in which 'as many as 25,000' died; ended the Kokand Autonomy and fed the Basmachi insurgency",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Basmachi_movement",
+          "caveat": "Tertiary aggregator synthesising civil-war-era accounts with no audited count; the 14,000 vs 25,000 spread is inherent to the sources, hence disputed:true. Audit 2026-06-18: the 25,000 'pogrom' figure verified verbatim on this page; this page does NOT support the now-removed 'Armenian Dashnak' claim."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Turkestan Autonomy' — after the capture of Kokand by Soviet forces the city was sacked and 'over 10,000 residents were massacred'; 13 Feb 1918 detachment of 120 under Konstantin Osipov; surrender 22 Feb 1918",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Turkestan_Autonomy",
+          "caveat": "Tertiary aggregator; supplies the ~10,000 floor verbatim. Audit 2026-06-18: verified; this page likewise carries no Armenian Dashnak attribution, naming the Tashkent Soviet / Osipov detachment as the force."
+        },
+        {
+          "kind": "press",
+          "cite": "Eurasianet, 'Central Asia and the Bolshevik Revolution: A Look at the Balance Sheet at the Centennial' (2017) — Tashkent Soviet's February 1918 attack on Kokand left 'about 14,000 people dead' and much of the city in ashes; the autonomy's fatal weakness was having no armed force of its own",
+          "supports": "toll.low",
+          "url": "https://eurasianet.org/central-asia-and-the-bolshevik-revolution-a-look-at-the-balance-sheet-at-the-centennial",
+          "caveat": "Journalistic retrospective; audit 2026-06-18 confirms it as a non-partisan source for the commonly cited ~14,000 mid-figure, corroborating the bracket between the ~10,000 floor and ~25,000 ceiling."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "uzb-4",
+      "country": "UZB",
+      "role": "perpetrator",
+      "title": "The Andijan Massacre",
+      "era": "2005 (13 May)",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Classed POL because Uzbek state forces opened fire on a crowd of their own unarmed civilians to crush a protest, mass killing as political repression of a population rather than an attempt to destroy an ethnic or religious group as such.",
+      "agent": "Uzbekistan's security forces (National Security Service / SNB, Interior Ministry troops, and army units) under President Islam Karimov",
+      "toll": {
+        "low": 173,
+        "high": 1500,
+        "unit": "deaths",
+        "display": "government 173–187; Human Rights Watch 'hundreds' (~300–400 at the worst incident); a body-collector reported ~500; opposition tallied 745; an SNB defector alleged 1,500",
+        "disputed": true,
+        "note": "The toll is sharply contested and was deliberately obscured by the government, which removed bodies overnight and refused an independent inquiry. The state put the dead at 173–187 and blamed 'terrorists'; Human Rights Watch concluded hundreds were killed, with about 300–400 present at the worst shooting incident, which left few survivors, and quotes a law-enforcement official who saw roughly 500 bodies on 14 May. The unregistered opposition Free Peasants party documented 745 deaths in Andijan and nearby Pakhtabad; in 2008 the defecting SNB major Ikrom Yakubov alleged 1,500 killed. Low/high bracket the official minimum against the highest credible allegation; disputed:true."
+      },
+      "received_lens": "denied",
+      "summary": "On 13 May 2005, after armed men freed prisoners and seized a government building in Andijan, thousands of unarmed residents gathered to protest poverty and repression. Uzbek security forces sealed the square and opened fire indiscriminately — with automatic rifles, snipers, and armoured personnel carriers — then carried away the bodies and refused any independent investigation. The state admitted fewer than 200 dead and called the victims terrorists; Human Rights Watch and survivors put the toll in the hundreds, and the highest allegation reaches 1,500.",
+      "relevance": "Independent Uzbekistan's clearest perpetrator event: a state that spent the twentieth century as a colonised victim turning its own forces on its own people, then denying the killing outright — the dual lens closing on the same nation.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, '\"Bullets Were Falling Like Rain\": The Andijan Massacre, May 13, 2005' (June 2005) — 'hundreds' killed; ~300–400 at the worst incident; a body-collector reported ~500; government claimed 173",
+          "supports": "toll.low",
+          "url": "https://www.hrw.org/report/2005/06/06/bullets-were-falling-rain/andijan-massacre-may-13-2005",
+          "caveat": "Advocacy organisation, but a detailed eyewitness-based investigation widely treated as authoritative; the government's competing 173 figure is recorded alongside it. HRW opposes the government, which is relevant context though its methodology here is documentary. Audit 2026-06-18: report title, 'hundreds killed' conclusion, the 300–400-at-the-worst-incident figure, the law-enforcement official's ~500-bodies account, and the government's 173 claim all verified verbatim against the report."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Andijan massacre' — government count; independent foreign estimates 400–600; Free Peasants 745; SNB defector Ikrom Yakubov's 1,500 allegation (2008); forces involved (SNB, Interior troops, 17th air-assault brigade)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Andijan_massacre",
+          "caveat": "Tertiary aggregator; the 1,500 high anchor is a single defector's uncorroborated allegation and the 745 an opposition tally, both higher than HRW's documented 'hundreds', hence disputed:true. Audit 2026-06-18: government 187, foreign estimates 400–600, the 2008 Ikrom Yakubov 1,500 allegation, and the forces involved (17th air-assault brigade, Interior Ministry internal troops, NSS Special Forces) verified verbatim. The Free Peasants / Ozod Dehqonlar 745 door-to-door tally was not surfaced in the section fetched but is independently verified — it is documented in the Wikipedia article and corroborated by multiple secondary sources (relatives-of-the-missing count across Andijan, Pakhtaobod and Qorasuv)."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

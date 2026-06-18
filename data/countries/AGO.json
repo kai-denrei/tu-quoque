@@ -1,0 +1,204 @@
+{
+  "iso": "AGO",
+  "name": "Angola",
+  "note": "Angola's record runs heaviest on the victim side, where the documentation is also strongest: four centuries as the single largest embarkation coast of the Atlantic slave trade, a Portuguese colonial genocide-by-famine against the Ovambo in 1915, and a brutal war of independence. The perpetrator ledger is genuinely thinner but real and well-attested — the MPLA state's own 1977 purge of suspected 'Nitistas' and the conduct of government forces during the 1975–2002 civil war (a war in which UNITA's atrocities were at least as grave, so the civil war is also part of what was done to Angolans). Two structural caveats: (1) the slave trade victimised Angola's peoples but was supplied in part by African intermediary polities (Imbangala, Mbundu and others), so the same event carries an African-agency dimension that the note flags rather than splitting into a separate invented entry; (2) the slave-trade and civil-war tolls are contested or, for the slave trade, a trafficking count rather than a death count, and are marked accordingly.",
+  "events": [
+    {
+      "id": "ago-1",
+      "country": "AGO",
+      "role": "victim",
+      "title": "The Atlantic slave trade from the Angolan coast",
+      "era": "16th–19th c.",
+      "era_band": "colonial",
+      "tier": "POL",
+      "tier_reasoning": "A sustained, profit-driven system of capturing, trafficking and enslaving people — predation on a population rather than a campaign to exterminate a defined group, so POL; the deaths it caused in raiding, marches and the Middle Passage are real but not separately countable.",
+      "agent": "Portuguese traders and the colonial state at Luanda and Benguela, supplied by African intermediary polities (Imbangala, Mbundu and others)",
+      "toll": {
+        "display": "millions enslaved; death count uncounted",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "Counts here are of people EMBARKED, not deaths. West Central Africa (the Angola–Kongo coast plus St. Helena) was the single largest embarkation region of the entire Atlantic trade — roughly 5.7 million of ~12.5 million embarked Africans (1501–1867) per the Slave Voyages database — with Luanda the busiest single Atlantic slaving port. A specific death toll attributable to the Angolan trade (deaths in capture, on forced marches inland, in barracoons, and the ~9–10% shipboard mortality on the Middle Passage) is genuinely unsourceable as a single figure, so low and high are left null. Event marked UNVERIFIED for the death metric only; the trafficking volumes are well established."
+      },
+      "received_lens": "memorial",
+      "summary": "For more than three centuries Portuguese merchants and the colonial state at Luanda and Benguela bought, marched and shipped enslaved Africans across the Atlantic, mostly to Brazil; Luanda was the busiest single embarkation port of the whole trade. Captives were taken in raids and wars inland, often by African polities who sold them on to the coast, and large numbers died before ever reaching a ship.",
+      "relevance": "Angola's peoples were the most heavily trafficked of any region in the Atlantic system — and the supply chain that fed it ran through African intermediary states as well as Portuguese ships, the dual lens visible inside a single catastrophe.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Slave Voyages (Trans-Atlantic Slave Trade Database), Estimates — ~5.7M embarked from West Central Africa & St. Helena, the largest of any region, of ~12.5M total (1501–1867)",
+          "supports": "summary",
+          "url": "https://www.slavevoyages.org/assessment/estimates",
+          "caveat": "Region-wide, multi-century total covering all West Central African ports, not Angola's ports alone; counts embarkations, not deaths."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Slavery in Angola' — Angola as the principal source for the 18th–19th c. trade; Luanda exported ~203,000 enslaved people 1723–1771; shipboard mortality ~9.5% adults / 6.2% children",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Slavery_in_Angola",
+          "caveat": "Tertiary aggregator; used for institutional facts and figures, corroborated by the Slave Voyages database."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "ago-2",
+      "country": "AGO",
+      "role": "victim",
+      "title": "The Ovambo genocide",
+      "era": "1915",
+      "era_band": "colonial",
+      "tier": "EXT",
+      "tier_reasoning": "Scholarship classes the deliberate burning of villages, massacre of civilians and engineered famine against the Ovambo as genocide comparable to the Herero killings — destruction directed at a people, so EXT; much of the death came through the man-made famine, but the famine was a method, not an accident.",
+      "agent": "Portuguese colonial army under General Pereira d'Eça",
+      "toll": {
+        "display": "~17,000–130,000 deaths",
+        "disputed": true,
+        "low": 17000,
+        "high": 130000,
+        "unit": "deaths",
+        "note": "A 1919 Portuguese reparations commission tabulated estimates spanning ~17,000–130,000 deaths (used here for low/high). The ~35,000–78,000 figure is NOT Zoffmann Rodriguez's own preferred estimate (audit correction): it derives from historian Emmanuel Kreike's calculation that the Lower Cunene population fell from ~78,000 to ~35,000 between 1915–25, which Rodriguez discusses; Rodriguez himself declines to fix a single number ('whatever the exact number, all sources point to an extraordinary demographic collapse'), while noting the commission figures 'might have been somewhat conservative' (a 1915 source predicted eight-tenths of the population would vanish). Patricia Hayes places losses at a quarter to a half of southern Angola's population. The deaths combined direct killing with a famine engineered by destroying villages, crops and livestock, so the toll is part body count, part famine mortality and inherently estimated. Sources verified against Cambridge Core (Journal of African History, vol. 67, 2026)."
+      },
+      "received_lens": "suppressed",
+      "summary": "After a Portuguese defeat at Naulila in late 1914, General Pereira d'Eça led some 10,000 troops into southern Angola in 1915 against the Ovambo king Mandume ya Undemufayo; the army burned villages, killed civilians and seized food and herds, deliberately creating a famine that killed tens of thousands and drove survivors into South West Africa.",
+      "relevance": "A colonial extermination campaign on Angolan soil that is largely forgotten outside the academy — the suppressed counterpart to better-known German colonial genocides next door.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Arturo Zoffmann Rodriguez, 'The Ovambo Genocide: The Portuguese Military Campaign in Southern Angola, 1915', Journal of African History (Cambridge), vol. 67 (2026) — argues the campaign constituted genocide; cites Emmanuel Kreike's population-collapse calculation (Lower Cunene ~78,000→35,000, 1915–25) and a 1915 source predicting ~80% population loss",
+          "supports": "toll.high",
+          "url": "https://www.cambridge.org/core/journals/journal-of-african-history/article/ovambo-genocide-the-portuguese-military-campaign-in-southern-angola-1915/FCCDC79B0FD006859CBBAC1006844D9A",
+          "caveat": "Audit note: the ~35,000–78,000 range originates with Kreike, not Rodriguez; Rodriguez declines to fix a single death figure. The article verifies the 1919 commission span and the genocide classification."
+        },
+        {
+          "kind": "primary",
+          "cite": "1919 Portuguese reparations commission estimate (reported via Zoffmann Rodriguez) — 17,000–130,000 deaths",
+          "supports": "toll.low",
+          "url": "https://www.cambridge.org/core/journals/journal-of-african-history/article/ovambo-genocide-the-portuguese-military-campaign-in-southern-angola-1915/FCCDC79B0FD006859CBBAC1006844D9A",
+          "caveat": "A colonial-era official body with an interest in framing reparations; the wide span reflects the absence of any census."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ago-3",
+      "country": "AGO",
+      "role": "victim",
+      "title": "The war of independence and Baixa de Cassanje repression",
+      "era": "1961–1974",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "Colonial counter-insurgency that destroyed villages and killed civilians alongside combatants over thirteen years — armed-conflict and repression mortality rather than a campaign to destroy a group, so WAR.",
+      "agent": "Portuguese armed forces and air force",
+      "toll": {
+        "display": "~10,000s killed (Baixa de Cassanje ~400–20,000)",
+        "disputed": true,
+        "low": 400,
+        "high": 20000,
+        "unit": "deaths",
+        "note": "Figures shown are for the January 1961 Baixa de Cassanje repression, the best-documented single episode: the Portuguese air force bombed villages (napalm alleged), killing ~400 by lower accounts, while the wider counter-insurgency that followed is put at ~20,000 deaths before the rising was crushed in September 1961; the MPLA claimed ~10,000 dead in the air raids alone. The thirteen-year war's overall civilian death toll is not reliably aggregated, so only the Cassanje episode is bounded here."
+      },
+      "received_lens": "memorial",
+      "summary": "When cotton-plantation workers at Baixa de Cassanje struck in January 1961, the Portuguese air force bombed villages in the region; the revolt and a Bakongo uprising in the north that March opened a thirteen-year war in which Portuguese forces razed villages and killed civilians as part of a counter-insurgency that lasted until the 1974 coup in Lisbon ended the empire.",
+      "relevance": "The colonial war Angolans remember as the start of liberation was also a campaign of village-burning and aerial bombardment against them — and the same 1961 northern uprising in which Angolans killed ~1,000 white settlers shows the violence ran both ways from the start.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Baixa de Cassanje revolt' — air raids ~400 deaths (low) up to MPLA's claimed ~10,000; wider counter-insurgency ~20,000 killed by Sept 1961",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Baixa_de_Cassanje_revolt",
+          "caveat": "Tertiary aggregator; the ~10,000 figure is an MPLA wartime claim and the range is wide because no independent count exists."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Angolan War of Independence' — March 1961 UPA uprising in which ~1,000 white settlers were killed, triggering the thirteen-year war",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Angolan_War_of_Independence",
+          "caveat": "Tertiary aggregator; used for the conflict outline rather than for a precise toll."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ago-4",
+      "country": "AGO",
+      "role": "perpetrator",
+      "title": "The 27 May purge of the Nitistas",
+      "era": "1977",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "A ruling party's mass extrajudicial killing of suspected internal dissidents after a failed coup — political mass killing of perceived enemies, classed POL.",
+      "agent": "MPLA government of Agostinho Neto, with Cuban troops",
+      "toll": {
+        "display": "~2,000–70,000 deaths (AI ~30,000)",
+        "disputed": true,
+        "low": 2000,
+        "high": 70000,
+        "unit": "deaths",
+        "note": "Estimates diverge enormously. A conservative floor is ~2,000 actual or alleged Nito Alves followers killed; Amnesty International estimated ~30,000; the highest scholarly and journalistic figures reach ~70,000. Killings ran from May to November 1977, by secret trial and execution into unmarked graves, making any count an estimate; Lara Pawson's 2014 study documents the scale and the official silence around it."
+      },
+      "received_lens": "denied",
+      "summary": "After interior minister Nito Alves's failed coup on 27 May 1977, the MPLA government of Agostinho Neto, backed by Cuban troops, arrested tens of thousands of suspected 'Nitistas', tried many in secret courts under defence minister Iko Carreira, and shot them into unmarked graves over the following months. The state has never accounted for the dead.",
+      "relevance": "The same MPLA that fought a war of liberation turned at once on its own people in a purge it has spent decades denying — Angola squarely as perpetrator against Angolans.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Lara Pawson, In the Name of the People: Angola's Forgotten Massacre (2014) — documents the purge and its concealment",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/1977_Angolan_coup_attempt",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, '1977 Angolan coup attempt' — death range ~2,000 (low) to ~70,000 (high); Amnesty International estimate ~30,000; Cuban involvement; secret trials and graves",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/1977_Angolan_coup_attempt",
+          "caveat": "Tertiary aggregator; the enormous range reflects the absence of any official accounting, not a settled figure."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ago-5",
+      "country": "AGO",
+      "role": "perpetrator",
+      "title": "Government conduct in the Angolan Civil War",
+      "era": "1975–2002",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "A 27-year war in which government forces, like their opponents, committed summary executions, indiscriminate killing of civilians and continuous mine-laying — armed-conflict atrocity, so WAR; most of the vast death toll came through war-induced displacement, hunger and disease.",
+      "agent": "MPLA government armed forces (FAPLA/FAA), alongside Cuban and Soviet-bloc allies",
+      "toll": {
+        "display": "~500,000–800,000 deaths (war total, all sides)",
+        "disputed": true,
+        "low": 500000,
+        "high": 800000,
+        "unit": "deaths",
+        "note": "The 500,000–800,000 range is the total for the whole war and cannot be apportioned to the government alone — UNITA's atrocities (forced recruitment of children, shelling of besieged cities, killings of suspected 'witches' and dissidents) were at least as grave, and both sides laid the landmines that still maim civilians. Most deaths came from war-driven famine, displacement (over 1 million displaced) and disease rather than direct combat, so the figure is an estimate of war-related mortality, not a count of government killings specifically."
+      },
+      "received_lens": "contested",
+      "summary": "Across the 1975–2002 civil war the MPLA government and its Cuban and Soviet-bloc allies, like UNITA on the other side, carried out summary executions, killed civilians indiscriminately in military operations, displaced populations and laid mines across the country; the war's total death toll is estimated at 500,000–800,000.",
+      "relevance": "Angola appears here as both perpetrator and victim of the same war — its government did terrible things, its rebels did things as bad or worse, and its people paid for all of it.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Angolan Civil War' — 500,000–800,000 deaths and over 1 million displaced; abuses by both belligerents; persistent landmine casualties",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Angolan_Civil_War",
+          "caveat": "Tertiary aggregator; the toll is a war-wide estimate not attributable to the government alone."
+        },
+        {
+          "kind": "press",
+          "cite": "United States Institute of Peace, 'Angola's Deadly War: Dealing with Savimbi's Hell on Earth' (1999); U.S. State Dept 1998 Human Rights Report on Angola — both sides committed torture, summary executions and indiscriminate killing of civilians",
+          "supports": "summary",
+          "url": "https://www.usip.org/publications/1999/10/angolas-deadly-war-dealing-savimbis-hell-earth",
+          "caveat": "USIP and the State Department are U.S. government bodies; during the war U.S. policy backed UNITA, so weight their framing of the two sides' relative culpability with care."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

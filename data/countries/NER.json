@@ -1,0 +1,147 @@
+{
+  "iso": "NER",
+  "name": "Niger",
+  "note": "Researched 2026-06-18 from scratch (no prior seed). Both ledgers are populated and the asymmetry is the dual-lens point. Niger's defining mass-atrocity victimhood was authored by an external agent — the French colonial conquest, above all the 1898–99 Voulet–Chanoine mission, which marched a column of tirailleurs across the future colony massacring, hanging, and burning entire communities (victim ledger). The independent Nigerien state's own worst documented violence is narrower and more recent: extrajudicial killing, torture, and collective punishment directed overwhelmingly at the country's Tuareg minority during the 1990 Tchin-Tabaraden crackdown and again during the 2007–09 rebellion in the north (perpetrator ledger). The two ledgers are genuinely asymmetric in scale: the colonial atrocity is counted in (disputed) thousands to tens of thousands, the state's own killings in (still contested) hundreds at most for any single episode. No toll on this entry is settled; the Voulet–Chanoine total is unknowable from the historical record, and the 1990 toll spans more than an order of magnitude (government 63 versus Tuareg 1,500), so low and high ends are separately sourced where possible and flagged disputed throughout. Pre-colonial slave-raiding across the Maradi/Sokoto frontier and famine mortality are real but too diffuse in agency or documentation to enter as discrete sourced events.",
+  "events": [
+    {
+      "id": "ner-1",
+      "country": "NER",
+      "role": "victim",
+      "title": "The Voulet–Chanoine mission and the conquest of the Niger territories",
+      "era": "1898–1899",
+      "era_band": "colonial",
+      "tier": "POL",
+      "tier_reasoning": "A French colonial conquest column that deliberately massacred, hanged, and burned out civilian communities to terrorise the territory into submission — systematic killing of a subjugated population in the course of conquest rather than a campaign to exterminate a defined group as such, so POL.",
+      "agent": "Captain Paul Voulet and Lieutenant Julien Chanoine, commanding a French expeditionary column of African tirailleurs sent to bring the lands between the Niger River and Lake Chad under French control",
+      "toll": {
+        "display": "thousands to tens of thousands killed (no reliable total; documented incidents include ~101 at Sansanné-Haoussa and several hundred to ~1,000+ at Birni-N'Konni)",
+        "disputed": true,
+        "low": 1000,
+        "high": 20000,
+        "unit": "deaths",
+        "note": "No reliable total exists; the column operated beyond independent observation and kept no honest record. Specific documented massacres include 101 people (among them ~30 women and children) at Sansanné-Haoussa on 8 January 1899, and the destruction of Birni-N'Konni on 8 May 1899, where the relieving officer Klobb reported little girls hanged from trees and 'over a thousand corpses rotting in the sun' (popular accounts cite up to ~12,000 for Konni, unverified). Aggregate estimates run from 'thousands' (Wikipedia, reparations coverage) to 'tens of thousands' (Taithe / OUP) up to '>20,000' (LRB, Lemkin 2023). The low end (~1,000) is a conservative floor consistent with the documented individual massacres; the high end (~20,000) is the upper press/serious-magazine estimate (LRB) and is not a verified body count. Both ends are uncertain — treat the figure as a contested range, not a count. AUDIT 2026-06-18: low and high are now each backed by a distinct verified source (Wikipedia for the documented massacres → low; LRB for >20,000 → high); the reparations page does not itself state 20,000 and its cite was corrected accordingly."
+      },
+      "received_lens": "memorial",
+      "summary": "In 1898–99 a French column under captains Paul Voulet and Julien Chanoine marched east across the future Niger to claim the land between the Niger River and Lake Chad, leaving a trail of burned villages, looted granaries, and hanged civilians — bodies displayed at village entrances to terrorise the population. When Lieutenant-Colonel Klobb was sent to relieve Voulet of command, Voulet's men shot him; the officers were killed soon after by their own troops. A 1902 French inquiry largely excused the violence as 'heat madness'; in recent years France has signalled willingness to discuss reparations for the massacres.",
+      "relevance": "Niger's clearest place in the victim ledger was authored from outside — by the French state's conquest — which is the memory most alive in the country; the independent Nigerien state's own killings of its Tuareg citizens are the quieter part of the national story.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Voulet–Chanoine Mission overview — documents the 1898–99 expedition, the 8 January 1899 Sansanné-Haoussa killing of 101 people (incl. ~30 women and children), the 8 May 1899 destruction of Birni-N'Konni described as one of the worst massacres in French colonial history, Klobb's account of hanged girls and 'over a thousand corpses', and the killing of Klobb and later of Voulet and Chanoine",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Voulet%E2%80%93Chanoine_Mission",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Bertrand Taithe, The Killer Trail: A Colonial Scandal in the Heart of Africa (Oxford University Press, 2009), discussed on the OUP blog — the historian's study of the mission; an accompanying note states no one knows how many Africans Voulet's men murdered but that it was 'certainly in the tens of thousands'",
+          "supports": "toll.high",
+          "url": "https://blog.oup.com/2009/11/killer-trail/",
+          "caveat": "The 'tens of thousands' characterisation is an estimate of scale, not a counted total; the mission's isolation makes any aggregate figure unverifiable."
+        },
+        {
+          "kind": "press",
+          "cite": "Reparations / commemoration coverage of the Voulet-Chanoine massacres — reports that French troops 'killed thousands of unarmed people', that ~400 were massacred in a day at Birni-N'Konni, that four Nigerien communities filed a UN complaint, and that France signalled openness to bilateral dialogue while invoking non-retroactivity of international law",
+          "supports": "summary",
+          "url": "https://reparationscomm.org/reparations-news/france-signals-willingness-to-discuss-reparations-for-colonial-massacres-in-niger/",
+          "caveat": "Commemoration/advocacy framing. AUDIT 2026-06-18: this specific page states 'thousands' and ~400 at Birni-N'Konni but does NOT itself state the ~20,000 figure that an earlier draft of this cite attributed to it; the 20,000 upper bound is sourced separately to the LRB (see toll.high source below) and is in any case not an independent body count."
+        },
+        {
+          "kind": "press",
+          "cite": "Rob Lemkin, 'In May Jirgui', London Review of Books blog (August 2023) — states 'More than twenty thousand Africans were killed in a six-month operation at the height of Europe's so-called Scramble for Africa that secured for France the territory that is now Niger', referring to the Voulet–Chanoine column",
+          "supports": "toll.high",
+          "url": "https://www.lrb.co.uk/blog/2023/august/in-may-jirgui",
+          "caveat": "The '20,000+' figure is a widely repeated estimate of scale for a campaign that operated beyond independent observation; it is not established by an independent count and is treated here as the upper bound of a contested range, not a verified body count."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ner-2",
+      "country": "NER",
+      "role": "perpetrator",
+      "title": "The Tchin-Tabaraden crackdown on the Tuareg",
+      "era": "1990",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "A state reprisal in which the Nigerien army arrested, tortured, and extrajudicially killed Tuareg civilians — including women and children — across several towns in response to a raid, targeting a defined ethnic population as collective punishment, so POL.",
+      "agent": "The Nigerien army under President Ali Saïbou's government",
+      "toll": {
+        "display": "63 (government) to 600–700 (humanitarian estimates) to 1,500 (Tuareg accounts)",
+        "disputed": true,
+        "low": 63,
+        "high": 1500,
+        "unit": "deaths",
+        "note": "The toll is contested across more than an order of magnitude. The Niger government acknowledged 63 dead; humanitarian organisations estimated 600 to 700; Tuareg sources put the figure at 1,500. The killings followed a 7 May 1990 Tuareg attack on the gendarmerie post at Tchin-Tabaraden (in which ~31 died, ~25 of them attackers); the army's reprisal then swept Tchin-Tabaraden, Gharo, and In-Gall. The low end is the government's own figure; the high end is the Tuareg estimate. Amnesty International separately documented arrests, torture in Tahoua barracks, and at least four detainees dying in custody."
+      },
+      "received_lens": "suppressed",
+      "summary": "After Tuareg returnees from Algeria, angered by unmet government aid promises, attacked the gendarmerie post at Tchin-Tabaraden in May 1990, the Nigerien army answered with a wave of arrests, torture, and killings of Tuareg civilians — women and children among them — across Tchin-Tabaraden, Gharo, and In-Gall. The government conceded 63 dead; survivors and aid groups counted far more. The massacre radicalised the Tuareg and triggered the armed rebellion of 1990–95.",
+      "relevance": "A generation after Niger's own people were massacred by a colonial conquest column, the independent Nigerien state turned the machinery of collective punishment — mass arrest, torture, extrajudicial killing — on a minority of its own citizens; the victim of empire as author of its own atrocity.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Tuareg rebellion (1990–1995) overview — records the May 1990 Tchin-Tabaraden attack (~31 dead, ~25 attackers), the army's reprisal arresting, torturing, and killing several hundred Tuareg civilians across Tchin-Tabaraden, Gharo and In-Gall, and the disputed toll: 63 (government), 600–700 (humanitarian organisations), 1,500 (Tuareg)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Tuareg_rebellion_(1990%E2%80%931995)",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Tuareg rebellion (1990–1995) overview — same source for the upper bound: Tuareg accounts advancing ~1,500 civilian deaths, against 600–700 from humanitarian organisations",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Tuareg_rebellion_(1990%E2%80%931995)",
+          "caveat": "The 1,500 figure is the community/victim estimate and is not independently verified; it is cited as the high end of a genuinely disputed range."
+        },
+        {
+          "kind": "primary",
+          "cite": "Amnesty International, Niger: Summary of Amnesty International's concerns in 1991 (AFR 43/001/1991) — documents the 1990 arrests of Tuareg in the Tchin-Tabaraden area (incl. ex-minister Abdoulahi Mohamed), torture reported in Tahoua barracks, and at least four prisoners dying in detention",
+          "supports": "summary",
+          "url": "https://www.amnesty.org/en/documents/afr43/001/1991/en/",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ner-3",
+      "country": "NER",
+      "role": "perpetrator",
+      "title": "Extrajudicial killings in the north during the 2007–09 Tuareg rebellion",
+      "era": "2007–2009",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "State security forces summarily executed unarmed civilians, raped women, and destroyed pastoralist livelihoods in reprisal for insurgent attacks during a counterinsurgency in the north — extrajudicial state killing and collective punishment of a regional civilian population, so POL.",
+      "agent": "The Niger armed forces under President Mamadou Tandja's government",
+      "toll": {
+        "display": "at least 13 civilians extrajudicially killed (Nov–Dec 2007 documented; broader rebellion toll higher)",
+        "disputed": false,
+        "low": 13,
+        "high": null,
+        "unit": "deaths",
+        "note": "The figure of at least 13 is what Human Rights Watch and Amnesty International each documented for unlawful killings by Niger security forces over roughly four weeks in November–December 2007; it is a documented minimum for that window, not a total for the 2007–09 rebellion, whose full civilian toll from army reprisals was not comprehensively counted. The high end is left null because no reliable aggregate exists. Documented incidents include four men arrested at Tchintébizguint after a mine explosion and found shot in a common grave (Nov. 2007), and seven travellers to Agadez killed with signs of torture (9 Dec. 2007)."
+      },
+      "received_lens": "suppressed",
+      "summary": "When the Mouvement des Nigériens pour la justice (MNJ) took up arms in February 2007, the Niger army responded in the north with summary executions of civilians, rape, and the slaughter of pastoralists' herds, often as reprisals after landmine attacks on military vehicles. Human Rights Watch and Amnesty International each documented at least thirteen civilians unlawfully killed in late 2007 alone — including men found shot in a common grave at Tchintébizguint and seven travellers killed near Agadez bearing marks of torture — alongside arbitrary detentions and the flight of whole villages such as Iférouane.",
+      "relevance": "Seventeen years after Tchin-Tabaraden, the same pattern recurred — the Nigerien state meeting a Tuareg uprising with extrajudicial killing and collective punishment of civilians — underscoring that the perpetrator ledger here is a recurring state practice toward its northern minority, not a single aberration.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Human Rights Watch, 'Niger: Warring Sides Must End Abuses of Civilians' (19 Dec. 2007) — documents extrajudicial killings by Niger army forces (incl. an elderly man and nephew near Tzintebarac, three elderly men at Tezirzayt on 2 June, ~7 on the Iferouane-Gougaram road on 26 Aug., ~10 north of Iferouane on 27 Sep.), rape, and large-scale killing of livestock",
+          "supports": "summary",
+          "url": "https://www.hrw.org/news/2007/12/19/niger-warring-sides-must-end-abuses-civilians",
+          "caveat": null
+        },
+        {
+          "kind": "primary",
+          "cite": "Amnesty International, 'Niger: Extrajudicial executions and population displacement in the north of the country' (Dec. 2007) — documents at least thirteen civilians unlawfully killed by Niger security forces in four weeks: four men arrested at Tchintébizguint (22 Nov.) found shot in a common grave, and seven travellers to Agadez (9 Dec.) with cigarette burns, whipping, and bullet wounds; plus the flight of the entire population of Iférouane",
+          "supports": "toll.low",
+          "url": "https://www.amnesty.org/en/latest/press-release/2007/12/niger-extrajudicial-executions-and-population-displacement-north-country/",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

@@ -1,0 +1,172 @@
+{
+  "iso": "VEN",
+  "name": "Venezuela",
+  "note": "Venezuela's two ledgers are both real and both well documented, but they sit in different eras. As victim: the indigenous peoples of the coast and valleys were ground down after the Spanish conquest — overwhelmingly by Old World disease, so STR, not deliberate extermination — and three centuries later Venezuelans slaughtered one another by the tens of thousands in the Federal War, the bloodiest of the post-independence civil wars. As perpetrator the record is the Venezuelan STATE turning its guns on its own people in the modern and contemporary periods: the army and security agencies firing into the slums during the Caracazo of 1989, and, under the Bolivarian governments of Chávez and Maduro, the FAES and allied units carrying out thousands of extrajudicial killings that a UN fact-finding mission found to amount to crimes against humanity. The analytic care here is keeping disease-driven demographic collapse (STR) apart from deliberate killing, showing honest ranges where the Caracazo toll is genuinely contested (official ~277 vs. independent 2,000–3,000+), and distinguishing the small set of victims a court actually litigated from the larger event toll.",
+  "events": [
+    {
+      "id": "ven-1",
+      "country": "VEN",
+      "role": "victim",
+      "title": "Demographic collapse of indigenous Venezuela",
+      "era": "c. 1520–1620",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The catastrophic loss of indigenous life after the Spanish conquest was overwhelmingly the work of Old World epidemics — above all smallpox — compounded by war, the encomienda labour system and social dislocation, i.e. demographic collapse rather than the deliberate extermination of a defined group, hence STR.",
+      "agent": "Spanish conquistadors and the colonial order they imposed, with Old World epidemics (smallpox, measles) as the principal killer",
+      "toll": {
+        "display": "~50–75% decline in the first century after conquest; pre-conquest population perhaps ~1 million",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "This is a population-DECLINE figure, not a verified body count. The pre-conquest indigenous population of what is now Venezuela is commonly estimated at 'around a million,' though the baseline is genuinely uncertain. Scholarship holds that the indigenous population fell by 50 to 75 percent during the first century after the Conquest; for the Caracas valley specifically, the 1580 smallpox epidemic is estimated to have cut the local population by about two-thirds (perhaps from ~30,000 to ~10,000). Disease was the dominant immediate cause, with war and forced labour compounding it. Both numeric bounds are left null because no defensible absolute death count exists — only a contested percentage decline against a soft baseline."
+      },
+      "received_lens": "suppressed",
+      "summary": "After the Spanish reached the Venezuelan coast in the early 1500s and pushed inland, the indigenous nations — Caquetío, Timoto-Cuica, Mariche and others — were ground down over the following century. Imported plagues, smallpox above all, did most of the killing, but war and the encomienda labour system finished the work. By the early colonial period the great majority of the pre-conquest population was gone.",
+      "relevance": "The first and largest mass death on Venezuelan soil was suffered by its original peoples, mostly through disease no one yet understood — establishing the country as victim long before its state became a perpetrator, and a worked example of keeping demographic collapse (STR) distinct from deliberate killing (EXT).",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Indigenous peoples in Venezuela,\" Wikipedia (pre-conquest population 'may have been around a million people'; 'much reduced after the Conquest, mainly through the spread of new diseases from Europe')",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Indigenous_peoples_in_Venezuela",
+          "caveat": "Tertiary aggregator; the pre-conquest 'around a million' is an order-of-magnitude estimate, not a count, and the article does not itself give a percentage decline."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"The Colonial Era\" (Encyclopedia.com, drawing on the Encyclopedia of Latin American History and Culture): 'The Venezuelan indigenous population fell by 50 to 75 percent during the first century after the Conquest'; the 1580 smallpox epidemic cut the Caracas valley population by ~two-thirds (~30,000 to ~10,000)",
+          "supports": "tier",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/colonial-era",
+          "caveat": "Reference work synthesizing scholarly estimates; the 50–75% range is the cited figure but the absolute number of deaths is not given and depends on the contested pre-conquest baseline."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ven-2",
+      "country": "VEN",
+      "role": "victim",
+      "title": "The Federal War",
+      "era": "1859–1863",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "A four-year civil war between Liberal/Federalist and Conservative/Centralist forces, fought largely as a guerrilla conflict across the country, with most deaths from combat, disease and hunger — armed warfare among Venezuelans, hence WAR.",
+      "agent": "Liberal/Federalist and Conservative/Centralist armies and their irregular bands (Federalists under Ezequiel Zamora and Juan Crisóstomo Falcón against the central government)",
+      "toll": {
+        "display": "commonly ~100,000 dead; estimates range from ~20,000 to over 100,000",
+        "disputed": true,
+        "low": 20000,
+        "high": 100000,
+        "unit": "deaths",
+        "note": "The most-cited figure is that around one hundred thousand people died in the violence of the war, or from hunger and disease, in a country of just over a million inhabitants — which would make it the bloodiest of Venezuela's post-independence civil wars. Estimates vary widely (roughly 20,000 to over 100,000), reflecting the difficulty of counting losses across a largely guerrilla conflict where deaths came as much from famine and epidemic as from combat. The range here spans that documented spread; the true figure is genuinely contested and unrecoverable with precision."
+      },
+      "received_lens": "memorial",
+      "summary": "From 1859 to 1863 Venezuela tore itself apart in the Federal War, a guerrilla-driven struggle between Federalists demanding regional autonomy and social reform and the Conservative central government. Combat, famine and disease together killed on the order of a hundred thousand people out of a population barely above a million — proportionally devastating. The Treaty of Coche ended it in 1863.",
+      "relevance": "Venezuelans killing Venezuelans by faction, with no foreign hand — the country as victim of itself, and a case where the historical record gives only a wide, honestly contested range rather than a firm count.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Federal War,\" Wikipedia (1859–1863; 'around a hundred thousand people died in the violence of the war, or from hunger or disease, in a country with a population of just over a million'; Treaty of Coche, 1863)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Federal_War",
+          "caveat": "Tertiary aggregator; the ~100,000 figure is the commonly repeated estimate, not a verified count, and folds together combat, famine and disease deaths."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Venezuelan Civil Wars,\" EBSCO Research Starters (History): 'It is estimated that, between 1858 and 1860, 15,000–20,000 died in the struggle between guerrilla bands and the Conservative forces'; the aftermath section gives an overall toll of 'some 50,000 lives' — establishing the low/early-phase end of the contested range against Wikipedia's ~100,000 full-war figure",
+          "supports": "toll.low",
+          "url": "https://www.ebsco.com/research-starters/history/venezuelan-civil-wars",
+          "caveat": "Reference work; the 15,000–20,000 figure covers only the 1858–1860 phase and the ~50,000 figure the broader cost, which is why the toll is recorded as a wide disputed range (low 20,000 / high 100,000) rather than a single number. The Encyclopedia.com 'Federal War' entry originally cited here was checked directly on 2026-06-18 and contains NO casualty figures, so it was replaced with this source, which verifiably supports the low end."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ven-3",
+      "country": "VEN",
+      "role": "perpetrator",
+      "title": "The Caracazo",
+      "era": "February–March 1989",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "State security forces and the army fired indiscriminately into poor neighbourhoods and carried out extrajudicial executions to crush protests against IMF austerity — politically motivated mass killing of civilians by the state under a suspension of constitutional guarantees, hence POL.",
+      "agent": "The Venezuelan state under President Carlos Andrés Pérez — the army, the National Guard, and the political intelligence police (DISIP), acting under Decree 49 suspending constitutional guarantees",
+      "toll": {
+        "display": "official ~277; independent estimates 2,000–3,000+, some up to ~5,000; Inter-American Court litigated 44 named victims",
+        "disputed": true,
+        "low": 277,
+        "high": 3000,
+        "unit": "deaths",
+        "note": "The government initially reported 276–277 deaths, a figure confirmed at the time by a congressional commission. After hundreds of unmarked graves (notably at La Peste in the Cementerio General del Sur) were discovered in the following months, COFAVIC (the victims' families' committee) and other observers concluded the true toll was 'above 2,000' and possibly up to ~5,000. The low bound here is the official 277; the high bound is set at 3,000 as the most commonly cited independent estimate, with figures up to ~5,000 also reported. Separately, the Inter-American Court of Human Rights litigated a defined set of 44 victims (deaths and disappearances) and Venezuela accepted full international responsibility — that 44 is the court-proven minimum, not the event toll. The disputed gap between official and independent counts is itself a documented feature of the case."
+      },
+      "received_lens": "contested",
+      "summary": "On 27 February 1989, protests and looting over a sudden IMF-backed austerity package spread from Guarenas to Caracas. President Carlos Andrés Pérez suspended constitutional guarantees and sent in the army, National Guard and DISIP, who fired automatic weapons into slum apartment blocks and dragged people from their homes for summary execution. The official count was under 300, but unmarked graves pointed to thousands; 97 percent of identified victims were killed inside their own homes.",
+      "relevance": "The Venezuelan state firing on its own poorest citizens to enforce an economic program is the country's clearest mid-century entry on the perpetrator ledger — and the case where it later admitted responsibility before an international court while the real death toll stayed officially understated.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Caracazo,\" Wikipedia (official ~277 deaths confirmed by a congressional commission; independent estimates 2,000–5,000 after unmarked graves were found; National Guard, army and DISIP fired into slum apartment blocks; 27 Feb–5 Mar 1989; 97% of victims killed at home)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Caracazo",
+          "caveat": "Tertiary aggregator; the official vs. independent toll gap is exactly the disputed point, so the low (277) and high (2,000–3,000+) come from opposing sources and must be read as a contested range, not a settled count."
+        },
+        {
+          "kind": "primary",
+          "cite": "Inter-American Court of Human Rights, Case of the Caracazo v. Venezuela, Judgment on the Merits (11 November 1999) — Venezuela fully acknowledged international responsibility for violations of the rights to life, personal integrity and liberty; the case concerned 44 victims (deaths and forced disappearances) from the February 1989 events",
+          "supports": "toll.low",
+          "url": "https://www.corteidh.or.cr/docs/casos/articulos/seriec_95_ing.pdf",
+          "caveat": "The court's 44 is the set of victims actually litigated and proven, not the total event toll; it is a judicially established floor far below the independent estimates. The PDF could not be parsed as text by the fetch tool — its content here is corroborated via the case abstracts and the Enforced Disappearance Legal Database summary, not a direct read of the judgment."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ven-4",
+      "country": "VEN",
+      "role": "perpetrator",
+      "title": "Bolivarian-era extrajudicial killings (FAES / security operations)",
+      "era": "c. 2015–2020",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Security forces, above all the FAES special unit, systematically killed thousands of mostly poor young men in 'resistance to authority' operations and staged the scenes — state-organized extrajudicial killing that a UN mission found to amount to crimes against humanity, hence POL.",
+      "agent": "The Venezuelan state under President Nicolás Maduro — the Special Action Forces (FAES) of the national police, the CICPC and allied security agencies, in OLP/OLHP 'people's liberation' operations",
+      "toll": {
+        "display": "UN: ~6,800+ in 'resistance to authority' killings (2018–May 2019); government 2018 figure 5,287, NGO 7,523",
+        "disputed": true,
+        "low": 5287,
+        "high": 7523,
+        "unit": "deaths",
+        "note": "In its July 2019 report, the office of UN High Commissioner Michelle Bachelet found a 'shockingly high' number of killings during security operations: the government registered 5,287 deaths classified as 'resistance to authority' in 2018 and 1,569 more through 19 May 2019, while the independent Venezuelan Violence Observatory put the figures at least 7,523 for 2018 and at least 2,124 for early 2019. The 2018 range here (government 5,287 to NGO 7,523) is the best-bounded single-year figure; combined 2018–mid-2019 totals run well past 6,800 by official counts and past 9,600 by NGO counts. The 2020 UN Independent Fact-Finding Mission found reasonable grounds to believe these and related violations amounted to crimes against humanity. The gap between official and independent counts reflects documented undercounting by the state."
+      },
+      "received_lens": "denied",
+      "summary": "Under Nicolás Maduro, Venezuelan security forces — led by the FAES special unit — carried out thousands of killings in poor neighbourhoods during 'people's liberation' operations, then logged them as 'resistance to authority.' UN investigators heard repeated accounts of masked officers in unmarked vehicles breaking into homes, shooting young men at point-blank range, and planting weapons and drugs to fake a shootout. A 2020 UN fact-finding mission concluded these acts amounted to crimes against humanity.",
+      "relevance": "A government that came to power invoking the memory of the Caracazo's slum victims ended up running what witnesses called extermination squads against those same neighbourhoods — the dual lens turned inward across a single country's modern history.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "PBS NewsHour, '5,287 people killed during Venezuela security operations in 2018, UN reports' (5 July 2019): government 5,287 'resistance to authority' deaths in 2018 + 1,569 through 19 May 2019; Venezuelan Violence Observatory at least 7,523 (2018) and 2,124 (2019); FAES identified as responsible",
+          "supports": "toll.low",
+          "url": "https://www.pbs.org/newshour/world/5287-people-killed-during-venezuela-security-operations-in-2018-un-reports",
+          "caveat": "Press report summarizing the OHCHR/Bachelet findings; the 5,287 is the government's own figure (and thus a likely undercount), while the higher 7,523 comes from the independent observatory."
+        },
+        {
+          "kind": "press",
+          "cite": "NPR, \"U.N. Report Reveals 'Shockingly High' Number Of Extrajudicial Killings In Venezuela\" (5 July 2019) — security forces killed nearly 7,000 over ~18 months; FAES described by witnesses as a 'death squad'; victims shot in the chest, scenes staged",
+          "supports": "summary",
+          "url": "https://www.npr.org/2019/07/05/739051958/u-n-report-reveals-shockingly-high-number-of-extrajudicial-killings-in-venezuela",
+          "caveat": "Press summary of the same OHCHR report; 'nearly 7,000' aggregates the government's 2018 + early-2019 figures and is therefore a conservative official-based total, not the higher NGO count."
+        },
+        {
+          "kind": "press",
+          "cite": "UN News, 'Venezuela abuses amounted to crimes against humanity: UN-appointed panel' (16 Sept 2020) — the UN Independent International Fact-Finding Mission on Venezuela found reasonable grounds to believe state authorities and security forces committed extrajudicial executions, torture and other violations since 2014 amounting to crimes against humanity, with high-ranking officials in command",
+          "supports": "tier",
+          "url": "https://news.un.org/en/story/2020/09/1072512",
+          "caveat": "UN-affiliated news service reporting the Fact-Finding Mission's conclusions; the 'crimes against humanity' finding is the Mission's legal characterization, contested and rejected by the Venezuelan government."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

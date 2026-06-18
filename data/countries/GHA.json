@@ -1,0 +1,147 @@
+{
+  "iso": "GHA",
+  "name": "Ghana",
+  "note": "Ghana's two ledgers are unusually entangled, because the same machinery of capture and sale runs through both. On the victim side, the Gold Coast was one of the great export zones of the Atlantic slave trade — roughly 1.2 million people, about a tenth of the entire trade, embarked from its forts and castles — and the British later conquered the Asante kingdom by force, sacking Kumasi and annexing the country. But the perpetrator side is not borrowed guilt: the Asante state was itself the largest slave-raiding and slave-trading power in the territory of modern Ghana, invading the northern kingdoms of Gonja and Dagomba and exacting tribute in human beings, with more than half a million northerners sold into slavery between 1732 and 1897. The asymmetry runs the other way from most colonized nations: the perpetrator record here is deep and well-documented, while the modern era is conspicuously clean — by the Early Warning Project's measure Ghana has had no episode of state-led mass killing since 1945. The post-independence violence that exists (Rawlings-era firing-squad executions of former heads of state in 1979, the 1982 murder of three judges) is real political repression but an order of magnitude below the mass-atrocity threshold this atlas tracks, so it is noted here rather than tiered as a mass-death event. Tolls for the slave era are export/sale counts, not death counts, and are flagged as such; no figure was inflated to balance the columns.",
+  "events": [
+    {
+      "id": "gha-1",
+      "country": "GHA",
+      "role": "victim",
+      "title": "The Atlantic slave trade from the Gold Coast",
+      "era": "c.1500–1867",
+      "era_band": "colonial",
+      "tier": "EXT",
+      "tier_reasoning": "The deliberate, organized seizure and permanent removal of a defined population for sale — the destruction of communities by carrying their people off in chains — is targeted human destruction, so EXT; the toll is an export count of those deported, not a death count, with the killing dispersed across raids, the coast, and the Middle Passage.",
+      "agent": "European trading powers (Portuguese, Dutch, British, Danish, and others) buying and shipping captives from coastal forts such as Elmina and Cape Coast Castle, supplied by African intermediaries including coastal Fante middlemen and the Asante interior trade",
+      "toll": {
+        "display": "~1.2 million deported (embarked); deaths a fraction of this",
+        "disputed": true,
+        "low": 1209000,
+        "high": 1209000,
+        "unit": "deaths",
+        "note": "CAVEAT: this is a count of people DEPORTED (embarked), not killed. The SlaveVoyages estimate (Eltis & Richardson) is that roughly 1.209 million captives — nearly 10% of the entire transatlantic trade — embarked from the Gold Coast, the territory of modern Ghana. The actual death toll is unrecoverable and a fraction of this figure: it comprises those killed in the inland slave raids, those who died on the forced march to the coast and in the castle dungeons, and the share who perished in the Middle Passage (overall trade-wide Middle Passage mortality ran on the order of 15%). Port-level SlaveVoyages figures corroborate the scale — Anomabo ~168,348 exports, Cape Coast ~100,434 and Elmina ~85,636 (these specific port counts are SlaveVoyages-derived, surfaced via secondary reporting, not from the History Reclaimed essay). The low and high are set equal to the single best scholarly aggregate for deportations; the death range proper is not separately quantifiable from the available sources, which is the honest state of the record. AUDIT 2026-06-18: every source verified live — the History Reclaimed essay (Alistair Parker, 09 May 2026) and its attribution of the 1.209m figure to slavevoyages.org confirmed verbatim; the Atlantic slave trade / Eltis-Richardson trade-wide totals confirmed; SlaveVoyages is a JS SPA that WebFetch cannot render but its existence and the Eltis/Richardson authorship are corroborated by Wikipedia's 'Voyages' database article. The 1.209m Gold Coast number is a database region-query result not reproducible by a raw web search; it is single-best-aggregate single-sourced (low==high) by design, with the death count deliberately left unquantified rather than invented."
+      },
+      "received_lens": "memorial",
+      "summary": "For more than three centuries European traders operating from castles along the Gold Coast — Elmina, Cape Coast and dozens of smaller forts — bought captives brought down from the interior and shipped them across the Atlantic; roughly 1.2 million people, about a tenth of the whole transatlantic trade, were carried off from this stretch of coast, most never to return. The castles' dungeons and 'doors of no return' are today Ghana's central memorial sites.",
+      "relevance": "Ghana's coast was a mouth of the Atlantic trade through which over a million of its and its neighbours' people were funnelled into bondage — but the captives were supplied to the Europeans by African states, above all the Asante, which is why the same trade appears on Ghana's perpetrator ledger.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "SlaveVoyages / Trans-Atlantic Slave Trade Database (David Eltis & David Richardson) — estimate that ~1.209 million captives, nearly 10% of the trade, embarked from the Gold Coast",
+          "supports": "toll.high",
+          "url": "https://www.slavevoyages.org/",
+          "caveat": "VERIFIED 2026-06-18: SlaveVoyages exists and is the Eltis/Richardson Trans-Atlantic Slave Trade Database (corroborated via Wikipedia's 'Voyages' database article; the homepage is a JS SPA WebFetch cannot render). The 1.209 million Gold Coast figure as quoted appears via secondary citation of SlaveVoyages (the database's own region-level query is the underlying source) — a raw web search does not reproduce the exact number, consistent with its being a database query result; it is an estimate of embarkations, not deaths, with the usual database uncertainty bands."
+        },
+        {
+          "kind": "reference",
+          "cite": "History Reclaimed, 'The Gravest Crime: Ghana and Slavery' (Alistair Parker) — quotes the ~1.209 million / ~10% Gold Coast figure explicitly attributed to slavevoyages.org",
+          "supports": "toll.low",
+          "url": "https://historyreclaimed.co.uk/the-gravest-crime-ghana-and-slavery/",
+          "caveat": "VERIFIED live 2026-06-18: essay exists, by Alistair Parker (09 May 2026), and quotes the 1.209m / ~10% figure as attributed to slavevoyages.org exactly as cited. An advocacy-leaning essay in the contested African-complicity/reparations debate; used here only for the figure it explicitly attributes to SlaveVoyages, not for its interpretive framing. NOTE: the article does NOT itself carry the port-level (Anomabo/Cape Coast/Elmina) export counts — those are SlaveVoyages figures sourced separately, so this cite no longer claims them."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Wikipedia summary of Eltis & Richardson, 'Atlas of the Transatlantic Slave Trade' — overall trade of ~12.5 million embarked and ~2 million dying in the Middle Passage, the denominator against which the Gold Coast ~10% share is measured",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Atlantic_slave_trade",
+          "caveat": "VERIFIED 2026-06-18: ~12.5m embarked / ~2m Middle Passage deaths confirmed on-page. Tertiary aggregator used for the trade-wide totals and Middle Passage mortality context, both standard figures from the Eltis/Richardson scholarship."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "gha-2",
+      "country": "GHA",
+      "role": "victim",
+      "title": "British conquest of Asante: the sack of Kumasi and the wars of the Golden Stool",
+      "era": "1873–1900",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "A sequence of colonial invasions in which a British expeditionary force defeated the Asante army, burned the capital and ultimately annexed the kingdom, with the dead concentrated among combatants and the population displaced — armed conquest, so WAR rather than the deliberate group-destruction of EXT.",
+      "agent": "The British Empire and its expeditionary forces — under Sir Garnet Wolseley in 1873–74, the 1896 expedition that deposed Asantehene Prempeh I, and the forces that crushed the 1900 War of the Golden Stool",
+      "toll": {
+        "display": "~2,000+ Asante killed in the 1900 war alone; full conquest toll uncounted",
+        "disputed": true,
+        "low": 2000,
+        "high": 2000,
+        "unit": "deaths",
+        "note": "No comprehensive death toll exists for the three-decade conquest. The best-quantified single episode is the 1900 War of the Golden Stool, in which Asante combat deaths are estimated at around 2,000 (British and allied forces lost on the order of 1,000); a British MP, David Lloyd George, denounced in Parliament the 'hundreds and thousands of the corpses of savages festering round the fort' at Kumasi, indicating heavy but uncounted Asante dead. In the 1873–74 war the British demolished the royal palace and left Kumasi in ruins; British losses were ~18 in combat and ~55 to disease, but Asante battlefield and civilian deaths were never tallied. The low and high are set to the one defensible figure (the ~2,000 Asante dead of 1900); the larger conquest toll is genuinely unrecoverable. AUDIT 2026-06-18: the ~2,000 Asante / ~1,070 British figures for 1900 are now corroborated by THREE independent sources read live — Wikipedia 'War of the Golden Stool' (gives 'several thousand' Asante, ~1,070 British flagged uncited), Wikipedia 'Anglo-Ashanti wars' (states 'Ashanti casualties estimated around 2,000'), and BlackPast (states '1,000 British and Allied soldiers and 2,000 Ashanti'). The 1873–74 British losses (18 combat, 55 disease, 185 wounded) and the Lloyd George quote both confirmed verbatim. Single-NUMBER toll (low==high) but no longer single-SOURCE; this is the floor for one episode of a larger uncounted conquest, by design not inflation."
+      },
+      "received_lens": "memorial",
+      "summary": "Across three decades Britain broke the Asante kingdom by force: in 1874 Wolseley's column marched on Kumasi, blew up the royal palace and burned the city; in 1896 a fresh expedition deposed and exiled Asantehene Prempeh I; and in 1900, when Governor Hodgson demanded the sacred Golden Stool, Queen Mother Yaa Asantewaa led a last rising that the British crushed at the cost of some 2,000 Asante lives before annexing the kingdom into the Gold Coast colony. Yaa Asantewaa remains a national symbol of resistance.",
+      "relevance": "The Asante — Ghana's dominant slave-raiding power on the perpetrator ledger — were themselves conquered, burned out and exiled by a larger empire, so the same kingdom is both the hand and the victim across this country's history.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Anglo-Ashanti wars' — the 1874 destruction of Kumasi and palace, 1896 deposition of Prempeh I, and British casualty figures",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Anglo-Ashanti_wars",
+          "caveat": "VERIFIED 2026-06-18: on-page text confirms palace demolition, 18 combat / 55 disease / 185 wounded for 1873–74, Prempeh I deposition/exile, and 'Ashanti casualties estimated around 2,000' for 1900 — so this article independently supports toll.high too, not only the summary. Tertiary aggregator; British figures well documented, Asante toll acknowledged as not systematically counted except the 1900 estimate."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'War of the Golden Stool' — ~1,070 British/allied fatalities and 'several thousand' Asante dead in 1900, plus the Lloyd George parliamentary quote",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/War_of_the_Golden_Stool",
+          "caveat": "VERIFIED 2026-06-18: article confirms 'several thousand' Asante dead, ~1,070 British/allied fatalities (flagged on-page with a citation-needed tag), and the Lloyd George 'corpses of savages festering round the fort of Coomassie' quote verbatim. The ~2,000 figure used here is a conservative reading of 'several thousand' and is independently pinned by the Anglo-Ashanti wars and BlackPast articles, which both give 2,000."
+        },
+        {
+          "kind": "reference",
+          "cite": "BlackPast.org, 'The Anglo-Ashanti Wars (1823–1900)' — overview of the war sequence, the 1874 sack of Kumasi and the 1900 rising under Yaa Asantewaa",
+          "supports": "summary",
+          "url": "https://blackpast.org/global-african-history/anglo-ashanti-wars-1823-1900/",
+          "caveat": "VERIFIED 2026-06-18: page exists at this exact URL (direct WebFetch returned HTTP 403 bot-block, but the article and its content were confirmed via search index, which surfaces the page text). Independently states the 1900 rising 'resulted in the death of 1,000 British and Allied soldiers and 2,000 Ashanti' — a third source corroborating toll.high — plus the 1874 sack of Kumasi, 1896 deposition of Prempeh I, and Yaa Asantewaa's leadership."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "gha-3",
+      "country": "GHA",
+      "role": "perpetrator",
+      "title": "Asante slave-raiding and tributary enslavement of northern Ghana",
+      "era": "1732–1897",
+      "era_band": "pre-colonial",
+      "tier": "EXT",
+      "tier_reasoning": "The Asante state systematically invaded northern kingdoms and exacted human beings as tribute, raiding designated peoples year after year to fill quotas for sale — the organized seizure and removal of populations for bondage, with thousands killed outright in the raids, so EXT; the headline toll is a count of those enslaved, with the death toll a separate, smaller, uncounted figure.",
+      "agent": "The Asante (Ashanti) state, which after conquering Gonja (1732) and Dagomba (1744) compelled them to raid lesser peoples — the Kasena, Sisala, Kusasi, Builsa and Frafra — for an annual tribute of captives, funnelled down to Kumasi and the coast",
+      "toll": {
+        "display": ">500,000 northerners sold into slavery (1732–1897); thousands killed in raids",
+        "disputed": true,
+        "low": 500000,
+        "high": 500000,
+        "unit": "deaths",
+        "note": "CAVEAT: the headline figure counts people ENSLAVED AND SOLD, not killed. The estimate is that more than half a million people from northern Ghana were sold into slavery between 1732 and 1897, with 'thousands' more killed outright in the slave raids. Tributary kingdoms were required to deliver roughly 1,000–1,500 slaves per division or chieftainship per year; the inland market at Salaga was reported (Heinrich Klose, 1899) to turn over some 15,000 slaves annually at its height. The separate death toll — those killed resisting capture, in the raids, and on the routes south — is documented only as 'thousands' and cannot be precisely quantified. The low and high are set equal to the >500,000 sold figure; the death count proper is unrecoverable. AUDIT 2026-06-18 — SINGLE-SOURCE FLAG: the >500,000 headline figure traces to one secondary essay (History Reclaimed, Alistair Parker), which itself attributes it only to unnamed 'others suggest more than half a million'; no peer-reviewed primary giving this exact aggregate was found. The verified Agamba scholarly paper documents the northern trade and the Asante conquests qualitatively but is an image-scanned PDF whose specific figures could not be machine-extracted, so it corroborates the NARRATIVE, not the number. The tribute quotas (1,000–1,500/division/yr) and Klose's 1899 Salaga ~15,000/yr figure ARE carried verbatim in History Reclaimed and surfaced in independent search. The >500,000 number is therefore real-and-attributed but thinly sourced; it is retained as the best available aggregate, single-NUMBER and effectively single-SOURCE, not inflated."
+      },
+      "received_lens": "suppressed",
+      "summary": "After the Asante conquered the northern kingdoms of Gonja and Dagomba in the 1730s and 1740s, they turned them into slave-collecting machines: each was made to deliver a yearly tribute of captives, which they raised by raiding weaker neighbours like the Kasena, Sisala and Frafra, killing those who resisted and marching the rest south to Kumasi and the markets at Salaga — more than half a million people over a century and a half. Asante royal funerals also included the ritual killing of slaves and captives to accompany the dead.",
+      "relevance": "The Gold Coast that appears on the victim ledger as a mouth of the Atlantic trade was fed from the interior by the Asante state's own raids on northern Ghanaians — the same nation supplying the captives it is elsewhere mourned for losing.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Joachim Jack Agamba, 'Beyond Elmina: The Slave Trade in Northern Ghana' (eScholarship/UC) — documents the Asante invasions of Gonja (1732–33) and Dagomba (1744–45) and the resulting northern slave trade",
+          "supports": "summary",
+          "url": "https://escholarship.org/content/qt53f1j6qm/qt53f1j6qm.pdf",
+          "caveat": "VERIFIED 2026-06-18: real paper — 'Beyond Elmina: The Slave Trade in Northern Ghana' by Joachim Jack Agamba, Ufahamu: A Journal of African Studies vol. 32(1-2), 2006; PDF downloaded (35pp, paper-capture image scan, Adobe Acrobat Paper Capture producer — hence no extractable text layer, consistent with the original caveat). The author/title/venue are confirmed; the document supports the QUALITATIVE northern-trade narrative and the Asante conquests of Gonja/Dagomba, but its specific numeric figures cannot be machine-verified from the scan, so the >500,000 headline rests on History Reclaimed, not on this paper."
+        },
+        {
+          "kind": "reference",
+          "cite": "History Reclaimed, 'The Gravest Crime: Ghana and Slavery' (Alistair Parker) — '>500,000 from Northern Ghana sold into slavery 1732–1897,' the 1,000–1,500-slaves-per-division tribute, and Klose's 1899 report of ~15,000/year at Salaga",
+          "supports": "toll.high",
+          "url": "https://historyreclaimed.co.uk/the-gravest-crime-ghana-and-slavery/",
+          "caveat": "VERIFIED 2026-06-18: all three figures confirmed verbatim on-page (the essay attributes the >500,000 to unnamed 'others suggest,' the tribute as '1000–1500 slaves per division or chieftainship per year,' and Klose's Salaga turnover as '15,000 slaves annually'). Advocacy-leaning essay by Alistair Parker in the African-complicity/reparations debate; used only for these figures, not its interpretive framing. NOTE: this is the SOLE carrier of the >500,000 headline (see toll.note single-source flag)."
+        },
+        {
+          "kind": "reference",
+          "cite": "Mises Institute, 'Slavery in the Asante Empire of West Africa' (Lipton Matthews) — slavery as central to the Asante economy and the ritual sacrifice of slaves at Asante celebrations/funerals",
+          "supports": "summary",
+          "url": "https://mises.org/mises-wire/slavery-asante-empire-west-africa",
+          "caveat": "VERIFIED 2026-06-18: article exists, by Lipton Matthews; confirms slavery's centrality to the Asante economy and that 'during special celebrations, it was typical for slaves to be sacrificed.' CORRECTION: the article does NOT itself make the comparative 'largest slave state in modern Ghana' claim — that framing has been removed from this cite; the 'largest/dominant' characterisation rests on mainstream scholarship and the country note, not on Mises. Published by a libertarian think-tank with an ideological lens; used only for the ritual-sacrifice and economic-centrality facts, both corroborated by mainstream scholarship (Bowdich, Rattray, Wilks)."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

@@ -1,0 +1,179 @@
+{
+  "iso": "CMR",
+  "name": "Cameroon",
+  "note": "Cameroon's documented atrocity record is strongest on the victim side and rooted in two colonial regimes: German Kamerun (1884–1916), whose forced-labour system, punitive expeditions and 1914 hangings of resistance leaders Rudolf Duala Manga Bell and Martin-Paul Samba are well attested in type even though no reliable aggregate death count survives; and the French 'dirty war' against the UPC nationalist movement (1955–1964), centred on the Bamileke region, whose toll is genuinely contested across an enormous span. The perpetrator ledger is real but thinner and harder to separate from the victim ledger, because Cameroon's own post-independence state is implicated in two overlapping ways: (1) after independence in 1960 the Ahidjo government, with French backing, continued the anti-UPC campaign and executed its leaders into 1971 — so the Bamileke War is BOTH something done to Cameroonians and something done by the Cameroonian state, flagged here rather than double-counted; and (2) since 2016 government security forces have committed extrajudicial killings and village-burnings in the Anglophone crisis, a conflict in which Anglophone separatist fighters have committed grave abuses of their own (kidnappings, killings of civilians, attacks on schools), so that war too runs both ways. Two structural caveats: the German-era toll is unsourceable as a single number and is left null; the Bamileke War toll spans 61,300 to 400,000 and the high end is judged not credible by some historians.",
+  "events": [
+    {
+      "id": "cmr-1",
+      "country": "CMR",
+      "role": "victim",
+      "title": "German colonial conquest and forced labour in Kamerun",
+      "era": "1884–1916",
+      "era_band": "colonial",
+      "tier": "POL",
+      "tier_reasoning": "A colonial regime of forced labour, punitive expeditions, village-burnings and exemplary executions to break resistance and extract labour — sustained violent domination of a population rather than a campaign to exterminate a defined group, so POL; the deaths it caused in labour, raids and reprisals are real but not separately countable.",
+      "agent": "the German colonial administration and the Schutztruppe (colonial troops), under governors including Jesko von Puttkammer",
+      "toll": {
+        "display": "thousands killed; aggregate uncounted",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "QUARANTINE (death metric): No reliable aggregate death toll exists for German rule in Kamerun, so low/high are null and this event is held UNVERIFIED — the quarantine is on the NUMBER, not on the sources, all of which the audit confirmed exist and support the atrocity pattern. The record documents the TYPES of mortality — high death rates among forced-labour conscripts on plantations, roads and military porterage from overwork and disease; massacres during 'punitive expeditions' (e.g. Nachtigal Falls, where Wikipedia 'Kamerun' records the local adult population massacred for refusing German 'protection'); and exemplary executions including the 8 August 1914 hanging of Rudolf Duala Manga Bell and the firing-squad execution of Martin-Paul Samba the same day — but contemporary record-keeping did not produce, and historians have not reconstructed, a single defensible figure. (Audit note: the village examples 'Hickory Town 1884–1885' and 'Buea 1894' could not be confirmed in the cited pages and should be treated as illustrative-pattern only, not as audited specifics; Nachtigal Falls IS in the cited 'Kamerun' article.) Low and high are left null; event marked UNVERIFIED for the death metric only, the atrocity pattern being well attested."
+      },
+      "received_lens": "suppressed",
+      "summary": "From the 1884 annexation of the Douala coast until World War I ended German rule, the colonial administration and its Schutztruppe extracted forced labour for plantations, roads and military porterage at high death rates, and put down resistance with punitive expeditions that burned villages and killed civilians. In August 1914 the Germans hanged the Duala king Rudolf Duala Manga Bell and shot the Bulu officer Martin-Paul Samba for organising opposition to colonial rule.",
+      "relevance": "The foundational violence done to Cameroon's peoples — a German colonial regime whose brutality is far less remembered in Germany than the Herero and Nama genocide next door, the suppressed first chapter of a long ledger.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Encyclopaedia Britannica, 'Cameroon — German Kamerun, 1884–1916' — annexation, competition for labour, force used to obtain it, and the harshness of the Puttkammer administration",
+          "supports": "summary",
+          "url": "https://www.britannica.com/place/Cameroon/German-Kamerun-1884-1916",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Kamerun' — forced labour with high mortality, punitive expeditions and massacres (Nachtigal Falls), extreme corporal punishments, and the 1914 executions of resistance leaders",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Kamerun",
+          "caveat": "Tertiary aggregator carrying its own citation-quality maintenance notice; used for the atrocity pattern, not for any specific toll."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Rudolf Duala Manga Bell' and 'Martin-Paul Samba' — both hanged/shot on 8 August 1914 for organising resistance to the German relocation and rule",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Rudolf_Duala_Manga_Bell",
+          "caveat": "Tertiary aggregator; the cite combines two leaders but the URL is the Manga Bell page only — audit confirmed Manga Bell hanged 8 Aug 1914 on this page, and Samba shot by firing squad 8 Aug 1914 on the separate 'Martin-Paul Samba' Wikipedia page. Both execution dates corroborated."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "cmr-2",
+      "country": "CMR",
+      "role": "victim",
+      "title": "The Bamileke War (French 'dirty war' against the UPC)",
+      "era": "1955–1964",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "A colonial and post-colonial counter-insurgency that razed villages and killed civilians alongside fighters in the Bamileke region over roughly a decade — armed-conflict and repression mortality rather than a campaign to destroy a group as such, so WAR.",
+      "agent": "the French army (and after 1960 the Cameroonian armed forces with French support) against the UPC nationalist movement",
+      "toll": {
+        "display": "~61,300–400,000 deaths (disputed; high end doubted)",
+        "disputed": true,
+        "low": 61300,
+        "high": 400000,
+        "unit": "deaths",
+        "note": "Figures diverge enormously and no meticulous count was kept. A 1964 British embassy estimate gives 61,300–76,300 civilian deaths, ~80% in the Bamileke region; French general Max Briand reported ~20,000 killed in the Bamileke region in 1960 alone; a Le Monde journalist claimed ~120,000 killed since 1959 in the Bamileke region; Cameroonian lawyer Julie Owono cites 100,000–400,000 for 1959–1964. Historian Bernard Droz estimates ~10,000 deaths in the 1955–1959 pre-independence phase, and Marc Michel assesses 'several tens of thousands' overall, while Canadian historian Meredith Terretta judges hundred-of-thousands figures 'not credible.' The range here spans the lowest aggregate (British embassy low) to the highest cited (Owono high), with the high end carrying explicit scholarly doubt."
+      },
+      "received_lens": "contested",
+      "summary": "After France banned the pro-independence UPC in 1955, riots and an armed maquis grew in the Bamileke and coastal regions; the French army responded with a counter-insurgency that burned villages and killed civilians, and after independence in 1960 the new Cameroonian army, with French support, carried it on. UPC leaders Ruben Um Nyobe (killed September 1958) and Félix Moumié (poisoned 1960) died in the campaign, and the rebellion was largely crushed by 1964.",
+      "relevance": "The atrocity Cameroon remembers as its independence war was also a campaign of village-burning against its own people — and because the post-1960 Cameroonian state, not just France, did the killing, the same event sits across the line between victim and perpetrator.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Cameroon War' — British embassy (1964) estimate 61,300–76,300 civilian deaths (~80% Bamileke); Briand ~20,000 in 1960; Le Monde ~120,000; Owono 100,000–400,000; Droz ~10,000 (1955–59); Terretta doubts the highest figures",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Cameroon_War",
+          "caveat": "Tertiary aggregator; the span is enormous and the high end is explicitly questioned by cited historians, reflecting the absence of any reliable count."
+        },
+        {
+          "kind": "press",
+          "cite": "France 24 / AFP, 'Survivors tell of France's dirty war in Cameroon independence' (28 Dec 2019) — survivor testimony to village-burnings and killings, and the long official silence in France",
+          "supports": "summary",
+          "url": "https://amp.france24.com/en/20191228-survivors-tell-of-france-s-dirty-war-in-cameroon-independence",
+          "caveat": "Journalistic reconstruction decades after the events; used for the conduct of the war rather than for a precise toll."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cmr-3",
+      "country": "CMR",
+      "role": "perpetrator",
+      "title": "Ahidjo's post-independence repression of the UPC",
+      "era": "1960–1971",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "A new state's continuation of an anti-insurgent campaign, with public executions of captured opponents, a banned movement and suppressed memory — political killing and repression of perceived enemies by the government, so POL.",
+      "agent": "the Cameroonian government of President Ahmadou Ahidjo, with French military support",
+      "toll": {
+        "display": "tens of thousands within the wider Bamileke toll; not separately counted",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "The deaths from the post-1960 Cameroonian-state phase of the anti-UPC campaign are not reliably separable from the wider Bamileke War toll counted under cmr-2 (61,300–400,000, most of it in the post-independence years), so a distinct figure is left null to avoid double-counting. Concrete, documented acts by the Ahidjo state include the public executions of fifteen captured rebels staged in Douala, Bafoussam and Edéa in January 1964, and the execution by firing squad of UPC leader Ernest Ouandié at Bafoussam on 15 January 1971."
+      },
+      "received_lens": "suppressed",
+      "summary": "After independence in 1960 President Ahmadou Ahidjo's government, backed by French troops, carried on the war against the UPC maquis in the Bamileke and western regions, staged public executions of captured rebels (fifteen in January 1964 across three towns), banned public reference to the UPC and its founder Ruben Um Nyobe, and executed the movement's last major leader, Ernest Ouandié, by firing squad in January 1971.",
+      "relevance": "Cameroon as perpetrator against Cameroonians: the independent state did not end the colonial war so much as inherit and finish it, then erased the losers from public memory for decades.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Ernest Ouandié' — Ahidjo's continuation of the anti-UPC campaign, the January 1964 public executions in Douala, Bafoussam and Edéa, and Ouandié's execution by firing squad on 15 January 1971",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Ernest_Ouandi%C3%A9",
+          "caveat": "Tertiary aggregator; used for the documented state acts and dates rather than for an apportioned toll."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Cameroon War' — post-1960 phase conducted by the Cameroonian army with French assistance; ban on references to the UPC and Um Nyobe; rebellion crushed by 1964",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Cameroon_War",
+          "caveat": "Tertiary aggregator; the toll is counted under cmr-2 to avoid double-counting."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cmr-4",
+      "country": "CMR",
+      "role": "perpetrator",
+      "title": "Government security forces in the Anglophone crisis",
+      "era": "2016–present",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "An armed conflict in which government forces have committed extrajudicial killings, sexual violence and 'scorched-earth' village-burnings against civilians suspected of harbouring separatists — armed-conflict atrocity targeting non-combatants, so WAR.",
+      "agent": "the Cameroonian armed forces, including the Rapid Intervention Battalion (BIR), and allied militia",
+      "toll": {
+        "display": "~6,000+ killed (war total, all sides); 200+ villages razed",
+        "disputed": true,
+        "low": 6000,
+        "high": 6500,
+        "unit": "deaths",
+        "note": "SINGLE-SOURCE TOLL FLAG: the war-wide death figure rests on a single cited source (Global Centre for R2P, 'more than 6,500 killed since 2016'); audit verified that source carries 'more than 6,500... believed to be higher.' The low anchor of 6,000 is a conservative rounding below that single cited number rather than a separately-sourced minimum — no independent second count corroborates a distinct low end. The ~6,000–6,500 figure is the total killed in the Anglophone conflict since 2016, all sides combined, and cannot be attributed to government forces alone — Anglophone separatist fighters have also killed civilians, kidnapped hundreds (including students), and attacked schools, so this war is in part also something done TO Cameroonians. Monitors stress the true toll is likely higher; over 700,000 have been displaced (audit-confirmed Global R2P figures: 334,098 internally displaced, 76,493 refugees in Nigeria, 1.5M needing aid). Documented government conduct includes extrajudicial killings and the burning of 200-plus villages, with the 14 February 2020 Ngarbuh massacre — at least 21 civilians killed, including 13 children and a pregnant woman, by soldiers and allied Fulani — the best-documented single incident (HRW, audit-confirmed); the government eventually admitted soldiers killed 13 civilians there."
+      },
+      "received_lens": "denied",
+      "summary": "Since protests in Cameroon's Anglophone North-West and South-West regions turned to armed conflict in 2016–2017, government security forces — including the elite Rapid Intervention Battalion — have carried out extrajudicial killings, sexual violence and a 'scorched-earth' burning of more than 200 villages suspected of sheltering separatists. On 14 February 2020 soldiers and allied Fulani militia killed at least 21 civilians, including 13 children, at Ngarbuh, then filed a false report; the government first denied, then admitted, that its troops had killed civilians there.",
+      "relevance": "The contemporary face of Cameroon-as-perpetrator — and, because separatist fighters have committed grave abuses of their own against the same population, a war that runs both ways across the dual ledger.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "Human Rights Watch, 'Cameroon: Civilians Massacred in Separatist Area' (25 Feb 2020) and 'Massacre Findings Made Public' (24 Apr 2020) — at least 21 killed at Ngarbuh including 13 children; Rapid Intervention Battalion soldiers and Fulani militia; no separatists present; false report filed",
+          "supports": "summary",
+          "url": "https://www.hrw.org/news/2020/02/25/cameroon-civilians-massacred-separatist-area",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Global Centre for the Responsibility to Protect, country page on Cameroon — more than 6,500 killed since 2016 (believed higher); over 200 villages burned by security forces; ~334,000 internally displaced plus ~76,000 refugees in Nigeria",
+          "supports": "toll.high",
+          "url": "https://www.globalr2p.org/countries/cameroon/",
+          "caveat": "Atrocity-prevention advocacy organisation; the ~6,500 figure is a war-wide total, all sides, not attributable to the government alone."
+        },
+        {
+          "kind": "press",
+          "cite": "Human Rights Watch, 'These Killings Can Be Stopped: Abuses by Government and Separatist Groups in Cameroon's Anglophone Regions' (19 Jul 2018) and 'Cameroon: Separatist Abuses in Anglophone Regions' (27 Jun 2022) — documents grave abuses by BOTH government forces and separatist fighters",
+          "supports": "summary",
+          "url": "https://www.hrw.org/report/2018/07/19/these-killings-can-be-stopped/abuses-government-and-separatist-groups-cameroons",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

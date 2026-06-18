@@ -1,0 +1,239 @@
+{
+  "iso": "PER",
+  "name": "Peru",
+  "note": "Peru's ledgers fold back on themselves more sharply than most. As victim: the Andean peoples of the central Inca heartland suffered one of the largest demographic collapses in human history after the Spanish conquest — overwhelmingly disease, so STR, not deliberate extermination — and three and a half centuries later Peruvians were the victims of a foreign army when Chile invaded, occupied Lima, and stripped the capital during the War of the Pacific. As perpetrator the entries are squarely the work of Peru's own elites and state: the Putumayo genocide, in which a Peruvian rubber baron's company worked Amazonian Indigenous peoples to death by the tens of thousands; the state's documented share of the 1980–2000 internal armed conflict, with named massacres at Accomarca, Barrios Altos and La Cantuta; and the Fujimori government's mass forced sterilization of poor Quechua-speaking women. The hard discipline here is keeping disease-driven collapse (STR) apart from intentional killing (EXT); separating the internal conflict's state share from the larger share caused by Shining Path (the atlas does not let the state's guilt absorb the insurgents', nor the reverse); and showing the genuine dispute in the conflict's toll, where a 2019 demographic study revised the canonical Truth Commission figure both down in total and upward in the state's relative share. Putumayo is the clearest case of the atlas's core point: in that event the perpetrators and the victims were both Peruvians.",
+  "events": [
+    {
+      "id": "per-1",
+      "country": "PER",
+      "role": "victim",
+      "title": "Demographic collapse of the Andean/Inca population",
+      "era": "c. 1520–1620",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The catastrophic loss of Andean life after the Spanish conquest was overwhelmingly the work of Old World epidemics compounded by war, forced labour and the dismantling of Inca society — demographic collapse, not the deliberate extermination of a defined group, hence STR rather than EXT.",
+      "agent": "Spanish conquistadors and the colonial order they imposed (Francisco Pizarro and successors), with Old World epidemics — smallpox, measles, typhus — as the principal killer",
+      "toll": {
+        "display": "~90–93% decline; from ~9–16 million pre-conquest to under ~3 million by c. 1570–1620 (population-decline estimate, not a counted toll)",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "AUDIT 2026-06-18: all three sources verified real and supporting (Cook 1981 monograph confirmed extant — ISBN 9780521239950, CUP, Cambridge Latin American Studies #41; Wikipedia and ScienceDaily directly fetched; the ScienceDaily Yucay-Valley study correctly caveated as a ~40% LOCAL decline supporting the disease+administration mechanism, not the empire-wide toll). Status remains UNVERIFIED because the absolute body count is genuinely unverifiable, not because a source failed. This is a population-DECLINE figure, not a verified body count. Pre-conquest baselines are themselves contested: Noble David Cook's 'Demographic Collapse: Indian Peru, 1520–1620' (1981) gives an ecological maximum of ~13.3 million and a disease-mortality model of ~3.25–8 million, while other estimates run 9–16 million; the Andean population fell to under ~3 million by c. 1570 and the cumulative decline by 1620 is put at roughly 90–93%. Because both the baseline and the absolute deaths are soft, numeric low and high are left null and the decline is recorded as a percentage. The overwhelming cause was epidemic disease the Spanish neither understood nor deliberately spread, which is why the act is tiered STR rather than EXT; war, the mita and encomienda labour systems, mercury mining and social collapse were the secondary drivers."
+      },
+      "received_lens": "suppressed",
+      "summary": "After Pizarro seized the Inca emperor Atahualpa in 1532 and Spain overran Tawantinsuyu, the peoples of the Andes were ground down across the following century. Smallpox — which had already killed the emperor Huayna Capac and helped trigger the Inca civil war before Pizarro even arrived — and successive waves of measles and typhus did most of the killing, alongside war, forced labour in the mines and the wholesale collapse of Andean society. The vast majority of the pre-conquest population was gone within a hundred years.",
+      "relevance": "The first and largest mass death on Peruvian soil was suffered by its original peoples, mostly through disease no one yet understood — establishing the country as victim before it was ever a perpetrator, and a worked example of keeping demographic collapse (STR) distinct from intentional killing (EXT).",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Noble David Cook, 'Demographic Collapse: Indian Peru, 1520–1620' (Cambridge University Press, 1981) — ecological model max ~13.3M; disease-mortality model ~3.25–8M pre-conquest; ~93% cumulative decline across three epidemic waves",
+          "supports": "tier",
+          "url": null,
+          "caveat": "Cited at second hand via reference aggregators (the full monograph was not directly fetched); Cook's own three methods diverge widely, which is exactly why the absolute toll is left null."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Spanish conquest of the Inca Empire,' Wikipedia (population ~10–15M in 1520 falling to under 3M by 1570; cites Cook's three-phase 93% decline; disease named as 'the single greatest cause')",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Inca_Empire",
+          "caveat": "Tertiary aggregator; the baseline figures are contested and the percentage decline rests on Cook's modelling, so this is an order-of-magnitude population-decline figure, not a counted death toll."
+        },
+        {
+          "kind": "reference",
+          "cite": "ScienceDaily / Phys.org / EurekAlert, 'Document sheds new light on native population decline under Spanish colonial rule' (2011) — Yucay Valley study showing short-term recovery but long-term collapse from repeated epidemics plus rigid colonial administration",
+          "supports": "summary",
+          "url": "https://www.sciencedaily.com/releases/2011/05/110519091637.htm",
+          "caveat": "Press summary of a single localized demographic study; supports the disease-plus-administration mechanism, not the empire-wide absolute toll."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "per-2",
+      "country": "PER",
+      "role": "victim",
+      "title": "Chilean occupation of Lima, War of the Pacific",
+      "era": "1879–1883 (occupation 1881–1883)",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "A foreign army invaded Peru, broke its forces in pitched battle at Chorrillos and Miraflores, then occupied and systematically plundered the capital and coastal towns — wartime conquest, sack and exaction against a defeated population, hence WAR.",
+      "agent": "The Chilean Army (under Patricio Lynch as military governor of occupied Peru) during the War of the Pacific",
+      "toll": {
+        "display": "~11,000–14,000 killed at the battles of Chorrillos and Miraflores (1881, both sides, mostly combatants); no verified separate civilian-massacre count",
+        "disputed": true,
+        "low": null,
+        "high": 14000,
+        "unit": "deaths",
+        "note": "AUDIT 2026-06-18: source-verified with a wording correction. The ~11,000–14,000 figure is the combined CASUALTIES (killed PLUS wounded) at the two January 1881 battles outside Lima — Chorrillos alone produced ~11,000–11,500 casualties (Chilean ~797 dead / ~2,522 wounded; Peruvian ~4,000–7,500 dead / ~3,000 wounded per the Battle of San Juan and Chorrillos article), with Miraflores adding several thousand more. It is overwhelmingly a military casualty count for both armies, not a civilian death toll, and is killed+wounded rather than killed alone. The sack of Chorrillos and the looting of Lima — plunder of public buildings and the stripping of the National Library (only 378 of ~56,000 volumes left, confirmed via the Occupation of Lima article) — are well documented, but no reliable separate count of civilians killed during the occupation was located. The numeric low is left null on that basis; the 14,000 high is the battle-casualty ceiling, not a civilian-atrocity figure. Treat the toll as a battle count, with the occupation's harm to Peruvian civilians measured in pillage and exaction more than in a verified body count."
+      },
+      "received_lens": "memorial",
+      "summary": "After defeating Peru's armies at Chorrillos and Miraflores in January 1881, the Chilean army occupied Lima for nearly three years. Under military governor Patricio Lynch the occupiers plundered public buildings, turned the University of San Marcos into a barracks, forced civilians to hand over valuables to pay Chilean soldiers' wages, and carried off monuments, artworks and the contents of the National Library to Santiago — leaving Peru's capital stripped and humiliated. The 1883 Treaty of Ancón ceded the Tarapacá province to Chile.",
+      "relevance": "Peru as the victim of a neighbouring state's invasion and occupation — a reminder that the same Latin American country can sit on both sides of the atlas, victim of Chile here and perpetrator against its own peoples elsewhere.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Occupation of Lima,' Wikipedia (Chilean occupation 1881–1883; Patricio Lynch as political-military chief; pillage of public buildings and the National Library, only 378 of ~56,000 books remaining; civilian extortion)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Occupation_of_Lima",
+          "caveat": "Tertiary aggregator; the occupation harms are well attested but no consolidated civilian death count is given."
+        },
+        {
+          "kind": "reference",
+          "cite": "'War of the Pacific,' Wikipedia (battles of Chorrillos and Miraflores, Jan 1881; estimated ~11,000–14,000 killed and ~10,144 wounded; Treaty of Ancón 1883 ceding Tarapacá)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/War_of_the_Pacific",
+          "caveat": "Tertiary; the casualty figure is for the two battles and covers both armies' combatants, not Peruvian civilians killed under occupation."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "per-3",
+      "country": "PER",
+      "role": "perpetrator",
+      "title": "Putumayo genocide (Amazon rubber boom)",
+      "era": "c. 1879–1912",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "A Peruvian rubber enterprise enslaved specific Amazonian Indigenous peoples and worked, tortured and slaughtered them to near-extinction over a generation — the deliberate destruction of defined groups (the Huitoto, Bora and neighbours lost ~90% of their numbers), hence EXT rather than STR or WAR.",
+      "agent": "Peruvian rubber baron Julio César Arana and his enterprise, J.C. Arana y Hermanos / the Peruvian Amazon Company (registered in London, 1907), and its overseers",
+      "toll": {
+        "display": "~30,000 (Casement, over ~12 years) to 40,000+; up to ~100,000 across the wider rubber boom; ~90% of targeted Putumayo peoples destroyed",
+        "disputed": true,
+        "low": 30000,
+        "high": 100000,
+        "unit": "deaths",
+        "note": "QUARANTINE (AUDIT 2026-06-18): the 30,000 toll.low FIGURE is corroborated (World Without Genocide explicitly attributes '30,000 indigenous people killed in twelve years' to Casement, independently verified), but the SOURCE PAIRING was wrong. The cited Peruvian Amazon Company Wikipedia article does NOT support 'Casement reported ~30,000 ... based on testimony from 30 Barbadian overseers'; that article instead attributes 40,000 deaths over ten years to the Barbadian John Brown, and describes thirty Barbadian INTERVIEWS in Casement's 1912 report (not 30 overseers underpinning a 30,000 count). The toll.low source was therefore re-pointed to World Without Genocide, which does support the Casement-30,000 claim; because the low end depended on a misattributed citation now corrected, the event is held UNVERIFIED. Wikipedia's Putumayo-genocide article gives '32,000 to 40,000+' for the Putumayo killings specifically; ~100,000 across the wider 1879–1912 Amazon rubber boom is the high bound, broader than the Arana company alone. Targeted peoples (Huitoto, Bora, Andoque, Ocaina and neighbours) lost roughly 90% of their population."
+      },
+      "received_lens": "denied",
+      "summary": "During the Amazon rubber boom, the Peruvian magnate Julio César Arana's company enslaved the Indigenous peoples of the Putumayo region and forced them to extract rubber under a regime of terror: those who failed to meet quotas were flogged until their bones showed, mutilated, burned, starved or shot. British investigator Roger Casement, whose 1910 inquiry and the 1912 'Putumayo Blue Book' exposed the system, estimated some 30,000 killed in about twelve years; the targeted peoples lost roughly nine in ten of their number.",
+      "relevance": "The sharpest illustration of the atlas's refusal of the single lens: the perpetrators were Peruvian and so were the victims — a Peruvian elite annihilating Peru's own Amazonian peoples, the country as perpetrator against itself.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Putumayo genocide,' Wikipedia (perpetrator Julio César Arana / Peruvian Amazon Company; ~1879–1912; '32,000 to 40,000+' deaths; ~90% of Huitoto, Bora, Andoque, Ocaina and neighbours destroyed)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Putumayo_genocide",
+          "caveat": "Tertiary aggregator; the death-toll range is not cleanly attributed to individual researchers in the article and should be read as an estimate band."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Peruvian Amazon Company,' Wikipedia — confirms the firm registered in London on 26 Sept 1907 (£1,000,000 capital), hired ~200 Barbadians, and that Casement's 1912 report drew on thirty Barbadian interviews; the article's specific death estimate is John Brown's 40,000 over ten years, NOT a Casement-30,000 figure",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Peruvian_Amazon_Company",
+          "caveat": "AUDIT 2026-06-18: re-scoped to 'summary'. This article verifies the 1907 London registration and the Barbadian-overseer/interview context but does NOT support the Casement-30,000 toll.low claim it was previously cited for (it attributes 40,000/10yr to John Brown); the toll.low support was moved to World Without Genocide, which does attribute 30,000 to Casement."
+        },
+        {
+          "kind": "reference",
+          "cite": "World Without Genocide, 'Putumayo Genocide' — explicitly states Casement reported 30,000 Indigenous people killed over twelve years (toll.low); an estimated ~100,000 Indigenous deaths across the 1879–1912 Amazon rubber boom (toll.high); Putumayo peoples lost over 90% of their population",
+          "supports": "toll.low",
+          "url": "https://worldwithoutgenocide.org/genocides-and-conflicts/17267-2",
+          "caveat": "AUDIT 2026-06-18: directly fetched and confirmed to carry all three figures. Advocacy/education organization; the Casement-30,000 it reports is a contemporary investigator's estimate, not a census, and the ~100,000 figure spans the entire Amazon rubber boom (wider than the Arana company alone), so 100,000 is the outer high bound rather than a count of this perpetrator's killings."
+        },
+        {
+          "kind": "press",
+          "cite": "Survival International, 'Death in the Devil's Paradise' (rubber boom) — corroborating the Arana company's methods (forced labour, flogging, burning, killing of children) and the enslavement of the Bora, Witoto and Andoke",
+          "supports": "summary",
+          "url": "https://www.survivalinternational.org/articles/3282-rubber-boom",
+          "caveat": "Indigenous-rights advocacy organization; corroborates the methods and perpetrator but gives no precise numerical toll. Directly fetched and confirmed 2026-06-18."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "per-4",
+      "country": "PER",
+      "role": "perpetrator",
+      "title": "State forces' share of the internal armed conflict",
+      "era": "1980–2000",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Across a two-decade counterinsurgency the Peruvian armed forces, police and state-linked groups massacred, tortured and disappeared civilians — state political violence against its own population, hence POL; the larger share of the conflict's killing was done by the Shining Path insurgency and is not attributed to the state here.",
+      "agent": "The Peruvian armed forces, police and state security agents (including the Colina death squad) under successive governments from Belaúnde through Fujimori",
+      "toll": {
+        "display": "CVR: ~69,280 total dead/disappeared, state agents ~37%; 2019 study ~48,000 total with a larger state share than Shining Path",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "QUARANTINE (AUDIT 2026-06-18): the underlying figures are sound but one source was mis-paired. Peru's Truth and Reconciliation Commission (CVR, 2003) estimated ~69,280 people killed or disappeared in the 1980–2000 conflict, attributing ~37% to state agents and the largest share (~54%) to the Shining Path — fully confirmed against the CVR Wikipedia summary. The 2019 Rendón reanalysis (~48,000 total, Peruvian State a significantly larger relative share than Shining Path) is ALSO confirmed — but via the primary SAGE journal article (Research & Politics), NOT via the National Security Archive briefing book that was originally cited for it: that briefing book repeats only the CVR's ~69,000 figure and does NOT mention Rendón, his ~48,000, or any reweighting toward the State. The Rendón source has therefore been re-pointed to the primary article; because the tier-supporting citation was mis-attached until corrected, the event is held UNVERIFIED. No clean absolute count of state-caused deaths is published — applying the ~37% share to ~69,280 would be an inference, not a count — so numeric low/high stay null and the share is recorded instead. Named state massacres: Accomarca (1985, 40+ civilians), Barrios Altos (1991, 15 killed) and La Cantuta (1992, nine students and a professor), all confirmed."
+      },
+      "received_lens": "contested",
+      "summary": "During the war against the Shining Path and the MRTA, Peruvian soldiers, police and the Colina death squad killed, tortured and 'disappeared' thousands of civilians — disproportionately rural Quechua-speaking Andeans — in massacres such as Accomarca in 1985 and the Barrios Altos and La Cantuta killings under Fujimori. The Truth Commission attributed roughly 37% of the ~69,280 dead and disappeared to agents of the state.",
+      "relevance": "The dual lens applied with discipline: the Peruvian state has a genuine, documented place on the perpetrator ledger of its own war — but the atlas does not let that absorb the Shining Path's larger share, nor hide that a later demographic study revised the total down while raising the state's relative responsibility.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Comisión de la Verdad y Reconciliación (CVR), Final Report (2003) — ~69,280 dead/disappeared 1980–2000; state agents ~37%, Shining Path ~54% of reported deaths, MRTA ~1.5%; massacres at Accomarca, Barrios Altos, La Cantuta",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Truth_and_Reconciliation_Commission_(Peru)",
+          "caveat": "Cited via the CVR's Wikipedia summary rather than the original Spanish-language final report; converting the ~37% state share into an absolute death count is not done by the source and would be an inference, which is why the numeric toll is left null."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Silvio Rendón, 'Capturing correctly: A reanalysis of the indirect capture–recapture methods in the Peruvian Truth and Reconciliation Commission,' Research & Politics (SAGE), 2019 — revised total ~48,000 killings, with the Peruvian State accounting for a significantly larger relative share than Shining Path; rebutted by Manrique-Vallier & Ball (HRDAG) and defended in Rendón's 2019 rejoinder",
+          "supports": "tier",
+          "url": "https://journals.sagepub.com/doi/10.1177/2053168018820375",
+          "caveat": "AUDIT 2026-06-18: source CORRECTED. Originally cited via a National Security Archive briefing book that does NOT actually mention Rendón or the 48,000 figure (it repeats only the CVR's ~69,000); re-pointed to the primary peer-reviewed SAGE article, which was verified to carry the ~48,000 total and the reweighting toward the State. A revisionist demographic reanalysis explicitly challenging the CVR's 69,280 estimate; its lower total and reweighted shares are model-based reconstructions and remain contested (HRDAG/Manrique-Vallier & Ball published a refutation)."
+        },
+        {
+          "kind": "press",
+          "cite": "Washington Post, 'Peru Panel Details Toll Of Violent 2 Decades' (Aug 2003) — contemporary reporting on the CVR's ~69,280 finding, more than double prior estimates",
+          "supports": "summary",
+          "url": "https://www.washingtonpost.com/archive/politics/2003/08/29/peru-panel-details-toll-of-violent-2-decades/6eee871b-8741-467c-9c55-70fe439760c9/",
+          "caveat": "AUDIT 2026-06-18: this exact URL could not be independently confirmed — WaPo returned HTTP 403 (paywall/bot-block) and search surfaced a DIFFERENT 2003 WaPo CVR article ('Blame and Shame on Display in Peru,' 11 Sep 2003) rather than this one. A contemporaneous WaPo article on the CVR report demonstrably exists and the ~69,280 figure it supports is independently verified via the CVR Wikipedia summary, so the claim stands, but treat this specific citation/URL as unconfirmed. Press coverage corroborates the headline figure, not the precise state-share breakdown."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "per-5",
+      "country": "PER",
+      "role": "perpetrator",
+      "title": "Forced sterilization of Indigenous women under Fujimori",
+      "era": "1996–2000",
+      "era_band": "contemporary",
+      "tier": "STR",
+      "tier_reasoning": "A state family-planning programme coercively sterilized hundreds of thousands of poor, mostly Indigenous women under quotas — a campaign to suppress the reproduction of a targeted population by state policy; tiered STR as a structural assault on a group's continuation, with deaths a documented but secondary outcome rather than the aim.",
+      "agent": "The government of President Alberto Fujimori, through the National Reproductive Health and Family Planning Programme and the health ministry (program director Eduardo Yong Motta), with medical personnel under sterilization quotas",
+      "toll": {
+        "display": "~260,874–300,000+ women forcibly/coercively sterilized (plus ~21,000–25,000 men); deaths documented (e.g. Mamerita Mestanza) but no overall death count",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "This event's principal harm is measured in coercive sterilizations, not deaths: official government data record ~260,874 tubal ligations and ~21,494 vasectomies for 1996–2000, while scholarly estimates put total sterilizations at ~300,000, the vast majority poor, rural, Quechua-speaking women, many operated on without informed consent under quota pressure. A number of women died from botched or non-consensual procedures — the case of Mamerita Mestanza Chávez reached the Inter-American Commission on Human Rights, and the Celia/Edith Ramos case the Inter-American system later — but no reliable aggregate death count exists, so numeric low/high are left null. The unit is recorded as 'deaths' to fit the schema, but the load-bearing toll here is the sterilization count given in the display string."
+      },
+      "received_lens": "contested",
+      "summary": "Under President Alberto Fujimori, Peru's family-planning programme set numerical sterilization targets and paid health workers bonuses per operation, driving the tubal ligation of hundreds of thousands of women — disproportionately poor, illiterate, Quechua-speaking Andeans — many of whom were pressured, deceived, or operated on without genuine consent. Official records count ~260,000 sterilizations in five years; scholars estimate around 300,000. Some women died from the procedures; in 2024 a UN committee found the policy amounted to sex-based and intersectional discrimination.",
+      "relevance": "A perpetrator entry where the act is structural rather than a single massacre — the state attacking the reproductive future of its own Indigenous population — and a case the atlas tiers STR while keeping the harm honestly counted in sterilizations, not invented deaths.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Forced sterilization in Peru,' Wikipedia (official data ~260,874 sterilizations + ~21,494 vasectomies, 1996–2000; scholarly estimate ~300,000; victims mostly Indigenous Quechua, rural, poor; program under Fujimori, director Eduardo Yong Motta; Mamerita Mestanza case)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Forced_sterilization_in_Peru",
+          "caveat": "Tertiary aggregator; official and scholarly sterilization counts differ and no aggregate death figure is given, which is why the numeric toll is null and the count is carried in the display string."
+        },
+        {
+          "kind": "press",
+          "cite": "OHCHR, 'Peru: Fujimori government's forced sterilisation policy violated women's rights, UN committee says in landmark ruling' (Oct 2024) — CEDAW committee finding of sex-based and intersectional discrimination against Indigenous, rural, poor women",
+          "supports": "summary",
+          "url": "https://www.ohchr.org/en/press-releases/2024/10/peru-fujimori-governments-forced-sterilisation-policy-violated-womens-rights",
+          "caveat": "AUDIT 2026-06-18: URL confirmed real via search (OHCHR returned 403 to the fetcher — bot-block, not a dead link). CEDAW found the policy amounted to sex-based/intersectional discrimination against Indigenous, rural, poor women and noted systematic forced sterilisation could constitute a crime against humanity; ~300,000 affected. UN human-rights body statement; establishes the legal characterization and victim profile, not a numerical toll."
+        },
+        {
+          "kind": "press",
+          "cite": "The Conversation, 'Forcibly sterilized during Fujimori dictatorship, thousands of Peruvian women demand justice' — ~300,000 sterilizations 1996–2000, disproportionately Indigenous; per-operation bonuses and quotas",
+          "supports": "summary",
+          "url": "https://theconversation.com/forcibly-sterilized-during-fujimori-dictatorship-thousands-of-peruvian-women-demand-justice-155086",
+          "caveat": "AUDIT 2026-06-18: confirmed real; the fetched text gives 272,028 sterilisations (1996–2001) and confirms quotas and the disproportionate targeting of Indigenous women. Academic-authored press explainer sympathetic to the victims; the ~300,000 figure is a scholarly estimate above the official ~260,874 count."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

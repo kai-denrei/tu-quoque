@@ -1,0 +1,193 @@
+{
+  "iso": "SAU",
+  "name": "Saudi Arabia",
+  "note": "Built from scratch 2026-06-18 via live web research; no prior seed existed. The two ledgers are deliberately ASYMMETRIC, and that asymmetry is itself the finding. The modern Saudi state (founded 1932, expanded out of the Najd from 1902) has suffered relatively few mass-atrocity events done TO its own people: the strongest victim entries are the World War I famine and siege that wracked the Hejaz (now western Saudi Arabia) before the Saudi state existed, and the Saudi state's own killing of its Shia minority in the Eastern Province — a victim event whose perpetrator is the Saudi state itself. By contrast the perpetrator side is heavy and well-documented: the Ikhwan massacre at Taif during the 1924 conquest of the Hejaz, and above all the Saudi-led coalition's war in Yemen since 2015, one of the deadliest conflicts of the 21st century. No figure or source was invented to balance the ledgers. Where a number could not be pinned to the Hejaz specifically it was left null and the event flagged UNVERIFIED. Country status RESEARCHED: the perpetrator side is firmly sourced; the WWI Hejaz toll is the principal unresolved gap.",
+  "events": [
+    {
+      "id": "sau-1",
+      "country": "SAU",
+      "role": "victim",
+      "title": "World War I Famine and the Siege of Medina in the Hejaz",
+      "era": "1916–1919",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The mass death in the Hejaz came from war-driven structural collapse — a naval blockade, Ottoman army requisitioning, a 1915–16 locust plague, and the long siege of Medina cutting off food — producing famine and disease rather than a campaign to exterminate a people, which is STR.",
+      "agent": "Multiple: the Ottoman army (requisitioning and the prolonged defence of besieged Medina), the British/Allied naval blockade of the Red Sea, and Sharif Hussein's Arab Revolt forces besieging Medina",
+      "toll": {
+        "display": "unknown for the Hejaz specifically (the widely cited ‘up to 500,000’ is a broader Greater Syria/Safarbarlik figure, not Hejaz-only)",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "No reliable death toll exists for the Hejaz alone. The commonly repeated figure of ‘up to 500,000 deaths by 1918’ (and a lower variant of ~300,000) is attached in the sources to the broader wartime famine across Greater Syria/the Levant under Ottoman wartime rule (Safarbarlik), not to the Hejaz specifically; attributing it to the Hejaz would be an error. The Hejaz genuinely suffered: hajj arrivals collapsed from ~300,000 (1912) to ~60,000 (1916), the Red Sea blockade choked grain imports the region depended on, and Medina (population ~75,000) endured a 2.5-year siege with shortage, locusts, and disease. But the Hejaz-specific mortality is not quantified in the available record. Left null and the event flagged UNVERIFIED. AUDIT QUARANTINE (2026-06-18): all three sources verified live — they are real and they support exactly what they are cited for, AND each independently confirms the absence of a Hejaz death toll (Away-from-the-Western-Front explicitly frames the 500,000 as Syria-wide, not Hejaz; both Medina-siege sources describe civilian hardship qualitatively with NO casualty figure). The null toll is therefore the correct, source-faithful answer, not a research gap to be filled. Event remains UNVERIFIED because a victim event with no quantifiable toll cannot be marked VERIFIED — the sources are sound but the central quantity is, on the present record, unknowable."
+      },
+      "received_lens": "suppressed",
+      "summary": "Through the First World War the Hejaz — the western coast and holy cities of what is now Saudi Arabia — was strangled by an Allied naval blockade, Ottoman army requisitioning, and a 1915–16 locust plague, while Medina endured a siege of more than two and a half years; pilgrim traffic the local economy lived on collapsed, and shortage and disease ground down the civilian population.",
+      "relevance": "A victim entry that predates the Saudi state — the people of the Hejaz suffering a war-driven famine — standing against a perpetrator ledger in which the Saudi state, once it absorbed the Hejaz, becomes the agent of atrocity elsewhere.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Arab Revolt\" — Away from the Western Front (project of the Western Front Association): records the 1915–16 locust plague, Ottoman requisitioning, and Red Sea blockade causing famine, with ‘up to 500,000 deaths estimated by 1918’",
+          "supports": "summary",
+          "url": "https://awayfromthewesternfront.org/campaigns/egypt-palestine-syria-arabia/arab-revolt/",
+          "caveat": "The ‘up to 500,000’ figure on this page applies to the broader region (Greater Syria), NOT the Hejaz specifically — it is cited here only for the famine's mechanism (blockade, locusts, requisitioning), not as a Hejaz death toll. Tertiary/educational source. AUDIT 2026-06-18: page verified live — exact text 'with up to 500,000 deaths estimated by 1918' confirmed, and confirmed to sit in the Syria/Ottoman-territory context, not the Hejaz. Caveat is accurate."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Siege of Medina\" — Wikipedia (siege 10 June 1916 – 10 January 1919; ~12,000-strong Ottoman garrison isolated; post-surrender looting of the city)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Medina",
+          "caveat": "Tertiary aggregator; the article documents the military siege and dates but provides no civilian death toll, which is precisely why the toll here is null. AUDIT 2026-06-18: verified live — siege dates (10 June 1916 – 10 January 1919), ~12,000 Ottoman garrison, and post-surrender looting (4,850 sealed houses) all confirmed; NO civilian mortality figure present."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "\"Medina, Siege of\" — 1914-1918-Online: International Encyclopedia of the First World War (peer-reviewed): the blockade and skirmishes beleaguered Medina's civilian population (~75,000), with shortages, locust infestation, and disease",
+          "supports": "summary",
+          "url": "https://encyclopedia.1914-1918-online.net/article/medina-siege-of/",
+          "caveat": "Scholarly reference; describes civilian hardship in qualitative terms without a quantified death count for the Hejaz. AUDIT 2026-06-18: verified live — peer-reviewed article 'Medina, Siege of' confirmed real; states civilian population 'estimated to be around 75,000' beleaguered by blockade, with 'Shortages, a locust infestation, and disease,' many inhabitants leaving or evacuated; NO quantified death toll, consistent with the null toll here."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "sau-2",
+      "country": "SAU",
+      "role": "victim",
+      "title": "State Killing of the Shia Minority in the Eastern Province (Qatif)",
+      "era": "1979–1983 (continuing thereafter)",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "The Saudi state deployed the National Guard and security services to crush a Shia protest movement and then persecuted the community over years — systematic, politically and sectarian-motivated killing and repression of a domestic group, which is POL rather than a war (WAR) or a campaign of physical extermination (EXT).",
+      "agent": "The Saudi state — the Saudi Arabian National Guard, the Ministry of Interior's General Directorate of Public Security, and the Mabahith (secret police)",
+      "toll": {
+        "display": "~20–24 killed in the 1979 uprising; ~182–219 cumulatively by 1983",
+        "disputed": true,
+        "low": 20,
+        "high": 219,
+        "unit": "deaths",
+        "note": "The November 1979 Qatif Uprising (Muharram Intifada) left an estimated 20–24 dead when the National Guard suppressed Ashura processions and protests. Cumulative deaths from the uprising plus the subsequent crackdown on Shia activists are put at roughly 182–219 by 1983. The Organization for the Islamic Revolution in the Arabian Peninsula (a Shia opposition group, and therefore an interested party) claimed 60 of its members died and 1,200 were arrested. Figures are modest in scale compared with this country's perpetrator ledger; disputed at the edges. Low = the 1979 event floor (corroborated independently by Wehrey/Carnegie: 'at least two dozen perished'), high = the cumulative-by-1983 ceiling. AUDIT QUARANTINE (2026-06-18): event set UNVERIFIED not because the toll is unsound — the 1979 floor is double-sourced (Wikipedia + Wehrey) — but because the scholarly source was MISATTRIBUTED in the original record (credited to Toby Matthiesen; the article is actually by Toby Craig Jones). The author has been corrected to the verified true author at the same URL/DOI. Once the corrected citation is independently re-confirmed in a future pass this event can return to VERIFIED; the toll figures themselves verify cleanly."
+      },
+      "received_lens": "suppressed",
+      "summary": "In late November 1979, inspired by the Iranian revolution and protesting decades of discrimination, the Shia of Qatif and al-Hasa in the oil-rich Eastern Province openly mourned Ashura in defiance of a ban; the Saudi National Guard crushed the processions, killing roughly twenty, and the state then spent years arresting, killing, and surveilling Shia activists.",
+      "relevance": "A victim entry in which the victims are Saudis but the agent is the Saudi state itself — the rare case where a country's own people appear in its victim ledger at the hands of its own rulers.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"1979 Qatif Uprising\" — Wikipedia (Muharram Intifada, late Nov 1979; National Guard deployed; 20–24 killed; cumulative 182–219 by 1983; OIR claims 60 members dead, 1,200 arrested)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/1979_Qatif_Uprising",
+          "caveat": "Tertiary aggregator; some figures originate with the Shia opposition (OIR), an interested party (audit note: OIR's full claim is 60 dead, 800 wounded, 1,200 arrested), and the cumulative 182–219 figure blends the uprising with later crackdowns. Wikipedia infobox and casualty figures (20–24; 182–219) verified live 2026-06-18."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Toby Craig Jones, \"Rebellion on the Saudi Periphery: Modernity, Marginalization, and the Shi'a Uprising of 1979,\" International Journal of Middle East Studies 38, no. 2 (May 2006): 213–233 (Cambridge University Press)",
+          "supports": "summary",
+          "url": "https://www.cambridge.org/core/journals/international-journal-of-middle-east-studies/article/abs/rebellion-on-the-saudi-periphery-modernity-marginalization-and-the-shia-uprising-of-1979/499FCA054963D10A97B9FBCC7BACE00C",
+          "caveat": "AUDIT CORRECTION (2026-06-18): the original record attributed this article to Toby Matthiesen; the article at this exact URL/DOI is in fact by Toby Craig Jones (IJMES vol. 38, no. 2, 2006, pp. 213–233), confirmed against Cambridge Core, Rutgers, Semantic Scholar, and Wikipedia. Toby Matthiesen is a real, separate Saudi-Shia scholar cited within Jones's article but is not its author. The work exists and supports the summary; only the author name was wrong and has been corrected (no source invented)."
+        },
+        {
+          "kind": "press",
+          "cite": "Carnegie Endowment for International Peace, \"The Forgotten Uprising in Eastern Saudi Arabia\" (2013)",
+          "supports": "summary",
+          "url": "https://carnegieendowment.org/research/2013/06/the-forgotten-uprising-in-eastern-saudi-arabia",
+          "caveat": "Carnegie/Frederic Wehrey, 'The Forgotten Uprising in Eastern Saudi Arabia,' verified live 2026-06-18: article exists, dated 14 June 2013, and independently corroborates 'at least two dozen Shia protesters perished' in 1979."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "sau-3",
+      "country": "SAU",
+      "role": "perpetrator",
+      "title": "The Taif Massacre and the Saudi Conquest of the Hejaz",
+      "era": "1924–1925",
+      "era_band": "colonial",
+      "tier": "POL",
+      "tier_reasoning": "During Ibn Saud's conquest of the Hejaz, his allied Ikhwan stormed Taif and massacred several hundred civilians — a deliberate mass killing of a captured town's inhabitants, classed POL (mass killing of a civilian population by political/military authority) rather than the structural mass death of STR.",
+      "agent": "The Ikhwan (Wahhabi Bedouin army of the Third Saudi State under Sultan bin Bajad and Khalid bin Luwai), allied to and fighting for Abdulaziz Ibn Saud",
+      "toll": {
+        "display": "~300–400 killed at Taif",
+        "disputed": false,
+        "low": 300,
+        "high": 400,
+        "unit": "deaths",
+        "note": "Sources converge on roughly 300–400 residents of Taif killed when the Ikhwan stormed/entered the city in late August–early September 1924 (the city fell on 29 August or was breached 3 September; sources differ). The figure is the Taif massacre specifically, not the wider 1924–25 conquest, for which a separate civilian death toll is not well quantified. Not seriously disputed at this range. AUDIT FLAG (2026-06-18): SINGLE-SOURCE TOLL — the 300–400 number in this record rests on one cited (tertiary) source, the Wikipedia 'Taif massacre' article, which in turn attributes it to Nadav Safran (1988) and Tim Niblock (1982). Both low and high ends derive from that one range, not two independent counts. The figure verified live and is the standard scholarly estimate, but it should be read as a single converging estimate, not as a span between independently sourced floor and ceiling."
+      },
+      "received_lens": "denied",
+      "summary": "In the opening move of Ibn Saud's conquest of the Hejaz, his allied Ikhwan tribesmen took the town of Taif after its Hashemite defenders fled, then rampaged through it and killed some three to four hundred residents; the slaughter helped collapse Hashemite morale, and within sixteen months Mecca, Medina, and Jeddah had fallen and the Saudi-Wahhabi state held the holy cities.",
+      "relevance": "The Saudi state's founding violence — the same Hejaz that appears as a victim of WWI famine is here conquered, with its civilians massacred, by the polity that becomes Saudi Arabia.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Taif massacre\" — Wikipedia (late Aug/early Sep 1924; Ikhwan under Sultan bin Bajad and Khalid bin Luwai; ~300–400 residents killed; first major episode of the Saudi conquest of Hejaz)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Taif_massacre",
+          "caveat": "Tertiary aggregator; the 300–400 range is the standard cited figure but rests on limited early-20th-century documentation of the event (underlying scholarly sources: Safran 1988, Niblock 1982). Verified live 2026-06-18: article confirms ~300–400 residents killed, Ikhwan under Sultan bin Bajad and Khalid bin Luwai, first major standoff of the Second Hashemite-Saudi War. This is the SOLE source carrying the toll figure (single-source toll)."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Saudi conquest of Hejaz\" — Wikipedia (Second Hejaz–Nejd War, Aug 1924 – Dec 1925; Ibn Saud declared jihad on Sharif Hussein; Mecca, Medina, Jeddah captured; Hashemite rule ended)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Saudi_conquest_of_Hejaz",
+          "caveat": "Tertiary aggregator; used for the campaign frame and timeline."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "sau-4",
+      "country": "SAU",
+      "role": "perpetrator",
+      "title": "The Saudi-Led Coalition War in Yemen",
+      "era": "2015–present",
+      "era_band": "contemporary",
+      "tier": "STR",
+      "tier_reasoning": "The bulk of the death toll comes from the war's structural effects — a coalition air campaign plus a blockade that, atop the fighting, drove famine, cholera, and the collapse of health care — making the dominant cause STR; the documented direct targeting of funerals, markets, hospitals, and a school bus are war crimes within that war (WAR) rather than a separate extermination campaign.",
+      "agent": "The Saudi-led coalition (Saudi Arabia commanding, with the UAE and others; armed and supported by the US, UK, and France), intervening in 2015 on behalf of the Yemeni government against the Houthi movement",
+      "toll": {
+        "display": "~150,000 direct war deaths (all parties) up to ~377,000 total deaths incl. indirect (UNDP, by end-2021); coalition airstrikes alone ~8,700–13,000 civilians",
+        "disputed": true,
+        "low": 150000,
+        "high": 377000,
+        "unit": "deaths",
+        "note": "Not all of this toll is attributable to Saudi Arabia alone — it is the toll of a war the Saudi-led coalition is a principal driver of. ACLED/Yemen Data Project counted over 150,000 direct (combat) deaths from all parties between March 2015 and June 2019 (incl. ~15,000 civilians directly targeted); the UNDP estimated ~377,000 total deaths by end-2021, of which roughly 60% (~227,000) were indirect — hunger, disease, collapsed health care — with ~70% of all the dead being children under five. For coalition airstrikes specifically: the Yemen Data Project attributes ~8,672 civilian deaths to coalition air raids, and the Legal Center for Rights and Development (a Houthi-aligned monitor, hence caveated) cites ~12,907. Disputed both in total and in apportionment; low = direct all-party deaths, high = UNDP total including indirect. AUDIT (2026-06-18): both ends sourced and verified live. HIGH (377,000) is double-sourced — Al Jazeera reporting + the underlying UNDP/Pardee study, both confirmed (377,000, ~60% indirect, ~70% children under five). LOW (~150,000) verified: the YDP/ACLED 'over 150,000 killed as a direct result of military action, March 2015–June 2019' figure is real and standard (note the YDP source object below carries this figure; it is tagged 'summary' rather than 'toll.low' but does support the low end). Coalition-airstrike sub-figures (8,672 / 12,907) and the Oct 2016 Sanaa funeral-hall strike (~140 killed, ~600 wounded) verified against Wikipedia live."
+      },
+      "received_lens": "contested",
+      "summary": "Since March 2015 the Saudi-led coalition has waged an air war in Yemen and imposed a blockade, striking funerals, markets, hospitals, and — in August 2018 — a school bus full of children, while the war and the choking of imports drove famine and the world's worst cholera outbreak; by the UN's count some 377,000 people had died by the end of 2021, most of them from hunger and disease, most of those small children.",
+      "relevance": "Saudi Arabia's gravest perpetrator entry by far — a 21st-century war that dwarfs anything in its victim ledger — prosecuted with Western arms and largely without Western accountability.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "Al Jazeera, \"Yemen war deaths will reach 377,000 by end of the year: UN\" (23 Nov 2021), reporting the UNDP \"Assessing the Impact of War in Yemen\" study (377,000 total deaths; ~60% indirect; ~70% of dead are children under five)",
+          "supports": "toll.high",
+          "url": "https://www.aljazeera.com/news/2021/11/23/un-yemen-recovery-possible-in-one-generation-if-war-stops-now",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "UNDP, \"Assessing the Impact of War in Yemen: Pathways for Recovery\" (2021) — the underlying study projecting 377,000 deaths by end-2021 (direct + indirect)",
+          "supports": "toll.high",
+          "url": "https://www.undp.org/publications/assessing-impact-war-yemen-pathways-recovery",
+          "caveat": "The 377,000 is the toll of the war as a whole (all parties and indirect causes), not deaths caused by Saudi forces alone; used here as the total-toll ceiling, with apportionment discussed in toll.note. AUDIT 2026-06-18: direct fetch returned HTTP 403 (anti-bot block, not a dead link); existence and the 377,000 / ~60% indirect figures independently confirmed via web search (UNDP/Pardee Center, Nov 2021) and via the Al Jazeera source above. VERIFIED."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Saudi-led intervention in the Yemeni civil war\" — Wikipedia (intervention began 26 March 2015; Yemen Data Project ~8,672 civilians killed by coalition airstrikes; Oct 2016 Sanaa funeral-hall strike, ~140 killed/600 wounded; LCRD ~12,907 civilians killed)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Saudi-led_intervention_in_the_Yemeni_civil_war",
+          "caveat": "Tertiary aggregator; the LCRD (Legal Center for Rights and Development) is Houthi-aligned and an interested party, so its higher civilian figure is treated as a contested maximum, not a neutral count."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Yemen Data Project — independent monitor cataloguing coalition air raids (25,000+ air raids logged; civilian casualties from airstrikes documented incident-by-incident)",
+          "supports": "summary",
+          "url": "https://yemendataproject.org/",
+          "caveat": "Independent data project; counts coalition airstrikes specifically (one party's air war), not total war deaths. Verified live 2026-06-18: 25,054 coalition air raids logged (Mar 2015–Apr 2022); this monitor also underpins the ~150,000 direct-deaths low-end figure (YDP/ACLED) used in toll.low."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

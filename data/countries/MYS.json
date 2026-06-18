@@ -1,0 +1,218 @@
+{
+  "iso": "MYS",
+  "name": "Malaysia",
+  "note": "Two ledgers held together. As victim, the lands that became Malaysia were bled most heavily by outsiders: Imperial Japan's 1942 Sook Ching massacre of ethnic Chinese and the romusha forced-labour system worked Malayans to death by the tens of thousands, and British colonial forces shot 24 unarmed civilians at Batang Kali during the Malayan Emergency. As perpetrator, the independent Malaysian state's own record is real but smaller in scale: the 1969 racial violence, in which official accounts blame inter-communal rioting but declassified documents and scholars point to a documented shoot-to-kill order and security-force partiality that left mostly Chinese civilians dead, and the 1985 Memali siege, in which Malaysian police killed fourteen villagers. The asymmetry is genuine — the worst mass death on Malaysian soil was inflicted by occupiers and colonisers, not by the post-independence state — and the ledger reflects that without inventing perpetrator events to balance it. Tiers tag the act, never the nation, and there is no ranking.",
+  "events": [
+    {
+      "id": "mys-1",
+      "country": "MYS",
+      "role": "victim",
+      "title": "Sook Ching: the Japanese massacre of ethnic Chinese in Malaya",
+      "era": "1942",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "Japanese forces deliberately rounded up and killed ethnic Chinese as a targeted group — branded 'anti-Japanese' on the basis of ethnicity — in systematic screenings and indiscriminate mass shootings, the destruction of part of a community singled out by identity, so EXT.",
+      "agent": "Imperial Japan (the 25th Army and Kempeitai military police, screenings ordered under Lt-Gen. Tomoyuki Yamashita and directed in the field by staff officer Lt-Col. Masanobu Tsuji)",
+      "toll": {
+        "display": "~20,000–50,000+ ethnic Chinese killed in Malaya (Singapore-plus-Malaya estimates run from ~25,000 to ~100,000; Malayan-only figures are contested)",
+        "disputed": true,
+        "low": 20000,
+        "high": 50000,
+        "unit": "deaths",
+        "note": "Counts are deeply contested and bodies were dumped in mass graves. For the Malayan peninsula specifically, reference summaries cite on the order of 20,000 civilians killed, with up to ~25,000 sometimes attributed to Johor state alone. For Singapore and Malaya combined, estimates range from a postwar Japanese acknowledgement of ~5,000, through scholarly bands of 25,000–55,000, to Chinese-community and Singaporean claims of 50,000–100,000; Chinese sources cited a figure of ~97,000 imprisoned or killed across both territories. The low/high here bracket the commonly cited Malayan range; the higher combined figures are noted but not used as the Malayan toll to avoid double-counting Singapore."
+      },
+      "received_lens": "memorial",
+      "summary": "When Japan overran Malaya and Singapore in early 1942 its military launched the Sook Ching ('purge through cleansing'): ethnic Chinese men were summoned to screening centres, and those judged anti-Japanese — often arbitrarily — were trucked to beaches and quarries and shot, while in the dispersed Malayan countryside the Kempeitai simply carried out indiscriminate mass killings of Chinese villages. Tens of thousands died across the peninsula in February and March 1942, including killings across Johor. Mass graves were still being located by researchers decades later, and the killings are now publicly memorialised in Malaysia.",
+      "relevance": "Malaysia's people as the targeted victims of an occupying empire — the same wartime Japanese system whose romusha labour and food seizures also fill the victim ledgers of Indonesia and others.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Sook Ching,' Wikipedia, summarizing the ~20,000 Malayan-peninsula estimate, Johor figures, and the 25,000–55,000 / 5,000–100,000 combined ranges",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Sook_Ching",
+          "caveat": "Reference aggregator, verified 2026-06-18; confirmed to carry the ~20,000 Malayan-peninsula figure ('another 20,000 civilians killed on the Malayan Peninsula'), the up-to-25,000 Johor figure, the contested combined ranges (Japanese ~6,000 vs Singaporean/LKY ~70,000–100,000), and to identify Yamashita and Tsuji (Tsuji named 'the mastermind'). Tolls are explicitly contested; used to bracket the Malayan range, not as a precise count."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Japanese occupation of Malaya,' Wikipedia, citing the ~50,000+ Sook Ching figure and a Chinese-source figure of ~97,000 imprisoned or killed across Singapore and Malaya",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Japanese_occupation_of_Malaya",
+          "caveat": "Reference aggregator, verified 2026-06-18; confirmed to give 'an estimated 50,000 or more ethnic Chinese were killed' for the Sook Ching and a Chinese-source claim of ~97,000 imprisoned/killed across both territories. The higher figures mix Singapore with Malaya and include imprisonment, so they are flagged and not used as the Malayan-only count."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Frances Tay, 'Remembering the Japanese occupation massacres: mass graves in post-war Malaysia,' in Human Remains and Identification (Manchester University Press, 2015), ch. 10",
+          "supports": "summary",
+          "url": "https://www.universitypressscholarship.com/view/10.7228/manchester/9780719097560.001.0001/upso-9780719097560-chapter-10",
+          "caveat": "Real scholarly chapter by Dr Frances Tay (Manchester UP, 2015; also on JSTOR / De Gruyter / Manchester Research Explorer), verified 2026-06-18; supports the mass-grave and post-war memorialisation narrative. The publisher URL given (universitypressscholarship.com) is a legacy domain Oxford has since retired, but the chapter and author are confirmed real and the work exists. Full text paywalled."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "mys-2",
+      "country": "MYS",
+      "role": "victim",
+      "title": "Japanese occupation forced labour: Malayans on the Burma–Siam Railway",
+      "era": "1942–1945",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Mass death came from coerced labour worked under lethal conditions on a wartime military project, with starvation, beatings and disease killing a large share of those conscripted — forced-labour death of a subject population in war rather than a programme to destroy a group, so WAR.",
+      "agent": "Imperial Japan (the occupying military administration that conscripted Malayans as romusha labourers for the Thai–Burma 'Death Railway')",
+      "toll": {
+        "display": "~25,000 Malayan forced labourers died on the Thai–Burma Railway (of ~73,000 conscripted)",
+        "disputed": true,
+        "low": 25000,
+        "high": 25000,
+        "unit": "deaths",
+        "note": "SINGLE-NUMBER TOLL (low=high=25,000), flagged. The 'Japanese occupation of Malaya' Wikipedia article (verified 2026-06-18) states some 73,000 Malayans were coerced onto the Thai–Burma Railway with an estimated 25,000 dying; this is the only defensible Malayan-specific figure found and is sourced for both ends. Wider Asian romusha death figures (often quoted in the 80,000–100,000+ range, and a ~150,000 Tamil/Indian-labourer figure) circulate in the literature but blur Malayan, Tamil, Burmese and other nationalities together and overlap the broader Indian-labourer toll, so they are not used here; low and high are set equal at ~25,000 rather than fabricating a spread."
+      },
+      "received_lens": "suppressed",
+      "summary": "Beyond the Sook Ching shootings, the Japanese occupation killed Malayans wholesale through forced labour: tens of thousands were conscripted as romusha and shipped to build the Thai–Burma 'Death Railway', where starvation, cholera, beatings and overwork killed roughly a third of those sent. Of about 73,000 Malayans coerced onto the project, an estimated 25,000 never returned, and the wider region's wartime rice shortages and requisitioning brought malnutrition and disease to those who stayed behind.",
+      "relevance": "Malaysia-as-victim of an occupier's labour system — the same romusha machinery whose far larger Javanese death toll anchors Indonesia's victim ledger.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Japanese occupation of Malaya,' Wikipedia, citing ~73,000 Malayans coerced onto the Thai–Burma Railway with an estimated 25,000 dying",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Japanese_occupation_of_Malaya",
+          "caveat": "Reference aggregator, verified 2026-06-18; confirmed to carry the ~73,000-conscripted / ~25,000-dead Malayan figures (supporting both ends of this single-number toll). It does NOT itself carry the 80,000–100,000 region-wide figures — those come from the broader romusha literature and are not attributed to this source; only the Malayan-specific ~25,000 is used as the toll."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Paul H. Kratoska, 'The Japanese Occupation of Malaya and Singapore, 1941–45: A Social and Economic History' (NUS Press, 2nd ed. 2018)",
+          "supports": "summary",
+          "url": "https://nuspress.nus.edu.sg/products/the-japanese-occupation-of-malaya-and-singapore-1941-45",
+          "caveat": "Standard scholarly history of the occupation by Paul H. Kratoska (NUS Press, 2nd ed. 2018, ISBN 978-9971696382, 446pp), verified 2026-06-18 via NUS Press, Cambridge Core and the National Library of Australia catalogue; supports the forced-labour, requisitioning and famine narrative. Used for the qualitative summary, not for a specific toll."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "mys-3",
+      "country": "MYS",
+      "role": "victim",
+      "title": "Batang Kali massacre",
+      "era": "1948",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "British colonial soldiers separated and then shot 24 unarmed male civilians during a counter-insurgency sweep — an unlawful killing of detained non-combatants that British courts later acknowledged was possibly a war crime, so WAR.",
+      "agent": "British colonial state (a patrol of the 2nd Battalion, Scots Guards) during the Malayan Emergency",
+      "toll": {
+        "display": "24 unarmed male villagers killed",
+        "disputed": false,
+        "low": 24,
+        "high": 24,
+        "unit": "deaths",
+        "note": "The figure of 24 unarmed men killed at Sungai Rimoh near Batang Kali, Selangor, on 12 December 1948 is consistently reported; one adult male, Chong Hong, survived by feigning death. The death count is not seriously disputed — what is contested is whether the killings were lawful 'shootings while escaping' (the original Scots Guards account) or a deliberate massacre of detainees (the survivors' account, accepted by later commentators)."
+      },
+      "received_lens": "contested",
+      "summary": "During the Malayan Emergency, a Scots Guards patrol surrounded a rubber-estate village at Sungai Rimoh near Batang Kali, separated the men from the women and children, and shot 24 unarmed men dead, claiming they had been trying to escape. Survivors and relatives spent decades fighting for a public inquiry; British courts in the 2010s (and the European Court of Human Rights in 2018) acknowledged the men had been unlawfully killed in what was possibly a war crime but declined to order an inquiry on grounds of the time elapsed, and on 31 March 2025 the UK government (in a letter from Indo-Pacific minister Catherine West) expressed 'deep regret' for the killings and acknowledged the false 'bandit' narrative against the victims.",
+      "relevance": "Malaysia's people as victims of their colonial ruler's counter-insurgency — the British state on the perpetrator side of the same emergency Malaysia would later fight in its own name.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Batang Kali massacre,' Wikipedia",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Batang_Kali_massacre",
+          "caveat": "Reference aggregator, verified 2026-06-18. Carries the 24-dead figure, the date (12 Dec 1948), the Scots Guards as perpetrators, the survivor Chong Hong, and the 'escaping' vs 'massacre' dispute."
+        },
+        {
+          "kind": "press",
+          "cite": "'Batang Kali: A British massacre in colonial Malaya and a fight for justice,' Al Jazeera (11 Dec 2023)",
+          "supports": "summary",
+          "url": "https://www.aljazeera.com/news/longform/2023/12/11/batang-kali-a-british-massacre-in-colonial-malaya-and-a-fight-for-justice",
+          "caveat": "Press long-read by Kevin Doyle, verified 2026-06-18; corroborates the killings, the decades-long campaign for justice and the legal outcome (High Court 2012, Court of Appeal 2014, Supreme Court 2015, ECtHR 2018 all declined). Journalistic source, used for narrative corroboration, not as the primary toll authority."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "mys-4",
+      "country": "MYS",
+      "role": "perpetrator",
+      "title": "The 13 May 1969 racial violence",
+      "era": "1969",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Beyond spontaneous inter-communal rioting, declassified documents and scholars describe a security-force shoot-to-kill order and soldiers firing on mostly Chinese civilians, with allegations the ruling party's faction abetted the violence — organised, identity-targeted political killing with state involvement, so POL; the contested official framing as mere rioting is noted.",
+      "agent": "Inter-communal mobs amid post-election tension, but with a documented role by Malaysian security forces (a police/military shoot-to-kill order and partiality against Chinese), and — on Kua Kia Soong's reading of declassified files — elements of the ruling UMNO",
+      "toll": {
+        "display": "196 dead (official) to ~600–800+ (diplomatic and observer estimates), most victims Chinese",
+        "disputed": true,
+        "low": 196,
+        "high": 800,
+        "unit": "deaths",
+        "note": "The official National Operations Council figure was 196 deaths (143 Chinese, 25 Malay, 13 Indian, 15 others). Western diplomatic sources put the toll near 600 and observer John Slimming estimated around 800 in the first week, with some observers citing four-figure numbers. The discrepancy stems from authorities burying or dumping bodies — reportedly in the Klang River and tin mines — without inquests. The low is the official count; the high is the widely cited observer figure; higher four-figure claims exist but are less firmly sourced."
+      },
+      "received_lens": "contested",
+      "summary": "After the May 1969 general election, opposition victory parades and a planned UMNO counter-procession touched off communal fighting in Kuala Lumpur on 13 May. Hospital records show the first casualties were Chinese with parang wounds, but after a shoot-to-kill order around 8:30 pm victims were overwhelmingly Chinese with gunshot wounds, and foreign correspondents reported soldiers firing into Chinese shophouses; the state suspended parliament and ruled through a National Operations Council for eighteen months. The official report blamed racial politics while denying security-force partiality, but declassified British files and the scholar Kua Kia Soong argue UMNO figures, backed by police and army, helped instigate the violence.",
+      "relevance": "Malaysia on the perpetrator side: a post-independence state whose own forces, by the documentary record, killed civilians of a targeted community — the dual lens turned on the nation that was itself a victim of occupation and colonial massacre.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'13 May incident,' Wikipedia, summarizing the 196 official deaths, the shoot-to-kill order, the casualty pattern, and the higher diplomatic/observer estimates",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/13_May_incident",
+          "caveat": "Reference aggregator, verified 2026-06-18. Carries the official 196 toll and breakdown, the shoot-to-kill order timing, the Chinese-gunshot casualty pattern, and the ~600/~800 higher estimates. The contested instigation question is genuinely disputed; framing follows the documented security-force role rather than asserting a single cause."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Kua Kia Soong, 'May 13: Declassified Documents on the Malaysian Riots of 1969' (SUARAM, 2007)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/May_13:_Declassified_Documents_on_the_Malaysian_Riots_of_1969",
+          "caveat": "Partisan source: Kua is an opposition-aligned activist-scholar and the book advances a specific thesis (that an UMNO 'state-capitalist class', backed by police and army, engineered the riots as a coup against Tunku Abdul Rahman). It is based on real declassified UK Public Record Office files but its interpretation is contested; cited for the higher death estimates and the security-force-involvement reading, flagged as one contested interpretation."
+        },
+        {
+          "kind": "press",
+          "cite": "'Fifty years on, fateful race riots still haunt Malaysia,' Asia Times (2019)",
+          "supports": "tier",
+          "url": "https://asiatimes.com/2019/05/fifty-years-on-fateful-race-riots-still-haunt-malaysia/",
+          "caveat": "Press retrospective by Nile Bowie (Asia Times, 29 May 2019), verified 2026-06-18; corroborates the contested historiography (official 'spontaneous riot' narrative vs Kua orchestration claims), the ~800 high estimate and the predominantly Chinese gunshot-wound death toll. Journalistic source used for context, not as a toll authority."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "mys-5",
+      "country": "MYS",
+      "role": "perpetrator",
+      "title": "The Memali Incident",
+      "era": "1985",
+      "era_band": "contemporary",
+      "tier": "STR",
+      "tier_reasoning": "A state police operation to arrest a religious leader and his followers turned lethal, killing fourteen villagers and four police — deaths arising from a state security action whose proportionality is disputed, fitting STR (state violence in a security operation) rather than a programme to destroy a group.",
+      "agent": "The Malaysian state (about 200 Royal Malaysia Police personnel, on orders from Deputy Prime Minister and Home Affairs Minister Musa Hitam, under the Mahathir Mohamad government)",
+      "toll": {
+        "display": "18 killed (14 villagers and 4 policemen)",
+        "disputed": false,
+        "low": 18,
+        "high": 18,
+        "unit": "deaths",
+        "note": "Consistently reported as 14 villagers and 4 policemen killed in the siege at Kampung Memali, Baling, Kedah, on 19 November 1985. The death count is not seriously disputed; what is contested is the operation's conduct and proportionality, the official 'criminals/deviationists' characterisation versus the PAS framing of the dead as martyrs, and the long-suppressed fact that Mahathir was in the country, not abroad, at the time."
+      },
+      "received_lens": "contested",
+      "summary": "In November 1985 about two hundred Malaysian police laid siege to Kampung Memali in Kedah to arrest Ibrahim Mahmud ('Ibrahim Libya'), a former PAS candidate and Islamic teacher whom the government accused of spreading deviant teachings and resisting arrest under the Internal Security Act. The assault left fourteen villagers and four policemen dead. The government's white paper called the dead criminals; the opposition called them martyrs, and a Royal Commission of Inquiry was repeatedly refused, with survivors still seeking accountability decades later.",
+      "relevance": "A clear-cut perpetrator entry for the post-independence Malaysian state: lethal force by its own police against its own citizens, on the same ledger as the occupation and colonial massacres done to Malaysia's people.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Memali Incident,' Wikipedia",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Memali_Incident",
+          "caveat": "Reference aggregator, verified 2026-06-18. Carries the date, the ~200 police, Musa Hitam's order, the 14-villager / 4-police death toll, the ISA basis, and the white-paper vs martyrdom dispute."
+        },
+        {
+          "kind": "press",
+          "cite": "'Kampung Memali, where people still wait for Mahathir's apology,' Free Malaysia Today (17 Aug 2017)",
+          "supports": "summary",
+          "url": "https://www.freemalaysiatoday.com/category/nation/2017/08/17/kampung-memali-where-people-still-wait-for-mahathirs-apology",
+          "caveat": "Press report (Free Malaysia Today, 17 Aug 2017), verified 2026-06-18 (URL is live but anti-bot-blocked to automated fetch; existence and content confirmed via search index); corroborates the 18-dead toll, the unresolved demands for an inquiry, and the disputed accountability of Mahathir and Musa Hitam. Journalistic source used for corroboration and aftermath."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

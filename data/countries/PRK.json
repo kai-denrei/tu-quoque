@@ -1,0 +1,172 @@
+{
+  "iso": "PRK",
+  "name": "North Korea",
+  "note": "North Korea is the rare case where the heavier ledger, by sheer numbers, is the one done TO its people — but the perpetrator was never only outsiders. As victim: the United States and UN air campaign of 1950-53 that flattened nearly every North Korean city and killed civilians on a scale that shocked even the airmen who ran it (tier WAR), and the 1990s famine, the 'Arduous March', a structural mass death (tier STR) that the regime's own policies caused and then concealed. As perpetrator: the Korean People's Army's massacres of civilians and prisoners during the war (tier WAR), and the political prison camp system, the kwanliso, which a UN Commission of Inquiry found amounts to a crime against humanity of extermination (tier EXT). The dual lens is unusually pointed here: the famine sits on the victim ledger by who died, but the agency was largely the Kim regime's own — the same state that runs the camps. Every toll below is genuinely contested, with the famine and the war-period figures spanning nearly an order of magnitude; each carries a sourced low and high, and none was invented to balance the columns. The largest single uncertainty is that North Korea is the most closed state on earth, so independent verification of any internal figure is structurally impossible — most camp and famine numbers rest on defector testimony, satellite imagery, and demographic reconstruction rather than records.",
+  "events": [
+    {
+      "id": "prk-1",
+      "country": "PRK",
+      "role": "victim",
+      "title": "The US and UN bombing of North Korea",
+      "era": "1950-1953",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "A sustained aerial campaign by an enemy coalition that destroyed cities and killed civilians as a method of war (WAR); it was not a programme to exterminate the Korean people as a group (EXT) nor a disease-driven demographic collapse (STR).",
+      "agent": "United States Air Force and US Navy, with UN allied air forces — the Far East Air Forces under General Otis Weyland and the firebombing doctrine associated with General Curtis LeMay, dropping conventional bombs and napalm on North Korean cities and infrastructure across 1950-53",
+      "toll": {
+        "display": "~282,000 bombing deaths (Soviet ambassador's report) up to ~1.2-1.5 million total North Korean war dead (Armstrong, 12-15% of population); LeMay claimed ~20% of the population died in the war overall",
+        "disputed": true,
+        "low": 282000,
+        "high": 1500000,
+        "unit": "deaths",
+        "note": "The low figure (~282,000) is a Soviet ambassador's contemporary estimate of deaths from bombing raids specifically, cited by Chosun Ilbo (2001). The high figure (~1.2-1.5 million) is historian Charles Armstrong's estimate of total North Korean deaths during the war (12-15% of the population), which includes ground combat, disease and starvation, not bombing alone. General Curtis LeMay claimed in 1988 that roughly 20% of North Korea's population died as casualties of war or from starvation and exposure. The bombing-specific civilian toll cannot be cleanly isolated from total war deaths; the range here spans the narrowest sourced (bombing-only) and the broadest sourced (all war causes) figures, hence the caveat."
+      },
+      "received_lens": "denied",
+      "summary": "Across three years of war, the US and its UN allies dropped some 635,000 tons of bombs and 32,557 tons of napalm on Korea, most of it on the North, and by the armistice 18 of the North's 22 major cities had been at least half destroyed; Pyongyang was said to have almost no buildings left standing. Estimates of the dead run from a Soviet count of around 282,000 from bombing to historian Charles Armstrong's figure of 1.2 to 1.5 million total North Korean war deaths. The man who ran much of the campaign, Curtis LeMay, later said they had killed off about a fifth of the population. In the United States the campaign is largely unremembered; in North Korea it is the founding national trauma the regime invokes to this day.",
+      "relevance": "Before North Korea was the prison state of the headlines, its people were on the receiving end of one of the most destructive bombing campaigns in history — the victim ledger that the Kim regime weaponises, and the West forgets.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Bombing of North Korea', Wikipedia — the 635,000 tons of bombs and 32,557 tons of napalm, the destruction of 18 of 22 major cities, the Soviet ambassador's ~282,000 bombing-death estimate (via Chosun Ilbo 2001), Charles Armstrong's 12-15% / ~1.2-1.5 million total-deaths figure, and LeMay's 20% statement",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Bombing_of_North_Korea",
+          "caveat": "Tertiary encyclopaedia compiling a Soviet diplomatic estimate, a Western historian's demographic figure, and LeMay's own retrospective claim; none is an independently verified body count and the bombing-specific toll cannot be isolated from total war deaths. AUDIT (2026-06-18): every figure attached to this source was re-confirmed against the live article — 635,000 tons of bombs, 32,557 tons of napalm, 18 of 22 cities >=50% destroyed, the Soviet/Razuvaev ~282,000 bombing-death estimate (the toll.low anchor), the Armstrong 12-15% / 1.2-1.5M figure, and the verbatim LeMay '20 percent of the population' quote all present. This source thus carries BOTH toll ends; toll.low is sourced here, toll.high additionally by the Armstrong source below."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Charles K. Armstrong, 'The Destruction and Reconstruction of North Korea, 1950-1960', The Asia-Pacific Journal: Japan Focus (2009) — estimate of total North Korean war deaths and account of the scale of destruction",
+          "supports": "toll.high",
+          "url": "https://apjjf.org/charles-k-armstrong/3460/article",
+          "caveat": "Peer-reviewed area-studies journal; the 12-15% / 1.2-1.5 million figure is a demographic estimate, not a body count. AUDIT (2026-06-18): article verified to exist and to contain this figure (confirmed via the 'Bombing of North Korea' Wikipedia article and the apjjf PDF copy at apjjf.org/wp-content/uploads/2023/11/article-2488.pdf; the apjjf article URL itself returns HTTP 403 to automated fetchers but is a real, live page). The separate plagiarism controversy is real but concerns Armstrong's later 2013 book 'Tyranny of the Weak' (Columbia found 61+ instances of fabricated/irrelevant citations; he returned the Fairbank Prize in 2017; a 2005 Cold War History article was retracted in 2020) — it does NOT impugn this 2009 destruction-scale article, which is independently corroborated and widely cited."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "prk-2",
+      "country": "PRK",
+      "role": "victim",
+      "title": "The Arduous March famine",
+      "era": "1994-1998",
+      "era_band": "contemporary",
+      "tier": "STR",
+      "tier_reasoning": "A mass death from starvation and hunger-related disease driven by structural collapse of the food system (STR); though state policy and concealment deepened it, it was not a deliberate programme to destroy a defined group (EXT) nor a battlefield killing (WAR).",
+      "agent": "The North Korean state under Kim Jong Il — a centrally planned food system that collapsed after the loss of Soviet support, worsened by floods and drought, and a regime that prioritised the military and the elite, restricted aid access, and concealed the scale of death",
+      "toll": {
+        "display": "~240,000-3,500,000 (full span of estimates); US Census Bureau ~500,000-600,000 excess deaths; Goodkind/West and Haggard-Noland ~600,000-1 million; Natsios/USAID 2-3.5 million; DPRK government claims ~225,000-235,000",
+        "disputed": true,
+        "low": 500000,
+        "high": 1000000,
+        "unit": "deaths",
+        "note": "Estimates span 240,000 to 3,500,000. The North Korean government claims only 225,000-235,000 died. The US Census Bureau (2011) estimated about 500,000-600,000 excess deaths over 1993-2000. The most-cited scholarly mid-range — the Goodkind/West demographic study and Haggard and Noland's 2007 economic study — is 600,000 to 1 million dead, roughly 3-5% of the population. USAID's Andrew Natsios argued for a much higher 2-3.5 million. The low/high here use the widely accepted scholarly mid-range (US Census low end to the Goodkind/Haggard-Noland upper bound) rather than the extreme ends; the full span is shown in the display string because the dispute is large."
+      },
+      "received_lens": "denied",
+      "summary": "After the Soviet bloc collapsed in 1991, North Korea's centrally planned economy lost the cheap fuel and food it depended on; floods and drought finished off a fragile harvest, and the public distribution system that fed most of the country simply stopped delivering. Through the mid-1990s, in a period the regime called the 'Arduous March', somewhere between half a million and a million North Koreans starved to death or died of hunger-related disease — the worst toll falling on the north-east, the provinces the regime fed last. Pyongyang restricted where foreign aid workers could go, prioritised the army and the elite, and for years denied the scale of the dying.",
+      "relevance": "The clearest illustration of the dual lens within a single country: the dead belong on the victim ledger, but the agency was overwhelmingly the same regime that runs the camps — a people starved by its own state.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'1990s North Korean famine', Wikipedia — the 240,000-3,500,000 span, the DPRK's own 225,000-235,000 claim, the US Census Bureau (2011) 500,000-600,000 excess-deaths estimate, the Goodkind/West and Haggard-Noland 600,000-1 million range, and Natsios's 2-3.5 million figure",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/1990s_North_Korean_famine",
+          "caveat": "Tertiary encyclopaedia; the toll is genuinely unresolved across nearly an order of magnitude, the DPRK low end is a self-serving government claim, and the Natsios high end is an advocacy-influenced upper bound."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Stephan Haggard & Marcus Noland, 'Famine in North Korea: Markets, Aid, and Reform' (Columbia University Press, 2007) — economic and demographic analysis arriving at roughly 600,000-1 million deaths and documenting the role of state policy, aid diversion and regional discrimination",
+          "supports": "toll.low",
+          "url": "https://www.piie.com/bookstore/famine-north-korea-markets-aid-and-reform",
+          "caveat": "AUDIT (2026-06-18): book verified to exist (Columbia University Press, 2007, ISBN 9780231140003; PIIE bookstore page live and confirms 'as many as one million North Koreans died') and to ground the 600,000-1 million estimate underpinning both toll ends."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Daniel Goodkind & Loraine West, 'The North Korean Famine and Its Demographic Impact', Population and Development Review 27(2): 219-238 (2001) — demographic reconstruction concluding famine-related deaths most likely numbered between 600,000 and 1 million",
+          "supports": "toll.low",
+          "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1728-4457.2001.00219.x",
+          "caveat": "Demographic estimate built on incomplete and partly North-Korean-supplied population data, so the figure is a reconstruction rather than a count. AUDIT (2026-06-18): article verified to exist (Population and Development Review 27(2):219-238, 2001; DOI 10.1111/j.1728-4457.2001.00219.x; PubMed 18581641) and to conclude a 600,000-1,000,000 range, which corroborates BOTH toll ends; URL switched from a ResearchGate mirror to the publisher (Wiley) of record."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "prk-3",
+      "country": "PRK",
+      "role": "perpetrator",
+      "title": "KPA massacres of civilians and prisoners in the Korean War",
+      "era": "1950-1953",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Mass killing of civilians and captured soldiers by an army during occupation and retreat — atrocities in the conduct of war (WAR), distinct from a sustained programme to destroy a group as such (EXT).",
+      "agent": "The Korean People's Army and North Korean political-security cadres under Kim Il Sung — carrying out 'people's trial' executions of suspected collaborators in occupied South Korea, mass killings of detainees during the post-Inchon retreat, and the killing of South Korean and American prisoners of war on forced marches and in captivity, 1950-53",
+      "toll": {
+        "display": "~100,000s of civilians (Kim Gwang-dong / South Korean estimate); Rummel estimates North Korea's total Korean War democide near 500,000, including ~5,000-12,000 ROK and ~5,000-6,000 US POWs killed",
+        "disputed": true,
+        "low": 100000,
+        "high": 500000,
+        "unit": "deaths",
+        "note": "Figures are highly uncertain. South Korean researcher Kim Gwang-dong (2003) estimated the civilians killed by North Korea during the war number in the hundreds of thousands; South Korea's Truth and Reconciliation Commission found that of the war-era massacres it was petitioned to investigate, 18% were attributed to North Korean forces (82% to South Korean forces). R.J. Rummel estimated North Korea's total Korean War 'democide' at close to 500,000, a figure that controversially folds in roughly 225,000 impressed South Koreans who died in KPA service plus POW killings (~5,000-12,000 ROK and ~5,000-6,000 US prisoners). The low/high bracket the civilian-massacre estimate and Rummel's broad democide total; precise counts are impossible. QUARANTINE (audit 2026-06-18): event held at UNVERIFIED. Both cited sources were confirmed real and to contain the figures attributed to them — the 'War crimes in the Korean War' Wikipedia article does carry the Kim Gwang-dong 'hundreds of thousands' civilian figure (the toll.low anchor) and the 18%/82% T&RC attribution split, and Rummel's 'Statistics of North Korean Democide' page does state '~500,000' and break out the POW and impressed-conscript components. The quarantine is NOT a source-fabrication finding; it reflects that (a) Rummel explicitly labels the numbers 'little more than educated guesses', (b) the toll.high (500,000) is a single-source 'democide' total that folds in ~225,000 impressed conscripts killed in combat, which is not civilian massacre and inflates the figure beyond what the WAR framing claims, and (c) the same Korean T&RC found the large majority (82%) of investigated war-era massacres were committed by the SOUTH Korean side, so the North's share, while large in absolute terms, is a contested minority of the war's killings. The figures stand as honestly sourced but too soft to certify."
+      },
+      "received_lens": "denied",
+      "summary": "When the Korean People's Army overran most of South Korea in 1950, its political cadres ran 'people's trials' that executed landlords, officials, Christians and suspected collaborators, and after the Inchon landing the retreating North Koreans massacred detainees and intellectuals, especially in the cities they had held. Captured South Korean and American soldiers were marched north with little food or water and shot or bayoneted when they fell; thousands died in captivity. South Korean researchers put the civilians killed by North Korea in the hundreds of thousands, and R.J. Rummel's broad estimate of North Korea's wartime killing approaches half a million. North Korea has never acknowledged any of it, blaming all wartime atrocities on the Americans and the South.",
+      "relevance": "The state that built a national identity on its own victimhood in the war was, in the same war, executing civilians and prisoners by the tens of thousands — the perpetrator face the regime erases.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'War crimes in the Korean War', Wikipedia — Kim Gwang-dong's (2003) hundreds-of-thousands civilian estimate attributed to North Korea, the Truth and Reconciliation Commission's 18%/82% attribution split, the post-Inchon retreat massacres, and the POW abuses (Hill 303, Daejeon, Sunchon)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/War_crimes_in_the_Korean_War",
+          "caveat": "Tertiary encyclopaedia; wartime attribution is contested and the same Commission found the large majority of investigated massacres were committed by the South Korean side, so the North's share, though large in absolute terms, is the minority of the war's total killings. AUDIT (2026-06-18): verified live to carry the Kim Gwang-dong 'hundreds of thousands' civilian figure, the 18%/82% T&RC split, and the KPA POW killings at Hill 303, Daejeon and Sunchon."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "R.J. Rummel, 'Statistics of North Korean Democide', Statistics of Democide (University of Hawaii) — estimate of North Korea's Korean War democide near 500,000, with components for civilian massacres, ROK and US POW killings, and impressed South Koreans",
+          "supports": "toll.high",
+          "url": "https://www.hawaii.edu/powerkills/SOD.CHAP10.HTM",
+          "caveat": "Rummel himself labels these figures 'educated guesses' given the information control of the Kim regime, and his broad 'democide' category folds in deaths (e.g. ~225,000 impressed conscripts killed in combat) that some scholars would not count as massacre. AUDIT (2026-06-18): page verified live and to state 'the North Korean communists probably killed near 500,000 Koreans' with the cited POW (5,000-12,000 ROK; 5,000-6,000 US) and impressed-conscript breakdown, and to describe the figures as 'little more than educated guesses' — this is precisely why the event is held UNVERIFIED rather than the source being unsound."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "prk-4",
+      "country": "PRK",
+      "role": "perpetrator",
+      "title": "The kwanliso political prison camps",
+      "era": "1950s-present",
+      "era_band": "contemporary",
+      "tier": "EXT",
+      "tier_reasoning": "A UN Commission of Inquiry found the camp system constitutes the crime against humanity of extermination — deliberate, sustained destruction of a population through starvation, forced labour and execution (EXT), beyond ordinary wartime killing (WAR) or structural collapse (STR).",
+      "agent": "The North Korean state under the Kim dynasty (Kim Il Sung, Kim Jong Il, Kim Jong Un) — the Ministry of State Security operating the kwanliso (political penal-labour colonies), imprisoning perceived political enemies and up to three generations of their families and working, starving and executing them",
+      "toll": {
+        "display": "~400,000 dead in the camps over decades (commonly cited estimate); UN COI found 'hundreds of thousands' have perished over five decades; ~80,000-120,000 currently detained",
+        "disputed": true,
+        "low": 200000,
+        "high": 400000,
+        "unit": "deaths",
+        "note": "The 2014 UN Commission of Inquiry concluded that 'hundreds of thousands of political prisoners have perished in these camps over the past five decades' through deliberate starvation, forced labour, executions and torture, and that 80,000-120,000 remain detained. A figure of roughly 400,000 deaths is widely cited: it originates in the 2017 'Inquiry on Crimes Against Humanity in North Korea Political Prisons' report (which estimates ~400,000 of ~500,000 imprisoned 1981-2013 died) and is invoked in US Congressional resolutions. The low/high here bracket 'hundreds of thousands' (taken conservatively as ~200,000, sourced to the UN COI) and the ~400,000 (sourced to the 2017 Inquiry report); no precise count is possible because the camps are denied and closed, so all figures rest on defector testimony and satellite imagery. AUDIT (2026-06-18): both ends are sourced to real, distinct documents; the toll.high source attribution was corrected from Hawk's Hidden Gulag to the 2017 Inquiry report, which is where the 400,000 figure actually comes from."
+      },
+      "received_lens": "denied",
+      "summary": "Since the 1950s the North Korean state has run a network of political prison camps, the kwanliso, into which it disappears perceived enemies of the regime — and often their parents, children and grandchildren, under a doctrine of guilt by association. Prisoners are worked in mines and logging on starvation rations, beaten, tortured and executed, with deaths in custody so routine that a UN Commission of Inquiry in 2014 found the system amounts to the crime against humanity of extermination. The Commission estimated that hundreds of thousands have died in the camps over five decades and that 80,000 to 120,000 people are held in them today. The North Korean government denies the camps exist at all.",
+      "relevance": "This is the perpetrator anchor that sets North Korea apart: not a historical episode but an ongoing, decades-long system of deliberate destruction run by the same state that frames itself, with some justification on the war ledger, as a perpetual victim.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "Report of the Commission of Inquiry on Human Rights in the Democratic People's Republic of Korea (UN Human Rights Council, A/HRC/25/63, made public 7 February 2014) — finding of crimes against humanity including extermination, the 'hundreds of thousands of political prisoners have perished in these camps over the past five decades' conclusion, and the 80,000-120,000 current-detainee estimate",
+          "supports": "summary",
+          "url": "https://www.ohchr.org/en/hr-bodies/hrc/co-idprk/reportofthe-commissionof-inquiry-dprk",
+          "caveat": "AUDIT (2026-06-18): the OHCHR landing page is the genuine primary host for A/HRC/25/63 and is confirmed real; it returns HTTP 403 to automated fetchers but is a live page, so the URL was switched from the Wikipedia summary to the OHCHR document of record. The substance was independently re-confirmed (report public 7 Feb 2014; crimes against humanity including extermination; 'hundreds of thousands perished over five decades'; 80,000-120,000 currently detained) against both the OHCHR press release and the Wikipedia summary, which agree."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "David Hawk, 'The Hidden Gulag: Exposing North Korea's Prison Camps' (Committee for Human Rights in North Korea, HRNK, 2003) — the first study to combine defector testimony with satellite imagery to document the kwanliso, source of the 80,000-120,000 detainee figure",
+          "supports": "toll.high",
+          "url": "https://www.hrnk.org/wp-content/uploads/pdfs/publications/eng/The_Hidden_Gulag.pdf",
+          "caveat": "Published by an advocacy NGO; the figures rest on defector testimony and satellite analysis rather than internal records, which the closed nature of the camps makes unavoidable but means they cannot be independently verified. AUDIT (2026-06-18): the report exists and the PDF is live (4.3MB, retrieved). ATTRIBUTION CORRECTED: the widely cited ~400,000 cumulative-deaths figure (toll.high anchor) traces to the 2017 'Inquiry on Crimes Against Humanity in North Korea Political Prisons' report — which estimates ~400,000 of ~500,000 imprisoned 1981-2013 died and is the figure invoked in US Congressional resolutions — not to Hawk's Hidden Gulag, which robustly documents the camp SYSTEM and the 80,000-120,000 detainee count but is not the origin of the 400,000 number. The 400,000 high end is therefore genuinely sourced (2017 Inquiry report, consistent with the UN COI's 'hundreds of thousands'), but to that report rather than to Hawk; the citation has been narrowed to what Hawk actually supports."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

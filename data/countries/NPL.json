@@ -1,0 +1,193 @@
+{
+  "iso": "NPL",
+  "name": "Nepal",
+  "note": "Nepal's ledgers are unusually self-referential, and that is the entry's central point. The country was never colonised, so it has almost no record of mass death inflicted by a foreign occupier; its great atrocities were committed by Nepalis against Nepalis. The dominant victim event — the 1996–2006 civil war, in which roughly four out of five of the dead were civilians — is therefore also a perpetrator event, because the killers were the Nepali state's own security forces and a Nepali insurgent movement. Rather than file the same war twice under one role, the victim ledger frames it from the standpoint of the slaughtered civilian population, while the perpetrator ledger separates out who did the killing: the Royal Nepal Army (responsible for the larger share of deaths and for the worst record of enforced disappearances) and the Communist Party of Nepal (Maoist) (responsible for thousands of killings, including the deadliest single attack of the war). The perpetrator ledger reaches back further to the 1767 Gorkha conquest of Kirtipur, where the founder of the Nepali state, Prithvi Narayan Shah, ordered the mutilation of a conquered town — an atrocity of maiming rather than mass killing, so its death figure is left null and only the number mutilated is given. The asymmetry (one major victim event, three perpetrator entries) is real and not an artefact of missing research: it reflects that Nepal's catastrophes were overwhelmingly inflicted from within. Every contested toll is shown as a sourced range.",
+  "events": [
+    {
+      "id": "npl-1",
+      "country": "NPL",
+      "role": "victim",
+      "title": "The civilian dead of the People's War",
+      "era": "1996–2006",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Both the state and the Maoists killed civilians for their suspected political alignment rather than to destroy an ethnic, national or religious group as such; large-scale political killing of a civilian population places the act at POL.",
+      "agent": "The Nepali state's security forces (Royal Nepal Army, armed police and police) and the Communist Party of Nepal (Maoist), each killing Nepali civilians they treated as the other side's supporters",
+      "toll": {
+        "display": "~13,000–17,800 (INSEC documented ~13,256; broader counts including all combatants ~17,800)",
+        "disputed": true,
+        "low": 13000,
+        "high": 17800,
+        "unit": "deaths",
+        "note": "The Informal Sector Service Centre (INSEC), the Nepali human-rights body whose count is the most widely cited, documented about 13,256 conflict deaths; broader figures that include all categories of combatant reach roughly 17,800, with about 1,300 more recorded as missing. Around 82 percent of those killed were civilians. This victim entry counts the dead as the civilian population of Nepal; the perpetrator entries below break the killing down by who carried it out (security forces ~64 percent, the Maoists ~36 percent of attributed deaths, per INSEC data for 1996–2005)."
+      },
+      "received_lens": "memorial",
+      "summary": "From February 1996 the Maoist insurgency and the Nepali state fought a ten-year war across the countryside, and ordinary villagers bore most of it. Soldiers and police killed people suspected of sympathising with the rebels; the Maoists killed people they branded informers or 'enemies of the people'. By the 2006 peace accord around thirteen thousand or more Nepalis were dead and over a thousand more missing, and roughly four in five of the dead were civilians caught between the two sides.",
+      "relevance": "Nepal's largest modern mass death was inflicted on its own people by its own state and its own insurgents — the clearest case in this atlas of a population that is victim and perpetrator in the very same event.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, 'Waiting for Justice: Unpunished Crimes from Nepal's Armed Conflict' (2008) — cites INSEC's ~13,256 conflict deaths, the deployment-era surge of over 8,000 mostly civilian deaths after November 2001, and the finding that the majority were killed by the security forces while the CPN-M was responsible for several thousand",
+          "supports": "toll.low",
+          "url": "https://www.hrw.org/report/2008/09/11/waiting-justice/unpunished-crimes-nepals-armed-conflict",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "'Nepalese Civil War', Wikipedia — survey giving the ~17,000–17,800 broad death toll, ~1,300 missing, the 1996 start and 2006 end, and the breakdown of deaths between security forces and Maoists",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Nepalese_Civil_War",
+          "caveat": "Tertiary encyclopaedia aggregating several casualty counts; used for the upper bound and framing, not as the authority for any single figure."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Joshi & Pyakurel et al., 'Individual-Level Data on the Victims of Nepal's Civil War, 1996–2006: A New Data Set', International Interactions 41(3), 2015 — individual-level dataset of conflict victims underpinning the ~82 percent-civilian finding and the security-force vs Maoist attribution",
+          "supports": "summary",
+          "url": "https://www.tandfonline.com/doi/abs/10.1080/03050629.2015.987345",
+          "caveat": "Peer-reviewed dataset; per-perpetrator percentages depend on attribution that is itself contested for a minority of cases."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "npl-2",
+      "country": "NPL",
+      "role": "perpetrator",
+      "title": "The mutilation of Kirtipur",
+      "era": "1767",
+      "era_band": "pre-colonial",
+      "tier": "WAR",
+      "tier_reasoning": "After a conquered town's surrender the Gorkha king ordered the mass mutilation of its male population as a terror measure rather than a programme to exterminate the Newars as a people; collective punishment of a defeated population is classed WAR.",
+      "agent": "Prithvi Narayan Shah, king of Gorkha and founder of the unified Nepali state, and his commanders",
+      "toll": {
+        "display": "~865 men and boys mutilated (noses and lips cut off); death count unknown",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "This was an atrocity of maiming, not of mass killing, so a death figure would be invented and is left null. The most-cited figure, attributed to the 19th-century resident-surgeon historian Daniel Wright, is 865 male inhabitants over the age of 12 (some accounts say above 13, or 16) having their noses and lips amputated, giving the town the byname Naskatapur, 'town of cut noses'. A separate manuscript figure of about 1,200 dead 'on both sides' refers to the years of fighting over Kirtipur, not to the post-surrender mutilation. The episode is disputed: Capuchin missionary eyewitness accounts and several Nepali sources record it, while some modern Nepali commentators deny or minimise it. Historian John Whelpton judges it unlikely the Capuchins fabricated the account."
+      },
+      "received_lens": "contested",
+      "summary": "In 1767, after years of failed assaults and a long blockade, Prithvi Narayan Shah's Gorkha army finally took the Newar town of Kirtipur in the Kathmandu Valley. On the king's order his troops cut the noses and lips off the town's men and boys — by the most-cited count some 865 of them — leaving Kirtipur known ever after as the 'town of cut noses'. The terror hastened the surrender of the rest of the valley and the birth of the Nepali state.",
+      "relevance": "The founding act of the country that becomes 'Nepal' was an atrocity against the people it absorbed — the conquering Gorkha state as perpetrator at the moment of its own creation.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Battle of Kirtipur', Wikipedia — the 1767 conquest, Prithvi Narayan Shah's order to cut off the inhabitants' noses and ears, the Capuchin and Nepali sourcing, and Whelpton's assessment that the account is unlikely to have been fabricated",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Kirtipur",
+          "caveat": "Tertiary encyclopaedia; the precise number mutilated and the degree of cruelty are genuinely contested in the historiography."
+        },
+        {
+          "kind": "press",
+          "cite": "Kathmandu Post, 'What really happened' (18 January 2019) — discusses the post-surrender nose-cutting, cites Daniel Wright's figure of 865 mutilated and a manuscript figure of ~1,200 dead in the broader fighting, and notes that a large share of modern Nepali respondents deny the mutilation occurred",
+          "supports": "toll.high",
+          "url": "https://kathmandupost.com/opinion/2019/01/18/what-really-happened",
+          "caveat": "Opinion/feature piece arguing against denialist narratives; cited for the 865 figure and the contested reception, not as a neutral arbiter of the count."
+        },
+        {
+          "kind": "primary",
+          "cite": "Father Giuseppe (Giuseppe da Rovato), 'An Account of the Kingdom of Nepal' (written 1786, published 1799) — Capuchin missionary account that is the principal contemporary European source describing Shah's cruelty after the fall of the valley towns",
+          "supports": "tier",
+          "url": null,
+          "caveat": "An 18th-century missionary source whose authors had reason to dislike Shah; foundational but partisan, which is why historians treat the precise scale with caution."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "npl-3",
+      "country": "NPL",
+      "role": "perpetrator",
+      "title": "State killings and enforced disappearances in the People's War",
+      "era": "1996–2006",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "The state's security forces extrajudicially killed and 'disappeared' people for suspected political affiliation with the Maoists, on a systematic basis; political killing and forced disappearance of a civilian population places the act at POL.",
+      "agent": "The Royal Nepal Army, the Armed Police Force and the Nepal Police, especially after the army's nationwide deployment in late 2001",
+      "toll": {
+        "display": "majority of ~13,000 war deaths (~64% per INSEC); ~1,234 disappearances attributed to the state",
+        "disputed": true,
+        "low": 1234,
+        "high": 8200,
+        "unit": "deaths",
+        "note": "INSEC's data for 1996–2005 attribute about 64 percent of conflict killings to the security forces — roughly 8,200 of the documented dead, the higher of the two warring parties. Separately, of 1,619 enforced disappearances reported to Nepal's National Human Rights Commission, 1,234 were attributed to the security forces (331 to the Maoists, 54 unidentified); in 2003 and 2004 Nepal recorded the world's highest number of new disappearance cases reported to the UN. Emblematic incidents include the Doramba killings of 17 August 2003, in which the army executed about 19 detainees with their hands tied, and the Maharajgunj (Bhairabnath Battalion) barracks in Kathmandu, where the UN documented systematic detention, torture and disappearance through 2003–04. The displayed low (1,234) counts confirmed disappearances; the high (~8,200) is the state-attributed share of killings."
+      },
+      "received_lens": "denied",
+      "summary": "After the Royal Nepal Army was deployed nationwide in late 2001 the state's response to the insurgency turned systematic and lethal. Soldiers and police killed suspected Maoists outside any legal process — most starkly at Doramba in August 2003, where about nineteen bound detainees were marched up a hill and shot — and made people vanish: at the Maharajgunj barracks in Kathmandu the army held, tortured and disappeared scores of detainees. Of the war's documented dead the security forces account for the larger share, and of its enforced disappearances the great majority. Almost none of it has been prosecuted.",
+      "relevance": "Nepal as perpetrator against its own citizens: the state that should have protected the civilians of npl-1 was instead the largest single killer in the war and the author of its worst disappearances.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, 'Waiting for Justice: Unpunished Crimes from Nepal's Armed Conflict' (2008) — the majority of deaths attributed to the security forces, and 1,619 disappearances reported to the NHRC of which 1,234 were attributed to the security forces, plus Nepal's world-leading new-disappearance figures in 2003–04",
+          "supports": "toll.low",
+          "url": "https://www.hrw.org/report/2008/09/11/waiting-justice/unpunished-crimes-nepals-armed-conflict",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "The Himalayan Times, '18 years on, justice still a far cry for people killed by Nepali Army in Doramba' — the 17 August 2003 Doramba killings, in which the army arrested and executed detainees whose hands were tied, as found by the National Human Rights Commission",
+          "supports": "summary",
+          "url": "https://thehimalayantimes.com/nepal/18-years-on-justice-still-a-far-cry-for-people-killed-by-nepali-army-in-doramba",
+          "caveat": "Press report; the exact toll at Doramba is given as 19–21 across sources, and the case remains unprosecuted."
+        },
+        {
+          "kind": "reference",
+          "cite": "OHCHR investigation into the Maharajgunj (Bhairabnath Battalion) barracks (report of 26 May 2006), as summarised by Human Rights Watch and Amnesty International — documented arbitrary detention, torture and enforced disappearance of detainees by the Nepal Army in 2003–04",
+          "supports": "tier",
+          "url": "https://www.hrw.org/news/2012/07/22/nepal-prosecute-dont-promote-notorious-army-officer",
+          "caveat": "Cited via HRW because the OHCHR report's own page is access-restricted; the underlying UN findings are referenced rather than quoted."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "npl-4",
+      "country": "NPL",
+      "role": "perpetrator",
+      "title": "Maoist killings of civilians and the Madi bus bombing",
+      "era": "1996–2006",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "The Maoists killed civilians branded 'enemies of the people' and 'informers' and bombed a civilian bus, deliberate political killing of non-combatants, which places the act at POL.",
+      "agent": "The Communist Party of Nepal (Maoist) and its People's Liberation Army",
+      "toll": {
+        "display": "thousands of killings (~36% of war deaths, ~4,500–5,000 per INSEC); 36–39 dead in the Madi bus bombing alone",
+        "disputed": true,
+        "low": 36,
+        "high": 5000,
+        "unit": "deaths",
+        "note": "INSEC's data attribute about 36 percent of conflict killings to the Maoists — on the order of 4,500–5,000 of the documented dead — including hundreds of civilians killed as suspected 'informers' or 'enemies of the people', alongside police and soldiers. The single deadliest attack of the war was the Madi (Badarmude/Bandarmude) bus bombing in Chitwan on 6 June 2005, when a Maoist roadside bomb destroyed a passenger bus the rebels believed carried soldiers; reports give 36 to 39 dead and 50–75 injured, most of them civilians. Maoist chairman Pushpa Kamal Dahal later called it the party's biggest mistake of the insurgency. The displayed low (36) is the Madi minimum; the high (~5,000) is the Maoist-attributed share of war killings."
+      },
+      "received_lens": "contested",
+      "summary": "The Maoists killed not only soldiers and police but civilians they accused of being informers or class enemies, often after summary 'people's court' verdicts. Their deadliest act was the bombing of a passenger bus at Madi in Chitwan on 6 June 2005: believing soldiers were aboard, they detonated a roadside mine that killed dozens of civilians, the worst single attack of the war. Across the decade INSEC's figures put roughly a third of all conflict killings at the Maoists' door.",
+      "relevance": "The other half of the perpetrator ledger: the insurgent movement that cast itself as the people's liberator was itself a large-scale killer of the same Nepali civilians it claimed to fight for.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "Nepali Times, 'Memories of terror in Madi' — the 6 June 2005 Maoist bus bombing at Madi/Badarmude, Chitwan: ~36 killed and many injured, the victims civilians, the rebels believing soldiers were aboard",
+          "supports": "toll.low",
+          "url": "https://nepalitimes.com/memories-of-terror-in-madi",
+          "caveat": "Press report; the casualty count is given as 36–39 killed across sources, with injured figures disputed between official (~52) and victims'-committee (~75) tallies."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, 'Waiting for Justice: Unpunished Crimes from Nepal's Armed Conflict' (2008) — the CPN-M responsible for several thousand killings, including hundreds of civilians suspected of being informers or 'enemies of the people'",
+          "supports": "summary",
+          "url": "https://www.hrw.org/report/2008/09/11/waiting-justice/unpunished-crimes-nepals-armed-conflict",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "'Nepalese Civil War', Wikipedia — the INSEC ~36 percent Maoist share of attributed killings, the targeting of suspected informers, and the identification of Madi as the deadliest single attack of the conflict",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Nepalese_Civil_War",
+          "caveat": "Tertiary encyclopaedia; the ~5,000 Maoist-attributed share derives from applying INSEC's ~36 percent to the documented death total and is an estimate, not a direct count."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}
