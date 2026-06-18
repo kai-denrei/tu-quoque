@@ -1,7 +1,7 @@
 /* sw.js — hand-written service worker (no Workbox; handover §10 = no build step).
  * Cache names are KEYED TO THE CACHE-BUST TOKEN so a version bump wipes stale caches
  * automatically — this is where cache-busting and the PWA meet. */
-const VERSION = 'c73ecfad'; // rewritten by build/bump-version.mjs
+const VERSION = '9bd77919'; // rewritten by build/bump-version.mjs
 const SHELL_CACHE = `tq-shell-${VERSION}`;
 const DATA_CACHE = `tq-data-${VERSION}`;
 
@@ -11,6 +11,7 @@ const SHELL = [
   './assets/js/app.js', './assets/js/data.js', './assets/js/map.js', './assets/js/atlas.js',
   './assets/js/calibrate.js', './assets/js/geography.js', './assets/js/compare.js',
   './assets/js/essays.js', './assets/js/overlay.js', './assets/js/version.js', './assets/js/sw-register.js',
+  './assets/js/cb-badge.js',
   './assets/icons/favicon.svg',
 ];
 

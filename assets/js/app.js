@@ -8,6 +8,7 @@ import { renderCompare } from './compare.js';
 import { renderEssays } from './essays.js';
 import { openOverlay, closeOverlay } from './overlay.js';
 import { VERSION } from './version.js';
+import { mountBadge } from './cb-badge.js';
 
 const el = (t, c, html) => { const e = document.createElement(t); if (c) e.className = c; if (html != null) e.innerHTML = html; return e; };
 
@@ -118,13 +119,8 @@ function init() {
   if (!location.hash) location.hash = '#/map';
   route();
 
-  // cache-bust confirmation badge — same token shown ⇒ you're on the fresh build
-  const badge = el('button', 'cb-badge');
-  badge.type = 'button';
-  badge.textContent = `build ${VERSION}`;
-  badge.title = 'Build token (cache-bust). Click to copy.';
-  badge.onclick = () => navigator.clipboard && navigator.clipboard.writeText(VERSION);
-  document.body.appendChild(badge);
+  // cache-bust confirmation: 3 glyphs keyed to the build token; click = check for latest + reload
+  mountBadge(VERSION);
 
   if ('serviceWorker' in navigator) {
     import('./sw-register.js').catch(() => { /* added in the PWA phase */ });

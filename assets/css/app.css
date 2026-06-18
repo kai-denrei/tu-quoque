@@ -215,11 +215,16 @@
 /* ============ cache-bust badge + update toast ============ */
 .cb-badge {
   position: fixed; right: .5rem; bottom: .5rem; z-index: 40;
-  font-family: var(--mono); font-size: 9.5px; letter-spacing: .08em;
-  color: var(--fainter); background: rgba(8,8,11,.7); border: 1px solid var(--line-soft);
-  border-radius: 999px; padding: .15rem .55rem;
+  display: flex; align-items: center; gap: .4rem;
+  font-family: var(--mono); font-size: 9.5px; letter-spacing: .06em;
+  color: var(--fainter); background: rgba(8,8,11,.8); border: 1px solid var(--line-soft);
+  border-radius: 999px; padding: .2rem .45rem .2rem .3rem;
+  transition: color .2s var(--ease), border-color .2s var(--ease), opacity .2s var(--ease);
 }
-.cb-badge:hover { color: var(--dim); border-color: var(--line); }
+.cb-badge:hover { color: var(--dim); border-color: var(--glow); }
+.cb-glyphs { display: inline-flex; gap: 2px; }
+.cb-glyph { width: 13px; height: 13px; display: block; background: #111; border-radius: 2px; padding: 1px; }
+.cb-checking { opacity: .45; pointer-events: none; }
 .update-toast {
   position: fixed; left: 50%; bottom: 1rem; transform: translateX(-50%); z-index: 60;
   font-family: var(--mono); font-size: var(--step--1);
