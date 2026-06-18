@@ -1,0 +1,165 @@
+{
+  "iso": "UKR",
+  "name": "Ukraine",
+  "note": "Two ledgers held open. Ukraine's victim ledger is among the heaviest in modern Europe: the Holodomor, the engineered Soviet famine of 1932–33 that killed millions of Ukrainian peasants, and the Holocaust on Ukrainian soil, where roughly 1.5 million Jews — a quarter of all Holocaust victims — were shot or gassed under German occupation. The perpetrators of both were external states (Stalin's Moscow-run Soviet government; Nazi Germany), so these events also appear on the Russia and Germany pages; they are recorded here because the people who died were Ukraine's. The perpetrator ledger is real and must not be erased to keep Ukraine purely a victim: Ukrainian nationalist forces (OUN-B and the UPA) carried out the ethnic cleansing of tens of thousands of Poles in Volhynia and Eastern Galicia in 1943–44, and tens of thousands of Ukrainians served in the German-run Auxiliary Police that helped round up and shoot Jews. Both perpetrator events are politically charged in present-day Ukraine — the OUN/UPA are also celebrated as anti-Soviet partisans — and the genocide framing of Volhynia is disputed between Warsaw and Kyiv. Tiers tag the act, not the nation; no ranking is implied.",
+  "events": [
+    {
+      "id": "ukr-1",
+      "country": "UKR",
+      "role": "victim",
+      "title": "The Holodomor (Soviet Famine in Ukraine)",
+      "era": "1932–33",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "Classed EXT because Soviet policy selectively weaponised an engineered famine against Ukrainian peasants — sealing the republic's borders, seizing grain down to the seed, and blacklisting villages — though whether the intent met the legal threshold of genocide remains contested among historians.",
+      "agent": "Soviet government under Joseph Stalin (the all-Union state, directed from Moscow; grain procurement overseen by Molotov, Kaganovich and Postyshev)",
+      "toll": {
+        "display": "~3.5–5 million (Rudnytskyi et al. 2015: ~3.9M direct deaths) to 7–10 million (older / 2003 UN joint statement)",
+        "disputed": true,
+        "low": 3500000,
+        "high": 10000000,
+        "unit": "deaths",
+        "note": "The most detailed modern demographic study (Rudnytskyi et al., Canadian Studies in Population, 2015) estimates about 3.9 million direct excess deaths in Ukraine (plus roughly 0.6M lost births), and recent scholarship clusters at 3.5–5 million. The high end reflects older and political figures: a 2003 joint UN statement signed by 25 states cited 7–10 million, and Cold-War-era estimates ran higher still. Low/high therefore bracket modern demography against the older maximal claims. The wider Soviet famine also devastated Kazakhstan and the Volga; this event covers the Ukrainian core. Death-count, not demographic-decline: the ethnic-Ukrainian population fell about 10% across 1926–39 from mortality and lost births combined, which is a separate, larger figure than the direct death toll."
+      },
+      "received_lens": "memorial",
+      "summary": "In 1932–33 the Soviet state pressed collectivisation and impossible grain quotas onto the Ukrainian countryside, then confiscated food down to the seed grain, sealed the republic's borders to trap starving peasants, and blacklisted villages that fell short. Millions starved in one of Europe's great peacetime catastrophes — modern demographers count about 3.9 million dead in Ukraine, older estimates run to 7 million or more. At its June 1933 peak, Ukrainians were dying at roughly 28,000 a day.",
+      "relevance": "Ukraine's defining victim event sits on the same map as Russia's perpetrator ledger and Ukraine's own — the clearest case here of an atrocity that must appear on two countries' pages at once, the same famine recorded as what was done to Ukraine and as what Moscow did.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Rudnytskyi, Levchuk, Wolowyna, Shevchuk & Kovbasiuk, 'Demography of a man-made human catastrophe: The case of massive famine in Ukraine 1932–1933', Canadian Studies in Population 42 (2015) — ~3.9M direct deaths",
+          "supports": "toll.low",
+          "url": "https://holodomor.ca/wp-content/uploads/2020/05/Demography-of-a-man-made-....pdf",
+          "caveat": "PDF confirmed live and downloadable (524KB) but binary, so the figure was corroborated via the demographic consensus (3.5–5M) reported by reference sources rather than parsed from the file directly."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Holodomor' — modern range 3.5–5M; 2003 UN joint statement of 25 states citing 7–10M; intent and genocide recognition contested (Ukraine and 30+ states recognise it as genocide)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Holodomor",
+          "caveat": "Tertiary aggregator; the 7–10M high end is a political/UN figure higher than modern demographic work, and the genocide classification is itself disputed, hence disputed:true."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ukr-2",
+      "country": "UKR",
+      "role": "victim",
+      "title": "The Holocaust in Ukraine (Holocaust by Bullets; Babi Yar)",
+      "era": "1941–44",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "Classed EXT because German forces set out to murder every Jew in occupied Ukraine — the deliberate destruction of a group as such — most of them shot in mass pits rather than deported, the canonical 'Holocaust by bullets'.",
+      "agent": "Nazi Germany (Einsatzgruppe C/D, Order Police battalions, SS) with the German civil occupation, assisted by local auxiliaries",
+      "toll": {
+        "display": "~1.2–1.6 million Jews murdered (Pohl ~1.2M; recent estimates to ~1.6M); Babi Yar: 33,771 in two days, ~100,000 total over the occupation",
+        "disputed": true,
+        "low": 1200000,
+        "high": 1600000,
+        "unit": "deaths",
+        "note": "Estimates of Jews murdered in Ukraine (present-day borders) cluster around 1.5 million: Dieter Pohl's ~1.2M anchors the lower bound and recent scholarship runs to roughly 1.6M, with about 80% killed by shooting. Older Soviet-era work (e.g. Hilberg) put the figure near 900,000 before archival access raised it. Babi Yar in Kyiv is the emblematic site: German reports recorded 33,771 Jews shot on 29–30 September 1941, and an estimated ~100,000 people (Jews, Roma, Soviet POWs, others) were killed there over the occupation. Low/high bracket the modern scholarly span."
+      },
+      "received_lens": "memorial",
+      "summary": "After Germany invaded the Soviet Union in June 1941, mobile killing units and police battalions worked through occupied Ukraine shooting Jews community by community into mass graves. At Babi Yar on the edge of Kyiv they shot 33,771 Jews in two days that September; across the country roughly 1.5 million Jews were murdered, most by bullet rather than gas, before the Germans were driven out in 1944. One in four victims of the entire Holocaust died on Ukrainian soil.",
+      "relevance": "Ukraine's Jews were a Ukrainian people destroyed on Ukrainian ground — a victim event whose perpetrators were German, yet which sits inches from Ukraine's own perpetrator ledger, where local auxiliaries helped carry out the same killings.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "United States Holocaust Memorial Museum, 'Mass Shootings at Babyn Yar (Babi Yar)' — 33,771 shot on 29–30 Sept 1941; ~100,000 total; Einsatzgruppe C / Sonderkommando 4a under Paul Blobel with German police and auxiliaries",
+          "supports": "summary",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/kiev-and-babi-yar",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'The Holocaust in Ukraine' — ~1.5M Jews murdered; Pohl ~1.2M, recent to ~1.6M; ~80% shot; Kruglov's yearly breakdown",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/The_Holocaust_in_Ukraine",
+          "caveat": "Tertiary aggregator synthesising specialist demographic work (Pohl, Kruglov); the ~1.2–1.6M span reflects genuine scholarly revision over time, hence disputed:true."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ukr-3",
+      "country": "UKR",
+      "role": "perpetrator",
+      "title": "The Massacres of Poles in Volhynia and Eastern Galicia",
+      "era": "1943–44 (peak July–Aug 1943; attacks into 1945)",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "Classed EXT because the OUN-B leadership ordered the physical liquidation of the entire Polish population of contested territory — the deliberate destruction of an ethnic group from a homeland — though Ukraine and some historians dispute the genocide label and stress the wartime, reciprocal context.",
+      "agent": "Organization of Ukrainian Nationalists (Bandera faction, OUN-B) and the Ukrainian Insurgent Army (UPA), commanders incl. Dmytro Klyachkivsky and Roman Shukhevych, aided by local peasants",
+      "toll": {
+        "display": "~50,000–60,000 Poles killed in Volhynia; ~100,000 total including Eastern Galicia; ~2,000–3,000 Ukrainians killed in Polish retaliation",
+        "disputed": true,
+        "low": 50000,
+        "high": 100000,
+        "unit": "deaths",
+        "note": "Historians estimate around 50,000–60,000 Poles killed in Volhynia and roughly 100,000 in total once Eastern Galicia (~20,000–40,000) is included. The Siemaszkos' name-by-name documentation reached about 38,600 Volhynian victims by 2010 — a documented floor, not a ceiling. Polish retaliatory actions killed an estimated 2,000–3,000 Ukrainians in Volhynia and 1,000–2,000 in Eastern Galicia; this event sits on Ukraine's perpetrator ledger because OUN-UPA began and drove the campaign. Low = Volhynia core; high = combined Volhynia-plus-Galicia total."
+      },
+      "received_lens": "contested",
+      "summary": "From the spring of 1943, OUN-B and UPA units set out to clear Poles from Volhynia and then Eastern Galicia, territory the nationalists claimed for a future Ukrainian state. On 11 July 1943 death squads hit dozens of Polish villages at once, often killing people gathered for Sunday Mass; whole settlements were burned and their inhabitants killed with axes and farm tools as much as guns. Around 100,000 Poles died, the great majority of them civilians, before the front moved west.",
+      "relevance": "The OUN/UPA are honoured in much of present-day Ukraine as anti-Soviet partisans, which makes their ledger as perpetrators of mass ethnic cleansing the hardest part of the national story to hold open — and the reason Warsaw calls it genocide while Kyiv resists the word.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Massacres of Poles in Volhynia and Eastern Galicia' — ~100,000 Poles killed (~50,000–60,000 Volhynia, ~20,000–40,000 Galicia); OUN-B/UPA; Klyachkivsky's liquidation order; Polish Sejm 2016 genocide resolution",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Massacres_of_Poles_in_Volhynia_and_Eastern_Galicia",
+          "caveat": "Tertiary aggregator; the death range and the genocide classification are actively disputed between Polish and Ukrainian historiography, hence disputed:true. Figures attributed there to Motyka and Siemaszko were not read in the originals."
+        },
+        {
+          "kind": "press",
+          "cite": "Al Jazeera, 'Genocide or tragedy? Ukraine, Poland at odds over Volyn massacre of 1943' (19 July 2025)",
+          "supports": "summary",
+          "url": "https://www.aljazeera.com/features/2025/7/19/genocide-or-tragedy-ukraine-poland-at-odds-over-volyn-massacre-of-1943",
+          "caveat": "Press feature used for the disputed memory framing and the ~100,000 figure, not as a primary demographic authority."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ukr-4",
+      "country": "UKR",
+      "role": "perpetrator",
+      "title": "The Ukrainian Auxiliary Police in the Holocaust",
+      "era": "1941–43",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "Classed EXT because these units took direct part in the extermination of Jews — rounding them up, guarding ghettos, marching them to the pits and shooting them — participation in the deliberate destruction of a group, even though the campaign was conceived and commanded by Germans.",
+      "agent": "Ukrainian Auxiliary Police (Ukrainische Hilfspolizei / Schutzmannschaft), under German Order Police command",
+      "toll": {
+        "display": "tens of thousands of Jews killed with their participation; no clean aggregate attributable to the auxiliaries alone (e.g. ~half of ~70,000 Lviv arrests in 1942 by the local UOP; ~2,500 at Korets; ~1,700 at Mizoch)",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "About 69,000 Ukrainians served in the German-run Auxiliary Police by November 1942. They identified and arrested Jews, guarded ghettos, escorted victims to killing sites and took part in mass shootings, and assisted at Babi Yar. The deaths they helped cause run into the tens of thousands across documented actions (in Lviv between March and December 1942 about 70,000 Jews were arrested, roughly half by the local Ukrainian police; ~2,500 shot at Korets, ~1,700 at Mizoch, 561 children at Radomyshl), but no defensible figure isolates the share attributable to the auxiliaries from that of their German commanders, so the aggregate toll is left null. The killing they served was a subset of the ~1.5M Jews murdered in Ukraine (event ukr-2)."
+      },
+      "received_lens": "suppressed",
+      "summary": "From mid-1941 tens of thousands of Ukrainians enlisted in the German-controlled Auxiliary Police. They flushed Jews out of homes and ghettos, herded them to the ravines and pits, and joined in the shooting — in Lviv the local police rounded up about half of the 70,000 Jews arrested in 1942, and auxiliaries helped prepare and run Babi Yar. The orders came from Germans, but much of the day-to-day machinery of murder was run by local men.",
+      "relevance": "Set against Ukraine's victim ledger of murdered Jews, this is the uncomfortable other half: at the very sites where Ukraine's Jews were destroyed, some of the killers were Ukrainian — collaboration that postwar memory long kept quiet.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Daniil Sytnyk, 'Ukrainian Police and the Holocaust in Ukraine. A Brief Overview', EHRI Document Blog (European Holocaust Research Infrastructure), 28 May 2024 — ~69,000 auxiliaries; roles in arrests, ghetto guarding, escorts and shootings; Lviv, Korets, Mizoch, Radomyshl figures",
+          "supports": "summary",
+          "url": "https://blog.ehri-project.eu/2024/05/28/ukrainianpolice/",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Ukrainian Auxiliary Police' — formation under Himmler Aug 1941; Schutzmannschaft battalions' participation in killings of Jews; involvement in Babi Yar preparations",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Ukrainian_Auxiliary_Police",
+          "caveat": "Tertiary aggregator; no aggregate toll attributable to the auxiliaries alone exists, so toll.low/high are null and the event is flagged disputed."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

@@ -1,0 +1,193 @@
+{
+  "iso": "ITA",
+  "name": "Italy",
+  "note": "Researched 2026-06-18 from scratch (no prior seed). Both ledgers are populated and roughly balanced in weight, which is itself the dual-lens point. In popular memory Italy of the 1943–45 years is the victim — the country of partisans, of Marzabotto and the Ardeatine Caves, of Jews shipped from Rome to Auschwitz by German occupiers. That is real. But the same Italy was, a decade earlier, one of the era's most lethal colonial perpetrators: Fascist Italy gassed Ethiopia and ran extermination-grade concentration camps across Cyrenaica, killing Libyans on a scale that scholars increasingly call genocide. And the victimhood of 1943–45 is itself impure — the Italian Social Republic's police and Black Brigades arrested and helped deport Italy's own Jews and joined some of the Nazi massacres of Italian civilians, so the perpetrators were partly Italian too. The myth of italiani brava gente — 'Italians, the good people' — long suppressed the colonial record; recent scholarship (Del Boca, Ahmida, Campbell, Picciotto, Levis Sullam) has reopened it. Tolls on the colonial events diverge across an order of magnitude and the low and high ends are separately sourced.",
+  "events": [
+    {
+      "id": "ita-1",
+      "country": "ITA",
+      "role": "victim",
+      "title": "The Holocaust in Italy",
+      "era": "1943–1945",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "A campaign to physically annihilate a defined group — Italy's Jews — through arrest, deportation, and murder, so EXT; the targeting was on the basis of Jewish identity as such, not military or political conduct.",
+      "agent": "Nazi Germany after the September 1943 occupation, acting with the Italian Social Republic's police and the Fascist Black Brigades, who arrested and deported many of the victims",
+      "toll": {
+        "display": "~7,680 murdered (of ~8,560 deported, ~1,009 returned)",
+        "disputed": false,
+        "low": 7680,
+        "high": 8000,
+        "unit": "deaths",
+        "note": "Figures are unusually well documented for a Holocaust national toll because Liliana Picciotto and the CDEC (Milan) compiled victims by name. About 8,564 Jews were deported from Italy, Italian-occupied territory, Rhodes and Kos, most to Auschwitz-Birkenau; roughly 1,009 returned. Counting those deported, plus ~196 shot in Italy (nearly half at the Ardeatine Caves) and ~100 who died in transit camps, prisons, or custody, gives a total of roughly 7,680 Italian and Italian-controlled Jews murdered, out of a community of about 44,500–50,000. The narrow low–high spread reflects rounding and small definitional differences, not real dispute."
+      },
+      "received_lens": "memorial",
+      "summary": "After Italy surrendered and Germany occupied the north in September 1943, the SS and police rounded up Jews in Rome, Milan, Genoa, Florence, Trieste and elsewhere and shipped them to Auschwitz. The Italian Social Republic declared Jews 'enemy nationals,' and its police (Police Order No. 5, 30 November 1943) and Black Brigades carried out a large share of the arrests; about 7,680 of Italy's Jews were murdered, though most of the community survived, often hidden by other Italians.",
+      "relevance": "The clearest case of Italians as victims of extermination is shadowed by the finding that roughly half of those murdered were arrested by Italians, not Germans — the victim nation supplying its own executioners.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "United States Holocaust Memorial Museum, 'Italy' — community of ~50,000 (1933), ~8,564 deported (mostly to Auschwitz), ~1,009 returned; ~196 shot in Italy (nearly half at the Ardeatine Caves) and ~100 dead in transit camps/custody; more than 40,000 survived",
+          "supports": "toll.low",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/italy",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Liliana Picciotto, Il Libro della Memoria (CDEC) — name-by-name reconstruction giving ~7,680 Italian/Italian-controlled Jews killed out of ~44,500; cited via overview of the Holocaust in Italy",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/The_Holocaust_in_Italy",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Simon Levis Sullam, The Italian Executioners: The Genocide of the Jews of Italy (2015) — finds about half of Italy's murdered Jews were arrested by Italians, not Germans; Italian Social Republic Police Order No. 5 (30 Nov. 1943) ordered arrests and confiscation",
+          "supports": "summary",
+          "url": "https://www.timesofisrael.com/italys-holocaust-executioners-revealed-in-historiographical-counterblast/",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ita-2",
+      "country": "ITA",
+      "role": "victim",
+      "title": "Nazi reprisal massacres of Italian civilians (Ardeatine, Sant'Anna di Stazzema, Marzabotto)",
+      "era": "1943–1945",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Mass killing of civilians as occupation reprisals and anti-partisan 'annihilation operations' during armed conflict, targeting communities for their location and suspected resistance rather than for membership in an ethnic group, so WAR.",
+      "agent": "German occupation forces — chiefly the 16th SS Panzergrenadier Division — joined in places by Italian Fascist Black Brigades and Republican National Army units",
+      "toll": {
+        "display": "~14,000 non-Jewish civilians across 5,300+ incidents",
+        "disputed": false,
+        "low": 14000,
+        "high": 14000,
+        "unit": "deaths",
+        "note": "Roughly 14,000 Italian non-Jewish civilians — often women, children and the elderly — were killed in more than 5,300 documented instances of German war crimes in 1943–45. The signature massacres: the Ardeatine Caves, Rome (24 March 1944, 335 killed, including 75 Italian Jews, as reprisal for the Via Rasella partisan attack); Sant'Anna di Stazzema (12 August 1944, ~560 villagers and refugees, including over a hundred children); and Marzabotto / Monte Sole (29 September–5 October 1944, ~770 killed, an operation German documents called a Vernichtungsunternehmen, 'annihilation operation'). Individual massacre tolls are well established; the ~14,000 aggregate is the documented total and is treated as a point figure rather than a range."
+      },
+      "received_lens": "memorial",
+      "summary": "During the German occupation, Wehrmacht and Waffen-SS units answered partisan attacks by killing civilians wholesale — 335 shot in the Ardeatine Caves in Rome, some 560 burned and gunned down at Sant'Anna di Stazzema, about 770 slaughtered around Marzabotto. The 16th SS Panzergrenadier Division carried out the two worst; Italian Fascist Black Brigades and Republican Army units took part in a number of the killings.",
+      "relevance": "Italy's most-honored civilian martyrs were murdered on Italian soil by German occupiers — yet Italian Fascists stood among the killers, so even the purest victim story is not one of Italians versus foreigners alone.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Axis war crimes in Italy overview — ~14,000 non-Jewish Italian civilians killed in 5,300+ documented incidents; 16th SS Panzergrenadier Division responsible for Marzabotto and Sant'Anna; participation of Republican National Army divisions (Littorio, San Marco, Monterosa)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Axis_war_crimes_in_Italy",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Marzabotto massacre overview — 29 Sept.–5 Oct. 1944, ~770 killed (incl. 216 children, 316 women, 142 elderly, 5 priests); German documents call it a Vernichtungsunternehmen ('annihilation operation')",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Marzabotto_massacre",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Ardeatine massacre and Sant'Anna di Stazzema massacre overviews — Ardeatine Caves, 24 March 1944, 335 killed (75 of them Jews) in reprisal for the Via Rasella attack; Sant'Anna di Stazzema, 12 Aug. 1944, ~560 killed by Waffen-SS with help of Italian Black Brigades",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Sant%27Anna_di_Stazzema_massacre",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ita-3",
+      "country": "ITA",
+      "role": "perpetrator",
+      "title": "The Libyan genocide (pacification of Cyrenaica)",
+      "era": "1929–1934",
+      "era_band": "colonial",
+      "tier": "EXT",
+      "tier_reasoning": "A deliberate campaign that uprooted nearly half of Cyrenaica's population into concentration camps where tens of thousands died of starvation, disease and execution, with senior officers calling openly for annihilation — destruction aimed at a people, so EXT.",
+      "agent": "Fascist Italy under Benito Mussolini; the camps and 'pacification' were directed by General Rodolfo Graziani under Governor Pietro Badoglio",
+      "toll": {
+        "display": "~20,000–100,000 deaths (camp deaths ~40,000–70,000; Cyrenaica population fell ~83,000)",
+        "disputed": true,
+        "low": 20000,
+        "high": 100000,
+        "unit": "deaths",
+        "note": "Estimates of total Libyan deaths under the 1929–34 campaign run from about 20,000 to 100,000. Deaths inside the sixteen Cyrenaican concentration camps alone (1930–33) are estimated at roughly 40,000–70,000 from execution, starvation and disease (commonly cited camp-death bands run ~50,000–70,000 in the encyclopedic overview and ~60,000–70,000 in Ahmida; the ~40,000 floor is the conservative low), with mortality rates frequently put around 40% or higher. About 100,000–110,000 Bedouin were forcibly interned — nearly half of Cyrenaica's population — and the region's population fell from roughly 225,000 to 142,000, a decline of about 83,000 (roughly one third). Records are colonial and incomplete, so the death range is wide; population decline is a demographic measure, not a direct body count."
+      },
+      "received_lens": "denied",
+      "summary": "To crush the Senussi resistance, Fascist Italy walled off Cyrenaica, drove some 100,000 Bedouin from their lands and herded them into desert concentration camps where tens of thousands died of hunger and disease, while Graziani's forces executed fighters and bombed survivors. Marshal Badoglio called for the annihilation of the rebels; the resistance leader Omar al-Mukhtar was captured and publicly hanged in 1931.",
+      "relevance": "While Italian memory casts the nation as the gentle italiani brava gente and as Hitler's victim, Fascist Italy ran extermination-grade camps in Libya that killed Libyans on a scale scholars now call genocide — a perpetrator record long buried.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Libyan genocide (1929–1934) overview — 20,000 to 100,000 Libyans killed; ~100,000–110,000 interned; Cyrenaica population fell from 225,000 to 142,000 (~83,000 decline); directed by Graziani under Mussolini and Badoglio",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Libyan_genocide_(1929%E2%80%931934)",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Italian concentration camps in Libya overview — sixteen camps in Cyrenaica (1930–33); camp deaths estimated ~40,000–70,000 from execution, starvation and disease; mortality ~40% or higher",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Italian_concentration_camps_in_Libya",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Ali Abdullatif Ahmida, Genocide in Libya: Shar, a Hidden Colonial History (2020), and the chapter on colonial Libya in The Cambridge World History of Genocide — argue the camps and deportations constituted genocide and document the long European silence around it",
+          "supports": "summary",
+          "url": "https://www.cambridge.org/core/books/abs/cambridge-world-history-of-genocide/eurocentrism-silence-and-memory-of-genocide-in-colonial-libya-19291934/2F6A0A6F7010B944D4C13A4A6425A0A1",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ita-4",
+      "country": "ITA",
+      "role": "perpetrator",
+      "title": "The invasion and occupation of Ethiopia (incl. mustard gas and the Yekatit 12 massacre)",
+      "era": "1935–1941",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "A war of aggression and occupation in which Italian forces used banned mustard gas against combatants and civilians and carried out reprisal massacres; mass killing tied to conquest and occupation rather than a program to exterminate the Ethiopian people as such, so WAR rather than EXT.",
+      "agent": "Fascist Italy under Benito Mussolini, with commanders Emilio De Bono and Pietro Badoglio; the occupation reprisals were ordered by Viceroy Rodolfo Graziani",
+      "toll": {
+        "display": "~275,000 Ethiopian deaths (estimates of total war-and-occupation toll to ~760,000; disputed)",
+        "disputed": true,
+        "low": 275000,
+        "high": 760300,
+        "unit": "deaths",
+        "note": "Counts diverge sharply by source and by what is included. Italy's own figure for Ethiopian soldiers killed was about 70,000; widely cited estimates put Ethiopian deaths in the 1935–36 war around 275,000, of which roughly 250,000–270,000 were civilians. Ethiopia's 1945 memorandum tallied 760,300 dead across the whole war and occupation (combat, refugee starvation, executions, camps, the Feb. 1937 massacre, and air attack), but this is a state estimate, not a body count. Mussolini's air force dropped roughly 330 tons of mustard gas in violation of the 1925 Geneva Protocol. The Yekatit 12 reprisal alone is variously put at ~1,400–6,000 (contemporary press), ~3,000 (Del Boca, Mockler), or ~19,200 (Ian Campbell, 2017)."
+      },
+      "received_lens": "suppressed",
+      "summary": "Mussolini's armies invaded in October 1935, bombing and gassing a poorly armed defender, and occupied Ethiopia until 1941. After a failed assassination attempt on Viceroy Graziani on 19 February 1937, Italian troops, Blackshirts and Eritrean askaris spent three days killing Ethiopians across Addis Ababa — the reprisal Ethiopia remembers as Yekatit 12 — and the occupation liquidated much of the country's educated class.",
+      "relevance": "The same Italy mourned as Hitler's victim was itself the gas-dropping aggressor in Ethiopia; this single event sits in Ethiopia's victim ledger and Italy's perpetrator ledger at once — the dual lens made literal.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Second Italo-Ethiopian War overview — ~70,000 Ethiopian soldiers and ~250,000–270,000 civilians killed in the 1935–36 war; ~330 tons of mustard gas dropped; commanders De Bono, Badoglio, Graziani under Mussolini",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Second_Italo-Ethiopian_War",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Angelo Del Boca, citing Ethiopia's 1945 memorandum — 760,300 total dead across war and occupation (incl. 275,000 battle, 300,000 refugee hunger, 75,000 patriots, 35,000 camps, 30,000 in the Feb. 1937 massacre, 24,000 executions, 17,800 killed by air attack)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Second_Italo-Ethiopian_War",
+          "caveat": "The high total is an Ethiopian government estimate compiled for a post-war claim, not a verified count; the regime had an interest in a maximal figure."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Ian L. Campbell, The Addis Ababa Massacre: Italy's National Shame (2017) — estimates ~19,200 killed in the Yekatit 12 reprisal of Feb. 1937, about 20% of the city's population; contrasted with contemporary estimates of ~1,400–6,000 and Del Boca/Mockler's ~3,000",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Yekatit_12",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

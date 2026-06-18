@@ -1,0 +1,180 @@
+{
+  "iso": "MAR",
+  "name": "Morocco",
+  "note": "Built from scratch 2026-06-18 with live web research. Both ledgers are populated and roughly balanced. Victim side: the Rif War (1921–1926), in which Spain — with French help — crushed Abd el-Krim's Rifian republic and became the first power to wage aerial gas warfare on a civilian population after WWI, dropping mustard, phosgene and other agents on Rifian villages, markets and wells. Perpetrator side: the invasion and occupation of Western Sahara (1975 onward), including the 1976 napalm and white-phosphorus bombing of Sahrawi refugee camps and the long pattern of enforced disappearances; the state repression of the 'Years of Lead' (1956–1999) under Hassan II, documented after his death by Morocco's own Equity and Reconciliation Commission; and, far earlier, the Saadian conquest of the Songhai Empire (1591), which sacked Timbuktu, Gao and Djenné and broke West Africa's largest state. Tolls are contested or, in two cases, genuinely uncounted. The Rif War's overall toll is sourced as a range, but the article record explicitly states there is NO credible count of Rifian CIVILIAN deaths and that those losses were systematically underestimated — so the toll note carries that caveat and the chemical-weapons death count specifically is null. The Western Sahara war toll is a sourced range; the Years of Lead has a firm low (742 deaths confirmed by Morocco's own truth commission) but no defensible upper bound. The Songhai conquest has NO sourceable death figure and is left null and UNVERIFIED — the act (sack, deportation, imperial collapse) is well attested even though the body count is not. No figure or source here was invented; where a clean independent death count cannot be pinned, the figure is null and the event marked UNVERIFIED.",
+  "events": [
+    {
+      "id": "mar-1",
+      "country": "MAR",
+      "role": "victim",
+      "title": "The Rif War and Spanish Chemical Warfare",
+      "era": "1921–1926",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "A colonial war in which Spain, fighting Abd el-Krim's Rifian insurgency, deliberately bombed civilian villages, markets and water sources with poison gas — mass death and abuse within an armed conflict against an organised resistance, which is WAR, though the indiscriminate gassing of non-combatants pushes at that boundary.",
+      "agent": "The Spanish Army of Africa (under Generals Berenguer, Sanjurjo and the Primo de Rivera dictatorship), with French forces joining in 1925",
+      "toll": {
+        "display": "~40,000–80,000 killed (combatants and civilians, all sides); Rifian/Republic of the Rif war dead ~10,000–30,000; Rifian CIVILIAN deaths uncounted",
+        "disputed": true,
+        "low": 40000,
+        "high": 80000,
+        "unit": "deaths",
+        "note": "AUDIT 2026-06-18: toll.low corrected from 45,000 to 40,000. The Wikipedia 'Rif War' article's broadest total-killed estimate is explicitly '40,000–80,000 killed (combatants and civilians)' under 'Other sources'; the figure 45,000 appears nowhere in the cited source, so the previous low was unsourced and has been aligned to the verified 40,000 lower bound. Within that range, the Republic of the Rif is credited with roughly 30,000 casualties including about 10,000 dead; Spanish losses ran to tens of thousands (the 1921 Battle of Annual alone cost Spain on the order of 10,000–16,000 men). The figure that cannot be pinned is the one that matters most for Morocco's victim ledger: the ICRC's review states plainly that 'there is no credible information about civilian deaths' and that Rifian civilian losses were 'systematically underestimated or simply not taken into account.' From 1924 Spain dropped mustard gas, phosgene, diphosgene and chloropicrin on Rifian villages, markets and rivers — the first sustained aerial gas campaign against a civilian population after WWI — but NO verified death count exists for the gas attacks specifically, and later claims linking the Rif's high cancer rates to the gas remain scientifically unverified. The overall 40,000–80,000 range is sourced (toll.low/high); the chemical-weapons and civilian death counts are honestly null. UNVERIFIED stands because the civilian/gas count central to the victim claim cannot be sourced. Disputed.",
+        "low_source_note": "40,000 is the lower bound of the broadest total-killed estimate '40,000–80,000 killed (combatants and civilians)' in the Wikipedia 'Rif War' article ('Other sources'). Audit-corrected from an unsourced 45,000.",
+        "high_source_note": "80,000 is the upper bound of that same '40,000–80,000 killed (combatants and civilians)' estimate; the Rifian-civilian share within it is uncounted. Source verified 2026-06-18."
+      },
+      "received_lens": "suppressed",
+      "summary": "When Abd el-Krim's Rif fighters shattered a Spanish army at Annual in 1921, Spain answered with reconquest and, from 1924, with gas. Spanish planes dropped mustard, phosgene and other agents on Rifian villages, markets and wells — the first sustained aerial chemical campaign against civilians after the First World War — and France joined the assault in 1925. The total dead run into the tens of thousands; the Rifian civilian toll was never credibly counted.",
+      "relevance": "Morocco's clearest victim narrative — a colonised people gassed in their own valleys — sits in the same atlas as the camp-bombings and disappearances Morocco's own state would later carry out in Western Sahara, refusing the comfort of a people who are only ever victims.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Rif War\" — Wikipedia (Spanish 43,500–63,000 casualties; French 10,000–18,000; Rifian ~30,000 casualties incl. ~10,000 dead; broader estimate 40,000–80,000 killed combatants and civilians; Spanish use of phosgene, diphosgene, chloropicrin and mustard gas from 1924 against civilian populations, markets and rivers)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Rif_War",
+          "caveat": "Tertiary aggregator; the casualty bands mix dead and wounded and the broader 40,000–80,000 'killed' figure is an estimate spanning all parties."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "\"The Rif War: A forgotten war?\" — International Review of the Red Cross (ICRC) — states there is no credible count of civilian deaths and that Rifian civilian losses were systematically underestimated or not counted; documents Spain's systematic use of poison gas from spring 1924 and King Alfonso's call to set aside 'vain humanitarian considerations'",
+          "supports": "summary",
+          "url": "https://international-review.icrc.org/articles/the-rif-war-a-forgotten-war-923",
+          "caveat": "Cited for the explicit statement that civilian deaths are uncounted and for the documented gas campaign; the article itself stresses that military figures should be treated with caution and that no quantified gas-death toll exists."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "\"Spanish use of chemical weapons in the Rif War\" — Wikipedia (mustard-gas bombs sourced from German stockpiles, delivered via Melilla and dropped from Farman F60 aircraft on civilian targets from 1924; first widespread post-WWI gas warfare)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Spanish_use_of_chemical_weapons_in_the_Rif_War",
+          "caveat": "Tertiary aggregator; documents the agents and delivery but offers no quantified civilian death toll from the gas, and later cancer-rate claims remain scientifically unverified."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "mar-2",
+      "country": "MAR",
+      "role": "perpetrator",
+      "title": "Invasion and Occupation of Western Sahara",
+      "era": "1975–1991 (occupation ongoing)",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Morocco seized Western Sahara by force in 1975 and fought a sixteen-year war against the Polisario Front, bombing Sahrawi refugee camps with napalm and white phosphorus and forcibly 'disappearing' hundreds of civilians — mass death and abuse within an armed conflict and military occupation, which is WAR, with the disappearances shading into politically targeted repression.",
+      "agent": "The Kingdom of Morocco — its army and Royal Moroccan Air Force, under King Hassan II — following the November 1975 'Green March' into the decolonising Spanish Sahara",
+      "toll": {
+        "display": "~10,000–20,000 total war dead (all sides); 850–1,500+ Sahrawi forcibly disappeared by Moroccan forces",
+        "disputed": true,
+        "low": 10000,
+        "high": 20000,
+        "unit": "deaths",
+        "note": "After Spain withdrew, Morocco organised the 350,000-strong 'Green March' (escorted by ~20,000 troops) into Western Sahara in November 1975 and seized the territory. Some sources put the final death toll of the resulting 1975–1991 war between 10,000 and 20,000 people (all sides); one cited estimate records more than 3,000 Sahrawis killed (Eckhardt, 1985). The war's signature atrocity against civilians was the early-1976 bombing of the improvised Sahrawi refugee camps at Umm Dreiga, Tifariti and Amgala with napalm and white phosphorus, which sources say killed civilians and drove tens of thousands to flee into Algeria (the Tindouf camps) — but the article record does NOT give a verified death count for the camp bombings specifically, so that figure is not stated here. Separately, human-rights groups document that Moroccan forces forcibly 'disappeared' Sahrawi civilians: around 520 still listed as disappeared in 2010, with totals estimated from 853+ (Project Disappeared) up to ~1,500 (FIDH). The overall 10,000–20,000 war toll is sourced (toll.low/high); the camp-bombing death count is honestly null. Disputed.",
+        "low_source_note": "~10,000 is the lower bound of the 'Some sources put the final death toll between 10,000 and 20,000 people' range on the Wikipedia 'Western Sahara War' article. Verified verbatim 2026-06-18. AUDIT FLAG: both ends of this range rest on a single source sentence (single-source range); no independent second source corroborates the bounds in the record.",
+        "high_source_note": "~20,000 is the upper bound of that same single sourced sentence (all sides). Verified 2026-06-18. Single-source flag per low_source_note."
+      },
+      "received_lens": "denied",
+      "summary": "When Spain abandoned the Western Sahara in 1975, Morocco marched in — 350,000 civilians screening 20,000 troops — and annexed the territory by force. In early 1976 its air force bombed Sahrawi refugee camps with napalm and white phosphorus, driving tens of thousands into the Algerian desert, and over the following years Moroccan security forces 'disappeared' hundreds of Sahrawi civilians. The war killed an estimated ten to twenty thousand people; the occupation continues.",
+      "relevance": "A people gassed by Spain in the Rif a half-century earlier became, as a state, the power bombing refugee camps and disappearing civilians in a land it had seized — the dual lens in a single national lifetime.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Western Sahara War\" — Wikipedia (final death toll 10,000–20,000; >3,000 Sahrawis killed per Eckhardt 1985; 853+ to 1,500 Sahrawis missing; napalm/white-phosphorus bombing of refugee camps in early 1976; 40,000 (1976) rising to 80,000 (1977) Sahrawis displaced)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Western_Sahara_War",
+          "caveat": "Tertiary aggregator; the 10,000–20,000 figure is an all-sides estimate and the camp-bombing deaths are described ('killing thousands of civilians') but not quantified with a verifiable count."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Human rights in Western Sahara\" — Wikipedia (Moroccan napalm/white-phosphorus bombing of improvised camps as the most severe abuse charge; ~520 Sahrawi civilians still 'disappeared' as of 2010, possibly up to ~1,500; claims of >30,000 tortured since 1975)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Human_rights_in_Western_Sahara",
+          "caveat": "Tertiary aggregator drawing on advocacy and Polisario-aligned sources; the torture and disappearance totals are claims before UN bodies and human-rights groups, not adjudicated counts."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "mar-3",
+      "country": "MAR",
+      "role": "perpetrator",
+      "title": "The Years of Lead (State Repression under Hassan II)",
+      "era": "1956–1999 (chiefly 1960s–1980s)",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Over decades the Moroccan monarchy 'disappeared', secretly imprisoned, tortured and killed dissidents, coup officers, leftists and protesters — a sustained state campaign of politically targeted repression against opponents, which is POL.",
+      "agent": "The Moroccan state under King Hassan II — its security and intelligence services (including the DST and Interior Minister Driss Basri's apparatus)",
+      "toll": {
+        "display": "742 disappeared confirmed dead by Morocco's own truth commission; hundreds more killed in protests and detention; full toll uncounted",
+        "disputed": true,
+        "low": 742,
+        "high": null,
+        "unit": "deaths",
+        "note": "From independence in 1956 through Hassan II's death in 1999 — concentrated in the 1960s–1980s — the Moroccan monarchy ran a campaign of enforced disappearance, secret detention, torture and extrajudicial killing against dissidents. After two failed coups (1971, 1972) it disappeared 58 soldiers and officers into the secret desert prison of Tazmamart, where they were held in lightless underground cells for eighteen years; 35 of them died there. Hundreds more were killed when security forces fired on bread riots and protests (notably Casablanca 1965 and 1981, and Fes 1990). Morocco's own Equity and Reconciliation Commission (IER, 2004–2005) — a rare instance of a state investigating itself — examined ~20,000 cases and determined that 742 disappeared individuals had died, paying reparations to thousands; but it left 66 disappearance cases unresolved and lacked information on many burial sites. The 742 confirmed deaths is the firm, state-acknowledged floor (toll.low). No defensible upper bound for total killings — across decades of riot deaths, deaths in detention, and unresolved disappearances — can be cleanly assembled, so toll.high is null and the event is UNVERIFIED.",
+        "low_source_note": "742 disappeared individuals confirmed dead by Morocco's own Equity and Reconciliation Commission, per the Wikipedia 'Equity and Reconciliation Commission' article. Verified verbatim 2026-06-18 (also confirmed: ~20,000 cases investigated, 4,677 resolved, reparations to 3,657, 66 unresolved, US$85M distributed). Tazmamart 58-sent/35-died/18-years/closed-1991 verified against the Wikipedia 'Tazmamart' article.",
+        "high_source_note": "No defensible upper bound exists; the IER left cases unresolved and protest/detention deaths over four decades were never fully counted, so left null. AUDIT FLAG: single-number toll (firm floor only, null high) — flagged per single-number rule; UNVERIFIED stands."
+      },
+      "received_lens": "contested",
+      "summary": "For most of Hassan II's reign the Moroccan state silenced opponents by making them vanish. Coup officers were entombed in the secret prison of Tazmamart, where more than half died in lightless cells over eighteen years; dissidents were tortured and disappeared; and security forces shot hundreds dead in the bread riots of Casablanca and Fes. Morocco's own post-mortem truth commission later confirmed 742 of the disappeared had died — a floor, not a full count.",
+      "relevance": "A state that points to Spanish gas in the Rif as its founding wound spent four decades disappearing and killing its own citizens — a reckoning Morocco itself partly conducted, and which belongs in the perpetrator ledger.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Equity and Reconciliation Commission\" — Wikipedia (IER 2004–2005 investigated ~20,000 cases; determined 742 disappeared individuals had died; 4,677 cases resolved with reparations to 3,657 victims; 66 disappearance cases unresolved; ~US$85M distributed)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Equity_and_Reconciliation_Commission",
+          "caveat": "Tertiary aggregator; the 742 figure is the state commission's own confirmed-dead count and is widely regarded as a floor, with critics noting the IER could not compel testimony, name perpetrators, or fully account for burial sites."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Years of Lead (Morocco)\" — Wikipedia and \"Tazmamart\" — Wikipedia (hundreds of political killings and forced disappearances; 58 officers/soldiers disappeared into Tazmamart after the 1971/1972 coups, 35 of whom died over 18 years before its 1991 closure; protest deaths in 1965, 1981 and 1990)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Years_of_Lead_(Morocco)",
+          "caveat": "Tertiary aggregator; reliable victim lists for the period are scarce, and the Tazmamart death count (35 of 58) derives from survivor testimony and later accounts rather than official records."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "mar-4",
+      "country": "MAR",
+      "role": "perpetrator",
+      "title": "Saadian Conquest of the Songhai Empire",
+      "era": "1591–1594",
+      "era_band": "pre-colonial",
+      "tier": "WAR",
+      "tier_reasoning": "Morocco's Saadian sultan sent a gunpowder army across the Sahara to conquer the Songhai Empire, routing it at Tondibi and sacking its cities — a war of conquest and occupation with violent suppression of revolt and mass deportation, which is WAR rather than the extermination of a people.",
+      "agent": "The Saadian dynasty of Morocco — Sultan Ahmad al-Mansur, whose expeditionary army was led across the Sahara by Judar Pasha (and later Mahmud Pasha)",
+      "toll": {
+        "display": "no sourceable death count",
+        "disputed": false,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "In 1590 Sultan Ahmad al-Mansur dispatched a 4,000–20,000-strong army equipped with arquebuses and cannon across the Sahara. At the Battle of Tondibi (March 1591) it routed the far larger but firearm-less Songhai host under Askia Ishaq II, then occupied Gao and Timbuktu, sacked Gao, Timbuktu and Djenné, suppressed a city-wide Timbuktu revolt (October–December 1593) with 'draconian measures,' and in 1594 arrested and deported the city's scholars — including the renowned jurist Ahmad Baba — to Marrakesh. The invasion broke the largest state West Africa had known; no successor ever rebuilt its power. But the source record gives NO specific casualty figures or death-toll estimates for civilians or soldiers in the conquest, the sack of the cities, or the suppressed revolts. Both ends of the toll are therefore honestly null and the event is UNVERIFIED — the act is well attested, the body count is not.",
+        "low_source_note": "No contemporary or scholarly death count for the conquest, the sacks, or the suppressed revolts is available in the source record; left null. Verified 2026-06-18: the Wikipedia 'Moroccan invasion of the Songhai Empire' article lists casualties for both sides as 'Unknown', confirming the honest null.",
+        "high_source_note": "No defensible upper bound exists; left null. AUDIT FLAG: zero-figure toll (both ends null) — event is well attested but uncounted; UNVERIFIED stands."
+      },
+      "received_lens": "triumphal",
+      "summary": "In 1591 Morocco's Saadian sultan sent a gunpowder army across the Sahara and destroyed the Songhai Empire, West Africa's largest state. The Moroccans routed a far bigger Songhai host at Tondibi, sacked Gao, Timbuktu and Djenné, crushed a Timbuktu revolt with harsh reprisals, and deported the city's scholars — including Ahmad Baba — to Marrakesh. Songhai never recovered; no contemporary tallied the dead.",
+      "relevance": "Long before Morocco was a colonised victim, it was an expansionist conqueror that shattered a great African empire and deported its learned class — the perpetrator role at the far end of the same national story.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Moroccan invasion of the Songhai Empire\" — Wikipedia (al-Mansur's 1590 expedition under Judar Pasha; 4,000–20,000-strong army with firearms; decisive victory at Tondibi 1591; occupation of Gao and Timbuktu; Mahmud Pasha's draconian suppression of the 1593 Timbuktu revolt; 1594 arrest and deportation of scholars including Ahmad Baba to Marrakesh; effective collapse of the empire)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Moroccan_invasion_of_the_Songhai_Empire",
+          "caveat": "Tertiary aggregator; the article provides no quantified death toll for the conquest, the sacks or the suppressed revolts, which is why this event's toll is null."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Songhai Empire\" — Wikipedia / BlackPast.org, \"Songhai Empire (ca. 1375–1591)\" (the Moroccan invasion under al-Mansur, the rout at Tondibi by musket and cannon, and the destruction of Songhai as a regional power)",
+          "supports": "summary",
+          "url": "https://www.blackpast.org/global-african-history/songhai-empire-ca-1375-1591/",
+          "caveat": "Reference/educational source; corroborates the fact and outcome of the conquest, not any death count."
+        }
+      ],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

@@ -1,0 +1,179 @@
+{
+  "iso": "KOR",
+  "name": "South Korea",
+  "note": "Both ledgers are real and well-documented, and the dual lens here is unusually tight: in the same years (1948-1950) the new South Korean state was simultaneously a perpetrator against its own people and its people were victims of an ally's army. The perpetrator ledger is the heavier one. As perpetrator: the Jeju 4.3 suppression of 1948-49 and the Bodo League executions of summer 1950, both carried out by the Syngman Rhee government against South Koreans accused of communism (internal political mass killing, tier POL), and the 1968 massacres of Vietnamese civilians by ROK marines abroad (tier WAR). As victim: the No Gun Ri massacre of 1950, in which United States forces killed Korean refugees during the war's opening retreat (tier WAR). A point of overlap rather than asymmetry: the Jeju and Bodo dead were South Korean civilians, so those events appear in the perpetrator ledger by agency (the ROK state did the killing) even though the victims were Korean — the cleanest case of a people being killed by a foreign agent is No Gun Ri, which anchors the victim side. Every toll below is contested and carries both a low and a high source; none was invented to balance the two columns.",
+  "events": [
+    {
+      "id": "kor-1",
+      "country": "KOR",
+      "role": "victim",
+      "title": "The No Gun Ri massacre",
+      "era": "1950",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Killing of unarmed refugees by an army during a battlefield retreat under orders to treat approaching civilians as a threat — conduct of war against civilians (WAR), not a programme to destroy a group (EXT) nor a disease-driven collapse (STR).",
+      "agent": "United States Army — the 2nd Battalion, 7th Cavalry Regiment, 1st Cavalry Division, with supporting US air strikes, during the early retreat of the Korean War",
+      "toll": {
+        "display": "~150-400 (South Korean inquest certified 150 dead + 13 missing; No Gun Ri Peace Foundation ~250-300; survivors and North Korean reporters ~400)",
+        "disputed": true,
+        "low": 150,
+        "high": 400,
+        "unit": "deaths",
+        "note": "The 2005 South Korean government inquest certified 150 dead and 13 missing at No Gun Ri but stated many victims' names went unreported; the No Gun Ri Peace Foundation assessed 250-300 killed, mostly women and children; survivors and two North Korean journalists who reached the site in 1950 put the figure near 400. These are deaths over three days in late July 1950; the exact toll is unresolved."
+      },
+      "received_lens": "contested",
+      "summary": "In the chaotic retreat of late July 1950, US 7th Cavalry soldiers stopped a column of South Korean refugees near the village of Nogeun-ri, drove them under a railway bridge, and fired on them with ground weapons and air strikes over three days. Somewhere between roughly one hundred fifty and four hundred people, most of them women and children, were killed. The Pentagon's 2001 review called it a tragedy 'inherent to war' rather than a deliberate killing, offered no compensation, and no American was ever charged.",
+      "relevance": "South Korea is remembered as the ally America fought to defend, which is exactly why No Gun Ri matters — its own protector killed its civilians; and it is the necessary counterweight to a perpetrator ledger in which the South Korean state killed far more of its own.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'No Gun Ri massacre', Wikipedia — South Korean 2005 inquest (150 dead, 13 missing), No Gun Ri Peace Foundation estimate (250-300), survivor and North Korean reporter estimates (~400), unit identification, and the US review's 'inherent to war' conclusion",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/No_Gun_Ri_massacre",
+          "caveat": "Tertiary encyclopaedia compiling figures from the South Korean government inquest, the Peace Foundation, and survivor and North Korean accounts; the ~400 high end derives partly from North Korean wartime reporting, which carries a propaganda incentive."
+        },
+        {
+          "kind": "press",
+          "cite": "Sang-Hun Choe, Charles J. Hanley & Martha Mendoza, Associated Press investigation into No Gun Ri (1999), awarded the 2000 Pulitzer Prize for Investigative Reporting",
+          "supports": "summary",
+          "url": "https://www.pulitzer.org/winners/sang-hun-choe-charles-j-hanley-and-martha-mendoza",
+          "caveat": "The Pulitzer-winning AP investigation, corroborated by veterans of the 7th Cavalry, broke the story; some specific claims in the original series were later debated, but the core event is established."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Tae-Ung Baik, 'A War Crime Against an Ally's Civilians: The No Gun Ri Massacre', Notre Dame Journal of Law, Ethics & Public Policy (legal analysis of the massacre and the failed accountability process)",
+          "supports": "summary",
+          "url": "https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/35fbc4b6-6afb-416d-818c-9e8e720fa5dc/content",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "kor-2",
+      "country": "KOR",
+      "role": "perpetrator",
+      "title": "The Jeju 4.3 suppression",
+      "era": "1948-49",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "A state counter-insurgency campaign that rounded up and executed civilians, burned villages and applied collective punishment against a population deemed communist — political mass killing by the state (POL); it was not a declared programme to exterminate an ethnic group (EXT) nor a disease-driven collapse (STR).",
+      "agent": "First Republic of Korea under President Syngman Rhee — army, police and right-wing militias such as the Northwest Youth League; the United States Army Military Government commanded Jeju's security forces until August 1948",
+      "toll": {
+        "display": "~14,000-30,000 (Truth and Reconciliation Commission confirmed 14,373 victims, est. up to 30,000); some estimates as high as 80,000",
+        "disputed": true,
+        "low": 14000,
+        "high": 30000,
+        "unit": "deaths",
+        "note": "South Korea's Truth and Reconciliation Commission confirmed 14,373 named victims and estimated the total death toll up to 30,000 — about one-tenth of the island's population — attributing 86% of confirmed deaths to government security forces and 14% to the armed rebels. Historian Bruce Cumings and others cite figures as high as 80,000. Killings continued at lower intensity through 1954. The low/high here use the Commission's confirmed-to-estimated range; the 80,000 figure is the contested upper bound."
+      },
+      "received_lens": "suppressed",
+      "summary": "After a leftist uprising broke out on Jeju Island on 3 April 1948, the Rhee government declared martial law and ran an 'eradication campaign' that treated much of the island as enemy territory. Security forces and right-wing youth militias burned roughly seventy percent of Jeju's villages, rounded up whole communities and executed civilians without trial; between fourteen and thirty thousand islanders were killed, the great majority by government forces. The state then suppressed all mention of it for decades, until a president finally apologised in 2003.",
+      "relevance": "Within months of the republic's founding, the same South Korean state celebrated abroad as the free half of the peninsula was massacring a tenth of an island's population on suspicion of communism — the perpetrator anchor of the ledger.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Jeju uprising', Wikipedia — Truth and Reconciliation Commission's 14,373 confirmed victims and up-to-30,000 estimate, the 86%/14% attribution to security forces vs rebels, Bruce Cumings's up-to-80,000 figure, and the US Military Government command role",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Jeju_uprising",
+          "caveat": "Tertiary encyclopaedia; the confirmed-victim and attribution figures derive from South Korea's official Truth and Reconciliation Commission report, while the 80,000 high end is a scholarly maximum."
+        },
+        {
+          "kind": "press",
+          "cite": "'75 Years After Jeju 4.3 Massacre, Koreans Want a US Apology', Inkstick Media (2023) — summarises the death-toll range, the village destruction, and the contested question of US military responsibility",
+          "supports": "summary",
+          "url": "https://inkstickmedia.com/75-years-after-jeju-4-3-massacre-koreans-want-a-us-apology/",
+          "caveat": "Advocacy-leaning outlet emphasising the case for US accountability; used for narrative context, not as the sole basis for any toll figure."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "kor-3",
+      "country": "KOR",
+      "role": "perpetrator",
+      "title": "The Bodo League executions",
+      "era": "1950",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "Systematic execution without trial of people enrolled in a state 're-education' register on suspicion of communist sympathy, ordered as the war began — political mass killing by the state (POL), distinct from a campaign to destroy an ethnic group (EXT) or a structural famine (STR).",
+      "agent": "First Republic of Korea under President Syngman Rhee — military police, the army and anti-communist paramilitaries, executing detainees and registered Bodo League members as North Korean forces advanced in summer 1950",
+      "toll": {
+        "display": "~60,000-200,000 (commonly cited scholarly range; Truth and Reconciliation commissioner Kim Dong-choon estimates at least 100,000)",
+        "disputed": true,
+        "low": 60000,
+        "high": 200000,
+        "unit": "deaths",
+        "note": "Historians estimate between 60,000 and 200,000 people were killed in the summer of 1950; Professor Kim Dong-choon, a commissioner of South Korea's Truth and Reconciliation Commission, estimates at least 100,000 were executed. The Bodo League itself enrolled some 300,000 registrants. Exact totals remain unknown because the government concealed the killings for four decades and many records were destroyed; the Commission confirmed only a fraction (e.g. several thousand at specific sites such as Daejeon)."
+      },
+      "received_lens": "suppressed",
+      "summary": "When North Korea invaded in June 1950, the Rhee government turned on the National Guidance (Bodo) League — a register of some 300,000 people enrolled as suspected leftists for 're-education'. As the front collapsed, military police and the army executed Bodo League members and political detainees en masse without trial, dumping bodies in mass graves and old mines; estimates of the dead run from sixty thousand to two hundred thousand. Survivors were forbidden to speak of it for forty years under threat of being branded communists.",
+      "relevance": "In the opening weeks of the war it was internationally cast as the victim of, the South Korean state killed its own citizens by the tens of thousands — a perpetrator atrocity that dwarfs in scale the wrongs done to South Koreans by their enemies and allies.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Bodo League massacre', Wikipedia — the 60,000-200,000 scholarly range, commissioner Kim Dong-choon's at-least-100,000 estimate, the ~300,000 League enrolment, Rhee's execution order, and the four-decade concealment",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Bodo_League_massacre",
+          "caveat": "Tertiary encyclopaedia; the toll range is genuinely contested and the high end (200,000) is an upper scholarly estimate, while the Commission has confirmed only a fraction of the dead by name."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Do Khiem & Kim Sung-soo, 'Crimes, Concealment and South Korea's Truth and Reconciliation Commission', The Asia-Pacific Journal: Japan Focus (analysis of the Bodo League and related killings and the official investigation)",
+          "supports": "summary",
+          "url": "https://apjjf.org/do-khiem/2848/article",
+          "caveat": "Peer-reviewed area-studies journal critical of both the Rhee government and the limits of the later Commission; used for the concealment and investigation narrative rather than as the source of a specific toll figure."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "kor-4",
+      "country": "KOR",
+      "role": "perpetrator",
+      "title": "ROK massacres of Vietnamese civilians",
+      "era": "1966-69",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Deliberate killing of unarmed villagers — women, children and the elderly — by an expeditionary army during counter-insurgency operations; atrocities in the conduct of war (WAR), not a programme to destroy a group as such (EXT).",
+      "agent": "Republic of Korea armed forces deployed to South Vietnam — principally the 2nd Marine Brigade ('Blue Dragon') and the Capital ('Tiger') Division, under the Park Chung-hee government, 1966-69",
+      "toll": {
+        "display": "~9,000 Vietnamese civilians across ~80+ massacres (Ku Su-jeong estimate); single events e.g. Ha My 135, Phong Nhi-Phong Nhat ~69-79",
+        "disputed": true,
+        "low": 5000,
+        "high": 9000,
+        "unit": "deaths",
+        "note": "Researcher Ku Su-jeong estimated roughly 80 mass-killing incidents and about 9,000 Vietnamese civilian deaths during Korean involvement (1964-73); a Vietnamese military report from the 1980s put the figure near 5,000, and later Korean civil-society and Hankyoreh field surveys raised the count toward 130 incidents and up to 10,000. Documented single events include the Ha My massacre (135 killed, 25 Feb 1968) and the Phong Nhi-Phong Nhat massacre (~69-79 killed, 12 Feb 1968). The low/high here bracket the Vietnamese military report and Ku's estimate; totals remain unverified at the level of a precise count."
+      },
+      "received_lens": "denied",
+      "summary": "Between 1966 and 1969 South Korea's Blue Dragon marines and Tiger division ran counter-insurgency sweeps through central Vietnam's Quang Nam, Quang Ngai and Binh Dinh provinces, and in dozens of villages they herded civilians together and shot them. At Phong Nhi and Phong Nhat in February 1968 around seventy were killed; days later at Ha My one hundred thirty-five women, children and old people died. Researchers estimate some eighty or more such massacres and on the order of nine thousand dead; Seoul long denied responsibility, and only in 2023 did a South Korean court first hold the state liable.",
+      "relevance": "The country that demands and has won apologies for No Gun Ri and for Japanese colonial crimes was itself, a generation later, the foreign army massacring villagers in someone else's country — the perpetrator-abroad face of the same state.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Phong Nhị and Phong Nhất massacre', Wikipedia — the ~69-79 toll and identification of the 2nd ROK Marine Brigade as perpetrator (12 Feb 1968)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Phong_Nh%E1%BB%8B_and_Phong_Nh%E1%BA%A5t_massacre",
+          "caveat": "Tertiary encyclopaedia; the single-event toll is corroborated by US Marine and Korean documentation of the incident."
+        },
+        {
+          "kind": "press",
+          "cite": "Friedrich-Ebert-Stiftung Asia, 'Efforts continue to uncover the truth about the massacre by South Korean troops during the Indochina Wars' — cites the Ho Chi Minh University estimate of 80+ massacres and ~9,000 victims and the Ha My toll of 135-151",
+          "supports": "toll.high",
+          "url": "https://asia.fes.de/news/efforts-continue-to-uncover-the-truth-about-the-massacre-by-south-korean-troops-during-the-vietnam-war.html",
+          "caveat": "Political-foundation publication summarising Vietnamese academic estimates; the 9,000 figure is a researcher's estimate, not a verified body count."
+        },
+        {
+          "kind": "press",
+          "cite": "'A Vietnam War massacre case from 1968 forces a new reckoning in South Korea', NPR (2023) — the 2023 Seoul court ruling holding the Park-era government liable for the Phong Nhi massacre",
+          "supports": "summary",
+          "url": "https://www.npr.org/2023/04/12/1167951366/south-korea-vietnam-war-massacre-court-case",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

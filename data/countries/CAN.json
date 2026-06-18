@@ -1,0 +1,143 @@
+{
+  "iso": "CAN",
+  "name": "Canada",
+  "note": "Built from scratch. Perpetrator ledger is the heavier side: the residential-school system and the 1880s prairie 'politics of starvation' are the best-documented mass-atrocity acts of the Canadian state against Indigenous peoples. Residential schools tiered EXT on the deliberate-destruction-of-a-group reading (TRC 'cultural genocide' finding; 2022 Commons and papal acknowledgements) while keeping the disease-driven death mechanism explicit. The starvation policy tiered POL: deliberate withholding of treaty rations as state coercion. Death tolls on the perpetrator side are genuinely uncertain — residential-school deaths are a documented floor (4,118) under a far larger estimate (6,000+), and the starvation deaths were never systematically counted, so that toll is left null with a sourced note rather than invented. Victim ledger is thinner: Canada has comparatively little documented mass atrocity inflicted on its own population on its soil, so the strongest victim case is its soldiers — the Hong Kong garrison and POWs killed by Imperial Japan in 1941-45. The asymmetry is real and is not balanced with fabricated events.",
+  "events": [
+    {
+      "id": "can-1",
+      "country": "CAN",
+      "role": "perpetrator",
+      "title": "The Indian residential school system",
+      "era": "1880s–1996",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "The system's purpose was the deliberate destruction of Indigenous peoples as distinct groups — forced removal of children to erase language, kinship, and culture, which Canada's Truth and Reconciliation Commission named 'cultural genocide'; deaths themselves came mostly from tuberculosis and other disease in negligent, overcrowded institutions, which the toll note keeps explicit.",
+      "agent": "Canadian federal government (Department of Indian Affairs) and the Catholic, Anglican, United and Presbyterian churches",
+      "toll": {
+        "display": "≥4,118 documented; TRC estimate 6,000+ (true figure unknown)",
+        "disputed": true,
+        "low": 4118,
+        "high": 6000,
+        "unit": "deaths",
+        "note": "4,118 named deaths are documented on the National Residential School Student Death Register — a floor, not a count, because records were fragmentary and held across many institutions. TRC chair Murray Sinclair estimated the real total exceeds 6,000, and survivor organizations put unmarked-grave figures higher still; the high end is therefore an estimate, not a verified tally. Most deaths were caused by tuberculosis and other infectious disease worsened by malnutrition and absent medical care. Roughly 150,000 First Nations, Métis and Inuit children passed through the schools."
+      },
+      "received_lens": "flagellated",
+      "audit_note": "Source integrity confirmed: TRC Final Report (2015) real; 4,118 documented deaths on the National Residential School Student Death Register independently verified (NCTR/TRC, 'at least 4,118 students had died, mostly from disease'); Sinclair 6,000+ estimate verified; ~150,000 children and the 'cultural genocide' finding verified. Both toll ends sourced. CBC cite returns HTTP 403 to automated fetch (anti-bot) but the URL and headline match a live article and corroborate the documented-floor framing — not a dead link. Tier EXT upheld on independent re-derivation: keyed to deliberate destruction of a group (forced child removal to erase language/culture per TRC), with the disease-driven (TB) death mechanism kept explicit, which is the correct STR-vs-EXT handling.",
+      "summary": "From the 1880s until the last federally funded school closed in 1996, Canada and partner churches removed roughly 150,000 First Nations, Métis and Inuit children from their families into chronically underfunded boarding schools meant to strip them of language and culture; thousands died of tuberculosis and other disease in overcrowded, neglected institutions, many buried in unmarked graves.",
+      "relevance": "A liberal democracy that presents itself abroad as a champion of human rights ran, for over a century, an institution its own truth commission judged a cultural genocide of the peoples it governed.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Truth and Reconciliation Commission of Canada, Final Report (2015) — 'cultural genocide' finding; ≥4,118 documented deaths on the Death Register; Sinclair estimate of 6,000+",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Canadian_Indian_residential_school_system",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "CBC News, 'Why it's difficult to put a number on how many children died at residential schools' (2021)",
+          "supports": "toll.low",
+          "url": "https://www.cbc.ca/news/indigenous/residential-school-children-deaths-numbers-1.6182456",
+          "caveat": "Mainstream broadcaster summarizing TRC and registry figures; used for the documented-floor figure and the explanation that records are incomplete."
+        },
+        {
+          "kind": "reference",
+          "cite": "Canadian Indian residential school system — Wikipedia (≥4,118 documented; 6,000+ TRC estimate; ~150,000 children; system 1880s–1996)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Canadian_Indian_residential_school_system",
+          "caveat": "Tertiary aggregator; figures attributed to the TRC and the National Death Register. High end is an estimate, not a verified count."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "can-2",
+      "country": "CAN",
+      "role": "perpetrator",
+      "title": "The prairie 'politics of starvation' ('Clearing the Plains')",
+      "era": "1878–1885",
+      "era_band": "colonial",
+      "tier": "POL",
+      "tier_reasoning": "The Macdonald government deliberately used the withholding and rationing of food as state policy — coercing Plains nations to sign and stay on treaty terms and to clear land for the railway and settlement — rather than mounting a campaign of direct killing; deaths followed from engineered starvation and the tuberculosis it fed, which the toll note keeps explicit.",
+      "agent": "Government of Canada under PM John A. Macdonald (Department of Indian Affairs)",
+      "toll": {
+        "display": "thousands; never systematically counted",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "No reliable death toll exists for the starvation years; the deaths from hunger and the tuberculosis it accelerated were never systematically counted by the government that caused them. Historian James Daschuk documents a precipitous collapse in Plains Indigenous health to a nadir around 1885, with food rotting in government storehouses while reserve populations starved. A specific sourceable number is not available, so the toll is left null rather than invented; the act is documented even where the count is not. AUDIT/QUARANTINE: the sources are verified and real (Daschuk's book and the Clearing the Plains Wikipedia entry both check out), but this event cannot reach VERIFIED status because there is no toll figure — neither low nor high — that an auditor can independently confirm; it is held UNVERIFIED for irreducible toll uncertainty, NOT for any source-integrity failure."
+      },
+      "received_lens": "contested",
+      "audit_note": "Source integrity confirmed: James Daschuk, 'Clearing the Plains' (U of Regina Press; original 2013, current ed. titled 'Loss of Indigenous Life') is a real book verified against the publisher page, Wikipedia, Google Books and Oxford Academic; the cited title matches the current edition. The Wikipedia entry confirms the ration-withholding-as-coercion policy, the ~1885 health nadir, and that the genocide/ethnic-cleansing framing is Daschuk's argument (caveat correctly flags it as contested). Tier POL upheld on independent re-derivation: defining act is deliberate state policy of withholding food to coerce treaty compliance, not direct killing and not an uncontrolled epidemic (so not STR). Toll is fully null; held UNVERIFIED for toll uncertainty only — sources are sound.",
+      "summary": "After the bison vanished in 1879, the Macdonald government — knowing Plains nations now depended on it for food — deliberately withheld treaty rations, ordering that emergency food be refused until people were on the verge of starvation 'to reduce the expense,' using hunger to force chiefs onto reserves and clear the prairies for the railway and settlers; malnutrition, disease and death followed.",
+      "relevance": "The founding government of Canada used starvation as an instrument of policy against the peoples whose land it was taking — atrocity by withheld bread rather than by the gun.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "James Daschuk, Clearing the Plains: Disease, Politics of Starvation, and the Loss of Indigenous Life (University of Regina Press, 2013)",
+          "supports": "summary",
+          "url": "https://uofrpress.ca/Books/C/Clearing-the-Plains",
+          "caveat": "Daschuk argues these were deliberate acts amounting to genocide/ethnic cleansing; this culpability thesis is contested by some historians, but the documentary core (withheld rations, Macdonald's stated policy, the health collapse) is widely accepted. Cited for the policy and chronology, not for a settled genocide verdict."
+        },
+        {
+          "kind": "reference",
+          "cite": "Clearing the Plains — Wikipedia (summary of Daschuk's thesis; nadir of Indigenous prairie health c. 1885)",
+          "supports": "tier",
+          "url": "https://en.wikipedia.org/wiki/Clearing_the_Plains",
+          "caveat": "Tertiary; summarizes Daschuk and notes the scholarly debate over the genocide framing."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "can-3",
+      "country": "CAN",
+      "role": "victim",
+      "title": "The Hong Kong garrison and POWs (Battle of Hong Kong & St. Stephen's College massacre)",
+      "era": "1941–1945",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Canadian soldiers were killed in battle and then, as surrendered prisoners, were massacred, executed, starved, and worked to death by the Imperial Japanese Army in violation of the laws of war — deliberate wartime killing and abuse of combatants and POWs, not a campaign to exterminate Canadians as a group.",
+      "agent": "Imperial Japanese Army (38th Division; camp and labour authorities in Hong Kong and Japan)",
+      "toll": {
+        "display": "~557 Canadian dead (~290 in battle, ~267 in captivity)",
+        "disputed": false,
+        "low": 290,
+        "high": 557,
+        "unit": "deaths",
+        "note": "Of 1,975 Canadians of 'C Force' sent to Hong Kong, about 290 were killed in the December 1941 battle and roughly 267 more died in Japanese POW camps, factories and mines over the following 3.5 years — a total around 557, the figure cited by Veterans Affairs Canada. Most captivity deaths came from starvation rations (sometimes ~800 calories/day under forced labour), untreated disease, and abuse; some were direct killings, including bayonetings and executions. The low/high here mark battle deaths vs. the battle-plus-captivity total, not a genuine scholarly dispute."
+      },
+      "received_lens": "memorial",
+      "audit_note": "Source integrity confirmed: Veterans Affairs Canada 'Defence of Hong Kong' is real and corroborates the figures verbatim — '290 men died' in the battle, '267 more perished' in captivity (=557 total), '1,975 Canadians arrived'; both toll endpoints (290 low, 557 high) are sourced. The St. Stephen's College massacre (25 Dec 1941: British/Canadian/Indian wounded bayoneted, nurses gang-raped and murdered, Lt.-Gen. Takeo Itō of the 38th Division held responsible) is verified, and the CMHR 'A cauldron of hell' article is a real, live source matching the cited content. Tier WAR upheld: combat deaths plus war crimes against soldiers and POWs in violation of the laws of war, not a campaign to exterminate Canadians as a group. disputed:false is correct — low/high mark battle-vs-battle-plus-captivity endpoints, not a scholarly dispute.",
+      "summary": "Canada sent nearly 2,000 ill-prepared troops to reinforce Hong Kong in late 1941; about 290 died in the doomed Christmas-Day defence, and at St. Stephen's College the Japanese army bayoneted wounded soldiers in their beds and raped and murdered nurses, then herded the survivors into camps where starvation, forced labour and untreated disease killed roughly 267 more over the rest of the war.",
+      "relevance": "Canada appears here as victim of war crimes inflicted on its soldiers and prisoners — the same Canada that, on its own soil, was perpetrator against Indigenous peoples; the dual lens in one country.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Veterans Affairs Canada, 'Defence of Hong Kong' (~290 battle deaths, ~267 POW deaths, ~557 total; 1,975 of C Force sent)",
+          "supports": "toll.high",
+          "url": "https://www.veterans.gc.ca/en/remembrance/military-history/second-world-war/defence-hong-kong",
+          "caveat": "Canadian government memorial source; the casualty figures are mainstream and uncontested but the framing is national-commemorative."
+        },
+        {
+          "kind": "press",
+          "cite": "Canadian Museum for Human Rights, 'A cauldron of hell: The story of Canada's Hong Kong veterans' (forced labour, starvation, medical neglect, executions)",
+          "supports": "summary",
+          "url": "https://humanrights.ca/story/cauldron-hell-story-canadas-hong-kong-veterans",
+          "caveat": "Canadian institutional source; used for the conditions and conduct, corroborated by Veterans Affairs."
+        },
+        {
+          "kind": "reference",
+          "cite": "St. Stephen's College massacre — Wikipedia (25 Dec 1941: wounded British, Canadian and Indian soldiers bayoneted; nurses raped and murdered; Lt.-Gen. Takeo Itō held responsible)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/St._Stephen's_College_massacre",
+          "caveat": "Tertiary aggregator; the massacre is well documented in war-crimes literature and Hong Kong defence histories."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

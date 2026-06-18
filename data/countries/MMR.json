@@ -1,0 +1,140 @@
+{
+  "iso": "MMR",
+  "name": "Myanmar",
+  "note": "The two ledgers are deliberately asymmetric, and that asymmetry is itself the finding. As victim, the strongest documented mass-death event is the Japanese occupation of 1942–45, when famine, forced labour and reprisal killings cost the people of Burma somewhere between roughly 170,000 and 250,000 lives; the 19th-century British conquest and decade-long 'pacification' were violent but were never reduced to a defensible civilian death count, so no number is asserted for them here. The perpetrator ledger is far heavier and far better evidenced: since independence the Burmese state — above all the military, the Tatmadaw — has been one of Asia's most persistent producers of atrocity, from the 2017 genocide of the Rohingya (which a UN fact-finding mission said warranted prosecution for genocide) to the half-century 'four cuts' war against Karen, Kachin, Shan and other ethnic peoples, the crushing of the 1988 uprising, and the killings that followed the 2021 coup. Where scholarship diverges the toll is shown as a sourced range with the dispute flagged; the Rohingya figures in particular span from MSF's conservative ~6,700 violent deaths to the UN's 'conservative' 10,000-plus, and are presented as a range rather than a single settled count.",
+  "events": [
+    {
+      "id": "mmr-1",
+      "country": "MMR",
+      "role": "victim",
+      "title": "The Japanese occupation of Burma",
+      "era": "1942–1945",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Civilian deaths came from famine, forced labour, disease and scattered reprisal massacres under a wartime occupying army rather than from a plan to destroy the Burmese people as a group, placing the bulk of the killing at WAR rather than EXT.",
+      "agent": "The Imperial Japanese Army and occupation administration, which conscripted Burmese civilians for labour (including on the Thailand–Burma 'Death Railway'), requisitioned food, and carried out reprisal massacres",
+      "toll": {
+        "display": "~170,000–250,000 civilian deaths",
+        "disputed": true,
+        "low": 170000,
+        "high": 250000,
+        "unit": "deaths",
+        "note": "Standard estimates put civilian deaths in Burma under Japanese occupation at roughly 170,000–250,000, from famine, forced labour, disease and reprisals. The figure is approximate: occupation-era Burma had no reliable mortality records, and deaths blur with the wider Burma campaign and the displacement of hundreds of thousands. Burmese conscripted labourers (rōmusha) on the Thailand–Burma Railway died in large numbers alongside Allied POWs — more than 90,000 Southeast Asian civilian labourers of all nationalities are estimated to have died on the railway, though the Burmese share is not separately quantified. The Kalagong massacre of July 1945, in which Japanese troops killed an estimated 600 villagers, is one documented reprisal. AUDIT NOTE (2026-06-18): both the low (170,000) and high (250,000) ends derive from a single contiguous range in one tertiary source (Wikipedia, 'Under Japanese occupation, 170,000 to 250,000 civilians died'); this is a single-source aggregated approximation, not two independently sourced endpoints. Source verified to exist and to support the stated range and the Kalagong detail (3rd Bn/215th Regiment, ~600 killed 7 July 1945)."
+      },
+      "received_lens": "memorial",
+      "summary": "After overrunning Burma in 1942, the Japanese army held the country until 1945 and governed it as an occupied war zone. Soldiers seized food and pressed civilians into forced labour — including on the Thailand–Burma 'Death Railway', where conscripted Burmese labourers died of disease, starvation and overwork — while reprisal massacres such as Kalagong in 1945 killed villagers outright. Combined with famine and the wreckage of the wider Burma campaign, the occupation cost the country on the order of 170,000 to 250,000 civilian lives.",
+      "relevance": "Burma as victim of a foreign occupying army — and the formative experience of the men, trained under that same Japanese army, who would go on to found the Tatmadaw and turn its methods inward.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Japanese occupation of Burma', Wikipedia — gives the 170,000–250,000 civilian death estimate and the Kalagong massacre (~600 killed, July 1945)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Japanese_occupation_of_Burma",
+          "caveat": "Tertiary encyclopaedia; the death range is an approximation aggregated from secondary histories rather than a census, and overlaps with deaths attributed to the wider Burma campaign."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Burma Railway', Wikipedia — the Thailand–Burma 'Death Railway', built 1942–43 with Allied POWs and ~250,000 Southeast Asian rōmusha, of whom more than 90,000 civilian labourers are estimated to have died",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Burma_Railway",
+          "caveat": "Tertiary encyclopaedia; the >90,000 civilian-labourer death figure covers all Southeast Asian nationalities on the railway, not Burmese alone, which are not separately counted."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "mmr-2",
+      "country": "MMR",
+      "role": "perpetrator",
+      "title": "The genocide of the Rohingya",
+      "era": "2016–2017",
+      "era_band": "contemporary",
+      "tier": "EXT",
+      "tier_reasoning": "A UN fact-finding mission concluded the military's 2017 'clearance operations' — mass killings, systematic rape, the burning of villages and the expulsion of three-quarters of a million people, with stated intent to alter Rakhine's demographic composition — warranted prosecution for genocide, placing the act at EXT.",
+      "agent": "The Myanmar military (Tatmadaw), the Border Guard Police and allied ethnic-Rakhine civilians, under the command of Commander-in-Chief Min Aung Hlaing; specific units included the 33rd Light Infantry Division",
+      "toll": {
+        "display": "~6,700 to 10,000+ killed (disputed; ~7,800 in the leading survey)",
+        "disputed": true,
+        "low": 6700,
+        "high": 10000,
+        "unit": "deaths",
+        "note": "Death estimates for the August–September 2017 'clearance operations' diverge. Médecins Sans Frontières' refugee-survey work estimated at least 6,700 Rohingya killed by violence (including ~730 children under five) in the first month, within a total of about 9,000 deaths. The peer-reviewed Lancet Planetary Health survey by Parmar et al. (2019) estimated roughly 7,800 deaths. The UN Independent International Fact-Finding Mission called estimates of 10,000 killed 'conservative'. The high end is therefore shown as 10,000+, the low as MSF's ~6,700, with ~7,800 as the central survey figure. Beyond the dead: over 725,000 Rohingya fled to Bangladesh and at least 392 villages were partly or wholly destroyed."
+      },
+      "received_lens": "denied",
+      "summary": "In August 2017, after attacks by a small Rohingya insurgent group, the Myanmar military launched 'clearance operations' across northern Rakhine State that fell overwhelmingly on Rohingya civilians. Soldiers, border police and allied Rakhine villagers shot and burned people in their homes, raped women and girls on a mass scale, and torched hundreds of villages, driving more than 725,000 people across the border into Bangladesh in weeks. Myanmar denies wrongdoing, but a UN fact-finding mission concluded the conduct warranted prosecution of the top generals for genocide.",
+      "relevance": "The clearest case of Myanmar's state as perpetrator — and the mirror of its own victimhood, a country that suffered foreign occupation and colonial conquest carrying out the deliberate destruction of a minority within its borders.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "Médecins Sans Frontières, 'MSF surveys estimate that at least 6,700 Rohingya were killed during the attacks in Myanmar' (Dec 2017) — at least 6,700 killed by violence, including ~730 children under five, within ~9,000 total deaths in the first month",
+          "supports": "toll.low",
+          "url": "https://www.msf.org/myanmarbangladesh-msf-surveys-estimate-least-6700-rohingya-were-killed-during-attacks-myanmar",
+          "caveat": "Retrospective refugee-camp mortality survey by a humanitarian NGO; the authors stress it is a conservative estimate of deaths among those who reached Bangladesh, not a full count of all victims."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Parmar et al., 'Violence and mortality in the Northern Rakhine State of Myanmar, 2017', Lancet Planetary Health (2019) — survey of surviving community leaders estimating ~7,800 Rohingya deaths, corroborated by the companion crimes-against-humanity paper (Conflict and Health, 2019; PMC6745777)",
+          "supports": "summary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6745777/",
+          "caveat": "Estimate is derived from surviving hamlet leaders' reports and carries acknowledged recall and survivorship limitations; the primary Lancet article was paywalled, so the figure here is taken from the open-access companion paper that reports it."
+        },
+        {
+          "kind": "reference",
+          "cite": "OHCHR / UN Independent International Fact-Finding Mission on Myanmar (A/HRC/39/64, Aug–Sep 2018) — found genocidal intent against the Rohingya, called estimates of 10,000 deaths 'conservative', and documented 392 villages destroyed and 725,000+ refugees, naming the Tatmadaw and Min Aung Hlaing",
+          "supports": "toll.high",
+          "url": "https://www.ohchr.org/en/press-releases/2018/08/myanmar-tatmadaw-leaders-must-be-investigated-genocide-crimes-against",
+          "caveat": "UN investigative body; Myanmar rejected its mandate and findings, and the 10,000 figure is presented by the Mission itself as a conservative floor rather than a precise count."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "mmr-3",
+      "country": "MMR",
+      "role": "perpetrator",
+      "title": "The Tatmadaw's wars on its own people — ethnic 'four cuts' campaigns and the crushing of dissent",
+      "era": "1962–present (8888: 1988; coup crackdown: 2021– )",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Across decades the military waged scorched-earth counter-insurgency against ethnic minority civilians and shot down unarmed protesters in 1988 and after the 2021 coup; the systematic killing of civilians to hold political and territorial power places the act at POL, with some of the ethnic campaigns described by rights bodies as ethnic cleansing.",
+      "agent": "The Myanmar military (Tatmadaw) under successive juntas — from Ne Win after the 1962 coup, through SLORC/SPDC, to Min Aung Hlaing's post-2021 junta — using the 'four cuts' strategy against ethnic armed regions and live fire against urban protesters",
+      "toll": {
+        "display": "8888 uprising ~3,000 (estimates 350–10,000); post-2021 crackdown 3,000+ civilians; ethnic-war toll uncounted",
+        "disputed": true,
+        "low": 350,
+        "high": 10000,
+        "unit": "deaths",
+        "note": "The numeric range shown is for the single most-cited discrete event, the 1988 '8888' uprising: the junta admitted around 350 dead, while most independent estimates run to roughly 3,000 and some reach 10,000. The post-2021-coup crackdown is separately documented: the Assistance Association for Political Prisoners counted over 3,000 civilians killed by the security forces by late 2022, and reported death tolls have since risen further. The decades-long 'four cuts' counter-insurgency against Karen, Kachin, Shan, Karenni and other peoples — village burnings, forced relocation, forced labour, mass rape and the displacement of hundreds of thousands — has never been reduced to a reliable cumulative death count, so no single figure is asserted for it; it is the largest and least-quantified part of this entry. AUDIT NOTE (2026-06-18): this is a composite entry, so the toll's low (350) / high (10,000) are NOT two contested endpoints of one event — the numeric range tracks the single discrete 8888 uprising (junta 350 vs independent 3,000–10,000, multi-attested and source-verified). The post-2021 figure is separately sourced: AAPP/'Counting Myanmar's Dead' attributes 3,003 reported civilian deaths to the Tatmadaw/police/militia for 1 Feb 2021–30 Sep 2022 (verified, exact match to the '3,000+ civilians' claim). All three asserted sources verified to exist and support their attached claims; the four-cuts cumulative toll is a disclosed, legitimate unquantifiable gap, not a source-integrity failure."
+      },
+      "received_lens": "denied",
+      "summary": "Since Ne Win's 1962 coup the Tatmadaw has fought a rolling war against the country's own population. Against ethnic minority regions it has used the 'four cuts' strategy — burning villages, forcibly relocating communities, conscripting forced labour and committing mass rape to starve insurgents of food, funds, intelligence and recruits. Against urban dissent it has answered with bullets: troops killed thousands during the 1988 democracy uprising, and after seizing power again in 2021 the military shot, tortured and killed thousands more civilians in the crackdown that followed.",
+      "relevance": "The structural form of Myanmar-as-perpetrator: not one atrocity but a permanent machinery of state violence turned on the country's own ethnic minorities and citizens — the same population that elsewhere in this atlas appears as victim of foreign occupation.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'8888 Uprising', Wikipedia — the 1988 nationwide protests crushed by the military, with the junta's admitted ~350 dead against independent estimates of ~3,000 up to 10,000",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/8888_Uprising",
+          "caveat": "Tertiary encyclopaedia; the toll is sharply contested between the official ~350 figure and much higher independent estimates, and the uprising's death count was never independently investigated."
+        },
+        {
+          "kind": "press",
+          "cite": "Assistance Association for Political Prisoners (AAPP) post-coup casualty tallies, as reported by ReliefWeb's 'Counting Myanmar's Dead' and Al Jazeera — over 3,000 civilians killed by security forces between Feb 2021 and late 2022, with reported totals rising further since",
+          "supports": "toll.low",
+          "url": "https://reliefweb.int/report/myanmar/counting-myanmars-dead-reported-civilian-casualties-2021-military-coup",
+          "caveat": "AAPP is a Myanmar human-rights monitoring group; its figures are verified-where-possible reported deaths and the organisation states the true toll is higher because many killings go unreported."
+        },
+        {
+          "kind": "press",
+          "cite": "Al Jazeera, 'What is the Myanmar military's four cuts strategy?' (2021), drawing on the Karen Human Rights Group — describes the decades-long scorched-earth counter-insurgency against ethnic civilians (village burning, forced relocation, sexual violence) first developed in the 1960s against the Karen",
+          "supports": "tier",
+          "url": "https://www.aljazeera.com/news/2021/7/5/what-is-the-myanmar-militarys-four-cuts-strategy",
+          "caveat": "Press explainer summarising NGO documentation; the cumulative death toll of the 'four cuts' campaigns is not quantified by this source or, reliably, by any other, which is why no figure is asserted for it."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

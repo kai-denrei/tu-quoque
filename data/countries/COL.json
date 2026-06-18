@@ -1,0 +1,186 @@
+{
+  "iso": "COL",
+  "name": "Colombia",
+  "note": "Colombia's ledgers are dense and recent. As victim: the indigenous nations of the northern Andes were gutted by the Spanish conquest of New Granada (overwhelmingly disease, so STR), and a century ago Colombians slaughtered one another by the hundred thousand in the partisan bloodletting of La Violencia. As perpetrator: the modern Colombian state owns a distinct, documented share of the six-decade armed conflict — most sharply the 'false positives,' in which the army murdered thousands of poor civilians and dressed them as guerrillas to inflate its kill counts. The hard analytic work is keeping disease-driven collapse (STR) apart from deliberate killing, separating the multi-sided La Violencia and the armed conflict (where paramilitaries and guerrillas, not the state, caused most deaths) from the acts the state itself committed, and showing honest ranges where recent demographic work has sharply revised the canonical figures downward.",
+  "events": [
+    {
+      "id": "col-1",
+      "country": "COL",
+      "role": "victim",
+      "title": "Demographic collapse of indigenous New Granada",
+      "era": "c. 1525–1630",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The catastrophic loss of indigenous life in conquered New Granada was overwhelmingly the work of Old World disease compounded by the disruption of native society under colonial rule — demographic collapse, not the deliberate extermination of a defined group, hence STR rather than EXT.",
+      "agent": "Spanish conquistadors and the colonial order they imposed (Gonzalo Jiménez de Quesada and successors), with Old World epidemics as the principal killer",
+      "toll": {
+        "display": "~87.5% decline; up to ~5.25 million dead from a pre-conquest population of ~3–6 million (some estimates 10–12M)",
+        "disputed": true,
+        "low": null,
+        "high": 5250000,
+        "unit": "deaths",
+        "note": "This is a population-DECLINE figure, not a verified body count: a frequently-cited estimate holds ~87.5% of Colombia's pre-Columbian population perished, equal to ~5.25 million deaths, leaving roughly 750,000 by the early colonial period. The pre-conquest baseline is itself uncertain (low estimates ~3 million, common figure ~6 million, high estimates 10–12 million), so the absolute number is soft. Most of the loss was epidemic disease (smallpox, measles, typhus) the Spanish neither understood nor deliberately spread, plus war, forced labour and social collapse — which is why it is tiered STR. The low bound is left null because no defensible minimum death count exists; the 5.25M high is a single widely-repeated estimate, not a count. QUARANTINE (audit, June 2026): the 5.25M / 87.5% figure and its citations (Jaramillo Uribe 1989; Banco de la República, \"Caída de la población indígena en Colombia, 1500–1630: tres escenarios\") were confirmed PRESENT in the Wikipedia aggregator, but the underlying scholarly texts were not directly fetched, the toll is single-source and single-number with a null low bound, and it rests on a contested pre-Columbian baseline. Event held UNVERIFIED on those grounds — not because the sources are fake, but because the absolute toll cannot be independently confirmed."
+      },
+      "received_lens": "suppressed",
+      "summary": "After Jiménez de Quesada's expedition pushed into the Andes in 1536 and overran the Muisca, the indigenous nations of what became Colombia were ground down over the following century — by smallpox and other imported plagues above all, but also by war, the encomienda labour system, and the wholesale dismantling of native society. The vast majority of the pre-conquest population was gone within a hundred years.",
+      "relevance": "The first and largest mass death on Colombian soil was suffered by its original peoples, mostly through disease no one yet understood — establishing the country as victim before it was ever a perpetrator, and a worked example of keeping demographic collapse (STR) distinct from intentional killing (EXT).",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Spanish conquest of New Granada,\" Wikipedia (cites Jaramillo Uribe 1989 and Banco de la República, \"Decline of the indigenous population in Colombia, 1500–1630\"; gives ~5.25M dead / 87.5% decline, post-conquest population ~750,000)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_New_Granada",
+          "caveat": "Tertiary aggregator resting on a single underlying estimate; the absolute number depends entirely on the contested pre-Columbian baseline and should be read as an order-of-magnitude population-decline figure, not a counted death toll."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Indigenous peoples in Colombia\" / pre-Columbian population estimates (pre-conquest population given as commonly ~6 million, low estimates ~3 million, high estimates 10–12 million)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Indigenous_peoples_in_Colombia",
+          "caveat": "Tertiary; the wide spread of baseline estimates is exactly why the absolute toll cannot be pinned down."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Jaime Jaramillo Uribe, \"Ensayos de historia social: La sociedad neogranadina\" (1989), and Banco de la República, \"Decline of the indigenous population in Colombia, 1500–1630\" — underlying sources for the demographic-collapse estimate",
+          "supports": "tier",
+          "url": null,
+          "caveat": "Cited at second hand via the conquest-of-New-Granada article; the original full texts were not directly fetched, so the precise figures are taken as reported by the aggregator."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "col-2",
+      "country": "COL",
+      "role": "victim",
+      "title": "La Violencia",
+      "era": "c. 1948–1958",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "A decade of partisan slaughter between Liberal and Conservative factions and their militias — political/partisan killing of fellow Colombians, often massacre rather than battle, hence POL rather than conventional war (WAR) or group-extermination (EXT).",
+      "agent": "Liberal and Conservative partisans and their militias — Conservative police and gangs (Chulavitas, Pájaros), Liberal and Communist guerrillas, and freelance bandoleros",
+      "toll": {
+        "display": "traditional ~200,000–300,000; revised demographic study ~39,000–58,000 for 1949–58",
+        "disputed": true,
+        "low": 39142,
+        "high": 300000,
+        "unit": "deaths",
+        "note": "The canonical, long-repeated figure is 'at least 200,000' up to 300,000 dead over the decade. A 2010s demographic study (Banco de la República, using census and vital records) sharply revised this for 1949–1958 to ~57,737 (higher assumption) or ~39,142 (conservative) — and ~80,498–113,032 if extended to 1966. The study's authors argue the 200,000–300,000 figures are unverified inheritances rather than counts. The range here spans the conservative demographic low (39,142) to the traditional literary high (300,000); the truth is genuinely contested. Records are incomplete and exact measurement is impossible."
+      },
+      "received_lens": "memorial",
+      "summary": "Triggered by the 1948 assassination of Liberal leader Jorge Eliécer Gaitán and the Bogotazo riots, Colombia fell into a decade of village-level partisan killing — Conservative police and gangs against Liberal and Communist guerrillas — marked by massacres, mutilation, and the displacement of millions. It ended only when the two parties carved up power in the National Front pact.",
+      "relevance": "Colombians killing Colombians by party allegiance, with no foreign hand — the country as victim of itself, and a case where careful demographic work has cut the mythologized toll by as much as four-fifths, which the atlas shows rather than hides.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"La Violencia,\" Wikipedia (traditional toll 'at least 200,000' to 200,000–300,000 dead; 1948–1958; perpetrators across Conservative, Liberal and Communist militias)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/La_Violencia",
+          "caveat": "Tertiary; the 200,000–300,000 figures are the traditional literature numbers the demographic study contends are unverified — treat as the disputed high, not an established count."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Banco de la República, \"Análisis demográfico de la Violencia en Colombia\" (demographic re-estimate: ~57,737 / ~39,142 deaths for 1949–1958; ~113,032 / ~80,498 if extended to 1966)",
+          "supports": "toll.low",
+          "url": "https://investiga.banrep.gov.co/en/content/analisis-demografico-de-la-violencia-en-colombia",
+          "caveat": "A revisionist demographic study that explicitly challenges the canonical figures; its lower numbers are model-and-census reconstructions, not a direct corpse count, and remain contested against the traditional historiography."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "col-3",
+      "country": "COL",
+      "role": "perpetrator",
+      "title": "\"False positives\" extrajudicial killings",
+      "era": "c. 2002–2008 (cases 1990s–2016)",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "The army systematically murdered unarmed civilians and staged them as combat kills to fabricate counterinsurgency results — state-organized extrajudicial killing for political and institutional gain, hence POL rather than open warfare (WAR) or group-extermination (EXT).",
+      "agent": "The Colombian Army (notably regional brigades such as Antioquia's IV Brigade) under the government of President Álvaro Uribe Vélez",
+      "toll": {
+        "display": "JEP: 6,402 (2002–2008); 7,837 across 1990–2016; earlier HRW count >3,000",
+        "disputed": true,
+        "low": 3000,
+        "high": 7837,
+        "unit": "deaths",
+        "note": "The Special Jurisdiction for Peace (JEP) determined that the army murdered 6,402 civilians between 2002 and 2008, later raising the figure to 7,837 for the broader 1990–2016 window. Earlier investigations and Human Rights Watch documented 'over 3,000' victims for 2002–2008, the lower bound here. The killings were concealed and miscategorized as combat deaths, so figures kept rising as the JEP investigated; the count is firm at the low end and still expanding at the high end."
+      },
+      "received_lens": "contested",
+      "summary": "Under a kill-count incentive system, Colombian soldiers lured impoverished young men to remote areas with fake job offers, executed them, dressed the corpses in guerrilla uniforms, and reported them as enemy combatants killed in action — manufacturing battlefield 'successes' for promotions, leave, and bonuses. The JEP has put the toll at well over six thousand.",
+      "relevance": "The state itself — not the paramilitaries or guerrillas who caused most of the conflict's deaths — deliberately murdered its own poorest citizens to look like it was winning the war, the clearest entry on Colombia's perpetrator ledger.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"'False positives' scandal,\" Wikipedia (JEP figure 6,402 for 2002–2008; Uribe-era army; method of luring, killing and staging victims)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/%22False_positives%22_scandal",
+          "caveat": "Tertiary aggregator; collates JEP, HRW and UN findings with varying timeframes — figures must be read against the specific period each source covers."
+        },
+        {
+          "kind": "press",
+          "cite": "Justice for Colombia, \"JEP peace court findings increase False Positive army killings to 7,837 victims\" (also \"Colombian military murdered 6,402 civilians between 2002 and 2008\")",
+          "supports": "toll.high",
+          "url": "https://justiceforcolombia.org/jep-peace-court-findings-increase-false-positive-army-killings-to-7837-victims/",
+          "caveat": "Advocacy/solidarity organization sympathetic to the peace process and critical of the military; the underlying 6,402 / 7,837 figures originate with the JEP (the 7,837 figure for 1990–2016 announced April 2026 by JEP President Alejandro Ramelli, corroborated independently by El Colombiano, The Bogotá Post and Cambio), but the framing is partisan."
+        },
+        {
+          "kind": "press",
+          "cite": "Human Rights Watch, \"On Their Watch: Evidence of Senior Army Officers' Responsibility for False Positive Killings in Colombia\" (June 2015) — cites 'at least 3,000' false-positive killings for 2002–2008 (prosecutors investigating 3,700+ extrajudicial killings by state agents in that window)",
+          "supports": "toll.low",
+          "url": "https://www.hrw.org/report/2015/06/24/their-watch/evidence-senior-army-officers-responsibility-false-positive-killings",
+          "caveat": "Verified June 2026 against the HRW primary report. HRW's count predates the JEP's fuller investigation and represents a documentation floor, not the final total; the broadly-cited 'over 3,000 for 2002–2008' figure is also attributed by some aggregators to the FIDH (May 2012), but the HRW report independently establishes the same floor."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "col-4",
+      "country": "COL",
+      "role": "perpetrator",
+      "title": "State forces' share of the armed conflict",
+      "era": "1958–present (esp. 1985–2018)",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Killings of civilians by the armed forces and police across six decades of internal armed conflict — wartime atrocity and abuse within a counterinsurgency, hence WAR; the deliberately staged 'false positives' are broken out separately as col-3 (POL).",
+      "agent": "The Colombian armed forces and national police (state agents), within a conflict whose larger share of killing was done by paramilitaries and guerrillas",
+      "toll": {
+        "display": "state agents ~12% of civilian deaths; conflict total ~220,000 (1958–2013, CNMH) to ~450,000 (1985–2018, Truth Commission)",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "Colombia's 2022 Truth Commission attributed civilian deaths roughly as: paramilitaries ~45%, guerrillas ~27%, state agents ~12%, other/mixed ~16%. The conflict's overall death toll is itself contested — the CNMH counted ~220,000 dead for 1958–2013 (177,307 civilians), while the Truth Commission documented ~450,000 fatalities for 1985–2018, around 80% of them civilians. No clean absolute number of state-caused deaths is published — applying the ~12% share to either total would be an estimate, not a count — so the numeric low/high are left null and the share is recorded instead. State forces' documented direct killings are concentrated in the separate 'false positives' entry (col-3)."
+      },
+      "received_lens": "contested",
+      "summary": "Across Colombia's six-decade internal war, the army and police killed and disappeared civilians through abuses, collusion with paramilitaries, and counterinsurgency operations. The 2022 Truth Commission found state agents directly responsible for roughly 12% of civilian deaths — a real and substantial share, though paramilitaries (~45%) and guerrillas (~27%) caused more.",
+      "relevance": "The dual lens applied honestly: the Colombian state has a genuine, documented place on the perpetrator ledger of its own war, but the atlas refuses to inflate it — most of the conflict's killing was done by non-state actors, and saying so plainly is part of the discipline.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Colombian conflict,\" Wikipedia (Truth Commission 2022 responsibility split: paramilitaries 45%, guerrillas 27%, state 12%, other 16%; CNMH 220,000 dead 1958–2013, 177,307 civilians)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Colombian_conflict",
+          "caveat": "Tertiary; aggregates CNMH and Truth Commission figures that cover different periods (1958–2013 vs 1985–2018) and so are not directly additive."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Comisión de la Verdad (Colombian Truth Commission), Final Report (2022) — ~450,000 fatalities documented for 1985–2018, ~80% civilian; responsibility shares by armed actor (state agents ~12% of civilian deaths)",
+          "supports": "tier",
+          "url": "https://www.abcolombia.org.uk/truth-commission-of-colombia-executive-summary/",
+          "caveat": "The percentage shares are the Commission's; converting the ~12% share into an absolute death count is not done by the source and would be an inference, which is why the numeric toll is left null."
+        },
+        {
+          "kind": "press",
+          "cite": "CBC News, \"Colombia's guerrilla war killed 260,000, report says\" / WOLA, \"Colombia's Truth Commission Final Report\" — corroborating overall conflict tolls and the actor-responsibility breakdown",
+          "supports": "summary",
+          "url": "https://www.cbc.ca/news/world/colombia-guerrilla-farc-death-toll-1.4771858",
+          "caveat": "CBC (Aug 2018) reports the CNMH '260,000' six-decade figure, broader than the 220,000/1958–2013 count cited above; corroborates the overall scale and the non-state majority of killings, not a precise state-share number."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

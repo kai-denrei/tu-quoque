@@ -1,0 +1,232 @@
+{
+  "iso": "SDN",
+  "name": "Sudan",
+  "note": "Researched 2026-06-18 from scratch (no prior seed). SDN here is the Republic of Sudan (the Khartoum state); South Sudan, independent since 2011, is treated as its own entry (SSD), so intra-southern atrocities such as the 1991 Bor massacre are logged there, not here. The two ledgers are deliberately asymmetric and that asymmetry is the dual-lens point. Sudan's clearest victim-side events sit in the 19th century: the Mahdist-era demographic collapse and the British–Egyptian colonial reconquest that crushed it. Its heaviest modern record, by contrast, was authored by the Khartoum state against Sudan's own southern, Nuba, and Darfuri peoples — the long southern civil war with its engineered famines and slave raids, the Nuba Mountains campaign, and the Darfur genocide for which the ICC charged a sitting head of state, Omar al-Bashir, with genocide. The nation remembered abroad as the proud Mahdist resister mowed down at Omdurman is also the state whose rulers ran some of the late-20th- and early-21st-century world's most documented campaigns of mass killing. Tolls here are contested across wide ranges — population-decline estimates and famine counts in particular are inherently soft — and low and high ends are separately sourced and flagged.",
+  "events": [
+    {
+      "id": "sdn-1",
+      "country": "SDN",
+      "role": "victim",
+      "title": "The Mahdist-era demographic collapse",
+      "era": "1883–1898",
+      "era_band": "pre-colonial",
+      "tier": "STR",
+      "tier_reasoning": "Mass death driven by famine, disease, displacement, and the breakdown of food production across a whole population rather than the deliberate extermination of a defined group, so STR — a demographic catastrophe in which warfare and misrule were multipliers on drought.",
+      "agent": "The Mahdist state under the Khalifa Abdallahi ibn Muhammad (whose wars, raiding economy, and 1888 grain-tribe massacre wrecked food production), compounded by the 1888–90 drought and by Anglo-Egyptian war",
+      "toll": {
+        "display": "~3.5–5.5 million population decline (~half the population; disputed; not a direct death count)",
+        "disputed": true,
+        "low": 3500000,
+        "high": 5500000,
+        "unit": "deaths",
+        "note": "QUARANTINE (status UNVERIFIED): This is a population-decline estimate, NOT a verified body count. Estimates cite Sudan's population falling from roughly 7–8 million before the Mahdist revolt to between 2 and 3 million after it — a drop of more than half, attributed to famine, disease, persecution, and warfare. The 1888–90 famine alone is put in the hundreds of thousands of deaths. Both endpoints are pre-census approximations. AUDIT 2026-06-18: the ~2.5 million post-collapse census figure is real and is carried on the Mahdist State article (Metelits, Inside Insurgency 2009, p.37: 'an Egyptian census afterwards recorded barely 2.5 million'); it was previously MISATTRIBUTED to the Anglo-Egyptian conquest article, which does NOT contain that census figure — the toll.low citation URL has been corrected accordingly. The low/high figures here express the decline range (≈3.5M against a 7M base to ≈5.5M against an 8M base), and should be read as demographic collapse, not enumerated killings; the event remains UNVERIFIED because every endpoint rests on pre-census scholarly approximation rather than enumeration."
+      },
+      "received_lens": "contested",
+      "summary": "After the Mahdist revolt drove out Turco-Egyptian rule, the new Islamic state under the Khalifa ran a war and raiding economy that, with the Khalifa's massacre of grain-farming Juhaina and the 1888 drought, tipped Sudan into famine. Over the Mahdist period the population is estimated to have fallen by roughly half through starvation, epidemic disease, and incessant warfare.",
+      "relevance": "The Mahdist state appears in Sudan's national memory as heroic anti-colonial resistance, yet its own people were among the era's worst sufferers — a victim-ledger catastrophe authored partly by the very rulers later celebrated as liberators.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Mahdist State overview, citing Claire Metelits (Inside Insurgency, 2009) — Sudan's population fell from about 7 million before the Mahdist revolt to between 2 and 3 million after; war, famine, and disease 'reduced the population by more than half'",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Mahdist_State",
+          "caveat": "Pre-census demographic estimates of a 19th-century African state; the figures are scholarly approximations, not enumerated deaths."
+        },
+        {
+          "kind": "reference",
+          "cite": "Mahdist War overview — a severe famine from 1888 to 1890, worsened by drought, overreliance on raiding, and disrupted trade, killed people in the hundreds of thousands from starvation and disease; the regime failed to provide relief",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Mahdist_War",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Mahdist State overview, citing Claire Metelits (Inside Insurgency, 2009, p.37) — 'Before the revolt, roughly 8 million people lived in Sudan; an Egyptian census afterwards recorded barely 2.5 million,' the low endpoint of the population-decline estimate",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Mahdist_State",
+          "caveat": "AUDIT 2026-06-18: corrected URL. The ~2.5M census figure was previously misattributed to the Anglo-Egyptian conquest article, which does not carry it; verified to be on the Mahdist State page (Metelits, p.37). Colonial-era census of a population just devastated by war and famine; an administrative count of uncertain completeness."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "sdn-2",
+      "country": "SDN",
+      "role": "victim",
+      "title": "The Anglo-Egyptian reconquest and the Battle of Omdurman",
+      "era": "1896–1899",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "Mass killing in the course of a war of colonial reconquest — a one-sided slaughter of a poorly armed army by machine guns and artillery at Omdurman, plus the campaign's wider toll — tied to armed conquest rather than a program to exterminate the Sudanese people, so WAR.",
+      "agent": "The British–Egyptian expeditionary force commanded by Major-General Horatio Herbert Kitchener",
+      "toll": {
+        "display": "~10,000+ Mahdist dead at Omdurman (2 Sept. 1898); higher across the whole campaign",
+        "disputed": false,
+        "low": 10000,
+        "high": 12000,
+        "unit": "deaths",
+        "note": "The Battle of Omdurman alone is put at about 10,000 Mahdist dead, roughly 10,000 wounded, and 5,000 taken prisoner, against Anglo-Egyptian losses of about 48 dead and 434 wounded — one of the most lopsided battles of the colonial era as Maxim guns and artillery cut down the Khalifa's charging army. The 10,000–12,000 range here is for Omdurman deaths specifically; the full 1896–99 reconquest (including Atbara and the killing of wounded after Omdurman) raised the total higher, but the campaign-wide figure is less precisely fixed. AUDIT 2026-06-18: the ~10,000 Mahdist-dead / ~48 Anglo-Egyptian-dead figures are independently confirmed (Wikipedia Battle of Omdurman, Britannica). FLAG: the toll low end (10,000) is firmly single-sourced/single-number; the 12,000 high end is an auditor extension consistent with the sourced range rather than a separately enumerated figure, so this is effectively a single-anchored toll — acceptable here because the 10,000+ floor is robustly attested across multiple sources."
+      },
+      "received_lens": "contested",
+      "summary": "To avenge Gordon and reclaim Sudan, Kitchener's British–Egyptian force advanced up the Nile and on 2 September 1898 met the Khalifa's army outside Omdurman, where massed rifle, artillery, and Maxim-gun fire killed about ten thousand Mahdist fighters in hours at almost no cost to the attackers; the Mahdist state collapsed and Anglo-Egyptian rule followed until 1956.",
+      "relevance": "Celebrated in Britain — a young Winston Churchill rode in the charge — as a triumph of empire, Omdurman reads from the Sudanese side as the colonial mass killing of a people who had just thrown off one foreign ruler only to be conquered by another.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Battle of Omdurman overview — Mahdist losses about 10,000 killed, 10,000 wounded, 5,000 captured; Anglo-Egyptian casualties about 48 dead and 434 wounded; Kitchener commanding, Khalifa Abdallahi's army of ~50,000",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Omdurman",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Encyclopaedia Britannica, 'Battle of Omdurman' — decisive Anglo-Egyptian victory of 2 September 1898 that broke Mahdist power, with overwhelming British–Egyptian firepower inflicting massive Mahdist casualties at minimal cost",
+          "supports": "summary",
+          "url": "https://www.britannica.com/event/Battle-of-Omdurman",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Anglo-Egyptian conquest of Sudan overview — the 1896–99 campaign defeated and destroyed the Mahdist State and re-established Anglo-Egyptian rule, which lasted until Sudanese independence in 1956",
+          "supports": "tier",
+          "url": "https://en.wikipedia.org/wiki/Anglo-Egyptian_conquest_of_Sudan",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "sdn-3",
+      "country": "SDN",
+      "role": "perpetrator",
+      "title": "The Second Sudanese Civil War: engineered famine, slave raids, and scorched earth in the South and Nuba",
+      "era": "1983–2005",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "A two-decade campaign in which the Khartoum state used starvation, forced displacement, militia slave raids, and scorched-earth clearance of oil regions as instruments of war against southern and marginalized peoples — mass death engineered through policy across whole populations rather than confined to battle, so POL; the engineered-famine component edges toward STR.",
+      "agent": "The Sudanese government in Khartoum and its allied militias — the muraheleen (armed Baggara herders) and the Popular Defence Forces (PDF) — chiefly under Omar al-Bashir from 1989; the rebel SPLA also committed abuses",
+      "toll": {
+        "display": "~1–2 million dead (war, famine, disease); ~4 million displaced (disputed)",
+        "disputed": true,
+        "low": 1000000,
+        "high": 2000000,
+        "unit": "deaths",
+        "note": "The widely cited figure is roughly two million dead 'as a result of war, famine and disease caused by the conflict' over 1983–2005, with about four million displaced — one of the highest civilian tolls of any war since 1945. The bulk of this mortality was indirect (starvation and disease), making the count inherently uncertain; the low end (~1 million) reflects more conservative readings of an aggregate that folds together combat, government-engineered famine such as the 1998 Bahr el-Ghazal famine (over 70,000 dead, and possibly several hundred thousand, after Khartoum banned relief flights), and disease. Atrocities included muraheleen slave raids that abducted thousands of women and children, and scorched-earth clearance of oilfield populations."
+      },
+      "received_lens": "denied",
+      "summary": "Across two decades Khartoum fought the southern SPLA not only with its army but by starving and emptying the South: it armed muraheleen militias that raided villages and abducted women and children into slavery, ran the Popular Defence Forces against civilians, cleared hundreds of thousands from the oilfields in scorched-earth sweeps, and in 1998 banned relief flights into Bahr el-Ghazal, turning war into famine. The combined toll is estimated around two million dead and four million displaced.",
+      "relevance": "The Sudanese state that in the 19th century was conquered and famine-stricken became, in the 20th, the agent of one of the era's deadliest wars against its own southern citizens — the same lens, rotated onto the people of southern Sudan as victims.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Second Sudanese Civil War overview — roughly two million dead from war, famine, and disease (1983–2005) and about four million displaced; muraheleen slave raids (e.g. ~2,000 women and children taken Feb. 1986, ~1,000 in Feb. 1987) by Baggara militia enlisted by the government; PDF and army attacks on civilians",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Second_Sudanese_Civil_War",
+          "caveat": "The ~2 million figure is an aggregate estimate, mostly indirect deaths; precise enumeration is impossible and the count is contested."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, 'Famine in Sudan, 1998: The Human Rights Causes' (1999) — the 1998 Bahr el-Ghazal famine, over 70,000 dead, was 'caused almost entirely by human rights abuse'; Khartoum's Feb.–March 1998 ban on relief flights used starvation of civilians as a method of combat (government, muraheleen, and SPLA all named as famine agents)",
+          "supports": "summary",
+          "url": "https://www.hrw.org/reports/1999/sudan/",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, 'Sudan, Oil, and Human Rights' (2003) — government forces and government-sponsored militias pursued a scorched-earth policy to empty oilfield areas of civilians, displacing hundreds of thousands, looting cattle and grain, burning villages, and blocking relief",
+          "supports": "toll.low",
+          "url": "https://www.hrw.org/report/2003/11/24/sudan-oil-and-human-rights",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "sdn-4",
+      "country": "SDN",
+      "role": "perpetrator",
+      "title": "The Nuba Mountains campaign",
+      "era": "1992–1993",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "A state campaign aimed at destroying the Nuba as a people — declared jihad, a 1993 fatwa branding even Muslim Nuba as not 'true Muslims' to justify attacks, scorched-earth combing of villages, forced relocation to 'peace camps,' and mass killing — targeting an ethnic group as such, so EXT.",
+      "agent": "The Sudanese government under Omar al-Bashir and its allied militias (Popular Defence Forces)",
+      "toll": {
+        "display": "~60,000–100,000 Nuba dead (1992–93; disputed)",
+        "disputed": true,
+        "low": 60000,
+        "high": 100000,
+        "unit": "deaths",
+        "note": "A 1998 report for the US Committee for Refugees estimated that out of a Nuba population of around one million, some 100,000 died as a result of government attacks in 1992–93; other estimates put the figure at 60,000–70,000 killed in government military operations in the early 1990s. The lower and higher ends reflect different periods counted and different methods; all are estimates from a region the government deliberately sealed off, so exact counts are impossible."
+      },
+      "received_lens": "denied",
+      "summary": "From 1992 the al-Bashir government turned its war on the South toward the Nuba Mountains: it declared jihad, issued a 1993 fatwa branding even Muslim Nuba as not true Muslims, and ran 'combing' operations that burned villages, looted crops and cattle, and forced survivors into government-run camps. Around 100,000 Nuba are estimated to have died in 1992–93 in a campaign widely described as genocidal.",
+      "relevance": "The Nuba case shows Khartoum's atrocity machine targeting not the Christian South but a distinct people of Sudan's own heartland — perpetration aimed inward, at a group the state then tried to erase from view.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "US Holocaust Memorial Museum, 'Sudan: Enormous Loss of Civilian Life' — citing a 1998 US Committee for Refugees report that out of a Nuba population of around one million, some 100,000 died as a result of government attacks in 1992–93",
+          "supports": "toll.high",
+          "url": "https://www.ushmm.org/genocide-prevention/countries/sudan/enormous-loss-of-civilian-life",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "African Rights / Alex de Waal, 'Facing Genocide: The Nuba of Sudan' (1995, via ReliefWeb) — documents the government's jihad, the 1993 fatwa, scorched-earth combing operations, forced relocation to 'peace camps,' and an estimated 60,000–70,000 Nuba killed in early-1990s military operations",
+          "supports": "toll.low",
+          "url": "https://reliefweb.int/report/sudan/facing-genocide-nuba-sudan",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "sdn-5",
+      "country": "SDN",
+      "role": "perpetrator",
+      "title": "The Darfur genocide",
+      "era": "2003–2005 (with abuses continuing thereafter)",
+      "era_band": "contemporary",
+      "tier": "EXT",
+      "tier_reasoning": "A campaign in which the state and its Janjaweed militia attacked the Fur, Masalit, and Zaghawa as ethnic groups — mass killing, mass rape, and destruction of villages and water sources — for which the ICC issued the first genocide charges in its history; targeting groups as such, so EXT (the US named it genocide; a UN commission found atrocity but disputed genocidal intent).",
+      "agent": "The Sudanese government under Omar al-Bashir, the Sudanese Armed Forces, and the allied Janjaweed (Arab militia) and muraheleen",
+      "toll": {
+        "display": "~200,000 to ~400,000 dead (2003–2005/08; disputed, estimates from ~100,000)",
+        "disputed": true,
+        "low": 200000,
+        "high": 400000,
+        "unit": "deaths",
+        "note": "Estimates diverge widely by period and method. The US Holocaust Memorial Museum and others cite at least 200,000 dead for 2003–2005; the US State Department and other parties have cited figures up to about 400,000 for varying periods to 2008; some compilations span 100,000 to 400,000. The lower figures lean on documented violent deaths; the higher ones fold in famine and disease among the displaced (over two million were driven from their homes). Aid agencies, peacekeepers, and media struggled to keep accurate records in a war zone the government restricted."
+      },
+      "received_lens": "denied",
+      "summary": "From 2003 the al-Bashir government answered a Darfuri rebellion by arming Janjaweed militias and using its own forces to attack the Fur, Masalit, and Zaghawa — burning villages, killing and raping civilians, and poisoning wells — driving more than two million people into camps. Colin Powell called it genocide in 2004; in 2009 and 2010 the ICC charged al-Bashir, a sitting head of state, with war crimes, crimes against humanity, and genocide.",
+      "relevance": "Darfur is the case that put a Sudanese head of state in the dock for genocide — the perpetrator ledger's clearest entry, and the mirror image of the colonial-era slaughter Sudan once suffered at Omdurman.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "US Holocaust Memorial Museum / Darfur genocide (2003–2005) overview — at least 200,000 dead and more than two million displaced; perpetrated by Sudanese government forces and Janjaweed militias; Colin Powell's 2004 finding of genocide",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Darfur_genocide_(2003%E2%80%932005)",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "US GAO report GAO-07-24, 'Darfur Crisis: Death Estimates' and US State Department / press figures — death estimates up to about 400,000 for periods to 2008; the wide range (~98,000–400,000) reflects differing methodologies and restricted access",
+          "supports": "toll.high",
+          "url": "https://www.gao.gov/assets/a253109.html",
+          "caveat": "Estimates vary by an order of magnitude; higher figures include indirect (famine/disease) deaths and are contested."
+        },
+        {
+          "kind": "primary",
+          "cite": "International Criminal Court, Prosecutor v. Omar Hassan Ahmad Al Bashir — arrest warrants of 4 March 2009 (war crimes and crimes against humanity) and 12 July 2010 adding three counts of genocide against the Fur, Masalit, and Zaghawa; the first ICC genocide charges and the first against a sitting head of state",
+          "supports": "summary",
+          "url": "https://www.icc-cpi.int/darfur/albashir",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

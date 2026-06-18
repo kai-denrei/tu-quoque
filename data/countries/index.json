@@ -1,6 +1,18 @@
 {
-  "count": 27,
+  "count": 42,
   "countries": [
+    {
+      "iso": "AFG",
+      "name": "Afghanistan",
+      "events": 4,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "ARG",
+      "name": "Argentina",
+      "events": 4,
+      "status": "UNVERIFIED"
+    },
     {
       "iso": "BGD",
       "name": "Bangladesh",
@@ -11,6 +23,12 @@
       "iso": "BRA",
       "name": "Brazil",
       "events": 5,
+      "status": "UNVERIFIED"
+    },
+    {
+      "iso": "CAN",
+      "name": "Canada",
+      "events": 3,
       "status": "UNVERIFIED"
     },
     {
@@ -26,10 +44,22 @@
       "status": "UNVERIFIED"
     },
     {
+      "iso": "COL",
+      "name": "Colombia",
+      "events": 4,
+      "status": "UNVERIFIED"
+    },
+    {
       "iso": "DEU",
       "name": "Germany",
       "events": 4,
       "status": "VERIFIED"
+    },
+    {
+      "iso": "DZA",
+      "name": "Algeria",
+      "events": 4,
+      "status": "UNVERIFIED"
     },
     {
       "iso": "EGY",
@@ -74,9 +104,27 @@
       "status": "VERIFIED"
     },
     {
+      "iso": "IRQ",
+      "name": "Iraq",
+      "events": 4,
+      "status": "UNVERIFIED"
+    },
+    {
+      "iso": "ITA",
+      "name": "Italy",
+      "events": 4,
+      "status": "VERIFIED"
+    },
+    {
       "iso": "JPN",
       "name": "Japan",
       "events": 4,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "KEN",
+      "name": "Kenya",
+      "events": 3,
       "status": "VERIFIED"
     },
     {
@@ -84,6 +132,18 @@
       "name": "Cambodia",
       "events": 2,
       "status": "VERIFIED"
+    },
+    {
+      "iso": "KOR",
+      "name": "South Korea",
+      "events": 4,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "MAR",
+      "name": "Morocco",
+      "events": 4,
+      "status": "UNVERIFIED"
     },
     {
       "iso": "MDG",
@@ -95,6 +155,12 @@
       "iso": "MEX",
       "name": "Mexico",
       "events": 4,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "MMR",
+      "name": "Myanmar",
+      "events": 3,
       "status": "VERIFIED"
     },
     {
@@ -128,6 +194,12 @@
       "status": "VERIFIED"
     },
     {
+      "iso": "SDN",
+      "name": "Sudan",
+      "events": 5,
+      "status": "UNVERIFIED"
+    },
+    {
       "iso": "THA",
       "name": "Thailand",
       "events": 3,
@@ -146,6 +218,18 @@
       "status": "UNVERIFIED"
     },
     {
+      "iso": "UGA",
+      "name": "Uganda",
+      "events": 4,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "UKR",
+      "name": "Ukraine",
+      "events": 4,
+      "status": "VERIFIED"
+    },
+    {
       "iso": "USA",
       "name": "United States of America",
       "events": 4,
@@ -156,6 +240,12 @@
       "name": "Vietnam",
       "events": 4,
       "status": "VERIFIED"
+    },
+    {
+      "iso": "YEM",
+      "name": "Yemen",
+      "events": 3,
+      "status": "UNVERIFIED"
     },
     {
       "iso": "ZAF",

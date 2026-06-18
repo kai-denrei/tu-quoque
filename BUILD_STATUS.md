@@ -102,8 +102,9 @@ batches (5h window was at 53% when starting), most-populous first. Script (reusa
 `[[iso,name],...]` batch via args OR hardcoded fallback):
 `.../workflows/scripts/tuquoque-research-batch-wf_05ab9fd4-388.js`
 - ☑ **Batch 1** (run `wf_047ae8a6-5db`): IND IDN PAK NGA BRA BGD RUS ETH PHL EGY VNM IRN THA TZA ZAF → 6 VERIFIED, 9 UNVERIFIED (mostly honest null/contested tolls). Integrated.
-- **PROGRESS: 27 / 165 countries done (12 + 15). 138 remaining.** 98 events, 299 sources, 0 invalid JSON. Status: 16 VERIFIED, 11 UNVERIFIED.
-- ⏸ **PAUSED on budget: 5h usage hit 93% after batch 1.** Auto-resume scheduled (ScheduleWakeup) — waits for the 5h window to recover below ~80%, then runs the next batch. Next 15: ITA KEN MMR COL KOR SDN UGA DZA ARG IRQ AFG CAN YEM UKR MAR.
+- ☑ **Batch 2** (run `wf_4c1d5a41-6f4`): ITA KEN MMR COL KOR SDN UGA DZA ARG IRQ AFG CAN YEM UKR MAR → 7 VERIFIED, 8 UNVERIFIED. Integrated + pushed.
+- **PROGRESS: 42 / 165 done (batches 1–2). 123 remaining.** 155 events, 446 sources, 0 invalid. Status: 23 VERIFIED, 19 UNVERIFIED.
+- ▶ Campaign self-running via scheduled wakeups + completion notifications, budget-paced (start a batch only below ~45% of the 5h window so it finishes under ~90%).
 - ☐ Batches 2…N: after each, regenerate `data/countries/index.json`, validate JSON, `node build/bump-version.mjs`, check 5h budget before the next. RESUME a stuck batch via resumeFromRunId.
 - NEXT-BATCH RECIPE: `node -e` over data/geo/reference.json minus existing data/countries/*.json, sort by population,
       take next ~15, edit the fallback array in the batch script (or pass args), re-invoke Workflow.

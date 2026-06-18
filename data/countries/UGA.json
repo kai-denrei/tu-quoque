@@ -1,0 +1,186 @@
+{
+  "iso": "UGA",
+  "name": "Uganda",
+  "note": "Uganda's atrocity record is heavily weighted toward the perpetrator side — but a perpetrator turned inward. The great mass killings of the post-independence era (Amin's State Research Bureau, Obote's UNLA in the Luwero Triangle) were Ugandan state forces killing Ugandan civilians, so the same events sit in the perpetrator ledger ('In their name') while the dead were overwhelmingly Uganda's own people. The cleanest 'Done to them' case in which the killers were not the Ugandan state is the Lord's Resistance Army insurgency — yet even there the LRA was a Ugandan (Acholi) insurgency that mainly slaughtered the Acholi it claimed to defend. The one outward-facing perpetrator event is the UPDF's conduct in the Democratic Republic of the Congo (1998–2003), where the International Court of Justice held Uganda legally responsible for killings, plunder and occupation abuses against Congolese civilians. Tolls for the Amin and Obote eras are genuinely uncertain because killings were undocumented and no reliable count exists; ranges below carry the named institutional estimates and their disputes.",
+  "events": [
+    {
+      "id": "uga-1",
+      "country": "UGA",
+      "role": "victim",
+      "title": "The Lord's Resistance Army insurgency",
+      "era": "1987–2006",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "A protracted armed insurgency against the Ugandan state in which civilians were massacred, mutilated and abducted on a mass scale — atrocity within armed conflict rather than a campaign to exterminate a defined group, so WAR.",
+      "agent": "Joseph Kony's Lord's Resistance Army (LRA), a millenarian Acholi-led insurgency backed for years by Sudan",
+      "toll": {
+        "display": "~12,000–100,000 deaths; 20,000–60,000+ children abducted; up to ~1.8M displaced",
+        "disputed": true,
+        "low": 12000,
+        "high": 100000,
+        "unit": "deaths",
+        "note": "The low end (~12,000 directly killed) reflects a U.S. government estimate of deaths in the violence; the high end (~100,000 civilians killed by 2004) is the widely cited figure echoed by the UN for the conflict overall. No reliable body count exists — much of the human cost was in mass abduction of children as fighters and sex slaves and in deaths inside the displacement camps, which the death figures may or may not capture."
+      },
+      "received_lens": "memorial",
+      "summary": "Joseph Kony's LRA waged a two-decade war across northern Uganda's Acholiland, abducting tens of thousands of children to serve as soldiers and sex slaves, hacking off lips and ears, and herding most of the rural north into squalid camps; in the 1995 Atiak massacre alone its fighters rounded up a town and shot dead some 200–300 captured civilians.",
+      "relevance": "The clearest case of atrocity done TO Ugandans by non-state forces — yet the LRA was itself a Ugandan Acholi insurgency that overwhelmingly killed the Acholi it claimed to liberate, collapsing the victim/perpetrator line within one people.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Lord's Resistance Army insurgency' — ~100,000 civilians killed and 1.5M displaced by 2004; U.S. government estimate of up to 12,000 killed; 24,000–38,000 children abducted",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Lord%27s_Resistance_Army_insurgency",
+          "caveat": "Tertiary aggregator; used to bracket the range of published estimates, which diverge by an order of magnitude depending on method."
+        },
+        {
+          "kind": "press",
+          "cite": "Harvard Humanitarian Initiative, 'Examining the Regional Impact of the Lord's Resistance Army' — UN attribution of 100,000+ deaths, 60,000–100,000 children abducted, up to 2.5M displaced 1987–2012",
+          "supports": "summary",
+          "url": "https://hhi.harvard.edu/examining-regional-impact-lord%E2%80%99s-resistance-army",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Atiak massacre' — 200–300 civilians shot dead by the LRA at Atiak on 20 April 1995",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Atiak_massacre",
+          "caveat": "Tertiary aggregator; the 200–300 toll is consistent across survivor accounts and Ugandan press coverage."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "uga-2",
+      "country": "UGA",
+      "role": "perpetrator",
+      "title": "Idi Amin's reign of terror",
+      "era": "1971–1979",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "A regime that killed through state terror — secret-police torture-houses, disappearances and the targeting of rivals, ethnic groups, intellectuals and ordinary people — to entrench its own survival, which is mass political killing (POL) rather than an attempt to annihilate a single named group.",
+      "agent": "Idi Amin's military government, principally its State Research Bureau, Public Safety Unit and Military Police",
+      "toll": {
+        "display": "~80,000–500,000 deaths",
+        "disputed": true,
+        "low": 80000,
+        "high": 500000,
+        "unit": "deaths",
+        "note": "The International Commission of Jurists put the toll at no fewer than 80,000 and more likely around 300,000; exile organizations and Amnesty International cited figures up to ~500,000. A handful of scholars (e.g. Jorgensen) have argued for a far lower 12,000–30,000. Killings were widespread and poorly documented, so no count is reliable; the range here brackets the named institutional estimates rather than the low scholarly outlier."
+      },
+      "received_lens": "memorial",
+      "summary": "After seizing power in a 1971 coup, Amin's security organs tortured and disappeared opponents in Nakasero's State Research Bureau cells, hunting Acholi and Lango soldiers, judges, clergy, journalists and rivals; in 1972 he also expelled roughly 60,000 Asians, seizing their businesses and wrecking the economy.",
+      "relevance": "The textbook 'monster' of African dictatorship — but the killers were the Ugandan state and the dead were Ugandans, so Uganda's most infamous atrocity is one it committed against itself.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Idi Amin' — International Commission of Jurists estimate of no fewer than 80,000 (more likely ~300,000); Amnesty/exile estimates up to ~500,000; expulsion of ~60,000 Asians in 1972",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Idi_Amin",
+          "caveat": "Tertiary aggregator; used to bracket the institutional estimates, which themselves rest on extrapolation given the absence of records."
+        },
+        {
+          "kind": "press",
+          "cite": "Daily Monitor (Uganda), 'How many people did Amin really kill?' — survey of the 100,000–500,000 estimates and the lower (12,000–30,000) Jorgensen revision",
+          "supports": "toll.low",
+          "url": "https://www.monitor.co.ug/uganda/special-reports/uganda-50/how-many-people-did-amin-really-kill--1526590",
+          "caveat": "Ugandan newspaper retrospective; useful for laying out the dispute over the count, not as an independent body count."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Springer, 'State Terrorism and Death Squads in Uganda (1971–79)' — attributes the killings to the State Research Bureau, Public Safety Unit and Military Police",
+          "supports": "summary",
+          "url": "https://link.springer.com/chapter/10.1057/9780230108141_6",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "uga-3",
+      "country": "UGA",
+      "role": "perpetrator",
+      "title": "The Luwero Triangle killings",
+      "era": "1981–1986",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "A government counter-insurgency that killed civilians en masse as suspected guerrilla sympathizers and forcibly removed a population into controlled camps — mass political killing of a civilian population (POL), described by sources as 'genocidal' but not a formally established campaign to destroy the Baganda as such.",
+      "agent": "Milton Obote's second government and its army, the Uganda National Liberation Army (UNLA)",
+      "toll": {
+        "display": "~100,000–300,000 civilian deaths",
+        "disputed": true,
+        "low": 100000,
+        "high": 300000,
+        "unit": "deaths",
+        "note": "The U.S. State Department (the Assistant Secretary of State for Human Rights), informed by mass-grave discoveries reported to Amnesty International, estimated that 100,000–200,000 civilians were killed by the army or deliberately starved to death in the Luwero Triangle in 1981–1984; after the war the ICRC put the Luwero toll at at least 300,000 and Amnesty/ICRC attributed 300,000+ civilian deaths to the Obote regime across Uganda by July 1985. Figures overlap with general Bush War mortality (~100,000–500,000 including combatants) and are not independently verified; the range here is for civilian deaths in the counter-insurgency. AUDIT: the low end's earlier attribution to 'local officials' was inaccurate and has been corrected — the 100,000–200,000 figure originates with the U.S. State Department / Amnesty International, which the cited Wikipedia 'Ugandan Bush War' / 'Luwero Triangle' articles carry."
+      },
+      "received_lens": "memorial",
+      "summary": "Fighting Museveni's NRA guerrillas, Obote's UNLA emptied the Luwero Triangle north of Kampala — forcibly removing some 750,000 mostly Baganda civilians into military-run camps and killing those left behind as suspected rebel sympathizers; survivors later displayed the skulls of the dead at roadside memorials.",
+      "relevance": "Within Uganda's own civil war the elected government's army became the mass killer of its own citizens — the perpetrator ledger again pointing inward, at a different ethnic and political community than Amin's victims.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Ugandan Bush War' / 'Luwero Triangle' — UNLA killed an estimated 100,000–200,000 civilians in the Triangle; ICRC/Amnesty figure of 300,000+ civilian deaths under Obote by July 1985; forced removal of ~750,000",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Ugandan_Bush_War",
+          "caveat": "Tertiary aggregator; the figures it cites originate with local officials and human-rights bodies and rest on estimate, not census, given the chaos of the war."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Luwero Triangle' — location within Buganda, Baganda as principal victims, and memorialization of human remains from mass graves",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Luwero_Triangle",
+          "caveat": "Tertiary aggregator; used for the geography and victim community, corroborated by Amnesty International's contemporaneous reporting."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "uga-4",
+      "country": "UGA",
+      "role": "perpetrator",
+      "title": "The UPDF in the Congo",
+      "era": "1998–2003",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Atrocities committed by an invading and occupying army during the Second Congo War — killings, plunder and failure to protect civilians — adjudicated as violations of the law of armed conflict and occupation, so WAR.",
+      "agent": "The Uganda People's Defence Force (UPDF) as invader and occupying power in north-eastern DRC",
+      "toll": {
+        "display": "760+ civilians killed at Kisangani; wider Ituri toll uncounted",
+        "disputed": false,
+        "low": 760,
+        "high": null,
+        "unit": "deaths",
+        "note": "The 760+ killed and ~1,700 wounded figure is from the June 2000 'Six-Day War' in Kisangani between Ugandan and Rwandan forces, cited in the ICJ judgment. The ICJ also held Uganda responsible for killings, torture, incitement of Hema–Lendu ethnic conflict and use of child soldiers across occupied Ituri, but did not fix a total death figure for those broader abuses, so the high end is left null."
+      },
+      "received_lens": "contested",
+      "summary": "During the Second Congo War the UPDF invaded and occupied Ituri in north-eastern DRC, where the International Court of Justice in 2005 found it killed and tortured civilians, inflamed the Hema–Lendu conflict, trained child soldiers and looted gold and diamonds; in Kisangani its six-day battle with Rwandan forces shelled residential districts and killed over 760 Congolese civilians. Uganda was ordered to pay the DRC $325 million in reparations.",
+      "relevance": "The one Ugandan atrocity aimed outward — a binding World Court judgment makes Uganda, so often remembered as the African victim-state, a legally adjudicated perpetrator against another people.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "ICJ, Armed Activities on the Territory of the Congo (DRC v. Uganda), Summary of the Judgment of 19 December 2005 — UPDF killings, torture, incitement of ethnic conflict, child-soldier training and plunder in Ituri",
+          "supports": "summary",
+          "url": "https://www.icj-cij.org/node/103924",
+          "caveat": null
+        },
+        {
+          "kind": "primary",
+          "cite": "ICRC casebook, 'ICJ DRC/Uganda, Armed Activities on the Territory of the Congo' — Kisangani Six-Day War (June 2000): 760+ civilians killed, ~1,700 wounded, 4,000+ houses damaged, 69 schools shelled",
+          "supports": "toll.low",
+          "url": "https://casebook.icrc.org/case-study/icj-democratic-republic-congouganda-armed-activities-territory-congo",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "The EastAfrican, 'Victims of Kisangani War still seek justice, 25 years on' and ICJ reparations reporting — $325M reparations award (incl. $225M for loss of life)",
+          "supports": "tier",
+          "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/victims-of-kisangani-war-still-seek-justice-25-years-on-5069996",
+          "caveat": "Regional newspaper; the reparations figures are corroborated by the ICJ's 2022 reparations judgment."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

@@ -1,0 +1,140 @@
+{
+  "iso": "KEN",
+  "name": "Kenya",
+  "note": "Researched 2026-06-18 from scratch (no prior seed). Both ledgers are populated and the asymmetry is itself the dual-lens point. Kenya's clearest mass-atrocity victimhood was authored by an external agent — the British colonial state's suppression of the Mau Mau rebellion in the 1950s, for which the UK government formally expressed regret and paid a £19.9m settlement in 2013 (victim ledger). But the independent Kenyan state then ran its own campaigns of mass violence against its own citizens, overwhelmingly the ethnic-Somali and other pastoralist peoples of the north: the Shifta War counterinsurgency of the 1960s and the 1984 Wagalla massacre, both later found by Kenya's own Truth, Justice and Reconciliation Commission (2013) to constitute gross human rights violations (perpetrator ledger). The 2007–08 post-election violence (~1,100–1,400 dead) is omitted as a discrete state-perpetrator event because agency was genuinely mixed — ethnic militias and mobs on several sides plus police shootings — rather than a single state campaign; it is noted here for completeness. Every toll on this entry is contested, several across an order of magnitude (official counts versus survivor and commission estimates), and low and high ends are separately sourced.",
+  "events": [
+    {
+      "id": "ken-1",
+      "country": "KEN",
+      "role": "victim",
+      "title": "The Mau Mau rebellion and the Kenya Emergency",
+      "era": "1952–1960",
+      "era_band": "colonial",
+      "tier": "POL",
+      "tier_reasoning": "A colonial counterinsurgency that combined battlefield killing with mass detention without trial, torture, executions, and forced villagization aimed at breaking the Kikuyu population's support for the rebellion — political repression of a colonized people rather than a campaign to exterminate them as such, so POL.",
+      "agent": "The British colonial administration in Kenya and its security forces, alongside Kikuyu 'loyalist' Home Guard auxiliaries",
+      "toll": {
+        "display": "~11,000 to ~25,000 killed (official/Anderson); Elkins' disputed estimate up to 300,000",
+        "disputed": true,
+        "low": 11000,
+        "high": 300000,
+        "unit": "deaths",
+        "note": "Counts diverge by an order of magnitude and by what is counted. The British official figure was about 11,000 Mau Mau and rebels killed (including 1,090 hanged); historian David Anderson puts the conflict's death toll at roughly 25,000, the vast majority Mau Mau suspects and Kikuyu civilians, versus only 32 European settlers killed. Caroline Elkins (Imperial Reckoning, 2005) argued from census data that British punitive measures left as many as 300,000 Kikuyu dead — a figure widely disputed by other historians as extrapolated from limited demographic data. Between roughly 70,000 and 150,000 people were detained without trial in a network of camps; deaths there from disease, starvation, hard labour, and abuse were never systematically counted, which is the core of the dispute. The low end is the documented count of killings; the high end is a contested demographic estimate, not a body count."
+      },
+      "received_lens": "memorial",
+      "summary": "After the Mau Mau insurgency rose against settler land seizures, the British declared a State of Emergency in October 1952 and crushed it with mass killing, detention without trial of tens of thousands in camps, torture, and the forced relocation of over a million Kikuyu into guarded villages. Secret colonial files (the 'migrated archives' surfaced at Hanslope Park) later confirmed systematic abuse; in 2013 the UK government expressed sincere regret and settled claims by 5,228 survivors for £19.9 million.",
+      "relevance": "Kenya's defining place in the victim ledger — a colonized people tortured and detained en masse by the British Empire — is the role the country and the world remember; the independent Kenyan state's own atrocities against its northern citizens are the part the national narrative is far quieter about.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "David Anderson, Histories of the Hanged: The Dirty War in Kenya and the End of Empire (2005) — estimates ~25,000 dead in the conflict, the vast majority Mau Mau suspects and civilians; documents 1,090 hangings and ~70,000 detained without trial",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Mau_Mau_rebellion",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Caroline Elkins, Imperial Reckoning: The Untold Story of Britain's Gulag in Kenya (2005; Pulitzer Prize 2006) — argues British punitive measures left up to ~300,000 Kikuyu dead, extrapolated from census data",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Mau_Mau_rebellion",
+          "caveat": "The ~300,000 figure is heavily disputed by other historians (including Anderson and John Blacker) as an over-extrapolation from limited demographic data; it is a contested demographic estimate, not a verified death count."
+        },
+        {
+          "kind": "primary",
+          "cite": "Foreign Secretary William Hague, Statement to Parliament on settlement of Mau Mau claims, 6 June 2013 (GOV.UK) — the UK 'sincerely regrets' the abuses; £19.9m settlement for 5,228 claimants plus funding for a Nairobi memorial",
+          "supports": "summary",
+          "url": "https://www.gov.uk/government/news/statement-to-parliament-on-settlement-of-mau-mau-claims",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ken-2",
+      "country": "KEN",
+      "role": "perpetrator",
+      "title": "The Shifta War counterinsurgency in North Eastern Kenya",
+      "era": "1963–1968",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "A state counterinsurgency in which the Kenyan army and paramilitary General Service Unit used collective punishment, extrajudicial killings, forced villagization, and livestock destruction against the ethnic-Somali and pastoralist civilian population of the north — political repression of a regional/ethnic population, later found by Kenya's TJRC to amount to a crime against humanity, so POL.",
+      "agent": "The independent Kenyan government under Jomo Kenyatta, executed by the Kenya Army and the paramilitary General Service Unit (GSU)",
+      "toll": {
+        "display": "~2,000 (TJRC official) to ~7,000–10,000+ (unofficial/NGO)",
+        "disputed": true,
+        "low": 2000,
+        "high": 10000,
+        "unit": "deaths",
+        "note": "Kenya's Truth, Justice and Reconciliation Commission cited an official toll of about 2,000 killed during the war, while noting the real figure was probably much higher; unofficial estimates run to around 7,000, and non-governmental sources have reported more than 10,000 dead. Most deaths were pastoralist civilians killed in cordon-and-search operations, executions, and the conditions of forced 'protected villages'; collective punishment, livestock confiscation, and starvation in the camps make a clean death count impossible. The low end is the commission's official figure; the high end is an NGO estimate."
+      },
+      "received_lens": "suppressed",
+      "summary": "When ethnic Somalis and other peoples of the Northern Frontier District sought to join Somalia at independence, the Kenyatta government declared a state of emergency and waged a brutal counterinsurgency: the army and GSU forced civilians into guarded 'protected villages', shot people in exclusion zones, slaughtered the pastoralists' livestock, and meted out collective punishment to whole communities. Kenya's own TJRC later classified the killings as a crime against humanity attributable to orders from regional security committees.",
+      "relevance": "The state born from a colonized people's resistance turned, within a year of independence, to colonial-style methods — exclusion zones, concentration villages, collective punishment — against its own citizens in the north, the perpetrator face of a nation remembered as the victim of empire.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Truth, Justice and Reconciliation Commission of Kenya, Summary of the Final Report (KNCHR-hosted, Aug. 2013), Shifta War chapter — states the Shifta War (1964–67) saw the Military force commit mass killings, torture, sexual violence, forced 'restricted villages' (detention camps), and cattle poisoning, and that 'it is estimated that between 2,000 and 7,000 people were killed during the War'; cover-up via the Indemnity Act; perpetrators incl. Brigadiers Ndolo and Mulinge. Verified directly from the primary report (text-extracted); the ~2,000 figure is the low end of the TJRC's own range",
+          "supports": "toll.low",
+          "url": "https://www.knchr.org/Portals/0/Transitional%20Justice/kenya-tjrc-summary-report-aug-2013.pdf",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Shifta War overview — government records put the official death toll in the thousands, while non-governmental organizations reported more than 10,000 deaths; describes forced villagization into 14 guarded manyattas and GSU/Kenya Army counterinsurgency",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Shifta_War",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ken-3",
+      "country": "KEN",
+      "role": "perpetrator",
+      "title": "The Wagalla massacre",
+      "era": "1984",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "A targeted state killing of men of one ethnic clan (the Degodia Somalis), rounded up by the army, denied food and water for days at an airstrip, and then shot — extrajudicial mass execution of a defined group as state policy, so POL; Kenya's own TJRC called it the worst single human rights violation in the country's history.",
+      "agent": "The Kenyan Army under President Daniel arap Moi's government",
+      "toll": {
+        "display": "57–380 (official) to ~1,000 (TJRC) to ~5,000 (survivors)",
+        "disputed": true,
+        "low": 380,
+        "high": 5000,
+        "unit": "deaths",
+        "note": "The death toll is contested across more than an order of magnitude. The Kenyan government's initial official toll was 57; it was revised to 380 in October 2000. The Truth, Justice and Reconciliation Commission concluded that 'close to a thousand' were killed but said it was 'unable to determine the precise number'. Survivors put the figure at close to 5,000 — the number of men reportedly detained at the airstrip. The low end used here is the revised government figure of 380; the high end is the survivors' estimate. The TJRC mid-range (~1,000) sits between them."
+      },
+      "received_lens": "suppressed",
+      "summary": "On 10 February 1984, Kenyan soldiers rounded up thousands of ethnic-Somali Degodia men in Wajir, took them to the Wagalla airstrip, stripped them, and denied them food and water for days before opening fire. The Moi government framed it as a security operation against clan violence and buried the truth for decades; the TJRC, established in 2008, called Wagalla the worst single human rights violation in Kenya's history.",
+      "relevance": "A generation after the Mau Mau detention camps that made Kenya a symbol of colonial cruelty, the independent state ran its own airstrip of thirst and gunfire against citizens it treated as a suspect ethnic category — the victim of empire become the author of one of Africa's least-acknowledged massacres.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wagalla massacre overview — massacre of ethnic-Somali Degodia by the Kenyan Army on 10 Feb. 1984 under Moi; government tolls of 57 (initial) and 380 (revised Oct. 2000); eyewitness estimates ~5,000",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Wagalla_massacre",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "Al Jazeera, 'Kenya's Wagalla massacre 30 years later' (27 Feb. 2014) — recounts ~5,000 men detained at the airstrip, denial of food and water, and mass shooting; survivors' estimate of close to 5,000 dead; decades of state silence",
+          "supports": "toll.high",
+          "url": "https://www.aljazeera.com/features/2014/2/27/kenyas-wagalla-massacre-30-years-later",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Truth, Justice and Reconciliation Commission of Kenya (2013), as reported — concluded 'close to a thousand' people were killed but was 'unable to determine the precise number'; identified Wagalla as the worst human rights violation in the nation's history",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Wagalla_massacre",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

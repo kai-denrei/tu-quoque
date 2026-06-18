@@ -1,0 +1,169 @@
+{
+  "iso": "AFG",
+  "name": "Afghanistan",
+  "note": "Two ledgers held together. Afghanistan's people have been on the receiving end of repeated conquest catastrophe — Genghis Khan's armies emptied its cities in 1221, and in the 20th century the Soviet invasion and the war it set off killed on the order of a million and drove a third of the population into exile. But the same land's rulers and forces have also been perpetrators against their own: Amir Abdur Rahman Khan's 1890s campaign destroyed roughly three-fifths of the Shia Hazara people, and a century later the Taliban massacred Hazara civilians at Mazar-i-Sharif. Both ledgers are populated and roughly balanced. The recurring fault line is internal and ethnic-sectarian — the Hazara appear as victims of Afghan state and movement power in BOTH perpetrator events, which is the dual-lens point: a country long invaded from outside is also one whose dominant powers turned on a minority within. Where pre-modern tolls rest only on chroniclers known to exaggerate, the numeric toll is left null rather than guessed.",
+  "events": [
+    {
+      "id": "afg-1",
+      "country": "AFG",
+      "role": "victim",
+      "title": "Mongol destruction of the Afghan cities (Herat, Balkh, Bamiyan), 1221",
+      "era": "1221",
+      "era_band": "pre-colonial",
+      "tier": "WAR",
+      "tier_reasoning": "Genghis Khan's army stormed cities that resisted and put their populations to the sword as siege reprisal and terror policy during a war of conquest; it was mass killing of inhabited places rather than a campaign to destroy a defined ethnic or religious group, so WAR rather than EXT.",
+      "agent": "Genghis Khan and the Mongol army, during the invasion of the Khwarazmian Empire",
+      "toll": {
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "display": "Unfixed; medieval chroniclers claim 1,600,000–2,400,000 'put to the sword' at Herat alone and total annihilation at Bamiyan, but modern historians treat these figures as gross exaggerations",
+        "disputed": true,
+        "note": "No reliable death count exists. Persian chroniclers report that the entire populations of resisting cities were killed — figures of 1,600,000 to 2,400,000 are attached to Herat and the destruction of Bamiyan was reportedly so total the Mongols called it 'the city of sorrows' / 'the city of cries.' Modern historians widely regard such medieval tallies as impossible (the cities could not have held populations that large) and as a literary trope of terror, so toll.low and toll.high are left null. What is well-attested is the deliberate slaughter of inhabitants of cities that resisted, especially Bamiyan after Genghis Khan's grandson Mutugen was killed in the siege, after which he ordered every living thing in the area killed."
+      },
+      "received_lens": "memorial",
+      "summary": "In 1221 Genghis Khan's army crossed into what is now Afghanistan in pursuit of the Khwarazmian sultan and stormed its great cities. When the citadel above Bamiyan held out and the Khan's grandson was killed by an arrow from its walls, Genghis ordered everything living in the valley destroyed; the Mongols afterward called the ruin 'the city of sorrows.' Herat, Balkh and Bamiyan are remembered in Afghan and Persian tradition as cities the Mongols emptied, though the colossal death tolls in the chronicles cannot be verified.",
+      "audit_note": "Researched 2026-06-18. Wikipedia 'Siege of Bamyan' confirms the 1221 spring siege, Mutugen's death, the yasak ordering all living things killed, no quarter given, no specific number. Wikipedia 'Destruction under the Mongol Empire' confirms Herat/Balkh/Bamiyan among devastated cities and that historians (e.g. Smith) concede Middle Eastern chroniclers produced exaggerated estimates. The Herat 1.6M–2.4M figures surfaced in search results from chronicle tradition and are explicitly flagged as exaggerated; toll.low/high held null on integrity grounds because no reliable count exists. ADVERSARIAL AUDIT 2026-06-18: both Wikipedia sources re-fetched and confirmed verbatim (1221 spring siege, Mutugen/Mutukan killed by arrow, yasak commanding every person/animal/bird be killed with no booty taken, no quarter for ~a month, no specific number; chronicle figures conceded exaggerated). Source supports the summary as attached. One wording correction made: source says 'city of sorrows' / 'city of cries,' not 'city of screams' — display/note/summary corrected. Sources VERIFIED; toll legitimately null (integrity quarantine, not a verification failure). Event status VERIFIED.",
+      "relevance": "Afghanistan opens the victim ledger as a crossroads ground repeatedly overrun by outside empires — the medieval template for the modern catastrophe the Soviets would bring seven centuries later.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Siege of Bamyan,' Wikipedia (1221; Genghis Khan; Mutugen killed; edict to kill every living thing; no quarter)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Bamyan",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "'Destruction under the Mongol Empire,' Wikipedia (Herat/Balkh/Bamiyan devastated; chronicle figures conceded by historians to be exaggerated)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Destruction_under_the_Mongol_Empire",
+          "caveat": "Chronicle death tolls (e.g. 1.6–2.4 million at Herat) are reported by medieval sources and regarded by modern historians as gross exaggerations; cited only to show the scale of the tradition, not as a reliable count."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "afg-2",
+      "country": "AFG",
+      "role": "victim",
+      "title": "The Soviet-Afghan War and the mass death of Afghan civilians (1979–1989)",
+      "era": "1979–1989",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Soviet and PDPA government forces killed Afghan civilians on a mass scale through bombing, village destruction, reprisal massacres and the mining of the countryside in a counter-insurgency war; the killing was directed at the resisting population broadly rather than at a defined ethnic group for extermination, so WAR (with documented democidal elements).",
+      "agent": "The Soviet Army and the Soviet-backed PDPA (Afghan communist) government and its security service (KHAD)",
+      "toll": {
+        "low": 562000,
+        "high": 2000000,
+        "unit": "deaths",
+        "display": "~562,000–2,000,000 Afghan civilian deaths (often summarized as 1–3 million total dead); ~5 million made refugees",
+        "disputed": true,
+        "note": "Estimates diverge widely by method. The low end of ~562,000 comes from the Lacina & Gleditsch demographic battle-deaths analysis; Noor Ahmed Khalidi calculated about 876,825 Afghans killed up to 1987; R.J. Rummel estimated roughly 1 million total (about 250,000 attributed to Soviet forces and 228,000 to the PDPA government as democidal killings); Marek Sliwinski's survey-based median was 1.25 million (about 9% of the pre-war population), accepted by Braithwaite & Wardak; the high end reaches ~2 million civilian deaths. The conflict is commonly summarized as 1–3 million total Afghan dead. Separately, about 5 million Afghans fled to Pakistan and Iran (roughly one-third of the pre-war population) and about 2 million were internally displaced."
+      },
+      "received_lens": "memorial",
+      "summary": "After the Soviet Union invaded in December 1979 to prop up Afghanistan's faltering communist government, its army and the Afghan PDPA regime fought a decade-long counter-insurgency that fell hardest on rural civilians: villages were bombed and burned, the countryside was sown with mines, and whole districts were depopulated. On the order of a million Afghans were killed and roughly a third of the population fled the country, producing one of the largest refugee crises of the century. Afghanistan remembers the dead of the Soviet war as a national wound.",
+      "audit_note": "Researched 2026-06-18. Wikipedia 'Soviet–Afghan War' confirms war dates 25 Dec 1979–15 Feb 1989, civilian-death range 562,000–2,000,000, '1–3 million killed' summary, 6.5–11.5% of the 13.5M 1979 population, ~5M refugees + ~2M IDPs. Wikipedia 'Atrocity crimes in the Soviet–Afghan War' confirms Khalidi ~876,825 (to 1987), Rummel ~250,000 (Soviet) + 228,000 (PDPA) democidal / ~1M total, Sliwinski median 1.25M (9%) accepted by Braithwaite & Wardak, and Lacina & Gleditsch as the 562,000 low end. Both toll ends sourced. Tier WAR independently derived: mass civilian killing in counter-insurgency, broad rather than group-extermination targeting; not disease-driven (STR n/a). ADVERSARIAL AUDIT 2026-06-18: both Wikipedia sources re-fetched; war dates 25 Dec 1979–15 Feb 1989, civilian range 562,000/1M/1.5M/2M, '1–3 million' summary, 6.5–11.5% of 13.5M, 5M external + 2M internal displaced all confirmed verbatim; all four scholar attributions (Khalidi 876,825 to 1987; Rummel 250k Soviet + 228k PDPA democide / ~1M; Sliwinski 1.25M median 9% accepted by Braithwaite & Wardak; Lacina & Gleditsch 562k low) confirmed verbatim. Both toll ends independently sourced. Sources VERIFIED. Event status VERIFIED.",
+      "relevance": "The signature modern catastrophe done TO Afghanistan — invasion and counter-insurgency by an outside superpower — and the event that armed and radicalized the factions who would later become perpetrators in the country's own civil wars.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Soviet–Afghan War,' Wikipedia (civilian deaths 562,000–2,000,000; ~1–3 million total; 6.5–11.5% of population; ~5 million refugees)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "'Atrocity crimes in the Soviet–Afghan War,' Wikipedia (Khalidi ~876,825 to 1987; Rummel ~1M / 250,000 Soviet + 228,000 PDPA democidal; Sliwinski median 1.25M, 9%; Lacina & Gleditsch 562,000 low end)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Atrocity_crimes_in_the_Soviet%E2%80%93Afghan_War",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "afg-3",
+      "country": "AFG",
+      "role": "perpetrator",
+      "title": "The Hazara genocide under Amir Abdur Rahman Khan (1888–1893)",
+      "era": "1888–1893",
+      "era_band": "colonial",
+      "tier": "EXT",
+      "tier_reasoning": "The Afghan state declared jihad against the Shia Hazara and set out to break them as a people through mass massacre, enslavement, forced conversion and depopulation of their homeland — deliberate destruction of a defined ethnic-religious group places it at EXT.",
+      "agent": "The Afghan Emirate under Amir Abdur Rahman Khan ('the Iron Amir') and his army",
+      "toll": {
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "display": "No reliable absolute death count; scholars estimate roughly 50–60% of the Hazara population was killed, enslaved or driven into exile during the campaign",
+        "disputed": true,
+        "note": "An isolated count of killings is not reliably establishable for the 1890s and is left null. What scholarship converges on is the proportional devastation: it is widely estimated that more than half — commonly put at 50% to 60% — of the Hazara population of Hazarajat was killed, enslaved or displaced. Sayed Askar Mousavi estimates more than half the population of Hazarajat was driven from their villages; Niamatullah Ibrahimi (Oxford, 2017) and Mehdi J. Hakimi (Harvard Human Rights Journal, 2023) treat the campaign as a state-directed mass atrocity against the Hazara. Chronicle accounts describe towers of severed heads, the sale of Hazara men and women as slaves in Kabul and Qandahar, and the redistribution of Hazara land to Pashtun loyalists. The Encyclopaedia Iranica notes the difficulty of verifying precise figures while affirming the event's reality in Hazara memory."
+      },
+      "received_lens": "suppressed",
+      "summary": "In the late 1880s and early 1890s Amir Abdur Rahman Khan, consolidating central control over Afghanistan, declared a jihad against the Shia Hazara of the central highlands when they resisted his rule. His army crushed the revolt centered on Uruzgan by 1892 and carried out mass killings, mass enslavement, forced conversion and the depopulation of Hazara districts, whose land was handed to Pashtun loyalists. By most scholarly estimates well over half the Hazara people were killed, enslaved or driven into exile — a foundational catastrophe long minimized in official Afghan history.",
+      "audit_note": "Researched 2026-06-18. Wikipedia 'Hazara genocide' confirms 1888–1893 dating, Abdur Rahman Khan as perpetrator, the 'more than 60%' / '50–60% killed, enslaved or displaced' estimates, jihad declaration, Uruzgan 1892, slavery in Kabul/Qandahar, towers of heads, land redistribution to Mohammadzai sardars; cites Mousavi, Ibrahimi (Oxford 2017), Hakimi (Harvard Human Rights Journal 2023), Encyclopaedia Iranica. toll.low/high held null because no reliable absolute killing count exists for the period; the proportional 50–60% figure is preserved in display/note. Tier EXT independently derived: state campaign to destroy a defined ethnic-religious group (massacre + enslavement + forced conversion + depopulation); not disease-driven (STR n/a). ADVERSARIAL AUDIT 2026-06-18: Wikipedia 'Hazara genocide' re-fetched — 1888–1893, Abdur Rahman, '50% to 60%' / 'over 60 percent,' jihad vs Shia, Oruzgan crushed by 1892, 9,000 Hazara women enslaved in Kabul + sales in Kabul/Qandahar, towers of heads, land to non-Hazara loyalists all confirmed verbatim; Mousavi, Ibrahimi (Oxford 2017), Hakimi (Harvard HRJ 2023), Encyclopaedia Iranica all cited there. Hakimi PDF verified by direct binary fetch + pdftotext extraction (title 'The Afghan State and the Hazara Genocide,' author Mehdi J. Hakimi, Harvard Human Rights Journal Vol. 37, argues the 1890s campaign meets the Genocide Convention, ~60% massacred/enslaved/displaced) and independently corroborated via SSRN abstract 4516797 + Semantic Scholar. Sources VERIFIED; toll legitimately null (integrity quarantine). Event status VERIFIED.",
+      "relevance": "The perpetrator ledger turns inward: an Afghan ruler set out to break an entire ethnic-religious minority of his own country — the same Hazara who would be massacred again by the Taliban a century later.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Hazara genocide,' Wikipedia (1888–1893; Abdur Rahman Khan; ~50–60% of Hazara killed, enslaved or displaced; jihad against Shia; cites Mousavi, Ibrahimi, Hakimi, Encyclopaedia Iranica)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Hazara_genocide",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Mehdi J. Hakimi, 'The Afghan State and the Hazara Genocide,' Harvard Human Rights Journal, Vol. 37 (2023/2024)",
+          "supports": "summary",
+          "url": "https://journals.law.harvard.edu/hrj/wp-content/uploads/sites/83/2024/06/03_HLH_37_1_Hakimi81-116.pdf",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "afg-4",
+      "country": "AFG",
+      "role": "perpetrator",
+      "title": "The Taliban massacre of Hazaras at Mazar-i-Sharif (1998)",
+      "era": "1998",
+      "era_band": "contemporary",
+      "tier": "EXT",
+      "tier_reasoning": "After taking the city the Taliban hunted and killed Hazara civilians specifically as Shia 'infidels,' going house to house — targeted killing of an ethnic-religious group for who they were places it at EXT.",
+      "agent": "The Taliban, under the command of the Taliban governor Mulla Manon Niazi",
+      "toll": {
+        "low": 2000,
+        "high": 10000,
+        "unit": "deaths",
+        "display": "~2,000 to ~8,000–10,000+ killed (Human Rights Watch documented at least ~2,000 and believed the true figure substantially higher)",
+        "disputed": true,
+        "note": "Human Rights Watch, the principal investigator, concluded that at least about 2,000 people were killed and that the real number was likely considerably higher; widely cited figures run to roughly 8,000–10,000. The dead were overwhelmingly Hazara civilians, with some Uzbek and Tajik victims, killed in house-to-house searches, summary executions and the killing of detainees in shipping containers. The Taliban framed it as revenge for the killing of its fighters in the city the previous year, but deliberately targeted Hazaras as Shia. Precise totals remain uncertain because the Taliban controlled the city and restricted access."
+      },
+      "received_lens": "denied",
+      "summary": "When the Taliban captured Mazar-i-Sharif in August 1998 after an earlier defeat there, its fighters went through Hazara neighborhoods house to house, shooting men and boys in the street, executing prisoners and suffocating detainees in sealed shipping containers. The Taliban governor publicly branded Shia Hazaras as infidels who must convert, flee or die. Human Rights Watch documented one of the worst single atrocities of the Afghan civil war, with at least two thousand and likely many thousands more killed.",
+      "audit_note": "Researched 2026-06-18. Wikipedia '1998 Mazar-i-Sharif massacre' confirms dates 8–11 Aug 1998, Taliban perpetrators under Mulla Manon Niazi, Hazara/Shia targeting, house-to-house killings, container deaths, and the toll discussion (HRW at least ~2,000 and likely higher; broader citations ~8,000–10,000). HRW's November 1998 report 'Afghanistan: The Massacre in Mazar-i Sharif' verified as the primary documentation source. toll.low (2,000) = HRW conservative documented minimum; toll.high (10,000) = upper cited range, both flagged disputed. Tier EXT independently derived: targeted killing of an ethnic-religious group as such; not disease-driven (STR n/a). ADVERSARIAL AUDIT 2026-06-18: HRW report re-fetched and confirmed real ('Afghanistan: The Massacre in Mazar-i Sharif,' Nov 1998; exact quote 'at least 2,000 may have been killed in the city and possibly many more'; Hazara/Shia particularly targeted, systematic search for male Hazara/Tajik/Uzbek, container asphyxiation deaths). Wikipedia '1998 Mazar-i-Sharif massacre' re-fetched — 8–11 Aug 1998, Mulla Manon Niazi, Shia Hazara targeted, 'at least 10,000 killed' confirmed. Both toll ends independently sourced (low=HRW, high=Wikipedia). Sources VERIFIED. Event status VERIFIED.",
+      "relevance": "The dual lens closes the loop: the Hazara, victims of the Afghan state in the 1890s, were victims again a century later — this time of the Taliban — making clear that Afghanistan's worst internal violence has repeatedly fallen on the same minority.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "Human Rights Watch, 'Afghanistan: The Massacre in Mazar-i Sharif' (November 1998, Vol. 10, No. 7) — at least ~2,000 killed, true figure believed much higher",
+          "supports": "toll.low",
+          "url": "https://www.hrw.org/report/1998/11/01/afghanistan-massacre-mazar-i-sharif",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "'1998 Mazar-i-Sharif massacre,' Wikipedia (8–11 Aug 1998; Taliban under Mulla Manon Niazi; Hazara/Shia targeted; toll ~2,000 to ~8,000–10,000+)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/1998_Mazar-i-Sharif_massacre",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

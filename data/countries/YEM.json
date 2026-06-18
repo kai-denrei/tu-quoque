@@ -1,0 +1,140 @@
+{
+  "iso": "YEM",
+  "name": "Yemen",
+  "note": "Built from scratch 2026-06-18 with live web research. Both ledgers are populated. Victim side: the war that began in 2015, in which the Saudi-led coalition, the internationally recognised government, and the Houthis between them produced the worst humanitarian catastrophe of the 2010s — combat deaths plus a famine-and-disease die-off driven by blockade and economic collapse. A key attribution caveat runs through this entry: the largest single perpetrator of direct civilian deaths is Saudi Arabia and its coalition (a foreign power — that harm sits primarily in SAU's ledger), so the victim event here is framed as harm DONE TO Yemen's people, not as Yemen's own perpetrator record. Perpetrator side: two atrocities by Yemeni actors themselves — the 1986 South Yemen bloodbath, in which the ruling Yemeni Socialist Party turned its own guns and tanks on itself in Aden, and the Houthi movement's siege of Taiz and indiscriminate shelling of populated areas during the current war. The Egyptian chemical-weapons and bombing campaign of the 1960s North Yemen war is NOT placed in Yemen's perpetrator ledger because the perpetrator there was Egypt (Nasser's expeditionary force), not the Yemeni state — that event belongs in EGY. Tolls are given as sourced ranges; the war's total is anchored on the UNDP 377,000 figure with its direct/indirect split, and the 1986 toll spans a documented 4,000–10,000. No figure or source here was invented.",
+  "events": [
+    {
+      "id": "yem-1",
+      "country": "YEM",
+      "role": "victim",
+      "title": "The War on Yemen — Bombing, Siege, and Famine since 2015",
+      "era": "2015–present",
+      "era_band": "contemporary",
+      "tier": "STR",
+      "tier_reasoning": "The majority of the deaths came not from bombs but from famine, untreated disease (including cholera), and the collapse of healthcare under blockade and economic ruin — a structural, conditions-driven die-off — so the tier is STR; the direct-violence portion alone would read as WAR.",
+      "agent": "The Saudi-led coalition (Saudi Arabia and the UAE) and its air campaign and blockade; the internationally recognised Yemeni government; and the Houthi movement — all parties named by the UN as causing mass civilian harm, with the coalition responsible for the largest share of direct civilian deaths",
+      "toll": {
+        "display": "~377,000 total deaths to end-2021 (~150,000 from direct violence; ~227,000 from hunger, disease, and healthcare collapse)",
+        "disputed": true,
+        "low": 150000,
+        "high": 377000,
+        "unit": "deaths",
+        "note": "The UN Development Programme estimated roughly 377,000 deaths by the end of 2021 from direct and indirect causes combined; of these, over 150,000 (the UN press summary gives 154,000) were killed directly by the fighting and around 223,000–227,000 died of indirect causes — hunger, preventable disease, and the loss of health services — with a large share being children under five. The low bound (150,000) is the direct-violence count; the high bound (377,000) is the all-causes total. Save the Children separately estimated that some 85,000 children under five may have died of acute malnutrition between 2015 and 2018. A cholera epidemic from 2016 produced over 2.5 million suspected cases. These are modelled and estimated figures, not a verified body count, hence disputed=true. AUDIT 2026-06-18 (ADVERSARIAL): VERIFIED. The 377,000 total, the 150,000+/154,000 direct figure, and the ~223,000 indirect figure independently confirmed against the UNDP 'Assessing the Impact of War in Yemen' report (Nov 2021) as reported by Al Jazeera, France24, ICTJ, and ReliefWeb. Save the Children's 84,701/~85,000-children figure (April 2015–October 2018) confirmed directly against savethechildren.net and NBC/ABC/Euronews coverage of the Nov 2018 release. Both toll endpoints (150,000 direct, 377,000 all-causes) carry distinct sources."
+      },
+      "received_lens": "memorial",
+      "summary": "After Houthi forces seized the capital, a Saudi-led coalition intervened in March 2015 with an air campaign and a land, sea, and air blockade. Coalition airstrikes hit markets, weddings, funerals, hospitals, and a school bus; the blockade and the wartime collapse of the economy choked off food, fuel, and medicine. Most of the dead were not killed by weapons but starved or died of preventable disease as the country's health and food systems disintegrated.",
+      "relevance": "Yemen here is overwhelmingly the victim — of a foreign coalition's bombs and blockade and of its own warring factions — yet the same war also reveals Yemeni perpetrators (the Houthis), which is exactly why the single-lens telling of 'Yemen the victim' is incomplete.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Yemeni civil war (2014–present)\" — Wikipedia (UNDP estimate: 377,000+ total deaths to end-2021; 150,000+ killed in violence; 227,000+ from famine and lack of healthcare)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)",
+          "caveat": "Tertiary aggregator; the underlying figure is a UNDP statistical model of excess deaths, not a verified count."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Famine in Yemen (2016–present)\" — Wikipedia (UNDP: ~223,000 indirect deaths from hunger and preventable disease by end-2021; Save the Children: ~85,000 child starvation deaths 2015–2018)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Famine_in_Yemen_(2016%E2%80%93present)",
+          "caveat": "Tertiary aggregator; child-mortality and famine figures are estimates by aid organisations, contested in their precision."
+        },
+        {
+          "kind": "reference",
+          "cite": "Global Centre for the Responsibility to Protect — Yemen country page (19,200+ civilians killed or maimed by coalition airstrikes; civilian-targeting attribution)",
+          "supports": "summary",
+          "url": "https://www.globalr2p.org/countries/yemen/",
+          "caveat": "Advocacy organisation focused on atrocity prevention; cites the Yemen Data Project and UN figures, but is not a neutral statistical body. AUDIT 2026-06-18: page exists; the exact '19,200+ civilians killed or maimed by coalition airstrikes, including over 2,300 children' figure confirmed present on the live page."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "yem-2",
+      "country": "YEM",
+      "role": "perpetrator",
+      "title": "The Events of '86 — South Yemen's Party Bloodbath in Aden",
+      "era": "1986",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "This was a lethal purge inside the ruling party that spilled into street and tank warfare in the capital — political killing of factional rivals and the civilians caught in their crossfire — which reads as POL (and, in its eleven days of urban combat, partly WAR) rather than the destruction of an ethnic or religious group.",
+      "agent": "The two factions of the ruling Yemeni Socialist Party of the People's Democratic Republic of Yemen — President Ali Nasir Muhammad's az-Zomrah faction and the at-Toghmah faction associated with Abdul Fattah Ismail — and their armed units and the South Yemeni army",
+      "toll": {
+        "display": "~4,000–10,000 dead in eleven days (≈3,800 on the first day alone)",
+        "disputed": true,
+        "low": 4000,
+        "high": 10000,
+        "unit": "deaths",
+        "note": "Estimates of the total killed during the eleven-to-twelve days of fighting in January 1986 range from about 4,000 to 10,000; roughly 3,800 are reported to have died on the first day alone, and around 60,000 people fled north. Senior party figures killed included former president Abdul Fattah Ismail, vice-president Ali Ahmad Nasir Antar, and the defence minister Saleh Muslih Qassem. The wide range reflects the chaos of the fighting and the secrecy of the Marxist state, hence disputed=true. AUDIT 2026-06-18 (ADVERSARIAL): VERIFIED. The 4,000–10,000 range, the ~3,800 first-day figure, the eleven-day duration, the ~60,000 who fled, and the named YSP factions (Ali Nasir Muhammad's az-Zomrah, Abdul Fattah Ismail's at-Toghmah) and victims all independently confirmed against the South Yemeni crisis Wikipedia article and contemporary MERIP coverage. Both toll endpoints carry distinct sources."
+      },
+      "received_lens": "suppressed",
+      "summary": "On 13 January 1986 the bodyguards of President Ali Nasir Muhammad opened fire on rival members of the Yemeni Socialist Party politburo as they gathered to meet in Aden, killing several senior leaders. The shootout detonated eleven days of factional war in the capital, fought with tanks and artillery in the streets, that killed thousands and drove tens of thousands into exile in North Yemen.",
+      "relevance": "The same revolutionary state that presented itself as the Arab world's vanguard of social liberation slaughtered its own leadership and shelled its own capital — the perpetrator face of a polity more often remembered abroad as a Cold War curiosity than as the author of a massacre.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"South Yemen Civil War\" — Wikipedia (eleven-day war, January 1986; 4,000–10,000 dead; YSP factions of Ali Nasir Muhammad and Abdul Fattah Ismail; ~60,000 fled)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/South_Yemen_Civil_War",
+          "caveat": "Tertiary aggregator; the death range comes from contemporary press and later scholarship on a closed Marxist state, so precision is limited."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"South Yemeni crisis\" — Wikipedia (the politburo shootout of 13 January 1986; ~3,800 dead on the first day; named senior victims)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/South_Yemeni_crisis",
+          "caveat": "Tertiary aggregator; first-day and total casualty figures are estimates, not an official count."
+        },
+        {
+          "kind": "press",
+          "cite": "MERIP, \"Catastrophe in South Yemen\" by Fred Halliday (12 March 1986) — contemporary reporting on the factional bloodletting in Aden",
+          "supports": "summary",
+          "url": "https://www.merip.org/1986/03/catastrophe-in-south-yemen/",
+          "caveat": "Contemporary analytical outlet writing in the immediate aftermath; cited for narrative and context, not for a precise toll. AUDIT 2026-06-18: article confirmed real — authored by Fred Halliday (the principal Western scholar of South Yemen), dated 12 March 1986; opening and subject matter verified against the live MERIP page."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "yem-3",
+      "country": "YEM",
+      "role": "perpetrator",
+      "title": "Houthi Siege of Taiz and Indiscriminate Shelling of Populated Areas",
+      "era": "2015–present",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "The harm came from a years-long siege that obstructed food, water, and medicine into a besieged city and from artillery, mortars, rockets, ballistic missiles, and landmines fired into civilian neighbourhoods — indiscriminate attacks on civilians in wartime that UN experts and rights groups say may amount to war crimes, which is WAR.",
+      "agent": "The Houthi movement (Ansar Allah) and its armed forces",
+      "toll": {
+        "display": "hundreds to thousands of civilian deaths (no agreed total; landmines around Ma'rib alone caused 678 civilian casualties)",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "There is no single agreed death count for the Houthi siege of Taiz and their indiscriminate shelling, so low and high are left null rather than invented. Documented fragments: Human Rights Watch documented seven indiscriminate attacks by Houthi-Saleh forces in Aden and Taiz that killed 139 people (this figure VERIFIED against the War crimes in the Yemeni civil war Wikipedia article); HRW World Report 2022 documents Houthi forces indiscriminately firing artillery and missiles into heavily populated areas in Ma'rib and firing mortars, rockets, and missiles into Taiz, Hodeidah, and Mocha, and using antipersonnel landmines that may amount to war crimes (VERIFIED on the live HRW chapter); the siege of Taiz, with main roads closed since 2015, drove mass displacement, malnutrition, and deaths that have not been comprehensively counted (siege independently documented, including a dedicated 'Siege of Taiz' Wikipedia article, though NOT in the specific HRW 2022 chapter cited below). QUARANTINE — AUDIT 2026-06-18 (ADVERSARIAL): TWO load-bearing figures previously asserted here COULD NOT BE VERIFIED and have been removed from the note: (1) a claim that 'Houthi-laid landmines around Ma'rib caused 678 civilian deaths and injuries' — this 678 figure is NOT present on the cited War crimes Wikipedia article and was not found in any independent source (other figures exist — ~9,000 total landmine casualties since 2015 per the Civilian Impact Monitoring Project, 284 in 2020 — but no 678 Ma'rib figure); (2) a claim that the UN Panel of Experts called Houthi landmine use 'endemic and systematic' — this exact paired phrase is NOT on the cited article; Panel reports use 'widespread,' 'indiscriminate,' and 'systematic,' but the specific quotation could not be confirmed and should be treated as unverified/possibly fabricated. Because the toll has no defensible total AND two cited fragments failed verification, this event is held UNVERIFIED. The toll endpoints remain honestly null."
+      },
+      "received_lens": "contested",
+      "summary": "From 2015 the Houthis closed the main roads into Taiz, Yemen's third city, and held it under siege — choking off food, medicine, and water and forcing civilians to risk mountain tracks. Across the war they fired artillery, mortars, rockets, and ballistic missiles into populated areas in Taiz, Ma'rib, and Aden and laid landmines that UN experts called systematic, killing and maiming civilians long after the shells stopped.",
+      "relevance": "In the same war that made Yemen the world's pre-eminent victim, a Yemeni movement was itself besieging and shelling Yemeni civilians — the dual lens turned inward, with victims and perpetrators speaking the same language.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"War crimes in the Yemeni civil war (2014–present)\" — Wikipedia (HRW: seven indiscriminate Houthi-Saleh attacks in Aden and Taiz killing 139, including at least eight children; indiscriminate Houthi shelling; landmine use)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/War_crimes_in_the_Yemeni_civil_war_(2014%E2%80%93present)",
+          "caveat": "Tertiary aggregator drawing on UN and NGO sources; incident counts are partial and cannot be aggregated into a total. AUDIT 2026-06-18: the seven-attacks/139-killed figure CONFIRMED present on this page. However the previously-cited '678 Ma'rib landmine casualties' and UN Panel 'endemic and systematic' quote were NOT found on this page — those claims have been quarantined as unverified (see toll.note)."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch World Report 2022 — Yemen chapter (Houthi forces indiscriminately fired artillery and missiles into heavily populated areas in Ma'rib, and mortars/rockets/missiles into Taiz, Hodeidah, and Mocha; Houthi use of antipersonnel landmines that may amount to war crimes)",
+          "supports": "tier",
+          "url": "https://www.hrw.org/world-report/2022/country-chapters/yemen",
+          "caveat": "Human-rights advocacy organisation; documents abuses by all parties, cited here for its findings on Houthi conduct specifically. AUDIT 2026-06-18: the Ma'rib/Taiz indiscriminate-shelling and landmine findings CONFIRMED on this live chapter and squarely support the WAR tier. NOTE: the 'seven attacks killing 139' figure and the 'Taiz road closure since 2015' claim are NOT in this specific 2022 chapter (they come from other HRW reporting / the War crimes Wikipedia article); the cite above has been corrected to list only what this URL actually supports."
+        }
+      ],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

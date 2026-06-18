@@ -1,0 +1,186 @@
+{
+  "iso": "ARG",
+  "name": "Argentina",
+  "note": "Argentina's dual ledger is asymmetric in mechanism but not in weight. The 'in their name' side is heavy and well-documented: the late-19th-century Conquest of the Desert, in which the Argentine army drove the indigenous peoples out of the pampas and Patagonia, killing some, taking thousands captive, and breaking up families; and the 1976-1983 'Dirty War,' in which the military junta of the National Reorganization Process disappeared, tortured, and killed thousands of its own citizens. The 'done to them' side is dominated not by a foreign conqueror but by foreign-directed terrorism on Argentine soil: the 1992 bombing of the Israeli Embassy and the 1994 AMIA bombing in Buenos Aires, both attributed by Argentine courts to Iran and carried out by Hezbollah, which together killed over 110 people, most of them Argentine civilians, and which remain the deadliest terror attacks in the country's history. A genuine third victim-category — the demographic collapse of indigenous peoples in the Rio de la Plata after the Spanish arrival in the 1530s — is real but is not entered as a separate Argentina event because reliable territory-specific death figures for what became Argentina do not exist; it is folded into the broader colonial Spanish-American collapse and noted here rather than given an invented toll. The Dirty War is filed as perpetrator because the agent was the Argentine state, but it is also self-inflicted national trauma — Argentines killed by Argentines — which is precisely the dual lens the atlas exists to hold open. Two tolls are genuinely contested and shown as ranges: the Conquest of the Desert (where 'killed' and 'destroyed as peoples' are different magnitudes) and the Dirty War (documented ~8,600-9,000 vs. the human-rights movement's 30,000).",
+  "events": [
+    {
+      "id": "arg-1",
+      "country": "ARG",
+      "role": "victim",
+      "title": "The AMIA Jewish community center bombing",
+      "era": "1994",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "A targeted terrorist mass-killing aimed at a civilian religious-community institution to advance a political/ideological end is political mass violence (POL), not a war between armies (WAR) or the destruction of a whole defined population (EXT).",
+      "agent": "Hezbollah operatives who detonated a vehicle bomb at the AMIA building, an attack Argentine courts ruled was planned and directed by the government of Iran",
+      "toll": {
+        "display": "85 killed (plus the bomber), 300+ injured",
+        "disputed": false,
+        "low": 85,
+        "high": 85,
+        "unit": "deaths",
+        "note": "The death toll is firm and uncontested at 85 victims killed (some counts give 86 including the suicide bomber), with more than 300 injured. It remains the deadliest terrorist attack in Argentine history. The single-number toll reflects a precisely documented bombing, not a contested estimate; the dispute attaches to attribution and justice, not the count."
+      },
+      "received_lens": "memorial",
+      "summary": "On 18 July 1994 a van packed with explosives was driven into the Asociacion Mutual Israelita Argentina, the main Jewish community center in Buenos Aires, and detonated, collapsing the building and killing 85 people. It was, and remains, the deadliest terrorist attack on Argentine soil. Argentine prosecutors and later an Argentine court found that Iran directed the attack and Hezbollah carried it out; despite decades of investigation, no one has been convicted, and the investigating prosecutor Alberto Nisman was found dead in 2015 days before he was to testify.",
+      "relevance": "Argentina, more often the perpetrator in its own modern history, here appears squarely as victim — its largest-in-Latin-America Jewish community struck on Argentine ground by a foreign-directed attack, with the wound compounded by a justice system that never delivered a conviction.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"AMIA bombing,\" Wikipedia — 18 July 1994; 85 killed (86 incl. bomber), 300+ injured; deadliest terror attack in Argentine history; 2024 Argentine court found Iran directed and Hezbollah carried out the attack; Nisman accusation and 2015 death",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/AMIA_bombing",
+          "caveat": "Tertiary aggregator; the death toll (85) is corroborated by multiple independent sources (World Jewish Congress, ADL, U.S. State Department), and attribution to Iran/Hezbollah reflects Argentine court findings, not an undisputed judicial conviction."
+        },
+        {
+          "kind": "press",
+          "cite": "World Jewish Congress, \"This week in Jewish history | Bombing at AMIA building in Buenos Aires kills 85 people and wounds hundreds more\" — 18 July 1994 vehicle bomb, 85 dead, hundreds wounded",
+          "supports": "toll.low",
+          "url": "https://www.worldjewishcongress.org/en/news/this-week-in-jewish-history--bombing-at-amia-building-in-buenos-aires-kills-85-people-and-wounds-hundreds-more-7-4-2020",
+          "caveat": "The World Jewish Congress is an advocacy body for Jewish communities; the factual core (date, 85 deaths, wounded) is corroborated by independent reporting and is not in dispute."
+        },
+        {
+          "kind": "press",
+          "cite": "Anti-Defamation League, \"The AMIA/DAIA Bombing: Terror in Argentina\" — background on the 1994 attack, the Iran/Hezbollah attribution, and the stalled investigation",
+          "supports": "summary",
+          "url": "https://www.adl.org/resources/backgrounder/amiadaia-bombing-terror-argentina",
+          "caveat": "The ADL is an advocacy organization with a stated interest in the case; used here for narrative corroboration of the well-established factual record, not as a neutral arbiter of attribution."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "arg-2",
+      "country": "ARG",
+      "role": "victim",
+      "title": "The Israeli Embassy bombing in Buenos Aires",
+      "era": "1992",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "A targeted terrorist bombing of a diplomatic site that killed mostly civilian bystanders for a political end is political mass violence (POL), not warfare between armies (WAR) or the destruction of a defined group (EXT).",
+      "agent": "A suicide bomber linked to Hezbollah's Islamic Jihad who drove an explosives-laden vehicle into the Israeli Embassy; an Argentine court later ruled the Iranian government responsible",
+      "toll": {
+        "display": "29 killed, 242 injured",
+        "disputed": false,
+        "low": 29,
+        "high": 29,
+        "unit": "deaths",
+        "note": "The toll is firm at 29 killed and 242 injured. Four of the dead were Israeli; the majority were Argentine civilians, including children, plus passers-by at a neighbouring Catholic church and school that were also destroyed. The count is not contested; the dispute is over attribution and the lack of any conviction."
+      },
+      "received_lens": "memorial",
+      "summary": "On 17 March 1992 a pickup truck loaded with explosives was driven into the Israeli Embassy on a Buenos Aires street corner and detonated, destroying the embassy and damaging a nearby church and school, killing 29 people and wounding 242. Most of the dead were Argentine civilians. Intercepted intelligence pointed to Iranian foreknowledge and to the Hezbollah operative Imad Mughniyah; in 2024 Argentina's second-highest court ruled the Iranian government responsible. As with the AMIA attack two years later, no one has been convicted.",
+      "relevance": "The first of the two foreign-directed bombings that made Argentina a victim of transnational terror on its own soil — a small country drawn into a distant conflict, its civilians killed in the street by an attack it neither chose nor could bring to justice.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"1992 Buenos Aires Israeli embassy bombing,\" Wikipedia — 17 March 1992; 29 killed, 242 wounded; embassy, church, and school destroyed; Islamic Jihad/Hezbollah; 2024 court ruling on Iranian responsibility",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/1992_Buenos_Aires_Israeli_embassy_bombing",
+          "caveat": "Tertiary aggregator; the death toll (29) and injured count (242) are corroborated by independent reporting; attribution to Iran reflects a 2024 Argentine court ruling rather than a completed criminal conviction."
+        },
+        {
+          "kind": "press",
+          "cite": "World Jewish Congress, \"This week in Jewish history | Bombing at Israeli Embassy in Argentina kills 29 people and wounds hundreds more\" — 17 March 1992, 29 dead, hundreds wounded",
+          "supports": "toll.low",
+          "url": "https://www.worldjewishcongress.org/en/news/this-week-in-jewish-history--bombing-at-israeli-embassy-in-argentina-in-kills-29-people-and-wounds-hundreds-more",
+          "caveat": "The World Jewish Congress is an advocacy body; the factual core (date, 29 deaths) is corroborated by independent reporting and is not in dispute."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "arg-3",
+      "country": "ARG",
+      "role": "perpetrator",
+      "title": "The Conquest of the Desert",
+      "era": "1878–1885",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "The campaign aimed to clear the indigenous peoples of the pampas and Patagonia from their land as peoples — killing fighters, taking thousands captive, separating children from parents and preventing reproduction, with some groups driven to extinction — which is the deliberate destruction of defined groups (EXT) rather than collapse from disease (STR); the genocide characterization is itself contested.",
+      "agent": "The Argentine army under General Julio Argentino Roca, ordered by President Nicolas Avellaneda's government; Roca rode the campaign's prestige into the presidency",
+      "toll": {
+        "display": "~1,000–1,300+ killed and 15,000+ taken captive or displaced; some peoples destroyed entirely",
+        "disputed": true,
+        "low": 1000,
+        "high": 15000,
+        "unit": "deaths",
+        "note": "The figures measure two different things. Direct killings in the main campaigns are usually given as 'more than 1,000' Mapuche, with one account citing ~1,313 indigenous people killed during Roca's 1879 sweep — this is the documented violent-death floor. The larger destruction was demographic and social: more than 15,000 indigenous people were taken captive or displaced from their lands, families were broken up, captives distributed as forced labour and prevented from having children, and smaller groups such as the Teushen were effectively wiped out within a generation. The high bound (~15,000) marks the people removed and broken as peoples rather than a verified body count, so it is a 'scale of destruction' ceiling, not a death toll; no reliable single death figure for the whole campaign exists. AUDIT QUARANTINE (2026-06-18): all three sources independently verified to exist and to support their attached claims, but the toll.high value (15,000) has no source supporting it as a death count — it is a displacement/captivity figure — and no source establishes a verified total death toll. Held UNVERIFIED on the death toll for that reason; the low bound (~1,000–1,313 killed) is sourced and the underlying facts and EXT tier are solid."
+      },
+      "received_lens": "contested",
+      "summary": "Between 1878 and 1885 the Argentine army, led by General Julio Argentino Roca, swept the indigenous peoples out of the pampas and Patagonia to open the land for settlement and ranching. Troops killed over a thousand in the fighting, took more than fifteen thousand captive, marched them off their land, distributed many as unfree labour, and separated children from their families; some peoples ceased to exist. Roca's reward was the presidency, and for a century the campaign was taught as the heroic founding of the modern nation — a framing indigenous Argentines and a growing body of scholars and a 2022 court case now contest as genocide.",
+      "relevance": "The same Argentine state that would one day be a victim of terror built its modern territory by destroying the peoples already living on it — the perpetrator ledger's deepest entry, long carried as triumph (Roca's face was on the 100-peso note) and only recently re-read as atrocity.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Conquest of the Desert,\" Wikipedia — 1870s–1884 campaigns under Gen. Roca and Pres. Avellaneda; 1,000+ (one account ~1,313) Mapuche killed; 15,000+ displaced/taken captive; captives prevented from having children; Teushen and others driven extinct; Jens Andermann's genocide characterization",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Conquest_of_the_Desert",
+          "caveat": "Tertiary aggregator; the 'killed' and 'displaced/captive' figures derive from differing accounts and the genocide classification is contested among Argentine historians and politically charged, so the entry is held UNVERIFIED as a death toll."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Lucia He, \"Desert defenders: An 1870s battle in Argentina saw the murder of thousands of its indigenous people\" (Index on Censorship, 2018, SAGE Journals) — documents the killing and displacement and the modern government's downplaying of the history",
+          "supports": "summary",
+          "url": "https://journals.sagepub.com/doi/full/10.1177/0306422018770116",
+          "caveat": "Published in an advocacy-leaning press-freedom journal; used for narrative and the suppression-of-memory point, not as the source of a precise death count."
+        },
+        {
+          "kind": "press",
+          "cite": "Agencia Presentes, \"The indigenous genocide of the 'Conquest of the Desert' has reached Argentine courts\" (2022) — reports a judicial case seeking to have the campaign recognized as genocide",
+          "supports": "tier",
+          "url": "https://agenciapresentes.org/en/2022/08/17/el-genocidio-indigena-de-la-campana-del-desierto-llego-a-los-tribunales-argentinos/",
+          "caveat": "Agencia Presentes is a human-rights-focused outlet covering the case from the claimants' perspective; cited for the existence and framing of the genocide litigation, which remains contested and unresolved."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "arg-4",
+      "country": "ARG",
+      "role": "perpetrator",
+      "title": "State terror under the military junta (the 'Dirty War')",
+      "era": "1976–1983",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "The systematic abduction, torture, and forced disappearance of perceived political opponents by the state to hold power is political repression (POL), not warfare between armies (WAR) or the destruction of an ethnic group (EXT).",
+      "agent": "The Argentine military junta of the National Reorganization Process — led by Jorge Rafael Videla and fellow officers — and its armed forces, intelligence services, and clandestine detention centers",
+      "toll": {
+        "display": "~8,600–9,000 documented disappeared up to ~30,000 estimated (disputed)",
+        "disputed": true,
+        "low": 8631,
+        "high": 30000,
+        "unit": "deaths",
+        "note": "This is one of the most politically charged tolls in Latin America. The documented floor: the 1984 CONADEP commission's Nunca Mas report recorded 8,961 forced disappearances (later registries differ slightly — the 2015 RUVTE state registry lists 8,631, comprising 7,018 disappeared and 1,613 killed), while stressing the true number is higher. By 2003 Argentina's human-rights secretariat had logged roughly 13,000 cases. The high figure of ~30,000 is the long-standing estimate of human-rights organizations, the Mothers and Grandmothers of the Plaza de Mayo, and most political parties, defended by officials on the basis of detention-center counts and habeas corpus ratios. A declassified U.S. document records Argentine intelligence personnel estimating ~22,000 killed or disappeared by mid-1978. The wide range exists because the repression was deliberately clandestine; the gap is also a live political fault line, with a denialist current disputing the 30,000. Both ends are sourced; the count is genuinely uncertain."
+      },
+      "received_lens": "memorial",
+      "summary": "After seizing power in March 1976, Argentina's military junta set out to crush the left by terror. Security forces abducted students, trade unionists, journalists, and anyone suspected of dissent, held them in clandestine centers where torture was routine, and 'disappeared' them — many thrown alive from aircraft into the sea on the 'death flights.' Around 500 babies born to detained women were taken and given to regime-aligned families. The documented dead and disappeared number close to nine thousand; human-rights groups put the figure at 30,000. The Mothers of the Plaza de Mayo who marched for their missing children turned the count itself into a national reckoning.",
+      "relevance": "The clearest case of the dual lens collapsing into a single people: here the perpetrator and the victims are both Argentine — a state that murdered its own citizens — and the country's long, divided struggle to fix the number of its dead is itself part of the wound.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "CONADEP, Nunca Mas (Report of the National Commission on the Disappearance of Persons, 1984) — documented 8,961 forced disappearances 1976–1983, noting the real total is higher; summarized in \"National Commission on the Disappearance of Persons,\" Wikipedia",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/National_Commission_on_the_Disappearance_of_Persons",
+          "caveat": "Cited via the Wikipedia summary of the commission's findings rather than the original report; CONADEP itself stated its documented figure was a floor, not a ceiling."
+        },
+        {
+          "kind": "press",
+          "cite": "La Nacion, \"Lejos de los 30.000, la Conadep registro 8961 victimas\" (25 March 2024) — reports CONADEP's documented 8,961 and the 2015 RUVTE state registry of 8,631 victims (7,018 disappeared, 1,613 killed) against the 30,000 estimate",
+          "supports": "toll.low",
+          "url": "https://www.lanacion.com.ar/politica/el-numero-de-30000-desaparecidos-esta-lejos-de-las-victimas-registradas-por-la-conadep-nid25032024/",
+          "caveat": "La Nacion is a major Argentine daily on the center-right; the framing of its headline aligns with the political camp that disputes the 30,000 figure, so it is weighed for the documented-registry numbers rather than for adjudicating the dispute."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Dirty War\" and \"Disappeared detainees of the Dirty War,\" Wikipedia — 1976–1983 junta repression; 22,000–30,000 commonly cited; human-rights groups' 30,000; ~13,000 logged by 2003; declassified U.S. doc citing ~22,000 by mid-1978; death flights; ~500 stolen babies",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Dirty_War",
+          "caveat": "Tertiary aggregator; the 30,000 high figure is an estimate by human-rights organizations rather than a documented count, and is itself politically contested in Argentina."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

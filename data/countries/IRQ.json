@@ -1,0 +1,193 @@
+{
+  "iso": "IRQ",
+  "name": "Iraq",
+  "note": "Built from scratch 2026-06-18 via live web research. Both ledgers are populated and roughly symmetric across the same recent decades, which is the point of the entry: the Ba'athist state that gassed and disappeared its own Kurds and Shia in the 1980s and 1990s was, in the same lifetime, the population on the receiving end of the US-led 1990s sanctions regime and the 2003 invasion and occupation. Perpetrator side: the 1988 Anfal campaign and Halabja attack against the Kurds (a documented genocide), and the 1991 suppression of the Shia/Kurdish uprisings together with the deliberate draining of the southern marshes that destroyed the Marsh Arabs' world. Victim side: the contested mass mortality attributed to the 1990–2003 UN sanctions, and the deaths of the 2003 war and occupation. Tolls are given as sourced ranges with the dispute shown. The sanctions toll is the single most contested figure in the file — the 1999 UNICEF survey's 400,000–500,000 excess child deaths has been challenged as statistically rigged by later peer-reviewed work that found no major rise in mortality at all — so that event is flagged UNVERIFIED and the dispute is laid out in full rather than resolved. No figure or citation was invented; where scholarship diverges, both ends are sourced. Note also that the Iran–Iraq War (1980–88), in which Iraq was the aggressor, is recorded from the Iranian side in the IRN entry (Iraqi chemical attacks) and is not duplicated here.",
+  "events": [
+    {
+      "id": "irq-1",
+      "country": "IRQ",
+      "role": "victim",
+      "title": "Mass Mortality Under the 1990–2003 UN Sanctions Regime",
+      "era": "1990–2003",
+      "era_band": "contemporary",
+      "tier": "STR",
+      "tier_reasoning": "If the high estimates are correct, deaths came chiefly from the structural collapse of public health, nutrition, water, and sanitation under a comprehensive embargo rather than from anyone setting out to kill Iraqis directly, which is STR (structural/policy-driven excess mortality) — but the very existence and scale of those deaths is contested, hence the UNVERIFIED status.",
+      "agent": "The United Nations Security Council sanctions regime (driven principally by the United States and United Kingdom), interacting with Saddam Hussein's government's own diversion of resources",
+      "toll": {
+        "display": "deeply contested: from ~227,000 under-5 excess deaths (Garfield, to 1998) up to 400,000–500,000 (UNICEF 1999) — or near-zero excess per later surveys",
+        "disputed": true,
+        "low": 0,
+        "high": 500000,
+        "unit": "deaths",
+        "note": "This is among the most disputed mortality figures of the era. The 1995 Lancet letter (Zaidi) put child deaths at 567,000; a follow-up using the same method found rates several-fold lower 'for unknown reasons.' Epidemiologist Richard Garfield's synthesis estimated ~227,000 excess under-5 deaths through March 1998 (later revised toward 350,000 by 2000). The 1999 UNICEF Iraq Child and Maternal Mortality Survey reported under-5 mortality rising from 56 to 131 per 1,000 births, extrapolated by many to 400,000–500,000 excess child deaths. But in 2017 Tim Dyson and Valeria Cetorelli, in BMJ Global Health, argued the 1999 survey was rigged by the Iraqi government and that three independent post-2003 surveys found no major rise in child mortality during the sanctions years at all. The 'low' of 0 reflects this serious revisionist challenge; the 'high' is the UNICEF-derived 500,000. The true figure is genuinely unresolved — this is why the event is flagged UNVERIFIED."
+      },
+      "received_lens": "contested",
+      "summary": "After Iraq's 1990 invasion of Kuwait the UN imposed one of the most comprehensive embargoes in modern history, and over the next thirteen years Iraq's health, water, and food systems decayed badly while child mortality figures became a fierce political battleground; estimates of resulting excess deaths range from the hundreds of thousands down to claims that the most-cited survey was fabricated and that mortality barely rose.",
+      "relevance": "The clearest case of Iraqis as victims of an outside policy rather than their own rulers — and a caution that even victim figures can be inflated for political ends, which is exactly why the dual-ledger atlas sources the dispute instead of picking a side.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"International sanctions against Iraq\" — Wikipedia (UNICEF 1999 survey 56→131 under-5 deaths/1,000; Garfield ~227,000 to 1998; Dyson & Cetorelli 2017 'rigging' critique; later surveys ~40/1,000 finding no major rise)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/International_sanctions_against_Iraq",
+          "caveat": "Tertiary aggregator; on a heavily politicized topic. Used to assemble the spread of estimates, with the named originators (UNICEF, Garfield, Dyson & Cetorelli) cross-referenced."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Tim Dyson & Valeria Cetorelli, \"Changing views on child mortality and economic sanctions in Iraq: a history of lies, damned lies and statistics,\" BMJ Global Health (2017)",
+          "supports": "toll.low",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29225933/",
+          "caveat": "Peer-reviewed but represents the strongly revisionist (low/near-zero) end of the debate; characterizes the 1999 UNICEF survey as fraudulent — an interpretation contested by those who stand by that survey."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Richard Garfield, \"Morbidity and Mortality among Iraqi Children from 1990 through 1998,\" (Columbia / Occasional Paper) — most-likely estimate ~227,000 excess under-5 deaths",
+          "supports": "toll.high",
+          "url": "https://reliefweb.int/sites/reliefweb.int/files/resources/A2E2603E5DC88A4685256825005F211D-garfie17.pdf",
+          "caveat": "A careful synthesis, but its inputs include the same wartime/sanctions-era surveys whose reliability the 2017 critique disputes; represents a middle-to-high estimate."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "irq-2",
+      "country": "IRQ",
+      "role": "victim",
+      "title": "Civilian Deaths of the 2003 Invasion and Occupation",
+      "era": "2003–2011",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Deaths arose from invasion, occupation, insurgency, and the sectarian civil war that followed — mass killing in and around armed conflict — which is WAR; the count is disputed but the violent nature of most of the deaths is not.",
+      "agent": "The US-led coalition that invaded in 2003, and the insurgent and sectarian militias whose war the invasion unleashed",
+      "toll": {
+        "display": "~187,000–210,000 documented violent civilian deaths (IBC); survey estimates of total excess deaths range from ~151,000 to ~655,000 to over 1,000,000",
+        "disputed": true,
+        "low": 151000,
+        "high": 1033000,
+        "unit": "deaths",
+        "note": "Estimates diverge by method. Iraq Body Count, counting only individually documented violent civilian deaths from media and official records, reports roughly 187,000–210,000 (and treats this as a likely undercount). The Iraq Family Health Survey (2008, covering 2003–06) estimated ~151,000 violent deaths (range 104,000–223,000). The 2006 Lancet cluster survey estimated ~655,000 total excess deaths to June 2006 (of which ~601,000 violent; CI 393,000–943,000). The 2007 Opinion Research Business survey put violent deaths above 1,000,000 — a figure many researchers criticized as not credible. The 'low' here is the IFHS violent-death estimate; the 'high' is the ORB figure, included with its strong dispute noted. The IBC documented range sits at the conservative, count-based end."
+      },
+      "received_lens": "contested",
+      "summary": "The 2003 US-led invasion toppled Saddam Hussein and was followed by years of occupation, insurgency, and a sectarian civil war that killed civilians on a mass scale; how many died is fiercely contested, from the roughly 200,000 individually documented violent deaths up to survey-based estimates several times higher.",
+      "relevance": "The most recent chapter of Iraqis as victims — at the hands of a foreign invasion and the chaos it loosed — set directly against the same population's rulers, who fill the perpetrator ledger.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Casualties of the Iraq War\" — Wikipedia (IBC 186,901–210,296 documented violent civilian deaths; IFHS ~151,000 violent; Lancet 2006 654,965 excess / 601,027 violent; ORB 2007 ~1,033,000 violent)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Casualties_of_the_Iraq_War",
+          "caveat": "Tertiary aggregator assembling the major studies; the ORB figure it carries is widely regarded by researchers as an outlier and is included to show the upper bound of the dispute, not as a credible central estimate."
+        },
+        {
+          "kind": "reference",
+          "cite": "Iraq Body Count project — running tally of documented violent civilian deaths (incident-by-incident from media and official sources)",
+          "supports": "toll.low",
+          "url": "https://www.iraqbodycount.org/",
+          "caveat": "Counts only deaths it can individually document, so it is a deliberate floor and acknowledged undercount, not a full mortality estimate."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Roberts, Burnham et al., \"Mortality after the 2003 invasion of Iraq: a cross-sectional cluster sample survey,\" The Lancet (2006) — ~655,000 excess deaths to June 2006",
+          "supports": "toll.high",
+          "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(06)69491-9/abstract",
+          "caveat": "Peer-reviewed but methodologically contested; critics questioned the randomness of its cluster sampling. Sits well above the documented-count estimates."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irq-3",
+      "country": "IRQ",
+      "role": "perpetrator",
+      "title": "The Anfal Campaign and the Halabja Chemical Attack",
+      "era": "1988",
+      "era_band": "contemporary",
+      "tier": "EXT",
+      "tier_reasoning": "Iraq set out to destroy the rural Kurdish population as such — gassing villages, razing some 2,000 of them, and machine-gunning captives into mass graves in eight coordinated operations — which Human Rights Watch and others judge genocide, the defining mark of EXT (deliberate destruction of a people).",
+      "agent": "Ba'athist Iraq under Saddam Hussein, directed in the north by Ali Hassan al-Majid ('Chemical Ali')",
+      "toll": {
+        "display": "at least 50,000, possibly ~100,000 (Anfal); 3,200–5,000 at Halabja; Kurdish sources claim up to ~182,000",
+        "disputed": true,
+        "low": 50000,
+        "high": 182000,
+        "unit": "deaths",
+        "note": "Human Rights Watch, which conducted the only comprehensive investigation, found 'by the most conservative estimates, 50,000 rural Kurds died during Anfal,' possibly twice that. The Halabja chemical attack of 16 March 1988 alone killed between 3,200 and 5,000 people (HRW figure). Kurdish authorities, citing captured Ba'athist records, have long maintained a total closer to 182,000, which is the high end here. The low is HRW's conservative floor; the high is the Kurdish figure. The number disappeared or killed in mass executions is not precisely recoverable."
+      },
+      "received_lens": "memorial",
+      "summary": "In eight operations between February and September 1988, Iraqi forces moved to wipe out the rural Kurds: dozens of chemical attacks (the worst, at Halabja, killing thousands of civilians in hours), roughly 2,000 villages destroyed, and tens of thousands of captured villagers trucked to camps and shot in groups before bulldozers covered the pits — a campaign Human Rights Watch and Iraq's own later courts judged genocide.",
+      "relevance": "Iraq's starkest perpetrator entry: a state exterminating a people within its own borders, set against the same population's standing in the victim ledger.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, \"Genocide in Iraq: The Anfal Campaign Against the Kurds\" (1993) — 'by the most conservative estimates, 50,000 rural Kurds died,' possibly twice that; ~2,000 villages destroyed; Halabja 3,200–5,000; Feb 23–Sep 6 1988",
+          "supports": "toll.low",
+          "url": "https://www.hrw.org/reports/1993/iraqanfal/ANFALINT.htm",
+          "caveat": "Human-rights organization, but the most thorough investigation of record, based on captured Iraqi documents and survivor testimony; provides the conservative floor."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Anfal campaign\" — Wikipedia (HRW estimate ~50,000–100,000; Kurdish sources citing Ba'athist tallies ~182,000; described by scholars as genocide/ethnic cleansing)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Anfal_campaign",
+          "caveat": "Tertiary aggregator; the ~182,000 high originates with Kurdish authorities, an interested party, and is carried as the upper bound, not as a verified count."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Halabja massacre\" — Wikipedia (5-hour chemical attack 16 March 1988; mustard gas and nerve agents; toll usually given 3,200–5,000; Ali Hassan al-Majid convicted; Saddam executed 2006)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Halabja_massacre",
+          "caveat": "Tertiary aggregator; Halabja toll cross-checked against the HRW figure (3,200–5,000)."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irq-4",
+      "country": "IRQ",
+      "role": "perpetrator",
+      "title": "Suppression of the 1991 Uprisings and the Draining of the Marshes",
+      "era": "1991–2003",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Saddam's forces crushed the post-Gulf-War Shia and Kurdish revolts with mass killings and reprisal executions, then deliberately drained the southern marshes to destroy the Marsh Arab communities that had sheltered rebels — systematic political mass killing and the wrecking of a people's homeland, classed POL (mass political murder and reprisal), with the marsh destruction edging toward the deliberate-eradication character of EXT.",
+      "agent": "Ba'athist Iraq under Saddam Hussein (Republican Guard and loyalist forces)",
+      "toll": {
+        "display": "~25,000–60,000+ killed suppressing the 1991 uprisings; up to ~100,000 cited overall; several thousand more Marsh Arabs killed and 200,000–500,000 displaced",
+        "disputed": true,
+        "low": 25000,
+        "high": 100000,
+        "unit": "deaths",
+        "note": "Estimates of those killed putting down the March–April 1991 Shia and Kurdish uprisings range from roughly 25,000 to 100,000 civilians and rebels; one commonly cited figure is ~30,000–60,000 Shia in the south plus ~20,000 Kurds in the north. Iraq's post-2003 Human Rights Ministry registered some 200 mass graves, most in the south, one believed to hold up to 10,000. The subsequent draining of the Mesopotamian marshes (a campaign of dikes and canals begun after 1991) turned over 90% of the wetlands to desert, killed several thousand more Marsh Arabs, and displaced an estimated 200,000–500,000; the displacement and cultural destruction are larger than the directly counted death toll. Low/high here bound the uprising-suppression deaths; the marsh deaths add an uncounted increment on top."
+      },
+      "received_lens": "suppressed",
+      "summary": "When Shia and Kurds rose against Saddam after the 1991 Gulf War, his Republican Guard retook the cities and killed tens of thousands, dumping bodies into mass graves later unearthed across the south; the regime then deliberately drained the southern marshes that had sheltered the rebels, collapsing the Marsh Arabs' five-thousand-year-old way of life and driving hundreds of thousands from their homes.",
+      "relevance": "A second perpetrator chapter against Iraq's own Shia and marsh populations, immediately preceding the years when those same Iraqis appear in the victim ledger under sanctions and invasion.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"1991 Iraqi uprisings\" — Wikipedia (25,000–100,000 civilians and rebels killed in the suppression; Republican Guard reprisals; ~200 mass graves registered post-2003, one up to 10,000)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/1991_Iraqi_uprisings",
+          "caveat": "Tertiary aggregator; the wide death range reflects genuinely uncertain estimates from a closed regime, cross-referenced with HRW reporting."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, \"Endless Torment: The 1991 Uprising in Iraq And Its Aftermath\" (1992) — documents mass killings, summary executions, and reprisals by loyalist forces",
+          "supports": "summary",
+          "url": "https://www.hrw.org/reports/1992/Iraq926.htm",
+          "caveat": "Human-rights organization; contemporaneous documentation of the suppression."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Draining of the Mesopotamian Marshes\" — Wikipedia (post-1991 drainage destroyed >90% of the marshes; several thousand Marsh Arabs killed; 200,000–500,000 displaced; population collapse to ~20,000)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Draining_of_the_Mesopotamian_Marshes",
+          "caveat": "Tertiary aggregator; displacement figures vary by source and the Marsh Arab death count is not precisely established. Note: the ~500,000 in the toll display is the pre-drainage Marsh Arab population, not a displacement figure; sources support 'more than 200,000' displaced (with ~80,000–120,000 reaching Iran)."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

@@ -1,0 +1,180 @@
+{
+  "iso": "DZA",
+  "name": "Algeria",
+  "note": "Built from scratch 2026-06-18 with live web research. Both ledgers are populated. Victim side: the French conquest and 'pacification' (1830-1875), a demographic catastrophe combining killing, scorched earth, famine and disease; and the War of Independence (1954-1962), in which French forces used torture, napalm and mass internment. Perpetrator side: the post-independence massacres of the Harkis (1962) by the victorious FLN/ALN and local mobs, and the Algerian state's 'dirty war' atrocities of the 1990s — at least ~7,000 enforced disappearances plus systematic torture and extrajudicial killing by the security forces. Tolls on all four events are heavily contested: the colonial-era figures pit a named demographer's reconstruction against a higher genocide-framing scholarly range; the War of Independence pits the Algerian state's 1.5 million against French/scholarly estimates a fraction of that; the Harki toll spans a fivefold range. Where scholarship diverges, both endpoints are independently sourced and the dispute is shown. The 1990s civil war was a three-cornered fight (army, Islamist insurgents, civilians) and much killing was the GIA's; this ledger isolates only the documented STATE-perpetrated abuses (disappearances, torture) so the perpetrator entry is not inflated by insurgent crimes. No figure or source here was invented; where a clean independent low/high death count cannot be pinned, the figure is left null and the event marked UNVERIFIED.",
+  "events": [
+    {
+      "id": "dza-1",
+      "country": "DZA",
+      "role": "victim",
+      "title": "French Conquest and Pacification of Algeria",
+      "era": "1830–1875",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The mass mortality blended deliberate killing (massacres, enfumades, scorched earth) with the famine, displacement and epidemic disease those tactics unleashed across a conquered population; because the largest share of the demographic collapse was disease- and famine-driven rather than a single deliberate extermination campaign, it is tiered STR — though several scholars argue elements meet the threshold of genocide.",
+      "agent": "The French Army and colonial state (under generals including Bugeaud, Pélissier and Saint-Arnaud)",
+      "toll": {
+        "display": "~500,000 to ~1,000,000 deaths (Kateb: ~825,000 deaths 1830–1875; Kiernan: 500,000–1,000,000 in the first three decades)",
+        "disputed": true,
+        "low": 500000,
+        "high": 1000000,
+        "unit": "deaths",
+        "note": "Algeria's native population is generally set at ~3 million in 1830 and fell sharply over the following decades. The demographer Kamel Kateb (INED) reconstructs roughly 825,000 indigenous deaths from 1830 to 1875 (about eight times the ~117,000 French soldiers he estimates died in the same period), a large share of them non-combatants who died in repression, famine and epidemic — the named, conservative scholarly anchor for the low end. Historian Ben Kiernan (Yale) states that of the ~3 million population, about 500,000 to 1,000,000 perished in the first three decades of conquest, framing parts of it as genocide; this supplies the high end. Causation is genuinely contested: alongside massacres (the El Ouffia tribe wiped out in a night; ~500–700 of the Ouled Riah suffocated in caves — the 1845 Dahra enfumades) and Bugeaud's scorched-earth razzias, much excess mortality came from the famine-and-cholera crisis of 1866–68 (locust plagues, a brutal winter). The endpoints are independently sourced; the split between killing and disease/famine is the dispute, which is why this is STR rather than EXT.",
+        "low_source_note": "Kateb's ~825,000 (1830–1875) is the named conservative scholarly reconstruction; rounded toward 500,000 to align with Kiernan's stated lower bound for the conquest decades.",
+        "high_source_note": "Kiernan's upper bound of ~1,000,000 deaths in the first three decades."
+      },
+      "received_lens": "memorial",
+      "summary": "France invaded in 1830 and spent four decades subduing Algeria. Generals such as Bugeaud waged scorched-earth razzias — burning villages, crops and herds — and units gassed or walled tribes into caves, as at the 1845 Dahra enfumades. Combined with mass displacement, the famines of the 1860s and cholera, the native population, roughly three million in 1830, suffered a collapse of hundreds of thousands of deaths.",
+      "relevance": "Algeria's foundational national wound — the colonial catastrophe — sits in the same atlas as the killings the independent Algerian state and its victors later carried out, refusing the comfort of a people who are only ever victims.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Kamel Kateb (INED), Européens, « indigènes » et Juifs en Algérie (1830–1962): représentations et réalités des populations, Cahier de l'INED no. 145 (INED, 2001), as summarised in demographic literature — ~825,000 indigenous deaths 1830–1875 (≈8× the ~117,000 French soldier deaths in that period), a large share non-combatants in repression, famine and epidemic; native population ~2.7M (1861) falling to ~2.1M (1871)",
+          "supports": "toll.low",
+          "url": "https://www.ined.fr/fr/publications/editions/cahiers/europeens-indigenes-et-juifs-en-algerie-1830-1962/",
+          "caveat": "Cited via secondary summaries of Kateb's INED demographic work; Kateb himself stresses that a large part of the decline (1866–72) stems from famine, locust plagues and cholera, not direct killing."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Ben Kiernan, Blood and Soil: A World History of Genocide and Extermination from Sparta to Darfur (Yale University Press, 2007) — ~500,000 to 1,000,000 of ~3 million native Algerians perished in the first three decades of French conquest",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Pacification_of_Algeria",
+          "caveat": "Kiernan frames the conquest within a history of genocide; quoted here via the Wikipedia 'Pacification of Algeria' article, which cites the figure to his book. Tertiary aggregator for the citation; the genocide framing is contested by some historians who emphasise disease/famine causation."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Pacification of Algeria\" — Wikipedia (El Ouffia massacre; ~500–700 of the Ouled Riah suffocated in caves at the 1845 Dahra enfumades; scorched-earth and famine causation)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Pacification_of_Algeria",
+          "caveat": "Tertiary aggregator; individual massacre tolls (e.g. ~500–700 Ouled Riah) derive from period and secondary accounts and are not independently verifiable counts. Verified 2026-06-18: the article cites Kiernan's Blood and Soil (2007) for the 500,000–1,000,000 / ~3M figure and records the El Ouffia ('All 500 men, women and children') and Ouled Rhia ('500 to 700 ... killed by suffocation in a cave') massacres as stated."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "dza-2",
+      "country": "DZA",
+      "role": "victim",
+      "title": "Algerian War of Independence",
+      "era": "1954–1962",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "An eight-year war of decolonisation in which French forces, fighting the FLN insurgency, used torture, napalm, summary executions and forced internment of millions — mass death and abuse within an armed conflict against an organised insurgency, which is WAR rather than a campaign to exterminate a people.",
+      "agent": "The French Army and colonial state (generals Massu, Salan and the broader command), with reciprocal killing by the FLN",
+      "toll": {
+        "display": "~400,000–700,000 (most scholarly estimates) up to 1,500,000 (Algerian state claim)",
+        "disputed": true,
+        "low": 400000,
+        "high": 1500000,
+        "unit": "deaths",
+        "note": "The toll is one of the most politically charged in modern history. The Algerian state claims ~1,500,000 Algerian dead (the figure embedded in national memory). French official counts are far lower — on the order of 23,000 French soldiers killed, plus ~50,000 Harkis killed or missing and ~6,000 European civilians — and most independent historians place total deaths in roughly the 400,000–700,000 range, well above the FLN's wartime estimate but below the 1.5 million state figure. The low end (400,000) is the conservative scholarly floor; the high end (1,500,000) is the official Algerian claim, retained because it is the figure of record in Algeria, though it exceeds most scholarship. French atrocities are well documented: routine torture (made public in France in 1957), use of napalm and chemical agents, destruction of thousands of villages, and the forced 'regroupement' of around two million Algerians into internment camps. Disputed; both endpoints are sourced (verified 2026-06-18: Wikipedia 'Algerian War' carries the 1.5M state claim, French official 23,196 soldiers / 50,000 Harkis / 6,000 European civilians, the ~400,000–700,000 scholarly range cited to Horne and others, and the torture/napalm/~2M regroupement detail; Horne's A Savage War of Peace exists as described). QUARANTINE — status UNVERIFIED: the sources pass integrity checks, but the gap between the sourced scholarly low (~400,000) and the sourced state-claim high (1,500,000) is so wide and politicised that no single agreed death count exists, so the toll itself is held unverified.",
+        "low_source_note": "Conservative scholarly floor (~400,000), per estimates cited on the Wikipedia 'Algerian War' article.",
+        "high_source_note": "Algerian government claim of ~1,500,000, the official figure of record in Algeria; exceeds most independent scholarship."
+      },
+      "received_lens": "memorial",
+      "summary": "When the FLN launched its independence war in 1954, France responded with a counterinsurgency that institutionalised torture, dropped napalm, razed thousands of villages and herded roughly two million Algerians into internment camps. Estimates of the dead range from several hundred thousand in most scholarship to the 1.5 million claimed by the Algerian state, and the divergence itself has become political.",
+      "relevance": "The war that founded the modern Algerian state is its defining victim narrative — and the same victory produced the victors who then turned on the Harkis, the perpetrator entry two lines down.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Algerian War\" — Wikipedia (Algerian government claim ~1,500,000; French official ~23,000 soldiers + ~50,000 Harkis + ~6,000 European civilians; scholarly estimates ~400,000–700,000; torture, napalm, ~2 million in regroupement camps)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Algerian_War",
+          "caveat": "Tertiary aggregator; the 1,500,000 figure is the Algerian state's claim and exceeds most independent scholarship, while French official figures count chiefly the French and Harki dead — the two sides count different populations. Verified 2026-06-18: the article carries all of these figures and the regroupement/torture/napalm detail as cited."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Alistair Horne, A Savage War of Peace: Algeria 1954–1962 (1977) — standard English-language history; documents French torture, the regroupement camps, and a death toll far below the FLN's 1.5 million claim",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/A_Savage_War_of_Peace",
+          "caveat": "Cited via the Wikipedia entry for Horne's book; Horne's own totals are estimates and his sympathies and sourcing have been debated by later scholars."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "dza-3",
+      "country": "DZA",
+      "role": "perpetrator",
+      "title": "Massacres of the Harkis",
+      "era": "1962",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "After independence the victorious FLN/ALN and local mobs hunted down and killed Algerian Muslims who had served France — a targeted slaughter of a politically defined collaborator group and their families, which is POL (political-group mass killing) rather than the destruction of an ethnic or national group (EXT).",
+      "agent": "The FLN/ALN (National Liberation Front and its army) and local Algerian mobs, after the July 1962 independence",
+      "toll": {
+        "display": "~30,000 to ~150,000 Harkis and dependents killed",
+        "disputed": true,
+        "low": 30000,
+        "high": 150000,
+        "unit": "deaths",
+        "note": "Following the March 1962 Évian Accords — which promised no reprisals — and independence in July 1962, the FLN/ALN and local groups killed Harkis (Muslim auxiliaries of the French Army) and their families across Algeria, often with extreme cruelty (forced mine-clearing, mutilation, summary execution; Alistair Horne, A Savage War of Peace p.537, records men 'burned alive, or castrated, or dragged behind trucks'). Military historian John Keegan (A History of Warfare, p.55) is the standard citation for BOTH endpoints — 'at least 30,000 and possibly as many as 150,000 Harkis and their dependents' — so the high end shares an attribution with the low. That said, the 150,000 ceiling is genuinely contested: Pierre Daum's research and Algerian historians argue most Harkis stayed in Algeria and that 150,000 is an exaggeration repeated by some French organisations (Al Jazeera, 2015), so it is retained as a soft upper bound rather than a settled figure. France, having largely abandoned the Harkis rather than evacuate them, downplayed the killings. Disputed; both endpoints rest on the same Keegan citation, with the high end additionally contested by later scholarship.",
+        "low_source_note": "John Keegan, A History of Warfare p.55 ('at least 30,000'), as cited on the Wikipedia 'Harki' article.",
+        "high_source_note": "John Keegan, A History of Warfare p.55 ('possibly as many as 150,000') — same citation as the low end; but contested by Pierre Daum and others (per Al Jazeera 2015) as an exaggeration, so treated as a soft upper bound."
+      },
+      "received_lens": "denied",
+      "summary": "When France withdrew in 1962, the Harkis — Algerian Muslims who had fought alongside the French Army — were disarmed and largely left behind. The victorious FLN and local mobs then hunted, tortured and killed tens of thousands of them and their families as traitors, with estimates running from about 30,000 to as high as 150,000. Both the FLN's successor state and France long avoided reckoning with it.",
+      "relevance": "The same independence that ended Algeria's colonial victimhood produced its first mass perpetration by Algerian hands — the war's victors killing fellow Algerians — the cleanest hinge between the two ledgers.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Harki\" — Wikipedia (post-1962 killings of 'at least 30,000 and possibly as many as 150,000 Harkis and their dependents' by the FLN and lynch mobs, both figures cited to John Keegan, A History of Warfare, p.55; methods of killing cited to Horne, A Savage War of Peace, p.537; French abandonment and downplaying)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Harki",
+          "caveat": "Tertiary aggregator; both the 30,000 floor and the 150,000 ceiling are attributed to Keegan in the same sentence. Verified 2026-06-18: the article's text matches this citation. The 150,000 maximum is challenged by Pierre Daum's research (see Al Jazeera source) as exaggerated, which is why it is kept only as a soft upper bound."
+        },
+        {
+          "kind": "press",
+          "cite": "Al Jazeera, \"Q&A: What really happened to Algeria's Harkis\" (2015) — on the scale, the abandonment by France, and the contested death toll",
+          "supports": "summary",
+          "url": "https://www.aljazeera.com/news/2015/8/22/qa-what-really-happened-to-algerias-harkis",
+          "caveat": "Press interview; cited for narrative context and the contested nature of the toll, not as authority for a precise number. Verified 2026-06-18: the article exists with this title/date and notes that fewer than 30,000 Harkis reached France and that the 150,000-killed figure was exaggerated by some French organisations (Pierre Daum's research)."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "dza-4",
+      "country": "DZA",
+      "role": "perpetrator",
+      "title": "State Atrocities of the Algerian Civil War (the \"Dirty War\")",
+      "era": "1992–2002",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Amid a civil war against Islamist insurgents, the Algerian security forces systematically 'disappeared', tortured and extrajudicially killed people — a state campaign of politically targeted repression that Human Rights Watch frames as crimes against humanity, placing the state-perpetrated share in POL (the separate insurgent massacres are not counted in this entry).",
+      "agent": "The Algerian state's security forces, army and intelligence services (the regime that cancelled the 1992 elections)",
+      "toll": {
+        "display": "at least ~7,000 enforced disappearances by state forces (within a wider war toll of ~100,000–200,000 from all sides)",
+        "disputed": true,
+        "low": 7000,
+        "high": null,
+        "unit": "deaths",
+        "note": "After the army cancelled the January 1992 elections an Islamist insurgency erupted; the resulting 'dirty war' killed an estimated 100,000–200,000 people from all sides (President Bouteflika cited 100,000 in 1999, revised to ~150,000 in 2005; rights groups argue it may exceed 200,000). MUCH of the civilian killing — the village massacres of 1996–98 — was carried out by the GIA, and those deaths are NOT attributed to the state here. What is documented as STATE perpetration: Human Rights Watch reports that Algerian security forces forcibly 'disappeared' at least ~7,000 people — more than any country that decade except wartime Bosnia — alongside systematic torture and extrajudicial killings, none of which has been investigated or prosecuted (a 2006 amnesty shielded the security forces). The ~7,000 disappearances is the firm, attributable state-perpetrated figure (used as toll.low; verified 2026-06-18 against both HRW outputs — the 26 Feb 2003 news release 'Algeria Led World in Forced Disappearances' and the full report 'Time for Reckoning: Enforced Disappearances in Algeria' — which state 'at least 7,000 persons ... more than ... any other country during the past decade except wartime Bosnia,' with no agent prosecuted; the 100,000–200,000 all-sides toll, Bouteflika's 100,000 (1999) / 150,000 (2005), and the GIA 1996–98 massacres are confirmed in the wider literature). QUARANTINE — status UNVERIFIED on toll grounds: a precise count of state-caused DEATHS cannot be separated from the overall war toll or from insurgent killings, so toll.high is null (no sourced high end) and the event is held unverified. Allegations that security services committed or facilitated some of the village massacres (e.g. army barracks near Rais/Bentalha that did not intervene) exist but are rejected by many researchers and are not asserted here as fact.",
+        "low_source_note": "Human Rights Watch's 'at least 7,000' enforced disappearances attributed to Algerian security forces (2003 report).",
+        "high_source_note": "No defensible upper bound for state-caused deaths can be separated from the all-sides war toll or from GIA-perpetrated massacres; left null."
+      },
+      "received_lens": "suppressed",
+      "summary": "After the army voided the 1992 elections to block an Islamist victory, Algeria fell into a decade of war. Beyond combat, the state's security forces ran a campaign of enforced disappearances — abducting at least seven thousand people who were never seen again — alongside torture and extrajudicial killing, then shielded itself with a 2006 amnesty so that no official has been held to account.",
+      "relevance": "Within living memory the Algerian state — itself born of an anti-colonial victim narrative — ran a 'dirty war' of disappearances and torture against its own citizens, completing the dual lens the atlas insists on.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, \"Time for Reckoning: Enforced Disappearances in Algeria\" / \"Algeria Led World in Forced Disappearances\" (26 Feb 2003) — Algerian security forces 'disappeared' at least 7,000 persons; systematic torture and extrajudicial killing; both state and Islamist groups guilty of crimes against humanity",
+          "supports": "toll.low",
+          "url": "https://www.hrw.org/news/2003/02/26/algeria-led-world-forced-disappearances",
+          "caveat": "Advocacy organisation; the 7,000 figure is HRW's documented minimum for state-attributed disappearances and is deliberately conservative. Verified 2026-06-18: both the news release and the full 'Time for Reckoning' report exist with this title/date and state 'at least 7,000 persons.'"
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Algerian Civil War\" — Wikipedia (overall toll ~100,000–200,000 from all sides; Bouteflika's 100,000/150,000; GIA village massacres 1996–98; HRW/Amnesty allegations of security-service involvement, rejected by many researchers)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Algerian_Civil_War",
+          "caveat": "Tertiary aggregator; the overall toll spans all combatants and civilians and cannot be apportioned cleanly to the state — this entry deliberately counts only the documented state-perpetrated disappearances/torture, not the GIA's massacres."
+        }
+      ],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}
