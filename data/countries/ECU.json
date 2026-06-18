@@ -1,0 +1,132 @@
+{
+  "iso": "ECU",
+  "name": "Ecuador",
+  "note": "Ecuador's dual ledger is asymmetric in the usual colonial-Andean way, and the asymmetry is the point. The heaviest 'done to them' (victim) event is the Spanish conquest and disease-driven demographic collapse of the peoples of the highlands and coast in the 16th century — a catastrophe whose scale is real and well studied (Linda Newson's archival demography is the standard work) but whose territory-specific death figures are genuinely uncertain, so it is entered as a sourced population-decline range with the decline-versus-death-count distinction made explicit and the death-count low/high left null. The 'in their name' (perpetrator) side is recorded for the modern republic and is well documented: the 1977 Aztra massacre, in which the National Police killed scores of striking, mostly Indigenous sugar workers under a military dictatorship; and the systematic state terror of the 1984-1988 Leon Febres Cordero government, where police death squads (the SIC-10 / escuadrones volantes) tortured, disappeared, and extrajudicially executed opponents — a record later established by Ecuador's own 2010 Truth Commission. Both perpetrator events are filed under 'in their name' because the agent was the Ecuadorian state, but Aztra in particular is also self-inflicted national trauma: the state killing its own Indigenous and working poor, the dual lens at its sharpest within one country. Two tolls are contested and shown as ranges: the colonial collapse (population-decline estimates diverge widely and fold disease, warfare, forced labor, and famine together) and the Aztra death toll (the dictatorship's official figure of 26 'drowned' versus union and historian counts of roughly a hundred or more dead and disappeared, with bodies destroyed). No perpetrator event was invented to balance the colonial victimhood; the modern republic's documented atrocities are real and are entered as found.",
+  "events": [
+    {
+      "id": "ecu-1",
+      "country": "ECU",
+      "role": "victim",
+      "title": "The Spanish conquest and disease collapse of the peoples of Ecuador",
+      "era": "1530s-1600s",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The dominant killer was Old World epidemic disease (smallpox, measles, diphtheria) against populations with no immunity, compounded by conquest warfare and forced labor in the encomienda, mita, and obrajes — a structural demographic catastrophe (STR), not a deliberate program to annihilate a defined group (EXT).",
+      "agent": "Spanish conquistadors and the colonial administration of the Audiencia of Quito, whose invasion from the 1530s brought the encomienda and mita forced-labor systems and the obraje textile sweatshops, alongside the Old World epidemics that arrived with the conquest",
+      "toll": {
+        "display": "hundreds of thousands of deaths; indigenous population of what became Ecuador estimated to fall from roughly 1-1.5 million at contact to about 217,000 by the end of the 16th century (population-decline estimate, not a death count)",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "display_note": "see toll.note",
+        "low_alt": 700000,
+        "high_alt": 1300000,
+        "note": "There is no reliable count of deaths; the figures available are population-decline estimates that fold disease, conquest warfare, forced labor, and famine together. Linda Newson's archival demography (\"Life and Death in Early Colonial Ecuador,\" 1995) estimates a decline from roughly 1.5 million at contact to about 217,000 by the end of the 16th century, an overall depopulation of roughly 72-95 percent, with the Sierra losing population about four times as fast as the Coast (a highland decline ratio of about 5.2 to 1 over 1520-1600). Other syntheses put the contact population nearer 1 million, with a 1778 colonial census recording about 439,000 people total (63 percent Indigenous). The implied population loss from disease, war, and overwork is therefore roughly 700,000 to over 1.3 million depending on the contact baseline used; because 'population decline' is not the same as 'people killed,' the death-count low/high are left null and the demographic range is recorded here as context.",
+        "low_alt_label": "population decline (low baseline, ~1M contact)",
+        "high_alt_label": "population decline (high baseline, ~1.5M contact)",
+        "audit_note": "Source-integrity audit (2026-06-18): Newson monograph independently confirmed to exist (real author, real title, Univ. of Oklahoma Press 1995, 505 pp.); its headline figures (decline from ~1.5M at contact to ~217,000 by end of 16th century, overall depopulation ~72-95 percent, Sierra collapse ~4x the Coast) are corroborated by the H-Net review, the OU Press page, Google Books, and WorldCat. The source supports the toll.note claim it is attached to. Death-count low/high correctly left null because the figures are population-decline estimates, not death counts; both ends of the decline range (low_alt/high_alt) are sourced. Tier STR confirmed by independent re-derivation (disease-driven collapse, not deliberate extermination)."
+      },
+      "received_lens": "suppressed",
+      "summary": "When Spanish forces pushed into the Andean territory that became Ecuador from the 1530s, they brought both forced-labor regimes and the Old World diseases that traveled with the conquest. Smallpox had already run ahead of the conquistadors, killing the Inca ruler Huayna Capac and helping trigger the civil war that split the empire; measles and diphtheria followed. Combined with conquest warfare and labor drafts that funneled Indigenous men into the mita and the textile obrajes of the Quito highlands, the population of the region collapsed over the colonial century, falling from perhaps a million or more at contact to a small fraction of that by 1600. Survivors fled their villages to escape tribute and the labor draft, a flight the colonial caciques were still complaining of by the 1690s.",
+      "relevance": "Ecuador appears here as victim, the peoples of its territory devastated by an invading European power and the pathogens it carried, the same kind of catastrophe whose modern echo the independent Ecuadorian state would later inflict on its own Indigenous and working poor, placing the country on both sides of the ledger.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Linda A. Newson, \"Life and Death in Early Colonial Ecuador\" (University of Oklahoma Press, 1995), as summarized in the H-Net and Hispanic American Historical Review reviews and the publisher's description — overall depopulation of roughly 72-95 percent, decline from approximately 1.5 million at contact to about 217,000 by the end of the 16th century, Sierra decline about four times the Coast's (highland ratio ~5.2:1, 1520-1600)",
+          "supports": "toll.note",
+          "url": "https://www.oupress.com/9780806126975/life-and-death-in-early-colonial-ecuador/",
+          "caveat": "The headline figures are reconstructed from the reviews and publisher summary rather than the full monograph; they are population-decline estimates synthesized from disputed archival demography, not a verified death count, and are used here as a range with that caveat explicit."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Indigenous peoples in Ecuador,\" Wikipedia — contact-era population estimated near one million in 1534; smallpox and diphtheria epidemics after first contact; Huayna Capac died of smallpox; 1778 colonial census of about 439,000 people, 63 percent Indigenous",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Indigenous_peoples_in_Ecuador",
+          "caveat": "Tertiary aggregator; used for the lower contact-population baseline and the census figure, both of which are population estimates rather than death counts."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ecu-2",
+      "country": "ECU",
+      "role": "perpetrator",
+      "title": "The Aztra massacre of striking sugar workers",
+      "era": "1977",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Security forces killing unarmed strikers en masse to break a labor action under a dictatorship is political mass violence by the state against its own people (POL), not warfare between armies (WAR) or the destruction of a defined ethnic group (EXT).",
+      "agent": "the National Police of Ecuador, deploying roughly a hundred officers (commanded by Eduardo Diaz and Lenin Cruz) against striking workers at the Aztra sugar mill, under the military dictatorship of the Supreme Council of Government",
+      "toll": {
+        "display": "~26 to ~120 dead and disappeared (disputed); union and historian accounts cite more than a hundred killed, the dictatorship admitted only 26 'drowned'",
+        "disputed": true,
+        "low": 26,
+        "high": 120,
+        "unit": "deaths",
+        "note": "The toll is sharply disputed and was deliberately obscured. The military government claimed 26 dead, asserting the workers drowned in a canal, and blamed an invented 'international terrorist plot.' Labor accounts, the Ecumenical Commission for Human Rights, and later historians put the figure at more than a hundred workers killed, with the often-cited combined 'official' tally of dead plus disappeared reaching about 120, including women and children who had brought food to the strikers. Many bodies were never recovered; survivors and residents say corpses were thrown into the mill's boilers or buried in the canal, which is why a firm count is impossible. The low end (26) is the dictatorship's minimizing figure; the high end (~120) is the dead-and-disappeared tally from labor and human-rights sources. Source-integrity audit (2026-06-18): the massacre is independently confirmed real (en/es Wikipedia plus Ecuadorian outlets El Telegrafo, Primicias, La Hora, and CONAIE's commemoration); date (18 Oct 1977), location (Aztra mill, La Troncal, Canar), the ~100-officer National Police contingent, commanders Eduardo Diaz and Lenin Cruz, the canal drownings, the boiler body-disposal accounts, the invented 'international terrorist plot,' and the impunity are all corroborated. The high end (~120 dead and disappeared) is strongly corroborated, including by CONAIE. The exact official low figure is itself murky across sources, which variously report 16, 24 bodies found, 25 'recognized' by police, or 26; '26' is one defensible reading of the dictatorship's minimizing count and is retained as the low end of an already-disputed range, with this variation flagged for transparency. Both ends of the contested toll are sourced; the load-bearing fact is the dispute between a ~20s official figure and a ~120 labor/human-rights tally."
+      },
+      "received_lens": "suppressed",
+      "summary": "On 18 October 1977 about two thousand workers, many of them Indigenous, occupied the Aztra sugar mill in Canar province after the military dictatorship scrapped a clause guaranteeing them a share of sugar-price increases. When families arrived in the afternoon with food, around a hundred National Police officers stormed the plant and opened fire, killing scores of workers and relatives, including women and children. The government then claimed only 26 had died by drowning and blamed a foreign terrorist plot; many of the dead were never found, with accounts that bodies were burned in the mill's boilers or dumped in the canal. No one was ever tried.",
+      "relevance": "This is Ecuador plainly as perpetrator against its own people, the state killing the Indigenous and working poor it governed, the same population whose colonial ancestors fill the victim side of this ledger, the dual lens collapsed into a single nation turning its police on its own.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Aztra massacre,\" Wikipedia — National Police massacre of striking sugar workers on 18 October 1977 at the Aztra mill, Canar province; more than a hundred killed, mostly Indigenous; ~2,000 workers occupied the plant; bodies never found, some said thrown into the mill furnaces; perpetrators never tried",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Aztra_massacre",
+          "caveat": "Tertiary aggregator; the death toll remains disputed and is recorded here as a range, with the high figure drawn from labor and human-rights accounts and the low figure being the dictatorship's contested official claim."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Masacre de Aztra,\" Spanish Wikipedia — death toll disputed; government version claimed 26 dead by drowning and an invented international terrorist plot; combined 'official' tally of dead and disappeared cited at about 120; bodies disposed of in the mill boilers or buried in the canal",
+          "supports": "toll.low",
+          "url": "https://es.wikipedia.org/wiki/Masacre_de_Aztra",
+          "caveat": "Tertiary aggregator; documents the conflicting figures (26 official versus ~100-120 from union and historian sources); the dispute itself is the load-bearing fact and both ends are entered as a range."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ecu-3",
+      "country": "ECU",
+      "role": "perpetrator",
+      "title": "State terror and death squads under Leon Febres Cordero",
+      "era": "1984-1988",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "The systematic torture, forced disappearance, and extrajudicial execution of political opponents by a state's security services to crush dissent is political mass violence (POL), not warfare between armies (WAR) or the destruction of a defined ethnic or national group (EXT).",
+      "agent": "the government of President Leon Febres Cordero and the National Police, especially the clandestine SIC-10 unit and the escuadrones volantes ('flying squads' / death squads) created in 1985 with the backing of senior officials including Governor of Guayas Jaime Nebot and Interior Minister Luis Robles Plaza",
+      "toll": {
+        "display": "456 victims documented for 1984-2008 (about two-thirds under Febres Cordero); including ~68 extrajudicial executions, ~17 forced disappearances, and ~365 tortured (Truth Commission figures)",
+        "disputed": false,
+        "low": 456,
+        "high": 456,
+        "unit": "victims",
+        "note": "The figure is from Ecuador's official Truth Commission (Comision de la Verdad), whose 2010 final report documented 456 victims of state human-rights violations over 1984-2008, roughly two-thirds of them during the 1984-1988 Febres Cordero government. Reported category breakdowns vary slightly between summaries: one gives 68 extrajudicial executions, 269 illegal detentions, and 365 torture victims; another gives 32 extrajudicial executions, 9 forced disappearances, 12 attempted homicides, 214 illegal detentions, and 275 tortured, with the flying-squad-specific tally including 72 cases of sexual abuse. The unit here is 'victims,' not deaths: the killed-and-disappeared subset is in the dozens, while the larger 456 counts all documented victims including torture and illegal detention. The total is an official state figure and is not in dispute as to order of magnitude. Source-integrity audit (2026-06-18): the CJA page independently confirms 456 victims, the 1984-2008 mandate, and the two-thirds concentration under Febres Cordero; the official Comision de la Verdad figures are further corroborated by El Universo (8 June 2010), USIP, and academic syntheses, which give the 68 extrajudicial executions / 269 illegal detentions / 365 torture breakdown and place 310 of the 456 victims (about two-thirds) under Febres Cordero. The SIC-10 (1984) and escuadrones volantes (created 23 May 1985, El Guasmo, Guayaquil) are confirmed, as are Jaime Nebot's presence at the creation event, Luis Robles Plaza's role as Minister of Government backing the squads, the flying-squad breakdown (32 killings / 9 disappearances / 214 detentions / 275 tortured / 72 sexual-abuse / 12 attacks), and the Restrepo brothers case. Both sources support the claims they are attached to. Unit is correctly 'victims,' not deaths."
+      },
+      "received_lens": "contested",
+      "summary": "During his 1984-1988 presidency, Leon Febres Cordero ran a campaign of state repression against the left and his opponents, partly framed as a war on the small Alfaro Vive Carajo insurgency. The National Police created clandestine units, above all the SIC-10 and the 'flying squads,' which tortured detainees, carried out extrajudicial killings, and disappeared people; the abduction and murder of the teenage Restrepo brothers in 1988 became the era's defining case. More than two decades later, Ecuador's own Truth Commission documented 456 victims of state violations from 1984 to 2008, about two-thirds of them under Febres Cordero, and named the institutional structures and officials responsible.",
+      "relevance": "Here the Ecuadorian state is the perpetrator against its own citizens, a self-inflicted national wound that Ecuador, unusually, later confronted through an official truth commission, the act tagged to the state that committed it rather than to the nation.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Center for Justice and Accountability (CJA), \"Ecuador\" — Ecuador's Truth Commission covered 1984-2008 and documented 456 victims; about two-thirds of the violations occurred under the 1984-1988 Febres Cordero regime, described as systematic and institutionalized state policy",
+          "supports": "toll.low",
+          "url": "https://cja.org/what-we-do/transitional-justice-initiatives/ecuador-2/",
+          "caveat": "CJA is a human-rights litigation NGO; the 456-victim figure and date range it cites are taken from Ecuador's official Comision de la Verdad final report and are not in dispute."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Escuadrones volantes\" and related Truth Commission summaries (Wikipedia) — National Police death squads (SIC-10 / flying squads) created May 1985 under Febres Cordero with backing from Jaime Nebot and Luis Robles Plaza; responsible for the Restrepo brothers' 1988 disappearance; commission tally of 32 extrajudicial killings, 9 disappearances, 214 illegal detentions, 275 tortured, 72 sexual-abuse cases",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Escuadrones_volantes",
+          "caveat": "Tertiary aggregator; the category breakdowns vary between summaries of the commission report and are reported here as a range, but the existence and command structure of the death squads and the overall victim count are well established by the official commission."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

@@ -1,0 +1,141 @@
+{
+  "iso": "TCD",
+  "name": "Chad",
+  "note": "Researched 2026-06-18 from scratch (no prior seed). Both ledgers are populated. Chad's victim ledger is authored by external agents at two removes in time: the French colonial conquest and labour regime (1900–1934), which broke the Wadai/Ouaddai sultanate, drained the Sara south for forced porterage and the Congo-Ocean railway, and imposed cotton quotas; and Muammar Gaddafi's Libya, which invaded and occupied northern Chad across four campaigns (1978–1987), annexing the Aouzou Strip and fuelling fighting that levelled parts of N'Djamena. The perpetrator ledger is dominated by a single, exceptionally well-documented case: the regime of Hissène Habré (1982–1990), whose political police, the DDS, killed an estimated 40,000 people and tortured some 200,000, with ethnic targeting of southerners, Hadjeraï, and Zaghawa — adjudicated in 2016 when an African court convicted Habré of crimes against humanity. Tolls are contested throughout. The Habré figure of 40,000 is a Chadian Truth Commission estimate; HRDAG's forensic analysis of recovered DDS files independently names 1,208 people who died in custody and 12,321 victims overall, a documented floor far below the Commission's estimate of total deaths. Colonial-era deaths blend killing, famine, and disease in ways no single count captures; the Congo-Ocean railway claimed roughly 10,000 Chadian (mostly Sara) lives by scholarly estimate. The Libyan-war civilian toll is entangled with Chad's own civil wars and cannot be cleanly isolated. Pre-colonial slave-raiding by Rabih az-Zubayr (who sacked Bagirmi and the Chad-basin states in the 1890s) and by the Wadai and Bagirmi sultanates themselves is real and large but too diffuse in agency and documentation to enter as a discrete sourced event; it is noted here for honesty rather than tabulated.",
+  "events": [
+    {
+      "id": "tcd-1",
+      "country": "TCD",
+      "role": "victim",
+      "title": "French colonial conquest, forced labour, and the Congo-Ocean railway levy",
+      "era": "1900–1934",
+      "era_band": "colonial",
+      "tier": "POL",
+      "tier_reasoning": "France conquered the Chad-basin polities by force, then worked subjugated populations to death through porterage, conscription, and the Congo-Ocean railway levy, with much of the dying driven by famine and disease that the conquest set in motion — systematic lethal exploitation of a colonised population rather than a campaign to exterminate a defined group, so POL.",
+      "agent": "The French colonial army and administration of French Equatorial Africa, conquering the Chad territory and conscripting its people for porterage, military service, cotton quotas, and railway labour",
+      "toll": {
+        "low": 10000,
+        "high": 300000,
+        "unit": "deaths",
+        "display": "tens of thousands to ~300,000 (no single count; ~10,000 Chadian/Sara dead on the Congo-Ocean railway; Wadai's population fell from ~700,000 in 1912 to ~400,000 by 1914)",
+        "disputed": true,
+        "note": "No unified death count exists, and the figures conflate killing, famine, and epidemic disease set off by the conquest. Scholarly estimate (Sciences Po Mass Violence project) puts Chadian deaths on the Congo-Ocean railway at roughly 10,000, nearly all Sara, about half of recruits from the Moyen-Chari region; this is the firmest single figure and anchors the low end. The ~300,000 high end is the population decline in Wadai/Ouaddai (from ~700,000 in 1912 to ~400,000 by 1914 per General Hilaire's estimate) — a demographic-collapse figure, not a death count, and driven mainly by conquest-disrupted economy, drought, and famine rather than direct killing. Documented direct massacres include the 1909–11 Ouaddai war (official ~1,320 dead across 22 battles; historians estimate 1,500–2,000), the 1917 'massacre des coupes-coupes' of Ouaddai dignitaries (~56 to ~150 killed), and the 1952 Bébalem shooting of protesting peasants (official 24–70; survivors reported up to 375). Treat the range as an indicator of scale, not a verified body count."
+      },
+      "received_lens": "suppressed",
+      "summary": "Between 1900 and 1920 France conquered the Chad basin — defeating the slave-raider Rabih az-Zubayr at Kousséri in 1900 and crushing the Wadai sultanate in the 1909–11 war — and then governed the territory as a labour reserve. The Sara south was drained for forced porterage, military conscription, and compulsory cotton; tens of thousands were levied for the Congo-Ocean railway in neighbouring Congo, where roughly 10,000 Chadians died of overwork, accident, and disease. Conquest-driven economic collapse, drought, and famine cut Wadai's population by hundreds of thousands. When peasants at Bébalem protested in 1952, colonial troops fired into the crowd.",
+      "relevance": "Chad's deepest victimhood was authored from outside — by the French state that conquered and then consumed its people as labour — the necessary counterweight to the country's own later record as perpetrator under Habré.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Sciences Po Mass Violence and Resistance Research Network, 'Colonial violence and resistance in Chad (1900–1960)' — documents the Ouaddai conquest, the 1909–11 war (~1,320 official deaths across 22 battles, 1,500–2,000 per historians), the population fall in Wadai from ~700,000 (1912) to ~400,000 (1914), the 1917 'massacre des coupes-coupes', the Congo-Ocean railway levy (≥20,000 Chadians, 90% Sara; 15,000–30,000 total deaths, ~10,000 Sara), and the 1952 Bébalem shooting",
+          "supports": "toll.low",
+          "url": "https://www.sciencespo.fr/mass-violence-war-massacre-resistance/en/document/colonial-violence-and-resistance-chad-1900-1960.html",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Sciences Po Mass Violence and Resistance Research Network, 'Colonial violence and resistance in Chad (1900–1960)' — same source for the upper bound: General Hilaire's estimate that Ouaddai's population fell from ~700,000 in 1912 to ~400,000 by 1914, a loss of ~300,000, with the note that 'the disruption to economic life brought about by the French conquest caused more deaths than the fighting'",
+          "supports": "toll.high",
+          "url": "https://www.sciencespo.fr/mass-violence-war-massacre-resistance/en/document/colonial-violence-and-resistance-chad-1900-1960.html",
+          "caveat": "The ~300,000 figure is a demographic-decline estimate spanning killing, famine, drought, and epidemic — not a count of people deliberately killed; it is the upper bound of scale, not a verified death toll."
+        },
+        {
+          "kind": "reference",
+          "cite": "French Chad (Wikipedia) — corroborates the 1900 defeat of Rabih az-Zubayr at Kousséri, the conquest of Wadai and the suppression of the last insurgencies by 1920, forced porterage 'which claimed thousands of lives', and the 1929 imposition of compulsory cotton quotas purchased at artificially low prices, and the 1952 Bébalem massacre",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/French_Chad",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "tcd-2",
+      "country": "TCD",
+      "role": "victim",
+      "title": "Gaddafi's Libya: invasion and occupation of northern Chad",
+      "era": "1978–1987",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Libya invaded and occupied northern Chad across four campaigns, annexed the Aouzou Strip, and backed factions whose fighting devastated N'Djamena — an armed cross-border war whose mass deaths were combat-and-conflict-driven, so WAR.",
+      "agent": "Muammar Gaddafi's Libya, invading and occupying northern Chad and arming Chadian client factions",
+      "toll": {
+        "low": 2000,
+        "high": 5000,
+        "unit": "deaths",
+        "display": "an estimated 2,000–5,000 killed and 60,000–70,000 displaced in the 1979 battle for N'Djamena that Libyan intervention fuelled; broader conflict deaths entangled with Chad's civil wars cannot be cleanly attributed to Libya (the once-cited 1980 '3,000–4,000 killed' figure failed source verification — see note)",
+        "disputed": true,
+        "note": "QUARANTINED (audit 2026-06-18): the high end and the '3,000–4,000 in the 1980 fighting' figure FAILED source verification. The GlobalSecurity cite originally attached to toll.high does NOT contain a '3,000–4,000 killed in the 1980 battle', a '~30,000 dead in the 1980s', an '~11,000-troop airlift', or '~80 combat aircraft' — those numbers are not in the source. The only '3,000' in GlobalSecurity is Muammar Gaddafi's propaganda claim that Libyan troops 'killed over 3,000 of the enemy' (losing 300), not a neutral conflict-death estimate. The Wikipedia toll.low cite likewise carries no 1980 capital-battle death figure; the Second Battle of N'Djamena (March 1980, FAN vs FAP) is described only as causing 'thousands of casualties' (not deaths) and the flight of half the capital. What IS verified: an estimated 2,000–5,000 killed and 60,000–70,000 displaced in the February–March 1979 fighting in N'Djamena (Wikipedia, Chadian–Libyan War); Libya's 1980–81 deployment of 7,000–9,000 troops with armour; and Libya's 1975 occupation/annexation of the ~70,000 km² Aouzou Strip (GlobalSecurity), ruled unlawful and awarded to Chad by the ICJ on 3 Feb 1994. There is no clean count of deaths attributable to Libya as distinct from Chad's intertwined civil wars, in which Libya was the principal external belligerent and patron. The low end (~2,000) is the verified floor of the 1979 estimate. The high end has been set to 5,000 — the verified ceiling of the same 1979 estimate — because no cited source supports a higher conflict-death figure; the former 7,500 high end is withdrawn as unsourced."
+      },
+      "received_lens": "contested",
+      "summary": "From 1978 Muammar Gaddafi's Libya invaded northern Chad in four campaigns, annexed the uranium-bearing Aouzou Strip it had occupied since 1975, and poured troops and armour into the country to back client factions. Libyan intervention fed the battles that wrecked N'Djamena — thousands killed and tens of thousands driven from the capital in 1979, and thousands more in 1980 when 7,000–9,000 Libyan soldiers fought for the city. Chadian forces finally routed the occupiers in the 1987 'Toyota War', and in 1994 the International Court of Justice awarded the Aouzou Strip back to Chad.",
+      "relevance": "A neighbouring state's war of occupation is the modern face of Chad-as-victim — distinct in agency from both the colonial power that came before and the home-grown Habré regime whose rise it helped enable.",
+      "audit_note": "UNVERIFIED (2026-06-18): the event's underlying facts (Libyan invasion/occupation 1978–87, four campaigns, Aouzou Strip annexation and 1994 ICJ award, 1987 Toyota War, 1979 N'Djamena 2,000–5,000 killed / 60,000–70,000 displaced, 7,000–9,000-troop 1980 deployment) are all independently verified against the cited sources. The event is marked UNVERIFIED solely because the original toll.high (7,500) and the '3,000–4,000 in the 1980 fighting' figure rested on the GlobalSecurity source, which does NOT contain those numbers; the high end has been corrected down to the verified 5,000 ceiling and the GlobalSecurity cite re-scoped to the facts it actually supports. The toll is now single-sourced (one 1979 estimate), so the contested-toll two-source requirement is not met. Re-verification would require a second source giving an independent Libya-attributable death estimate.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Chadian–Libyan War (Wikipedia) — VERIFIED: documents the 1978–1987 conflict, Libya's four intervention campaigns (1978, 1979, 1980–81, 1983–87), the 1980–81 deployment of 7,000–9,000 Libyan troops with 60 tanks and armour, the estimate of 2,000–5,000 killed and 60,000–70,000 displaced in the 1979 battle for N'Djamena, and the 1987 Toyota War ending in Libya's rout and withdrawal. This single source now anchors BOTH ends of the toll (2,000 floor, 5,000 ceiling), as both derive from the same 1979 N'Djamena estimate.",
+          "supports": "toll.low,toll.high",
+          "url": "https://en.wikipedia.org/wiki/Chadian%E2%80%93Libyan_War",
+          "caveat": "Single-source for the toll: after audit, the only verified death range for this event is the one 1979 N'Djamena estimate (2,000–5,000). No independent source for a distinct high end survived verification, so both toll ends rest on this one source — flagged as a single-source toll."
+        },
+        {
+          "kind": "reference",
+          "cite": "GlobalSecurity.org, 'Libyan Intervention in Chad, 1980–Mid-1987' — confirms Libya's 1975 occupation and annexation of the ~70,000 km² Aouzou Strip and the 1980 deployment of 7,000–9,000 Libyan regular and Islamic Pan-African Legion troops with 60 tanks and armour, ferried across the desert from Libya. AUDIT NOTE: this source does NOT support the death figures originally attached to it — it contains no '3,000–4,000 killed in the 1980 battle', no '~30,000 dead in the 1980s', no '~11,000-troop airlift' and no '~80 combat aircraft'. Its only '3,000' is Gaddafi's propaganda claim of enemy killed. It is retained here for the verified Aouzou-Strip and troop-deployment facts only, not for any toll figure.",
+          "supports": "summary",
+          "url": "https://www.globalsecurity.org/military/world/war/chad.htm",
+          "caveat": "Source corroborates the occupation and the scale of Libyan deployment; it does NOT corroborate any death toll for this event. The high end of the toll (5,000) rests instead on the verified 1979 N'Djamena estimate in the Wikipedia (Chadian–Libyan War) source."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "tcd-3",
+      "country": "TCD",
+      "role": "perpetrator",
+      "title": "The Hissène Habré regime and the DDS terror",
+      "era": "1982–1990",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "Habré's state political police systematically arrested, tortured, and killed real and imagined opponents and conducted ethnic-group reprisals against southerners, Hadjeraï, and Zaghawa — mass political killing and group-targeted repression by a state against its own population, so POL.",
+      "agent": "President Hissène Habré and his political police, the Direction de la Documentation et de la Sécurité (DDS), which reported directly to him",
+      "toll": {
+        "low": 1208,
+        "high": 40000,
+        "unit": "deaths",
+        "display": "1,208 documented deaths in DDS custody (forensic floor) to 40,000 killed (Chadian Truth Commission estimate); some 200,000 reported tortured",
+        "disputed": true,
+        "note": "Two figures bracket this case. The 1992 Chadian Truth Commission estimated more than 40,000 people killed and ~200,000 cases of torture under Habré — the widely cited high end. The Human Rights Data Analysis Group, working from recovered DDS files, independently identified 12,321 named victims of abuse, of whom 1,208 were recorded killed or died in detention; that 1,208 is a documented forensic floor, not a total, since most killings were never written down. HRDAG further found DDS prison mortality of 30–87 per 1,000 prisoners, with the political-prisoner death rate 90–540 times that of adult men nationally. The low end (1,208) is the documented minimum; the high end (40,000) is the Truth Commission's estimate of total deaths. Habré was convicted of crimes against humanity, torture, and rape by the Extraordinary African Chambers in Dakar in 2016."
+      },
+      "received_lens": "memorial",
+      "summary": "Hissène Habré ruled Chad from 1982 to 1990 through the DDS, a political police that reported straight to him and 'spun a spider's web over the whole national territory'. It filled prisons like N'Djamena's notorious 'Piscine' with detainees who died of torture, starvation, and disease, and it carried out ethnic reprisals — against southerners in the 1984 'Black September', the Hadjeraï in 1987, and the Zaghawa in 1989, with hundreds killed in each wave. A Chadian Truth Commission later estimated 40,000 dead and 200,000 tortured. In 2016 an African court in Senegal convicted Habré of crimes against humanity, the first time a former head of state was tried and convicted in another country's courts under universal jurisdiction.",
+      "relevance": "The same Chad that suffered French conquest and Libyan invasion produced, in its independent state, one of Africa's most documented machineries of political terror — the dual lens turned on the country itself.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Data Analysis Group, Chad project — forensic analysis of recovered DDS files identifying 12,321 named victims (mentioned 39,981 times) and 1,208 individuals killed or died in detention, with DDS prison mortality of 30–87 per 1,000 prisoners and the political-prisoner death rate 90–540 times the national rate for adult men",
+          "supports": "toll.low",
+          "url": "https://hrdag.org/chad/",
+          "caveat": "The 1,208 figure is a documented minimum drawn from surviving records, not an estimate of total deaths under the regime."
+        },
+        {
+          "kind": "press",
+          "cite": "Human Rights Watch, 'Chad: Habré's Government Committed Systematic Atrocities' (3 Dec. 2013) — summarises the 714-page report 'La Plaine des Morts / The Plain of the Dead', the role of the DDS, Habré's direct oversight (1,265 DDS communications about 898 detainees), and ethnic targeting in 1984 (Black September), 1987 (Hadjeraï), and 1989 (Zaghawa)",
+          "supports": "summary",
+          "url": "https://www.hrw.org/news/2013/12/03/chad-habres-government-committed-systematic-atrocities",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Truth Commission (Chad) — VERIFIED for the headline figures: the Commission of Inquiry established by President Idriss Déby (decree of 29 Dec. 1990, reporting 7 May 1992) estimated a minimum of 40,000 people killed and ~200,000 cases of torture under Habré. AUDIT CORRECTION (2026-06-18): the original citation's trailing clause attributing '1,208 killed' and '12,321 victims' to this article was removed — those figures do NOT appear in the Truth Commission Wikipedia article and are not the Commission's own counts; they are HRDAG's forensic figures, which are correctly and independently cited at toll.low.",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Truth_Commission_(Chad)",
+          "caveat": "The 40,000 figure is the Truth Commission's estimate of total killings, not a name-by-name count; it is the upper bound of a contested range and is widely cited but not forensically enumerated. The 1,208/12,321 forensic figures belong to HRDAG (toll.low source), not to this Commission report."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

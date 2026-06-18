@@ -1,0 +1,133 @@
+{
+  "iso": "GTM",
+  "name": "Guatemala",
+  "note": "Guatemala's two ledgers turn on the same Maya people in opposite roles. As victim: the Maya highlands suffered one of the steepest demographic collapses in the Americas after Pedro de Alvarado's 1524 invasion — overwhelmingly disease, so STR, not deliberate extermination, though conquistador massacres, enslavement and tribute compounded it. As perpetrator the entries are squarely the work of Guatemala's own state and army: the 1981–1983 'Silent Holocaust' scorched-earth campaign that a UN truth commission and a Guatemalan court both ruled a genocide against the Ixil and other Maya, and the wider 1960–1996 internal armed conflict in which the state was responsible for the overwhelming majority of some 200,000 deaths. The hard discipline here is keeping disease-driven collapse (STR) apart from the deliberate destruction of Maya communities (EXT); separating the genocidal 1981–83 peak from the longer war that contained it without double-counting; and showing the dispute honestly — the genocide is judicially proven (Ríos Montt convicted 2013) yet officially contested in Guatemala, where the Constitutional Court annulled the verdict ten days later and successive governments and military veterans deny that genocide occurred. The core dual-lens point is stark: in the perpetrator ledger the victims were also Guatemalans — the same Maya peoples who anchor the victim ledger.",
+  "events": [
+    {
+      "id": "gtm-1",
+      "country": "GTM",
+      "role": "victim",
+      "title": "Spanish conquest and demographic collapse of the Maya highlands",
+      "era": "1524–c. 1680",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The catastrophic loss of Maya life after Alvarado's invasion was overwhelmingly the work of Old World epidemics compounded by war, enslavement and forced tribute — demographic collapse rather than the deliberate extermination of a defined group, hence STR rather than EXT.",
+      "agent": "Pedro de Alvarado and the conquistadors he led (with thousands of Nahua allies), and the colonial order they imposed, with Old World epidemics — smallpox, measles, typhus — as the principal killer",
+      "toll": {
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "display": "~90%+ decline in the highlands; in the Cuchumatán highlands ~260,000 (c. 1520s) fell to ~16,000 by c. 1680 (population-decline estimate, not a counted toll)",
+        "disputed": true,
+        "note": "This is a population-DECLINE figure, not a verified body count, and pre-conquest baselines are themselves contested. The best-documented regional case is W. George Lovell's study of the Cuchumatán highlands: a pre-conquest population of perhaps 260,000 in the mid-1520s collapsed to roughly 16,000 by about 1680, a fall of more than 90% over 160 years. Scholars estimate 33–50% of the highland population died from disease alone, and the region did not recover its 1500 level until the 20th century. Because both the baseline and the absolute deaths across the whole conquered territory are soft, numeric low and high are left null and the decline is recorded as a percentage and a regional range. The overwhelming cause was epidemic disease the Spanish neither understood nor deliberately spread (smallpox arriving c. 1519–20 ahead of Alvarado himself), which is why the act is tiered STR rather than EXT; conquest warfare, the sack of cities, enslavement and forced labour and tribute were the secondary drivers."
+      },
+      "received_lens": "suppressed",
+      "summary": "In 1524 Pedro de Alvarado, with some 400 Spaniards and thousands of Mexican Indigenous allies, drove into the Maya highlands — broke the Kʼicheʼ in battle near Quetzaltenango, captured and executed their lords, and burned their capital Qʼumarkaj. Resistance and disease then ground the highlands down for over a century and a half. Smallpox, which had already swept the region before Alvarado arrived, and later waves of measles and typhus did most of the killing, alongside war, enslavement and forced tribute, until the Maya population had fallen by more than ninety per cent in the worst-hit areas.",
+      "relevance": "The first and largest mass death on Guatemalan soil was suffered by the Maya themselves, mostly through disease no one yet understood — establishing the country as victim before it was ever a perpetrator, and the same Maya peoples the state would later target in the 20th century. AUDIT 2026-06-18: both sources verified; Lovell Storicamente article confirmed (exact quote: '260,000... by 1680 had declined to around 16,000, a fall of more than 90 per cent over 160 years'; recovery to ~28,000 by 1779). Wikipedia 'Spanish conquest of Guatemala' confirms 33–50% highland disease mortality, Alvarado 1524, Qʼumarkaj burning, smallpox preceding Alvarado. Tier STR confirmed (disease-driven collapse, not deliberate extermination). Null low/high justified by soft baselines — no number fabricated. Status VERIFIED.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "W. George Lovell, 'Conquest and Survival in Colonial Guatemala: A Historical Geography of the Cuchumatán Highlands, 1500–1821' (McGill-Queen's University Press) and Lovell, 'Destroying Generation after Generation: Outbreaks of Smallpox in the Cuchumatán Highlands of Guatemala (1780–1810)', Storica­mente — Cuchumatán population ~260,000 (c. 1520s) falling to ~16,000 by c. 1680, a >90% decline; recovery to ~28,000 by 1779",
+          "supports": "toll.high",
+          "url": "https://storicamente.org/lovell_smallpox_cuchumatan_highlands_of_guatemala",
+          "caveat": "Lovell's figures are for one highland region (the Cuchumatanes), the best-documented case, not the whole conquered territory; pre-conquest baselines rest on inference from Spanish records of army sizes, so the absolute toll is left null."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Spanish conquest of Guatemala', Wikipedia — Alvarado's 1524 campaign, execution of the Kʼicheʼ lords and burning of Qʼumarkaj, siege of Zaculeu (1525), and disease as the dominant cause of population collapse; 33–50% of highland population estimated to have died from disease alone",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_Guatemala",
+          "caveat": "Tertiary aggregator; baseline and aggregate-mortality figures are contested and rest on scholarly modelling, so this is an order-of-magnitude population-decline figure, not a counted death toll."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "gtm-2",
+      "country": "GTM",
+      "role": "perpetrator",
+      "title": "Maya genocide / 'Silent Holocaust' scorched-earth campaign",
+      "era": "1981–1983 (peak)",
+      "era_band": "contemporary",
+      "tier": "EXT",
+      "tier_reasoning": "A UN truth commission and a Guatemalan trial court both found that the army deliberately set out to destroy Maya communities as such — burning hundreds of villages and killing tens of thousands of Ixil and other Maya as a group — which is destruction of a defined people, hence EXT.",
+      "agent": "the Guatemalan Army and army-controlled civil patrols (PAC), under the de facto head of state Gen. Efraín Ríos Montt (1982–83) and his intelligence chief Gen. José Mauricio Rodríguez Sánchez, executing a counter-insurgency policy against the Maya highlands",
+      "toll": {
+        "low": 1771,
+        "high": 134600,
+        "unit": "deaths",
+        "display": "~134,600 Maya killed in the 1981–83 peak (CEH); 1,771 Ixil Maya in the specific Ríos Montt genocide conviction",
+        "disputed": true,
+        "note": "The low end (1,771) is the number of Maya Ixil deaths the 2013 court found Ríos Montt responsible for in the Ixil region specifically — a single judicially proven count, not the whole campaign. The high end (~134,600) is the Commission for Historical Clarification's estimate of Maya deaths during the most intense 1981–1983 phase, when 48% of all conflict deaths occurred in 1982 alone. The CEH documented 626 army massacres of villages over the war. These figures overlap with, and are a subset of, the wider 1960–1996 toll in gtm-3; they are recorded separately because this peak is what was specifically adjudicated as genocide. The genocide finding itself is contested inside Guatemala despite the conviction (see relevance and sources)."
+      },
+      "received_lens": "contested",
+      "summary": "Under Gen. Efraín Ríos Montt, who seized power in March 1982, the Guatemalan army carried its counter-insurgency into the Maya highlands as a campaign to destroy whole communities. Soldiers and conscripted civil patrols razed hundreds of villages, killed men, women and children, and drove survivors into the mountains and 'model villages'. A UN-backed truth commission later ruled these acts genocide against the Maya; in 2013 a Guatemalan court convicted Ríos Montt of genocide for 1,771 Ixil deaths and sentenced him to 80 years — the first genocide conviction of a former head of state in a domestic court — but the Constitutional Court annulled the verdict ten days later on procedural grounds, and he died in 2018 with the retrial unfinished.",
+      "relevance": "The clearest case of the atlas's core point on the perpetrator side: the Guatemalan state set out to destroy the same Maya peoples who anchor the victim ledger — and Guatemala's own institutions remain split, one court proving the genocide and a higher court erasing the verdict. AUDIT 2026-06-18: all three sources verified. IJ Monitor URL live and confirms conviction 10 May 2013, 1,771 Ixil deaths (15 massacres), 80-year sentence, 3-2 annulment on due-process grounds ~20 May 2013 (cross-checked HRW, ASIL, National Security Archive). CJA page confirms ~70,000 killed/disappeared in the 1982-83 peak and 93%/626-massacre figures. Wikipedia genocide page confirms 134,600 Maya for 1981-83. Both toll ends sourced. Tier EXT confirmed (judicially-found intent to destroy Maya as such). Status VERIFIED.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "Commission for Historical Clarification (CEH), 'Guatemala: Memory of Silence' (1999) — ~83% of identified victims were Maya; state forces responsible for ~93% of documented human rights violations; 626 villages destroyed by army massacres; the 1981–83 peak accounting for the bulk of deaths, which the CEH classified as acts of genocide against Maya groups",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Guatemalan_genocide",
+          "caveat": "Source kind labelled 'primary' but the URL is a Wikipedia (tertiary) summary of the CEH report, not the CEH report itself — the underlying CEH 'Memoria del Silencio' is the true primary and genuinely exists (full English PDF at hrdag.org/wp-content/uploads/2013/01/CEHreport-english.pdf). AUDIT 2026-06-18: the ~134,600 Maya-deaths and 48%-of-deaths-in-1982 figures for 1981–83 are confirmed present on the cited Wikipedia page ('162,000 total, including 134,600 Maya'); they are statistical estimates, not name-by-name counts."
+        },
+        {
+          "kind": "press",
+          "cite": "Amnesty International / International Justice Monitor / Open Society Foundations coverage of the Ríos Montt trial — convicted 10 May 2013 of genocide and crimes against humanity for 1,771 Maya Ixil deaths and sentenced to 80 years; Constitutional Court annulled the conviction 20 May 2013 in a 3–2 ruling on due-process grounds",
+          "supports": "toll.low",
+          "url": "https://www.ijmonitor.org/2013/05/constitutional-court-overturns-rios-montt-conviction-and-sends-trial-back-to-april-19/",
+          "caveat": "The 1,771 figure is the count adjudicated for the Ixil region in the indictment, not the whole campaign; the annulment is procedural and does not reverse the factual genocide findings, but in Guatemalan officialdom and among military veterans the genocide is actively denied."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Center for Justice and Accountability (CJA), 'Guatemala' / 'The Guatemala Genocide Case' — documents the CEH genocide finding, the ~200,000 war dead of whom 83% were Indigenous and 93% of violations by state forces, and Ríos Montt's 1982–83 scorched-earth period as the bloodiest in Guatemalan history (~70,000 killed or disappeared)",
+          "supports": "summary",
+          "url": "https://cja.org/where-we-work/guatemala/",
+          "caveat": "CJA litigated against the perpetrators and is an advocacy organisation, so it is not a neutral party; its factual claims here track the CEH report and court record."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "gtm-3",
+      "country": "GTM",
+      "role": "perpetrator",
+      "title": "State terror in the Guatemalan internal armed conflict",
+      "era": "1960–1996",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Across 36 years the state killed and disappeared its own civilians — through army massacres, death squads, urban disappearances and forced displacement aimed at crushing real and imagined opposition — political mass killing of a population rather than the destruction of one defined ethnic group, hence POL (the ethnic-targeting peak is tiered separately as EXT in gtm-2).",
+      "agent": "successive Guatemalan military governments and the security apparatus — the army, police, intelligence (G-2) and army-run death squads and civil patrols (PAC) — across the 1960–1996 conflict",
+      "toll": {
+        "low": 40000,
+        "high": 200000,
+        "unit": "deaths",
+        "display": "~200,000 killed or forcibly disappeared (incl. ~40,000–50,000 disappeared); ~93% of violations by state forces",
+        "disputed": true,
+        "note": "The widely cited estimate is ~200,000 killed or disappeared over 1960–1996, including roughly 40,000–50,000 forced disappearances; the CEH documented 42,275 individual victims from testimony and extrapolated the higher total. The ~134,600 Maya deaths of the 1981–83 genocidal peak (gtm-2) are a subset of this figure, not additional to it. The low bound here (~40,000) reflects the floor of the killed-or-disappeared range in some summaries and the disappeared count; the ~200,000 high is the standard scholarly and CEH-derived estimate. The CEH attributed ~93% of documented human rights violations to state forces and ~3% to the guerrillas — the atlas records the state's share here without letting it absorb the insurgents' smaller share."
+      },
+      "received_lens": "contested",
+      "summary": "From the 1960 outbreak of insurgency to the 1996 peace accords, Guatemala's military-led governments waged war on their own population. Early counter-insurgency in the eastern departments in the late 1960s gave way to urban death-squad killings and disappearances of students, unionists, peasants and clergy, and then to the highland massacres of the early 1980s. A UN-backed truth commission concluded that some 200,000 people were killed or disappeared and that state forces committed the overwhelming majority — about 93% — of the documented atrocities.",
+      "relevance": "The dual-lens discipline: the Guatemalan state was the principal killer of Guatemalans for a generation, and the atlas records the state's documented 93% share without erasing the smaller share of violence committed by the guerrilla insurgency. AUDIT 2026-06-18: both sources verified. Wikipedia 'Guatemalan Civil War' confirms the toll range '40,000–200,000 dead and missing' (the basis for low=40,000 / high=200,000), 40,000-50,000 disappearances, 93% state / 3% guerrilla, and dates 13 Nov 1960 – 29 Dec 1996. CJA confirms 200,000+ and 83% Indigenous. 42,275 documented-victims figure is the standard CEH count (not in the fetched excerpt but well-established). Both toll ends sourced from the same authoritative range. Tier POL confirmed (political mass killing across 36 years; ethnic peak split to gtm-2 as EXT — no double-count). Status VERIFIED.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "Commission for Historical Clarification (CEH), 'Guatemala: Memory of Silence' (1999) — ~200,000 killed or disappeared over 1960–1996; 42,275 documented victims; state forces responsible for ~93% of human rights violations, guerrillas ~3%; war began 13 Nov 1960, peace accord signed 29 Dec 1996",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Guatemalan_Civil_War",
+          "caveat": "Source kind labelled 'primary' but the URL is a Wikipedia (tertiary) summary; the CEH 'Memoria del Silencio' is the true primary (full English PDF at hrdag.org/wp-content/uploads/2013/01/CEHreport-english.pdf). AUDIT 2026-06-18: the cited Wikipedia page confirms the toll range '40,000–200,000 dead and missing', the 40,000–50,000 disappeared estimate, 93%/3% attribution, and the 13 Nov 1960 / 29 Dec 1996 dates. The 200,000 total is a CEH extrapolation from documented cases."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Center for Justice and Accountability (CJA), 'Guatemala' — over 200,000 Guatemalans killed or forcibly disappeared in the 1960–1996 war, of whom ~83% Indigenous, with ~93% of violations by government forces",
+          "supports": "summary",
+          "url": "https://cja.org/where-we-work/guatemala/",
+          "caveat": "CJA is a human-rights litigation organisation and an interested party; its figures track the CEH report rather than independent counts."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

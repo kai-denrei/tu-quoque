@@ -1,0 +1,200 @@
+{
+  "iso": "NLD",
+  "name": "Netherlands",
+  "note": "Two ledgers held together, both heavily documented. As victim: under German occupation 1940-45 the Netherlands lost the largest share of its Jewish population of any country in occupied Western Europe — roughly three-quarters murdered — and in the war's final winter a German food embargo on the still-occupied west produced the Hunger Winter famine. As perpetrator: the Dutch were the third-largest carrier in the transatlantic slave trade, shipping over half a million Africans across the Atlantic, and during the Indonesian War of Independence (1945-49) Dutch forces carried out summary executions and village massacres such as Rawagede and Westerling's South Sulawesi campaign, with Indonesian deaths reaching six figures. The same nation appears as deeply wronged and as wrongdoer. Tiers tag the act, never the nation, and there is no ranking.",
+  "events": [
+    {
+      "id": "nld-1",
+      "country": "NLD",
+      "role": "victim",
+      "title": "The Holocaust in the Netherlands: deportation and murder of Dutch Jews",
+      "era": "1942–1945",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "A deliberate, organised program to destroy the Jews of the Netherlands as a group — deportation to killing centres for systematic murder — which is extermination, so EXT.",
+      "agent": "Nazi Germany (the SS and the German occupation administration under Reichskommissar Arthur Seyss-Inquart, assisted by Dutch police and the railways in rounding up and transporting victims)",
+      "toll": {
+        "display": "~102,000 murdered (of ~140,000 Jews in the Netherlands; ~107,000 deported, ~5,200–5,500 survived)",
+        "disputed": false,
+        "low": 102000,
+        "high": 104000,
+        "unit": "deaths",
+        "note": "Figures are well established. About 107,000 Jews and Jewish refugees were deported from the Netherlands (most via Westerbork transit camp); De Jong counted a little over 5,200 survivors, giving roughly 102,000 deported and murdered. Counting all Jews who died under German persecution (including those who died in hiding or before deportation), the total reaches ~104,000 out of ~140,000 — about 74%, the highest proportion in occupied Western Europe. Of 34,313 sent to Sobibor, 18 survived; of more than 60,000 sent to Auschwitz, fewer than 900 survived."
+      },
+      "received_lens": "memorial",
+      "summary": "After Germany occupied the Netherlands in 1940, the occupation administration registered, isolated and then deported the country's Jews. Between July 1942 and September 1944 transports carried roughly 107,000 people, most through the Westerbork transit camp, to killing centres including Auschwitz-Birkenau and Sobibor. About 102,000 of those deported were murdered, and counting all victims roughly 104,000 of the Netherlands' approximately 140,000 Jews died — the largest proportion of any occupied country in Western Europe. Dutch civil administration, police and railways were used in the round-ups and transports.",
+      "relevance": "The Netherlands' best-known place as a victim — the murder of three-quarters of its Jews — sits in the same ledger as Dutch perpetration in the slave trade and in Indonesia.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'The Netherlands: the greatest number of Jewish victims in Western Europe,' Anne Frank House (citing ~104,000 of ~140,000 murdered, ~74%)",
+          "supports": "toll.high",
+          "url": "https://www.annefrank.org/en/anne-frank/go-in-depth/netherlands-greatest-number-jewish-victims-western-europe/",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "NIOD Institute for War, Holocaust and Genocide Studies, 'Deported Jews (in numbers)' (~107,000 deported; De Jong ~5,200 survivors → ~102,000 murdered; Westerbork Memorial ~5,000 returned; Flim ~5,500)",
+          "supports": "toll.low",
+          "url": "https://www.niod.nl/en/frequently-asked-questions/deported-jews-numbers",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "United States Holocaust Memorial Museum, 'Mass Deportation of Jews from the Netherlands Begins' (>100,000 deported via Westerbork to Auschwitz, Sobibor, Theresienstadt, Bergen-Belsen, July 1942–Sept 1944)",
+          "supports": "summary",
+          "url": "https://encyclopedia.ushmm.org/content/en/timeline-event/holocaust/1942-1945/deportation-of-dutch-jews",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "nld-2",
+      "country": "NLD",
+      "role": "victim",
+      "title": "The Dutch Hunger Winter (Hongerwinter)",
+      "era": "1944–1945",
+      "era_band": "modern",
+      "tier": "STR",
+      "tier_reasoning": "Mass death came chiefly from starvation and cold after a German embargo cut food to the occupied west — a deliberate blockade against a civilian population producing a famine, structural mass death rather than direct killing of a group, so STR.",
+      "agent": "Nazi Germany (the occupation authorities, who imposed an embargo on food transport to the western Netherlands in autumn 1944 in reprisal for a Dutch railway strike supporting the Allied advance)",
+      "toll": {
+        "display": "~18,000–22,000 deaths (most commonly ~20,000); ~4.5 million affected",
+        "disputed": false,
+        "low": 18000,
+        "high": 22000,
+        "unit": "deaths",
+        "note": "Estimates cluster around 18,000–22,000 famine deaths in the occupied western provinces from late 1944 to liberation in May 1945, with ~20,000 the most cited figure; about 4.5 million people were affected. Rations in the west fell below 750 calories per day and toward the end under 400. Most who died were the elderly, particularly men. The famine is also the subject of major epidemiological work (the Dutch Famine Birth Cohort)."
+      },
+      "received_lens": "memorial",
+      "summary": "In September 1944 the Dutch government-in-exile called a railway strike to help the Allied advance; in reprisal, German authorities embargoed food transport to the still-occupied western Netherlands. Combined with an exceptionally harsh winter and wartime collapse of agriculture and transport, this produced famine: official rations in the west fell below 750 and then under 400 calories a day, and people ate tulip bulbs and sugar beets. Roughly 20,000 people died, most of them elderly, and about 4.5 million were affected before liberation in May 1945.",
+      "relevance": "A second chapter of Dutch suffering under occupation; the Netherlands as a starved, blockaded civilian population stands against its own later record of force in its colonies.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Dutch famine of 1944–1945,' Wikipedia (~22,000 deaths, 4.5 million affected; ~20,000 commonly cited; German food-transport embargo after the railway strike)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Dutch_famine_of_1944%E2%80%931945",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "L.H. Lumey & F.W. van Poppel, 'The Dutch famine of 1944-45: mortality and morbidity in past and present generations,' Social History of Medicine 7(2):229-46 (1994), PubMed PMID 11639327 (epidemiological literature on the famine and its excess mortality)",
+          "supports": "summary",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11639327/",
+          "caveat": "Audit correction: original cite attributed this paper to 'G.C.M. Trienekens / L. Lumey et al.'; the linked PubMed record (PMID 11639327) is authored by L.H. Lumey & F.W. van Poppel only. Trienekens authored a separate work on Dutch wartime food supply, not this paper. Author attribution corrected to match the cited record; the work is real and supports the summary."
+        },
+        {
+          "kind": "reference",
+          "cite": "Anne Frank House, 'Hunger winter: hunger and cold in the Netherlands' (rations dropping below 750 then ~400 calories; western Netherlands cut off after the railway strike)",
+          "supports": "summary",
+          "url": "https://www.annefrank.org/en/timeline/91/hunger-winter-hunger-and-cold-in-the-netherlands/",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "nld-3",
+      "country": "NLD",
+      "role": "perpetrator",
+      "title": "Dutch participation in the transatlantic slave trade",
+      "era": "c.1600–1863",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "An organised commercial system of mass enslavement and forced transport whose deaths came chiefly from the lethal conditions of the Middle Passage and captivity — sustained structural atrocity against a subject population, so STR.",
+      "agent": "The Dutch Republic and its chartered companies (chiefly the Dutch West India Company, WIC, and later free traders, sanctioned and taxed by the Dutch state)",
+      "toll": {
+        "display": "over 550,000 Africans forcibly embarked on Dutch ships; only ~475,000 survived the crossing (~75,000+ died in the Middle Passage); deaths in slavery itself far higher and uncounted",
+        "disputed": false,
+        "low": 75000,
+        "high": 75000,
+        "unit": "deaths",
+        "note": "The numerical anchor is the slave-trade volume, not a death count. Per SlaveVoyages, via Leiden's African Studies Centre, over 550,000 enslaved Africans were forcibly embarked on Dutch vessels between the late 16th and late 19th centuries, of whom about 475,000 reached the Americas alive — meaning roughly 75,000+ died during the crossing alone (a Middle Passage mortality of ~13–14%). This figure counts ONLY deaths in transit; deaths from capture, coastal holding, and the lethal conditions of enslavement on Dutch plantations (notably Suriname) are far larger and not captured in a single sourced total, so toll is reported as the transit deaths with that caveat. The Dutch were the third-largest national carrier, after Portugal and Britain."
+      },
+      "received_lens": "contested",
+      "summary": "Between roughly 1600 and the abolition of slavery in 1863, the Dutch Republic and its chartered companies, above all the West India Company, ran one of the largest slave-trading operations in the Atlantic world. Over 550,000 enslaved Africans were forced onto Dutch ships; about 475,000 survived the crossing, meaning some 75,000 died in the Middle Passage alone, with far greater numbers dying in capture and in plantation slavery in colonies such as Suriname and the Dutch Caribbean. The trade was state-sanctioned and a pillar of the Dutch colonial economy. In 2022–2023 the Dutch government formally apologised for the country's role in slavery.",
+      "relevance": "The Netherlands as a major architect of Atlantic slavery is the perpetrator counterweight to its memorialised suffering under Nazi occupation.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "African Studies Centre Leiden, 'Dutch involvement in the transatlantic slave trade,' citing SlaveVoyages (over 550,000 embarked on Dutch vessels; ~475,000 reached the Americas alive; Dutch third-largest carrier)",
+          "supports": "toll.low",
+          "url": "https://www.ascleiden.nl/content/webdossiers/dutch-involvement-transatlantic-slave-trade",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Zeeuws Archief, 'The Voyage – History' (slave voyage of the Unity / De Eenigheid; Middle Passage mortality on Dutch slave ships ~13–19% generally, ~12.5–14% cited)",
+          "supports": "toll.high",
+          "url": "https://www.zeeuwsarchief.nl/en/themepage/slave-voyage-aboard-the-unity/the-voyage-history/",
+          "caveat": "Audit note: the zeeuwsarchief.nl domain is behind a Cloudflare browser-check that blocks automated fetch, so page text could not be read directly. The archive, the Unity ('De Eenigheid') voyage dossier and this exact URL were independently confirmed live via search, and the archive's own materials give a Middle Passage mortality of roughly 13–19%, which brackets the cited rate. Source is real and supports toll.high; verification was indirect due to the bot gate."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Dutch West India Company,' Wikipedia (WIC slave-trading role; volumes traded 1624–1738 and 1658–1674)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Dutch_West_India_Company",
+          "caveat": "Audit note: page confirmed live and confirms the WIC's central slave-trading role (Curaçao as Atlantic slave-trade hub; 1662 asiento for 24,000 enslaved Africans). The specific per-period volumes ('1624–1738 and 1658–1674') in the cite are not all stated verbatim on the current article; the source supports the summary's qualitative claim of the WIC as a major slave trader, not those exact figures."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "nld-4",
+      "country": "NLD",
+      "role": "perpetrator",
+      "title": "Atrocities in the Indonesian War of Independence (Rawagede, South Sulawesi)",
+      "era": "1945–1949",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "Summary executions of non-combatants and village massacres committed by armed forces during a war to reconquer a colony — war crimes against civilians and prisoners, so WAR.",
+      "agent": "The Dutch state and its forces in Indonesia (the Royal Netherlands East Indies Army, KNIL, and the Dutch army, including units under Captain Raymond Westerling and Major Alphons Wijnen)",
+      "toll": {
+        "display": "Indonesian deaths in the war ~100,000+ (Dutch field records, lower limit; highest sourced estimates ~150,000–200,000); Rawagede ~431 men executed (9 Dec 1947); Westerling's South Sulawesi campaign reportedly thousands killed",
+        "disputed": true,
+        "low": 100000,
+        "high": 150000,
+        "unit": "deaths",
+        "note": "The range covers all Indonesian deaths in the 1945–49 war. A 2017 KITLV/Leiden research team found Dutch military field records reporting almost 100,000 Indonesian casualties (Oct 1945–Dec 1949), treated as a LOWER limit; the cited Indonesian National Revolution article gives 97,421 confirmed killed and a highest estimate of 100,000–150,000. Adrian Vickers brackets it at ~70,000–200,000 (45,000–100,000 military + 25,000–100,000 civilian). Not all of these are Dutch-perpetrated killings — the figure includes combat and Indonesian internal violence — but it bounds the lethality of the Dutch reconquest. AUDIT CORRECTION: the original high of 300,000 was not supported by its cited source (which caps at 150,000); the high has been lowered to 150,000 to match the sourced figure rather than relying on an unsourced upper bound. Concrete documented massacres: ~431 men executed at Rawagede on 9 Dec 1947 (most estimates); Westerling's South Sulawesi campaign over Christmas–New Year 1946–47 killed several thousand (Indonesian claims to 40,000; Dutch historian IJzereef estimates ~3,000 total, ~1,500 from Dutch operations); Dutch military dead ~4,585 (NIOD)."
+      },
+      "received_lens": "suppressed",
+      "summary": "After Indonesia declared independence in 1945, the Dutch fought to reconquer the colony. Dutch forces carried out summary executions and village massacres: on 9 December 1947 a Dutch army unit under Major Alphons Wijnen executed about 431 men at Rawagede in West Java, and over the 1946–47 turn of the year Captain Raymond Westerling's campaign in South Sulawesi killed thousands through summary executions. Indonesian deaths across the war reached six figures — Dutch field records logged almost 100,000, treated as a lower limit. The atrocities were long minimised in the Netherlands; only decades later did courts and the state acknowledge liability, and in 2022 the government accepted findings of structural extreme violence.",
+      "relevance": "Dutch forces killing colonial subjects in the same postwar years that Nazi crimes were being tried at Nuremberg is the sharpest perpetrator counterpoint to the Netherlands' own status as Holocaust victim.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "NIOD Institute for War, Holocaust and Genocide Studies, 'Indonesian War of Independence (in numbers)' (2017 KITLV/Leiden: Dutch field records ~100,000 Indonesian casualties as a lower limit; total estimates higher; Dutch military dead ~4,585)",
+          "supports": "toll.low",
+          "url": "https://www.niod.nl/en/frequently-asked-questions/indonesian-war-independence-numbers",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "'Indonesian National Revolution,' Wikipedia (Indonesian fatalities: 97,421 confirmed killed; highest estimate 100,000–150,000; combatant and civilian)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Indonesian_National_Revolution",
+          "caveat": "Audit correction: the original cite claimed this source supports 'up to over 300,000', but the article actually gives 97,421 confirmed killed and a highest estimate of 100,000–150,000. The 300,000 figure was not in this (or other reliable) sources, so toll.high was corrected from 300,000 to 150,000 to match what this source states."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Rawagede massacre,' Wikipedia (~431 men executed 9 Dec 1947 by a KNIL/Dutch army unit under Major Alphons Wijnen; 2011 Dutch court held the state liable, finding no statute of limitations)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Rawagede_massacre",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "'South Sulawesi campaign of 1946–1947,' Wikipedia (Captain Raymond Westerling's summary-execution campaign; several thousand killed)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/South_Sulawesi_campaign_of_1946%E2%80%931947",
+          "caveat": "Audit note: page confirmed live and confirms Captain Raymond Westerling's summary-execution campaign (Dec 1946–Feb 1947). Toll is contested: Indonesian claims 15,000–40,000; Dutch historian Willem IJzereef estimates ~3,000 total (~1,500 from Dutch operations). 'Several thousand killed' is the upper Indonesian framing; the lower scholarly estimate is ~1,500 Dutch-attributed deaths."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

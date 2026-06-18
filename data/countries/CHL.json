@@ -1,0 +1,177 @@
+{
+  "iso": "CHL",
+  "name": "Chile",
+  "note": "Chile's dual ledger is asymmetric, and the asymmetry is itself the point. The 'in their name' (perpetrator) side is heavy and exceptionally well-documented for the modern era: the late-19th-century Occupation of Araucania, in which the Chilean army broke Mapuche independence through combat, pillaging, starvation, and smallpox; the extermination of the Selk'nam of Tierra del Fuego, carried out by ranching companies and bounty hunters operating under Chilean (and Argentine) sovereignty, with the great Chilean-Argentine landholders financing the campaigns; and the 1973-1990 Pinochet dictatorship, in which the Chilean military killed and disappeared roughly three thousand and tortured tens of thousands of its own citizens. The 'done to them' (victim) side is dominated by the Spanish colonial conquest and the disease-driven demographic collapse of the peoples of what became Chile in the 16th and 17th centuries — a catastrophe whose scale is real but whose territory-specific death figures are genuinely uncertain, so it is entered as a sourced range with the population-decline-vs-death-count distinction made explicit. The Pinochet repression is filed as perpetrator because the agent was the Chilean state, but it is also self-inflicted national trauma — Chileans killed by Chileans — which is precisely the dual lens the atlas exists to hold open. The Selk'nam genocide spanned Chile and Argentina; it is entered for both countries because both states' sovereignty and both countries' settler companies were implicated, and it is not double-counted in any aggregate toll. Two tolls are contested and shown as ranges: the colonial Mapuche collapse (population-decline estimates diverge by an order of magnitude and conflate disease with violence) and the Selk'nam toll (direct-killing estimates vs. total-population-loss estimates).",
+  "events": [
+    {
+      "id": "chl-1",
+      "country": "CHL",
+      "role": "victim",
+      "title": "The Spanish conquest and disease collapse of the peoples of Chile",
+      "era": "1540s-1600s",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The dominant killer was Old World epidemic disease (smallpox, measles, typhus) for which the indigenous peoples had no immunity, compounded by conquest warfare, forced labor, and famine — a structural demographic catastrophe (STR), not a deliberate program to destroy a defined group (EXT).",
+      "agent": "Spanish conquistadors under Pedro de Valdivia and his successors, whose invasion of central and southern Chile brought the encomienda forced-labor system and the Old World epidemics that traveled with the conquest",
+      "toll": {
+        "display": "hundreds of thousands of deaths; indigenous population of Chile collapsed from an estimated 0.5-1.5 million in the mid-1500s to roughly 150,000 unsubjugated Araucanians by the late 1700s",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "display_note": "see toll.note",
+        "low_alt": 500000,
+        "high_alt": 1500000,
+        "note": "QUARANTINE (audit 2026-06-18): event UNVERIFIED on source-integrity grounds. The death-count low/high are correctly null and the demographic figures here are decline estimates, not death tolls, folding disease, warfare, forced labor, and famine together. The figures partly survive verification but the original chl-1 toll.note citation did not: the cited 'Arauco War' Wikipedia article does NOT contain the 0.5-1.5 million pre-conquest range, the ~150,000 late-18th-century unsubjugated figure, the 'hundreds of thousands' disease-death claim, measles, yellow fever, or the 'one epidemic killed ~one-third of the Mapuche' claim attributed to it — it carries only a single smallpox mention and an infobox figure of 200,000 Mapuche dead (1536-1662). The 0.5-1.5 million range is independently corroborated by scholarship (Jose Bengoa estimates 705,000-900,000 Mapuche between the Itata River and Reloncavi Sound in the mid-16th century, per the 'Mapuche history' article), but the late-18th-century ~150,000 figure and the one-third-epidemic figure could not be located in any cited source. Source citation corrected below; until the ~150,000 and one-third figures are sourced, this event stays UNVERIFIED."
+      },
+      "received_lens": "suppressed",
+      "summary": "When Pedro de Valdivia's expedition pushed into Chile from 1540, it brought both the encomienda forced-labor system and the Old World diseases that arrived with the conquest. Smallpox, measles, and typhus tore through populations with no immunity; the first smallpox epidemic ravaged Chile's natives within years of contact, and one late-16th-century outbreak is reckoned to have killed roughly a third of the Mapuche. Combined with the violence of the long Arauco War and forced labor, the indigenous population of what became Chile fell by hundreds of thousands over the colonial centuries, even as the Mapuche south of the Bio-Bio held the Spanish to a fortified frontier for generations.",
+      "relevance": "Chile appears here as victim — the peoples of its territory devastated by an invading European power and the pathogens it carried — the same demographic catastrophe that, three centuries later, the Chilean republic would itself complete against the Mapuche and the Selk'nam, placing the country on both sides of the colonial ledger.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Arauco War,\" Wikipedia — states the first smallpox epidemic arrived with Villagra and ravaged the native population of Chile; infobox records 200,000 Mapuche dead, 29,000 Spanish dead, and 60,000 indigenous/mestizo auxiliary dead over 1536-1662. Note: this article does NOT contain the 0.5-1.5 million pre-conquest range, the ~150,000 late-18th-century figure, the measles/yellow-fever or 'hundreds of thousands' disease claims, or the one-third-epidemic figure; those were verified to be absent in the 2026-06-18 audit and the citation was corrected accordingly.",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Arauco_War",
+          "caveat": "Tertiary aggregator; supports only the existence of conquest-era smallpox and the order-of-magnitude scale of Mapuche war deaths (200,000 over 1536-1662), not the demographic-collapse ranges in toll.note."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Mapuche history,\" Wikipedia — historian Jose Bengoa estimates the Mapuche population between the Itata River and Reloncavi Sound at 705,000-900,000 in the mid-16th century; states epidemics (including a 1554-1555 typhus plague) and the war with the Spanish decimated the population. This is the source that corroborates the ~0.5-1.5 million pre-conquest order of magnitude in toll.note.",
+          "supports": "toll.note",
+          "url": "https://en.wikipedia.org/wiki/Mapuche_history",
+          "caveat": "Tertiary aggregator; the Bengoa figure is a population estimate for a sub-region, not a Chile-wide death count, and the late-18th-century ~150,000 and one-third-epidemic figures in toll.note remain UNSOURCED after audit — the reason this event is UNVERIFIED."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Araucanian wars,\" Encyclopaedia Britannica — overview of the Spanish conquest of Chile, Valdivia's invasion (Santiago 1541, Concepcion 1550), his 1553 defeat under Lautaro, and the centuries-long Mapuche resistance that held the Bio-Bio as the frontier for three centuries until the 19th-century subjugation",
+          "supports": "summary",
+          "url": "https://www.britannica.com/event/Araucanian-wars",
+          "caveat": "Article confirmed to exist and to support the conquest/frontier narrative via search; direct fetch was HTTP 403 (Britannica blocks automated fetches), so contents verified through search excerpts rather than full-text fetch."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "chl-2",
+      "country": "CHL",
+      "role": "perpetrator",
+      "title": "The Occupation of Araucania and the breaking of the Mapuche",
+      "era": "1861-1883",
+      "era_band": "modern",
+      "tier": "STR",
+      "tier_reasoning": "A state military campaign that ended a people's independence and triggered demographic collapse through combat, pillaging, induced starvation, and smallpox is recorded as structural destruction (STR); it was the conquest and dispossession of a people rather than a declared program to physically annihilate every member (EXT) or a symmetrical war between armies (WAR).",
+      "agent": "the Republic of Chile and its army, which conducted a series of campaigns from 1861 to 1883 to conquer the independent Mapuche lands south of the Bio-Bio, burning settlements, seizing livestock, and driving the population into famine",
+      "toll": {
+        "display": "thousands of Mapuche deaths from combat, pillaging, starvation, and smallpox; population reported to fall from as high as ~500,000 to ~25,000 within a generation (decline estimate, not a death count)",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "low_alt": 25000,
+        "high_alt": 500000,
+        "note": "Standard accounts state the occupation caused 'the death of thousands of Mapuche' through combat, pillaging, starvation, and smallpox, but give no firm death count. The most-cited demographic figure, from historian Ward Churchill, is a fall from roughly half a million to 25,000 'within a generation' as a result of the occupation and its associated disease and famine — a population-decline claim, not a death toll, and one disputed in its high baseline. Documented specifics include more than 2 million livestock animals seized from the Mapuche in the 1868-1869 campaigns and a smallpox epidemic amid famine in the winter of 1869. Death-count low/high are therefore left null and the decline range recorded here."
+      },
+      "received_lens": "contested",
+      "summary": "Between 1861 and 1883 the Chilean state moved to absorb the independent Mapuche territory that had resisted Spain for three centuries. Army campaigns burned the wood-and-thatch rukas, seized livestock by the millions, and torched fields; a smallpox epidemic in the famine winter of 1869 compounded the destruction, and part of the Mapuche civilian population, including women and children, was killed or taken captive. The traditional economy collapsed, forcing thousands of survivors into the cities as servants and laborers; until around 1900 Chile was still issuing nearly 10,000 food rations a month to displaced Mapuche.",
+      "relevance": "Here Chile is plainly the perpetrator — the republic completing against the Mapuche, with its own army, the dispossession that the Spanish crown had never managed in three centuries, even as Chile itself remembered the colonial conquest as a wound done to it.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Occupation of Araucania,\" Wikipedia — 1861-1883 Chilean campaigns caused the death of thousands of Mapuche through combat, pillaging, starvation and smallpox; Ward Churchill's claim of a fall from ~500,000 to 25,000 within a generation; >2 million livestock seized in 1868-1869; smallpox amid famine winter 1869; ~10,000 monthly food rations to displaced Mapuche until ~1900",
+          "supports": "toll.note",
+          "url": "https://en.wikipedia.org/wiki/Occupation_of_Araucan%C3%ADa",
+          "caveat": "Tertiary aggregator; the death figure is uncounted and the headline population-decline figure (Churchill) is a single disputed estimate, used here as a range with that caveat explicit."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Mapuche history,\" Wikipedia — Chile incorporated Mapuche territories 1861-1871 and resumed conquest in 1881, refounding Villarrica on 1 January 1883 to formally end the occupation; collapse of the traditional Mapuche economy and impoverishment of survivors",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Mapuche_history",
+          "caveat": "Tertiary aggregator; used for the narrative and chronology of the occupation, which is well established."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "chl-3",
+      "country": "CHL",
+      "role": "perpetrator",
+      "title": "The extermination of the Selk'nam of Tierra del Fuego",
+      "era": "1880s-1910s",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "A campaign of bounty killings, massacres, and forced removal that deliberately destroyed a people as a people — wiping out roughly four-fifths of the Selk'nam to clear land for sheep ranching — is recorded as extermination (EXT).",
+      "agent": "European and South American settlers, ranching companies, and bounty hunters operating under Chilean and Argentine sovereignty in Tierra del Fuego, with great landholders such as Jose Menendez and Mauricio Braun financing campaigns and bounties paid per Selk'nam killed",
+      "toll": {
+        "display": "~2,500-4,000 killed directly (about 84% of the people); population fell from ~4,000 in the 1880s to roughly 100 by 1930",
+        "disputed": true,
+        "low": 2500,
+        "high": 4000,
+        "unit": "deaths",
+        "note": "Direct-killing estimates range from about 2,500 to 4,000 individuals, roughly 84% of the Selk'nam. The total population fell from approximately 4,000 in the 1880s to around 100 by 1930, with disease and forced relocation killing many beyond those directly murdered; some accounts give up to 5,000 Selk'nam murdered or dead from disease over about 15 years. The 2,500-4,000 range is the direct-killing figure; the larger collapse reflects killings plus disease and displacement. The genocide spanned Chilean and Argentine Tierra del Fuego and is entered for both countries without double-counting any aggregate."
+      },
+      "received_lens": "suppressed",
+      "summary": "As sheep estancias and a gold rush spread across Tierra del Fuego in the 1880s, ranching companies and hunters set out to clear the land of the Selk'nam who lived on it. Settlers were paid a bounty — one pound sterling — for each Selk'nam killed, confirmed by a pair of severed hands or ears, or later a skull; survivors were poisoned, hunted, and shipped to missions where disease finished the work. Within roughly two decades a people of some four thousand was reduced to a few dozen. The great Chilean-Argentine landholders, among them Jose Menendez, financed the campaigns from which their fortunes grew.",
+      "relevance": "Chile here is squarely the perpetrator — its southern sovereignty the cover under which a whole people was hunted to near-extinction for sheep pasture, a deliberate destruction that stands beside the Araucania occupation as the republic's own contribution to the colonial catastrophe it elsewhere mourns as victim.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Selk'nam genocide,\" Wikipedia — systematic extermination of the Selk'nam of Tierra del Fuego, late 19th to early 20th century; direct killing of 2,500-4,000 (~84% of the population); population fell from ~4,000 (1880s) to ~100 (1930); bounty of one pound sterling per Selk'nam dead, confirmed by hands, ears, or a skull; perpetrators named including Julius Popper, Mauricio Braun, Jose Menendez, Alexander McLennan, and Chilean and Argentine militaries",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Selknam_genocide",
+          "caveat": "Tertiary aggregator; the 2,500-4,000 direct-killing range and the population-collapse figures are synthesized from scholarship and corroborated by independent reporting; some estimates extend to ~5,000 dead including disease."
+        },
+        {
+          "kind": "press",
+          "cite": "NBC News, \"In a grim subarctic landscape, a massacre amid colonialism's horrors\" — reporting on the Selk'nam genocide, the bounty system, and the role of ranching companies in Tierra del Fuego",
+          "supports": "summary",
+          "url": "https://www.nbcnews.com/news/latino/grim-subarctic-landscape-massacre-colonialisms-horrors-rcna8367",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "chl-4",
+      "country": "CHL",
+      "role": "perpetrator",
+      "title": "State terror under the Pinochet dictatorship",
+      "era": "1973-1990",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "The systematic killing, disappearance, and torture of political opponents by a state to eliminate dissent and entrench a regime is political mass violence (POL), not warfare between armies (WAR) or the destruction of a defined ethnic or national group (EXT).",
+      "agent": "the Chilean armed forces and security services under General Augusto Pinochet, who seized power in the 11 September 1973 coup against Salvador Allende and ran a 17-year repression through agencies such as the DINA",
+      "toll": {
+        "display": "~3,000-3,200 killed or disappeared; tens of thousands tortured (~28,000-31,947 documented)",
+        "disputed": true,
+        "low": 3065,
+        "high": 3216,
+        "unit": "deaths",
+        "note": "Official Chilean state truth commissions are the basis for the figures. The Rettig Commission (1991) documented those killed or disappeared for political reasons; the Chilean government's figure for executions and forced disappearances is at least 3,065, with combined commission accounts giving roughly 3,200. The Valech Commission and later reviews documented tens of thousands tortured — figures cited include about 28,000 to 31,947 torture victims — with thousands more exiled. The killed/disappeared count is firm in the low thousands; the dispute is over the exact figure within the ~3,000-3,200 band and over the still-missing bodies of the disappeared."
+      },
+      "received_lens": "memorial",
+      "summary": "On 11 September 1973 the Chilean military, led by General Augusto Pinochet, overthrew the elected government of Salvador Allende and installed a dictatorship that lasted until 1990. Its security services, above all the secret police DINA, hunted down political opponents: roughly three thousand people were killed or 'disappeared,' and tens of thousands were imprisoned and tortured, with thousands more driven into exile. The bodies of many of the disappeared have never been found, and Chile's own truth commissions — Rettig and Valech — established the record the regime had denied.",
+      "relevance": "This is Chile as perpetrator against its own — the state turning its army and secret police on its citizens — yet it is also self-inflicted national trauma, Chileans killed by Chileans, the dual lens at its sharpest within a single country.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Augusto Pinochet,\" Wikipedia — Rettig Report documented 2,279 killed/disappeared for political reasons; Chilean government figure of at least 3,095 executions and forced disappearances; 2011 review raised total victims to ~40,018 including 3,065 killed; Valech Report documented 31,947 tortured and 1,312 exiled; execution estimates cited at 1,200-3,200",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Augusto_Pinochet",
+          "caveat": "Tertiary aggregator; the figures are drawn from Chile's official Rettig and Valech truth-commission reports and are widely corroborated."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Amnesty International, \"Chile: 50 years since the coup d'etat, exercising historical memory is vital for the country's future\" (2023) — between 1973 and 1990, 3,216 persons were killed or subjected to enforced disappearance; broader official toll of tens of thousands of torture and detention victims",
+          "supports": "toll.high",
+          "url": "https://www.amnesty.org/en/latest/news/2023/09/chile-50-years-coup-historical-memory/",
+          "caveat": "Amnesty International is a human-rights advocacy organization; the figures it cites are taken from Chile's official state truth commissions and are not in dispute as to order of magnitude."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

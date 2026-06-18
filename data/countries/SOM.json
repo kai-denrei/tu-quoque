@@ -1,0 +1,179 @@
+{
+  "iso": "SOM",
+  "name": "Somalia",
+  "note": "Researched 2026-06-18 from scratch (no prior seed). The two ledgers are populated and deliberately asymmetric, and that asymmetry is the dual-lens point. Somalia's clearest place in the victim ledger is colonial: the two-decade Dervish war against the British Empire and its allies (1899–1920), in which protracted scorched-earth fighting, blockade, and the resulting famine are estimated to have killed roughly a third of the northern Somali population — followed in the contemporary period by the 2011 famine, in which drought, war, and the militant group al-Shabaab's blockade of aid combined to kill a quarter of a million people, the overwhelming majority of them Somalis. The perpetrator ledger, however, is authored by Somalis against Somalis: the Siad Barre dictatorship's 1987–89 Isaaq genocide in the north (the single best-documented state atrocity), and the 1991–92 famine, which was driven less by drought than by warring Somali factions — chiefly Barre's retreating Somali National Front — destroying the inter-riverine breadbasket. The same people that the world remembers as the victims of colonial guns and of clan-based starvation are also the authors of one of post-war Africa's clearly named genocides. Tolls on every event here are contested, often across an order of magnitude; low and high ends are separately sourced and the divergence is flagged in each toll.note. The 1991–92 famine is logged under the perpetrator ledger because the documented primary agents were Somali armed factions, not nature or an external power; its victim dimension is noted in-event.",
+  "events": [
+    {
+      "id": "som-1",
+      "country": "SOM",
+      "role": "victim",
+      "title": "The Dervish wars (Somaliland campaign / Anglo-Somali War)",
+      "era": "1899–1920",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "Two decades of colonial counterinsurgency — combined British, Italian, and Ethiopian campaigns against the Dervish state — in which most of the death came from war-induced famine, blockade, and economic collapse rather than a campaign to exterminate the Somali people as such, so WAR rather than EXT; the famine multiplier overlaps with STR.",
+      "agent": "The British Empire and its allies (Italy and the Ethiopian Empire), waging punitive expeditions, blockade, and a 1920 RAF aerial bombardment against Sayyid Muhammad Abdullah Hassan's Dervish state; the Somali civilian death toll fell heavily through war-induced famine",
+      "toll": {
+        "display": "~100,000–150,000 deaths (≈ a third of the northern Somali population; British wartime estimate ~20,000+; disputed)",
+        "disputed": true,
+        "low": 20000,
+        "high": 150000,
+        "unit": "deaths",
+        "note": "QUARANTINE (audit 2026-06-18): the high end is well sourced — the Somaliland campaign reference entry gives a total of roughly 100,000–150,000 deaths and states that around one-third of the population of Somaliland died during the Dervish rebellion (also that British forces lost ~660 killed and ~4,000 Dervishes were killed). The LOW end of 20,000 is NOT verifiable. The claim that 'Britain's own contemporary estimate was over 20,000 Somali casualties from fighting and famine by 1920' could not be located in its cited source (the Dervish-movement reference entry, which instead repeats the 'nearly a third of the population' figure) nor in any other reachable source; targeted searches surfaced only the much higher ~200,000 / one-third demographic estimates and battle-level casualty lines (tens to low hundreds per engagement), never a ~20,000 colonial aggregate. Pending a real source, the 20,000 low end is unverified and this event is quarantined. Most mortality is attributed not to battle but to famine, livestock loss, blockade, and economic ruin; the high end is a population-decline estimate, not a body count."
+      },
+      "received_lens": "memorial",
+      "summary": "From 1899 the British and their Italian and Ethiopian allies fought a 21-year war against Sayyid Muhammad Abdullah Hassan's Dervish movement across the Somali interior, mounting punitive expeditions, blockading trade, and finally bombing the Dervish fortress at Taleh from the air in February 1920 — one of the first aerial bombardments in Africa. The fighting, the disruption of pastoral life, and the famine that followed are estimated to have killed roughly a third of the northern Somali population.",
+      "relevance": "Somalia's defining place in the victim ledger — a Somali resistance movement and its civilians ground down over two decades by British colonial guns, blockade, and aerial bombing — is the role the country remembers; the perpetrator ledger, written by Somalis against Somalis, is the one harder to face.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Somaliland campaign overview — ~100,000–150,000 deaths in Somaliland over 1899–1920; estimate that around one-third of the population died; British losses ~660 killed, ~4,000 Dervishes killed; war ended by RAF aerial bombardment of Taleh, Feb. 1920",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Somaliland_campaign",
+          "caveat": "The 100,000–150,000 and 'one-third of the population' figures are demographic estimates for a period without reliable census or casualty records, not verified body counts."
+        },
+        {
+          "kind": "reference",
+          "cite": "Dervish movement (Somali) overview — the wars over two decades killed nearly a third of Somaliland's population and ravaged the local economy (attributed to Shultz & Dew, 2009); British estimated over 20,000 Somali casualties from fighting and famine by 1920",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Dervish_movement_(Somali)",
+          "caveat": "AUDIT 2026-06-18 — FAILED VERIFICATION: this source does NOT support the toll.low of 20,000. The cited Dervish-movement entry states 'the battles between various sides over two decades killed nearly a third of Somaliland's population and ravaged the local economy' (attributed to Shultz & Dew 2009) — i.e. it supports the HIGH end, not a 20,000 British colonial estimate. No reachable source for an aggregate ~20,000 Somali death/casualty figure was found. The 20,000 low end is unverified; see toll.note quarantine."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "som-2",
+      "country": "SOM",
+      "role": "victim",
+      "title": "The 2011 famine",
+      "era": "2010–2012",
+      "era_band": "contemporary",
+      "tier": "STR",
+      "tier_reasoning": "Mass death driven by starvation and demographic collapse rather than the direct killing of a defined group, so STR — but with the crucial finding that the militant group al-Shabaab's blockade of humanitarian access and the wider civil war turned a drought into the deadliest famine in the region in a quarter-century.",
+      "agent": "Drought as trigger; the militant group al-Shabaab as the principal multiplier, banning aid agencies, levying fees, burning food aid, and barring relief from the worst-hit south-central regions, alongside the wider Somali civil war",
+      "toll": {
+        "display": "~258,000 deaths (Oct. 2010–Apr. 2012; ~half children under five; commonly rounded to 260,000)",
+        "disputed": false,
+        "low": 244000,
+        "high": 273000,
+        "unit": "deaths",
+        "note": "A study commissioned by the UN Food and Agriculture Organization and USAID's Famine Early Warning Systems Network (FEWSNET), and led by epidemiologist Francesco Checchi, estimated about 258,000 excess deaths between October 2010 and April 2012, roughly half of them children under five — commonly reported as 260,000. The figure carried a statistical uncertainty range (on the order of 244,000–273,000); it is the most rigorous estimate available and is not seriously disputed. About half the deaths occurred before famine was formally declared in July 2011, underscoring the cost of the delayed response and blocked access."
+      },
+      "received_lens": "memorial",
+      "summary": "A severe drought across the Horn of Africa met a country at war: the militant group al-Shabaab, which controlled much of the famine-struck south, had banned major aid agencies, charged registration fees of up to $10,000, burned food aid, and barred relief from reaching the worst-hit areas, while a slow international response let the crisis build. By the time famine was declared in July 2011 roughly half its eventual victims were already dead; the FAO/FEWSNET study put the toll near 258,000, about half of them young children.",
+      "relevance": "Remembered abroad as a natural disaster, the 2011 famine was substantially man-made — a drought turned mass-death event by a Somali armed group blocking food from starving Somalis — placing the catastrophe at the seam where Somali victimhood and Somali agency meet.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "Oxfam press release on the FEWSNET/FAO report — 260,000 people died in the 2010/11 Somalia famine, deaths exacerbated by conflict",
+          "supports": "toll.high",
+          "url": "https://www.oxfam.org/en/press-releases/fewsnet-report-260000-people-died-somalia-famine",
+          "caveat": "AUDIT 2026-06-18: verified — Oxfam release states '260,000 people died in the Somalia 2010/11 famine,' deaths exacerbated by conflict."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Feinstein International Center, Tufts University — analysis of the FAO/FEWSNET mortality study (Checchi et al.) estimating ~258,000 excess deaths Oct. 2010–Apr. 2012, about half children under five; failed/delayed humanitarian response and access denial as major factors",
+          "supports": "toll.low",
+          "url": "https://fic.tufts.edu/publication-item/famine-somalia-crisis-2011-2012/",
+          "caveat": "AUDIT 2026-06-18: verified — Tufts/Feinstein page cites the study as 'killed some 260,000 people (Checchi and Robinson 2013)'; consistent with the 'Checchi et al.' attribution and the ~258,000 (244k–273k) band."
+        },
+        {
+          "kind": "press",
+          "cite": "ODI, 'A deadly dilemma: how Al-Shabaab came to dictate the terms of humanitarian aid in Somalia' — al-Shabaab's denial of access described as the single greatest obstacle to relief; aid agencies forced to choose between paying the group or letting people die",
+          "supports": "summary",
+          "url": "https://odi.org/en/insights/a-deadly-dilemma-how-al-shabaab-came-to-dictate-the-terms-of-humanitarian-aid-in-somalia/",
+          "caveat": "AUDIT 2026-06-18: verified — the ODI piece exists, describes the $10,000 access fees, al-Shabaab's Humanitarian Coordination Office, and the 'pay or let people die' dilemma, and itself cites ~260,000 deaths."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "som-3",
+      "country": "SOM",
+      "role": "perpetrator",
+      "title": "The Isaaq genocide (Hargeisa Holocaust)",
+      "era": "1987–1989",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "A state campaign to physically destroy a defined group — the Somali government set out to eliminate Isaaq civilians as such, through indiscriminate aerial bombardment of their cities, mass executions, and a unit named the 'Isaaq Exterminators', targeting the group by identity rather than by combat role, so EXT.",
+      "agent": "The Somali Democratic Republic under dictator Siad Barre — the Somali Armed Forces, the Ogaden-staffed unit 'Dabar Goynta Isaaqa' (the Isaaq Exterminators), and government-armed Ogaden refugee militias",
+      "toll": {
+        "display": "~50,000–200,000 Isaaq civilians killed (disputed)",
+        "disputed": true,
+        "low": 50000,
+        "high": 200000,
+        "unit": "deaths",
+        "note": "Estimates range from roughly 50,000 to 200,000 noncombatant Isaaq deaths. The low end traces to the 1990 Africa Watch report, which documented over 50,000 noncombatant deaths from indiscriminate bombing and summary executions on the basis of eyewitness testimony gathered in 1988–89; the 200,000 figure is the high end commonly cited by Somaliland authorities and later accounts. Since 2012 a Peruvian forensic team (EPAF) has exhumed mass graves at roughly two dozen sites around Hargeisa — the 'Valley of Death' — recovering and reburying hundreds of bodies, but full-scale forensic accounting remains incomplete, so the upper figure is not a verified body count."
+      },
+      "received_lens": "denied",
+      "summary": "When the Isaaq-based Somali National Movement rose against the dictatorship, Siad Barre's government responded by treating Isaaq civilians as the enemy: the air force bombed Hargeisa and Burao into ruins — Hargeisa was up to 90 percent destroyed and dubbed the 'Dresden of Africa' — while ground forces and a unit nicknamed the Isaaq Exterminators carried out mass executions, driving more than 300,000 refugees into Ethiopia. The campaign is recognized as a genocide and remains officially denied or minimized by successive governments in Mogadishu.",
+      "relevance": "The nation the world remembers as the victim of colonial conquest and of clan-based famine is also the state that organized one of post-war Africa's clearly named genocides against its own northern people — the lens turned fully around.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Africa Watch / Human Rights Watch (1990), reporting from 1988–89 eyewitness testimony — over 50,000 noncombatant Isaaq deaths from indiscriminate bombing and summary executions, with a pattern of orders targeting 'Isaaq elements'",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Isaaq_genocide",
+          "caveat": "AUDIT 2026-06-18: verified. The Africa Watch report ('Somalia: A Government at War with Its Own People,' Jan 1990, HRW) is real; the 50,000 floor is corroborated (genocide scholar Adam Jones cites 50,000–100,000 massacred May–July 1988). Figure is cited via the Isaaq-genocide reference entry summarizing that report; it counts documented deaths from testimony and so is a floor, not a ceiling. Note the cited entry presents 50,000–200,000 as a range from 'various sources' rather than isolating Africa Watch as the named low bound."
+        },
+        {
+          "kind": "reference",
+          "cite": "Isaaq genocide overview — systematic state-sponsored killing of Isaaq civilians 1987–89 by the Somali Democratic Republic under Siad Barre; toll estimated 50,000–200,000; Hargeisa up to 90% destroyed ('Dresden of Africa'); unit 'Dabar Goynta Isaaqa' (Isaaq Exterminators); 300,000+ refugees to Ethiopia",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Isaaq_genocide",
+          "caveat": "AUDIT 2026-06-18: verified — the cited entry confirms the 50,000–200,000 civilian-death range, Hargeisa up to 90% destroyed ('Dresden of Africa'), the unit 'Dabar Goynta Isaaqa' (Isaaq Exterminators), Siad Barre, 1987–89, and up to 500,000 refugees to Ethiopia (exceeds the 300,000+ stated). The 200,000 high end is widely cited by Somaliland sources but is not a verified count; forensic exhumation is still partial."
+        },
+        {
+          "kind": "press",
+          "cite": "Reporting on EPAF (Equipo Peruano de Antropología Forense) forensic work in Somaliland since 2012 — exhumation of mass graves at ~24 sites around Hargeisa (the 'Valley of Death'), hundreds of bodies recovered and reburied as evidence of the genocide",
+          "supports": "summary",
+          "url": "https://blogs.lse.ac.uk/crp/2020/07/20/forensic-anthropology-in-somaliland-between-justice-and-recognition/",
+          "caveat": "AUDIT 2026-06-18: partial. The cited LSE blog exists and confirms EPAF (Peruvian forensic specialists) conducted the first forensic-anthropological mass-grave investigations in Sept–Oct 2012, but it does NOT itself state '~24 sites,' the 'Valley of Death,' or 'hundreds of bodies recovered/reburied.' Those specifics are independently verifiable — the 'Valley of Death' is Malko Durduro outside Hargeisa; reporting (Pulitzer Center / The Nation, 'In the Valley of Death') documents ~two dozen mass graves excavated since 2013 and ~250 bodies reburied — but they belong to those sources, not this LSE page. The genocide and its toll (above) do not rest on this source; only the forensic-detail attribution is loosened. Not a fabrication: EPAF, the team's 2012 start, and the exhumations are all real."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "som-4",
+      "country": "SOM",
+      "role": "perpetrator",
+      "title": "The 1991–92 famine in the inter-riverine breadbasket",
+      "era": "1991–1992",
+      "era_band": "modern",
+      "tier": "STR",
+      "tier_reasoning": "Mass death driven by starvation and the collapse of food production rather than direct killing of a defined group, so STR — with the finding that the famine was substantially man-made, produced by Somali armed factions destroying the country's farmland and looting grain stores during the civil war rather than by drought alone.",
+      "agent": "Warring Somali factions during the post-Barre civil war — chiefly the Somali National Front under the retreating Siad Barre, which ravaged the inter-riverine grain belt, alongside other militias whose looting and fighting halted agriculture; severe drought as an aggravating factor",
+      "toll": {
+        "display": "~200,000–300,000 deaths (BBC ~220,000; disputed)",
+        "disputed": true,
+        "low": 200000,
+        "high": 300000,
+        "unit": "deaths",
+        "note": "Estimates commonly range from 200,000 to 300,000 deaths, with the BBC citing about 220,000 dying during the 1992 famine. As with all famine counts the figures are soft and reflect both methodology and the absence of any functioning state to record deaths; the range is widely repeated across reference and press sources without a single authoritative demographic study. AUDIT FLAG 2026-06-18 — SINGLE-SOURCE TOLL: only one source (the 1992-famine reference entry) is attached to the numeric range, and it carries BOTH the 200,000 low and 300,000 high ends rather than each end being independently sourced; the HRW 1993 source supports the summary/causation, not the count. Verified to exist and consistent, but the band rests on one source."
+      },
+      "received_lens": "suppressed",
+      "summary": "After rebel forces toppled Siad Barre in early 1991, his retreating Somali National Front ravaged the fertile inter-riverine belt between the Jubba and Shebelle rivers — destroying pumps and farm equipment, looting grain stores, and bringing food production to a near halt — while rival militias fought over the south. A harsh drought deepened the crisis, and famine killed an estimated 200,000–300,000 people before US-led intervention in late 1992 began to bring relief.",
+      "relevance": "The famine that the world recognizes as the disaster that drew in the US 'Restore Hope' intervention was, in its origin, a Somali atrocity against Somalis — armed factions starving the country's farming communities — making the same population both the victims and the named authors of mass death within one event.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "1992 famine in Somalia overview — 200,000–300,000 deaths; BBC ~220,000; primary driver warfare in the inter-riverine breadbasket, with the Somali National Front 'widely considered to bear primary responsibility'; severe drought as aggravating factor",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/1992_famine_in_Somalia",
+          "caveat": "AUDIT 2026-06-18: verified — the cited entry confirms '200,000–300,000 deaths,' 'According to the BBC 220,000 Somalis died during the 1992 famine,' and 'The Somali National Front is widely considered to bear primary responsibility for inducing the famine,' with warfare as the largest contributing factor and a harsh 1991–92 drought concurrent. This single entry carries the whole numeric range (see toll.note single-source flag). Famine death counts for a period of total state collapse are estimates, not records."
+        },
+        {
+          "kind": "press",
+          "cite": "Human Rights Watch World Report 1993 (Somalia) — documenting the 1992 famine and the role of factional warfare and looting in producing mass starvation amid state collapse",
+          "supports": "summary",
+          "url": "https://www.refworld.org/reference/annualreport/hrw/1993/en/92972",
+          "caveat": "AUDIT 2026-06-18: verified to exist (HRW World Report 1993 — Somalia, on Refworld; the page 403s to automated fetch but is confirmed real by search). It documents 1992 as 'riven by conflict, devastated by famine,' the Ali Mahdi–Aidid fighting, freelance banditry/looting, and 'the cycle of famine feeding war' — supporting the summary/causation, not a death count."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

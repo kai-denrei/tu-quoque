@@ -1,0 +1,133 @@
+{
+  "iso": "ZMB",
+  "name": "Zambia",
+  "note": "Zambia's ledger is sharply asymmetric, and the asymmetry is real rather than an artefact of thin research. On the victim side the record is heavy and well-attested: tens of thousands of Northern Rhodesian carriers worked to death in Britain's First World War East Africa campaign, and in 1978–79 white-minority Rhodesia repeatedly bombed and raided refugee and guerrilla camps on Zambian soil, killing hundreds of unarmed people. The perpetrator side is genuinely thin — Zambia is widely cited as a country that avoided the ethnic mass violence of several neighbours (it has no Gukurahundi, no civil-war atrocity record). The one clear case where the Zambian state itself killed on a mass scale is the 1964 Lumpa uprising, in which Kenneth Kaunda's UNIP government and security forces killed an estimated 700–1,500 members of Alice Lenshina's church on the very eve of independence. Beyond that, the post-independence record is one of political repression — detention without trial, torture of detainees after the 1997 coup attempt, lethal police force against protesters — serious abuses that do not rise to the mass-death scale this atlas tracks, and so are noted here rather than entered as separate events. Two toll caveats: (1) the WWI carrier death figure is contested, with the colonial government claiming only a few hundred Northern Rhodesian deaths against the ~20,000 commonly cited and a campaign-wide carrier toll near 100,000; (2) the Lumpa death toll spans 700–1,500 across sources, with no single authoritative count.",
+  "events": [
+    {
+      "id": "zmb-1",
+      "country": "ZMB",
+      "role": "victim",
+      "title": "The Mtenga-Tenga: Northern Rhodesian carriers in the First World War",
+      "era": "1914–1918",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "Mass death of coerced porters driven overwhelmingly by disease, exhaustion and starvation under colonial military logistics rather than by deliberate killing of a group — structural mortality, so STR.",
+      "agent": "British colonial military administration of Northern Rhodesia, which conscripted African carriers for the East Africa campaign",
+      "toll": {
+        "display": "~20,000 Northern Rhodesian carriers (campaign-wide carrier deaths ~95,000–100,000)",
+        "disputed": true,
+        "low": 300,
+        "high": 20000,
+        "unit": "deaths",
+        "note": "The figure most often cited for Northern Rhodesian carriers is ~20,000 dead of disease and debilitation (used here for the high end). The colonial government's own contemporary estimate was far lower — on the order of a few hundred deaths (the ~300 used for the low end) — a self-serving undercount. Across the whole East Africa campaign the British Carrier Corps lost no fewer than ~95,000 men (roughly 10 percent of those used), with one common overall estimate of ~100,000 carrier deaths on all sides; Northern Rhodesia recruited 312,891 men and women as porters. Deaths came from pneumonia, dysentery, malaria, exhaustion and the 1918 influenza, not combat, so any precise national toll is an estimate."
+      },
+      "received_lens": "suppressed",
+      "summary": "To supply Britain's drawn-out campaign against German East Africa, the colonial administration of Northern Rhodesia conscripted hundreds of thousands of Africans — the mtenga-tenga — to carry food and ammunition on foot through disease-ridden country. Tens of thousands died of pneumonia, dysentery, exhaustion and influenza, far more than were ever killed in combat, in a war that was not theirs.",
+      "relevance": "Zambians died in their tens of thousands as forced labour for an empire that recorded their deaths grudgingly if at all — the colonial subject as the disposable infrastructure of someone else's war.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Zambia Tourism, 'The British Empire in Zambia' — 'Some 20,000 Zambians forcibly recruited as porters for the British forces in East Africa during the First World War perished of disease or debilitation'",
+          "supports": "toll.high",
+          "url": "https://www.zambiatourism.com/about-zambia/history/british-empire-in-zambia/",
+          "caveat": "A national tourism/heritage site, not peer-reviewed; the ~20,000 figure is widely repeated but the underlying count is contested, so it anchors the high end only."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "1914-1918-Online (International Encyclopedia of the First World War), 'Carrier Corps' — Carrier Corps deaths 'no fewer than 95,000 died, or around 10 percent of the total manpower used'; deaths driven by disease, exhaustion and the 1918 influenza",
+          "supports": "summary",
+          "url": "https://encyclopedia.1914-1918-online.net/article/carrier-corps/",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Mutale T. Mazimba, 'African Reactions to the First World War: The Case of the Mtenga-Tenga of Northern Rhodesia (Zambia)', Journal of Southern African Studies vol. 49 no. 4 (2023), pp. 553–567 — 312,891 Northern Rhodesians recruited as porters; colonial government estimated only ~300 deaths",
+          "supports": "toll.low",
+          "url": "https://www.tandfonline.com/doi/abs/10.1080/03057070.2023.2308434",
+          "caveat": "Author/title/journal/issue verified via RePEc and JSAS records; the article is single-authored by Mutale T. Mazimba (a prior draft of this record misattributed it to 'B. Siegel et al.' — corrected). Full text paywalled (tandfonline returns 403); the 312,891 recruitment figure is confirmed in the abstract, while the ~300 colonial death estimate is from the body text and is cited precisely as a colonial undercount, not as the true toll."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "zmb-2",
+      "country": "ZMB",
+      "role": "victim",
+      "title": "Rhodesian cross-border raids and Operation Gatling",
+      "era": "1978–1979",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Air and ground attacks on camps inside a neighbouring state that killed combatants and large numbers of unarmed refugees alike — armed-conflict atrocity on sovereign Zambian soil, so WAR.",
+      "agent": "Rhodesian Security Forces (air force, SAS, Rhodesian Light Infantry) of Ian Smith's white-minority government",
+      "toll": {
+        "display": "~hundreds to 1,500+ killed (Rhodesian claim ~1,500; ZIPRA ~351 at Freedom Camp)",
+        "disputed": true,
+        "low": 351,
+        "high": 1500,
+        "unit": "deaths",
+        "note": "Rhodesia claimed it killed over 1,500 'ZIPRA cadres' in Operation Gatling (19–21 October 1978), but historians note many of the dead were unarmed refugees rather than fighters and the figure was likely inflated; ZIPRA sources put 351 killed at Freedom Camp/Westlands alone, described as a refugee camp. Historians Moorcraft and McLaughlin record that 'hundreds' of unarmed refugees were killed and that it was impossible to distinguish refugees from young recruits. Raids continued intermittently into 1979 (e.g. Operation Carpet, 26 June 1979), so the cumulative Zambian toll across the raids is higher than any single operation; no single agreed total exists."
+      },
+      "received_lens": "memorial",
+      "summary": "During Zimbabwe's liberation war, Ian Smith's Rhodesian forces repeatedly struck across the border into Zambia, where Joshua Nkomo's ZIPRA had bases. In October 1978 the Rhodesian air force seized Zambian airspace and bombed the Freedom Camp/Westlands site near Lusaka, followed by SAS and infantry attacks on Mkushi and other camps; many of the dead were unarmed refugees, including children. The raids ran on into 1979.",
+      "relevance": "Zambia paid in its own civilians' blood for sheltering the liberation movements of its neighbours — a frontline state bombed for harbouring refugees and fighters alike.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Operation Gatling' — Rhodesian Security Forces, 19–21 Oct 1978; Rhodesian claim 'over 1,500 ZIPRA cadres' killed, many in fact unarmed refugees; ZIPRA figure of 351 killed at Freedom Camp; Moorcraft & McLaughlin on 'hundreds' of refugees killed",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Operation_Gatling",
+          "caveat": "Tertiary aggregator; the 1,500 figure is the perpetrator's own wartime claim and the 351 figure is a ZIPRA (target-side) figure, so both ends carry partisan provenance and are bounded accordingly."
+        },
+        {
+          "kind": "press",
+          "cite": "The Washington Post, 'Rhodesian Raids on Zambia Fail to Deter Guerrilla Forces' (4 Dec 1978) — contemporary reporting on the October 1978 raids into Zambia",
+          "supports": "summary",
+          "url": "https://www.washingtonpost.com/archive/politics/1978/12/04/rhodesian-raids-on-zambia-fail-to-deter-guerrilla-forces/39aae9c9-23c3-42eb-a83c-96702415fcca/",
+          "caveat": "Cold-War-era Western press coverage of a contested guerrilla war; used for the fact and timing of the raids rather than for a precise toll."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "zmb-3",
+      "country": "ZMB",
+      "role": "perpetrator",
+      "title": "The Lumpa uprising",
+      "era": "1964",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "State and ruling-party forces killing on a mass scale to crush a religious-political movement resisting the new order — political mass killing of a defined community, so POL.",
+      "agent": "Kenneth Kaunda's UNIP government and Northern Rhodesian/Zambian security forces",
+      "toll": {
+        "display": "~700–1,500 deaths",
+        "disputed": true,
+        "low": 700,
+        "high": 1500,
+        "unit": "deaths",
+        "note": "Estimates of the dead in the July–October 1964 clashes range from about 700 (lower accounts) to more than 1,500, with figures of 'about a thousand' and 'more than 1,000' also common; official accounts are often given as 800–1,300. Around 15,000 Lumpa members fled into Zaire. Many of the dead were killed by government forces; senior UNIP figures reportedly pressed the army to exterminate the Lumpa even after Kaunda declared a no-retaliation policy. No single authoritative count exists."
+      },
+      "received_lens": "contested",
+      "summary": "On the eve of Zambian independence, Alice Lenshina's Lumpa Church resisted the authority of Kenneth Kaunda's incoming UNIP government and withdrew into fortified villages. After clashes erupted in July 1964, Kaunda — then Prime Minister — declared a state of emergency and sent in the security forces; in roughly three months of fighting an estimated 700–1,500 people were killed, many of them Lumpa adherents shot by government troops, and some 15,000 fled the country.",
+      "relevance": "The same nationalist movement that won Zambia its freedom turned its guns on a community of its own people in the weeks before independence — the liberator as killer of dissenters.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Lumpa Church' — July–Oct 1964 uprising; 'more than 1,000 people were killed' / range cited as 700–1,500; state troops sent in by Prime Minister Kenneth Kaunda; ~15,000 fled to Zaire",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Lumpa_Church",
+          "caveat": "Tertiary aggregator; the source itself reports conflicting figures (700, ~1,000, more than 1,000, up to 1,500), which is why the toll is given as a wide disputed range."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Alice Lenshina' — uprising 'July to October in 1964, just before Northern Rhodesia's independence'; deaths between Lumpa adherents, UNIP members and the security forces; ~700 to ~1,000 dead; Kaunda as pre-independence Prime Minister",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Alice_Lenshina",
+          "caveat": "Tertiary aggregator; corroborates the agent and timing, with the same internal range disagreement on the toll."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

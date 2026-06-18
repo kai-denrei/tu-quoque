@@ -1,0 +1,199 @@
+{
+  "iso": "MLI",
+  "name": "Mali",
+  "note": "Mali's ledgers are unusually symmetrical across time, which is the dual-lens point in clean form: the same Niger-bend states that built Timbuktu's scholarship also expanded by the sword, and the modern state that was conquered and ruled by France now runs counter-insurgency operations that kill its own villagers. On the perpetrator side the best-quantified pre-colonial event is El Hadj Umar Tall's Toucouleur jihad of the 1850s-60s, whose war against the Massina Caliphate culminated in the Battle of Cayawal (1862) — a single six-day battle with roughly 40,000 dead and a wider war toll cited at 'more than 70,000'; the contemporary perpetrator event is the Moura massacre of March 2022, in which the Malian army and allied Wagner mercenaries executed at least 300 (HRW) to 500+ (UN) people, mostly civilians, in five days. On the victim side the deepest wound is the French colonial conquest of the 1880s-1898 — the breaking of Samori Toure's Wassoulou empire, the suppression of resistance, and the forced-labour regime that followed — but, as is typical of colonial records, no defensible aggregate death toll survives, so that figure is left null and the event marked UNVERIFIED rather than guessed at. The second-deepest is the conflict that began with the 2012 Tuareg/jihadist seizure of the north and has not ended: Malian civilians have been the mass victims of AQIM/Ansar Dine/MUJAO occupation, of inter-communal massacres, and of state and Wagner reprisals, a war whose perpetrator and victim columns overlap because the Malian state's own forces sit on both. No figure here was inflated to balance the columns; where scholarship diverges (the Moura toll, the Cayawal/Massina counts) the dispute is shown, and the colonial toll is left unquantified because no defensible number exists.",
+  "events": [
+    {
+      "id": "mli-1",
+      "country": "MLI",
+      "role": "victim",
+      "title": "French colonial conquest of the Western Sudan and the forced-labour regime",
+      "era": "c.1880–1898 (rule to 1960)",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "A roughly two-decade armed conquest of the Niger-bend states — the breaking of Ahmadu Tall's Toucouleur state and Samori Toure's Wassoulou empire — followed by an extractive labour and conscription regime; tiered WAR for the organized armed violence of subjugation and extraction rather than EXT, since the aim was conquest and rule, not the destruction of a people.",
+      "agent": "The French Third Republic — colonial 'Soudanese' columns under officers such as Borgnis-Desbordes, Archinard and Combes advancing up the Senegal and Niger rivers, then the administration imposing the indigenat code, head tax, the corvee (forced labour) and conscription into tirailleur units",
+      "toll": {
+        "display": "uncounted; no defensible death total exists",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "No comprehensive death toll exists for the French conquest of what became French Sudan (today's Mali) and the forced-labour era that followed, and none is invented here. The record documents the scale and brutality — French columns systematically destroyed the indigenous states in their path; Samori Toure's scorched-earth war of manoeuvre (1882-1898) emptied and burned country to deny resources to the French, with thousands dying of starvation during his forced eastward migration in 1898; the Toucouleur state of Ahmadu Tall was broken (Segou taken 1890, Nioro 1891); and a coercive corvee/head-tax/conscription regime killed an unrecorded number afterward. Colonial administrators had strong incentives to obscure these realities. The toll is left null because no sourceable aggregate number for deaths exists; this event is marked UNVERIFIED accordingly. AUDIT QUARANTINE 2026-06-18: all three cited sources are real and resolve live (Samori Ture, Britannica Samory, Toucouleur Empire) and support the conquest chronology, scorched-earth war, 1898 capture, 1900 exile death, and Nioro 1891; none supplies an aggregate death toll, consistent with the null. One citation-precision flag: the 'Segou fell in 1890' detail is historically correct (Archinard took Segou 5 April 1890) but is NOT contained in the cited Toucouleur Empire article (which dates the empire's end to 1893) — the date is sourceable elsewhere but the attached URL does not carry it. Status remains UNVERIFIED for absence of a defensible toll, not for a fabricated source.",
+        "caveat": null
+      },
+      "received_lens": "suppressed",
+      "summary": "From the early 1880s France pushed up the Senegal and Niger rivers and took the Western Sudan by force over nearly two decades — breaking Ahmadu Tall's Toucouleur state (Segou fell in 1890) and then grinding down Samori Toure's Wassoulou empire, whose scorched-earth resistance lasted until his capture in 1898 and exile to his death in 1900 — then ruled through the indigenat code, head taxes, conscription and the corvee, working and drafting Malians under a coercive labour regime until forced labour was abolished in 1946. The colonial record was deliberately kept thin.",
+      "relevance": "The conquered and conscripted colony of this ledger is the same state whose own post-independence and pre-colonial forces appear on Mali's perpetrator ledger — subjugation suffered, and also inflicted.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Samori Ture' — the French eastward advance from Senegal, Samori's scorched-earth war of manoeuvre (1882-1898), the loss of Kankan and Bissandougou (1891), his 1898 capture, and the thousands who died of starvation during his 1898 migration",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Samori_Ture",
+          "caveat": "Tertiary aggregator; used for the documented character and chronology of the conquest, not for any overall death figure (which it does not supply)."
+        },
+        {
+          "kind": "reference",
+          "cite": "Encyclopaedia Britannica, 'Samory' — Samori Toure's resistance to French expansion, scorched-earth strategy, 1898 capture and 1900 death in exile",
+          "supports": "summary",
+          "url": "https://www.britannica.com/biography/Samory",
+          "caveat": "Tertiary reference work; corroborates the conquest narrative but provides no aggregate death toll."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'French Sudan' / 'Toucouleur Empire' — the French capture of Segou (1890) and Nioro (1891) breaking Ahmadu Tall's state, and the subsequent colonial administration of the Western Sudan",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Toucouleur_Empire",
+          "caveat": "Tertiary aggregator; used for the conquest chronology of the Toucouleur successor state, not for casualty figures."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "mli-2",
+      "country": "MLI",
+      "role": "victim",
+      "title": "The northern Mali / Sahel war: civilians under jihadist occupation and inter-communal massacre",
+      "era": "2012–present",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "A still-running armed conflict in which separatist, jihadist, ethnic-militia and state forces have all killed civilians — organized armed violence with heavy civilian targeting, so WAR; the identity-based massacres within it (e.g. Ogossagou) shade toward atrocity but the overall event is a civil war.",
+      "agent": "Multiple armed actors against Malian civilians — Tuareg MNLA separatists and the jihadist groups AQIM, Ansar Dine and MUJAO who seized the north in 2012 and imposed amputations, floggings and executions, plus ethnic self-defence militias (notably Dan Na Ambassagou) that massacred Fulani villagers",
+      "toll": {
+        "display": "tens of thousands killed conflict-wide; specific massacres in the hundreds (e.g. ~160 at Ogossagou, 2019)",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "No single agreed aggregate death toll exists for the open-ended Mali/Sahel war, and none is invented here. Conflict-monitoring projects (e.g. ACLED) put Sahel-wide fatalities since 2012 in the tens of thousands, but a Mali-specific, civilian-only figure spanning 2012-present is not reliably sourceable as a single number, so low/high are left null. Well-documented component atrocities against civilians include the 2012 jihadist occupation of the north (summary executions, amputations, public floggings, destruction of Timbuktu shrines, child-soldier use, ~60,000 displaced by mid-2012) and the 23 March 2019 Ogossagou massacre, in which Dogon militiamen killed roughly 160 Fulani villagers. This event is marked UNVERIFIED because the aggregate toll is not sourceable as a defensible number. AUDIT QUARANTINE 2026-06-18: all three cited sources are real and resolve live. HRW 'Mali: War Crimes by Northern Rebels' (30 Apr 2012) verified — documents summary executions, hand amputation, public flogging (80 lashes), rape of a 14-year-old, and MNLA/Ansar Dine child combatants. FIDH/AMDH report N°592a (Dec 2012) verified real (PDF resolves; binary not machine-parseable here, but title, date, number and findings independently confirmed via FIDH index — rape, summary executions, plundering, child recruitment, the 24 Jan 2012 Aguelhok execution of 153 captured soldiers). Mali War / Ogossagou massacre articles verified — Ogossagou ~160 Fulani killed 23 Mar 2019 (Malian-government count; some sources 130-134), disclosed. The ~60,000-displaced-by-mid-2012 figure is plausible but not pinned to a quoted line in the cited Mali War article excerpt. No aggregate Mali-specific civilian toll is sourceable as a single number, so low/high stay null; status remains UNVERIFIED for that reason, not for any fabricated source.",
+        "caveat": null
+      },
+      "received_lens": "contested",
+      "summary": "When Tuareg MNLA rebels and allied jihadists (AQIM, Ansar Dine, MUJAO) seized northern Mali in 2012 they imposed a brutal order — summary executions, hand amputations, public floggings, the smashing of Timbuktu's saint shrines and the use of child soldiers — driving tens of thousands to flee; as the war spread south it curdled into ethnic massacre, and in March 2019 Dogon militiamen killed roughly 160 Fulani villagers at Ogossagou, one of the deadliest single attacks of the conflict. Malian civilians have been the mass victims throughout.",
+      "relevance": "Malians are the mass victims of this war — but some of the forces killing them (the Malian army and its Wagner allies) are the same state actors who appear on the perpetrator ledger, so the victim and perpetrator columns overlap in real time.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Human Rights Watch, 'Mali: War Crimes by Northern Rebels' (30 April 2012) — summary executions, amputation, public floggings, rape and child-soldier use by Islamist and Tuareg armed groups occupying northern Mali",
+          "supports": "summary",
+          "url": "https://www.hrw.org/news/2012/04/30/mali-war-crimes-northern-rebels",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Mali War' — the 2012 Tuareg/jihadist seizure of the north, the ~60,000 displaced by mid-2012, and the spread of the conflict; the 'Ogossagou massacre' entry records roughly 160 Fulani killed by Dogon militia on 23 March 2019",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Mali_War",
+          "caveat": "Tertiary aggregator; used for chronology and the attributed Ogossagou figure, not for any single aggregate war toll."
+        },
+        {
+          "kind": "press",
+          "cite": "FIDH/AMDH, 'War crimes in North Mali' (N°592a, December 2012) — joint investigation documenting executions, sexual violence and abuses against civilians under the northern occupation",
+          "supports": "summary",
+          "url": "https://www.fidh.org/IMG/pdf/mali592ang.pdf",
+          "caveat": "Human-rights advocacy report; rigorous field documentation, used for the specific, corroborated abuses it records rather than for an aggregate toll."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "mli-3",
+      "country": "MLI",
+      "role": "perpetrator",
+      "title": "El Hadj Umar Tall's Toucouleur jihad and the conquest of Massina",
+      "era": "c.1852–1864",
+      "era_band": "pre-colonial",
+      "tier": "WAR",
+      "tier_reasoning": "A decade-long jihadist war of conquest across the Niger bend — against the animist Bambara kingdoms of Kaarta and Segu and the rival Muslim Massina Caliphate — culminating in the six-day Battle of Cayawal; tiered WAR for large-scale organized armed conflict between states, the most lethal of which (Cayawal) was a pitched battle rather than a targeted extermination.",
+      "agent": "El Hadj Umar Tall — Tijaniyya Sufi leader and his Umarian (Toucouleur) army, conquering the Bambara state of Kaarta (Nioro, 1855) and Segu (1861) and then crushing the Massina Caliphate of Hamdullahi (1862)",
+      "toll": {
+        "display": "~40,000 dead at Cayawal alone; 'more than 70,000' across the Massina war",
+        "disputed": true,
+        "low": 40000,
+        "high": 70000,
+        "unit": "deaths",
+        "note": "The figures attach to the war against the Massina Caliphate, the bloodiest phase of Umar Tall's jihad. The Battle of Cayawal (10 May 1862, six days): Massina forces (~50,000) lost roughly 30,000 dead and the Umarian side (~30,000) roughly 10,000, for about 40,000 dead in that single battle — the low end here. The wider Massina war toll is cited as 'more than 70,000 died in the battles that followed' — the high end. Both figures derive from the same secondary tradition and should be read as orders of magnitude for pre-modern battlefield mortality rather than precise counts; they cover the Massina campaign specifically, not the whole jihad (the earlier conquests of Kaarta and Segu and their subject revolts are additional but unquantified). Disputed flag set because pre-colonial casualty figures of this kind are inherently uncertain.",
+        "caveat": null
+      },
+      "received_lens": "contested",
+      "audit_note": "AUDIT 2026-06-18: all three sources verified live. Battle of Cayawal article confirms 10-15 May 1862 (six days), Umarian ~30,000 vs Massina ~50,000, ~10,000 and ~30,000 dead = ~40,000 (toll.low). Toucouleur Empire article confirms the exact phrase 'More than 70,000 died in the battles that followed' (toll.high) plus Kaarta/Nioro 1855 and Segu 1861. Britannica 'The jihad of Umar Tal' confirmed extant and corroborates the campaign chronology. Both toll ends independently sourced; tier WAR re-derived independently (pitched-battle conquest, not disease-driven/extermination). Status RESEARCHED -> VERIFIED.",
+      "summary": "From the early 1850s El Hadj Umar Tall waged a Tijaniyya jihad across the Niger bend, conquering the animist Bambara kingdoms of Kaarta (1855) and Segu (1861) and then turning on the rival Muslim Massina Caliphate he accused of lax faith; his war against Massina climaxed in the six-day Battle of Cayawal in May 1862, where roughly 40,000 men died and Massina's ruler Amadu III was captured and beheaded, after which Hamdallahi fell and was sacked. More than 70,000 are said to have died across the campaign.",
+      "relevance": "Long before France conquered Mali, a Malian-territory state expanded by mass-lethal conquest of its neighbours — the empire-building violence that the colonial-victim ledger can otherwise obscure.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Battle of Cayawal' — the six-day battle of 10 May 1862; Umarian forces ~30,000 vs Massina ~50,000; Massina ~30,000 dead and Umarian ~10,000 dead; the beheading of Amadu III and the fall of Hamdallahi",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Cayawal",
+          "caveat": "Tertiary aggregator drawing on the secondary historiography of the Umarian jihad; pre-colonial casualty figures are inherently approximate."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Toucouleur Empire' — Umar Tall's conquest of Kaarta (Nioro, 1855) and Segu (1861), the Bambara/Massina revolts, and 'more than 70,000 died in the battles that followed' in the Massina war",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Toucouleur_Empire",
+          "caveat": "Tertiary aggregator; the 70,000 figure derives from the same secondary tradition and is an order-of-magnitude estimate for the Massina campaign, not a precise count."
+        },
+        {
+          "kind": "reference",
+          "cite": "Encyclopaedia Britannica, 'Western Africa: The jihad of Umar Tal' — the chronology of Umar Tall's jihad: Fouta conquest, Kaarta, Segu, the 1862 attack on Massina, and his 1864 defeat and death at Bandiagara/Deguembere",
+          "supports": "summary",
+          "url": "https://www.britannica.com/place/western-Africa/The-jihad-of-Umar-Tal",
+          "caveat": "Tertiary reference work; corroborates the campaign narrative, supplies no independent casualty figure."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "mli-4",
+      "country": "MLI",
+      "role": "perpetrator",
+      "title": "The Moura massacre",
+      "era": "2022",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "A five-day operation in which government forces and allied mercenaries summarily executed several hundred detained, mostly unarmed civilians — deliberate mass killing of people in custody, a war crime / atrocity, so POL/atrocity rather than incidental combat death.",
+      "agent": "The Malian Armed Forces (FAMa) and allied foreign fighters widely identified as Russia's Wagner Group (~100 personnel) — under the post-coup military junta of Assimi Goita",
+      "toll": {
+        "display": "at least 300 (HRW) to 500+ (UN) executed",
+        "disputed": true,
+        "low": 300,
+        "high": 500,
+        "unit": "deaths",
+        "note": "From 27-31 March 2022 the Malian army and allied foreign (apparent Wagner) fighters laid siege to the town of Moura, Mopti region. Human Rights Watch documented 'over 300 civilians' killed — the low end. A UN human-rights fact-finding report concluded that at least 500 people were summarily executed over the five days (the team obtained names for at least 238 victims) — the high end. The Malian government claimed it killed 203 'terrorists'; investigators found that while some jihadists were present at the outset, the great majority of the dead were unarmed civilians. The UN report also documented at least 58 women and girls subjected to rape or other sexual violence. Disputed flag set because the HRW and UN counts diverge and Mali blocked independent access to the site.",
+        "caveat": null
+      },
+      "received_lens": "denied",
+      "audit_note": "AUDIT 2026-06-18: all three sources verified live and quote-checked. HRW 'Mali: Massacre by Army, Foreign Soldiers' (5 Apr 2022) confirms 'at least 300' executed at Moura 27-31 Mar 2022 by Malian forces + apparent Russian/Wagner fighters (toll.low). UN News/OHCHR (12 May 2023) confirms 'over 500' summarily executed, at least 238 victims named, at least 58 women/girls subjected to sexual violence (toll.high). Wikipedia 'Moura massacre' corroborates dates, both tolls and the junta's '203 terrorists' claim. Both toll ends independently sourced; HRW/UN divergence and Mali's blocking of site access disclosed in toll.note. Tier POL re-derived independently (deliberate mass execution of detained civilians = atrocity, not combat). Status RESEARCHED -> VERIFIED.",
+      "summary": "Over five days in late March 2022 the Malian army and roughly 100 allied foreign fighters — widely identified as Russia's Wagner Group — surrounded the town of Moura and, after an initial firefight, rounded up and summarily executed several hundred detained men over the following days; Human Rights Watch counted over 300 dead and a UN inquiry concluded at least 500, the great majority unarmed civilians, with at least 58 women and girls raped. The junta called the dead 'terrorists' and barred investigators from the site.",
+      "relevance": "The state that the contemporary victim ledger shows fighting jihadists is also the state that committed the war's single worst massacre against its own villagers — counter-insurgent turned mass executioner.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Human Rights Watch, 'Mali: Massacre by Army, Foreign Soldiers' (5 April 2022) — over 300 civilians summarily executed at Moura, 27-31 March 2022, by Malian forces and apparent Wagner fighters",
+          "supports": "toll.low",
+          "url": "https://www.hrw.org/news/2022/04/05/mali-massacre-army-foreign-soldiers",
+          "caveat": null
+        },
+        {
+          "kind": "primary",
+          "cite": "UN News / OHCHR fact-finding report (12 May 2023) — at least 500 people summarily executed at Moura over five days in March 2022 by Malian troops and foreign military personnel; at least 238 victims named; at least 58 women and girls subjected to sexual violence",
+          "supports": "toll.high",
+          "url": "https://news.un.org/en/story/2023/05/1136607",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Moura massacre' — corroborates dates (27-31 March 2022), the HRW (300+) and UN (500+) tolls, the Malian government's '203 terrorists' claim, and the ~100 apparent Wagner personnel",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Moura_massacre",
+          "caveat": "Tertiary aggregator; each figure is individually attributed to HRW, the UN, or the Malian government, and used here only as a compilation of those attributed numbers."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

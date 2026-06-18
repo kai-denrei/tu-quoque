@@ -1,0 +1,204 @@
+{
+  "iso": "SYR",
+  "name": "Syria",
+  "note": "Built from scratch 2026-06-18 via live web research. Both ledgers are populated and the entry is deliberately asymmetric in weight: the perpetrator side is the larger and better-documented of the two, because the single dominant fact of modern Syrian history is a family dynasty — Hafez al-Assad and then his son Bashar — that for half a century waged war on its own population. Perpetrator side: the 1982 Hama massacre that flattened a city to crush the Muslim Brotherhood, the 2013 Ghouta sarin attack on the Damascus suburbs, and the industrial-scale torture and execution machine of the prison system (Saydnaya and the Caesar-photographed military hospitals). Victim side: the French Mandate's bombardment of Damascus during the Great Syrian Revolt of 1925, and the mass civilian death of the 2011–present civil war taken as a whole. There is genuine overlap and a deliberate choice in how the war is split: the broad civil-war civilian toll sits in the victim ledger (Syrians killed in a war fought across their country by many hands — regime, allied Russia and Iran, ISIS, rival rebels, and the US-led coalition), while the regime's own discrete, deliberate atrocities (Hama, Ghouta, the prisons) sit in the perpetrator ledger, since monitors attribute the large majority of civilian deaths to the Assad government. The Sayfo (Assyrian genocide of 1915), though it touched the Jazira, fell mainly on Assyrian/Syriac Christians in Ottoman Anatolia, Iraq and Persia and is recorded against the Ottoman/Turkish successor state, not here. No figure or citation was invented; where scholarship diverges, both ends are sourced.",
+  "events": [
+    {
+      "id": "syr-1",
+      "country": "SYR",
+      "role": "victim",
+      "title": "The French Bombardment of Damascus and the Great Syrian Revolt",
+      "era": "1925–1927",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "France crushed a colonial uprising by shelling and bombing an inhabited city and razing villages — mass killing carried out as a counter-insurgency war, which is WAR rather than a campaign to exterminate a people.",
+      "agent": "Mandatory France — the army of High Commissioner Maurice Sarrail, using artillery and aerial bombardment against Damascus and rebel districts",
+      "toll": {
+        "display": "hundreds killed in the October 1925 bombardment of Damascus alone; on the order of several thousand dead across the whole 1925–27 revolt (one Wikipedia tally gives ~4,200)",
+        "disputed": true,
+        "low": 4000,
+        "high": 6000,
+        "unit": "deaths",
+        "note": "Figures are incomplete and contested for a colonial-era conflict. The October 1925 bombardment of Damascus is described by sources as killing 'hundreds' of inhabitants and gutting whole quarters (the Hariqa — 'the fire' — district is named for it); a separate 1926 shelling of the Maydan quarter is put at 600–1,000 dead. One Wikipedia compilation gives a total revolt death toll of about 4,213 Syrians across all governorates; other accounts imply a higher figure once rural villages razed in reprisals are included. The low (~4,000) reflects the documented compilation; the high (~6,000) allows for the under-counted rural and reprisal deaths. No precise, agreed total exists. [AUDIT 2026-06-18: sources verified — Wikipedia '4,213' total confirmed (731 in Damascus/Ghouta governorate, 2,064 in Jabal al-Druze) and HHR Atlas (Bogliolo, Melbourne Law School) confirms 'hundreds killed' in the 18–21 Oct 1925 bombardment. FLAG: the high end (~6,000) is an analytic allowance for under-counted rural/reprisal deaths, NOT a sourced number — only the low (~4,213) has a hard source. This is disclosed, not invented; the only documented total is the ~4,213 floor.]"
+      },
+      "received_lens": "memorial",
+      "summary": "When a nationalist and Druze revolt against French rule reached Damascus in October 1925, the French high commissioner ordered the old city bombarded by artillery and aircraft for roughly two days, gutting whole neighbourhoods and killing hundreds; across the two-year revolt French forces also shelled the Maydan quarter and burned villages in reprisal, leaving several thousand Syrians dead before the rising was finally put down in 1927.",
+      "relevance": "Syria's people on the receiving end of a European colonial power's firepower — the victim chapter that sits before the same state, once independent, turns the same kind of violence on its own population in the perpetrator ledger.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Great Syrian Revolt\" — Wikipedia (1925–27 uprising against French Mandate; 24-hour aerial/artillery bombardment of Damascus Oct 1925; total tally given as ~4,213 deaths across Syrian governorates; High Commissioner Maurice Sarrail)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Great_Syrian_Revolt",
+          "caveat": "Tertiary aggregator; the ~4,213 total is a single compiled figure for a colonial-era conflict with poor record-keeping and is best treated as an order-of-magnitude floor, not a precise count."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Online Atlas on the History of Humanitarianism and Human Rights (IEG Mainz), \"Damascus, 1925\" — the 18–21 October 1925 French bombardment of Damascus destroyed whole neighbourhoods and killed 'hundreds of its inhabitants,' becoming a scandal that helped delegitimize the mandate system",
+          "supports": "summary",
+          "url": "https://hhr-atlas.ieg-mainz.de/articles/bogliolo-damascus",
+          "caveat": "Scholarly humanitarian-history project; gives 'hundreds' killed in the city rather than a precise count, and frames the event partly through its impact on international humanitarian discourse."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "syr-2",
+      "country": "SYR",
+      "role": "victim",
+      "title": "Mass Civilian Death of the Syrian Civil War",
+      "era": "2011–present",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Civilians died on a mass scale in and around armed conflict — bombardment, siege, shelling and crossfire across a country fought over by many forces — which is WAR; the regime's own deliberate, targeted atrocities are broken out separately in the perpetrator ledger.",
+      "agent": "Many hands: principally the Assad government and its allies (Russia and Iran), but also ISIS, rival rebel factions, and the US-led coalition, in a war fought across Syria's cities and countryside",
+      "toll": {
+        "display": "~306,887 civilians killed Mar 2011–Mar 2021 (UN OHCHR estimate); total deaths including combatants put at ~580,000 (2021) to ~656,000 (2025) by war monitors",
+        "disputed": true,
+        "low": 306887,
+        "high": 656493,
+        "unit": "deaths",
+        "note": "The UN Human Rights Office (OHCHR) estimated 306,887 civilian deaths from direct war operations between 1 March 2011 and 31 March 2021 — 143,350 individually documented plus a further 163,537 assessed by statistical estimation — and stressed this excludes the larger number who died from collapsed access to healthcare, food and water. Counting combatants as well, war monitors put total deaths at roughly 580,000 (as of 2021) rising toward ~656,000 (as of 2025). The low here is the OHCHR civilian-only figure; the high is the total-deaths monitor figure. The Syrian Network for Human Rights attributes about 91% of civilian casualties to the Ba'athist government and its allies, which is why the regime's discrete atrocities also appear in the perpetrator ledger."
+      },
+      "received_lens": "contested",
+      "summary": "After the 2011 uprising was met with live fire, Syria collapsed into a civil war that has killed hundreds of thousands and displaced more than half the country's population; the UN's human-rights office documents roughly 307,000 civilians killed by war operations in the first decade alone, with total deaths including fighters estimated well above half a million.",
+      "relevance": "The defining modern catastrophe of the Syrian people as victims — even as monitors attribute most of those deaths to their own government, the same state that fills this entry's perpetrator ledger.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "UN News / UN OHCHR, \"Syria: Decade of brutal war left nearly 307,000 civilians dead\" (June 2022) — 306,887 civilian deaths 1 Mar 2011–31 Mar 2021; 143,350 documented + 163,537 statistically estimated; ~83 civilians killed per day",
+          "supports": "toll.low",
+          "url": "https://news.un.org/en/story/2022/06/1121532",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Casualties of the Syrian civil war\" — Wikipedia (total deaths incl. combatants ~580,000 as of May 2021 rising to ~656,493 by Mar 2025; SNHR attributes ~91% of civilian deaths to the government and allies)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Casualties_of_the_Syrian_civil_war",
+          "caveat": "Tertiary aggregator combining figures from multiple war monitors (SOHR, SNHR, VDC) whose methods and access differ; total-death figures are widely acknowledged undercounts of a still-unfinished war."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "syr-3",
+      "country": "SYR",
+      "role": "perpetrator",
+      "title": "The Hama Massacre",
+      "era": "1982",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "Hafez al-Assad's government besieged and shelled a city for weeks to annihilate an Islamist uprising and the population that harboured it — mass political killing to crush opposition, which is POL; the indiscriminate flattening of the city pushes hard toward the higher end of that category.",
+      "agent": "Ba'athist Syria under Hafez al-Assad — the Syrian Arab Army and the Defense Companies paramilitary commanded by his brother Rifaat al-Assad",
+      "toll": {
+        "display": "estimates range from ~5,000–10,000 (HRW, low) to 25,000–40,000 (Syrian opposition/SNHR, high); ~20,000 commonly cited",
+        "disputed": true,
+        "low": 5000,
+        "high": 40000,
+        "unit": "deaths",
+        "note": "The figure is genuinely contested. A 1990 Human Rights Watch report estimated 5,000–10,000 dead; Amnesty International put it at 10,000–25,000; journalist Robert Fisk, present soon after, first said ~10,000 and later doubled the estimate to ~20,000; the Syrian Human Rights Committee and Syrian Network for Human Rights cite 30,000–40,000; Rifaat al-Assad himself was reported to have boasted of 38,000 killed. The low here is HRW's conservative floor; the high is the ~40,000 opposition figure. Thousands more were forcibly disappeared. The 27-day siege ran 2–28 February 1982."
+      },
+      "received_lens": "suppressed",
+      "summary": "In February 1982, to stamp out a Muslim Brotherhood uprising, Hafez al-Assad's army and his brother Rifaat's paramilitaries surrounded the city of Hama and shelled it for nearly a month, then went through the ruins killing; whole districts were levelled and thousands of residents died, in what is often called the single deadliest act by an Arab state against its own people in modern times — a slaughter the regime then buried in silence for decades.",
+      "relevance": "The founding atrocity of the Assad dynasty's perpetrator record, and the template — total violence against an internal rising — that the son would repeat at far larger scale after 2011.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"1982 Hama massacre\" — Wikipedia (2–28 Feb 1982; ordered by Hafez al-Assad, carried out by the Syrian Arab Army and Rifaat al-Assad's Defense Companies; estimates 5,000–10,000 HRW, 10,000–25,000 Amnesty, ~20,000 Fisk, 30,000–40,000 opposition, 38,000 boasted by Rifaat)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/1982_Hama_massacre",
+          "caveat": "Tertiary aggregator; the high-end figures originate with Syrian opposition bodies and a boast attributed to the perpetrator, while the low end is HRW's — carried as the bounds of a genuinely unresolved range, not a settled count."
+        },
+        {
+          "kind": "press",
+          "cite": "France 24 (AFP), \"40 years on, Hama survivors recall horror of Assad-era massacre\" (Jan 2025) — survivor testimony to the 1982 siege and killings; reiterates the contested 10,000–40,000 toll range",
+          "supports": "summary",
+          "url": "https://www.france24.com/en/live-news/20250131-40-years-on-hama-survivors-recall-horror-of-assad-era-massacre",
+          "caveat": "Press reporting built on survivor testimony decades later; corroborates the event and its scale rather than fixing a precise number."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "syr-4",
+      "country": "SYR",
+      "role": "perpetrator",
+      "title": "The Ghouta Chemical Attack",
+      "era": "2013",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "The government fired nerve-agent rockets into rebel-held civilian suburbs, killing hundreds of non-combatants in their homes in a matter of hours — a deliberate mass killing of an opposition population with a banned weapon, which is POL.",
+      "agent": "Ba'athist Syria under Bashar al-Assad — government forces firing sarin-filled surface-to-surface rockets",
+      "toll": {
+        "display": "estimates range from ~281 (low) to ~1,429 (US government, high); on-the-ground NGOs ~1,400",
+        "disputed": true,
+        "low": 281,
+        "high": 1729,
+        "unit": "deaths",
+        "note": "Death-toll estimates for the 21 August 2013 attack range from about 281 to 1,729. The US government assessed 1,429 killed, including 426 children, based on intelligence and open-source reporting; medical teams and NGOs on the ground gave figures around 1,400, more than half women and children; lower counts (Médecins Sans Frontières reported ~355 confirmed dead among those it treated) anchor the bottom of the range. A UN investigation found 'clear and convincing evidence' of sarin delivered by surface-to-surface rockets, with the indicators pointing to the government's chemical stockpile and expertise. The low here is the conservative confirmed-death end; the high is the upper estimate."
+      },
+      "received_lens": "denied",
+      "summary": "Before dawn on 21 August 2013, rockets filled with the nerve agent sarin slammed into the rebel-held Damascus suburbs of Ghouta, killing hundreds of sleeping civilians — many of them children — within hours; UN inspectors confirmed sarin had been used, and the weapon, expertise and trajectories pointed to Bashar al-Assad's military, which has denied responsibility ever since.",
+      "relevance": "The Assad state crossing into chemical mass-killing of its own civilian population — the most internationally notorious single atrocity of its perpetrator ledger.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Ghouta chemical attack\" — Wikipedia (21 Aug 2013, Ghouta/Damascus; sarin via surface-to-surface rockets; toll range ~281–1,729; US assessment 1,429 incl. 426 children; UN found 'clear and convincing evidence' of sarin)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Ghouta_chemical_attack",
+          "caveat": "Tertiary aggregator; the very wide toll range reflects competing counts (MSF, NGOs, US intelligence) from a chaotic chemical-attack scene, carried with both ends shown."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, \"Attacks on Ghouta: Analysis of Alleged Use of Chemical Weapons in Syria\" (Sept 2013) — attributes the rocket attack to Syrian government forces based on munitions, trajectories and the regime's chemical capability",
+          "supports": "summary",
+          "url": "https://www.hrw.org/report/2013/09/10/attacks-ghouta/analysis-alleged-use-chemical-weapons-syria",
+          "caveat": "Human-rights organization; its attribution to government forces is disputed by the Syrian government and its allies, but is consistent with the UN inspectors' technical findings."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "syr-5",
+      "country": "SYR",
+      "role": "perpetrator",
+      "title": "Systematic Torture and Mass Execution in the Prisons (Saydnaya and the Caesar Files)",
+      "era": "2011–2024",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "The government ran its detention system as a machine for killing political prisoners — mass secret hangings, torture, and death by deliberate starvation and denial of care — systematic political murder, which is POL.",
+      "agent": "Ba'athist Syria under Bashar al-Assad — military intelligence, the security services, and the Saydnaya and military-prison administration",
+      "toll": {
+        "display": "Amnesty 5,000–13,000 hanged at Saydnaya (2011–2015); SOHR ~30,000 killed at Saydnaya since 2011; ~11,000 bodies documented in the Caesar photos (2011–2013)",
+        "disputed": true,
+        "low": 5000,
+        "high": 30000,
+        "unit": "deaths",
+        "note": "Estimates diverge with access and method. Amnesty International estimated that 5,000–13,000 people were extrajudicially hanged at Saydnaya military prison between September 2011 and December 2015, on top of many more dying from torture and deliberate deprivation; the Syrian Observatory for Human Rights estimated some 30,000 prisoners killed at Saydnaya since 2011. Separately, the 'Caesar' photographs — about 55,000 images smuggled out by a military-police defector — documented roughly 11,000 dead detainees from Damascus military hospitals between May 2011 and August 2013, bearing marks of starvation, beating and strangulation. The UN and HRW describe 'tens of thousands' dead across the wider detention system. The low here is Amnesty's Saydnaya floor; the high is the SOHR Saydnaya figure; the toll across all facilities is larger still."
+      },
+      "received_lens": "denied",
+      "summary": "Throughout the war the Assad government ran its prisons — Saydnaya above all — as killing facilities: detainees were hanged in secret mass executions, tortured to death, or left to die of starvation and untreated disease, while a military photographer codenamed 'Caesar' smuggled out tens of thousands of images cataloguing roughly eleven thousand emaciated and beaten corpses, evidence that turned the prison system into one of the best-documented atrocities of the century.",
+      "relevance": "The bureaucratic, industrialized core of the Assad state's perpetrator record — killing carried out not in battle but inside the machinery of the state itself, against its own detained citizens.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, \"If the Dead Could Speak: Mass Deaths and Torture in Syria's Detention Facilities\" (Dec 2015) — analysis of the Caesar photographs documenting ~11,000 dead detainees (2011–2013) bearing signs of starvation, beating and strangulation",
+          "supports": "summary",
+          "url": "https://www.hrw.org/report/2015/12/16/if-dead-could-speak/mass-deaths-and-torture-syrias-detention-facilities",
+          "caveat": "Human-rights organization; the ~11,000 figure is the count documented in the Caesar photo set from two Damascus military hospitals, not the full death toll of the detention system."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Sednaya Prison\" — Wikipedia (Amnesty Int'l: 5,000–13,000 hanged Sept 2011–Dec 2015; SOHR: ~30,000 killed since 2011; mass secret hangings, torture, deliberate deprivation of food/water/medicine)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Sednaya_Prison",
+          "caveat": "Tertiary aggregator; figures span estimates from Amnesty (carefully bounded) to SOHR (higher, with less methodological transparency), carried as the range bounds for a closed-prison death toll that cannot be precisely fixed."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

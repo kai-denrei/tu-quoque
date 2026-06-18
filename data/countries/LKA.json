@@ -1,0 +1,186 @@
+{
+  "iso": "LKA",
+  "name": "Sri Lanka",
+  "note": "Sri Lanka's two ledgers are unusually entangled because most of its modern mass violence was inflicted by the island's own state and majority on its own people rather than by an outside power. As victim, the clearest external case is colonial: the British scorched-earth suppression of the 1818 Uva-Wellassa rebellion devastated the Kandyan interior. The 2009 finale of the civil war is placed here too because the tens of thousands killed were Sri Lankan Tamil civilians — Sri Lanka's own people — even though the agent was the Sri Lankan state, which is precisely the dual-lens point. As perpetrator, the Sinhalese-majority state and its allies carried out the anti-Tamil Black July pogrom of 1983 and crushed the two JVP insurrections (1971 and 1987-89) with mass extrajudicial killings of overwhelmingly Sinhalese youth. The 2009 toll is an order-of-magnitude dispute (roughly 7,000 confirmed to 70,000+ unaccounted, with census-based and advocacy figures running far higher), so that event and the JVP suppression are marked UNVERIFIED to flag that the body counts are unresolved. No figure or source here was invented to balance the ledgers; the asymmetry — a country far more documented as perpetrator-against-its-own than as victim-of-outsiders — is left visible.",
+  "events": [
+    {
+      "id": "lka-1",
+      "country": "LKA",
+      "role": "victim",
+      "title": "British suppression of the 1818 Uva-Wellassa rebellion",
+      "era": "1817-1818",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "British forces under Governor Brownrigg used a deliberate scorched-earth policy — burning paddy, destroying irrigation works, killing livestock and salt stocks — that turned the Kandyan interior's breadbasket into famine country, so the mass death came chiefly from engineered starvation and collapse rather than an attempt to exterminate the population as such, placing it at STR.",
+      "agent": "The British colonial administration of Ceylon under Governor Robert Brownrigg and its military",
+      "toll": {
+        "display": "~10,000+ Kandyans killed (contemporary English estimate; against ~900-2,000 British dead)",
+        "disputed": true,
+        "low": 10000,
+        "high": null,
+        "unit": "deaths",
+        "note": "English-language writers of the period put the rebel/Kandyan death toll at around 10,000, against roughly 900-2,000 British and allied losses, at a time when the whole island's population was under three million. There was no census of the dead and the figure is an early colonial estimate, not a verified count; the deeper catastrophe was the deliberate destruction of the Uva-Wellassa irrigation systems and paddy fields, which brought lasting famine to a region that had been the rice bowl of the Kandyan kingdom. The high end is left null because no reliable upper bound exists."
+      },
+      "received_lens": "memorial",
+      "summary": "When Uva and Wellassa rose against British rule in 1817, the colonial government answered with collective punishment: troops burned villages and paddy fields, slaughtered cattle, destroyed the irrigation tanks and channels the region's agriculture depended on, and killed adult men across the rebel districts. The fighting itself was crushed within months, but the wrecked irrigation turned the Kandyan breadbasket into a zone of famine and depopulation that took generations to recover.",
+      "relevance": "The one large, clearly external-agent atrocity in Sri Lanka's record — the island as victim of an empire — standing against a modern history in which the worst killing was inflicted by Sri Lankans on Sri Lankans.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Great Rebellion of 1817-1818', Wikipedia — AUDIT-VERIFIED 2026-06-18 — the scorched-earth policy (killing of cattle and livestock, destruction of homes and salt stocks, burning of rice paddies), the figure of more than 10,000 Sinhalese killed against 900-2,000 British, and the later Crown Lands Ordinance confiscations",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Great_Rebellion_of_1817%E2%80%931818",
+          "caveat": "AUDIT-VERIFIED 2026-06-18 (scorched-earth policy, >10,000 Sinhalese killed vs ~1,000 British, Crown Lands confiscations all confirmed). Tertiary encyclopaedia; the 10,000 figure is an inherited contemporary English estimate, not an independently verified count — single-number toll with high end correctly left null."
+        },
+        {
+          "kind": "press",
+          "cite": "'Pride and tears of Uva Wellassa', The Sunday Times (Sri Lanka), 8 April 2018 — the systematic destruction of the Uva-Wellassa irrigation systems and paddy, the killing of the male population, and the ~10,000 death estimate against a national population under three million",
+          "supports": "toll.low",
+          "url": "https://www.sundaytimes.lk/180408/plus/pride-and-tears-of-uva-wellassa-288777.html",
+          "caveat": "AUDIT (2026-06-18): article confirmed to exist at this URL and title via search index (direct fetch returns HTTP 403 anti-scraping, not a missing page). Sri Lankan commemorative/nationalist feature written in a heroic-memorial register; used for the scorched-earth detail and the inherited toll, not as an independent statistical source."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "lka-2",
+      "country": "LKA",
+      "role": "victim",
+      "title": "Mullivaikkal and the final phase of the civil war",
+      "era": "2009",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Most of the dead were Tamil civilians killed by indiscriminate government shelling of declared No-Fire Zones packed with the displaced — a campaign that UN bodies describe as serious violations of the laws of war — so the act is classed WAR, while noting that Tamil groups and the 2021 UN rights chief have argued it should be weighed as genocide/atrocity crimes.",
+      "agent": "The Sri Lankan Armed Forces (under President Mahinda Rajapaksa and Defence Secretary Gotabaya Rajapaksa), with the LTTE holding civilians as a human shield",
+      "toll": {
+        "display": "~7,000 confirmed to 40,000-70,000+ (UN); census-based and advocacy estimates up to ~146,000-170,000",
+        "disputed": true,
+        "low": 7000,
+        "high": 70000,
+        "unit": "deaths",
+        "note": "AUDIT QUARANTINE (2026-06-18): event remains UNVERIFIED. The body count is an irreducible order-of-magnitude political dispute, and two source-integrity defects were found and corrected on audit: (a) the UN Panel of Experts source URL originally cited (un.org/News/dh/infocus/Sri_Lanka/POE_Report_Full.pdf) is now DEAD (HTTP 404) and has been replaced with a resolving authoritative UN-documents host; (b) the Mullivaikkal-massacre source cite over-claimed — that article supports the '40,000 to 70,000' framing but does NOT contain the 146,679-unaccounted or ITJP 169,796 figures, so its cite has been narrowed to what it actually carries. Substance verified: the UN country team counted about 6,500-7,000 civilians killed and 14,000 injured between mid-January and mid-April 2009 (a conservative wartime floor; VERIFIED). The 2011 UN Panel of Experts said credible sources estimate 'as many as 40,000' civilian deaths (VERIFIED). Several human-rights groups put the toll as high as 70,000 (VERIFIED as the bracketing high). The ~146,679 unaccounted figure is the Bishop of Mannar Rayappu Joseph's submission (people unaccounted Oct 2008-end of war), not a formal census, so its attribution as 'local census/family records' is loose but the figure is genuine; the International Truth and Justice Project's highest figure of ~169,796 refers to civilians DISAPPEARED (not confirmed killed) Jan-May 2009 (VERIFIED, methodology distinct). The displayed low (7,000) and high (70,000) are the bracketing UN/HR-group figures; the higher missing/disappeared numbers are reported but not adopted as the killed high end. UN bodies attribute the large majority of deaths to Sri Lankan Army shelling, including of food queues and hospitals, while the LTTE prevented civilians from fleeing and shot some who tried."
+      },
+      "received_lens": "denied",
+      "summary": "In the first five months of 2009 the Sri Lankan military drove the cornered LTTE and hundreds of thousands of Tamil civilians into an ever-shrinking strip of the northeast coast around Mullivaikkal. The government declared No-Fire Zones and then shelled them — hitting hospitals, food distribution points and the displaced in the open — while the LTTE held the same civilians as a human shield and killed some who tried to escape. The war ended in May 2009 with the LTTE annihilated and tens of thousands of Tamil civilians dead; no one has been held accountable, and Colombo continues to dispute the toll.",
+      "relevance": "The dual-lens crux: the dead were Sri Lanka's own Tamil citizens, making this the island's gravest victim event of the modern era — yet the agent was the Sri Lankan state, the same actor that fills the perpetrator ledger.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Casualties of the Sri Lankan civil war', Wikipedia — the UN country-team count of ~6,500 killed / 14,000 injured (mid-Jan to mid-Apr 2009), the Panel of Experts 'as many as 40,000', and the overall war range",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Casualties_of_the_Sri_Lankan_civil_war",
+          "caveat": "AUDIT-VERIFIED 2026-06-18 (UN country-team ~6,500 killed / 14,000 injured mid-Jan to mid-Apr 2009, and the POE 'as many as 40,000' both confirmed in this article). Tertiary encyclopaedia aggregating estimates that span an order of magnitude; the ~7,000 floor was itself gathered under wartime conditions with limited access."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Mullivaikkal massacre', Wikipedia — the UN-cited framing that 'between 40,000 and 70,000 entrapped Tamil civilians were killed by the actions of government forces and the LTTE', the attribution of the large majority of deaths to indiscriminate Sri Lankan Army shelling, and the ITJP figure of ~169,796 civilians disappeared Jan-May 2009 (the 146,679-unaccounted Bishop-of-Mannar figure is in the 'Casualties of the Sri Lankan civil war' article, not this one)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Mullivaikkal_massacre",
+          "caveat": "AUDIT (2026-06-18): verified to support the 40,000-70,000 killed framing (which backs the displayed high of 70,000); the original cite over-claimed by attributing the 146,679 and >70,000-unaccounted figures to this page, which it does not carry — cite narrowed accordingly. Tertiary encyclopaedia; the highest figures derive from Tamil advocacy and census-gap reconstructions that Colombo rejects, so they are reported as the upper bound rather than a settled count."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Report of the Secretary-General's Panel of Experts on Accountability in Sri Lanka (United Nations, 2011; the 'Darusman Report') — finding that the large majority of civilian deaths resulted from indiscriminate Sri Lankan Army shelling, including of No-Fire Zones, hospitals and food lines, alongside LTTE use of civilians as a human shield, and that credible sources estimate as many as 40,000 civilian deaths",
+          "supports": "summary",
+          "url": "https://www.securitycouncilreport.org/un-documents/document/poc-rep-on-account-in-sri-lanka.php",
+          "caveat": "AUDIT (2026-06-18): the report is genuine and the '40,000' framing and shelling-attribution findings are verified, but the originally cited URL (un.org/News/dh/infocus/Sri_Lanka/POE_Report_Full.pdf) now returns HTTP 404 — replaced with a resolving UN-documents host (Security Council Report), which links to the full report at UN Digital Library record 3961113. An expert advisory panel report, not a judicial finding; Sri Lanka's government formally rejected it."
+        },
+        {
+          "kind": "press",
+          "cite": "'Still No Justice on Sri Lanka War Anniversary', Human Rights Watch, 16 May 2023; and Amnesty International, 'Fifteen years after the end of war, victims still await justice at Mullivaikkal', May 2024 — documenting government shelling of civilians and the continued absence of accountability",
+          "supports": "tier",
+          "url": "https://www.hrw.org/news/2023/05/16/still-no-justice-sri-lanka-war-anniversary",
+          "caveat": "AUDIT (2026-06-18): both pieces confirmed to exist — the HRW article was fetched and verifies the NFZ-shelling and accountability claims; the Amnesty May-2024 statement is confirmed at this title/URL via search index (direct fetch returns HTTP 403 anti-scraping). Human-rights advocacy organisations; authoritative on the pattern of violations and impunity but not neutral statistical sources for the toll."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "lka-3",
+      "country": "LKA",
+      "role": "perpetrator",
+      "title": "Black July anti-Tamil pogrom",
+      "era": "1983",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Sinhalese mobs, with members of the ruling UNP organising and security forces standing aside, hunted and killed Tamil civilians using government voter rolls to find Tamil homes and businesses — a targeted assault on an ethnic minority for political ends that placed it at POL, and which some scholars and Tamil groups characterise as the opening act of genocide.",
+      "agent": "Sinhalese mobs directed in part by members of the ruling United National Party (notably minister Cyril Mathew), with the Sri Lankan police and army largely failing to intervene",
+      "toll": {
+        "display": "~400-600 (government) to ~3,000 and higher (Tamil/NGO estimates); 18,000 homes destroyed, ~150,000 displaced",
+        "disputed": true,
+        "low": 400,
+        "high": 3000,
+        "unit": "deaths",
+        "note": "The government put the dead at roughly 400-600, almost all Tamils; Tamil and human-rights sources estimate around 3,000 killed, with the Tamil Centre for Human Rights claiming a far higher 5,638. Beyond the dead, mobs destroyed about 18,000 homes and 5,000 businesses and displaced an estimated 90,000-150,000 people; the pogrom triggered an exodus of perhaps 500,000 Tamils abroad and helped ignite the 26-year civil war. The displayed range (400-3,000) brackets the official low and the common higher estimate; the TCHR figure is a contested outlier noted but not adopted."
+      },
+      "received_lens": "denied",
+      "summary": "After the LTTE killed 13 soldiers in an ambush on 23 July 1983, anti-Tamil violence erupted in Colombo and spread across the island. Over about a week, Sinhalese mobs — some carrying typed lists of Tamil homes and businesses compiled from government electoral rolls, and in places led by ruling-party figures — burned, looted and killed while police and soldiers mostly stood by or joined in. Hundreds to several thousand Tamils were killed, tens of thousands of homes and shops destroyed, and a vast Tamil exodus began. No one has ever been prosecuted.",
+      "relevance": "The state-enabled massacre of its own Tamil citizens that turned a simmering insurgency into full civil war — the perpetrator face of the same nation whose Tamils appear as victims in 2009.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Black July', Wikipedia — the 23 July ambush trigger, the government figure of ~400-600 dead versus higher estimates up to ~3,000 and the TCHR's 5,638, the use of voter lists, UNP minister Cyril Mathew's role, and the 18,000 homes / 5,000 businesses destroyed and ~150,000 displaced",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Black_July",
+          "caveat": "AUDIT-VERIFIED 2026-06-18 (400-3,000 range, TCHR 5,638, voter-registration-list targeting, Cyril Mathew's role, 18,000 homes / 5,000 shops, 150,000-250,000 displaced all confirmed in this article). Tertiary encyclopaedia; toll figures range from a government low to advocacy highs, and the highest (5,638, TCHR) is an outlier flagged in the toll note."
+        },
+        {
+          "kind": "press",
+          "cite": "'What are Black July massacres that triggered Sri Lanka's 26-year civil war?', Al Jazeera, 27 July 2023 — the 23 July 1983 landmine ambush that killed 13 soldiers, the government's figure of 400-600 dead (mostly Tamils), and minority groups' claim that the true toll 'could be in the thousands' (which backs the displayed high of ~3,000)",
+          "supports": "toll.high",
+          "url": "https://www.aljazeera.com/news/2023/7/27/what-are-black-july-massacres-that-triggered-sri-lankas-26-year-civil-war",
+          "caveat": "AUDIT (2026-06-18): verified to support the 400-600 government figure, the 'toll in the thousands' high end, and the ambush trigger. The original cite over-claimed: this article does NOT contain the voter-lists detail, the specific 3,000 / 18,000-homes / 90,000-150,000-displaced / 500,000-exodus figures (those are sourced to the 'Black July' Wikipedia article above) — cite narrowed accordingly. Press summary, sympathetic to the Tamil account."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "lka-4",
+      "country": "LKA",
+      "role": "perpetrator",
+      "title": "State suppression of the JVP insurrections",
+      "era": "1971; 1987-1989",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "To crush two Marxist JVP uprisings the Sri Lankan state used the army, police and government-backed death squads to kill, disappear and summarily execute suspected sympathisers and rural Sinhalese youth far beyond any battlefield — political mass killing of perceived internal enemies that places both episodes at POL.",
+      "agent": "The Sri Lankan armed forces and police, plus UNP-backed paramilitary death squads (Black Cats, Eagles of the Central Hills and others) in 1987-89; the government of Sirimavo Bandaranaike in 1971",
+      "toll": {
+        "display": "1971: ~1,200 (official) to 4,000-5,000 (unofficial, with far higher claims). 1987-89: ~35,000-60,000",
+        "disputed": true,
+        "low": 1200,
+        "high": 60000,
+        "unit": "deaths",
+        "note": "AUDIT (2026-06-18): all three sources VERIFIED and both toll ends sourced; event remains UNVERIFIED solely because the toll is an irreducible order-of-magnitude dispute, not for any source defect. The 1971 uprising's official death toll was 1,200, with unofficial estimates of 4,000-5,000 and some far-higher claims (VERIFIED, Wikipedia); the government also made up to ~20,000 arrests claimed (official figure 5,067) and carried out documented summary executions (such as the public execution of Premawathi Manamperi at Kataragama; VERIFIED). The far bloodier 1987-89 insurrection ended in roughly 35,000-60,000 deaths on the figures used here — the source page actually gives a 60,000-80,000 total-killed range, so the displayed high of 60,000 is conservative — with the great majority killed not in combat but by state forces and allied death squads (Black Cats, Eagles and others; VERIFIED) targeting suspected JVP sympathisers; the UN working group on enforced disappearances logged thousands of cases against the government. The displayed range spans the 1971 official low to the 1987-89 high; both victim populations were overwhelmingly Sinhalese youth (disease/famine NOT the driver — political mass killing, correctly tiered POL)."
+      },
+      "received_lens": "suppressed",
+      "summary": "Twice the Sri Lankan state met an armed JVP uprising with terror that dwarfed the rebellion. In 1971 the army and police crushed the revolt in weeks, killing well over a thousand and probably several thousand mostly young insurgents and carrying out public summary executions. In 1987-89 the response was far worse: army units and government-backed death squads abducted, tortured, executed and disappeared tens of thousands of suspected sympathisers, leaving bodies on roadsides and burning tyres as a warning, in a period Sri Lankans remember as the bheeshanaya — the time of terror.",
+      "relevance": "Proof that the Sri Lankan state's machinery of mass killing was not reserved for Tamils — it turned with equal ferocity on its own Sinhalese majority's youth whenever they were cast as enemies of the state.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'1971 JVP insurrection', Wikipedia — the official 1,200 death toll versus unofficial 4,000-5,000, the up-to-20,000 arrests, the documented summary executions including Premawathi Manamperi, and the government's strict censorship",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/1971_JVP_insurrection",
+          "caveat": "AUDIT-VERIFIED 2026-06-18 (official 1,200 / unofficial 4,000-5,000, up-to-20,000 arrests claimed, Manamperi execution, censorship all confirmed). Tertiary encyclopaedia; 1971 figures were gathered under emergency censorship, so even the unofficial estimates are uncertain."
+        },
+        {
+          "kind": "reference",
+          "cite": "'1987-1989 JVP insurrection', Wikipedia — the ~35,000-60,000 death toll (European delegation's 60,000 versus more conservative ~35,000), the role of army and UNP-backed death squads (Black Cats, Eagles of the Central Hills), and the thousands of disappearances logged by the UN working group",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/1987%E2%80%931989_JVP_insurrection",
+          "caveat": "AUDIT-VERIFIED 2026-06-18 (source page gives a 60,000-80,000 total-killed range plus 20,000+ disappeared, and lists the Black Cats/Eagles death squads — the displayed high of 60,000 is the conservative end of that range). Tertiary encyclopaedia; the upper figure rests partly on a contemporary delegation estimate and the toll remains unresolved, hence the event's UNVERIFIED status."
+        },
+        {
+          "kind": "press",
+          "cite": "'Government-Supported Death Squads Quash Sri Lanka Insurrection', EBSCO Research Starters (Military History and Science) — the government's use of death squads and paramilitaries that targeted not only JVP members but anyone perceived as a threat",
+          "supports": "summary",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/government-supported-death-squads-quash-sri-lanka",
+          "caveat": "AUDIT-VERIFIED 2026-06-18: page confirmed to exist, authored by Robert C. Oberst (2021); supports the death-squad/PTA pattern. Reference/research summary; corroborates the death-squad pattern and is used for the qualitative account rather than precise tolls."
+        }
+      ],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

@@ -1,0 +1,150 @@
+{
+  "iso": "MWI",
+  "name": "Malawi",
+  "note": "Researched 2026-06-18 from scratch (no prior seed). Both ledgers are populated. Malawi's deepest victim history is pre-colonial and colonial: the 19th-century Swahili-Arab and Yao slave trade that turned the Lake Malawi shore into a raiding ground, and the British colonial state's mass conscription of Nyasaland men as military porters (tenga-tenga) in the First World War. The slave-trade event is also the entry's sharpest dual-lens point — the Yao, a people of present-day Malawi, were not only victims of raiding but were themselves the principal African raiders and intermediaries who delivered captives to the coast, so they appear on both sides of the same event. The perpetrator ledger is anchored by the independent Malawian state itself: Hastings Kamuzu Banda's one-party regime (1964–1994) detained, tortured, and killed its own citizens for three decades. Tolls here are unusually hard: 19th-century slave-export figures are contemporary observers' estimates, not counts; Nyasaland's First World War carrier deaths were, in the words of one reference work, never reliably recorded; and Banda-era killings were deliberately undocumented because the regime kept no records of those it executed. Where a number cannot be sourced it is left null and the event flagged UNVERIFIED; low and high ends are separately sourced wherever scholarship gives a range.",
+  "events": [
+    {
+      "id": "mwi-1",
+      "country": "MWI",
+      "role": "victim",
+      "title": "The Lake Malawi slave trade",
+      "era": "c. 1840–1895",
+      "era_band": "pre-colonial",
+      "tier": "STR",
+      "tier_reasoning": "Decades of predatory raiding, village-burning, and forced caravan marches that enslaved and killed people of the region for export rather than aiming to exterminate a defined group — a sustained system of organised violence and removal, so STR.",
+      "agent": "Swahili-Arab slave traders based at Nkhotakota and Karonga (notably the Jumbe and Mlozi) together with Yao chiefs and raiders who supplied them with captives",
+      "toll": {
+        "display": "~20,000 trafficked across the lake per year at the trade's height (contemporary estimate); ~20% of each caravan died en route; total deaths uncounted",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "QUARANTINE (audit 2026-06-18): No reliable death count exists for the Lake Malawi slave trade. The most cited scale figure is that by the 1850s as many as 20,000 captives a year were shipped across the lake from present-day Malawi toward the Indian Ocean port of Kilwa — a contemporary/observer estimate of people trafficked, not a death toll; this figure IS corroborated (UNESCO tentative list 6904; Jumbes of Nkhotakota). AUDIT CORRECTION: the previously stated 'roughly 20% caravan mortality en route' was attributed to the Steve Bennett compilation but does NOT appear on that page (verified by direct fetch), and 20% is in fact a trans-Saharan-route figure; East African / Lake Malawi caravan mortality is generally estimated far higher (commonly 50% or more) but no figure specific to this route could be reliably sourced, so no mortality percentage is asserted here. An unknown number were also killed in the raids and village-burnings that supplied the captives; David Livingstone described the Nkhotakota shore in 1861 as strewn with human remains. Because these are observer estimates of volume rather than records of deaths, both toll.low and toll.high are left null and the event remains UNVERIFIED."
+      },
+      "received_lens": "memorial",
+      "summary": "From roughly the 1840s, Swahili-Arab traders such as the Jumbe at Nkhotakota and Mlozi in the north — supplied by Yao chiefs who raided neighbouring Chewa and other communities — turned the Lake Malawi region into a slaving frontier. Captives were marched to the lake, ferried across, and driven on foot for months to the coast for sale; villages that resisted were burned and their people killed. Slaving was suppressed only after the British declared the protectorate in the 1890s.",
+      "relevance": "Malawi's clearest victim history is also its sharpest perpetrator history within a single event: the Yao, a people of present-day Malawi, were both prey to the slaving system and its principal African raiders and brokers — victim and perpetrator written into the same caravan.",
+      "_audit": "Audited 2026-06-18. UNESCO tentative list 6904 verified real (current entry, submitted 2025-10-06; supersedes older entry 5603) — 403s on direct fetch but confirmed via search to support the summary and the ~20,000 slaves/year figure; the Jumbes of Nkhotakota Wikipedia article independently corroborates 20,000/year to Kilwa and the 1,000-captive batching. Steve Bennett page directly fetched: confirms the 1,000-captive batching and Johnston's >2,000/year Luangwa estimate but does NOT contain the '20% caravan mortality' figure previously attributed to it — that misattribution has been corrected/removed (20% is a trans-Saharan figure; East African route mortality is generally held to be far higher). Tier independently re-derived as STR — sustained predatory raiding and removal for export, not extermination of a defined group; matches assigned. No reliable death count exists; toll.low and toll.high remain null. Status UNVERIFIED (quarantined).",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "UNESCO World Heritage tentative list, 'Malawi Slave Heritage Route and Dr. David Livingstone Trail' — documents Nkhotakota as a major slave terminus and the role of Swahili-Arab and Yao traffickers in the Lake Malawi trade",
+          "supports": "summary",
+          "url": "https://whc.unesco.org/en/tentativelists/6904/",
+          "caveat": "Page returned HTTP 403 on direct fetch; cited from its WebSearch summary and corroborated by the Jumbes of Nkhotakota and History of Malawi references below."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Steve Bennett, compilation 'Slavery in Malawi (formerly Nyasaland)…' drawing on Harry Johnston and David Livingstone — Jumbe's caravans held captives at Nkhotakota until they numbered ~1,000 before shipping; Johnston estimated the middle Luangwa alone supplied >2,000 victims a year",
+          "supports": "toll.high",
+          "url": "https://www.stevebennett.com.au/nyasa_slaves.php",
+          "caveat": "A secondary web compilation; figures are 19th-century observer estimates (Johnston, Livingstone) of volume, not verified death counts, and should be read as orders of magnitude. AUDIT (2026-06-18): direct fetch confirms the 1,000-captive batching and Johnston's >2,000/year Luangwa estimate but NOT any '20% caravan mortality' figure — the latter was previously and wrongly attributed to this source and has been removed from the toll note."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Jumbes of Nkhotakota' and 'History of Malawi' (Wikipedia) — by the 1850s as many as 20,000 slaves a year shipped across the lake from present-day Malawi to Kilwa; trade ended only with the 1890s British protectorate",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Jumbes_of_Nkhotakota",
+          "caveat": "The 20,000/year figure is a contemporary estimate of people trafficked, not a death count."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "mwi-2",
+      "country": "MWI",
+      "role": "victim",
+      "title": "Forced military porterage in the First World War (tenga-tenga)",
+      "era": "1914–1918",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "Mass coerced conscription of African men as military carriers who then died of disease, exhaustion, and undernutrition under the conditions imposed on them — death through forced labour and structural neglect rather than deliberate killing of a group, so STR.",
+      "agent": "The British colonial administration of Nyasaland, which conscripted men into the Carrier Corps for the East African campaign",
+      "toll": {
+        "display": "~4,400 Nyasaland carriers killed or died of disease on service (one reference figure); true toll likely higher and never reliably recorded",
+        "disputed": true,
+        "low": 4400,
+        "high": null,
+        "unit": "deaths",
+        "note": "Nyasaland's wartime carrier deaths were never reliably counted. One reference figure puts at around 4,400 the Nyasaland Africans 'killed or died of disease on service' with the Carrier Corps — used here as the documented low end. The true figure is widely held to be higher: a 1914-1918-Online handbook explicitly lists Nyasaland among colonies whose carrier-death records are 'unreliable', and notes Nyasaland mobilised an exceptionally high share of its adult men (porter-to-soldier ratios over fifteen to one), drawing an estimated 150,000–200,000 men from a population of roughly one million into war service for varying periods. Across the whole East African campaign at least ~95,000–155,000 carriers died (>12% mortality). No defensible upper bound for Nyasaland alone could be sourced, so toll.high is left null."
+      },
+      "received_lens": "suppressed",
+      "summary": "During the First World War the British administration of Nyasaland conscripted huge numbers of men — by some estimates 150,000–200,000 over the war, from a population of about a million — to serve as military porters (tenga-tenga) carrying supplies for the campaign against German East Africa. Living in poor conditions, marched far from home, and exposed to disease and exhaustion, thousands died; one reference figure records about 4,400 Nyasaland carriers killed or dead of disease on service, and the real toll was almost certainly higher. The crushing burden of recruitment was among the grievances behind John Chilembwe's 1915 rising.",
+      "relevance": "The empire that abolished the slave caravans then conscripted the same population into another forced march — its men carried Britain's war and died uncounted, a colonial-era victimhood the imperial record barely tallied.",
+      "_audit": "Audited 2026-06-18. All three sources verified live: the ~4,400 Nyasaland carrier-deaths figure is confirmed verbatim on the Nyasaland Volunteer Reserve Wikipedia article; the 1914-1918-Online 'War Losses (Africa)' article confirms Nyasaland records are 'unreliable', 80%+ adult-male mobilisation, the over-15:1 laborer-to-soldier ratio, and >154,800 East African carrier deaths (>12.4%); the 'Carrier Corps' article confirms Nyasaland recruitment, no fewer than 95,000 carrier deaths (~10%), and the 'least studied' characterisation. Tier independently re-derived as STR — death through forced labour and structural neglect (disease/exhaustion), explicitly NOT a defined-group extermination, so STR not EXT; matches assigned. toll.low (4,400) is solidly sourced; toll.high cannot be bounded (the source itself calls the records unreliable) and is left null. Status remains UNVERIFIED on the strength of the null, unbounded high end only — the low end and all sources are sound.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Nyasaland Volunteer Reserve' (Wikipedia) — around 4,400 African inhabitants of Nyasaland serving with the Carrier Corps were killed or died of disease on service during the war",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Nyasaland_Volunteer_Reserve",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "'War Losses (Africa)', 1914-1918-Online: International Encyclopedia of the First World War — lists Nyasaland's carrier-death records as 'unreliable'; notes Nyasaland mobilised over 80% of adult males with laborer-to-soldier ratios over fifteen to one; East African carrier deaths >154,800 (>12.4% mortality)",
+          "supports": "summary",
+          "url": "https://encyclopedia.1914-1918-online.net/article/war-losses-africa/",
+          "caveat": "Provides campaign-wide and mobilisation figures, not a Nyasaland-specific death count; the source itself states Nyasaland records are unreliable."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "'Carrier Corps', 1914-1918-Online encyclopedia — Britain recruited carriers from Nyasaland among other territories; at least ~95,000 carrier deaths across the East African campaign, ~10% of total manpower; the war's displacement of these people remains among its least-studied aspects",
+          "supports": "summary",
+          "url": "https://encyclopedia.1914-1918-online.net/article/carrier-corps/",
+          "caveat": null
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "mwi-3",
+      "country": "MWI",
+      "role": "perpetrator",
+      "title": "Repression under the Banda one-party state",
+      "era": "1964–1994",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "Three decades of a one-party regime using detention without trial, torture, exile, and political assassination to eliminate dissent — political repression of perceived opponents rather than the destruction of a defined ethnic or national group, so POL.",
+      "agent": "The Malawi government under President-for-Life Hastings Kamuzu Banda and the Malawi Congress Party, enforced by the police, the Special Branch, and the paramilitary Malawi Young Pioneers",
+      "toll": {
+        "display": "at least ~6,000 killed, tortured, and jailed without trial; up to ~18,000 killed (one estimate)",
+        "disputed": true,
+        "low": 6000,
+        "high": 18000,
+        "unit": "deaths",
+        "note": "The Banda regime deliberately kept no records of those it killed, so totals are estimates rather than counts. Human-rights groups put at least about 6,000 the number of people killed, tortured, and jailed without trial — a combined figure used here as the documented low end; one estimate puts as many as ~18,000 killed during his rule, used as the high end. Discrete documented atrocities include the 1983 'Mwanza Four' — secretary-general Dick Matenje, ministers Aaron Gadama and Twaibu Sangala, and MP David Chiwanga — killed and staged as a car accident. A 1994 Commission of Inquiry under President Muluzi found they were murdered by state agents for opposing Banda; the subsequent 1995 murder trial of Banda, John Tembo and others ended in ACQUITTAL of all defendants for lack of evidence (audit correction 2026-06-18: state responsibility was established by the Commission, NOT by a court conviction — the prior phrasing 'confirmed by … court proceedings' overstated the legal outcome). The low figure mixes killings with torture and detention; the high figure is a deaths-only estimate, so the two are not strictly commensurable, which is reflected in the dispute flag."
+      },
+      "received_lens": "contested",
+      "summary": "After leading Malawi to independence in 1964, Hastings Kamuzu Banda built a one-party state and ruled as President-for-Life until 1994, crushing dissent through detention without trial, torture, forced exile, and assassination. The Malawi Young Pioneers and Special Branch policed loyalty down to the village; opponents were jailed or killed, and in 1983 four senior politicians known as the Mwanza Four were murdered and the killings disguised as a road accident. After Banda fell, a 1994 commission of inquiry established state responsibility for the Mwanza killings, though the 1995 criminal trial of Banda and his co-accused ended in acquittal for lack of evidence.",
+      "relevance": "The state that emerged from a people freed from slave caravans and colonial conscription became, under its own founding leader, the author of Malawi's longest campaign of organised violence against Malawians — the victim of empire turned perpetrator over its own citizens.",
+      "_audit": "Audited 2026-06-18. All three sources verified against live pages/mirrors: the at-least-6,000 and as-many-as-18,000 figures and the Mwanza Four tent-pin killings are confirmed verbatim on the Hastings Banda Wikipedia article; the HRW 1989 chapter confirmed via Refworld mirror; the Mwanza Four 1994 Commission of Inquiry and 1995 acquittal confirmed via the Malawi Supreme Court of Appeal record and Malawi press. Tier independently re-derived as POL (political repression of opponents, not destruction of a defined ethnic/national group) — matches assigned. Both toll ends sourced. Status VERIFIED.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Hastings Banda' (Wikipedia) — human-rights groups estimate at least 6,000 people were killed, tortured, and jailed without trial; as many as 18,000 killed during his rule per one estimate; details the 'Mwanza Four' 1983 killings (tent pegs / staged accident)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Hastings_Banda",
+          "caveat": "A general-reference encyclopedia entry; both figures are cited estimates by human-rights groups and others, not a single audited count, because the regime kept no records of its killings."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Hastings Banda' (Wikipedia) — 'As many as 18,000 people were killed during his rule, according to one estimate'",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Hastings_Banda",
+          "caveat": "Attributed in the source to 'one estimate'; original authorship of the 18,000 figure is not given, so it should be read as an upper-bound estimate. AUDIT (2026-06-18): the 18,000-killed claim is confirmed present verbatim on the Hastings Banda Wikipedia article, but its ultimate provenance remains a single unattributed estimate."
+        },
+        {
+          "kind": "press",
+          "cite": "Human Rights Watch World Report 1989, Malawi chapter — documents torture, detention without trial, and severely circumscribed civil and political liberties under Banda; contemporaneous monitoring of the regime's repression",
+          "supports": "summary",
+          "url": "https://www.hrw.org/reports/pdfs/worldreports/world.89/malawi.pdf",
+          "caveat": "AUDIT (2026-06-18): the HRW PDF is real (49.5KB) but fetched as compressed binary, so contents were verified via the mirrored text on Refworld (refworld.org/docid/467bb4921e.html), which confirms the HRW 1989 Malawi chapter documenting torture, extrajudicial killings, detention without trial (incl. the Orton and Vera Chirwa case) under Banda."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

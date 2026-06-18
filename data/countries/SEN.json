@@ -1,0 +1,204 @@
+{
+  "iso": "SEN",
+  "name": "Senegal",
+  "note": "Senegal's two ledgers share one engine, which is the dual-lens point in its sharpest form: the Atlantic slave trade. On the victim side, Senegambia's coast — Saint-Louis, Gorée, the Senegal-river ports — funnelled enslaved Africans to the Americas for over two centuries, and Gorée became the world's most-visited memorial of that trade. But the most famous number attached to it — the tour-guide claim that '20 million' (or 15 million, or 1 million) passed through Gorée's 'House of Slaves' — is a documented myth: historians from Philip Curtin to David Eltis put the figure orders of magnitude lower (Eltis estimates fewer than ~1% of all enslaved Africans, perhaps ~120,000, left via Gorée specifically; Curtin counted ~180,000 from all French Senegambian posts across 1711-1810). The toll here is therefore deliberately conservative, anchored to the sourceable academic subset and flagged disputed, with the inflated memorial figure named as the caveat rather than repeated — and the event is marked UNVERIFIED because no single defensible aggregate for 'Senegal' as a modern unit exists. The second victim event is the Thiaroye massacre of 1 December 1944, when the FRENCH army gunned down repatriated Senegalese tirailleurs demanding their back pay near Dakar; the French archival count of 35 (or 70) deaths was challenged in 2025 by a Senegalese state commission (chaired by Mamadou Diouf) that called 300-400 the 'most credible' toll, so the range is shown. The perpetrator side is asymmetric and must be read honestly: there is no modern Senegalese state genocide. What the record DOES support is, first, that the same pre-colonial Senegambian kingdoms — Jolof and its successor states Cayor, Baol and Waalo — were not passive coastal bystanders but active suppliers of the Atlantic trade, raiding and warring to produce captives for European ships, so the victim event and a perpetrator event are two ends of one chain; and second, that the post-independence Senegalese army committed documented abuses against civilians during the long Casamance insurgency (extrajudicial killings, shelling of Ziguinchor in 1999, mistreatment of villagers), though that conflict's deaths are shared with the MFDC rebels and no army-specific civilian toll is reliably sourceable. No figure was inflated to balance the columns; where the famous numbers are myths (Gorée) or contested (Thiaroye), the dispute is shown, and where no defensible count exists (the kingdoms' slave output, the army's Casamance killings) the toll is left null and the event marked UNVERIFIED rather than guessed.",
+  "events": [
+    {
+      "id": "sen-1",
+      "country": "SEN",
+      "role": "victim",
+      "title": "The Atlantic slave trade out of Senegambia (Saint-Louis, Gorée and the Senegal-river ports)",
+      "era": "c.1500s–1848",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "Centuries of organized, deliberate human violence — the capture, sale, branding, confinement and transoceanic deportation of people for forced labour, with mass death from confinement and the Middle Passage; tiered WAR for systematic violent extraction by armed force rather than STR (it was not disease-driven demographic collapse) and not EXT (the aim was to seize and sell people, not to exterminate a group).",
+      "agent": "European slave-trading powers operating from the Senegambian coast — successively the Portuguese, Dutch, English and (dominantly) the French at Saint-Louis and Gorée — buying captives produced by Senegambian kingdoms' wars and raids and shipping them across the Atlantic",
+      "toll": {
+        "display": "tens of thousands via Gorée specifically (Eltis ~120,000; Curtin ~180,000 from all French Senegambian posts 1711-1810); the popular '20 million through Gorée' claim is a documented myth",
+        "disputed": true,
+        "low": 120000,
+        "high": 180000,
+        "unit": "deaths",
+        "note": "This range counts enslaved people forcibly embarked from the Senegambian/Gorée trade, not a clean 'death toll' — mortality is embedded in it (death in the barracoons and on the Middle Passage) but is not separately quantified, so the unit is a proxy for the human scale of the atrocity rather than a verified body count. The figures are deliberately the conservative, sourceable academic ones: David Eltis estimates fewer than ~1% of all enslaved Africans — perhaps ~120,000 — left via Gorée specifically (the low end); Philip Curtin's 1969 analysis counted ~180,000 transported from ALL French posts in the broader Senegambia region across 1711-1810 (the high end here, and a wider-than-Gorée figure). The much-repeated tour-guide/curator claims of 1 million, 15 million or 20 million through Gorée's 'House of Slaves' are rejected by historians (Curtin, Eltis, and the History News Network / Washington Post coverage of the controversy) as having no documentary basis; that inflated number is named in the caveat, not used. No single defensible aggregate for the whole Senegambian trade across all powers and all centuries as a modern-'Senegal' unit is cleanly sourceable, so this event is marked UNVERIFIED and the range should be read as orders of magnitude, not a precise count.",
+        "caveat": "The famous '20 million passed through Gorée' figure (and the 1-15 million variants) is a memorial myth debunked by professional historians; it is recorded here only to be rejected, never used as a toll."
+      },
+      "received_lens": "memorial",
+      "summary": "For more than two centuries the Senegambian coast — the French bases at Saint-Louis and the island of Gorée above all — was a node of the Atlantic slave trade, where captives produced by interior wars and raids were bought, confined and shipped to the Americas until France abolished slavery in its colonies in 1848. Gorée's 'House of Slaves' has since become the world's most-visited monument to that trade; the colossal numbers its guides cite are myth, but the real, smaller trade through these ports was a genuine, deliberate, multi-generational atrocity against West African people.",
+      "relevance": "Senegambia's people were victims of the Atlantic trade — but the captives shipped from these ports were largely produced by Senegambian kingdoms' own wars and raids, so this victim event is one end of the same chain whose other end sits on Senegal's perpetrator ledger.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "David Eltis (Emory/Queen's), as reported in coverage of the Gorée numbers controversy — estimates that fewer than ~1% of all enslaved Africans, perhaps ~120,000, left through Gorée specifically",
+          "supports": "toll.low",
+          "url": "https://www.washingtonpost.com/news/worldviews/wp/2013/07/01/the-sincere-fiction-of-goree-island-africas-best-known-slave-trade-memorial/",
+          "caveat": "Cited via press coverage of Eltis's estimate rather than the SlaveVoyages database directly (the database page is JavaScript-rendered and was not machine-readable); the figure is Eltis's, the Washington Post is the conduit."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Philip D. Curtin, 'The Atlantic Slave Trade: A Census' (1969), as summarized in the historiography of Gorée — ~180,000 enslaved Africans transported from all French posts in the broader Senegambia region across 1711-1810",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/House_of_Slaves",
+          "caveat": "Curtin's figure is for the whole French Senegambian trade, broader than Gorée alone; quoted here via the House of Slaves reference article, which attributes it to Curtin's census."
+        },
+        {
+          "kind": "reference",
+          "cite": "History News Network, 'The Myth of Goree Island' — documents that the '20 million' / 'door of no return' claims have no documentary basis and that Gorée was never a major shipping point; Curtin's ~50,000-via-Gorée estimate vs the ~10 million total Atlantic figure",
+          "supports": "summary",
+          "url": "https://www.hnn.us/blog/5969",
+          "caveat": "Polemical historiographical piece arguing the myth thesis; used for the debunking of the inflated figures, which it sources to Curtin and other historians, not for any toll asserted on its own authority."
+        },
+        {
+          "kind": "reference",
+          "cite": "UNESCO World Heritage Centre, 'Island of Gorée' (inscription) — Gorée as a slave-trading station active in the Atlantic trade from the 16th century to 1848, ruled in turn by Portugal, the Netherlands, England and France",
+          "supports": "summary",
+          "url": "https://whc.unesco.org/en/list/26",
+          "caveat": "UNESCO's listing emphasizes Gorée's symbolic/memorial weight and does not endorse the inflated transit numbers; used for the chronology and the succession of colonial powers."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "sen-2",
+      "country": "SEN",
+      "role": "victim",
+      "title": "The Thiaroye massacre",
+      "era": "1944",
+      "era_band": "colonial",
+      "tier": "POL",
+      "tier_reasoning": "French colonial troops opened fire on a camp of mostly unarmed, recently repatriated African soldiers who were demanding their lawful back pay — a deliberate mass killing of detained men over a labour/pay grievance, with declassified documents suggesting it was premeditated, so POL (atrocity / political mass killing) rather than a battlefield WAR death.",
+      "agent": "The French Army — companies of Senegalese Tirailleurs and gendarmerie units, with colonial artillery and an armoured vehicle, acting on French colonial command near Dakar",
+      "toll": {
+        "display": "35-70 (French archives) up to 300-400 ('most credible', 2025 Senegalese state commission)",
+        "disputed": true,
+        "low": 35,
+        "high": 400,
+        "unit": "deaths",
+        "note": "On the morning of 1 December 1944 French forces fired on the Thiaroye camp near Dakar, where repatriated tirailleurs — former German POWs from the 1940 Battle of France — were demanding overdue pay and demobilization bonuses. The French archival record is itself split: an immediate report cited ~35 killed, while a second version of General Dagnan's 5 December report gives 70; the long-standing official French figure is 35 (the low end). Survivors long claimed the real toll reached ~300. In October 2025 a Senegalese state commission chaired by historian Mamadou Diouf (Columbia) presented a white paper to President Bassirou Diomaye Faye concluding the 'most credible' toll is around 300-400 (the high end), supported by initial archaeological exhumations at the burial site that had recovered the remains of seven individuals. Disputed flag set because the French archival count and the 2025 Senegalese commission diverge by roughly an order of magnitude.",
+        "caveat": null
+      },
+      "received_lens": "suppressed",
+      "summary": "At dawn on 1 December 1944 French troops opened fire on the Thiaroye barracks outside Dakar, where Senegalese tirailleurs — men who had fought for France, been captured by Germany, and just been shipped home — were demanding the back pay and bonuses they were owed. France recorded 35 dead and treated the killings as the suppression of a mutiny; declassified documents and a 2025 Senegalese commission point instead to a premeditated massacre of largely unarmed men, with a likely toll of 300-400.",
+      "relevance": "Senegalese soldiers who had bled for the French empire were shot by that empire for asking to be paid — the colonial power as perpetrator and the colonized soldier as victim in a single morning, the inverse of the triumphal 'liberation' narrative.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "The Conversation, 'Thiaroye massacre: report on the French killing of Senegalese troops in 1944 exposes a painful history' (9 Dec 2025) — the 2025 white paper by the commission chaired by Mamadou Diouf (Columbia), appointed by PM Sonko and presented to President Faye on 17 Oct 2025; the archival 35-vs-70 split, the 300-400 figure (which the article notes the white paper treats as the existing research consensus rather than a new finding), and the archaeological recovery of seven sets of remains",
+          "supports": "toll.high",
+          "url": "https://theconversation.com/thiaroye-massacre-report-on-the-french-killing-of-senegalese-troops-in-1944-exposes-a-painful-history-271035",
+          "caveat": "Academic-authored explainer reporting the Senegalese commission's conclusions; the 300-400 figure is the commission's, not independently verified by excavation, which had recovered only seven sets of remains at the time of writing."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Thiaroye massacre' — date (1 December 1944), the French units and armour involved, the immediate-report figure of ~35 and Dagnan's 70, survivors' claim of up to ~300, and the declassified documents suggesting premeditation against unarmed men",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Thiaroye_massacre",
+          "caveat": "Tertiary aggregator; the 35 and 70 figures are individually attributed to French reports and used as the archival low end, not as an endorsed total."
+        },
+        {
+          "kind": "press",
+          "cite": "France 24, 'Senegal awaits report on French colonial-era massacre of Thiaroye' (Oct 2025) — the commission's mandate, the 17 October 2025 presentation of the white paper to President Faye, and Macron's 2024 recognition of the events as 'a massacre'",
+          "supports": "summary",
+          "url": "https://www.france24.com/en/africa/20251016-senegal-report-french-colonial-era-massacre-thiaroye-world-war-ii",
+          "caveat": "URL not machine-readable via fetch (HTTP 403); existence and substance independently confirmed by search and by France 24's companion article (france24.com/en/africa/20251016-senegal-report-sheds-new-light-on-wwii-french-colonial-massacre) reporting the 301-page white paper, the 17 Oct 2025 presentation to Faye, and Macron's Nov 2024 'massacre' recognition."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "sen-3",
+      "country": "SEN",
+      "role": "perpetrator",
+      "title": "Senegambian kingdoms as suppliers of the Atlantic slave trade (Jolof, Cayor, Baol, Waalo)",
+      "era": "c.1500s–1800s",
+      "era_band": "pre-colonial",
+      "tier": "WAR",
+      "tier_reasoning": "The Wolof and Serer states fought wars and mounted raids specifically to produce human captives for sale to European traders, with European firearms intensifying the violence; tiered WAR for organized armed predation that turned neighbours and subjects into export commodities, rather than EXT (the aim was capture-for-sale, not annihilation).",
+      "agent": "The Senegambian kingdoms — the Jolof Empire and its successor Wolof/Serer states of Cayor, Baol, Waalo, Sine and Saloum — whose rulers and warrior classes raided, warred and levied tribute to supply captives to the European posts on the coast",
+      "toll": {
+        "display": "uncounted; no defensible figure for captives produced by these states exists",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "No sourceable aggregate exists for how many people the Senegambian kingdoms captured and sold, or how many died in their raids and wars, and none is invented here. The record establishes the pattern, not a number: the Wolof states under Jolof hegemony are estimated to have supplied a substantial share of early Atlantic exports (one secondary estimate, via Barry's work, puts the Wolof contribution at up to a third of total African exports before 1600); Cayor, Baol, Waalo, Khasso and others actively produced captives through inter-kingdom war, slave raids and tribute, with European firearms intensifying the conflicts; Waalo's captives came largely from the upper Senegal-river regions, taken in war or raids. Because the captives counted in the victim event (sen-1) are in large part the same people these states produced, double-counting a separate toll here would be illegitimate; the toll is left null and the event marked UNVERIFIED. Disputed flag set because the kingdoms' share of the trade is itself an estimate.",
+        "caveat": null
+      },
+      "received_lens": "suppressed",
+      "summary": "The Senegambian kingdoms were not passive coastal middlemen but engines of the Atlantic slave trade: the Jolof Empire and its successor states — Cayor, Baol, Waalo and the Serer kingdoms — waged wars, ran slave raids and levied tribute specifically to feed captives to the European posts at Saint-Louis and Gorée, a trade that European firearms made bloodier still. By one estimate the Wolof states supplied up to a third of early Atlantic exports before 1600. The people they sold were the same captives the victim ledger counts.",
+      "relevance": "The inhabitants of present-day Senegal were not only victims of the slave trade but, through their own kingdoms, among its active suppliers — the single most important corrective the dual-lens demands of any 'Door of No Return' memorial narrative.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Boubacar Barry, 'Senegambia and the Atlantic Slave Trade' (Cambridge UP, 1997) — the foundational scholarly study of how Senegambian states and societies were transformed by and participated in the Atlantic trade",
+          "supports": "summary",
+          "url": "https://www.cambridge.org/core/books/senegambia-and-the-atlantic-slave-trade/7ECE5F51680CB6FDD913164626AD07B8",
+          "caveat": "Cited as the standard scholarly authority for the participation thesis; the publisher page confirms the work's scope rather than supplying a specific captive figure, which Barry does not reduce to a single aggregate."
+        },
+        {
+          "kind": "reference",
+          "cite": "World History Encyclopedia, 'Wolof Empire' / Wikipedia 'Waalo' — the Jolof Empire and its vassal/successor states (Cayor, Baol, Waalo, Sine, Saloum), their access to Atlantic trade networks, and Waalo's role channelling captives from up the Senegal river",
+          "supports": "summary",
+          "url": "https://www.worldhistory.org/Wolof_Empire/",
+          "caveat": "Tertiary references used for the political geography and the states' documented role in the trade, not for any casualty count."
+        },
+        {
+          "kind": "reference",
+          "cite": "Encyclopaedia Britannica, 'Gorée Island' — French Saint-Louis (1659) and Gorée (1677) as entrepôts holding captives from interior raids before shipment, locating the kingdoms' raid-and-supply economy in the trade chain",
+          "supports": "summary",
+          "url": "https://www.britannica.com/place/Goree-Island",
+          "caveat": "Tertiary reference; corroborates that the coastal posts were fed by interior raiding, without quantifying the kingdoms' output."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "sen-4",
+      "country": "SEN",
+      "role": "perpetrator",
+      "title": "Senegalese army abuses against civilians in the Casamance insurgency",
+      "era": "1982–present (worst 1990s)",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "A decades-long low-intensity counter-insurgency in which the Senegalese army committed documented abuses against Casamance civilians — extrajudicial killings, the 1999 shelling of Ziguinchor, and collective mistreatment of villagers suspected of rebel sympathy — organized armed-conflict abuses, so WAR, not a campaign of group extermination.",
+      "agent": "The Senegalese armed forces — soldiers redeployed from the north into Casamance to suppress the Movement of Democratic Forces of Casamance (MFDC) separatist rebellion",
+      "toll": {
+        "display": "no reliable army-specific civilian toll; conflict-wide deaths ~5,000 (shared with the MFDC)",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "No reliable figure isolates the civilians killed by the Senegalese army (as opposed to the MFDC rebels) over the Casamance conflict, and none is invented here. The whole conflict since 1982 is commonly cited at roughly 5,000 deaths with ~60,000 displaced, but that total is shared between army and rebel actions and includes ~157 landmine deaths (CNAMS). Where attribution exists, it is small-number and mixed: a 1997 RADDHO report on 16 listed killings attributed 3 to the army and 12 to the MFDC; Amnesty International in 1997 alleged 'tens' of civilian deaths. The clearest mass-impact army act on record is the April-June 1999 shelling of Ziguinchor, which caused civilian casualties and displaced ~20,000 — but with no reliable death count. The army-specific toll is therefore left null and the event marked UNVERIFIED. Disputed flag set because attribution between army and rebels is contested throughout.",
+        "caveat": null
+      },
+      "received_lens": "contested",
+      "summary": "Since the MFDC took up arms for Casamance independence in 1982, the Senegalese army's counter-insurgency in the south has produced documented abuses against civilians: extrajudicial killings, the first-ever shelling of the regional capital Ziguinchor in 1999 (driving out some 20,000 people), and routine mistreatment of villagers by northern troops who, as observers noted, did not distinguish rebel supporters from anyone else. The conflict's ~5,000 deaths are split between the army and the rebels.",
+      "relevance": "The state that frames its own history through the slave trade and Thiaroye as the wronged party has, in Casamance, been the armed power abusing a restive population of its own — victim narrative and perpetrator conduct held in the same hand.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Casamance conflict' — duration from 1982, ~5,000 total deaths and ~60,000 displaced, the April-June 1999 Senegalese army shelling of Ziguinchor with civilian casualties and ~20,000 displaced, and the redeployment of northern troops who mistreated and did not differentiate the local population",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Casamance_conflict",
+          "caveat": "Tertiary aggregator; the ~5,000 figure is conflict-wide (army and MFDC combined) and is not an army-attributed civilian toll."
+        },
+        {
+          "kind": "press",
+          "cite": "IRIN / The New Humanitarian, 'No end in sight to Casamance conflict' — the RADDHO (Sept 1997) tally attributing 3 of 16 listed killings to the army and 12 to the MFDC, and Amnesty International's Sept 1997 allegation of 'tens' of civilian deaths",
+          "supports": "toll.low",
+          "url": "https://www.thenewhumanitarian.org/report/94895/senegal-no-end-sight-casamance-conflict",
+          "caveat": "Reports small-number, mixed-attribution killings; used to show abuses occurred and were partly attributed to the army, not to establish any aggregate army toll (which it does not provide). URL not machine-readable via fetch (HTTP 403), but the specific figures (RADDHO Sept 1997: 3 of 16 killings to the army, 12 to the MFDC; Amnesty Sept 1997: 'tens' of civilian deaths) are independently corroborated by the U.S. State Department 1997 Country Report on Human Rights Practices for Senegal."
+        },
+        {
+          "kind": "press",
+          "cite": "Al Jazeera, 'For Senegalese landmine victims, a forgotten conflict lives on' (2022) — the conflict's longevity and humanitarian cost in Casamance, including landmine casualties (CNAMS: 157 deaths, 453 injuries)",
+          "supports": "summary",
+          "url": "https://www.aljazeera.com/features/2022/12/31/for-senegalese-landmine-victims-a-forgotten-conflict-lives-on",
+          "caveat": "Landmine casualties are not attributable solely to the army; used for the conflict's continuing civilian toll, not as a perpetrator-specific figure."
+        }
+      ],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

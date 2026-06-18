@@ -1,0 +1,133 @@
+{
+  "iso": "KAZ",
+  "name": "Kazakhstan",
+  "note": "Built from scratch. The ledgers are deliberately and honestly asymmetric, and the asymmetry is a fact of Kazakh history, not a gap to be filled with invention. The deepest mass death on Kazakh soil — the famine of 1930–1933 (the Asharshylyq), in which roughly a third or more of all ethnic Kazakhs starved — was caused by the Soviet state under Stalin, with collectivization driven locally by First Secretary Filipp Goloshchyokin; its agent was Moscow, so it sits in the VICTIM ledger, not as an authorless catastrophe. The same is true of the 1986 Jeltoqsan crackdown, carried out by Soviet internal troops. Kazakhstan as an independent state has existed only since 1991, which is why the PERPETRATOR ledger is thin: the clearest documented case of the Kazakh state itself killing in large numbers is Bloody January (Qandy Qantar) 2022, when President Tokayev ordered security forces to 'shoot to kill' protesters and over 200 people, most of them civilians, died. No perpetrator events have been invented to balance the famine; the famine's toll is genuinely contested and is given as a sourced range (low and high) with the population-decline-versus-death-count problem kept explicit. Where a number cannot be defended (the true Jeltoqsan toll), the disputed range is shown and the figure is not manufactured.",
+  "events": [
+    {
+      "id": "kaz-1",
+      "country": "KAZ",
+      "role": "victim",
+      "title": "The Kazakh famine of 1930–1933 (Asharshylyq)",
+      "era": "1930–1933",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "The Soviet state's forced collectivization and grain/livestock requisitioning destroyed the nomadic pastoral economy and starved the Kazakhs as a consequence of policy; tiered POL (mass death by state policy) rather than EXT because most scholars find no attested order to exterminate Kazakhs as a people, though several argue the deliberate destruction of nomadic society fits an expanded definition of genocide.",
+      "agent": "The Soviet state under Stalin, with collectivization in the Kazakh ASSR driven by Communist Party First Secretary Filipp Goloshchyokin",
+      "toll": {
+        "display": "~1.3–2.3 million deaths (most-cited ~1.5 million; ~38–42% of all ethnic Kazakhs)",
+        "disputed": true,
+        "low": 1300000,
+        "high": 2300000,
+        "unit": "deaths",
+        "note": "Estimates of famine deaths in the Kazakh ASSR run from about 1.3 million at the low end to about 2.3 million at the high end, with a middle figure around 1.75 million; the most widely cited scholarly figure is roughly 1.5 million (Sarah Cameron's 'The Hungry Steppe' and others put it at more than 1.5 million, a quarter of Kazakhstan's total population). Between 38 and 42 percent of all ethnic Kazakhs are estimated to have died — the highest proportion of any nationality in the Soviet famines of the early 1930s. The figures are contested partly because they mix excess deaths with demographic loss that also includes flight and emigration (large numbers of Kazakhs fled to China, Mongolia and elsewhere), so death counts and total population decline are not the same thing. The low/high bracket the scholarly range; they are estimates, not a verified count."
+      },
+      "received_lens": "memorial",
+      "summary": "From 1930, the Soviet state forced Kazakhstan's nomadic herders onto collective farms and requisitioned grain and livestock, confiscating or destroying the herds the Kazakhs lived on; the pastoral economy collapsed and famine followed. Roughly a third or more of all ethnic Kazakhs died of starvation between 1930 and 1933, with many more fleeing the republic. Long minimized in Soviet history, the Asharshylyq is now commemorated in independent Kazakhstan as the central catastrophe of its modern past.",
+      "relevance": "Kazakhstan's defining mass death was inflicted on its people by the Soviet state — the clearest entry in its victim ledger, against which the much thinner record of atrocity by the post-1991 Kazakh state must be read.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Sarah Cameron, 'The Hungry Steppe: Famine, Violence, and the Making of Soviet Kazakhstan' (Cornell University Press, 2018) — more than 1.5 million dead, about a quarter of Kazakhstan's population; argues it was not genocide by UN definition but fits Lemkin's original concept and was a crime against humanity",
+          "supports": "summary",
+          "url": "https://www.cornellpress.cornell.edu/book/9781501730436/the-hungry-steppe/",
+          "caveat": "Single-scholar monograph; authoritative as the first comprehensive English-language study but represents one position in an ongoing genocide debate."
+        },
+        {
+          "kind": "reference",
+          "cite": "Kazakh famine of 1930–1933 — Wikipedia (estimates 1.3–2.3 million deaths, ~38–42% of ethnic Kazakhs; collectivization under Goloshchyokin; scholars Ohayon, Pianciola, Cameron, Kindler; genocide contested)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Kazakh_famine_of_1930%E2%80%931933",
+          "caveat": "Tertiary aggregator summarizing the scholarly range and the genocide debate; cited for the high end and the spread of estimates, which the underlying scholarship genuinely disputes. AUDIT 2026-06-18: direct fetch confirms the 1.3–2.3M range, the 38–42% figure, Goloshchyokin as First Secretary, and the four-scholar genocide debate (Ohayon/Pianciola/Cameron/Kindler) as stated."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Niccolò Pianciola, 'Famine in the Steppe: The Collectivization of Agriculture and the Kazak Herdsmen, 1928–1934' (Cahiers du Monde russe, 2004) and subsequent work — argues Soviet authorities deliberately destroyed the nomad 'class,' transferring livestock to Moscow/Leningrad; cited in the scholarly literature for more than one million Kazakh famine deaths and the lower-to-middle end of the range (alongside Ohayon, Payne, Kindler, Cameron)",
+          "supports": "toll.low",
+          "url": "https://www.cairn.info/revue-cahiers-du-monde-russe-2004-1-page-137.htm",
+          "caveat": "AUDIT 2026-06-18: Pianciola is a verified real scholar and his 2004 Cahiers du Monde russe article is his canonical, frequently cited work on this topic (confirmed via Wikipedia's Kazakh-famine bibliography and multiple secondary summaries); the exact deaths figure he is associated with reaches this record via secondary summaries of the scholarship rather than a single open full-text fetch, so the specific number remains secondhand though the author, work, and class-destruction thesis are verified. The lower-to-middle end of the range is also independently supported by Cameron's 'more than 1.5 million.'"
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "kaz-2",
+      "country": "KAZ",
+      "role": "victim",
+      "title": "The Jeltoqsan crackdown",
+      "era": "1986",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "Soviet internal troops and OMON forcibly suppressed a peaceful Kazakh protest, killing demonstrators and injuring thousands; tiered POL as lethal state repression of a political protest rather than a campaign to destroy a group.",
+      "agent": "Soviet authorities — MVD internal troops and OMON forces deployed in Alma-Ata on the orders of the Soviet leadership",
+      "toll": {
+        "display": "official 2 dead; disputed claims up to ~168–170 killed; 2,000+ wounded",
+        "disputed": true,
+        "low": 2,
+        "high": 170,
+        "unit": "deaths",
+        "note": "AUDIT 2026-06-18 (quarantine — event UNVERIFIED): the death toll is genuinely unresolved and the high end is itself unstable across sources. The Kazakh SSR government acknowledged only two deaths — a volunteer police worker and a student, both from blows to the head. Far higher figures circulate: the writer Mukhtar Shakhanov claimed a KGB officer testified that 168 protesters were killed (the basis of the high≈170 figure used here), while a US Library of Congress account cited on Wikipedia says 'at least 200 died or were summarily executed' and 'some accounts even estimate casualties at more than 1,000' — so the current Wikipedia infobox now lists '200–1,000 civilians killed.' Over 2,000 (other sources: 'more than 200') are reported wounded. The Shakhanov/168 claim rests on a single uncorroborated KGB-officer attribution; the 200–1,000 figures are equally unverified. The low/high (2–170) bracket the official count against Shakhanov's specific claim; they do NOT represent a settled range and the true number was suppressed and has never been independently established. Quarantined: status UNVERIFIED."
+      },
+      "received_lens": "memorial",
+      "summary": "In December 1986, after Moscow replaced the ethnic-Kazakh party leader with an ethnic Russian outsider, thousands of mostly young Kazakhs demonstrated in Alma-Ata. The Soviet state sent in internal troops and OMON; violence broke out, demonstrators were beaten and killed, and thousands were detained or injured. The real death toll was hidden; in independent Kazakhstan, Jeltoqsan is remembered as an early stand for national dignity.",
+      "relevance": "Again the agent was the Soviet centre, not the Kazakhs themselves — a victim-ledger event whose suppressed toll foreshadows the same state-violence-against-protesters pattern that the independent Kazakh state would repeat in 2022.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Jeltoqsan — Wikipedia (16–19 Dec 1986, Alma-Ata; trigger was Kunaev's replacement by Kolbin; official 2 deaths, Shakhanov/KGB claim of 168, estimates 10–170, 2,000+ wounded; internal troops and OMON)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Jeltoqsan",
+          "caveat": "Tertiary aggregator; the high figures (e.g. 168) rest on a single uncorroborated claim attributed to a KGB officer and are not verified, while the official low figure is widely considered an undercount."
+        },
+        {
+          "kind": "press",
+          "cite": "Eurasianet, 'Kazakhstan: A Look Back at the Zheltoksan Protest a Quarter-Century Ago' — overview of the 1986 protests and the disputed, suppressed casualty figures",
+          "supports": "summary",
+          "url": "https://eurasianet.org/kazakhstan-a-look-back-at-the-zheltoksan-protest-a-quarter-century-ago",
+          "caveat": "Regional news outlet; reliable on the events and the contested memory but does not resolve the death toll, which remains unverifiable."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "kaz-3",
+      "country": "KAZ",
+      "role": "perpetrator",
+      "title": "Bloody January (Qandy Qantar)",
+      "era": "2022",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "The independent Kazakh state used lethal force to crush nationwide protests after the president ordered security forces to shoot to kill; tiered POL as deadly state repression of its own population, with most of the dead being civilians and human rights bodies documenting unlawful killings, torture and a one-sided investigation.",
+      "agent": "The Kazakh state — President Kassym-Jomart Tokayev, who ordered security forces to 'shoot to kill,' and the National Guard, army and police carrying out the 'counterterrorism operation'",
+      "toll": {
+        "display": "~227–238 dead; the Prosecutor General put it at 232, of whom 213 were civilians",
+        "disputed": true,
+        "low": 227,
+        "high": 238,
+        "unit": "deaths",
+        "note": "Kazakh officials initially gave 227 killed; the General Prosecutor's Office later stated that 232 people died, of whom 213 were civilians and 19 were members of the security forces, while some other counts put the total at 238. The dead were concentrated in Almaty. The low/high bracket the official figure against the higher cited total; the breakdown showing that the large majority were civilians is from the Prosecutor General. Human Rights Watch documented that Kazakhstan failed to properly investigate the deaths, prosecuting over 1,000 protesters while charging only one military officer in connection with a killing."
+      },
+      "received_lens": "contested",
+      "summary": "In January 2022, protests over a fuel-price spike spread across Kazakhstan into broad anti-government unrest. President Tokayev branded the protesters 'terrorists' and ordered security forces to shoot to kill without warning; the army, National Guard and police opened fire. Around 227 to 238 people were killed, most of them civilians, and nearly 10,000 were detained. Kazakhstan's own prosecutors blamed the dead for disobeying orders, and human rights groups found the deaths were never properly investigated.",
+      "relevance": "This is the clearest case of the independent Kazakh state as perpetrator against its own people — the same nation that was the victim of Soviet famine and Soviet crackdowns turning lethal state violence on its own protesters.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "Human Rights Watch, 'Kazakhstan: No Justice for January Protest Victims' (5 May 2022) — General Prosecutor's Office: 232 died as a result of the January events, 213 of them civilians (with 19 security officials); one-sided investigation, torture of detained protesters documented. The companion HRW report 'No Justice for January Protest Abuses' (20 Dec 2022) gives the higher official figure of 238 killed and 1,113 people convicted (only one military officer convicted of an abuse-of-power death).",
+          "supports": "summary",
+          "url": "https://www.hrw.org/news/2022/05/05/kazakhstan-no-justice-january-protest-victims",
+          "caveat": "AUDIT 2026-06-18: corrected URL. The 232/213-civilian breakdown is carried by the HRW MAY 2022 'Victims' report (verified via direct fetch), tracing to the Prosecutor General's Office; the previously cited DEC 2022 'Abuses' report instead states '238 people were killed' per official figures and gives the 1,113-convicted / one-officer figures. The original cite mis-attached the 232/213 number to the December page. Both HRW pages exist and are real. Human rights advocacy organization; rigorous and widely cited, but an advocacy source with a clear accountability agenda."
+        },
+        {
+          "kind": "reference",
+          "cite": "2022 Kazakh unrest — Wikipedia (227 killed per officials, up to 238 per other sources; Tokayev's 7 Jan 'shoot to kill without warning' order; National Guard/army/police; CSTO deployment; 9,900+ arrested)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/2022_Kazakh_unrest",
+          "caveat": "Tertiary aggregator; cited for the toll range, the shoot-to-kill order and the casualty breakdown, which are corroborated by HRW and official Kazakh statements. AUDIT 2026-06-18: direct fetch confirms 227 as the primary official figure and a '238 killed' figure also present; the Tokayev 7 Jan shoot-to-kill-without-warning order, the National Guard/army/police forces, the CSTO deployment, and the 9,900+ arrests are all confirmed. Toll low (227) and high (238) are each independently sourced."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

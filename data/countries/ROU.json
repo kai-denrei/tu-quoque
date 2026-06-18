@@ -1,0 +1,211 @@
+{
+  "iso": "ROU",
+  "name": "Romania",
+  "note": "Romania's dual ledger is heavily weighted toward the perpetrator side because of the Holocaust: the 2004 Elie Wiesel International Commission, commissioned and accepted by the Romanian state, concluded that the Antonescu regime murdered or caused the deaths of 280,000-380,000 Jews and over 11,000 Roma, making Romania responsible for more Jewish deaths than any Axis ally except Germany itself. The victim ledger here is deliberately of a different kind: it records the Romanian state killing its OWN people - peasants gunned down in 1907 and citizens worked or beaten to death in communist prisons and labor camps. This is not an equivalence claim. Romania also suffered as a victim in the conventional sense (Ottoman/Phanariot domination, foreign occupation, WWI and WWII military losses), but those are either thin on documented mass-atrocity death counts or are primarily military rather than atrocity, so they are noted rather than ledgered. The communist-era death count is genuinely contested: documented in-custody deaths are at least ~20,000, but incomplete records mean the true figure is uncertain, hence the UNVERIFIED status on that event.",
+  "events": [
+    {
+      "id": "rou-1",
+      "country": "ROU",
+      "role": "perpetrator",
+      "title": "The Holocaust in Romania",
+      "era": "1941-1944",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "Deliberate, state-directed destruction of Jews as a group through pogroms, mass shootings, and death by starvation and exposure in deportation - genocide by intent.",
+      "agent": "Ion Antonescu's Romanian state, its army, gendarmerie, and police",
+      "toll": {
+        "low": 280000,
+        "high": 380000,
+        "unit": "deaths",
+        "display": "280,000-380,000 Jews killed",
+        "disputed": true,
+        "note": "Figure is the conclusion of the 2004 Elie Wiesel International Commission, accepted by the Romanian government, covering Romanian and Ukrainian Jews murdered or dead from deliberate Romanian policy across Romania, Bessarabia, Bukovina, and Transnistria. The USHMM uses a narrower count of ~220,000 Romanian Jews. Counts mix outright killing (Iasi pogrom, ~4,000-15,000; mass shootings) with deaths from engineered starvation, exposure, and typhus during deportation."
+      },
+      "received_lens": "denied",
+      "summary": "Under Marshal Ion Antonescu, the Romanian state killed hundreds of thousands of Jews on its own initiative - the Iasi pogrom of June 1941, mass shootings in reconquered Bessarabia and Bukovina, and the deportation of survivors into Transnistria where they died of starvation, cold, and typhus. Romania ran its own murder apparatus rather than handing its Jews to Germany. The communist state and post-1989 Romania denied this until the 2004 Wiesel Commission forced official acknowledgment.",
+      "relevance": "Romania, more often remembered as a small nation buffeted by great powers, was the deadliest Axis perpetrator of the Holocaust after Germany itself.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "International Commission on the Holocaust in Romania (Elie Wiesel Commission), Final Report, 2004",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Wiesel_Commission",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "United States Holocaust Memorial Museum, Holocaust Encyclopedia, 'Romania'",
+          "supports": "summary",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/romania",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Yad Vashem, 'Murder of the Jews of Romania'",
+          "supports": "toll.high",
+          "url": "https://www.yadvashem.org/holocaust/about/final-solution-beginning/romania.html",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "rou-2",
+      "country": "ROU",
+      "role": "perpetrator",
+      "title": "The Odessa Massacre",
+      "era": "1941",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "Mass extermination of a civilian population targeted as Jews, ordered as collective reprisal - deliberate destruction of a group.",
+      "agent": "Romanian army under Antonescu's direct reprisal order (with German Einsatzgruppe and local ethnic Germans)",
+      "toll": {
+        "low": 25000,
+        "high": 34000,
+        "unit": "deaths",
+        "display": "25,000-34,000 (Oct 1941 reprisal); 100,000+ in the wider Odessa/Transnistria killings",
+        "disputed": true,
+        "note": "The narrow figure refers to the 22-24 October 1941 reprisal shootings and burnings; broader accounting of the murder of Jews in Odessa and the Dniester-Bug region during Romanian occupation reaches well over 100,000. Numbers overlap with the wider Transnistria toll in rou-1."
+      },
+      "received_lens": "denied",
+      "summary": "After Soviet sappers blew up the Romanian army headquarters in occupied Odessa on 22 October 1941, killing scores of soldiers, Antonescu ordered immediate reprisals against the city's Jews. Over the following days Romanian troops shot, hanged, and burned alive tens of thousands of Jewish civilians, including crowds packed into sealed warehouses and set on fire. It was one of the single largest massacres committed by Romanian forces.",
+      "relevance": "A clear case of a state turning a military setback into the deliberate mass slaughter of an unarmed civilian group it had defined as the enemy.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "United States Holocaust Memorial Museum, Holocaust Encyclopedia, 'Odessa'",
+          "supports": "summary",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/odessa",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "'1941 Odessa massacre', Wikipedia (citing scholarly literature on Romanian occupation)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/1941_Odessa_massacre",
+          "caveat": "Tertiary encyclopedia; figures cross-checked against USHMM."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "rou-3",
+      "country": "ROU",
+      "role": "perpetrator",
+      "title": "Deportation of the Roma to Transnistria",
+      "era": "1942-1944",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "Targeted deportation of a people on ethnic grounds into conditions of mass death by starvation and disease - destruction of a group, even where deaths came from deprivation rather than shooting.",
+      "agent": "Antonescu's Romanian state, gendarmerie, and police",
+      "toll": {
+        "low": 11000,
+        "high": 11000,
+        "unit": "deaths",
+        "display": "at least ~11,000 dead of ~25,000 deported",
+        "disputed": false,
+        "note": "Romanian authorities deported roughly 25,000 Roma to Transnistria in 1942; at least about 11,000 died of hunger, cold, disease, and deprivation. The Wiesel Commission cites 'over 11,000 Romani' killed. The deported did not face systematic mass shooting by Romanians; most deaths were from engineered destitution."
+      },
+      "received_lens": "suppressed",
+      "summary": "On Antonescu's order, Romania deported about 25,000 Roma - those labeled 'nomads' or 'problem Gypsies' by a 1942 police census - into Transnistria, where at least some 11,000 died of starvation, cold, and disease. The state organized no return for the survivors. The Roma genocide in Romania was long overshadowed by, and far less acknowledged than, the murder of the Jews.",
+      "relevance": "The same regime that murdered hundreds of thousands of Jews also targeted Roma for destruction - a second, even more forgotten genocide on Romanian initiative.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "United States Holocaust Memorial Museum, Holocaust Encyclopedia, 'Transnistria Governorate'",
+          "supports": "summary",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/transnistria-governorate",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "International Commission on the Holocaust in Romania (Elie Wiesel Commission), Final Report, 2004 ('over 11,000 Romani' killed)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Wiesel_Commission",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "rou-4",
+      "country": "ROU",
+      "role": "victim",
+      "title": "Repression Under the Communist Regime",
+      "era": "1945-1989",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Systematic political repression - executions, deaths in prisons and forced-labor camps, and a deliberate extermination-by-attrition regime against perceived enemies of the state.",
+      "agent": "Romanian Communist Party state and the Securitate, especially under Gheorghe Gheorghiu-Dej",
+      "toll": {
+        "low": 20000,
+        "high": null,
+        "unit": "deaths",
+        "display": "at least ~20,000 died in detention; total killings uncertain",
+        "disputed": true,
+        "note": "Most historians put documented deaths in detention at at least ~20,000; the true figure is unknown because many deaths went unrecorded. The 2006 Tismaneanu Commission found more than 600,000 Romanians sentenced for political crimes 1945-1989 and spoke of up to two million persons persecuted - that larger figure is persecution, NOT deaths. Black Sea Canal forced-labor deaths alone are documented at roughly 6,355 for 1949-1953 by former-prisoner associations. No defensible upper bound for total deaths exists, hence high=null. AUDIT (2026-06-18): toll.low ~20,000 rests on a SINGLE source (Balkan Insight, 2026); the ~20,000 floor was independently confirmed via web search but no second independent source for the precise number was located, and no upper bound is sourceable - event remains UNVERIFIED. The Balkan Insight source URL was corrected (a spurious trailing '/bi/' that caused 403/dead-link was removed); the article itself exists and supports the '~20,000 died in detention' claim. Tismaneanu Commission source verified (real 2006 660-page report, officially condemned the regime as illegitimate and criminal)."
+      },
+      "received_lens": "memorial",
+      "summary": "After 1945 the Romanian Communist state imprisoned, executed, and worked to death its perceived enemies - Iron Guard members, peasants who resisted collectivization, clergy, intellectuals, and political opponents. At least tens of thousands died in prisons such as Pitesti and Gherla and labor projects like the Black Sea Canal, through beatings, starvation, cold, and the Pitesti 're-education' torture program. The 2006 Tismaneanu Report officially condemned the regime as criminal.",
+      "relevance": "Romania's worst post-war atrocity against its own people was committed not by an outside power but by the Romanian state itself - the perpetrator and the victim sharing one nationality.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Presidential Commission for the Analysis of the Communist Dictatorship in Romania (Tismaneanu Commission), Final Report, 2006",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Presidential_Commission_for_the_Study_of_the_Communist_Dictatorship_in_Romania",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "Balkan Insight, 'Romania Commemorates Political Prisoners of Communist Regime' (at least ~20,000 died in detention; 600,000+ sentenced)",
+          "supports": "toll.low",
+          "url": "https://balkaninsight.com/2026/03/10/romania-commemorates-political-prisoners-of-communist-regime/",
+          "caveat": "Press summary of historians' consensus; the death figure is a floor, not a precise count."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Re-education in Communist Romania', Wikipedia (Pitesti phenomenon, prison/labor-camp deaths)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Re-education_in_Communist_Romania",
+          "caveat": "Tertiary source used only for context, not for the toll figure."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "rou-5",
+      "country": "ROU",
+      "role": "victim",
+      "title": "Suppression of the 1907 Peasant Revolt",
+      "era": "1907",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "State use of the army to crush a popular uprising, killing thousands of its own citizens - political mass killing of civilians by the government.",
+      "agent": "The Romanian Liberal government and the Romanian Army",
+      "toll": {
+        "low": 3000,
+        "high": 18000,
+        "unit": "deaths",
+        "display": "3,000-18,000 peasants killed (commonly cited ~11,000)",
+        "disputed": true,
+        "note": "Estimates diverge wildly. The official figure was a clearly undercounted 419; King Carol I spoke of 'several thousand'; Austrian diplomats estimated 3,000-5,000; the French embassy 10,000-20,000. Historians give a 3,000-18,000 range, with ~11,000 the most commonly cited figure, though the round 10,000 number has never been documentary proven. AUDIT (2026-06-18): the cited source (Wikipedia) was verified and confirms the full spread - official 419 (Bratianu), King Carol I's 'several thousand', diplomatic estimates, the 3,000-18,000 historians' range, and ~11,000 most-cited; records were deliberately destroyed by the government, so no definitive count exists. Toll spans both ends but rests on a SINGLE tertiary source; the figure is genuinely contested and unknowable - event remains UNVERIFIED."
+      },
+      "received_lens": "memorial",
+      "summary": "In spring 1907 a peasant uprising over land and the exploitation of tenant farmers spread across Romania. The new Liberal government called out the army, which shelled villages and shot peasants to crush the revolt, killing thousands - estimates run from a few thousand to nearly twenty thousand. It was one of the bloodiest suppressions of a peasant revolt in modern European history.",
+      "relevance": "Decades before the communists, the Romanian state had already shown it would turn its army on its own rural poor in numbers comparable to a war.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'1907 Romanian peasants' revolt', Wikipedia (range 3,000-18,000; most-cited ~11,000; competing diplomatic estimates)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/1907_Romanian_peasants%27_revolt",
+          "caveat": "Tertiary source; the figures themselves are historically contested and no definitive count exists."
+        }
+      ],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

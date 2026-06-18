@@ -1,0 +1,186 @@
+{
+  "iso": "BFA",
+  "name": "Burkina Faso",
+  "note": "Burkina Faso's two ledgers do not balance, and the imbalance is itself the point — they are separated by almost exactly a century and they cross at the same villages. On the victim side the deepest documented wound is the Volta-Bani War of 1915-1917, when French colonial forces crushed one of the largest anti-colonial uprisings in the history of French West Africa and, by the principal scholarly estimate, killed at least 30,000 Africans across the lands between the Bani and Volta rivers; a hundred years later the people of the country's north are again the mass victims, this time of jihadist groups (JNIM, Islamic State-Sahel) whose deadliest single act — the August 2024 Barsalogho massacre — killed somewhere between roughly 130 and 600 civilians in a few hours. The perpetrator ledger is entirely contemporary and entirely the work of the post-2022 military junta and its VDP auxiliaries: in the same northern provinces where civilians are dying at jihadist hands, the Burkinabe army has itself carried out mass killings of civilians it accuses of collaboration — the April 2023 Karma massacre (136-156 dead) and the February 2024 Nondin and Soro massacre (at least 223 dead, 56 of them children), part of a documented pattern of state and VDP-militia killings within a broader conflict in which Human Rights Watch counts more than 1,800 civilians killed by all sides — Burkinabe forces, their VDP auxiliaries, and the jihadist group JNIM combined — across 57 incidents between 2023 and 2025, with ethnic Fulani communities singled out by government forces for what HRW describes as ethnic cleansing. There is no defensible pre-colonial mass-atrocity figure for the Mossi kingdoms and none is invented here; the country's older history of slave-raiding and dynastic warfare is real but unquantified. Nothing on either ledger was inflated to make the columns match — the colonial victim event dwarfs the perpetrator events in scale, and that asymmetry is left standing.",
+  "events": [
+    {
+      "id": "bfa-1",
+      "country": "BFA",
+      "role": "victim",
+      "title": "The Volta-Bani War and its suppression",
+      "era": "1915–1917",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "An organized armed colonial counter-insurgency — France's largest expeditionary deployment in its colonial history to that date — fought to crush a mass anti-colonial revolt, killing combatants and civilians and razing villages; tiered WAR for the scale of organized armed violence rather than EXT, since the aim was reconquest and pacification, not the destruction of a defined people.",
+      "agent": "The French colonial state of the federation of French West Africa — roughly 5,000 troops, mostly Senegalese tirailleurs and local auxiliaries, with artillery and machine guns, sent to crush the uprising and burning villages as it advanced",
+      "toll": {
+        "low": 30000,
+        "high": null,
+        "unit": "deaths",
+        "display": "at least ~30,000 Africans",
+        "disputed": true,
+        "note": "QUARANTINE (source attribution unverified): The '~30,000 African dead' figure is real and well-attested across the scholarship, but the specific source-to-claim binding asserted in this record could not be confirmed. The original entry attributed 'at least 30,000' to Saul & Royer's West African Challenge to Empire (2001). On verification, the precise '30,000 Africans killed' figure is documented as Thomas Vennes's own estimate (Understanding Colonial Violence, p. 87-88; Wikipedia cites Vennes 2018, p. 94 for it), and Vennes does not attribute that number to Saul & Royer. Aggregators cite the 30,000 figure to both works; Active History (2017) gives 'up to 30,000' citing Saul & Royer as the sole monograph but does not pin the exact number to them. The Smithsonian catalog record cited for toll.low is a real library listing (confirmed via search) but returns HTTP 403 to direct fetch and could not be verified to contain any death figure. Net: the toll is sound, the Saul & Royer attribution for the precise figure is not — event left UNVERIFIED pending a primary-source page citation. There is no firm upper bound (colonial undercounting incentive), so the high end is left null. French military deaths were on the order of a few hundred."
+      },
+      "received_lens": "suppressed",
+      "summary": "When France tried to extract more men, grain and forced labour from the Volta-Bani region during the First World War, around 1,000 villages rose in revolt in late 1915. France answered with the largest expeditionary force it had ever assembled in West Africa, retaking the region village by village into 1917, burning settlements and killing on a scale its historians put at no fewer than 30,000 Africans. The colony of Upper Volta was then carved out in 1919 partly as a labour reservoir for its neighbours.",
+      "relevance": "The colonized people crushed and worked here are the ancestors of the nation whose own army, a century on, appears on the perpetrator ledger for killing civilians in these same northern districts.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Mahir Saul and Patrick Royer, West African Challenge to Empire: Culture and History in the Volta-Bani Anticolonial War (Ohio University Press / James Currey, 2001) — the standard monograph on the war (which the authors named); confirmed real (Amaury Talbot Prize winner, 2001) and the foundational scholarly account",
+          "supports": "summary",
+          "url": "https://www.si.edu/object/west-african-challenge-empire-culture-and-history-volta-bani-anticolonial-war-mahir-saul-and-patrick:siris_sil_968548",
+          "caveat": "Smithsonian catalog record confirmed to exist via search but returns HTTP 403 to direct fetch; could not be verified to state any death figure. Downgraded from toll.low to summary support — the precise '30,000' figure is documented in Vennes (2018), not confirmed in Saul & Royer."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Thomas Vennes, 'Understanding Colonial Violence: Military Culture, Colonial Context and the Civilizing Mission in the Volta-Bani War (1915-1916)' — states the nine-month repression 'resulted in the death of 30,000 Africans and the destruction of more than a hundred villages' (p. 87-88); the documented source of the precise '30,000' / 'at least 30,000' figure that aggregators cite",
+          "supports": "toll.low",
+          "url": "https://www.academia.edu/37368836/Thomas_Vennes_Understanding_Colonial_Violence_Military_Culture_Colonial_Context_and_the_Civilizing_Mission_in_the_Volta_Bani_War_1915_1916_",
+          "caveat": "Verified by direct fetch: Vennes gives 30,000 as his own estimate and does not attribute it to Saul & Royer. This is the corrected toll.low binding (the figure was previously mis-attributed to Saul & Royer)."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Active History, 'Africa's War: Anti-colonial Movements and Repression in First World War French West Africa' (2017) — contextualizes the Volta-Bani War as a major WWI-era anti-colonial revolt; states 'up to 30,000 inhabitants of the region died' and names Saul & Royer as the sole monograph (verified by direct fetch)",
+          "supports": "summary",
+          "url": "https://activehistory.ca/blog/2017/12/05/africas-war-anti-colonial-movements-and-repression-in-first-world-war-french-west-africa/",
+          "caveat": "Scholarly blog/essay; corroborates the 'up to 30,000' order of magnitude but does not pin the exact figure to a single author."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "bfa-2",
+      "country": "BFA",
+      "role": "victim",
+      "title": "The Barsalogho massacre",
+      "era": "2024",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "A mass killing of unarmed civilians by an armed non-state group in the course of an insurgency, the deadliest single attack in Burkinabe history; tiered WAR as an atrocity within an ongoing armed conflict rather than EXT, as the killing was framed as punishment for alleged collaboration rather than the destruction of a defined group.",
+      "agent": "Fighters of Jama'at Nasr al-Islam wal-Muslimin (JNIM), the al-Qaeda-aligned coalition, who attacked civilians digging defensive trenches and gunned them down, accusing them of being government collaborators",
+      "toll": {
+        "low": 133,
+        "high": 600,
+        "unit": "deaths",
+        "display": "~133 to ~600 civilians",
+        "disputed": true,
+        "note": "Estimates diverge sharply. Human Rights Watch verified at least 133 dead through video and witness analysis; the UN Secretary-General spoke of around 200 killed; a French government security assessment, reported by CNN, put the toll at up to 600, nearly double earlier figures. The wide range reflects the chaos of the attack and the difficulty of counting bodies in trenches; the low is the firmly documented floor, the high the most expansive credible assessment."
+      },
+      "received_lens": "memorial",
+      "summary": "On 24 August 2024, JNIM fighters fell on civilians who had been mobilized to dig defensive trenches around the town of Barsalogho and shot them in a matter of hours, calling them collaborators though video showed them unarmed. Counts range from at least 133 to as many as 600 dead, making it the deadliest single attack of the insurgency and in Burkinabe history. The victims had been put in harm's way by a government trench-digging policy that left them exposed.",
+      "relevance": "Here the nation is the mass victim of non-state violence in the very northern provinces where, on the other ledger, its own army is the perpetrator — the same population caught between two killers.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, 'Burkina Faso: Massacre Shows Need to Protect Civilians' (29 Oct 2024) — verified at least 133 killed and 200+ injured at Barsalogho via video and witness analysis, attributing the attack to JNIM",
+          "supports": "toll.low",
+          "url": "https://www.hrw.org/news/2024/10/29/burkina-faso-massacre-shows-need-protect-civilians",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "CNN, 'Massacre in Burkina Faso left 600 dead, double previous estimates, according to French security assessment' (4 Oct 2024) — reports a French government assessment of up to 600 killed",
+          "supports": "toll.high",
+          "url": "https://www.cnn.com/2024/10/04/africa/burkina-faso-massacre-600-dead-french-intel-intl",
+          "caveat": "Press relay of a government intelligence assessment whose underlying methodology is not public; treated as the credible high end, not a confirmed count."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Barsalogho massacre' — 24 Aug 2024 JNIM attack on civilians digging trenches near Barsalogho, Sanmatenga Province; described as the deadliest attack in Burkinabe history with a 200-600 range",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Barsalogho_massacre",
+          "caveat": "Tertiary aggregator; used for the narrative and to frame the range, not as an independent source for the toll."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "bfa-3",
+      "country": "BFA",
+      "role": "perpetrator",
+      "title": "The Nondin and Soro massacre",
+      "era": "2024",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "A summary mass execution of unarmed civilians by state armed forces during a counter-insurgency, which HRW assessed may amount to a crime against humanity; tiered WAR as an atrocity within an ongoing conflict, though the deliberate targeting of a civilian population accused of collaboration brings it to the edge of EXT/POL.",
+      "agent": "The Burkina Faso military — soldiers who arrived in convoys at the two villages following a jihadist attack on a nearby militia base and systematically shot the inhabitants",
+      "toll": {
+        "low": 223,
+        "high": null,
+        "unit": "deaths",
+        "display": "at least 223 civilians (incl. 56 children)",
+        "disputed": false,
+        "note": "Human Rights Watch documented at least 223 civilians killed on 25 February 2024 — 44 (including 20 children) in Nondin and 179 (including 36 children) in Soro, in Thiou district, Yatenga province. The figure is a documented floor 'at least'; no higher independent estimate was established, so the high end is left null rather than guessed."
+      },
+      "received_lens": "denied",
+      "summary": "On 25 February 2024, after a jihadist attack on a militia base near Ouahigouya, Burkinabe soldiers entered the villages of Nondin and Soro and summarily executed the inhabitants, accusing them of failing to report jihadist movements. Human Rights Watch documented at least 223 dead, including 56 children — among the worst army atrocities since the insurgency began, and one HRW said may amount to a crime against humanity. The government denied responsibility.",
+      "relevance": "The state that on the other ledger is the protector of a besieged population is here its executioner, killing civilians in the same northern districts where jihadists are also killing them.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, 'Burkina Faso: Army Massacres 223 Villagers' (25 Apr 2024) — at least 223 civilians (incl. 56 children) summarily executed by the military in Nondin (44) and Soro (179) on 25 Feb 2024; assessed as possibly amounting to crimes against humanity",
+          "supports": "toll.low",
+          "url": "https://www.hrw.org/news/2024/04/25/burkina-faso-army-massacres-223-villagers",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, '“None Can Run Away”: War Crimes and Crimes Against Humanity in Burkina Faso by All Sides' (2 Apr 2026) — situates Nondin/Soro within a documented military campaign against civilians accused of collaboration",
+          "supports": "summary",
+          "url": "https://www.hrw.org/report/2026/04/02/none-can-run-away/war-crimes-and-crimes-against-humanity-in-burkina-faso-by-all",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "bfa-4",
+      "country": "BFA",
+      "role": "perpetrator",
+      "title": "The Karma massacre",
+      "era": "2023",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "A revenge mass execution of unarmed villagers — men, women and children — by an army special-forces unit during counter-insurgency operations; tiered WAR as an atrocity within an ongoing armed conflict.",
+      "agent": "The Burkina Faso military — soldiers identified as the Rapid Intervention Battalion 3 (BIR 3), a counter-insurgency special-forces unit, who entered the village and executed inhabitants in apparent reprisal for an earlier jihadist attack on militia volunteers",
+      "toll": {
+        "low": 136,
+        "high": 156,
+        "unit": "deaths",
+        "display": "~136 to 156 civilians",
+        "disputed": true,
+        "note": "The Burkinabe Collective Against Impunity and Stigmatization of Communities (CISC) put the toll at at least 136; Human Rights Watch documented at least 156 (83 men, 28 women, 45 children, some as young as 10 days old), drawing on witness interviews, 135 photographs and survivors' victim lists. Some press reports ranged higher (150-200). The 136-156 band reflects the two best-documented investigations."
+      },
+      "received_lens": "denied",
+      "summary": "On 20 April 2023, soldiers of an army special-forces unit (BIR 3) entered the village of Karma in Yatenga province and killed the inhabitants over roughly six hours — shooting people at close range, gunning down those who fled, and executing at least 11 men found bound and blindfolded. Human Rights Watch documented at least 156 dead, including 45 children; the killing appeared to be revenge for an earlier jihadist attack on pro-government militia. The government condemned the massacre but did not accept responsibility.",
+      "relevance": "The army cast as defender of the nation on one ledger is, on this one, the killer of its own civilians — the dual lens collapsed into a single uniform.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, 'Burkina Faso: Army Linked to Massacre of 156 Civilians' (4 May 2023) — at least 156 killed (83 men, 28 women, 45 children) at Karma on 20 Apr 2023, attributed to soldiers of the Rapid Intervention Battalion 3 (BIR 3)",
+          "supports": "toll.high",
+          "url": "https://www.hrw.org/news/2023/05/04/burkina-faso-army-linked-massacre-156-civilians",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "Africanews, 'Burkina Faso: NGO says Karma “massacre” death toll is at least 136' (29 Apr 2023) — relays the Collective Against Impunity and Stigmatization of Communities (CISC) figure of at least 136 killed",
+          "supports": "toll.low",
+          "url": "https://www.africanews.com/2023/04/29/burkina-faso-ngo-says-karma-massacre-death-toll-is-at-least-136/",
+          "caveat": "Press relay of a Burkinabe NGO's count; used for the lower bound established by a local human-rights collective."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Karma massacre' — 20 Apr 2023 killing of 136-156+ civilians by soldiers bearing BIR3 patches, framed as reprisal for the earlier Aorema attack on VDP volunteers",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Karma_massacre",
+          "caveat": "Tertiary aggregator; used for narrative detail, not as an independent source for the toll."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}
