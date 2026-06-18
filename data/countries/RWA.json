@@ -1,0 +1,115 @@
+{
+  "iso": "RWA",
+  "name": "Rwanda",
+  "note": "Researched 2026-06-18. Both ledgers present: Tutsi as victims of the 1994 genocide; the RPF / post-genocide state as perpetrator in reprisal killings inside Rwanda and the mass killing of Hutu refugees in Zaire/Congo (1996–97). Tolls for both events are contested and span an order of magnitude depending on methodology and political vantage; low and high ends are separately sourced.",
+  "events": [
+    {
+      "id": "rwa-1",
+      "country": "RWA",
+      "role": "victim",
+      "title": "The 1994 genocide against the Tutsi",
+      "era": "April–July 1994",
+      "era_band": "contemporary",
+      "tier": "EXT",
+      "tier_reasoning": "Hutu Power leaders set out to eliminate the Tutsi as a group, organizing lists, roadblocks, radio incitement, and militia distribution of weapons — destruction of a group as such, the defining mark of extermination.",
+      "agent": "Hutu Power state, the interahamwe militia, army, and ordinary Hutu civilians",
+      "toll": {
+        "display": "~500,000–1,074,017",
+        "disputed": true,
+        "low": 500000,
+        "high": 1074017,
+        "unit": "deaths",
+        "note": "Human Rights Watch (Des Forges) put it at 'at least half a million' (~77% of a ~657,000 pre-genocide Tutsi population); a 2020 Journal of Genocide Research symposium clusters scholarly estimates at 500,000–600,000 Tutsi. The Rwandan government's official figure is 1,074,017 (it also counts moderate Hutu and Twa victims); demographers consider the 1-million-plus figure to overstate the pre-genocide Tutsi population. Davenport & Stam's low-end ~200,000-Tutsi figure is disputed and not used here as the floor."
+      },
+      "received_lens": "memorial",
+      "summary": "Over roughly a hundred days, Hutu Power leaders organized the killing of Tutsi and moderate Hutu — drawing up lists, manning roadblocks, broadcasting incitement over RTLM radio, and handing machetes to neighbours who killed neighbours.",
+      "relevance": "Rwanda's place in the victim ledger — but the killers were also Rwandan, the cleanest case that 'victim nation' and 'perpetrator nation' can be one and the same. Audit 2026-06-18: Des Forges HRW source verified live (page states 'at least half a million ... about three quarters of the Tutsi population' and 507,000 Tutsi at ~77%); McDoom/JGR 'Contested Counting' symposium verified (McDoom's own narrow estimate 491,000–522,000, symposium cluster 500,000–600,000, ~two-thirds); government 1,074,017 verified as a real July-2000 census figure with a verified demographic over-count critique. toll.low and toll.high separately sourced.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Alison Des Forges, Leave None to Tell the Story: Genocide in Rwanda (Human Rights Watch, 1999) — 'at least half a million' killed, ~77% of the Tutsi population",
+          "supports": "toll.low",
+          "url": "https://www.hrw.org/reports/1999/rwanda/Geno1-3-04.htm",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Journal of Genocide Research symposium 'Contested Counting' (2020), incl. O. S. McDoom — scholarly consensus ~500,000–600,000 Tutsi (about two-thirds of the Tutsi population)",
+          "supports": "toll.low",
+          "url": "https://www.tandfonline.com/doi/abs/10.1080/14623528.2019.1703252",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Government of Rwanda official count, 1,074,017 victims (cited via Rwandan genocide overview); demographers regard >1 million as an overestimate of the pre-genocide Tutsi population",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Rwandan_genocide",
+          "caveat": "State figure; the post-genocide RPF government is a party with an interest in a maximal toll and a contested census baseline."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Philip Gourevitch, We Wish to Inform You That Tomorrow We Will Be Killed with Our Families (1998) — narrative account of the genocide's organization",
+          "supports": "summary",
+          "url": null,
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "rwa-2",
+      "country": "RWA",
+      "role": "perpetrator",
+      "title": "RPF reprisal killings and the hunt for Hutu refugees in Congo",
+      "era": "1994–1997",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Documented as systematic killing of unarmed civilians and refugees by the RPA/AFDL during and after armed conflict; the UN Mapping Report itself notes a court might or might not find genocidal intent, so this is classed as war-crimes / crimes-against-humanity scale rather than EXT.",
+      "agent": "The Rwandan Patriotic Front/Army (RPF/RPA) and its allied Congolese AFDL forces",
+      "toll": {
+        "display": "tens of thousands in Rwanda (1994); up to ~200,000+ Hutu in Congo (1996–97)",
+        "disputed": true,
+        "low": 25000,
+        "high": 233000,
+        "unit": "deaths",
+        "note": "Two linked episodes. Inside Rwanda, the suppressed 1994 Gersony Report put RPF killings at 25,000–45,000 (April–August 1994); ex-RPF minister Seth Sendashonga estimated ~60,000 through 1995. In eastern Zaire/Congo (1996–97), the UN Mapping Report described 'apparently relentless pursuit and mass killing of Hutu refugees' totalling 'several tens of thousands'; the acting UN High Commissioner (July 1997) said ~200,000 could have been massacred, and Lemarchand cites 200,000–233,000. The low (25,000) reflects the in-Rwanda floor; the high (233,000) the upper Congo estimate. Figures are heavily politically contested and the underlying counts are weak."
+      },
+      "received_lens": "denied",
+      "summary": "As it won the 1994 war the RPF shot Hutu civilians in reprisal — findings the UN buried in the Gersony Report — and in 1996–97 Rwandan troops and their Congolese allies pursued and killed Hutu refugees across Zaire, from camps near Kisangani deep into the forest.",
+      "relevance": "Yesterday's victims became armed actors whose killing of Hutu civilians the Rwandan state denies and criminalizes naming — proof that the lens rotates and that survivors of atrocity can author it. Audit 2026-06-18: Gersony Report verified (RPF 25,000–45,000, April–August 1994, UN-suppressed, validity disputed) — toll.low; UN Mapping Report 2010 verified ('apparently relentless pursuit and mass killing of Hutu refugees', 'several tens of thousands', genocidal intent left as an open question for a competent court, repatriations noted as a countervailing factor) — supports summary and the WAR (not EXT) tier; Lemarchand, Forgotten Genocides (2011) and the acting UN High Commissioner (8 July 1997, ~200,000) verified — toll.high 233,000. Denial-lens source: the cited Rwandan-genocide-denial page supports the 'genocide ideology'/'divisionism' laws framing generally; the specific Victoire Ingabire example (2010 Gisozi speech calling for prosecution of RPF crimes; charged under the 2008 genocide-ideology law) was corroborated independently via HRW/Amnesty and is accurate. toll.low and toll.high separately sourced; underlying Congo counts are genuinely soft (flagged in toll.note).",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "Robert Gersony / UNHCR field assessment ('Gersony Report', 1994) — RPF killed an estimated 25,000–45,000 persons, April–August 1994; suppressed by the UN",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Gersony_Report",
+          "caveat": "Never formally published; reconstructed from leaked memos and field notes — a documented but never officially finalized assessment."
+        },
+        {
+          "kind": "primary",
+          "cite": "UN Mapping Report (OHCHR, 2010) — 'apparently relentless pursuit and mass killing of Hutu refugees', 'several tens of thousands' killed; raises but does not settle the question of genocide",
+          "supports": "summary",
+          "url": "https://www.hrw.org/news/2010/10/01/dr-congo-q-united-nations-human-rights-mapping-report",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "René Lemarchand, Forgotten Genocides (2011), and the acting UN High Commissioner for Human Rights (8 July 1997) — ~200,000–233,000 Hutu refugees killed in Zaire/Congo, 1996–97",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Massacres_of_Hutus_during_the_First_Congo_War",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "Reporting on Rwanda's 'genocide ideology'/'divisionism' laws used against critics (e.g. Victoire Ingabire) who call for prosecuting RPF war crimes — basis for the 'denied' lens",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Rwandan_genocide_denial",
+          "caveat": "Frames the political context of denial; not a toll source. Audit note: the cited page covers the laws/denial framing generally and does not name Ingabire; the Ingabire example is corroborated independently (HRW/Amnesty) and is accurate."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

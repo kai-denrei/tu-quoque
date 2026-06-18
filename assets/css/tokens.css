@@ -1,0 +1,53 @@
+/* tokens.css — design tokens (handover §10). Palette in OKLCH with hex fallbacks where it matters. */
+:root {
+  /* ground */
+  --ink:        #0a0a0c;
+  --ink-raise:  #101016;
+  --panel:      #0c0c11;
+  --panel-2:    #111118;
+  --line:       #20212a;
+  --line-soft:  #181922;
+
+  /* ledgers — the signature dyad */
+  --teal:       #4db6ac;   /* victim — Done to them   */
+  --amber:      #d9a441;   /* perpetrator — In their name */
+  --teal-dim:   #2c4f4b;
+  --amber-dim:  #4f4023;
+  --glow:       #caa05a;   /* a country that carries entries */
+
+  /* intent-tier ramp (the ACT, never the nation): EXT · POL · WAR · STR */
+  --t1: #d1495b;   /* extermination */
+  --t2: #e08a3c;   /* policy violence */
+  --t3: #c9a227;   /* war atrocity */
+  --t4: #6c8ea0;   /* structural / mixed */
+
+  /* text */
+  --text:   #e9e7e0;
+  --dim:    #9d9a90;
+  --faint:  #6b6860;
+  --fainter:#4a4842;
+
+  /* type */
+  --display: "Cormorant", Georgia, "Times New Roman", serif;
+  --prose:   "EB Garamond", Georgia, serif;
+  --mono:    "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* scale */
+  --step--1: clamp(0.78rem, 0.76rem + 0.1vw, 0.85rem);
+  --step-0:  clamp(0.98rem, 0.95rem + 0.15vw, 1.08rem);
+  --step-1:  clamp(1.2rem, 1.12rem + 0.4vw, 1.5rem);
+  --step-2:  clamp(1.6rem, 1.4rem + 1vw, 2.4rem);
+  --step-3:  clamp(2.4rem, 1.9rem + 2.6vw, 4.6rem);
+
+  /* spacing */
+  --gap: 1rem;
+  --pad: clamp(1rem, 0.7rem + 1.5vw, 2rem);
+  --radius: 3px;            /* near-square: archival, not app-like */
+  --maxw: 1380px;
+
+  --ease: cubic-bezier(.22,.61,.36,1);
+}
+
+@media (prefers-color-scheme: light) {
+  /* The atlas is intentionally a dark, candle-lit room. We do not invert it. */
+}

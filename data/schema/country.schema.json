@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "tuquoque/country",
+  "title": "country (handover §6.3)",
+  "type": "object",
+  "required": ["iso", "name", "events", "status"],
+  "properties": {
+    "iso": { "type": "string", "pattern": "^[A-Z]{3}$" },
+    "name": { "type": "string" },
+    "note": { "type": "string", "description": "anything a reader needs to read the ledgers honestly" },
+    "events": { "type": "array", "items": { "$ref": "tuquoque/event" } },
+    "modern": { "type": ["string", "null"], "description": "compare-engine key (§7)" },
+    "status": { "enum": ["SEED", "RESEARCHED", "VERIFIED", "UNVERIFIED"] }
+  },
+  "x-law": "Two ledgers, always (law 1): a country with only one populated ledger is incomplete, not finished."
+}

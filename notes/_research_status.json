@@ -1,0 +1,122 @@
+{
+  "CHN": {
+    "status": "VERIFIED",
+    "events": 5,
+    "vic": 2,
+    "perp": 3,
+    "lowhigh": 5,
+    "lens": 5,
+    "reason": 5,
+    "srcs": 18
+  },
+  "COD": {
+    "status": "UNVERIFIED",
+    "events": 3,
+    "vic": 1,
+    "perp": 2,
+    "lowhigh": 2,
+    "lens": 3,
+    "reason": 3,
+    "srcs": 9
+  },
+  "DEU": {
+    "status": "VERIFIED",
+    "events": 4,
+    "vic": 2,
+    "perp": 2,
+    "lowhigh": 4,
+    "lens": 4,
+    "reason": 4,
+    "srcs": 13
+  },
+  "ESP": {
+    "status": "UNVERIFIED",
+    "events": 3,
+    "vic": 2,
+    "perp": 1,
+    "lowhigh": 2,
+    "lens": 3,
+    "reason": 3,
+    "srcs": 12
+  },
+  "GBR": {
+    "status": "VERIFIED",
+    "events": 5,
+    "vic": 1,
+    "perp": 4,
+    "lowhigh": 5,
+    "lens": 5,
+    "reason": 5,
+    "srcs": 15
+  },
+  "JPN": {
+    "status": "VERIFIED",
+    "events": 4,
+    "vic": 1,
+    "perp": 3,
+    "lowhigh": 4,
+    "lens": 4,
+    "reason": 4,
+    "srcs": 19
+  },
+  "KHM": {
+    "status": "VERIFIED",
+    "events": 2,
+    "vic": 1,
+    "perp": 1,
+    "lowhigh": 2,
+    "lens": 2,
+    "reason": 2,
+    "srcs": 7
+  },
+  "MDG": {
+    "status": "VERIFIED",
+    "events": 2,
+    "vic": 1,
+    "perp": 1,
+    "lowhigh": 2,
+    "lens": 2,
+    "reason": 2,
+    "srcs": 7
+  },
+  "MEX": {
+    "status": "VERIFIED",
+    "events": 4,
+    "vic": 1,
+    "perp": 3,
+    "lowhigh": 4,
+    "lens": 4,
+    "reason": 4,
+    "srcs": 12
+  },
+  "RWA": {
+    "status": "VERIFIED",
+    "events": 2,
+    "vic": 1,
+    "perp": 1,
+    "lowhigh": 2,
+    "lens": 2,
+    "reason": 2,
+    "srcs": 8
+  },
+  "TUR": {
+    "status": "VERIFIED",
+    "events": 2,
+    "vic": 1,
+    "perp": 1,
+    "lowhigh": 2,
+    "lens": 2,
+    "reason": 2,
+    "srcs": 7
+  },
+  "USA": {
+    "status": "VERIFIED",
+    "events": 4,
+    "vic": 1,
+    "perp": 3,
+    "lowhigh": 4,
+    "lens": 4,
+    "reason": 4,
+    "srcs": 13
+  }
+}

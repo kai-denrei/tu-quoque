@@ -1,0 +1,242 @@
+{
+  "iso": "JPN",
+  "name": "Japan",
+  "note": "Two ledgers held together: Japan as the only nation struck by atomic weapons, and Imperial Japan as continental perpetrator across China, Korea and Southeast Asia in the same decade. Tiers tag the act, not the nation.",
+  "events": [
+    {
+      "id": "jpn-1",
+      "country": "JPN",
+      "role": "victim",
+      "title": "Atomic bombings of Hiroshima & Nagasaki and the Tokyo firebombing",
+      "era": "1945",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "US area-bombing and the two atomic strikes targeted enemy cities to break the will to fight in a declared war; mass civilian death as method of war-fighting fits WAR rather than a campaign to destroy the Japanese as a group.",
+      "agent": "United States Army Air Forces (XXI Bomber Command under Curtis LeMay; the 509th Composite Group)",
+      "toll": {
+        "display": "~290,000–400,000 (firebombing ~80,000–100,000; atomic ~110,000–210,000 by end of 1945)",
+        "disputed": true,
+        "low": 290000,
+        "high": 400000,
+        "unit": "deaths",
+        "note": "Two separate events bundled. Tokyo 9-10 March firebombing: US Strategic Bombing Survey ~88,000, Tokyo police ~83,793, Tokyo Fire Dept ~97,000, Rhodes 100,000+. Atomic bombings end-of-1945: 1940s US Manhattan Project/Joint Commission figures cluster at a ~110,000 low (Hiroshima ~70,000 + Nagasaki ~40,000); 1970s Japanese-led reconsideration gives a ~210,000 high (Hiroshima ~140,000 + Nagasaki ~70,000). Combined low ≈80,000+110,000; combined high ≈100,000+210,000. Variance is largely disagreement over how many people were in each city, not bad faith."
+      },
+      "received_lens": "memorial",
+      "summary": "In a single night on 9-10 March 1945, LeMay's B-29s burned the wood-and-paper districts of Tokyo, killing roughly 80,000 to 100,000 people. Five months later the US dropped atomic bombs on Hiroshima (6 August) and Nagasaki (9 August), killing on the order of another 110,000 to 210,000 by year's end. The civilians died at the hands of a state choosing terror-from-the-air as a path to surrender.",
+      "relevance": "Japan-as-victim of the bomb is the lens most familiar in the West, and the one Japan itself most readily memorializes.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Alex Wellerstein, 'Counting the dead at Hiroshima and Nagasaki,' Bulletin of the Atomic Scientists (2020)",
+          "supports": "toll.low",
+          "url": "https://thebulletin.org/2020/08/counting-the-dead-at-hiroshima-and-nagasaki/",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Wellerstein, Bulletin of the Atomic Scientists (2020) — 1970s International Investigation Team high estimate ~210,000",
+          "supports": "toll.high",
+          "url": "https://thebulletin.org/2020/08/counting-the-dead-at-hiroshima-and-nagasaki/",
+          "caveat": "1970s revision was spearheaded partly by anti-nuclear scientists; methodological, not fabricated, but advocacy-adjacent."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Bombing of Tokyo (10 March 1945),' Wikipedia, citing US Strategic Bombing Survey (~88,000) and Tokyo authorities",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Bombing_of_Tokyo_(10_March_1945)",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "'Hellfire on Earth: Operation MEETINGHOUSE,' National WWII Museum",
+          "supports": "summary",
+          "url": "https://www.nationalww2museum.org/war/articles/hellfire-earth-operation-meetinghouse",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Ran Zwigenberg / Hiroshima peace-declaration scholarship on the shift from victimhood to witness culture, Asia-Pacific Journal: Japan Focus (2023)",
+          "supports": "summary",
+          "url": "https://apjjf.org/2023/12/kwon-norimatsu",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "jpn-2",
+      "country": "JPN",
+      "role": "perpetrator",
+      "title": "Nanjing Massacre",
+      "era": "1937–38",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "After taking the city, Japanese troops murdered, raped and looted a captured population as terror and discipline collapsed; it was mass atrocity against a conquered city's people rather than a program to destroy the Chinese as such, so WAR, not EXT.",
+      "agent": "Imperial Japanese Army (Central China Area Army under Gen. Iwane Matsui; Shanghai Expeditionary Army)",
+      "toll": {
+        "display": "~40,000–300,000",
+        "disputed": true,
+        "low": 40000,
+        "high": 300000,
+        "unit": "deaths",
+        "note": "Ikuhiko Hata's low estimate is ~38,000–42,000 POWs and civilians; the figure of 300,000 is the IMTFE/Chinese-government high. Most mainstream scholars sit between 50,000 and 300,000; the IMTFE found 'more than 200,000.' Variance reflects disputed boundaries and time window, destroyed records, mass corpse disposal, and revisionism on both sides."
+      },
+      "received_lens": "contested",
+      "summary": "When the Imperial Japanese Army took the Chinese capital in December 1937, soldiers spent roughly six weeks killing prisoners and civilians and committing mass rape across the city. Japanese conservative groups and some officials have spent the decades since disputing the scale or denying it in school textbooks, while other Japanese historians and journalists documented and defended it.",
+      "relevance": "The same nation that grieves Hiroshima is here the army that turned a captured city into a killing field, and the memory of which its own state still contests.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Death toll of the Nanjing Massacre,' Wikipedia (summarizing Hata's ~38,000–42,000 and the 300,000 figure)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Death_toll_of_the_Nanjing_Massacre",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "'Nanjing Massacre,' Encyclopaedia Britannica (range 'between 100,000 and more than 300,000')",
+          "supports": "toll.high",
+          "url": "https://www.britannica.com/event/Nanjing-Massacre",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Tokushi Kasahara, 'Reconciling Narratives of the Nanjing Massacre,' US Institute of Peace",
+          "supports": "summary",
+          "url": "https://www.usip.org/sites/default/files/file/kasahara.pdf",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "'Historiography of the Nanjing Massacre' and 'Japanese history textbook controversies,' on Tsukurukai denial and Ministry of Education textbook screening",
+          "supports": "tier",
+          "url": "https://en.wikipedia.org/wiki/Historiography_of_the_Nanjing_Massacre",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "jpn-3",
+      "country": "JPN",
+      "role": "perpetrator",
+      "title": "Unit 731: human experimentation and biological warfare",
+      "era": "1936–45",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Lethal vivisection of captives and deliberate plague/cholera attacks on Chinese towns were weapons and methods deployed against an enemy population in war; mass killing as warfare and human experimentation fits WAR, with the field campaigns shading toward EXT in their indiscriminate intent.",
+      "agent": "Imperial Japanese Army Epidemic Prevention and Water Purification Department (Unit 731) under Lt. Gen. Shiro Ishii",
+      "toll": {
+        "display": "~3,000 killed at Pingfang; ~200,000–300,000+ from field biological warfare",
+        "disputed": true,
+        "low": 3000,
+        "high": 300000,
+        "unit": "deaths",
+        "note": "Pingfang facility deaths: ~3,000 prisoners is the widely cited low; some accounts (e.g. former member Okawa Fukumatsu) claim 10,000+. Field biological warfare: historian Sheldon H. Harris estimated 'over 200,000' dead in Chinese cities and villages; a 2002 Changde symposium estimated ~580,000 from germ warfare and experiments combined. Low/high here span facility-only deaths to the upper field estimate; the very wide spread reflects destroyed evidence, no known facility survivors, and incomplete archives. The US granted Ishii's staff immunity in exchange for their data."
+      },
+      "received_lens": "suppressed",
+      "summary": "Shiro Ishii's Unit 731 vivisected, froze, infected and killed prisoners at its Pingfang complex near Harbin, then deployed plague, cholera and other pathogens against Chinese towns, killing civilians by the hundreds of thousands. After the war the United States shielded Ishii and his men from prosecution in exchange for their research, and Japan long kept the program out of public reckoning.",
+      "relevance": "A state turning medicine and disease into weapons against a civilian enemy, then escaping accountability with the help of the very power that bombed its own cities.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Unit 731,' Wikipedia, citing Sheldon H. Harris ('over 200,000 died') and facility estimates (~3,000)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Unit_731",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Sheldon H. Harris, 'Factories of Death: Japanese Biological Warfare 1932-45 and the American Cover-Up' (Routledge), as cited in reference works",
+          "supports": "toll.high",
+          "url": null,
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "'Unit 731,' EBSCO Research Starters (facility deaths ~3,000; cover-up and immunity deal)",
+          "supports": "toll.low",
+          "url": "https://www.ebsco.com/research-starters/history/unit-731",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Keiichi Tsuneishi, 'Unit 731 and the Japanese Imperial Army's Biological Warfare Program,' Asia-Pacific Journal: Japan Focus",
+          "supports": "summary",
+          "url": "https://apjjf.org/tsuneishi-keiichi/2194/article",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "'New details emerge about Japan's notorious WWII germ warfare program,' NPR (2025)",
+          "supports": "summary",
+          "url": "https://www.npr.org/2025/08/14/nx-s1-5497951/japan-germ-warfare-biological-wwii",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "jpn-4",
+      "country": "JPN",
+      "role": "perpetrator",
+      "title": "The 'comfort women' system of military sexual slavery",
+      "era": "1932–45",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "The Imperial state organized the enslavement and sustained rape of tens to hundreds of thousands of women across occupied Asia as policy; it is a state-run crime against humanity of enslavement and persecution rather than a primarily lethal extermination campaign, so POL.",
+      "agent": "Imperial Japanese government and military (which set up and supervised the 'comfort stations')",
+      "toll": {
+        "display": "~20,000–200,000 women enslaved (deaths uncounted)",
+        "disputed": true,
+        "low": 20000,
+        "high": 200000,
+        "unit": "women enslaved",
+        "note": "This toll is the number of women subjected to the system, not deaths — death counts are unrecoverable. Ikuhiko Hata's minimizing estimate is under 20,000; the mainstream scholarly figure is around 200,000, with some (e.g. Qiu Peipei) arguing 200,000-400,000. Minimizers typically also deny the coerced character and reframe it as ordinary wartime prostitution."
+      },
+      "received_lens": "denied",
+      "summary": "From the early 1930s the Japanese military set up and ran 'comfort stations' across its empire, holding tens to hundreds of thousands of women, many recruited by deception or force from Korea, China and elsewhere, in conditions of sexual slavery. The 1993 Kono Statement acknowledged military involvement and coercion, but later officials including Shinzo Abe repeatedly insisted no document proves women were forcibly taken, keeping state responsibility in dispute.",
+      "relevance": "A state-organized system of mass rape across a continent, whose own government still equivocates on whether it was coercion at all.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "'Fact Sheet on Japanese Military Comfort Women,' Asia-Pacific Journal: Japan Focus (range ~20,000 to ~200,000+)",
+          "supports": "toll.high",
+          "url": "https://apjjf.org/asia-pacific-journal-feature/4829/article",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "'Comfort women,' Wikipedia, citing Ikuhiko Hata (<20,000) and Qiu Peipei (200,000-400,000)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Comfort_women",
+          "caveat": "Hata's low figure travels with his denial of the coerced character of recruitment; cited as the contested low end, not as a neutral count."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Comfort women,' Encyclopaedia Britannica",
+          "supports": "summary",
+          "url": "https://www.britannica.com/topic/comfort-women",
+          "caveat": null
+        },
+        {
+          "kind": "primary",
+          "cite": "Kono Statement (1993), Japanese government, acknowledging military involvement and recruitment 'against their own will'",
+          "supports": "tier",
+          "url": "https://en.wikipedia.org/wiki/Kono_Statement",
+          "caveat": "State document; later partially walked back by subsequent administrations."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "'Responsibility Denied: Japan's Debate Over the Comfort Women,' VAWW-NET Japan, Asia-Pacific Journal: Japan Focus (on Abe-era denial of coercion)",
+          "supports": "tier",
+          "url": "https://apjjf.org/vaww-net-japan/2393/article",
+          "caveat": "Authored by an advocacy network; used for the denial-politics framing, not for casualty figures."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

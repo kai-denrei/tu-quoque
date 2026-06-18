@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "tuquoque/compare-datum",
+  "title": "compare datum (handover §7)",
+  "type": "object",
+  "required": ["place", "scope", "metric", "value", "year", "source"],
+  "properties": {
+    "place": { "type": "string" },
+    "scope": { "enum": ["subnational", "national", "city"] },
+    "metric": { "type": "string", "default": "homicide_per_100k" },
+    "value": { "type": "number" },
+    "year": { "type": "integer" },
+    "source": { "$ref": "tuquoque/source" },
+    "symbolic": { "type": "boolean", "default": false, "description": "selected for symbolic weight, NOT representativeness (Brussels rule)" },
+    "symbolic_note": { "type": "string" }
+  }
+}

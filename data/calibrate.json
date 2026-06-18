@@ -1,0 +1,67 @@
+{
+  "buckets": [
+    "under 1,000",
+    "1,000 – 10,000",
+    "10,000 – 100,000",
+    "100,000 – 1 million",
+    "1 – 10 million",
+    "over 10 million"
+  ],
+  "questions": [
+    {
+      "id": "cal-1",
+      "prompt": "Congo Free State, Leopold II's rubber regime",
+      "era": "1885–1908",
+      "answer_low": 4,
+      "answer_high": 5,
+      "famous_bucket": 4,
+      "range": "~1 to 15 million",
+      "famous": "\"10 million\"",
+      "note": "The famous 10M is a population-decline estimate, repeated as a death count. Serious scholarship spans an order of magnitude."
+    },
+    {
+      "id": "cal-2",
+      "prompt": "The Nanjing Massacre",
+      "era": "1937–38",
+      "answer_low": 2,
+      "answer_high": 3,
+      "famous_bucket": 3,
+      "range": "~40,000 to 300,000",
+      "famous": "\"300,000\"",
+      "note": "The ceiling is the most-repeated figure — it is the official PRC number. The scholarly low end is five to seven times smaller."
+    },
+    {
+      "id": "cal-3",
+      "prompt": "The Great Leap Forward famine",
+      "era": "1959–61",
+      "answer_low": 5,
+      "answer_high": 5,
+      "famous_bucket": 5,
+      "range": "~15 to 55 million",
+      "famous": "\"45 million\"",
+      "note": "Here even the low estimate is the largest famine in recorded history. The spread is about method, not about whether it was a catastrophe."
+    },
+    {
+      "id": "cal-4",
+      "prompt": "Mexica (Aztec) ritual sacrifice, per year",
+      "era": "15th–16th c.",
+      "answer_low": 1,
+      "answer_high": 2,
+      "famous_bucket": 3,
+      "range": "low thousands (serious est.)",
+      "famous": "\"tens of thousands\"",
+      "note": "The high figures come from Spanish chroniclers — the people who conquered and converted them, with every motive to exaggerate. Source-laundering in pure form."
+    },
+    {
+      "id": "cal-5",
+      "prompt": "Repression of the Malagasy Uprising",
+      "era": "1947–49",
+      "answer_low": 2,
+      "answer_high": 2,
+      "famous_bucket": 2,
+      "range": "~11,000 to 90,000",
+      "famous": "\"89,000\"",
+      "note": "French official counts sat near 11,000; the 89,000 high end became the figure that travels. Both endpoints are still quoted as if certain."
+    }
+  ]
+}

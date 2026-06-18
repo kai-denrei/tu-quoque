@@ -1,0 +1,19 @@
+{
+  "name": "Tu Quoque — an atlas that refuses the single lens",
+  "short_name": "Tu Quoque",
+  "description": "Every people appears twice: what was done to them, and what was done in their name. An educational atlas — dual ledgers, a calibration quiz, and a geography quiz.",
+  "start_url": "./?src=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0a0a0c",
+  "theme_color": "#0a0a0c",
+  "categories": ["education", "reference"],
+  "lang": "en",
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "assets/icons/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

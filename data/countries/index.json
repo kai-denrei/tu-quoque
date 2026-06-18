@@ -1,0 +1,167 @@
+{
+  "count": 27,
+  "countries": [
+    {
+      "iso": "BGD",
+      "name": "Bangladesh",
+      "events": 4,
+      "status": "UNVERIFIED"
+    },
+    {
+      "iso": "BRA",
+      "name": "Brazil",
+      "events": 5,
+      "status": "UNVERIFIED"
+    },
+    {
+      "iso": "CHN",
+      "name": "China",
+      "events": 5,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "COD",
+      "name": "Dem. Rep. Congo",
+      "events": 3,
+      "status": "UNVERIFIED"
+    },
+    {
+      "iso": "DEU",
+      "name": "Germany",
+      "events": 4,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "EGY",
+      "name": "Egypt",
+      "events": 4,
+      "status": "UNVERIFIED"
+    },
+    {
+      "iso": "ESP",
+      "name": "Spain",
+      "events": 3,
+      "status": "UNVERIFIED"
+    },
+    {
+      "iso": "ETH",
+      "name": "Ethiopia",
+      "events": 4,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "GBR",
+      "name": "United Kingdom",
+      "events": 5,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "IDN",
+      "name": "Indonesia",
+      "events": 4,
+      "status": "UNVERIFIED"
+    },
+    {
+      "iso": "IND",
+      "name": "India",
+      "events": 5,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "IRN",
+      "name": "Iran",
+      "events": 4,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "JPN",
+      "name": "Japan",
+      "events": 4,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "KHM",
+      "name": "Cambodia",
+      "events": 2,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "MDG",
+      "name": "Madagascar",
+      "events": 2,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "MEX",
+      "name": "Mexico",
+      "events": 4,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "NGA",
+      "name": "Nigeria",
+      "events": 4,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "PAK",
+      "name": "Pakistan",
+      "events": 3,
+      "status": "UNVERIFIED"
+    },
+    {
+      "iso": "PHL",
+      "name": "Philippines",
+      "events": 4,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "RUS",
+      "name": "Russia",
+      "events": 4,
+      "status": "UNVERIFIED"
+    },
+    {
+      "iso": "RWA",
+      "name": "Rwanda",
+      "events": 2,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "THA",
+      "name": "Thailand",
+      "events": 3,
+      "status": "UNVERIFIED"
+    },
+    {
+      "iso": "TUR",
+      "name": "Turkey",
+      "events": 2,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "TZA",
+      "name": "Tanzania",
+      "events": 2,
+      "status": "UNVERIFIED"
+    },
+    {
+      "iso": "USA",
+      "name": "United States of America",
+      "events": 4,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "VNM",
+      "name": "Vietnam",
+      "events": 4,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "ZAF",
+      "name": "South Africa",
+      "events": 4,
+      "status": "UNVERIFIED"
+    }
+  ]
+}

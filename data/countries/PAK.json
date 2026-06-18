@@ -1,0 +1,157 @@
+{
+  "iso": "PAK",
+  "name": "Pakistan",
+  "note": "Two ledgers held together. Pakistan's people were victims of the 1947 Partition slaughter that accompanied the state's own birth — a mutual communal bloodletting in which Muslims, Hindus and Sikhs all killed and all died. In the same generation the Pakistani state became a perpetrator: the 1971 army campaign in East Pakistan (Bangladesh) is one of the largest mass atrocities of the post-1945 era, and the recurring military operations in Balochistan are an ongoing record of state killing and enforced disappearance. The victim ledger is comparatively thin here because Partition violence was reciprocal rather than one community's victimization, and because Pakistan's most consequential mass-death events are ones its own forces caused; the asymmetry is real and is not padded.",
+  "events": [
+    {
+      "id": "pak-1",
+      "country": "PAK",
+      "role": "victim",
+      "title": "Partition violence (1947): Muslims killed in the creation of Pakistan",
+      "era": "1947",
+      "era_band": "colonial",
+      "tier": "POL",
+      "tier_reasoning": "Communal mob and militia killing along religious lines during the division of British India targeted civilians for their group identity, but it was a reciprocal communal bloodletting rather than a single state's extermination program, so POL rather than EXT.",
+      "agent": "Hindu and Sikh mobs, militias and armed bands (with Muslim mobs killing in the other direction); colonial authorities who partitioned and withdrew without securing the transfer",
+      "toll": {
+        "low": 200000,
+        "high": 1000000,
+        "unit": "deaths",
+        "display": "~200,000–1,000,000 total (all communities); Muslim share a large but unfixed fraction",
+        "disputed": true,
+        "note": "This range is the TOTAL Partition death toll across all communities, of which Muslims killed (chiefly in East Punjab and during westward flight into Pakistan) were a major part — a separate Muslim-only figure is not reliably isolable. Most historians cluster the total at 200,000 to 1 million; some demographic work (Bharadwaj, Khwaja & Mian, 2008) counts ~3.4 million 'missing' from the 1951 census, which blends violent deaths with displacement and excess mortality and is not a direct death count. Up to ~10–18 million were displaced and an estimated ~75,000–100,000 women across communities were abducted or raped."
+      },
+      "received_lens": "memorial",
+      "summary": "When British India was split in August 1947, the Punjab and Bengal frontiers dissolved into massacre: trains arrived full of corpses, columns of refugees were ambushed, and villages were burned along religious lines. Muslims fleeing toward the new Pakistan were hunted and killed by Hindu and Sikh mobs and militias, while Muslim mobs did the same to Hindus and Sikhs moving the other way. Pakistan remembers the Muslim dead of 1947 as martyrs of the nation's founding.",
+      "audit_note": "Sources falsification-tested 2026-06-18. Harvard Gazette (2018) verified real and supports 'killed millions' (article cites Leaning 2.3–3.2M and Bharadwaj et al. 3.4M; note these are HIGHER than the JSON's 1M high cap — the source over-supports rather than fabricates). SSRN abstract_id=1294846 verified: title 'The Partition of India: Demographic Consequences' (Bharadwaj, Khwaja & Mian, 2009) is correct as cited; 3.4M 'missing' / ~17.9M migrants confirmed; caveat (census 'missing' blends death with displacement) is accurate and disclosed. Wikipedia 'Partition of India' verified: 200,000–2M deaths, 12–20M displaced (supports toll.low). Both toll ends sourced.",
+      "relevance": "The same Partition that Pakistan memorializes as its people's martyrdom was a two-way slaughter in which Muslim mobs were also killers — the founding wound is also a founding crime.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "'Harvard scholars take fresh look at the Partition of British India, which killed millions,' Harvard Gazette (2018)",
+          "supports": "toll.high",
+          "url": "https://news.harvard.edu/gazette/story/2018/04/harvard-scholars-take-fresh-look-at-the-partition-of-british-india-which-killed-millions/",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Prashant Bharadwaj, Asim Khwaja & Atif Mian, 'The Partition of India: Demographic Consequences' (2008) — ~3.4 million 'missing' in 1951 census; ~17.8 million migrants",
+          "supports": "toll.high",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1294846",
+          "caveat": "Census-based 'missing' figure blends deaths with displacement and excess mortality; not a direct violent-death count."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Partition of India,' Wikipedia (estimates 200,000–2,000,000 deaths; 12–20 million displaced)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Partition_of_India",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "pak-2",
+      "country": "PAK",
+      "role": "perpetrator",
+      "title": "The 1971 Bangladesh genocide (Operation Searchlight, East Pakistan)",
+      "era": "1971",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "The Pakistan Army's campaign deliberately targeted Bengali nationalists, students, the Hindu minority and intellectuals for destruction as groups, with systematic mass rape and the late-war killing of intellectuals — the intent to destroy targeted populations places it at EXT.",
+      "agent": "Pakistan Army (Operation Searchlight under Gen. Tikka Khan, later under Gen. A.A.K. Niazi) and allied local militias — the Razakars, Al-Badr and Al-Shams",
+      "toll": {
+        "low": 300000,
+        "high": 3000000,
+        "unit": "deaths",
+        "display": "~300,000–3,000,000 deaths (most independent scholarship ~500,000–1,000,000+)",
+        "disputed": true,
+        "note": "One of the most politically contested death tolls of the 20th century. Bangladesh's official figure is 3 million; Pakistan's own Hamoodur Rahman Commission accepted the army's GHQ figure of ~26,000 civilian deaths (widely regarded as a grave undercount). Independent scholarship clusters far higher than the Pakistani figure but below 3 million: R.J. Rummel estimated ~1.5 million; Christian Gerlach (2018) argued 500,000 to 1 million, with many deaths from war-induced famine; a 2008 British Medical Journal study estimated ~125,000–505,000 conflict deaths. Sarmila Bose's low estimate (~50,000–100,000) drew strong methodological criticism. Mass rape estimates run ~200,000–400,000 women. About 10 million fled to India."
+      },
+      "received_lens": "denied",
+      "summary": "On the night of 25 March 1971 the Pakistan Army launched Operation Searchlight to crush Bengali self-determination in East Pakistan, opening with the slaughter of students at Dhaka University and the targeting of Hindus and Awami League supporters. Over nine months the army and its Razakar, Al-Badr and Al-Shams auxiliaries killed Bengalis on a mass scale, raped women in the hundreds of thousands, and in the war's final days hunted down Bengali intellectuals. Pakistan has never officially apologized and its own commission of inquiry put the toll at a fraction of independent estimates.",
+      "audit_note": "Sources falsification-tested 2026-06-18, all verified real. Wikipedia 'Bangladesh genocide' confirmed range 300,000–3,000,000, Rummel ~1.5M, Bose 50,000–100,000, BMJ 2008 125,000–505,000, rape 200,000–400,000 (supports toll.high). Gerlach chapter 'East Pakistan/Bangladesh 1971–1972: How Many Victims, Who, and Why?' (Civilianization of War, Cambridge 2018) confirmed real, 500,000–1M estimate and conflict-famine deaths as cited (note: Gerlach also argues there was no deliberate attempt to exterminate the Bengali intelligentsia — a contested point the EXT tier does not rest on, since the genocidal targeting of Bengalis and the Hindu minority as groups is independently supported). Hamoodur Rahman Commission ~26,000 figure confirmed and correctly framed as the contested official-minimization low end (supports toll.low). Operation Searchlight verified: 25 March 1971, Tikka Khan, Dhaka University/Hindus/Awami League targeting. Both toll ends sourced. Tier EXT independently re-derived and upheld: deliberate destruction of targeted national/religious groups, not disease-driven (STR n/a).",
+      "relevance": "A state founded partly in the name of protecting a Muslim people turned its army on the Muslim-majority Bengalis of its own eastern wing — the perpetrator ledger that Pakistan still officially minimizes.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Bangladesh genocide,' Wikipedia (range 300,000–3,000,000; Rummel ~1.5M; Bose ~50,000–100,000; BMJ 2008 ~125,000–505,000)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Bangladesh_genocide",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Christian Gerlach, 'East Pakistan/Bangladesh 1971–1972: How Many Victims, Who, and Why?' in The Civilianization of War (Cambridge, 2018) — 500,000 to ~1 million",
+          "supports": "summary",
+          "url": "https://www.cambridge.org/core/books/abs/civilianization-of-war/east-pakistanbangladesh-19711972-how-many-victims-who-and-why/A133E09382910B5E4332412FAD212721",
+          "caveat": null
+        },
+        {
+          "kind": "primary",
+          "cite": "Hamoodur Rahman Commission Report (Government of Pakistan, 1974) — accepted GHQ figure of ~26,000 killed",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Hamoodur_Rahman_Commission",
+          "caveat": "Pakistani government inquiry that deferred to the army's own General Headquarters figure; widely regarded as a severe undercount, cited as the contested low end and as evidence of official minimization, not as a neutral count."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Operation Searchlight,' Wikipedia (army campaign begun 25 March 1971; Tikka Khan; targeting of Dhaka University, Hindus, Awami League)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Operation_Searchlight",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "pak-3",
+      "country": "PAK",
+      "role": "perpetrator",
+      "title": "Military operations and enforced disappearances in Balochistan",
+      "era": "1973–1977; 2004–present",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "State counter-insurgency that killed and 'disappeared' political activists, militants and civilians to suppress Baloch nationalism is mass political repression — extrajudicial killing and abduction targeting opponents — rather than a campaign to destroy the Baloch as a people, so POL.",
+      "agent": "Pakistan Army, the paramilitary Frontier Corps, and Inter-Services Intelligence (ISI), with allied 'death squads'",
+      "toll": {
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "display": "1973–77 operation: ~6,000+ civilians reported killed; 2004–present: ~1,000 bodies found 2010–2016, ~5,000+ documented 'disappeared' (figures contested)",
+        "disputed": true,
+        "note": "QUARANTINE (audit 2026-06-18): all three sources verified real and supporting their attached summary claims, but the cumulative death toll itself cannot be source-confirmed at either a low or a high end — toll.low and toll.high are null because no reliable cumulative figure exists, and the partial figures that do exist are single-source and sharply contested. No single reliable cumulative death figure exists. For the 1973–1977 operation under Z.A. Bhutto, commonly cited tallies are ~3,300 military, ~5,300 insurgents and ~6,000+ civilians killed. For the post-2004 insurgency, a single all-cause death count is unavailable: a 2016 BBC review of official documents found nearly 1,000 bodies of suspected militants and activists recovered 2010–2016 in 'kill-and-dump' cases; the Voice for Baloch Missing Persons claims ~5,228 disappeared 2001–2017 while Pakistan's official Commission of Inquiry on Enforced Disappearances reports lower figures and says it traced most cases. Baloch advocacy figures and government figures diverge sharply; toll.low/high are left null because the cumulative death count is genuinely unestablished. Event held UNVERIFIED on toll grounds, not source-integrity grounds."
+      },
+      "received_lens": "suppressed",
+      "summary": "When Z.A. Bhutto dismissed Balochistan's elected government and sent in the army in 1973, the four-year war that followed killed thousands of insurgents and civilians. Since 2004 a renewed insurgency has been met by the army, the Frontier Corps and the ISI with a documented pattern of enforced disappearance and 'kill and dump' — activists and suspected militants seized, held without charge, and later found dead by roadsides. Pakistan restricts access to the province and disputes the numbers, so the full toll remains uncounted.",
+      "audit_note": "Sources falsification-tested 2026-06-18, all three verified real. Wikipedia 'Insurgency in Balochistan' confirms 1973–77 figures (~3,300 military, ~5,300 insurgents, ~6,000+ civilians; ordered by Bhutto 1973). Wikipedia 'Human rights abuses in Balochistan' confirms BBC-2016 ~1,000 bodies (2010–2016), VBMP ~5,228 disappeared (2001–2017), and names Army/FC/ISI. HRW 2011 report verified real: 'We Can Torture, Kill, or Keep You for Years': Enforced Disappearances by Pakistan Security Forces in Balochistan (28 July 2011), names ISI, Frontier Corps, Military Intelligence. Tier POL independently re-derived and upheld: extrajudicial killing and enforced disappearance to suppress nationalism = mass political repression, not group extermination (EXT) and not disease-driven (STR n/a). Event remains UNVERIFIED ONLY because the cumulative death toll cannot be source-confirmed at either end (toll.low/high null); source integrity itself is intact.",
+      "relevance": "The dual lens turns inward: the state that grieves its own 1947 dead runs an ongoing campaign of disappearance and extrajudicial killing against a national minority within its own borders.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Insurgency in Balochistan,' Wikipedia (1973–77 operation: ~3,300 military, ~5,300 insurgents, ~6,000+ civilians killed)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Insurgency_in_Balochistan",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "'Human rights abuses in Balochistan,' Wikipedia (BBC 2016: ~1,000 bodies recovered 2010–2016; VBMP ~5,228 disappeared 2001–2017; perpetrators named as Army, Frontier Corps, ISI)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Human_rights_abuses_in_Balochistan",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "Human Rights Watch, 'Pakistan: Security Forces ‘Disappear’ Opponents in Balochistan' (2011)",
+          "supports": "summary",
+          "url": "https://www.hrw.org/news/2011/07/28/pakistan-security-forces-disappear-opponents-balochistan",
+          "caveat": null
+        }
+      ],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

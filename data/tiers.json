@@ -1,0 +1,22 @@
+{
+  "EXT": {
+    "label": "extermination",
+    "cls": "t1",
+    "def": "Deliberate destruction of a group as such."
+  },
+  "POL": {
+    "label": "policy violence",
+    "cls": "t2",
+    "def": "Mass killing, forced labour, or repression as deliberate state policy."
+  },
+  "WAR": {
+    "label": "war atrocity",
+    "cls": "t3",
+    "def": "Civilian-targeting violence inside warfare."
+  },
+  "STR": {
+    "label": "structural / mixed",
+    "cls": "t4",
+    "def": "Death dominated by famine, disease, or displacement; intent diffuse or contested."
+  }
+}

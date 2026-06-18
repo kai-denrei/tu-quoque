@@ -1,0 +1,239 @@
+{
+  "iso": "BRA",
+  "name": "Brazil",
+  "note": "Brazil's dual ledger is anchored by two of the largest forced-population catastrophes in the Atlantic world — the demographic collapse of its indigenous peoples after 1500, and the largest single-nation share of the transatlantic slave trade, with roughly 4.8 million enslaved Africans landed on Brazilian shores. Both are entered as 'done to them' from the standpoint of the peoples destroyed on Brazilian soil; the perpetrating agents were the Portuguese crown, colonial planters, and slavers. The 'in their name' ledger belongs to the modern republic and its military: the 1897 extermination of Canudos, the 20th-century state campaign against indigenous nations documented in the Figueiredo Report, and the killings and torture of the 1964-1985 dictatorship. Analytic care here is keeping disease-driven collapse (STR) separate from deliberate destruction of a group (EXT), and stripping the romance off real numbers. The Amazon rubber-boom genocide of the Putumayo is deliberately NOT entered against Brazil: its principal perpetrator was the Peruvian Amazon Company under Julio Cesar Arana, operating in disputed Peru/Colombia territory, not the Brazilian state — though Brazilian rubber estates inflicted parallel debt-bondage. Several tolls are genuinely uncertain (Canudos spans 5,000-35,000; indigenous deaths under the dictatorship are conceded by the Truth Commission to be undercounted), and are shown as ranges with the dispute on the face of the entry.",
+  "events": [
+    {
+      "id": "bra-1",
+      "country": "BRA",
+      "role": "victim",
+      "title": "Demographic collapse of indigenous Brazil after contact",
+      "era": "1500–c. 1650",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The overwhelming killer was Old World epidemic disease against populations with no immunity — demographic collapse rather than a planned extermination — even though Portuguese enslavement, slaving raids, and warfare drove and compounded the dying; hence STR, not EXT.",
+      "agent": "Portuguese crown, settlers, and bandeirante slavers, whose conquest, enslavement, and missions spread the epidemics that did most of the killing",
+      "toll": {
+        "display": "from ~2.4–5 million in 1500 to under ~250,000 by the 1600s",
+        "disputed": true,
+        "low": 2000000,
+        "high": 4800000,
+        "unit": "deaths",
+        "note": "This is a population-decline figure, not a verified body count. Estimates of the 1500 indigenous population vary widely: John Hemming (Red Gold) gives a conservative ~2.4 million for Brazil as a whole; William Denevan's higher reconstructions imply ~5 million or more (e.g. ~3.6 million for the Amazon basin plus several million elsewhere). By the 1600s fewer than ~10% survived in the contacted regions. The bulk of the dying was smallpox, measles, and influenza in non-immune populations; enslavement, slaving wars, and forced labour on sugar plantations and missions accelerated it. The low/high bounds here are the disputed 1500 baseline, of which the great majority perished — they should be read as 'population lost,' not as a precise death toll. QUARANTINE (audit 2026-06-18): both sources (Hemming, Denevan) are verified real and support their respective ends of the baseline, but no defensible single death count exists; the bounds are population-baseline reconstructions, not body counts, so the event is held UNVERIFIED as a death toll. Tier STR re-derived and confirmed independently (disease-driven collapse, not planned extermination)."
+      },
+      "received_lens": "suppressed",
+      "summary": "Within roughly a century of the Portuguese landfall, the indigenous population of what became Brazil fell by something like nine in ten — from millions to a few hundred thousand in the contacted zones. Smallpox, measles, and influenza did most of the killing among peoples who had never met these diseases, while Portuguese slaving raids, mission resettlement, and plantation labour drove the survivors into the path of the epidemics.",
+      "relevance": "Brazil's founding catastrophe is a textbook case the atlas exists to disaggregate: a real, immense, conquest-driven destruction of peoples that was nonetheless mostly disease, not a death-camp — collapse (STR) standing beside, not folded into, the deliberate violence that accompanied it.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "John Hemming, Red Gold: The Conquest of the Brazilian Indians (1978) — estimates ~2.4 million indigenous people in Brazil in 1500, with collapse to ~100,000 survivors by the 1970s in his survey",
+          "supports": "toll.low",
+          "url": "https://www.goodreads.com/book/show/1489125",
+          "caveat": "AUDIT 2026-06-18: work and author verified (Harvard Univ. Press 1978; Internet Archive, Google Books, AHR/HAHR reviews). The ~2.4 million-in-1500 baseline and ~100,000 survivors-by-1970s figures are confirmed as Hemming's. Cited via a bibliographic listing, not the full text; Hemming's baseline is explicitly a conservative estimate and other demographers (Denevan) argue for substantially higher pre-contact populations."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "William M. Denevan, ed., The Native Population of the Americas in 1492 (rev. ed.) — Denevan's reconstructions give ~5.1–6.8 million for Greater Amazonia (he regards ~5–6 million as reasonable), implying ~5 million or more for the Brazil/Amazon region, summarized in 'Population history of the Indigenous peoples of the Americas'",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Population_history_of_the_Indigenous_peoples_of_the_Americas",
+          "caveat": "AUDIT 2026-06-18: book and editor verified to exist (Univ. of Wisconsin Press; multiple library/JSTOR/Google Books records). Denevan's published Greater-Amazonia range is ~5.1–6.8 million (Project MUSE, 'Estimating Amazonian Indian Numbers in 1492'); the earlier cite's '~3.6 million for the Amazon basin alone' was a stale/unsupported specific and has been removed. Pre-contact Amazonian figures remain among the most contested in demography; the high baseline is a reconstruction, not a count, and is cited via a tertiary aggregator of Denevan's estimates."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Indigenous peoples in Brazil\" and \"Genocide of Indigenous peoples in Brazil,\" Wikipedia — states that of ~2.5 million indigenous people in the region, under 10% survived to the 1600s; disease as the primary driver, compounded by enslavement",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Genocide_of_Indigenous_peoples_in_Brazil",
+          "caveat": "Tertiary aggregator; the 90% mortality figure is a widely-repeated estimate spanning disease and violence and should be read as approximate."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "bra-2",
+      "country": "BRA",
+      "role": "victim",
+      "title": "The transatlantic slave trade to Brazil",
+      "era": "c. 1540s–1860s",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "A system of mass enslavement and forced labour whose deaths arose from the structural conditions of the Middle Passage and the plantation — working people to death as a business model rather than seeking to annihilate a defined group — placing it as STR; the enslaved Africans landed in Brazil are entered as victims on Brazilian soil.",
+      "agent": "Portuguese and Brazilian slavers, planters, and the colonial then imperial Brazilian state that built its economy on enslaved African labour",
+      "toll": {
+        "display": "~4.8 million disembarked of ~5.5 million embarked; ~700,000+ died in the Middle Passage on the Brazil route",
+        "disputed": true,
+        "low": 700000,
+        "high": 5500000,
+        "unit": "deaths",
+        "note": "Two distinct magnitudes here. The SlaveVoyages database estimates roughly 5.5 million Africans were embarked for Brazil and about 4.8 million survived to disembark — Brazil received ~45-46% of all Africans landed in the Americas, the largest national share. The difference (~700,000+) is the floor for deaths in the Atlantic crossing on the Brazil route. Far larger numbers died after arrival, worked to death on sugar and coffee estates where life expectancy was brutally short (a commonly cited average lifespan in the low-to-mid 20s); a precise post-arrival death count does not exist. The low bound (~700,000) is the verifiable Middle-Passage minimum; the high bound (~5.5 million) marks the total subjected to the trade, the great majority of whom did not die in transit but were enslaved for life. This is therefore a 'scale of the atrocity' range, not a single death count. QUARANTINE (audit 2026-06-18): SlaveVoyages figures (~5.5M embarked / ~4.8M disembarked for Brazil; Brazil ~45-46% of all arrivals in the Americas) independently corroborated via multiple non-Wikipedia sources; Emory News article verified to exist (12.5M embarked / 10.8M disembarked Atlantic-wide). Held UNVERIFIED as a death toll because the low/high are a Middle-Passage floor plus a total-subjected ceiling, not a unified count, and post-arrival plantation deaths are uncounted."
+      },
+      "received_lens": "contested",
+      "summary": "Across more than three centuries Brazil took in roughly 4.8 million enslaved Africans — more than any other country on earth — of some 5.5 million shipped toward its ports; the rest died chained in the holds of the Middle Passage. Those who survived the crossing were worked, often to early death, on the sugar and coffee estates that the colony and then the empire ran on enslaved labour until abolition in 1888.",
+      "relevance": "Brazil sits at both ends of the trade as a destination: a place where enslaved Africans were the victims, and a state and planter class who were the buyers, shippers, and beneficiaries — the dual lens within a single economy that did not end legal slavery until it was the last in the Americas to do so.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "SlaveVoyages (Trans-Atlantic Slave Trade Database, Emory University et al.) — ~12.5 million embarked from Africa, ~10.7-10.8 million disembarked in the Americas, of which Brazil received ~45-46% (~4.8 million); ~5.5 million embarked for Brazil",
+          "supports": "toll.high",
+          "url": "https://www.slavevoyages.org/assessment/estimates/",
+          "caveat": "The interactive database renders the precise tables via JavaScript and could not be read directly; the Brazil figures (~5.5 million embarked, ~4.8 million disembarked, ~45-46% share) are the database's widely-reported headline estimates corroborated through secondary reporting, not transcribed from the live table in this session."
+        },
+        {
+          "kind": "press",
+          "cite": "Emory News, \"Documenting Slave Voyages\" (2019) — SlaveVoyages figures: 12.5 million embarked, ~10.8 million survived the Middle Passage; ~1.7 million died in transit overall; Brazil among the largest destinations",
+          "supports": "toll.low",
+          "url": "https://news.emory.edu/features/2019/06/slave-voyages/index.html",
+          "caveat": "Gives the Atlantic-wide totals (~1.7 million Middle-Passage deaths overall); the Brazil-specific ~700,000+ crossing deaths are derived from the embark-minus-disembark gap for the Brazil route, not stated verbatim in this article."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Slavery in Brazil\" and \"Atlantic slave trade to Brazil,\" Wikipedia — ~5.5 million brought to Brazil 1540-1860s; per-century imports; average enslaved lifespan ~23 years from work conditions",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Slavery_in_Brazil",
+          "caveat": "Tertiary aggregator; the ~23-year average-lifespan figure and per-century import counts carry incomplete citations in the source and should be treated as indicative."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "bra-3",
+      "country": "BRA",
+      "role": "perpetrator",
+      "title": "The War of Canudos massacre",
+      "era": "1896–1897",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "The young Brazilian Republic destroyed a religious-millenarian backlands settlement it branded a monarchist threat, then slaughtered prisoners and razed the town — political/state violence to crush a perceived rebellion, not the destruction of an ethnic group (EXT); the prisoner executions push it past ordinary WAR into POL massacre.",
+      "agent": "The Brazilian Army of the First Republic, in a fourth expedition of over 8,000 troops under General Arthur Oscar, backed by the Minister of War",
+      "toll": {
+        "display": "~5,000 to ~35,000 dead (Levine ~15,000; da Cunha ~30,000)",
+        "disputed": true,
+        "low": 5000,
+        "high": 35000,
+        "unit": "deaths",
+        "note": "Estimates diverge sharply. Joel Singer's low figure is ~5,000 dead; historian Robert M. Levine puts it around 15,000; eyewitness-chronicler Euclides da Cunha (Os Sertões, 1902) estimated ~30,000 (25,000 residents plus 5,000 attackers), and some summaries cite up to 35,000 including all combatants. Canudos had grown to over 30,000 residents; after the final assault only about 150 survivors are reported. The numbers are unreliable because the army largely exterminated the population and kept no honest count."
+      },
+      "received_lens": "contested",
+      "summary": "When the backlands town of Canudos, gathered around the lay preacher Antonio Conselheiro, refused the authority of the new Republic, the Brazilian Army sent four expeditions and finally over 8,000 troops with artillery to bombard, storm, and burn it. Surrendering men were tied up and beheaded in front of witnesses, the settlement was razed, and Conselheiro's exhumed head was paraded on a pike — a slaughter of the poor that left perhaps 150 survivors of a town of tens of thousands.",
+      "relevance": "The republic that overthrew the monarchy in the name of order and progress opened its history by exterminating a community of the destitute it could not tolerate — the modern Brazilian state turned on its own people, documented in real time by Euclides da Cunha and only slowly read as atrocity rather than triumph.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "Euclides da Cunha, Os Sertões / Rebellion in the Backlands (1902) — eyewitness chronicle estimating ~30,000 dead and documenting the prisoner beheadings",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/War_of_Canudos",
+          "caveat": "Da Cunha was a journalist embedded with the army and his figure is an estimate written to indict the campaign; cited here via the Wikipedia entry that collates his number, not the original Portuguese text."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Robert M. Levine, Vale of Tears: Revisiting the Canudos Massacre in Northeastern Brazil, 1893-1897 (1992) — estimates ~15,000 dead",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/War_of_Canudos",
+          "caveat": "The mid-range scholarly figure; cited via the Wikipedia entry collating Levine's estimate rather than the monograph itself."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"War of Canudos,\" Wikipedia — toll range (Singer ~5,000; Levine ~15,000; da Cunha ~30,000); fourth expedition of 8,000+ under Gen. Arthur Oscar; ~150 survivors; prisoner beheadings and the pike display",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/War_of_Canudos",
+          "caveat": "AUDIT 2026-06-18: the toll is NO LONGER single-sourced — Singer (~5,000), da Cunha (~30,000), and Levine (~15,000) figures were each independently corroborated this session via non-Wikipedia sources (Oxford Research Encyclopedia of Latin American History, Encyclopedia.com 'Canudos Campaign', UC Press / Cambridge JLAS review of Levine's Vale of Tears). Tertiary aggregator still used for the ~150-survivor figure and the prisoner-beheading/pike details, which are also attested in da Cunha's contemporaneous chronicle."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "bra-4",
+      "country": "BRA",
+      "role": "perpetrator",
+      "title": "State campaign against indigenous peoples (Figueiredo Report)",
+      "era": "c. 1900–1967",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "A 1967 government investigation documented the deliberate destruction of indigenous communities — mass murder, deliberate introduction of smallpox, enslavement, and entire tribes wiped out by officials and allied landowners — which is the intentional destruction of defined groups, hence EXT rather than collapse-from-disease (STR).",
+      "agent": "The Brazilian state's Indian Protection Service (SPI) and allied landowners, whose agents murdered, enslaved, and deliberately infected indigenous communities",
+      "toll": {
+        "display": "80+ tribes destroyed 1900-1957; indigenous population fell ~1 million to ~200,000",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "No reliable aggregate death count exists — the 7,000-page Figueiredo Report (1967) by prosecutor Jader de Figueiredo Correia documented mass murder, torture, deliberate introduction of smallpox into isolated villages, enslavement, and sexual abuse, and concluded that over 80 indigenous tribes were destroyed between 1900 and 1957 while the indigenous population fell by over 80%, from over 1 million to around 200,000. That population decline blends state killing, disease (including deliberate infection), and dispossession, so it cannot be read as a pure death toll; specific massacres were counted (e.g. the Massacre at the 11th Parallel left ~2 survivors of an attacked Cinta Larga group). 134 officials were charged with over 1,000 crimes; 38 were dismissed; none were jailed. Toll set to null because no defensible single death figure is sourceable. AUDIT 2026-06-18: Figueiredo Report (7,000 pp.; 80+ tribes destroyed 1900-57; deliberate smallpox; 134 officials charged, 38 dismissed, none jailed; Massacre at the 11th Parallel ~2 survivors) independently corroborated via Survival International, the Guardian-sourced 'lost report' coverage, and Wikipedia. Tier EXT re-derived and confirmed: disease here was a DELIBERATELY WEAPONIZED instrument of group destruction (intent documented), which is the correct STR-vs-EXT distinction — EXT, not collapse-from-disease (STR). Null toll retained as appropriate; sources verified."
+      },
+      "received_lens": "suppressed",
+      "summary": "A 1967 government inquiry — the long-buried Figueiredo Report — found that Brazil's own Indian Protection Service and allied landowners had murdered, tortured, and enslaved indigenous people, stolen their land, and deliberately introduced smallpox into isolated villages, destroying more than 80 tribes in half a century. Officials machine-gunned and dynamited communities; the indigenous population fell from over a million to around two hundred thousand. Of 134 officials charged with more than a thousand crimes, not one went to prison.",
+      "relevance": "Here the disease that was mostly accidental catastrophe in 1500 became, four centuries on, a deliberate weapon wielded by the agency nominally charged with protecting indigenous people — the Brazilian state as exterminator of the peoples its founding had already gutted, the dual lens closing on itself.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "Figueiredo Report (1967), Jader de Figueiredo Correia for the Ministry of the Interior — 7,000-page investigation documenting mass murder, deliberate smallpox introduction, enslavement, torture; 80+ tribes destroyed; 134 officials charged",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Figueiredo_Report",
+          "caveat": "The original report was thought destroyed and resurfaced only in 2013; cited here via the Wikipedia summary of its findings, not the document itself, and its conclusions were produced amid intense political pressure."
+        },
+        {
+          "kind": "press",
+          "cite": "Survival International, \"'Lost' report exposes Brazilian Indian genocide\" (2013) — reports the rediscovered Figueiredo Report's findings: mass killing, bacteriological attacks, 80+ tribes destroyed, the prosecution and its failure",
+          "supports": "tier",
+          "url": "https://www.survivalinternational.org/news/9191",
+          "caveat": "Survival International is an indigenous-rights advocacy organization with a clear campaigning stance; its account is corroborated by the report's contents but should be weighed as advocacy reporting."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Genocide of Indigenous peoples in Brazil\" and \"Indian Protection Service,\" Wikipedia — 80+ tribes destroyed 1900-1957; population decline over 80% (1 million to ~200,000); SPI enslavement and forced relocations; the Massacre at the 11th Parallel",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Genocide_of_Indigenous_peoples_in_Brazil",
+          "caveat": "Tertiary aggregator; the 80%/80-tribes figures derive from the Figueiredo Report and Truth Commission and blend killing with disease and dispossession — not a pure violent-death count."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "bra-5",
+      "country": "BRA",
+      "role": "perpetrator",
+      "title": "Killings and torture under the military dictatorship",
+      "era": "1964–1985",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "State terror against political opponents — killing, forced disappearance, and systematic torture of dissidents to hold power — is political repression (POL); the much larger indigenous death toll from the regime's development drives sits closer to STR/dispossession and is noted but not folded into the political-victim count.",
+      "agent": "The Brazilian military government (1964-1985) and its security apparatus — the SNI intelligence service and the DOI-CODI torture and interrogation units",
+      "toll": {
+        "display": "434 killed/disappeared (NTC) and ~20,000 tortured; 8,300+ indigenous deaths (conceded as undercount)",
+        "disputed": true,
+        "low": 434,
+        "high": 434,
+        "unit": "deaths",
+        "note": "Brazil's National Truth Commission (2014) attributed 434 people killed or forcibly disappeared to the regime and identified 377 state agents involved; roughly 20,000 people were tortured and tens of thousands detained, with ~10,000 driven into exile. This 434 is a documented, named floor, not the full toll — some scholars argue the political dead reach into the high hundreds. Separately, the Commission attributed at least 8,300 indigenous deaths to the regime's actions (chiefly forced displacement for development projects and resulting disease/starvation) and stressed the real figure is 'probably much higher'; 1,654 peasants were also killed or disappeared. The headline low/high is set to the firm 434 political victims; the indigenous and peasant figures are recorded in this note rather than merged into a single number, because they reflect different mechanisms and very different certainty. AUDIT 2026-06-18: 434 killed/disappeared (HRW breaks it out as 191 killed + 210 disappeared + 33 disappeared-with-bodies-recovered), 377 agents named, and 8,300+ indigenous deaths all independently corroborated via Human Rights Watch and TIME's coverage of the National Truth Commission, not Wikipedia alone. SINGLE-NUMBER TOLL FLAG: low=high=434 is a single documented floor, not a contested range; it is the NTC's named-victim count and is explicitly a floor (some scholars argue the political dead approach ~1,000). Tier POL re-derived and confirmed (political repression of dissidents). Sources verified."
+      },
+      "received_lens": "memorial",
+      "summary": "For twenty-one years Brazil's military regime hunted, jailed, tortured, and killed its political opponents, running the DOI-CODI interrogation centres where roughly twenty thousand people were tortured and at least 434 were killed or disappeared. Beyond the political dead, the regime's drive to open the interior forcibly displaced indigenous nations from their land — the Truth Commission attributed over 8,300 indigenous deaths to its actions, while warning the true number is far higher.",
+      "relevance": "The dictatorship's own Truth Commission, decades later, named the agents and counted the dead — the slow turn from a state's denial toward official acknowledgment that the atlas tracks, even as no perpetrator was punished under Brazil's amnesty law.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "Comissão Nacional da Verdade (National Truth Commission) final report, 2014 — 434 killed/disappeared, 377 agents named, 8,300+ indigenous deaths attributed (stated as an undercount); summarized in \"National Truth Commission,\" Wikipedia",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/National_Truth_Commission",
+          "caveat": "Cited via the Wikipedia summary of the Commission's findings; the Commission itself stresses that its indigenous figure in particular is a floor and the true toll is much higher."
+        },
+        {
+          "kind": "press",
+          "cite": "Human Rights Watch, \"Brazil: Panel Details 'Dirty War' Atrocities\" (2014) — reports the Truth Commission's documentation of killings, disappearances, and systematic torture",
+          "supports": "summary",
+          "url": "https://www.hrw.org/news/2014/12/10/brazil-panel-details-dirty-war-atrocities",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Military dictatorship in Brazil,\" Wikipedia — ~20,000 tortured, 50,000+ detained, ~10,000 exiled; varying death estimates (191 killed/243 disappeared per the NTC tally; ~434 combined; possibly nearing 1,000); 1,654 peasants killed/disappeared",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Military_dictatorship_in_Brazil",
+          "caveat": "Tertiary aggregator with internally varying figures (191+243 vs. 434 vs. 'nearing 1,000'); the headline 434 is the most-cited combined figure and is treated as a documented floor, not a ceiling. AUDIT 2026-06-18: HRW gives the 434 as 191 killed + 210 disappeared + 33 disappeared-with-bodies-recovered, slightly different decomposition from the 191+243 here but the same 434 total."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

@@ -1,0 +1,13 @@
+# Deban project memory — local working memory, not a published artifact
+.deban/
+
+# OS / editor
+.DS_Store
+*.swp
+
+# serve / tmp
+.cache/
+node_modules/
+
+# harness internals
+.claude/

@@ -1,0 +1,200 @@
+{
+  "iso": "USA",
+  "name": "United States of America",
+  "note": "Researched 2026-06-18; adversarially audited 2026-06-18 (see notes/USA.md ## Audit). Tolls sourced to a low and a high published figure each. Both ledgers populated: perpetrator (Indigenous removal & massacres, My Lai, Philippine-American War) and victim (Pearl Harbor & 9/11). Audit corrected three mis-sourcing defects (Sand Creek NPS toll mis-stated, Pearl Harbor breakdown re-pointed to a source that carries it, 1902 cholera figure overstated); no fabricated sources were found and every cited work/author/page was confirmed to exist and to support its specific claim after correction.",
+  "events": [
+    {
+      "id": "usa-1",
+      "country": "USA",
+      "role": "perpetrator",
+      "title": "Indigenous removal & massacres",
+      "era": "1830–1890",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "Congress legislated removal (Indian Removal Act 1830) and the Army carried out forced marches and named massacres (Sand Creek, Wounded Knee) — deliberate state policy of dispossession and killing aimed at specific peoples, but framed as removal/pacification rather than total physical annihilation, so POL rather than EXT.",
+      "agent": "US federal government, the US Army, and settler militias",
+      "toll": {
+        "display": "~12,000–17,000 removal-march deaths (plus several hundred in named massacres)",
+        "disputed": true,
+        "low": 12000,
+        "high": 17000,
+        "unit": "deaths",
+        "note": "Range is for deaths during the 1830s–1840s forced removals across the Cherokee, Choctaw, Creek, Chickasaw and Seminole; the Cherokee 'Trail of Tears' alone is put at 4,000 (Butler's contemporary count) to 8,000 (Thornton 1984). Many died of exposure, starvation and disease en route, but the marches were ordered by the state, so these are policy deaths, not a natural epidemic. Massacre deaths (Sand Creek ~230, well over half women and children; Wounded Knee ~150–300) are separate, direct killings counted in the hundreds, not included in the 12,000–17,000. Note: the 12,000–17,000 era-wide range is the headline toll.low/toll.high; Thornton's ~8,000 is the Cherokee-specific high cited for context, not the era-wide high."
+      },
+      "received_lens": "contested",
+      "summary": "The federal government ordered Indigenous nations off their lands at gunpoint; the Army marched the Cherokee, Choctaw, Creek, Chickasaw and Seminole west, and thousands died of cold, hunger and disease on the way. Across the following decades soldiers and militias massacred sleeping villages — Chivington's men at Sand Creek in 1864, the 7th Cavalry at Wounded Knee in 1890 — killing women and children alongside the men.",
+      "relevance": "The nation later attacked at Pearl Harbor and on 9/11 spent the nineteenth century clearing a continent of its prior inhabitants — victim and perpetrator on the same ground.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "National Endowment for the Humanities / Britannica, 'Trail of Tears' — ~12,000–17,000 dead across removal-era relocations; Britannica gives 'some 15,000'",
+          "supports": "toll.low",
+          "url": "https://www.britannica.com/event/Trail-of-Tears",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Russell Thornton, 'Cherokee Population Losses during the Trail of Tears' (1984), estimating ~8,000 Cherokee deaths; high end of the per-nation estimates",
+          "supports": "toll.high",
+          "url": null,
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "National Park Service, Sand Creek Massacre National Historic Site — about 230 dead, well over half of them women and children",
+          "supports": "summary",
+          "url": "https://www.nps.gov/sand/learn/historyculture/massacre.htm",
+          "caveat": "Audit 2026-06-18: original cite mis-stated the NPS figure as '~150 killed, two-thirds women/children'; the page actually states 'well over half of the 230 dead were women and children.' Corrected to match the source."
+        },
+        {
+          "kind": "reference",
+          "cite": "Britannica, 'Sand Creek Massacre' — more than 230 killed (high end vs. Chivington's inflated 'warrior' claims)",
+          "supports": "summary",
+          "url": "https://www.britannica.com/event/Sand-Creek-Massacre",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Britannica / Smithsonian Magazine, 'Wounded Knee Massacre' — between 150 and ~300 Lakota killed, nearly half women and children",
+          "supports": "summary",
+          "url": "https://www.britannica.com/event/Wounded-Knee-Massacre",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "usa-2",
+      "country": "USA",
+      "role": "perpetrator",
+      "title": "My Lai massacre",
+      "era": "1968",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "A unit of the US Army murdered unarmed civilians during a combat operation in the Vietnam War — a war crime committed by soldiers in the field, not a standing extermination program, so WAR.",
+      "agent": "US Army (Charlie Company, 1st Battalion, 20th Infantry)",
+      "toll": {
+        "display": "347–504",
+        "disputed": true,
+        "low": 347,
+        "high": 504,
+        "unit": "deaths",
+        "note": "The US Army's Peers Inquiry counted at least 347 dead; the Vietnamese government's figure is 504, including infants, children and pregnant women. Almost all victims were women, children and elderly men."
+      },
+      "received_lens": "contested",
+      "summary": "On 16 March 1968, soldiers of Charlie Company shot, bayoneted and burned hundreds of unarmed villagers in Sơn Mỹ; a helicopter crew under Hugh Thompson set down between the troops and survivors to stop the killing. The Army hid it for a year, and of those charged only Lieutenant William Calley was convicted — he served about three years under house arrest.",
+      "relevance": "One documented atrocity inside a larger war — neither erased by the wars America fought nor erasing them.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "U.S. Army, Report of the Department of the Army Review of the Preliminary Investigations into the My Lai Incident (Peers Inquiry, 1970) — at least 347 dead",
+          "supports": "toll.low",
+          "url": null,
+          "caveat": "US Army self-investigation of its own troops; the lower count is the figure the institution under scrutiny accepted."
+        },
+        {
+          "kind": "reference",
+          "cite": "Government of Vietnam memorial count, as reported by Britannica, 'My Lai Massacre' — 504 dead, 56 of them infants",
+          "supports": "toll.high",
+          "url": "https://www.britannica.com/event/My-Lai-Massacre",
+          "caveat": "State memorial figure of the country whose civilians were killed; cited via Britannica's summary."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'My Lai massacre' — corroborates the 347 (US) vs 504 (Vietnamese) range and victim demographics",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/My_Lai_massacre",
+          "caveat": "Tertiary encyclopedia; used to corroborate the cross-checked range, not as sole authority."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "usa-4",
+      "country": "USA",
+      "role": "perpetrator",
+      "title": "Philippine–American War",
+      "era": "1899–1902",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "A war of conquest in which the US Army's reconcentration camps, crop destruction and reprisals (notably the 'make Samar a howling wilderness' campaign after Balangiga) drove a vast civilian death toll, but the great majority of deaths came from war-induced famine and a cholera epidemic, not a deliberate program to exterminate Filipinos as a group — so WAR, not EXT.",
+      "agent": "US Army and US colonial administration",
+      "toll": {
+        "display": "~200,000–250,000 civilians (some estimates up to ~1,000,000)",
+        "disputed": true,
+        "low": 200000,
+        "high": 1000000,
+        "unit": "deaths",
+        "note": "Modern scholarly consensus puts civilian deaths at roughly 200,000–250,000, the majority from famine and disease (the 1902–04 cholera epidemic alone killed on the order of ~100,000, with estimates ranging from ~66,000 official provincial deaths to ~109,000+) caused by the war's disruption and the Army's reconcentration policy; higher figures up to ~1,000,000 circulate but are contested. Filipino combatant deaths are put at ~16,000–20,000 (US estimate); US military dead ~4,200 (about 1,000 in combat, ~3,000 of disease). This is war/policy-driven mass death, NOT a disease event with no human agency — the famine and epidemic were products of US military operations — but the death mechanism being largely disease keeps it out of the EXT tier. Audit 2026-06-18: original note gave the cholera toll as '~150,000'; authoritative figures (Wikipedia '1902 cholera outbreak of the Philippines'; Inquirer) put it at ~100,000–109,000, so the figure was corrected downward."
+      },
+      "received_lens": "suppressed",
+      "summary": "After buying the Philippines from Spain, the US fought down the new Philippine Republic; American forces herded civilians into reconcentration zones, burned crops and villages, and after the Balangiga ambush General Jacob Smith ordered Samar turned into 'a howling wilderness,' to kill everyone over ten. Most of the dead were civilians who starved or died of cholera in the wreckage the war left behind.",
+      "relevance": "America's own anti-colonial founding myth sits beside its turn-of-the-century colonial war — the rescued and the conqueror in one country.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Philippine–American War' / U.S. Department of State Office of the Historian — modern consensus 200,000–250,000 civilian deaths, mostly famine and disease",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Philippine%E2%80%93American_War",
+          "caveat": "Tertiary encyclopedia cross-checked against the State Department's own milestone page, which gives ~200,000."
+        },
+        {
+          "kind": "reference",
+          "cite": "U.S. Department of State, Office of the Historian, 'The Philippine-American War, 1899–1902' — as many as 200,000 Filipino civilians died",
+          "supports": "toll.low",
+          "url": "https://history.state.gov/milestones/1899-1913/war",
+          "caveat": "Official US state organ describing a US war; tends toward the lower bound and downplays direct culpability."
+        },
+        {
+          "kind": "press",
+          "cite": "WarCosts.org synthesis — civilian deaths estimated 200,000 to ~1,000,000; ~4,200 US dead",
+          "supports": "toll.high",
+          "url": "https://www.warcosts.org/philippine-american-war",
+          "caveat": "Advocacy/synthesis outlet (war-accountability project); cited only for the high-end estimate it aggregates, which is the contested upper bound."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "usa-3",
+      "country": "USA",
+      "role": "victim",
+      "title": "Pearl Harbor & 9/11",
+      "era": "1941 / 2001",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Pearl Harbor was a military surprise attack opening a state-to-state war; 9/11 was a mass-casualty attack by a non-state armed group that the US treated as an act of war — both are armed attacks on the United States, so WAR.",
+      "agent": "Imperial Japan (1941) / al-Qaeda (2001)",
+      "toll": {
+        "display": "~2,403 (Pearl Harbor) / 2,977 (9/11)",
+        "disputed": false,
+        "low": 2403,
+        "high": 2977,
+        "unit": "deaths",
+        "note": "Pearl Harbor: 2,403 Americans killed (incl. 68 civilians), figure stable across sources. 9/11: official toll 2,977 victims, excluding the 19 hijackers; the count was revised several times before settling. The 'low/high' here are the two separate events' totals, not a dispute over a single number — neither figure is seriously contested."
+      },
+      "received_lens": "memorial",
+      "summary": "Japanese carrier planes struck the Pacific Fleet at anchor on 7 December 1941, killing 2,403 and pulling the US into the Second World War. Sixty years later, al-Qaeda hijackers flew passenger jets into the World Trade Center and the Pentagon and crashed a fourth in Pennsylvania, killing 2,977 and launching two decades of American war abroad.",
+      "relevance": "The victim ledger is real and load-bearing; the dual-lens point is never that America was not attacked, only that the same nation also did the attacking elsewhere.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Encyclopaedia Britannica, 'Pearl Harbor attack' — 2,403 Americans killed (incl. 68 civilians) and ~1,178 wounded; figure stable across Britannica, History.com and the U.S. Army",
+          "supports": "toll.low",
+          "url": "https://www.britannica.com/event/Pearl-Harbor-attack",
+          "caveat": "Audit 2026-06-18: original cite attributed the precise '2,403 killed, 1,178 wounded' breakdown to a National Archives page (archives.gov/legislative/features/pearl-harbor) that actually states only '3,435 casualties' without that split. Re-pointed to Britannica, which carries the 2,403/1,178 figures; the numbers are independently confirmed across multiple authoritative sources."
+        },
+        {
+          "kind": "reference",
+          "cite": "Britannica / National September 11 Memorial & Museum — official 9/11 toll of 2,977 victims (excluding 19 hijackers)",
+          "supports": "toll.high",
+          "url": "https://www.britannica.com/event/September-11-attacks",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

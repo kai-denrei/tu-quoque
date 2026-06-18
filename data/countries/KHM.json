@@ -1,0 +1,108 @@
+{
+  "iso": "KHM",
+  "name": "Cambodia",
+  "note": "Two ledgers present: Cambodia as perpetrator (the Khmer Rouge regime against its own people and minorities) and as victim (the US bombing campaign of 1969-73). Tolls researched against Heuveline's 2015 demographic study and the Owen/Kiernan bombing data; both events have an attested low and high source.",
+  "events": [
+    {
+      "id": "khm-1",
+      "country": "KHM",
+      "role": "perpetrator",
+      "title": "The Khmer Rouge",
+      "era": "1975–79",
+      "era_band": "contemporary",
+      "tier": "EXT",
+      "tier_reasoning": "The regime deliberately destroyed targeted groups as such — Cham Muslims, ethnic Vietnamese and Chinese, Buddhist monks — a charge the ECCC convicted on as genocide, alongside mass political killing; the famine deaths it engineered were a consequence of intent, not disease, so the act sits at EXT rather than STR.",
+      "agent": "Democratic Kampuchea (Pol Pot and the Communist Party of Kampuchea)",
+      "toll": {
+        "display": "~1.2–2.8 million (median ~1.9 million)",
+        "disputed": true,
+        "low": 1200000,
+        "high": 2800000,
+        "unit": "deaths",
+        "note": "Heuveline's 2015 demographic reconstruction gives a median of ~1.9 million excess deaths with a 95% interval of 1.2–2.8 million; of these roughly 1.1 million were violent killings and the remainder famine, overwork and untreated illness. Figures are excess deaths over an expected baseline, not a literal body count, and earlier estimates ranged more widely (Kiernan ~1.5 million; some claims up to 3.3 million)."
+      },
+      "received_lens": "memorial",
+      "summary": "Pol Pot's Communist Party of Kampuchea seized Phnom Penh in April 1975, emptied the cities at gunpoint, and drove the population into rural labour communes. Over the next three years cadres executed perceived enemies, worked and starved people on the collective farms, and singled out Cham Muslims, ethnic Vietnamese and Chinese, and Buddhist monks for destruction — killing somewhere around a fifth to a quarter of all Cambodians before Vietnam's 1979 invasion ended the regime.",
+      "relevance": "The clearest case of a people turning on itself: the same nation that was bombed and brutalised by foreign powers then produced a regime that murdered its own on ideological and ethnic lines.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Patrick Heuveline, 'The boundaries of genocide: quantifying the uncertainty of the death toll during the Pol Pot regime (1975–1979)', Population Studies, 2015 (UCLA California Center for Population Research)",
+          "supports": "toll.high",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4562795/",
+          "caveat": "Audit-verified: median ~1.9M, 95% interval 1.2–2.8M, violent deaths median ~1.09M. This source actually anchors BOTH ends of the displayed range (low 1.2M and high 2.8M); the Kiernan low is corroborating, not the sole low source."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Ben Kiernan, The Pol Pot Regime: Race, Power, and Genocide in Cambodia under the Khmer Rouge, 1975–79 (Yale University Press, 1996) — Kiernan's detailed estimate is 1.671–1.871 million deaths; the popular '~1.5 million' figure is the lower, jacket-level shorthand",
+          "supports": "toll.low",
+          "url": null,
+          "caveat": "Audit-verified: real, standard scholarly source; the 2009 UN Demographic Expert Report to the ECCC called Kiernan's estimates 'methodologically sound'. Note Kiernan's own detailed figure (1.67–1.87M) sits above the displayed low of 1.2M, which traces to Heuveline."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Cambodian genocide', Wikipedia — summary of targeted-group tolls and the ECCC genocide convictions (Trial Chamber verdict 16 Nov 2018; upheld on appeal Sept 2022) of Nuon Chea and Khieu Samphan",
+          "supports": "tier",
+          "url": "https://en.wikipedia.org/wiki/Cambodian_genocide",
+          "caveat": "Tertiary encyclopaedia; used only to corroborate the ECCC verdicts and per-group figures, which trace to court records and Kiernan. Audit corrected the conviction year from '2019' to 2018 (appeal upheld 2022); independently confirmed against UN News and CJA."
+        },
+        {
+          "kind": "reference",
+          "cite": "Tuol Sleng Genocide Museum (former S-21), official site — the state-run memorial to the regime's victims",
+          "supports": "summary",
+          "url": "https://tuolsleng.gov.kh/en/",
+          "caveat": "Cambodian government memorial institution; reflects the official memorial framing, not a neutral toll source. Audit-verified as the genuine official S-21 / Tuol Sleng site."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "khm-2",
+      "country": "KHM",
+      "role": "victim",
+      "title": "US bombing of Cambodia",
+      "era": "1969–73",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Aerial interdiction of Vietnamese communist supply lines and Khmer Rouge positions during the Vietnam War; the killing of civilians was a consequence of indiscriminate bombing in an armed conflict, not a campaign to destroy a group, so it is a war-conduct (WAR) act rather than EXT.",
+      "agent": "United States (Nixon administration, ordered by Nixon and Kissinger; flown by Strategic Air Command B-52s)",
+      "toll": {
+        "display": "~50,000–150,000 (broader estimates 24,000 to several hundred thousand)",
+        "disputed": true,
+        "low": 50000,
+        "high": 150000,
+        "unit": "deaths",
+        "note": "Death figures are highly uncertain because the campaign was secret and records were thin. Kiernan judges the direct-bombing toll to lie between 50,000 and 150,000, closer to the upper end; other estimates run from ~24,000 up to several hundred thousand. The much-cited '2.7 million tons' figure that Owen and Kiernan first published in 2006 was later revised by them to ~500,000 tons for 1969–73; tonnage is not a death count."
+      },
+      "received_lens": "contested",
+      "summary": "From 1969 the Nixon administration ran a years-long, initially secret B-52 campaign over eastern Cambodia to hit Vietnamese communist supply routes and, later, Khmer Rouge positions, dropping on the order of half a million tons of ordnance. It killed tens of thousands of Cambodian villagers, drove perhaps a million peasants off the land into Phnom Penh, and — many historians argue — helped the Khmer Rouge recruit and seize power.",
+      "relevance": "The state that would soon commit auto-genocide was, just before, on the receiving end of another power's war — and the causal link between the bombing and the rise of Pol Pot is real, debated, and refuses a single-victim story.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Taylor Owen and Ben Kiernan, 'Bombs Over Cambodia', The Walrus (Oct 2006); tonnage revised in Kiernan & Owen, 'Making More Enemies than We Kill? Calculating U.S. Bomb Tonnages Dropped on Laos and Cambodia', Asia-Pacific Journal vol. 13 (2015). Kiernan attributes 50,000–150,000 direct-bombing deaths, 'closer to the upper limit'.",
+          "supports": "toll.low",
+          "url": "https://apjjf.org/ben-kiernan/4313",
+          "caveat": "Audit note: the apjjf article is primarily a bomb-TONNAGE study (~500,000 tons for 1969–73; Holly High et al. argue ≥472,313 tons) — tonnage is not a death count. The 50,000–150,000 DEATH range is Kiernan's separate attribution, which supports both the displayed low (50k) and high (150k). URL 403s to automated fetch but the article is real and verified via the journal and Truthout/Cambridge mirrors."
+        },
+        {
+          "kind": "press",
+          "cite": "Sophal Ear, 'Henry Kissinger's bombing campaign likely killed hundreds of thousands of Cambodians', The Conversation (2023)",
+          "supports": "toll.high",
+          "url": "https://theconversation.com/henry-kissingers-bombing-campaign-likely-killed-hundreds-of-thousands-of-cambodians-and-set-path-for-the-ravages-of-the-khmer-rouge-209353",
+          "caveat": "Analysis piece by Sophal Ear (Arizona State / Thunderbird), himself a Khmer Rouge survivor — perspective disclosed. Cites a wide 24,000-to-~1-million range with 'most estimates' in the hundreds of thousands, so its upper figures are an outer bound rather than a settled count. Audit-verified author and range."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Operation Menu' and 'Operation Freedom Deal', Wikipedia — campaign chronology, tonnage and casualty ranges",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Operation_Menu",
+          "caveat": "Tertiary encyclopaedia; used for campaign framing, with figures cross-checked against Owen/Kiernan."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

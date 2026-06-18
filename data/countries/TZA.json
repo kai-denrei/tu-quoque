@@ -1,0 +1,101 @@
+{
+  "iso": "TZA",
+  "name": "Tanzania",
+  "note": "Researched 2026-06-18 from scratch (no prior seed). The two ledgers are deliberately asymmetric, and that asymmetry is the dual-lens point rather than a gap to be papered over. Tanzania's (Tanganyika's) single clearest mass atrocity is something done TO its peoples: Imperial Germany's deliberate scorched-earth starvation in the suppression of the Maji Maji rebellion (1905-1907), one of the deadliest events in the colonial history of East Africa. Its perpetrator record is genuinely thinner. The post-independence Tanzanian state under Julius Nyerere was, by African standards of its era, comparatively non-violent: it ran no death-squad terror, no large-scale ethnic massacre. Its heaviest documented coercive act against its own people is the forced villagization of 1973-1976 (Operation Vijiji) — mass forced displacement, destroyed homesteads, and a food-production collapse, but not a killing campaign, and with no reliable death count. Tanzania's most famous use of force abroad, the 1978-79 war that overthrew Idi Amin, is widely read as a justified ouster of a far worse regime rather than an atrocity, and most of that war's civilian deaths were caused by Amin's and Libya's forces, not the TPDF; it is therefore not entered as a perpetrator atrocity. We do NOT invent a symmetric perpetrator event to balance the Maji Maji entry. The Maji Maji toll is contested across an order of magnitude (German colonial 75,000 vs. historians' 250,000-300,000); low and high ends are separately sourced.",
+  "events": [
+    {
+      "id": "tza-1",
+      "country": "TZA",
+      "role": "victim",
+      "title": "The Maji Maji rebellion and the Great Hunger",
+      "era": "1905–1907",
+      "era_band": "colonial",
+      "tier": "EXT",
+      "tier_reasoning": "German forces, unable to win in the field, deliberately destroyed crops, granaries, livestock, and villages to starve whole populations into submission, knowingly producing mass famine death across entire districts; the deliberate weaponization of hunger against a defined population places the act at EXT, though whether it meets the legal definition of genocide is debated by scholars.",
+      "agent": "Imperial Germany in German East Africa, under Governor Gustav Adolf von Götzen; the starvation strategy was formalized in an October 1905 memorandum by Hauptmann Curt von Wangenheim",
+      "toll": {
+        "display": "~75,000 (German colonial figure) to ~250,000–300,000 (historians; disputed)",
+        "disputed": true,
+        "low": 75000,
+        "high": 300000,
+        "unit": "deaths",
+        "note": "German colonial records put total African deaths at about 75,000. Historians G. C. K. Gwassa and Tanja Bührer place the figure far higher, at roughly 250,000-300,000, the great majority from starvation rather than combat. The deaths are overwhelmingly a population-decline / famine count, not a battlefield tally: the German scorched-earth campaign produced the post-war famine remembered as the Great Hunger (ukame), depopulating districts such as southern Usagara by mid-1906 and driving infertility sharply upward in affected areas. Counts are estimates, not bodies counted; the order-of-magnitude gap reflects colonial undercounting versus later scholarly reconstruction."
+      },
+      "received_lens": "memorial",
+      "summary": "In 1905 peoples across southern German East Africa rose against forced cotton labor and taxation, united by belief in maji, a war-water said to turn German bullets to water. Unable to crush the revolt in battle, Governor von Götzen's forces burned crops, granaries, and villages to starve the rebellion out; the famine that followed, the Great Hunger, killed far more people than the fighting did and emptied whole districts. The deliberately engineered famine, not a natural epidemic, is the core of the toll, which is why this remains an EXT (deliberate destruction of a population), not a structural/disease entry.",
+      "relevance": "Maji Maji is the cornerstone of Tanzania's victim ledger — a colonized people deliberately starved by an imperial power — and it stands almost alone, because the modern Tanzanian state's own record of mass atrocity is comparatively thin; the dual lens here works mostly through the contrast between a heavy victim entry and a light perpetrator one.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Maji Maji Rebellion overview (July 1905 – August 1907) — 75,000 to 300,000 deaths, overwhelmingly from famine; scorched-earth starvation under Governor Gustav Adolf von Götzen; Wangenheim memorandum on using hunger as a weapon; described as genocidal by scholars A. Dirk Moses and Klaus Bachmann",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Maji_Maji_Rebellion",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "G. C. K. Gwassa and Tanja Bührer cited as placing the toll at ~250,000-300,000, the majority from starvation; Gwassa & John Iliffe, 'Records of the Maji Maji Rising' (1968), and Iliffe, 'Tanganyika under German Rule 1905-1912', are the foundational scholarship revising the German colonial count upward",
+          "supports": "toll.high",
+          "url": "https://archive.org/details/maji-maji-1",
+          "caveat": "The high range is a scholarly reconstruction of famine mortality, not a verified body count; famine death figures for this period are inherently soft. AUDIT (2026-06-18): the Gwassa & Iliffe 'Records of the Maji Maji Rising' (1968) volume at this archive.org URL was confirmed to resolve and to be the named work; Tanja Bührer confirmed as a real historian (Die Kaiserliche Schutztruppe für Deutsch-Ostafrika, 2011) giving ~250,000."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Klaus Bachmann and Gerhard Kemp, 'Was Quashing the Maji-Maji Uprising Genocide? An Evaluation of Germany's Conduct through the Lens of International Criminal Law', Holocaust and Genocide Studies 35:2 (2021), pp. 235-249 — finds strong evidence that the deliberate starvation campaign meets the legal definition of genocide, while noting the concept did not legally exist at the time and that compensation claims face state-immunity obstacles",
+          "supports": "tier",
+          "url": "https://academic.oup.com/hgs/article/35/2/235/6330489",
+          "caveat": "AUDIT (2026-06-18): original record misattributed this article to 'Felix Schürmann et al.'; verified authors are Klaus Bachmann and Gerhard Kemp (journal, volume, issue, pages, and URL confirmed correct). The authors conclude the conduct deserves the label of genocide under modern international criminal law, though scholars more broadly remain divided and the legal concept post-dates the events."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "tza-2",
+      "country": "TZA",
+      "role": "perpetrator",
+      "title": "Forced villagization (Operation Vijiji / Ujamaa)",
+      "era": "1973–1976",
+      "era_band": "modern",
+      "tier": "STR",
+      "tier_reasoning": "Mass forced displacement and the destruction of dispersed homesteads, followed by a food-production collapse and disease epidemics, drove suffering and excess death through structural disruption rather than through any campaign to kill a defined group, so STR; there is no reliable death toll and no evidence of intent to kill.",
+      "agent": "The Tanzanian state under President Julius Nyerere and the ruling TANU party (later CCM), enforced by local officials, police, and militia",
+      "toll": {
+        "display": "no reliable death count (at least ~5 million forcibly relocated)",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "QUARANTINE (AUDIT 2026-06-18): event left UNVERIFIED. There is no credible figure for deaths caused by Operation Vijiji, and we do not invent one. The measurable harm is displacement and its consequences: historian James C. Scott estimates at least five million Tanzanians were forcibly relocated (other accounts put 80-90% of the rural population into planned villages), with homesteads burned to prevent return. The aftermath included a sharp food-production collapse — Tanzania went from exporting ~540,000 tons of surplus maize in 1970 to importing ~300,000 tons in 1974, with per-capita food output falling to 1960 levels by 1975. The original note's claim of 'cholera and typhoid epidemics linked to the resettlement' OVERSTATES the evidence: Tanzania's first reported cholera epidemic did occur in 1974 (temporally coincident with Operation Vijiji), but no source consulted establishes a causal link to the resettlement, and no 1974 typhoid epidemic tied to villagization could be verified — that disease claim is downgraded to an unverified temporal coincidence. Any excess mortality from hunger and disease is undocumented as a number, so the toll is null/null, which is why this perpetrator entry remains UNVERIFIED rather than VERIFIED — not because the displacement is in doubt (it is well-attested) but because the atrocity cannot be expressed as a sourced toll."
+      },
+      "received_lens": "contested",
+      "summary": "From 1973 the Nyerere government abandoned the voluntary phase of its ujamaa socialist policy and made resettlement compulsory, moving millions of dispersed rural Tanzanians into planned villages, often by force and by burning their homesteads to stop them returning. The program collapsed food production, required massive grain imports, and was followed by cholera and typhoid outbreaks; it is remembered as one of the largest forced resettlements in independent Africa.",
+      "relevance": "The state widely admired abroad as a model of peaceful African socialism under a revered founding leader also uprooted millions of its own citizens at gunpoint and burned their homes — a coercive act by the Tanzanian state against the same rural peoples whose ancestors had been starved by the Germans seven decades earlier.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "James C. Scott, 'Seeing Like a State' (1998), ch. 7 'Compulsory Villagization in Tanzania' — at least five million Tanzanians forcibly relocated in 1973-1976; food production fell and large food imports followed",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Seeing_Like_a_State",
+          "caveat": "AUDIT (2026-06-18): the book and its Tanzania chapter are real and the five-million figure is corroborated independently (African Arguments; book reviews), but the cited Wikipedia URL is a thin proxy — it only names 'forced villagization in 1970s Tanzania' in passing and does NOT itself carry the five-million figure or the 'largest in independent Africa' phrasing (the latter quote, removed here as it could not be verbatim-verified at this URL). The substantive claim rests on the book itself, which is genuine."
+        },
+        {
+          "kind": "press",
+          "cite": "African Arguments, 'Tanzania: Remembering ujamaa, the good, the bad and the buried' (Dec. 2020) — firsthand accounts of homesteads (bomas) being burned and people 'forced into these villages like cattle'; maize exports of ~540,000 tons in 1970 turning to ~300,000 tons of imports by 1974; ordered by Nyerere and TANU under the 1967 Arusha Declaration",
+          "supports": "summary",
+          "url": "https://africanarguments.org/2020/12/tanzania-remembering-ujamaa-the-good-the-bad-and-the-buried/",
+          "caveat": "An advocacy-leaning retrospective drawing on critics of ujamaa; bias disclosed. AUDIT (2026-06-18): article verified to exist and to contain the exact figures cited — '540,000 tons of surplus maize in 1970' turning to '300,000 tons' of imports by 1974, bomas/homesteads burned, 'at least five million Tanzanians were forcibly relocated', 80-90% of the rural population moved, 1967 Arusha Declaration, TANU's 1972 compulsory relocations. Strongest single source for this event."
+        },
+        {
+          "kind": "reference",
+          "cite": "Operation Vijiji (Wikipedia) — confirms compulsory/forced villagization 1973-1976 with the intention that the whole rural population move by 1976; relocation 'sometimes forced' of many thousands to Ujamaa villages",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Operation_Vijiji",
+          "caveat": "AUDIT (2026-06-18): the page exists but is a STUB. It confirms the 1973-1976 forced-villagization framing but does NOT itself contain the '11-13 million / ~90% / 7,000+ planned villages / homestead destruction / police-military enforcement' specifics the original cite attributed to it — those figures were over-attributed here. The 80-90%-of-rural-population magnitude is, however, separately attested by African Arguments and Scott. Original cite text trimmed to what this source actually supports."
+        }
+      ],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

@@ -1,0 +1,126 @@
+{
+  "iso": "THA",
+  "name": "Thailand",
+  "note": "Both ledgers are populated and roughly balanced. As victim, the canonical event is the Burmese sack of Ayutthaya in 1767, which ended the four-century kingdom — though the famous '200,000 dead / one million population' figures are infobox claims with no scholarly attribution and are very likely inflated, so the death toll is treated as disputed and the better-attested measure is the deportation of captives. As perpetrator, Siam/Thailand acted twice over: the early-modern razing of Vientiane (1827–28) and the forced deportation of the Lao across the Mekong, and the modern state's killing of Malay Muslims at Tak Bai in 2004. A third strong perpetrator event — the 6 October 1976 Thammasat University massacre of leftist students — is documented in the notes but omitted here to keep to the most significant; it could be added. The 1827 deportation death count specifically could not be sourced to reliable scholarship (the widely repeated 'two-thirds perished' claim traces only to an AI-generated reference site), so that figure is left null and the event is marked UNVERIFIED on toll. ADVERSARIAL AUDIT (2026-06-18): tha-3 (Tak Bai) verified — HRW, Al Jazeera, Wikipedia and the 2009 Songkhla inquest agree on 85 dead (7 shot + 78 asphyxiated). tha-1 (Ayutthaya) sources verified but toll stays UNVERIFIED (captive counts, not a death count). tha-2 (Vientiane) has two source-integrity defects, both quarantined below: the John Crawfurd 'iron cage' attribution is chronologically impossible (his 1822 embassy / 1828 journal predate Anouvong's January 1829 captivity and death) and the '~8,500 Siamese inventory' figure traces only to the AI-generated reference site Grokipedia; the well-sourced 100,000+ deportation magnitude (Ngaosyvathn & Ngaosyvathn, Paths to Conflagration, Cornell UP 1998) is retained.",
+  "events": [
+    {
+      "id": "tha-1",
+      "country": "THA",
+      "role": "victim",
+      "title": "The fall of Ayutthaya",
+      "era": "1765–67",
+      "era_band": "pre-colonial",
+      "tier": "WAR",
+      "tier_reasoning": "A conquering army stormed, sacked and burned an enemy capital and slaughtered, enslaved and deported its inhabitants in the course of an interstate war; the killing flowed from the conduct of conquest rather than a campaign to destroy a people as such, so it sits at WAR.",
+      "agent": "The Burmese Konbaung army under King Hsinbyushin, led in the field by generals Maha Nawrahta and Ne Myo Thihapate",
+      "toll": {
+        "display": "deaths uncertain and contested; ~30,000 to (Burmese chronicles) ~100,000 deported to Burma",
+        "disputed": true,
+        "low": 30000,
+        "high": 100000,
+        "unit": "deaths",
+        "note": "These low/high figures are CAPTIVE counts, not a death count: Siamese accounts put deportees at around 30,000, Burmese chronicles claim up to 100,000, and historians place the real number in the tens of thousands. Many captives then died on the forced march to Ava from starvation, exhaustion and disease. The often-cited '200,000 killed' and 'one million population' are Wikipedia infobox figures with no scholarly attribution and are widely regarded as exaggerated, so a clean siege-massacre death count cannot be stated; the event is anchored on the better-attested deportation."
+      },
+      "received_lens": "memorial",
+      "summary": "After a fourteen-month siege the Burmese broke into Ayutthaya in April 1767, burned the palaces and temples, melted down Buddha images for their gold, killed inhabitants and monks indiscriminately, and marched tens of thousands of survivors — among them the royal family, craftsmen and scholars — back to Burma. The four-century Siamese kingdom collapsed and its capital was left a ruin, never rebuilt.",
+      "relevance": "The founding wound in Thai national memory and the standard image of Thais as victims of a foreign conqueror — the same Siamese state that, two generations later, would do to Vientiane much of what Burma did to Ayutthaya.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Siege of Ayutthaya (1766–1767)' and 'Burmese–Siamese War (1765–1767)', Wikipedia — chronology, command structure, deportation of ~30,000, and the (contested) infobox casualty figures",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Ayutthaya_(1766%E2%80%931767)",
+          "caveat": "Tertiary encyclopaedia. The '200,000 civilians killed' and 'one million population' figures in its infobox carry no cited scholarly source and are very likely inflated; used here only for the deportation magnitude and event framing, not as a death count."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "King Mongkut's University of Technology Thonburi (KMUTT) Library, 'Chapter 5: Events After the Fall of Ayutthaya to Burma' — translated chronicle and missionary accounts of the sack, citing ~30,000 captured, temples burned and looted, and contemporary eyewitness reports of killings",
+          "supports": "summary",
+          "url": "https://www.lib.kmutt.ac.th/chapter-5-events-after-the-fall-of-ayutthaya-to-burma/",
+          "caveat": "Draws on Thai chronicle and missionary sources, which give qualitative descriptions ('slaughtered countless civilians') rather than a verifiable body count; corroborates the ~30,000 captive figure and the scale of destruction."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "tha-2",
+      "country": "THA",
+      "role": "perpetrator",
+      "title": "The razing of Vientiane and deportation of the Lao",
+      "era": "1827–28",
+      "era_band": "pre-colonial",
+      "tier": "WAR",
+      "tier_reasoning": "After crushing Anouvong's rebellion, the Siamese state deliberately destroyed the Lao capital and forcibly transferred a large population across the Mekong to break the polity; the deaths arose from a war-suppression and mass-deportation policy rather than an intent to annihilate the Lao as a people, placing it at WAR.",
+      "agent": "The Siamese state under King Rama III (Nangklao), executed by supreme commander Viceroy Sakdiphonlasep and general Bodindecha",
+      "toll": {
+        "display": "100,000+ Lao deported (scholarly estimates range to ~300,000); deaths among deportees unquantified",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "This was primarily a mass forced-deportation and depopulation, not a recorded mass killing, so a death count is the wrong primary measure and no reliable death figure could be sourced. Deportation magnitude is attested in scholarship: Wikipedia gives 'tens of thousands of Lao forcibly moved to Siam', and the scholarly anchor (Ngaosyvathn & Ngaosyvathn, Paths to Conflagration, Cornell UP 1998) places the displacement to the Khorat Plateau and central Siam in the range of 'over 100,000' to as high as ~300,000. The frequently repeated claim that two-thirds died en route traces only to the AI-generated reference site Grokipedia and is NOT used here. QUARANTINE (adversarial audit 2026-06-18): an earlier version of this note cited '~8,500 captives from Vientiane's immediate vicinity' as a Siamese inventory figure; on re-check that precise number could be traced ONLY to Grokipedia (the same AI-generated source already rejected for the death claim) and to no reliable scholarship, so it has been removed. Deaths are therefore null and this event is UNVERIFIED on toll."
+      },
+      "received_lens": "suppressed",
+      "summary": "When the Lao king Anouvong of Vientiane revolted against Siamese overlordship, Rama III's armies crushed the rebellion, systematically razed Vientiane in 1827–28, and marched a large part of the Lao population west across the Mekong to resettle them in Siamese territory and empty the frontier. Anouvong was captured, displayed in an iron cage in Bangkok, and died there in 1829; the kingdom of Vientiane was abolished outright.",
+      "relevance": "The clearest mirror to Ayutthaya: less than two generations after Burma sacked the Siamese capital, Siam did the same to the Lao capital — the victim become the conqueror — a chapter largely absent from Thai public memory but central to Lao national identity.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Lao rebellion (1826–1828)', Wikipedia — Siamese command structure (Rama III, Sakdiphonlasep, Bodindecha), the fall and depopulation of Vientiane, and the fate of King Anouvong",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Lao_rebellion_(1826%E2%80%931828)",
+          "caveat": "Tertiary encyclopaedia; thin on a deportee death toll, which is why deaths are left null. Used for command structure, the razing, and the broad scale of forced population transfer."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Mayoury Ngaosyvathn & Pheuiphanh Ngaosyvathn, 'Paths to Conflagration: Fifty Years of Diplomacy and Warfare in Laos, Thailand, and Vietnam, 1778–1828' (Cornell University Press / SEAP, 1998) — the standard reexamination of Anouvong's revolt, the 1827–28 razing of Vientiane, and the forced transfer of the Lao population to Siam (estimates of 'over 100,000' to ~300,000)",
+          "supports": "summary",
+          "url": "https://www.cornellpress.cornell.edu/book/9780877277231/paths-to-conflagration/",
+          "caveat": "Written by two preeminent Lao historians and consciously challenging the conventional Thai reading; pro-Lao in sympathy and so to be read against Thai chronicle sources, but it is the leading scholarly treatment and supplies the sourced deportation magnitude. NOTE: a prior version of this record cited a 'John Crawfurd eyewitness account' of Anouvong caged in Bangkok; that attribution was removed by the adversarial audit (2026-06-18) as chronologically impossible — Crawfurd's embassy was in 1822 and his journal published in 1828, before Anouvong's January 1829 captivity and death; the contemporary eyewitness of the king's arrival in Bangkok was the French archbishop Bruguière, not Crawfurd."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "tha-3",
+      "country": "THA",
+      "role": "perpetrator",
+      "title": "The Tak Bai massacre",
+      "era": "2004",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "State security forces dispersed an unarmed protest with live fire and then killed scores of detained Malay-Muslim men through deliberate, foreseeable maltreatment in custody during the southern insurgency; it is a political/state-violence killing of a civilian population (POL) rather than battlefield conduct.",
+      "agent": "Thai army and police units in the Deep South, under Fourth Army Region commander Gen. Pisal Wattanawongkiri and other officers",
+      "toll": {
+        "display": "85 killed (7 shot during dispersal, 78 dead in custody from suffocation/crushing)",
+        "disputed": false,
+        "low": 85,
+        "high": 85,
+        "unit": "deaths",
+        "note": "The figure of 85 is consistent across official inquest, Human Rights Watch and press accounts: 7 protesters shot dead when security forces broke up the demonstration outside Tak Bai police station, and 78 detained men who died of asphyxiation or crushing after being stacked in layers in military trucks for a roughly 150 km, multi-hour journey. The 2009 Songkhla inquest found they suffocated in military custody."
+      },
+      "received_lens": "denied",
+      "summary": "On 25 October 2004 Thai security forces broke up a protest of Malay Muslims outside Tak Bai police station in Narathiwat, shooting seven dead, then bound over a thousand detainees and stacked them three to five deep in army trucks; seventy-eight suffocated or were crushed to death on the way to an army camp. No official has been convicted, and the twenty-year statute of limitations expired in October 2024 with the indicted having fled.",
+      "relevance": "The contemporary perpetrator face of the Thai state: a Buddhist-majority government's lethal violence against its Malay-Muslim minority, set against Thailand's own historical memory of being conquered and deported by stronger powers.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "Human Rights Watch, 'Thailand: 20 Years of Injustice for Tak Bai Massacre Victims' (28 Oct 2024) — 85 dead (7 shot, 78 crushed/asphyxiated in trucks), named commanders, and the lapse of the statute of limitations",
+          "supports": "toll.high",
+          "url": "https://www.hrw.org/news/2024/10/28/thailand-20-years-injustice-tak-bai-massacre-victims",
+          "caveat": "Human-rights advocacy organisation; its account here matches the official Songkhla inquest and contemporary reporting, so the figure is not in dispute."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Tak Bai incident', Wikipedia — breakdown of the 85 deaths, the transport conditions (~1,292 detainees in 26 trucks), and the 2009 Songkhla inquest finding of death by asphyxiation in custody",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Tak_Bai_incident",
+          "caveat": "Tertiary encyclopaedia; cross-checked against the HRW account and consistent with it."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

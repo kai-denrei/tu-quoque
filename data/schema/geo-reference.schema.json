@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "tuquoque/geo-reference",
+  "title": "geo reference — capitals + population for the geography quiz (v1 addition)",
+  "description": "Educational on-ramp data. Subject to handover law 6: NO invented values. Population from an authoritative reference (World Bank / UN WPP). Each row carries its source + year.",
+  "type": "object",
+  "required": ["source", "year", "countries"],
+  "properties": {
+    "source": { "type": "string", "description": "e.g. 'World Bank WDI (SP.POP.TOTL)' / 'UN World Population Prospects 2024'" },
+    "year": { "type": "integer", "description": "population reference year" },
+    "countries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["iso", "name", "capital", "population"],
+        "properties": {
+          "iso": { "type": "string", "pattern": "^[A-Z]{3}$" },
+          "name": { "type": "string" },
+          "capital": { "type": "string" },
+          "population": { "type": ["integer", "null"], "description": "null if no reliable figure (mark, never invent)" },
+          "region": { "type": ["string", "null"], "description": "UN region for quiz framing" },
+          "note": { "type": "string", "description": "e.g. 'de facto capital', 'multiple capitals'" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "iso": "ESP",
+  "name": "Spain",
+  "note": "Spain carries both ledgers heavily: perpetrator of the largest demographic catastrophe in recorded history (the post-1492 collapse of the Americas, overwhelmingly disease-driven) and victim across its own history — conquered by the Umayyads in 711 and devastated by Napoleon's occupation 1808-14. The seed merged the two victim events into one row; this revision splits them, since they differ in agent, era, tier, and how Spanish memory frames them.",
+  "events": [
+    {
+      "id": "esp-1",
+      "country": "ESP",
+      "role": "perpetrator",
+      "title": "Conquest of the Americas & the demographic collapse",
+      "era": "1492–1600",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The overwhelming majority of the dying came from Old World epidemics (smallpox, typhus, measles, influenza) to which indigenous populations had no immunity — a structural catastrophe, not deliberate extermination; massacre, the encomienda forced-labour regime, and slaving were real and lethal but a minority of the death toll.",
+      "agent": "Spanish crown, conquistadors, and the encomienda system",
+      "toll": {
+        "display": "~50–60M pre-contact population fell to ~5–6M by 1600; ~56M deaths (high estimate)",
+        "disputed": true,
+        "low": 8000000,
+        "high": 56000000,
+        "unit": "deaths",
+        "note": "Figures are population-DECLINE, not a body count of people killed by Spaniards. Pre-contact hemisphere estimates range wildly: Kroeber's conservative ~8.4M against Dobyns' 90–112M; Cook & Borah put central Mexico alone at ~25M in 1519, Rosenblat far lower. Koch et al. (2019) model ~56M deaths across the Americas by 1600 (~90% collapse). The bulk is attributed to disease, so a single 'killed' number is meaningless — the dispute is the data point. The low figure here reflects the most conservative scholarly floor for excess deaths; it is not a Spanish-violence body count."
+      },
+      "received_lens": "contested",
+      "summary": "After 1492 Spain conquered the Aztec and Inca empires and beyond, imposing the encomienda forced-labour system and seizing land; conquistadors massacred and enslaved, but Old World diseases the Spanish carried did most of the killing, collapsing the indigenous population by roughly 90% within a century.",
+      "relevance": "Tagged structural on purpose: most of the dying was epidemiological, not slaughter — collapsing that into deliberate genocide is a falsehood that ends up discrediting the real, documented cruelties of the encomienda and the slave raids. AUDIT 2026-06-18: STR re-derived independently from facts before reading assigned tier — disease-driven collapse is the textbook STR case, NOT EXT; confirmed correct.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Koch, Brierley, Maslin & Lewis, 'Earth system impacts of the European arrival and Great Dying in the Americas after 1492', Quaternary Science Reviews 207 (2019)",
+          "supports": "toll.high",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0277379118307261",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Cook & Borah, Essays in Population History; vs. Ángel Rosenblat's low estimates (summarized in McCaa, 'The Population of Mexico from origins to revolution')",
+          "supports": "toll.low",
+          "url": "https://users.pop.umn.edu/~rmccaa/mxpoprev/cambridg3.htm",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Matthew Restall, Seven Myths of the Spanish Conquest (2003)",
+          "supports": "tier",
+          "url": null,
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Noble David Cook, Born to Die: Disease and New World Conquest, 1492–1650 (1998)",
+          "supports": "summary",
+          "url": null,
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Population history of the Indigenous peoples of the Americas' (Kroeber low ~8.4M; Dobyns high 90–112M; 2019 study ~60M to ~6M)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Population_history_of_the_Indigenous_peoples_of_the_Americas",
+          "caveat": "tertiary aggregator; used only to corroborate the spread of scholarly estimates, not as a primary figure"
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "esp-2",
+      "country": "ESP",
+      "role": "victim",
+      "title": "Umayyad conquest of Iberia",
+      "era": "711–718",
+      "era_band": "pre-colonial",
+      "tier": "WAR",
+      "tier_reasoning": "A military conquest that toppled the Visigothic kingdom, but the surviving evidence shows a pattern of negotiated capitulations (e.g. the 713 Treaty of Tudmir) rather than wholesale slaughter; framing it as a massacre rests on later polemic, not the sources.",
+      "agent": "Umayyad Caliphate (Tariq ibn Ziyad, Musa ibn Nusayr)",
+      "toll": {
+        "display": "uncounted; no reliable death figure survives",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "QUARANTINE (audit 2026-06-18): event held UNVERIFIED because BOTH toll ends are null — no death figure can be sourced for either low or high, so law 2 (a source for both ends) cannot be satisfied. This is an honest null, not fabrication: all three narrative sources were independently verified real and on-point (Collins's book exists and treats the conquest as propaganda-shaped; the Mozarabic Chronicle of 754 is a genuine primary source; the Treaty of Tudmir / Theodemir capitulation is confirmed in the cited Wikipedia article). No contemporary count exists. The earliest source, the Mozarabic Chronicle of 754, speaks of ravaging in general terms but gives no numbers; Muslim narratives (Ibn Abd al-Hakam) are oral traditions written generations later and inflate army sizes. Roger Collins reads the conquest as largely propaganda-shaped in the record, with many regions surrendering by treaty. A toll cannot be responsibly stated, so it is left null. Tier WAR re-derived and confirmed: military conquest with negotiated capitulations, not extermination."
+      },
+      "received_lens": "contested",
+      "summary": "In 711 an Umayyad army crossing from North Africa defeated the Visigothic king Roderic and within a few years overran most of the peninsula; many local lords surrendered on terms, keeping their lands in exchange for tribute, while the conquest seeded the centuries of al-Andalus and the later Reconquista myth.",
+      "relevance": "Spain as the invaded, not only the invader — and a caution against the polemical 'massacre' framing, since the contemporary record points to negotiated submission as much as battle.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Roger Collins, The Arab Conquest of Spain, 710–797 (1989)",
+          "supports": "summary",
+          "url": null,
+          "caveat": null
+        },
+        {
+          "kind": "primary",
+          "cite": "Mozarabic Chronicle of 754 (Crónica mozárabe de 754)",
+          "supports": "tier",
+          "url": null,
+          "caveat": "earliest surviving account but written by a hostile Christian cleric; vague and partisan, no figures"
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Muslim conquest of the Iberian Peninsula' (Treaty of Tudmir 713; Theodemir's conditional surrender)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Muslim_conquest_of_the_Iberian_Peninsula",
+          "caveat": "tertiary aggregator; used to corroborate the treaty-capitulation pattern"
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "esp-3",
+      "country": "ESP",
+      "role": "victim",
+      "title": "Peninsular War (Napoleonic occupation)",
+      "era": "1808–1814",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "An invasion and occupation fought as a brutal counter-insurgency: French reprisals against guerrillas, requisitioning that starved the countryside, and war-driven famine and disease — wartime mass death, not a campaign to destroy the Spanish as a people.",
+      "agent": "Napoleonic France (occupying army under Napoleon and his marshals)",
+      "toll": {
+        "display": "~215,000–375,000 Spanish civilians dead; 1,000,000+ total dead across the peninsula",
+        "disputed": true,
+        "low": 215000,
+        "high": 1000000,
+        "unit": "deaths",
+        "note": "The low–high gap reflects different scopes, not contradictory counts. ~215,000–375,000 is an estimate for SPANISH CIVILIAN deaths (famine, disease, violence); the 1,000,000+ figure covers ALL military and civilian dead across the whole Iberian peninsula (Spain and Portugal, all armies). The Madrid famine of 1811–12 alone killed roughly 20,000. Charles Esdaile is the standard modern scholarly authority."
+      },
+      "received_lens": "memorial",
+      "summary": "Napoleon occupied Spain in 1808 and put his brother on the throne; the Spanish rose, and the French answered guerrilla resistance with mass reprisals and lived off the land, triggering famine — the executions, looting, and starvation Goya recorded in the Disasters of War.",
+      "relevance": "Spain as victim of imperial invasion within living European memory, the mirror image of its own conquest of the Americas three centuries earlier.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Charles Esdaile, The Peninsular War: A New History (2002)",
+          "supports": "summary",
+          "url": null,
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Peninsular War' (infobox: 1,000,000+ military and civilian dead)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Peninsular_War",
+          "caveat": "tertiary aggregator; peninsula-wide total spanning all combatants"
+        },
+        {
+          "kind": "press",
+          "cite": "Spanish Fiestas, 'The Peninsular War (1808–1814)' (215,000–375,000 Spanish civilians)",
+          "supports": "toll.low",
+          "url": "https://www.spanish-fiestas.com/peninsular-war-of-spanish-independence/",
+          "caveat": "popular-history site; figure corroborated against napoleon.org and EBSCO summaries but not a primary scholarly citation"
+        },
+        {
+          "kind": "primary",
+          "cite": "Francisco de Goya, Los Desastres de la Guerra (etchings, 1810–1820)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/The_Disasters_of_War",
+          "caveat": "an artwork and eyewitness testimony, not a quantitative source; partisan to the Spanish side"
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

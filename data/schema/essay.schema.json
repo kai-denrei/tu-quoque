@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "tuquoque/essay",
+  "title": "essay (handover §6.5 / §8)",
+  "type": "object",
+  "required": ["id", "title", "thesis", "body_md", "steelman", "opposing", "sources"],
+  "properties": {
+    "id": { "type": "string" },
+    "title": { "type": "string" },
+    "thesis": { "type": "string", "description": "one line" },
+    "body_md": { "type": "string", "description": "longform markdown" },
+    "steelman": { "type": "string", "description": "the strongest version of the view" },
+    "opposing": { "type": "string", "minLength": 1, "description": "strongest case AGAINST — mandatory, non-empty (law 4)" },
+    "sources": { "type": "array", "items": { "$ref": "tuquoque/source" } }
+  }
+}

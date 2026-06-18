@@ -1,0 +1,232 @@
+{
+  "iso": "IND",
+  "name": "India",
+  "note": "Built from scratch. Victim ledger draws on the colonial-era mass deaths: the Great Famine of 1876–78 and the 1943 Bengal famine (both tiered STR — death by starvation and epidemic under British rule, with policy culpability kept explicit; the Bengal famine is the same event GBR.json carries as a perpetrator row, the dual lens working as designed), plus Partition's communal slaughter (WAR), in which India's people were victims and perpetrators at once — by design only the victim facet sits here, the perpetrator facet being shared across India and Pakistan. Perpetrator ledger holds two post-independence state-implicated pogroms: the 1984 anti-Sikh killings (Congress organisers and a passive/complicit Delhi police) and the 2002 Gujarat violence (Gujarat state and police complicity), both tiered POL — politically organised mass killing of a targeted minority, short of a campaign to exterminate the group as such. Tolls are kept as sourced ranges; where official figures are widely treated as floors (1984, Gujarat) the dispute is shown. No event, toll, or source was invented to balance the two sides.",
+  "events": [
+    {
+      "id": "ind-1",
+      "country": "IND",
+      "role": "victim",
+      "title": "The Great Famine of 1876–1878",
+      "era": "1876–1878",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "Millions died of starvation and famine-driven epidemic, not from a campaign to destroy a people as such; the charge is that Lord Lytton's laissez-faire relief policy and continued grain exports turned drought into catastrophe — structural-policy culpability, not exterminatory intent.",
+      "agent": "British Raj (Viceroy Lord Lytton's administration)",
+      "toll": {
+        "display": "~5.6–9.6 million (recent demographic estimate ~8.2 million)",
+        "disputed": true,
+        "low": 5600000,
+        "high": 9600000,
+        "unit": "deaths",
+        "note": "Excess-mortality estimates span roughly 5.6M to 9.6M; a careful recent demographic reconstruction yields ~8.2M. Deaths are starvation plus famine epidemics (cholera, fever, dysentery). The dispute is causal — how much weight to give the monsoon failure and Deccan drought versus colonial policy: a record ~320,000 tons of grain were exported from India during the crisis, and Lytton's government resisted relief on free-market grounds while running the punitive Madras and 'temple wage' relief camps."
+      },
+      "received_lens": "suppressed",
+      "summary": "When the monsoon failed across the Madras and Bombay presidencies and the Deccan, Lytton's administration trusted the market to feed the starving, kept grain flowing to export and held relief to a near-starvation work-camp ration; drought became one of the deadliest famines in recorded history, killing millions of India's rural poor.",
+      "relevance": "Among the largest mass deaths in the colony's history, governed by a state that presented its rule as benevolent improvement — India here is the victim of the same empire that elsewhere appears as perpetrator.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Great Famine of 1876–1878 — Wikipedia (excess mortality ~5.6M–9.6M; recent estimate ~8.2M; export and Lytton-policy detail)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Great_Famine_of_1876%E2%80%931878",
+          "caveat": "Tertiary aggregator; the spread of figures is attributed there to named demographic studies (e.g. Maharatna, Seavoy) and the export figures to the colonial record."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Mike Davis, Late Victorian Holocausts (2001) — links 1870s–90s Indian famine mortality to drought plus laissez-faire colonial policy and grain export",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Late_Victorian_Holocausts",
+          "caveat": "Davis argues a strong policy-culpability thesis (the 'holocaust' framing is polemical and contested by some economic historians); cited for the policy-and-export mechanism and the low-end-of-the-high mortality figures, not as a settled verdict on intent."
+        },
+        {
+          "kind": "reference",
+          "cite": "Famine in India — Wikipedia (overview of 19th-century famine mortality under the Raj, including the 1876–78 range)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Famine_in_India",
+          "caveat": "Tertiary; used for the lower bound of the range, which it attributes to colonial-era and demographic estimates."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ind-2",
+      "country": "IND",
+      "role": "victim",
+      "title": "The 1943 Bengal famine",
+      "era": "1943–1944",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "Mass death came from starvation and epidemic, not a campaign to destroy Bengalis as a group; the dispute is how far British wartime policy (rice and boat 'denial', refusal to divert grain shipping) turned a supply shock into catastrophe — structural-policy culpability.",
+      "agent": "British Raj / Churchill's war cabinet",
+      "toll": {
+        "display": "~0.8–3.8 million (consensus ~2.1 million)",
+        "disputed": true,
+        "low": 800000,
+        "high": 3800000,
+        "unit": "deaths",
+        "note": "Estimates run from ~0.8M (low-end demographic reconstructions) to ~3.8M (Greenough's upward revision of Sen); Ó Gráda calls ~2.1M the scholarly consensus and the Famine Inquiry Commission put excess deaths near 1.5M. Counts mix starvation and famine epidemics (cholera, malaria, smallpox). The causal dispute pits the fall of Burma, the October 1942 cyclone and crop disease, and provincial hoarding and mismanagement against British 'denial' policies and the War Cabinet's repeated refusal to divert shipping to feed the province."
+      },
+      "received_lens": "contested",
+      "summary": "After Burma fell, British authorities seized rice and roughly 45,000 boats from coastal Bengal to deny them to a feared Japanese invasion, while the War Cabinet repeatedly refused to divert grain ships; markets broke, prices soared, and starvation plus epidemic disease killed millions of Bengalis, most of them rural poor.",
+      "relevance": "The same famine GBR carries as a perpetrator event sits here as India's; the dual lens is the point — one people's catastrophe is another state's policy.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Cormac Ó Gráda — scholarship on the Bengal famine (consensus ~2.1M)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Bengal_famine_of_1943",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Bengal famine of 1943 — Wikipedia (range 0.8M–3.8M; Famine Inquiry Commission, Sen, Greenough cited)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Bengal_famine_of_1943",
+          "caveat": "Tertiary aggregator; used for the spread of figures, which it sources to named scholars."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Madhusree Mukerjee, Churchill's Secret War (2010)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Churchill's_Secret_War",
+          "caveat": "Advances a strong British-culpability thesis (the War Cabinet's shipping decisions as 'a will to punish'); Amartya Sen and Mark Tauger dispute parts of its data and stress wartime shipping losses. Cited for the denial-policy and shipping-refusal claims, not as a settled causal verdict."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ind-3",
+      "country": "IND",
+      "role": "victim",
+      "title": "Partition communal violence",
+      "era": "1947–1948",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Mass killing along religious lines as British India was split, carried out by communal mobs and militias rather than a single state's extermination programme; deliberate slaughter of civilians, so WAR rather than EXT.",
+      "agent": "Communal mobs and militias (Hindu, Muslim and Sikh) amid British withdrawal and the new Indian and Pakistani states",
+      "toll": {
+        "display": "~200,000–2 million (older estimates ~0.2–1M; recent demographic work to ~2–3M)",
+        "disputed": true,
+        "low": 200000,
+        "high": 2000000,
+        "unit": "deaths",
+        "note": "Older estimates put the dead between ~180,000–200,000 and 1 million; more recent demographic and census-comparison work (e.g. Bharadwaj/Khwaja/Mian; Harvard scholarship) argues for substantially higher figures, in the 2–3M range, alongside ~14–18M displaced. The toll is split across what became India and Pakistan and was inflicted by and on all three major communities; this victim row counts the violence done to India's people, not the perpetrator share."
+      },
+      "received_lens": "memorial",
+      "summary": "As the British drew a border across Punjab and Bengal and departed, neighbours turned on neighbours along religious lines: massacres on trains, in villages and on migration routes killed hundreds of thousands to perhaps two million, and uprooted on the order of fourteen million people in months.",
+      "relevance": "Partition is the clearest single proof of the atlas's premise — the same communities are victim and perpetrator at once, and only the victim facet is recorded on India's ledger here.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Partition of India — Wikipedia / standard accounts (older range ~200,000–1M killed, ~14M+ displaced)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Partition_of_India",
+          "caveat": "Tertiary; the lower range is the long-standing conventional estimate, now contested as too low by demographic work."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Prashant Bharadwaj, Asim Khwaja & Atif Mian, 'The Big March: Migratory Flows after the Partition of India' (2008); Harvard demographic work reported by the Harvard Gazette (2018)",
+          "supports": "toll.high",
+          "url": "https://news.harvard.edu/gazette/story/2018/04/harvard-scholars-take-fresh-look-at-the-partition-of-british-india-which-killed-millions/",
+          "caveat": "Census-comparison methods yield notably higher death and migration figures (deaths in the millions, ~18M migrants) than eyewitness-era estimates; cited as the high end of a genuinely disputed range, not a settled count."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ind-4",
+      "country": "IND",
+      "role": "perpetrator",
+      "title": "The anti-Sikh pogrom of 1984",
+      "era": "1984",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Politically organised mass killing of a targeted religious minority — Congress organisers mobilising mobs with voter lists and a complicit police standing aside — over days, but not a programme to exterminate Sikhs as such, so POL rather than EXT.",
+      "agent": "Congress (I) party organisers and mobs, with the Delhi police passive or complicit",
+      "toll": {
+        "display": "~2,733 official (Delhi) – up to ~8,000–17,000 unofficial",
+        "disputed": true,
+        "low": 2733,
+        "high": 17000,
+        "unit": "deaths",
+        "note": "The Indian government's revised official Delhi figure is ~2,733 (an initial count of ~325 was raised years later); nationwide official figures run to ~3,350. Independent and Sikh-community estimates put the dead far higher, commonly ~8,000 and up to ~17,000 across India. The official figure is widely treated as a floor given destroyed records and under-reporting."
+      },
+      "received_lens": "contested",
+      "summary": "After Sikh bodyguards assassinated Prime Minister Indira Gandhi, Congress (I) leaders in Delhi organised and armed mobs — handing out iron rods, fuel and money and using voter and ration lists to find Sikh homes — while the police largely stood aside; over roughly four days thousands of Sikhs were beaten, burned and killed.",
+      "relevance": "The independent Indian state, which presents itself as a secular democracy, organised or permitted the slaughter of its own minority citizens; the dual lens turns on the same nation that elsewhere is the victim.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "1984 anti-Sikh riots — Wikipedia (official Delhi toll ~2,733; unofficial up to ~8,000–17,000; Congress organisation, voter-list targeting, Sajjan Kumar conviction 2018)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/1984_anti-Sikh_riots",
+          "caveat": "Tertiary; figures attributed there to government counts, the Nanavati Commission and human-rights reports."
+        },
+        {
+          "kind": "press",
+          "cite": "Human Rights Watch, 'India: No Justice for 1984 Anti-Sikh Bloodshed' (2014)",
+          "supports": "summary",
+          "url": "https://www.hrw.org/news/2014/10/29/india-no-justice-1984-anti-sikh-bloodshed",
+          "caveat": "Advocacy organisation, but a mainstream documentary source on the organised character of the killings and the failure of prosecution."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Sciences Po Mass Violence & Resistance — 'The Anti-Sikh Pogrom of October 31 to November 4, 1984, in New Delhi'",
+          "supports": "tier",
+          "url": "https://www.sciencespo.fr/mass-violence-war-massacre-resistance/en/document/anti-sikh-pogrom-october-31-november-4-1984-new-delhi.html",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ind-5",
+      "country": "IND",
+      "role": "perpetrator",
+      "title": "The 2002 Gujarat violence",
+      "era": "2002",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Multiple inquiries found premeditated, politically organised mass killing of a targeted minority with state and police complicity; sustained communal massacre rather than a campaign to exterminate Muslims as such, so POL.",
+      "agent": "Hindu nationalist mobs with complicity of the Gujarat state government and police (Chief Minister Narendra Modi's administration)",
+      "toll": {
+        "display": "~1,044 official (790 Muslims, 254 Hindus) – up to ~2,000 unofficial",
+        "disputed": true,
+        "low": 1044,
+        "high": 2000,
+        "unit": "deaths",
+        "note": "The official toll is 1,044 (790 Muslims, 254 Hindus), with ~223 missing. The Concerned Citizens Tribunal estimated ~1,926 and other sources put the dead above 2,000, the majority Muslim. The dispute is over the totals and over the Godhra trigger: 59 Hindu pilgrims died in a train fire on 27 Feb 2002 whose cause (arson vs accident) remains contested."
+      },
+      "received_lens": "contested",
+      "summary": "After 59 Hindu pilgrims burned to death in a train at Godhra, mobs across Gujarat killed roughly a thousand to two thousand people, overwhelmingly Muslims, in attacks that inquiries found premeditated; police often failed to intervene or joined in, and rioters used voter and property lists to find Muslim homes and shops.",
+      "relevance": "A state government of secular, democratic India presided over or enabled an organised slaughter of its Muslim minority; the same nation that appears as victim elsewhere stands here as perpetrator.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "2002 Gujarat violence — Wikipedia (official toll 1,044 [790 Muslim, 254 Hindu]; CCT ~1,926; premeditation and police-complicity findings; Godhra trigger)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/2002_Gujarat_violence",
+          "caveat": "Tertiary; figures attributed there to government counts, the Concerned Citizens Tribunal and inquiry reports."
+        },
+        {
+          "kind": "press",
+          "cite": "Human Rights Watch, '\"We Have No Orders To Save You\": State Participation and Complicity in Communal Violence in Gujarat' (2002)",
+          "supports": "summary",
+          "url": "https://www.refworld.org/reference/countryrep/hrw/2002/en/33068",
+          "caveat": "Advocacy organisation, but a contemporaneous field-documented report; cited for the state-and-police complicity findings and the higher Muslim death toll. Verified 2026-06-18: report is genuine (exact title and content confirmed against the canonical HRW copy at hrw.org/report/2002/04/30/we-have-no-orders-save-you and the HRW PDF hrw.org/reports/2002/india/gujarat.pdf); the Refworld mirror URL returns HTTP 403, so the canonical HRW URL is the authoritative live link."
+        },
+        {
+          "kind": "press",
+          "cite": "Al Jazeera, 'India: 69 Hindus acquitted over deadly 2002 sectarian riots' (2023) — 'At least 1,000 people, mostly Muslims, were killed... Activists put the toll at over twice that number'",
+          "supports": "toll.high",
+          "url": "https://www.aljazeera.com/news/2023/4/20/india-court-acquits-69-hindus-over-muslim-killings-during-riots",
+          "caveat": "Press; verified 2026-06-18: article gives a floor of 'at least 1,000, mostly Muslims' and an activist estimate of 'over twice that number' (>2,000), which is what supports the high end. It does NOT carry the precise 1,044/790/254 official breakdown (the original cite text overstated this and was corrected); the breakdown is sourced from the Wikipedia reference above."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

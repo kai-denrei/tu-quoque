@@ -1,0 +1,193 @@
+{
+  "iso": "MEX",
+  "name": "Mexico",
+  "note": "Mexico carries both ledgers across five centuries: a pre-colonial state cult that killed captives by the thousand, a colonial cataclysm in which the people of central Mexico were conquered and gutted by disease, and a modern republic that turned on its own — exterminating the Yaqui under Díaz and gunning down students at Tlatelolco. The hard analytic work here is keeping disease (STR) separate from intent (EXT), and stripping colonial propaganda off real atrocity numbers.",
+  "events": [
+    {
+      "id": "mex-1",
+      "country": "MEX",
+      "role": "perpetrator",
+      "title": "Mexica (Aztec) human sacrifice",
+      "era": "15th–early 16th c.",
+      "era_band": "pre-colonial",
+      "tier": "POL",
+      "tier_reasoning": "State-organized, religiously-framed killing of captives and tribute victims as an instrument of Mexica statecraft and terror — political/cultic violence, not the deliberate extermination of a defined group as such.",
+      "agent": "Mexica state cult (priesthood and rulers of Tenochtitlan)",
+      "toll": {
+        "display": "~1,000–20,000/yr (plausible range); colonial claims up to 250,000/yr rejected",
+        "disputed": true,
+        "low": 1000,
+        "high": 20000,
+        "unit": "deaths",
+        "note": "Annual figure, heavily disputed. Caroline Dodds Pennock gives ~1,000–20,000/yr as plausible; the contemporaneous Codex Telleriano-Remensis records ~4,000 total at the great 1487 rededication, while Spanish chroniclers claimed ~80,400 in four days (logistically impossible) and Woodrow Borah extrapolated 250,000/yr from a 1%-of-population assumption — both treated by scholars as inflated. Archaeology (the Huey Tzompantli yielded 600+ skulls by 2020, including women and children, and Offering 48 held ~42 children sacrificed to Tláloc in a 1450s drought) confirms large-scale, sustained sacrifice but cannot sustain the highest textual figures."
+      },
+      "received_lens": "contested",
+      "summary": "The priests and rulers of Tenochtitlan killed war captives and tribute victims on the temple steps — cutting out hearts, decapitating the dead, and racking the skulls on the tzompantli — as a routine instrument of state religion and political terror. The killing was real and large-scale; the Spanish put propaganda numbers on it.",
+      "relevance": "A worked example of source-bias the atlas exists to hold: the atrocity is genuine and indigenous-perpetrated, yet the most-quoted figures were colonial justification for conquest — both truths must stand at once.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Human sacrifice in Aztec culture,\" Wikipedia (collates Dodds Pennock, Hassig, Ortiz de Montellano, Borah estimates and the tzompantli excavation data)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Human_sacrifice_in_Aztec_culture",
+          "caveat": "Tertiary aggregator; relies in turn on colonial chronicles that systematically inflated victim counts to justify conquest — low end is the scholarly-reconstructed figure, not the chronicle figure."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Woodrow Borah, extrapolated ~250,000 sacrifices/yr from a 1%-of-25-million assumption (reported in the same survey, cited as the high-water mark and rejected by most specialists)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Human_sacrifice_in_Aztec_culture",
+          "caveat": "Borah's quarter-million figure is an outlier model, not a count; included only to mark the disputed upper bound. The defensible scholarly high is ~20,000/yr (Pennock; Zumárraga's 20,000 claim, judged 'more plausible' by V.D. Hanson)."
+        },
+        {
+          "kind": "press",
+          "cite": "Lizzie Wade, \"Feeding the gods: Hundreds of skulls reveal massive scale of human sacrifice in Aztec capital,\" Science/AAAS (Templo Mayor Huey Tzompantli)",
+          "supports": "summary",
+          "url": "https://www.science.org/content/article/feeding-gods-hundreds-skulls-reveal-massive-scale-human-sacrifice-aztec-capital",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "mex-2",
+      "country": "MEX",
+      "role": "victim",
+      "title": "Conquest and fall of Tenochtitlan",
+      "era": "1519–1521",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "Siege and storming of a city in war by Cortés's Spanish–indigenous coalition; the mass death was overwhelmingly the 1520 smallpox epidemic (uncontrolled disease, no Spanish intent to spread it), so the killing of the defenders is WAR, not EXT — the epidemic itself sits closer to STR demographic collapse.",
+      "agent": "Hernán Cortés's Spaniards and their Tlaxcalan/Texcocan/Huexotzincan allies",
+      "toll": {
+        "display": "siege ~100,000–240,000 indigenous dead; plus ~40% of the city lost to smallpox in 1520",
+        "disputed": true,
+        "low": 100000,
+        "high": 240000,
+        "unit": "deaths",
+        "note": "Siege deaths (May–Aug 1521) are estimated at ~100,000 killed in action up to ~240,000 over the whole campaign; these are the disputed bounds. Separately, the 1520 smallpox epidemic killed an estimated ~40% of the central-Mexican population in a year (Mesoamerica-wide losses of 5–8 million across the outbreak) — this is demographic collapse from disease, NOT a death-by-violence count, and must not be folded into the siege toll or read as intentional killing. Cortés fielded ~20,000 allied warriors at the siege and as many as ~200,000 indigenous allies across the three-year campaign."
+      },
+      "received_lens": "flagellated",
+      "summary": "Cortés, commanding a few hundred Spaniards embedded in a far larger army of Tlaxcalan and other indigenous allies, cut Tenochtitlan's water and food, fought up the causeways block by block, and razed the city — striking a capital already gutted by the smallpox that had killed perhaps two in five inhabitants the year before.",
+      "relevance": "Not a clean Spain-versus-natives morality tale: the conquest was substantially indigenous-on-indigenous — Tlaxcala settling scores with the Mexica — and the great killer was a disease nobody yet understood, which is why the demographic catastrophe is tiered as collapse, not extermination.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Fall of Tenochtitlan,\" Wikipedia (siege casualty ranges; allied numbers)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan",
+          "caveat": "Tertiary; underlying figures derive partly from Spanish accounts (Cortés's own letters, Bernal Díaz) with motive to magnify both their triumph and the scale of the enemy — treat the high end as soft."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Matthew Restall, \"When Montezuma Met Cortés\" / \"Seven Myths of the Spanish Conquest\" — conquest as a multi-ethnic coalition war, not Spanish superhumans; deflates the lone-Cortés myth",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Matthew_Restall",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "PBS NewsHour, \"How smallpox devastated the Aztecs — and helped Spain conquer an American civilization 500 years ago\" (~40% population loss in a year)",
+          "supports": "toll.high",
+          "url": "https://www.pbs.org/newshour/science/how-smallpox-devastated-the-aztecs-and-helped-spain-conquer-an-american-civilization-500-years-ago",
+          "caveat": "AUDIT FLAG: this source is tagged supports=toll.high but it does NOT corroborate the 240,000 violent-siege high — it supports the separate ~40%-in-a-year epidemic-collapse caveat (verified: PBS gives 40% for Tenochtitlan in 1520). The 240,000 siege high in fact rests on the same single Wikipedia 'Fall of Tenochtitlan' source as toll.low, so the violent high is effectively single-sourced. disputed=true is set accordingly. The note's '5–8 million Mesoamerica-wide' figure is NOT given by PBS (PBS says other diseases reduced some New-World populations 90%+); treat that sub-figure as uncorroborated by the cited source."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "mex-3",
+      "country": "MEX",
+      "role": "perpetrator",
+      "title": "Yaqui deportation and extermination under Porfirio Díaz",
+      "era": "c. 1900–1911",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "The Díaz regime set out to break the Yaqui as a people — deporting the whole population (peaceful and rebel alike) from Sonora to deadly henequen plantations, where most died — which is the deliberate destruction of a defined ethnic group as such, hence EXT rather than ordinary counterinsurgency (WAR).",
+      "agent": "The Mexican federal government under Porfirio Díaz and Sonoran authorities (Gov. Rafael Izábal)",
+      "toll": {
+        "display": "~15,000–60,000 Yaqui dead; ~8,000–15,000 deported to Yucatán/Oaxaca",
+        "disputed": true,
+        "low": 15000,
+        "high": 60000,
+        "unit": "deaths",
+        "note": "Roughly 8,000–15,000 Yaqui were rounded up and deported 1904–1909; deaths across 1900–1911 are estimated at ~15,000 (lower bound) to ~60,000 (the figure for Yaqui killed or 'disappeared' within the decade). Contemporary reporting held that at least two-thirds of deportees were dead within their first year on the henequen plantations. Numbers are genuinely uncertain — the regime did not count its victims — so the range is wide."
+      },
+      "received_lens": "suppressed",
+      "summary": "To clear Sonora's fertile river valley for development, Díaz's government and Sonoran officials hunted down Yaqui men, women and children — peaceful villagers as well as rebels — packed them onto trains and forced marches across 2,000-plus kilometres, and sold them into effective slavery on Yucatán's henequen estates, where the great majority worked, starved, and died.",
+      "relevance": "The modern Mexican state, born partly of resistance to colonial conquest, became the exterminator of its own indigenous people — the dual lens turned inward within a single nation across four centuries.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "John Kenneth Turner, \"Barbarous Mexico\" (1910), originally serialized in The American Magazine Oct 1909–Jan 1910 — undercover exposé of Yaqui and Maya henequen slavery (author/work/serialization independently verified; the formerly-cited /wiki/Barbarous_Mexico URL 404s, so the link now points to the live John Kenneth Turner article)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/John_Kenneth_Turner",
+          "caveat": "Muckraking advocacy journalism explicitly aimed at toppling Díaz; vivid and largely corroborated but written to indict, so its rhetoric (and its 'genocide' charge) should be weighed against the later scholarly record."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Evelyn Hu-DeHart, \"Development and Rural Rebellion: Pacification of the Yaquis in the Late Porfiriato,\" Hispanic American Historical Review 54:1 (1974), Duke Univ. Press — scholarly substantiation of Turner's deportation/genocide account",
+          "supports": "tier",
+          "url": "https://read.dukeupress.edu/hahr/article/54/1/72/151360/Development-and-Rural-Rebellion-Pacification-of",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Yaqui Wars,\" Wikipedia (deportation count 8,000–15,000; deaths 15,000–60,000, 1900–1911)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Yaqui_Wars",
+          "caveat": "Tertiary aggregator; the regime kept no honest casualty records, so all figures are reconstructions with wide error bars. AUDIT NOTE: figures verified to match the source exactly (8,000–15,000 deported 1904–09 under Gov. Rafael Izábal; 15,000–60,000 dead 1900–11). BOTH numeric toll bounds (low and high) derive from this single Wikipedia range — Turner and Hu-DeHart corroborate the deportation/scale and the EXT framing but not the specific numbers — so the toll is effectively single-source numerically; disputed=true is set. Note: the Wikipedia article body does not itself use 'genocide/extermination'; that label is a category tag plus the analytic judgment of this entry."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "mex-4",
+      "country": "MEX",
+      "role": "perpetrator",
+      "title": "Tlatelolco massacre",
+      "era": "2 October 1968",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "State killing of unarmed political protesters to crush a movement on the eve of the Olympics — political repression of dissidents, not the destruction of an ethnic group (EXT) nor a battlefield (WAR).",
+      "agent": "The Mexican government under President Gustavo Díaz Ordaz; the army and the Olympia Battalion, with Presidential Guard snipers staging the pretext",
+      "toll": {
+        "display": "44 documented to ~300–400 (official initial claim ~20–28)",
+        "disputed": true,
+        "low": 44,
+        "high": 400,
+        "unit": "deaths",
+        "note": "The government first reported only ~20–28 (some accounts, 4) dead. Kate Doyle's work with the U.S. National Security Archive documented 44 named deaths from declassified files — a firm floor. Eyewitnesses, activists and journalists put the toll at ~300–400, with some claims up to 500. The true number is unknown because the government concealed and removed bodies; 44 is the verified minimum, ~300–400 the credible high estimate."
+      },
+      "received_lens": "memorial",
+      "summary": "Ten days before the Mexico City Olympics, soldiers and the plainclothes Olympia Battalion opened fire on thousands of unarmed students and civilians in the Plaza de las Tres Culturas, while government snipers in surrounding buildings shot at the troops to manufacture a pretext — then the state hid the dead and lied about the count for decades.",
+      "relevance": "A government that proudly memorializes its indigenous past and its revolution massacred its own students to keep the world's cameras flattering — and only in 2024 did the state formally apologize, the slow arc from suppression to memory the atlas tracks.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Kate Doyle, National Security Archive (George Washington University), \"The Tlatelolco Massacre\" / declassified U.S. and Mexican documents — 44 documented deaths and evidence of Presidential Guard snipers",
+          "supports": "toll.low",
+          "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB10/",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "Al Jazeera, \"Mexico: The Tlatelolco massacre, 50 years on\" (2018) — eyewitness/activist estimates of ~300 dead",
+          "supports": "toll.high",
+          "url": "https://www.aljazeera.com/news/2018/10/2/mexico-the-tlatelolco-massacre-50-years-on",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Tlatelolco massacre,\" Wikipedia (official vs. documented vs. activist tolls; Díaz Ordaz responsibility; 2024 Sheinbaum apology; 2008 National Day of Mourning)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Tlatelolco_massacre",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

@@ -1,0 +1,193 @@
+{
+  "iso": "BGD",
+  "name": "Bangladesh",
+  "note": "Both ledgers are well attested. As victim, the Bengali people of East Bengal endured the British-era Bengal famine of 1943 and the 1971 genocide by the Pakistan Army during the Liberation War. As perpetrator, the same liberation movement and later Bangladeshi state turned on others: Bengali militias and mobs killed Bihari and other non-Bengali civilians in 1971–72, and from 1977 the Bangladesh military and state-sponsored Bengali settlers waged a long campaign against the indigenous Jumma peoples of the Chittagong Hill Tracts. Every contested toll here is shown as a range with sourced low and high ends; the 1971 figure in particular spans an order of magnitude and is politically charged, so it is marked disputed and the event status is UNVERIFIED to flag that the body count is unresolved.",
+  "events": [
+    {
+      "id": "bgd-1",
+      "country": "BGD",
+      "role": "victim",
+      "title": "The 1971 genocide",
+      "era": "1971",
+      "era_band": "contemporary",
+      "tier": "EXT",
+      "tier_reasoning": "The Pakistan Army and its allied militias deliberately targeted Bengalis as a group — with Hindus, students, intellectuals and Awami League supporters singled out — to crush the independence movement; the systematic destruction of a population on national, ethnic and religious lines places the act at EXT.",
+      "agent": "The Pakistan Army (Operation Searchlight, ordered under Yahya Khan and commanded by Tikka Khan), with the allied Razakar, Al-Badr and Al-Shams militias",
+      "toll": {
+        "display": "~300,000–3,000,000 (deeply disputed; CIA/State midpoint estimate ~200,000)",
+        "disputed": true,
+        "low": 300000,
+        "high": 3000000,
+        "unit": "deaths",
+        "note": "The toll spans roughly an order of magnitude and is intensely politicised. Bangladesh's official figure is 3 million; independent scholars commonly cite 300,000–500,000, Rummel estimated ~1.5 million, and Sarmila Bose's controversial low-end work suggests 50,000–100,000. The Pakistani Hamoodur Rahman Commission gave a far lower 26,000 civilian casualties, widely rejected. US officials estimated ~200,000 killed midway through. Separately, perhaps 200,000–400,000 women were raped, and roughly 10 million refugees (mostly Hindu) fled to India, where hundreds of thousands more died of disease and starvation in the camps. AUDIT (2026-06-18): all three sources verified as real and supporting their attached claims — the Wikipedia survey confirms the 300,000–3,000,000 spread, the 26,000 Hamoodur Rahman figure, Rummel's ~1.5M and Bose's 50,000–100,000; Rummel's 'Death by Government'/'Statistics of Democide' and the Genocide Bangladesh Archive both confirmed. Status remains UNVERIFIED solely because the body count is an irreducible order-of-magnitude political dispute, not because any source failed integrity checks."
+      },
+      "received_lens": "memorial",
+      "summary": "On 25 March 1971 the Pakistan Army launched Operation Searchlight in Dhaka, opening a nine-month campaign to crush the Bengali independence movement by force. Troops and their local militias killed Awami League members, students and intellectuals, singled out Hindus, raped women on a mass scale, and drove around ten million people across the border into India. The killing ended only when India's intervention forced Pakistan's surrender on 16 December 1971 and Bangladesh became independent.",
+      "relevance": "The founding wound of the nation — Bangladesh was born from genocide committed against its people, even as elements of the same liberation struggle were carrying out reprisal killings of non-Bengalis.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Bangladesh genocide', Wikipedia — survey of perpetrators, timeframe, the 300,000–3,000,000 toll spread, the Hamoodur Rahman Commission's 26,000 figure, Rummel's ~1.5M and Bose's low-end estimates, and the 200,000–400,000 rape estimate",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Bangladesh_genocide",
+          "caveat": "Tertiary encyclopaedia aggregating sharply divergent national and scholarly estimates; used for framing and the toll spread, not as the authority for any single number."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "R.J. Rummel, Death by Government (1994) and Statistics of Democide — estimates ~1.5 million killed in the 1971 events; independent academic estimates frequently cited at 300,000–500,000 anchor the displayed low",
+          "supports": "toll.low",
+          "url": null,
+          "caveat": "Rummel's democide figures are reconstructions from secondary reports, not a census of bodies; the lower 300,000–500,000 band reflects independent researchers, while Bose's still-lower 50,000–100,000 is a contested outlier flagged in the toll note."
+        },
+        {
+          "kind": "press",
+          "cite": "Genocide Bangladesh Archive (genocidebangladesh.org) — Bangladeshi documentation project citing the official 3 million figure and eyewitness records",
+          "supports": "toll.high",
+          "url": "https://www.genocidebangladesh.org/",
+          "caveat": "Advocacy / national-memorial archive that presents the 3 million figure as settled; this is the high, politically authoritative end of the range and is not a neutral statistical source."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "bgd-2",
+      "country": "BGD",
+      "role": "victim",
+      "title": "The Bengal famine of 1943",
+      "era": "1943–44",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "Most deaths came from starvation followed by malaria and disease worsened by malnutrition, driven by British wartime denial and import policies rather than an intent to destroy the Bengali people as such; a policy-aggravated demographic catastrophe is classed STR, not EXT.",
+      "agent": "The British colonial administration in India and Churchill's wartime government (boat- and rice-denial policies, refusal to divert food imports), compounding a regional rice shortfall",
+      "toll": {
+        "display": "~2.1 million (scholarly consensus; full range 800,000–3,800,000)",
+        "disputed": true,
+        "low": 800000,
+        "high": 3800000,
+        "unit": "deaths",
+        "note": "Estimates of total excess deaths across Bengal run from about 800,000 to 3.8 million; Cormac Ó Gráda puts the scholarly consensus near 2.1 million. Deaths were caused first by starvation (mid-1943) and then increasingly by malaria, cholera and other disease aggravated by malnutrition and displacement. The figure covers all of Bengal; the eastern districts that are now Bangladesh, including Chittagong and Noakhali, were among the hardest hit under the 'boat denial' policy."
+      },
+      "received_lens": "contested",
+      "summary": "In 1943 famine swept Bengal after a regional rice shortfall collided with British wartime policy: authorities seized boats and rice stocks in the coastal east to deny resources to a feared Japanese invasion, prioritised feeding the military and cities, and Churchill's cabinet repeatedly refused to divert food imports. Millions starved and then died of disease, with the delta districts of what is now Bangladesh among the worst affected.",
+      "relevance": "A colonial-era mass death of the Bengali people — the same population that, less than three decades later, would be both victim of the 1971 genocide and perpetrator against its own minorities.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Cormac Ó Gráda, on the demography of the 1943 Bengal famine — gives the scholarly consensus of roughly 2.1 million deaths, against an older range of 800,000 to ~3.8 million",
+          "supports": "toll.low",
+          "url": null,
+          "caveat": "Ó Gráda's consensus figure (~2.1M) sits inside the displayed range; the 800,000 low end derives from earlier, more conservative reconstructions cited alongside his work."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Bengal famine of 1943', Wikipedia — death-toll range (800,000–3.8 million), Ó Gráda's 2.1 million consensus, the man-made classification, the role of boat/rice denial and refused imports, and the starvation-then-disease mortality pattern",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Bengal_famine_of_1943",
+          "caveat": "Tertiary encyclopaedia; used for the toll spread and causal framing, with the high end (3.8M) being an outer bound rather than a settled count."
+        },
+        {
+          "kind": "press",
+          "cite": "'How British colonizers caused the Bengal famine', New Internationalist (2021); and Madhusree Mukerjee, Churchill's Secret War (2010), on the wartime-policy causation and the Famine Commission's exculpatory use of projected data",
+          "supports": "tier",
+          "url": "https://newint.org/features/2021/12/07/feature-how-british-colonizers-caused-bengal-famine",
+          "caveat": "Mukerjee and the New Internationalist piece argue forcefully for British culpability; the question of intent versus wartime constraint remains genuinely debated, which is why the act is classed STR rather than EXT."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "bgd-3",
+      "country": "BGD",
+      "role": "perpetrator",
+      "title": "Massacres of Biharis and non-Bengalis",
+      "era": "1971–72",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Bengali militias and mobs killed Bihari and other non-Bengali civilians in retaliation for their alignment with Pakistan during the war; the targeting of an ethnolinguistic minority for collective reprisal places the act at POL, though some scholars describe it in genocidal terms.",
+      "agent": "Bengali nationalist forces, the Mukti Bahini, and Bengali civilian mobs",
+      "toll": {
+        "display": "~1,000 to ~150,000 (deeply disputed; Bengali sources admit 30,000–40,000)",
+        "disputed": true,
+        "low": 1000,
+        "high": 150000,
+        "unit": "deaths",
+        "note": "Estimates diverge enormously and are politically loaded. The Minorities at Risk project gives a low of about 1,000 killed; Bengali sources have admitted 30,000–40,000 non-Bengali deaths; R.J. Rummel offered 'a prudent figure of 150,000' Bihari civilians murdered, and broader international estimates run 20,000–200,000. The killings spanned scattered massacres (Santahar, March 1971; Khulna jute mills, March 1971; the Khulna massacres of March 1972). Around 250,000 Biharis remain stranded in Bangladesh as stateless 'Stranded Pakistanis'. AUDIT (2026-06-18): all sources verified — the Wikipedia article confirms the Minorities at Risk ~1,000 low, the Bengali-admitted 30,000–40,000, Rummel's 'prudent figure of 150,000' (corroborated by Rummel's powerkills/Statistics of Democide as a '150,000 non-Bengali counter-genocide'), the 20,000–200,000 range and the named massacres; Gerlach's 'Extremely Violent Societies' (Cambridge, 2010) confirmed real and covers the Bihari case. Low end (1,000) and high end (150,000) each have a distinct source. Status remains UNVERIFIED only because the toll is an order-of-magnitude dispute framed in opposite directions by Pakistani and Bengali sources."
+      },
+      "received_lens": "contested",
+      "summary": "During and after the 1971 war, Bengali militias and mobs killed Bihari and other non-Bengali civilians who had sided with Pakistan, in massacres at Santahar, the Khulna jute mills and elsewhere, continuing into 1972 after independence. The dead numbered anywhere from a few thousand to well over a hundred thousand depending on the source, and around a quarter of a million surviving Biharis were left stateless in camps.",
+      "relevance": "The mirror image of the genocide ledger: the liberation movement that was the victim of Pakistani slaughter itself carried out ethnic reprisal killings against a minority, a fact often minimised in the national narrative.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Persecution of Biharis in Bangladesh', Wikipedia — the Minorities at Risk ~1,000 low, Bengali-admitted 30,000–40,000, Rummel's 150,000, the 20,000–200,000 international range, the named massacres, and the ~250,000 stranded Biharis",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Persecution_of_Biharis_in_Bangladesh",
+          "caveat": "Tertiary encyclopaedia covering a fiercely contested episode that Pakistani and Bengali sources frame in opposite directions; used for the toll spread and the named incidents, not as the authority for any single figure."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "R.J. Rummel, Death by Government / Statistics of Democide — 'a prudent figure of 150,000' Bihari civilians murdered by Bengali militias",
+          "supports": "toll.high",
+          "url": null,
+          "caveat": "Rummel's democide estimates are reconstructions from secondary reports; 150,000 is near the top of the credible range and is contested by lower estimates such as the Minorities at Risk ~1,000."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Christian Gerlach, Extremely Violent Societies (2010) — analysis noting that the wartime actions of Biharis have often been used to understate or justify the scale of anti-Bihari atrocities",
+          "supports": "tier",
+          "url": null,
+          "caveat": "Gerlach's framing is itself part of a historiographical debate over how to weigh provocation against reprisal; cited for the contested character of the episode."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "bgd-4",
+      "country": "BGD",
+      "role": "perpetrator",
+      "title": "The Chittagong Hill Tracts campaign against the Jumma",
+      "era": "1977–97",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "The Bangladesh military and state-sponsored Bengali settlers killed, raped and displaced the indigenous Jumma peoples through counter-insurgency massacres and demographic engineering; the targeting of indigenous communities for political and territorial ends places it at POL, though human-rights bodies have called it genocidal.",
+      "agent": "The Bangladesh Army, Ansar paramilitary and border guards, together with state-sponsored Bengali settlers",
+      "toll": {
+        "display": "~3,500–25,000 indigenous and Bengali civilians (first phase, 1977–97)",
+        "disputed": true,
+        "low": 3500,
+        "high": 25000,
+        "unit": "deaths",
+        "note": "Civilian deaths in the 1977–97 phase are estimated at roughly 3,500–25,000 (Bengali and indigenous combined), with a further 6,000+ combatants and around 30,000 total deaths cited; about 80,000 people were displaced. Individual massacre tolls are themselves disputed — the Logang massacre of April 1992 is estimated at over 400 dead by indigenous accounts but only 12 by the government, which removed the bodies; the Naniarchar massacre of November 1993 killed at least 29. The indigenous share of the CHT population fell from about 98% in 1971 to roughly 50% by 2000 under the settlement programme. AUDIT (2026-06-18): all sources verified — the CHT-conflict Wikipedia article confirms the 3,500–25,000 civilian, ~30,000 total and 6,000+ combatant figures, ~80,000 displaced and the 98%→50% demographic decline; the Amnesty report (ASA 13/004/1992, 'Reprisal killings in Logong') and the Logang massacre page (400+ vs the government's 12, corpses removed) are both genuine. SINGLE-SOURCE FLAG: the 3,500–25,000 range itself rests on one tertiary article (no independent corroboration of the band's endpoints), and most per-massacre tolls were never independently investigated — hence status remains UNVERIFIED. The Naniarchar 1993 toll (≥29) was independently confirmed (Amnesty ASA 13/002/1994, IWGIA) though that incident is not in the CHT-conflict article."
+      },
+      "received_lens": "denied",
+      "summary": "From 1977 the Bangladesh state met an indigenous autonomy insurgency in the Chittagong Hill Tracts with military counter-insurgency and a programme that moved hundreds of thousands of Bengali settlers into the hills. Soldiers and settlers carried out massacres such as Logang in 1992 and Naniarchar in 1993, alongside rape, torture and village burnings, driving the indigenous Jumma from a clear majority toward a minority in their own land. A 1997 peace accord formally ended the war but remains largely unimplemented.",
+      "relevance": "Bangladesh as perpetrator at home: a state forged in resistance to ethnic domination reproduced it against its own indigenous peoples, with the killings denied or minimised and never tried in court.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Chittagong Hill Tracts conflict', Wikipedia — the 1977–97 timeframe, the 3,500–25,000 civilian and ~30,000 total death estimates, ~80,000 displaced, the settlement programme, and the indigenous-population decline from 98% (1971) to ~50% (2000)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Chittagong_Hill_Tracts_conflict",
+          "caveat": "Tertiary encyclopaedia; casualty figures for the conflict are uncertain and contested, and the article notes that many massacres were never independently investigated."
+        },
+        {
+          "kind": "press",
+          "cite": "Amnesty International, 'Bangladesh: Reprisal killings in Logong, Chittagong Hill Tracts, in April 1992' (ASA 13/004/1992)",
+          "supports": "tier",
+          "url": "https://www.amnesty.org/en/documents/asa13/004/1992/en/",
+          "caveat": "Human-rights advocacy report; documents the Logang killings and the disputed toll (indigenous accounts vs the government's figure of 12), but is not a neutral statistical source."
+        },
+        {
+          "kind": "press",
+          "cite": "'Logang massacre', Wikipedia — the 10 April 1992 attack by security forces and Bengali settlers; over 400 dead by indigenous estimate versus the government committee's figure of 12, with corpses removed by the army",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Logang_massacre",
+          "caveat": "Tertiary encyclopaedia summarising sharply divergent toll claims for a single incident; the wide spread (12 to 400+) itself illustrates the suppression and lack of independent investigation."
+        }
+      ],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

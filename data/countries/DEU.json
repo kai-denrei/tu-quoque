@@ -1,0 +1,204 @@
+{
+  "iso": "DEU",
+  "name": "Germany",
+  "note": "Two ledgers held open: Germany as the modern era's archetypal perpetrator (the Holocaust, the Herero and Nama genocide) and Germany as victim (the Thirty Years' War devastation, Allied area bombing). Tiers tag the act, not the nation.",
+  "events": [
+    {
+      "id": "deu-1",
+      "country": "DEU",
+      "role": "perpetrator",
+      "title": "The Holocaust & Generalplan Ost",
+      "era": "1941–45",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "The Nazi state set out to annihilate European Jewry as a people, and within Generalplan Ost to depopulate and enslave Slavs — deliberate destruction of groups as such, the defining case of the extermination tier.",
+      "agent": "Nazi German state (SS, Einsatzgruppen, Wehrmacht, civil administration)",
+      "toll": {
+        "display": "~5.1–6 million Jews; ~11M+ total",
+        "disputed": true,
+        "low": 5100000,
+        "high": 6000000,
+        "unit": "deaths",
+        "note": "Low end (~5.1M Jews) is Raul Hilberg's careful tally; the ~6M figure is affirmed by the USHMM and Yad Vashem from German deportation/gassing records cross-checked against pre- and post-war demographics. Adding non-Jewish victims — ~3.3M Soviet POWs, ~1.8M ethnic Poles, 250,000–500,000 Roma, 250,000–300,000 disabled people, 310,000+ Serb civilians, and others — pushes the total above 11 million. The dispute is over scholarly precision, not the fact of the genocide."
+      },
+      "received_lens": "flagellated",
+      "summary": "The Nazi German state organised the industrial murder of European Jews — shooting roughly two million in the occupied east, gassing some 2.7 million at killing centres like Auschwitz and Treblinka, and starving and working hundreds of thousands more to death in ghettos and camps. Alongside it, the state murdered Roma, disabled people, Soviet prisoners, and Poles, and drew up Generalplan Ost to depopulate the Slavic east.",
+      "audit_note": "Adversarial audit 2026-06-18: all three sources verified real and supporting. USHMM page confirmed verbatim — '6 million Jews', plus non-Jewish tallies (3.3M Soviet POWs, 1.8M Poles, 250k–500k Roma, 250k–300k disabled, 310k+ Serbs). Hilberg 5.1M confirmed real and accurately attributed. Yad Vashem FAQ confirms 5–6M range. Tier independently re-derived as EXT (annihilation of groups as such). PASS.",
+      "relevance": "The reference case for the top tier: extermination as a deliberate bureaucratic project. Placing it on the same map as a famine is exactly why the tiers exist — to keep it from being levelled into 'another dot' — and Germany's own memory culture, built on confronting it, is what makes the perpetrator ledger possible at all.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Raul Hilberg, The Destruction of the European Jews (3rd ed., 2003) — estimates ~5.1 million Jewish dead",
+          "supports": "toll.low",
+          "url": null,
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "USHMM Holocaust Encyclopedia, 'Documenting the Numbers of Victims of the Holocaust and Nazi Persecution'",
+          "supports": "toll.high",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/documenting-numbers-of-victims-of-the-holocaust-and-nazi-persecution",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Yad Vashem, FAQ — affirms the ~6 million figure",
+          "supports": "summary",
+          "url": "https://www.yadvashem.org/holocaust/faqs.html",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "USHMM — non-Jewish victim tallies (Soviet POWs, Poles, Roma, disabled, Serbs)",
+          "supports": "toll.high",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/documenting-numbers-of-victims-of-the-holocaust-and-nazi-persecution",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "deu-2",
+      "country": "DEU",
+      "role": "perpetrator",
+      "title": "The Herero and Nama Genocide",
+      "era": "1904–08",
+      "era_band": "colonial",
+      "tier": "EXT",
+      "tier_reasoning": "General Lothar von Trotha issued an extermination order (Vernichtungsbefehl) against the Herero, drove survivors into the Omaheke desert to die of thirst, and the colony then worked Herero and Nama captives to death in concentration camps — deliberate destruction of two peoples as such.",
+      "agent": "Imperial German colonial army (Schutztruppe under Lothar von Trotha) and German South West Africa administration",
+      "toll": {
+        "display": "~50,000–90,000 (Herero ~40,000–80,000; Nama ~10,000)",
+        "disputed": true,
+        "low": 50000,
+        "high": 90000,
+        "unit": "deaths",
+        "note": "The 1985 UN Whitaker Report cites ~65,000 Herero (80% of the people) and ~10,000 Nama (50%). Scholarly ranges for the Herero run from ~40,000 to ~80,000; combined with Nama dead this gives roughly 50,000–90,000. Many deaths were from forced thirst and starvation in the Omaheke and from labour, disease, and abuse in camps like Shark Island — but they followed an explicit extermination order, so intent, not disease, drives the tier."
+      },
+      "received_lens": "contested",
+      "summary": "After the Herero rose against land seizures in 1904, General Lothar von Trotha won the Battle of Waterberg and then issued an order to exterminate them, sealing the desert so survivors died of thirst. When the Nama revolted, the colony crushed them too and herded survivors of both peoples into concentration camps, where forced labour and disease killed thousands more. The Herero lost roughly four in five of their people.",
+      "audit_note": "Adversarial audit 2026-06-18: all sources verified real. Whitaker Report 65k Herero / 10k Nama confirmed (canonical mirror added). Faber-Jonker 2023 confirmed a genuine chapter in The Cambridge World History of Genocide (pp. 634–656); its 40,000–80,000 Herero (~80%) + 10,000 Nama (~50%) figure underpins the combined range. NPR 2021 acknowledgement/€1.1bn confirmed accurate. Tier re-derived EXT: explicit Vernichtungsbefehl means intent, not disease, drives the tier — correctly NOT down-tiered to STR. PASS.",
+      "relevance": "Often called the first genocide of the twentieth century and a rehearsal of methods — extermination orders, desert encirclement, concentration camps, racial 'science' on prisoners — that recur in the German perpetrator ledger four decades later.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "UN Whitaker Report (1985), E/CN.4/Sub.2/1985/6 — ~65,000 Herero and ~10,000 Nama killed",
+          "supports": "toll.low",
+          "url": "http://www.preventgenocide.org/prevent/UNdocs/whitaker/",
+          "caveat": "UN special-rapporteur document; an authoritative classification but its single mid-range figures are widely cited rather than independently re-derived. Audit 2026-06-18: figure and document verified real; canonical text mirror at preventgenocide.org added (JSON previously left url null)."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Faber-Jonker (2023), cited in the Herero and Nama genocide literature — Herero deaths 40,000–80,000 (~80% of population)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Herero_and_Nama_genocide",
+          "caveat": "Accessed via Wikipedia's sourcing of the scholarly figure; primary monograph not directly read."
+        },
+        {
+          "kind": "press",
+          "cite": "NPR, 'Germany Formally Acknowledges Colonial Genocide In Namibia, Will Pay Reparations' (28 May 2021)",
+          "supports": "summary",
+          "url": "https://www.npr.org/2021/05/28/1001376494/germany-formally-acknowledges-colonial-genocide-in-namibia-will-pay-reparations",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "deu-3",
+      "country": "DEU",
+      "role": "victim",
+      "title": "The Thirty Years' War",
+      "era": "1618–48",
+      "era_band": "pre-colonial",
+      "tier": "STR",
+      "tier_reasoning": "The killing was overwhelmingly structural — mercenary armies living off the land triggered famine and epidemic disease that did most of the dying, not a campaign to destroy a defined group; this is collapse driven by war's by-products, not intent.",
+      "agent": "Habsburg Imperial, Swedish, French, Spanish, and assorted mercenary armies fighting across the German lands",
+      "toll": {
+        "display": "~4.5–8 million deaths (15–20% of the population; over 50% in worst-hit regions)",
+        "disputed": true,
+        "low": 4500000,
+        "high": 8000000,
+        "unit": "deaths",
+        "note": "Wilson (2009) gives ~4.5–8 million combined military and civilian deaths; Parker (1997) notes population declines over 50% in the worst-hit territories like Württemberg, with an overall German decline of roughly 15–20%. Most deaths came not from battle but from famine and disease spread by armies foraging across the countryside — a population-collapse figure as much as a body count, hence the wide range."
+      },
+      "received_lens": "memorial",
+      "summary": "For thirty years foreign and mercenary armies marched back and forth across the German lands, looting, burning, and living off the country. Battle killed comparatively few; the armies' real toll came from the famine and plague they spread, hollowing out whole regions. Some parts of Germany lost more than half their people, and the overall population fell by perhaps a fifth.",
+      "audit_note": "Adversarial audit 2026-06-18: both scholars verified real — Wilson, Europe's Tragedy / The Thirty Years War (2009, Harvard/Penguin); Parker (ed.), The Thirty Years' War (Routledge, 1997). Minor flag (non-blocking): the numeric low AND high (4.5M / 8M) both trace to Wilson; Parker corroborates scale via the >50% regional-decline figure rather than supplying a distinct numeric high. disputed:true and the collapse-estimate caveat in toll.note already disclose this. Tier re-derived STR: famine and epidemic from foraging armies, no campaign to destroy a defined group — textbook disease-driven structural collapse. PASS.",
+      "relevance": "The archetypal modern perpetrator sits squarely in the victim ledger three centuries earlier — and the toll is a textbook case of structural, disease-and-famine-driven collapse rather than deliberate extermination.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Peter H. Wilson, Europe's Tragedy: A History of the Thirty Years War (2009) — ~4.5–8 million dead",
+          "supports": "toll.low",
+          "url": null,
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Geoffrey Parker (ed.), The Thirty Years' War (1997) — >50% decline in worst-hit German territories",
+          "supports": "toll.high",
+          "url": null,
+          "caveat": "Verified real (Routledge 1997). Supports the regional-decline scale (Mecklenburg, Pomerania, Württemberg ~50%) shown in the display, not a distinct numeric high body count — the 8M high-end number itself traces to Wilson."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Thirty Years' War' (synthesising Wilson 2009 and Parker 1997 casualty figures)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Thirty_Years%27_War",
+          "caveat": "Tertiary aggregator used to cross-check the scholarly figures, not as a primary authority."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "deu-4",
+      "country": "DEU",
+      "role": "victim",
+      "title": "Allied Area Bombing of German Cities",
+      "era": "1942–45",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "British and American area bombing deliberately targeted civilian-packed cities to break German war-making and morale — a wartime strategy of total war against an enemy state, not a campaign to exterminate Germans as a people.",
+      "agent": "RAF Bomber Command and the US Army Air Forces",
+      "toll": {
+        "display": "~350,000–500,000 German civilians overall; Dresden ~22,700–25,000; Hamburg ~34,000–40,000",
+        "disputed": true,
+        "low": 350000,
+        "high": 500000,
+        "unit": "deaths",
+        "note": "Estimates for total German civilian dead from strategic bombing run from roughly 350,000 to 500,000 across the war. Two named raids anchor the range: the 2010 Dresden Historians' Commission, after six years of research, set the February 1945 firestorm toll at 22,700–25,000, sharply down from Cold-War-era inflated claims; Hamburg's July 1943 Operation Gomorrah killed about 34,000 (police records) to 40,000. The Dresden number in particular is contested because far-right groups have long pushed inflated figures."
+      },
+      "received_lens": "contested",
+      "summary": "From 1942 the RAF bombed German cities by night and the US air forces by day, deliberately burning out civilian districts to wreck industry and morale. Firestorms engulfed Hamburg in 1943, killing some 34,000–40,000, and Dresden in February 1945, killing 22,700–25,000. Across the war, Allied bombing killed several hundred thousand German civilians and flattened city centres.",
+      "audit_note": "Adversarial audit 2026-06-18: all sources verified real. The Local (2010) confirmed reporting the Dresden Historians' Commission's up-to-25,000 figure against far-right claims up to 500,000. Hamburg 34,000–40,000 independently confirmed (police-record floor ~34k; some estimates to 46k). France 24 (13 Feb 2025) confirmed real — 80th-anniversary human chain, far-right hijacking, 25,000 figure. Tier re-derived WAR: deliberate civilian targeting as total-war strategy against an enemy state, not annihilation of Germans as a people. PASS.",
+      "relevance": "The country that built the Holocaust was, in the same years, the target of mass civilian killing from the air — and the dual-lens point cuts both ways, since the inflated Dresden death tolls became a lasting tool of Holocaust-relativising propaganda.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "The Local (Germany), 'Official report: Dresden bombing killed 25,000' (17 Mar 2010), on the Dresden Historians' Commission",
+          "supports": "toll.low",
+          "url": "https://www.thelocal.de/20100317/25945",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Bombing of Dresden' and 'Bombing of Hamburg in World War II' — Dresden 22,700–25,000; Hamburg 34,000–40,000",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Bombing_of_Dresden",
+          "caveat": "Tertiary aggregator; the Dresden figure traces to the 2010 commission, Hamburg to police-record tallies."
+        },
+        {
+          "kind": "press",
+          "cite": "France 24, 'On the 80th anniversary of the bombing of Dresden, tributes to victims are hijacked by far right' (13 Feb 2025)",
+          "supports": "summary",
+          "url": "https://www.france24.com/en/europe/20250213-on-the-80th-anniversary-of-the-bombing-of-dresden-tributes-to-victims-are-hijacked-by-far-right",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

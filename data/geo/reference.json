@@ -1,0 +1,1327 @@
+{
+  "source": "World Bank API — capitals from /v2/country; population from indicator SP.POP.TOTL (2023)",
+  "year": 2023,
+  "fetched": "see VERSION/build time",
+  "countries": [
+    {
+      "iso": "AFG",
+      "name": "Afghanistan",
+      "capital": "Kabul",
+      "population": 41454761,
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "note": ""
+    },
+    {
+      "iso": "ALB",
+      "name": "Albania",
+      "capital": "Tirane",
+      "population": 2414095,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "DZA",
+      "name": "Algeria",
+      "capital": "Algiers",
+      "population": 46164219,
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "note": ""
+    },
+    {
+      "iso": "AGO",
+      "name": "Angola",
+      "capital": "Luanda",
+      "population": 36749906,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "ARG",
+      "name": "Argentina",
+      "capital": "Buenos Aires",
+      "population": 45538401,
+      "region": "Latin America & Caribbean ",
+      "note": ""
+    },
+    {
+      "iso": "ARM",
+      "name": "Armenia",
+      "capital": "Yerevan",
+      "population": 2964300,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "AUS",
+      "name": "Australia",
+      "capital": "Canberra",
+      "population": 26659922,
+      "region": "East Asia & Pacific",
+      "note": ""
+    },
+    {
+      "iso": "AUT",
+      "name": "Austria",
+      "capital": "Vienna",
+      "population": 9131761,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "AZE",
+      "name": "Azerbaijan",
+      "capital": "Baku",
+      "population": 10153958,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "BHS",
+      "name": "Bahamas, The",
+      "capital": "Nassau",
+      "population": 399440,
+      "region": "Latin America & Caribbean ",
+      "note": ""
+    },
+    {
+      "iso": "BGD",
+      "name": "Bangladesh",
+      "capital": "Dhaka",
+      "population": 171466990,
+      "region": "South Asia",
+      "note": ""
+    },
+    {
+      "iso": "BLR",
+      "name": "Belarus",
+      "capital": "Minsk",
+      "population": 9178298,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "BEL",
+      "name": "Belgium",
+      "capital": "Brussels",
+      "population": 11779946,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "BLZ",
+      "name": "Belize",
+      "capital": "Belmopan",
+      "population": 411106,
+      "region": "Latin America & Caribbean ",
+      "note": ""
+    },
+    {
+      "iso": "BEN",
+      "name": "Benin",
+      "capital": "Porto-Novo",
+      "population": 14111034,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "BTN",
+      "name": "Bhutan",
+      "capital": "Thimphu",
+      "population": 786385,
+      "region": "South Asia",
+      "note": ""
+    },
+    {
+      "iso": "BOL",
+      "name": "Bolivia",
+      "capital": "La Paz",
+      "population": 12244159,
+      "region": "Latin America & Caribbean ",
+      "note": ""
+    },
+    {
+      "iso": "BIH",
+      "name": "Bosnia and Herzegovina",
+      "capital": "Sarajevo",
+      "population": 3185073,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "BWA",
+      "name": "Botswana",
+      "capital": "Gaborone",
+      "population": 2480244,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "BRA",
+      "name": "Brazil",
+      "capital": "Brasilia",
+      "population": 211140729,
+      "region": "Latin America & Caribbean ",
+      "note": ""
+    },
+    {
+      "iso": "BRN",
+      "name": "Brunei Darussalam",
+      "capital": "Bandar Seri Begawan",
+      "population": 458949,
+      "region": "East Asia & Pacific",
+      "note": ""
+    },
+    {
+      "iso": "BGR",
+      "name": "Bulgaria",
+      "capital": "Sofia",
+      "population": 6446596,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "BFA",
+      "name": "Burkina Faso",
+      "capital": "Ouagadougou",
+      "population": 23025776,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "BDI",
+      "name": "Burundi",
+      "capital": "Bujumbura",
+      "population": 13689450,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "KHM",
+      "name": "Cambodia",
+      "capital": "Phnom Penh",
+      "population": 17423880,
+      "region": "East Asia & Pacific",
+      "note": ""
+    },
+    {
+      "iso": "CMR",
+      "name": "Cameroon",
+      "capital": "Yaounde",
+      "population": 28372687,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "CAN",
+      "name": "Canada",
+      "capital": "Ottawa",
+      "population": 40083484,
+      "region": "North America",
+      "note": ""
+    },
+    {
+      "iso": "CAF",
+      "name": "Central African Republic",
+      "capital": "Bangui",
+      "population": 5152421,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "TCD",
+      "name": "Chad",
+      "capital": "N'Djamena",
+      "population": 19319064,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "CHL",
+      "name": "Chile",
+      "capital": "Santiago",
+      "population": 19658835,
+      "region": "Latin America & Caribbean ",
+      "note": ""
+    },
+    {
+      "iso": "CHN",
+      "name": "China",
+      "capital": "Beijing",
+      "population": 1410710000,
+      "region": "East Asia & Pacific",
+      "note": ""
+    },
+    {
+      "iso": "COL",
+      "name": "Colombia",
+      "capital": "Bogota",
+      "population": 52321152,
+      "region": "Latin America & Caribbean ",
+      "note": ""
+    },
+    {
+      "iso": "COD",
+      "name": "Congo, Dem. Rep.",
+      "capital": "Kinshasa",
+      "population": 105789731,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "COG",
+      "name": "Congo, Rep.",
+      "capital": "Brazzaville",
+      "population": 6182885,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "CRI",
+      "name": "Costa Rica",
+      "capital": "San Jose",
+      "population": 5105525,
+      "region": "Latin America & Caribbean ",
+      "note": ""
+    },
+    {
+      "iso": "CIV",
+      "name": "Cote d'Ivoire",
+      "capital": "Yamoussoukro",
+      "population": 31165654,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "HRV",
+      "name": "Croatia",
+      "capital": "Zagreb",
+      "population": 3859686,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "CUB",
+      "name": "Cuba",
+      "capital": "Havana",
+      "population": 11019931,
+      "region": "Latin America & Caribbean ",
+      "note": ""
+    },
+    {
+      "iso": "CYP",
+      "name": "Cyprus",
+      "capital": "Nicosia",
+      "population": 1344976,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "CZE",
+      "name": "Czechia",
+      "capital": "Prague",
+      "population": 10864042,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "DNK",
+      "name": "Denmark",
+      "capital": "Copenhagen",
+      "population": 5946952,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "DJI",
+      "name": "Djibouti",
+      "capital": "Djibouti",
+      "population": 1152944,
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "note": ""
+    },
+    {
+      "iso": "DOM",
+      "name": "Dominican Republic",
+      "capital": "Santo Domingo",
+      "population": 11331265,
+      "region": "Latin America & Caribbean ",
+      "note": ""
+    },
+    {
+      "iso": "ECU",
+      "name": "Ecuador",
+      "capital": "Quito",
+      "population": 17980083,
+      "region": "Latin America & Caribbean ",
+      "note": ""
+    },
+    {
+      "iso": "EGY",
+      "name": "Egypt, Arab Rep.",
+      "capital": "Cairo",
+      "population": 114535772,
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "note": ""
+    },
+    {
+      "iso": "SLV",
+      "name": "El Salvador",
+      "capital": "San Salvador",
+      "population": 6309624,
+      "region": "Latin America & Caribbean ",
+      "note": ""
+    },
+    {
+      "iso": "GNQ",
+      "name": "Equatorial Guinea",
+      "capital": "Malabo",
+      "population": 1847549,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "ERI",
+      "name": "Eritrea",
+      "capital": "Asmara",
+      "population": 3470390,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "EST",
+      "name": "Estonia",
+      "capital": "Tallinn",
+      "population": 1370286,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "SWZ",
+      "name": "Eswatini",
+      "capital": "Mbabane",
+      "population": 1230506,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "ETH",
+      "name": "Ethiopia",
+      "capital": "Addis Ababa",
+      "population": 128691692,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "FJI",
+      "name": "Fiji",
+      "capital": "Suva",
+      "population": 924145,
+      "region": "East Asia & Pacific",
+      "note": ""
+    },
+    {
+      "iso": "FIN",
+      "name": "Finland",
+      "capital": "Helsinki",
+      "population": 5583911,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "GAB",
+      "name": "Gabon",
+      "capital": "Libreville",
+      "population": 2484789,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "GMB",
+      "name": "Gambia, The",
+      "capital": "Banjul",
+      "population": 2697845,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "GEO",
+      "name": "Georgia",
+      "capital": "Tbilisi",
+      "population": 3715483,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "DEU",
+      "name": "Germany",
+      "capital": "Berlin",
+      "population": 83287273,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "GHA",
+      "name": "Ghana",
+      "capital": "Accra",
+      "population": 33787914,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "GRC",
+      "name": "Greece",
+      "capital": "Athens",
+      "population": 10407351,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "GRL",
+      "name": "Greenland",
+      "capital": "Nuuk",
+      "population": 56865,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "GTM",
+      "name": "Guatemala",
+      "capital": "Guatemala City",
+      "population": 18124838,
+      "region": "Latin America & Caribbean ",
+      "note": ""
+    },
+    {
+      "iso": "GIN",
+      "name": "Guinea",
+      "capital": "Conakry",
+      "population": 14405468,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "GNB",
+      "name": "Guinea-Bissau",
+      "capital": "Bissau",
+      "population": 2153339,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "GUY",
+      "name": "Guyana",
+      "capital": "Georgetown",
+      "population": 826353,
+      "region": "Latin America & Caribbean ",
+      "note": ""
+    },
+    {
+      "iso": "HTI",
+      "name": "Haiti",
+      "capital": "Port-au-Prince",
+      "population": 11637398,
+      "region": "Latin America & Caribbean ",
+      "note": ""
+    },
+    {
+      "iso": "HND",
+      "name": "Honduras",
+      "capital": "Tegucigalpa",
+      "population": 10644851,
+      "region": "Latin America & Caribbean ",
+      "note": ""
+    },
+    {
+      "iso": "HUN",
+      "name": "Hungary",
+      "capital": "Budapest",
+      "population": 9592186,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "ISL",
+      "name": "Iceland",
+      "capital": "Reykjavik",
+      "population": 385663,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "IND",
+      "name": "India",
+      "capital": "New Delhi",
+      "population": 1438069596,
+      "region": "South Asia",
+      "note": ""
+    },
+    {
+      "iso": "IDN",
+      "name": "Indonesia",
+      "capital": "Jakarta",
+      "population": 281190067,
+      "region": "East Asia & Pacific",
+      "note": ""
+    },
+    {
+      "iso": "IRN",
+      "name": "Iran, Islamic Rep.",
+      "capital": "Tehran",
+      "population": 90608707,
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "note": ""
+    },
+    {
+      "iso": "IRQ",
+      "name": "Iraq",
+      "capital": "Baghdad",
+      "population": 45074049,
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "note": ""
+    },
+    {
+      "iso": "IRL",
+      "name": "Ireland",
+      "capital": "Dublin",
+      "population": 5311538,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "ITA",
+      "name": "Italy",
+      "capital": "Rome",
+      "population": 58984216,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "JAM",
+      "name": "Jamaica",
+      "capital": "Kingston",
+      "population": 2839786,
+      "region": "Latin America & Caribbean ",
+      "note": ""
+    },
+    {
+      "iso": "JPN",
+      "name": "Japan",
+      "capital": "Tokyo",
+      "population": 124516650,
+      "region": "East Asia & Pacific",
+      "note": ""
+    },
+    {
+      "iso": "JOR",
+      "name": "Jordan",
+      "capital": "Amman",
+      "population": 11439213,
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "note": ""
+    },
+    {
+      "iso": "KAZ",
+      "name": "Kazakhstan",
+      "capital": "Astana",
+      "population": 20330104,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "KEN",
+      "name": "Kenya",
+      "capital": "Nairobi",
+      "population": 55339003,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "PRK",
+      "name": "Korea, Dem. People's Rep.",
+      "capital": "Pyongyang",
+      "population": 26418204,
+      "region": "East Asia & Pacific",
+      "note": ""
+    },
+    {
+      "iso": "KOR",
+      "name": "Korea, Rep.",
+      "capital": "Seoul",
+      "population": 51712619,
+      "region": "East Asia & Pacific",
+      "note": ""
+    },
+    {
+      "iso": "KWT",
+      "name": "Kuwait",
+      "capital": "Kuwait City",
+      "population": 4853420,
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "note": ""
+    },
+    {
+      "iso": "KGZ",
+      "name": "Kyrgyz Republic",
+      "capital": "Bishkek",
+      "population": 7099750,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "LAO",
+      "name": "Lao PDR",
+      "capital": "Vientiane",
+      "population": 7664993,
+      "region": "East Asia & Pacific",
+      "note": ""
+    },
+    {
+      "iso": "LVA",
+      "name": "Latvia",
+      "capital": "Riga",
+      "population": 1883710,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "LBN",
+      "name": "Lebanon",
+      "capital": "Beirut",
+      "population": 5773493,
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "note": ""
+    },
+    {
+      "iso": "LSO",
+      "name": "Lesotho",
+      "capital": "Maseru",
+      "population": 2311472,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "LBR",
+      "name": "Liberia",
+      "capital": "Monrovia",
+      "population": 5493031,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "LBY",
+      "name": "Libya",
+      "capital": "Tripoli",
+      "population": 7305659,
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "note": ""
+    },
+    {
+      "iso": "LTU",
+      "name": "Lithuania",
+      "capital": "Vilnius",
+      "population": 2871585,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "LUX",
+      "name": "Luxembourg",
+      "capital": "Luxembourg",
+      "population": 666430,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "MDG",
+      "name": "Madagascar",
+      "capital": "Antananarivo",
+      "population": 31195932,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "MWI",
+      "name": "Malawi",
+      "capital": "Lilongwe",
+      "population": 21104482,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "MYS",
+      "name": "Malaysia",
+      "capital": "Kuala Lumpur",
+      "population": 35126298,
+      "region": "East Asia & Pacific",
+      "note": ""
+    },
+    {
+      "iso": "MLI",
+      "name": "Mali",
+      "capital": "Bamako",
+      "population": 23769127,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "MRT",
+      "name": "Mauritania",
+      "capital": "Nouakchott",
+      "population": 5022441,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "MEX",
+      "name": "Mexico",
+      "capital": "Mexico City",
+      "population": 129739759,
+      "region": "Latin America & Caribbean ",
+      "note": ""
+    },
+    {
+      "iso": "MDA",
+      "name": "Moldova",
+      "capital": "Chisinau",
+      "population": 2457783,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "MNG",
+      "name": "Mongolia",
+      "capital": "Ulaanbaatar",
+      "population": 3481145,
+      "region": "East Asia & Pacific",
+      "note": ""
+    },
+    {
+      "iso": "MNE",
+      "name": "Montenegro",
+      "capital": "Podgorica",
+      "population": 623529,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "MAR",
+      "name": "Morocco",
+      "capital": "Rabat",
+      "population": 37712505,
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "note": ""
+    },
+    {
+      "iso": "MOZ",
+      "name": "Mozambique",
+      "capital": "Maputo",
+      "population": 33635160,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "MMR",
+      "name": "Myanmar",
+      "capital": "Naypyidaw",
+      "population": 54133798,
+      "region": "East Asia & Pacific",
+      "note": ""
+    },
+    {
+      "iso": "NAM",
+      "name": "Namibia",
+      "capital": "Windhoek",
+      "population": 2963095,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "NPL",
+      "name": "Nepal",
+      "capital": "Kathmandu",
+      "population": 29694614,
+      "region": "South Asia",
+      "note": ""
+    },
+    {
+      "iso": "NLD",
+      "name": "Netherlands",
+      "capital": "Amsterdam",
+      "population": 17877117,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "NCL",
+      "name": "New Caledonia",
+      "capital": "Noum'ea",
+      "population": 289870,
+      "region": "East Asia & Pacific",
+      "note": ""
+    },
+    {
+      "iso": "NZL",
+      "name": "New Zealand",
+      "capital": "Wellington",
+      "population": 5200000,
+      "region": "East Asia & Pacific",
+      "note": ""
+    },
+    {
+      "iso": "NIC",
+      "name": "Nicaragua",
+      "capital": "Managua",
+      "population": 6823613,
+      "region": "Latin America & Caribbean ",
+      "note": ""
+    },
+    {
+      "iso": "NER",
+      "name": "Niger",
+      "capital": "Niamey",
+      "population": 26159867,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "NGA",
+      "name": "Nigeria",
+      "capital": "Abuja",
+      "population": 227882945,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "MKD",
+      "name": "North Macedonia",
+      "capital": "Skopje",
+      "population": 1827816,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "OMN",
+      "name": "Oman",
+      "capital": "Muscat",
+      "population": 5049269,
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "note": ""
+    },
+    {
+      "iso": "PAK",
+      "name": "Pakistan",
+      "capital": "Islamabad",
+      "population": 247504495,
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "note": ""
+    },
+    {
+      "iso": "PAN",
+      "name": "Panama",
+      "capital": "Panama City",
+      "population": 4458759,
+      "region": "Latin America & Caribbean ",
+      "note": ""
+    },
+    {
+      "iso": "PNG",
+      "name": "Papua New Guinea",
+      "capital": "Port Moresby",
+      "population": 10389635,
+      "region": "East Asia & Pacific",
+      "note": ""
+    },
+    {
+      "iso": "PRY",
+      "name": "Paraguay",
+      "capital": "Asuncion",
+      "population": 6844146,
+      "region": "Latin America & Caribbean ",
+      "note": ""
+    },
+    {
+      "iso": "PER",
+      "name": "Peru",
+      "capital": "Lima",
+      "population": 33845617,
+      "region": "Latin America & Caribbean ",
+      "note": ""
+    },
+    {
+      "iso": "PHL",
+      "name": "Philippines",
+      "capital": "Manila",
+      "population": 114891199,
+      "region": "East Asia & Pacific",
+      "note": ""
+    },
+    {
+      "iso": "POL",
+      "name": "Poland",
+      "capital": "Warsaw",
+      "population": 36687353,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "PRT",
+      "name": "Portugal",
+      "capital": "Lisbon",
+      "population": 10578174,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "PRI",
+      "name": "Puerto Rico (US)",
+      "capital": "San Juan",
+      "population": 3203792,
+      "region": "Latin America & Caribbean ",
+      "note": ""
+    },
+    {
+      "iso": "QAT",
+      "name": "Qatar",
+      "capital": "Doha",
+      "population": 2656032,
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "note": ""
+    },
+    {
+      "iso": "ROU",
+      "name": "Romania",
+      "capital": "Bucharest",
+      "population": 19061062,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "RUS",
+      "name": "Russian Federation",
+      "capital": "Moscow",
+      "population": 143826130,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "RWA",
+      "name": "Rwanda",
+      "capital": "Kigali",
+      "population": 13954471,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "SAU",
+      "name": "Saudi Arabia",
+      "capital": "Riyadh",
+      "population": 33702731,
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "note": ""
+    },
+    {
+      "iso": "SEN",
+      "name": "Senegal",
+      "capital": "Dakar",
+      "population": 18077573,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "SRB",
+      "name": "Serbia",
+      "capital": "Belgrade",
+      "population": 6623183,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "SLE",
+      "name": "Sierra Leone",
+      "capital": "Freetown",
+      "population": 8460512,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "SVK",
+      "name": "Slovak Republic",
+      "capital": "Bratislava",
+      "population": 5426740,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "SVN",
+      "name": "Slovenia",
+      "capital": "Ljubljana",
+      "population": 2120461,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "SLB",
+      "name": "Solomon Islands",
+      "capital": "Honiara",
+      "population": 800005,
+      "region": "East Asia & Pacific",
+      "note": ""
+    },
+    {
+      "iso": "SOM",
+      "name": "Somalia, Fed. Rep.",
+      "capital": "Mogadishu",
+      "population": 18358615,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "ZAF",
+      "name": "South Africa",
+      "capital": "Pretoria",
+      "population": 63212384,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "SSD",
+      "name": "South Sudan",
+      "capital": "Juba",
+      "population": 11483374,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "ESP",
+      "name": "Spain",
+      "capital": "Madrid",
+      "population": 48352528,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "LKA",
+      "name": "Sri Lanka",
+      "capital": "Colombo",
+      "population": 22037000,
+      "region": "South Asia",
+      "note": ""
+    },
+    {
+      "iso": "SDN",
+      "name": "Sudan",
+      "capital": "Khartoum",
+      "population": 50042791,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "SUR",
+      "name": "Suriname",
+      "capital": "Paramaribo",
+      "population": 628886,
+      "region": "Latin America & Caribbean ",
+      "note": ""
+    },
+    {
+      "iso": "SWE",
+      "name": "Sweden",
+      "capital": "Stockholm",
+      "population": 10536632,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "CHE",
+      "name": "Switzerland",
+      "capital": "Bern",
+      "population": 8888822,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "SYR",
+      "name": "Syrian Arab Republic",
+      "capital": "Damascus",
+      "population": 23594623,
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "note": ""
+    },
+    {
+      "iso": "TJK",
+      "name": "Tajikistan",
+      "capital": "Dushanbe",
+      "population": 10389799,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "TZA",
+      "name": "Tanzania",
+      "capital": "Dodoma",
+      "population": 66617606,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "THA",
+      "name": "Thailand",
+      "capital": "Bangkok",
+      "population": 71702435,
+      "region": "East Asia & Pacific",
+      "note": ""
+    },
+    {
+      "iso": "TLS",
+      "name": "Timor-Leste",
+      "capital": "Dili",
+      "population": 1384286,
+      "region": "East Asia & Pacific",
+      "note": ""
+    },
+    {
+      "iso": "TGO",
+      "name": "Togo",
+      "capital": "Lome",
+      "population": 9304337,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "TTO",
+      "name": "Trinidad and Tobago",
+      "capital": "Port-of-Spain",
+      "population": 1367510,
+      "region": "Latin America & Caribbean ",
+      "note": ""
+    },
+    {
+      "iso": "TUN",
+      "name": "Tunisia",
+      "capital": "Tunis",
+      "population": 12200431,
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "note": ""
+    },
+    {
+      "iso": "TUR",
+      "name": "Turkiye",
+      "capital": "Ankara",
+      "population": 85325965,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "TKM",
+      "name": "Turkmenistan",
+      "capital": "Ashgabat",
+      "population": 7364438,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "UGA",
+      "name": "Uganda",
+      "capital": "Kampala",
+      "population": 48656601,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "UKR",
+      "name": "Ukraine",
+      "capital": "Kiev",
+      "population": 37732836,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "ARE",
+      "name": "United Arab Emirates",
+      "capital": "Abu Dhabi",
+      "population": 10483751,
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "note": ""
+    },
+    {
+      "iso": "GBR",
+      "name": "United Kingdom",
+      "capital": "London",
+      "population": 68492000,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "USA",
+      "name": "United States",
+      "capital": "Washington D.C.",
+      "population": 336806231,
+      "region": "North America",
+      "note": ""
+    },
+    {
+      "iso": "URY",
+      "name": "Uruguay",
+      "capital": "Montevideo",
+      "population": 3388081,
+      "region": "Latin America & Caribbean ",
+      "note": ""
+    },
+    {
+      "iso": "UZB",
+      "name": "Uzbekistan",
+      "capital": "Tashkent",
+      "population": 35652307,
+      "region": "Europe & Central Asia",
+      "note": ""
+    },
+    {
+      "iso": "VUT",
+      "name": "Vanuatu",
+      "capital": "Port-Vila",
+      "population": 320409,
+      "region": "East Asia & Pacific",
+      "note": ""
+    },
+    {
+      "iso": "VEN",
+      "name": "Venezuela, RB",
+      "capital": "Caracas",
+      "population": 28300854,
+      "region": "Latin America & Caribbean ",
+      "note": ""
+    },
+    {
+      "iso": "VNM",
+      "name": "Viet Nam",
+      "capital": "Hanoi",
+      "population": 100352192,
+      "region": "East Asia & Pacific",
+      "note": ""
+    },
+    {
+      "iso": "YEM",
+      "name": "Yemen, Rep.",
+      "capital": "Sana'a",
+      "population": 39390799,
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "note": ""
+    },
+    {
+      "iso": "ZMB",
+      "name": "Zambia",
+      "capital": "Lusaka",
+      "population": 20723965,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    },
+    {
+      "iso": "ZWE",
+      "name": "Zimbabwe",
+      "capital": "Harare",
+      "population": 16340822,
+      "region": "Sub-Saharan Africa ",
+      "note": ""
+    }
+  ]
+}

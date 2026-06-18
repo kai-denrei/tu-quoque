@@ -1,0 +1,194 @@
+{
+  "iso": "IDN",
+  "name": "Indonesia",
+  "note": "Two ledgers held together. As victim: the archipelago's people were ground down under Dutch colonial conquest and then by Imperial Japan's wartime occupation, whose forced-labour and food requisitioning killed on the order of millions. As perpetrator: within two decades of independence the Indonesian state carried out one of the twentieth century's largest political mass murders (the 1965-66 anti-communist killings) and a quarter-century occupation of East Timor that a UN truth commission found drove conflict-related deaths into six figures. The same nation appears on both sides of the ledger within a single human lifetime. Tiers tag the act, never the nation, and there is no ranking.",
+  "events": [
+    {
+      "id": "idn-1",
+      "country": "IDN",
+      "role": "victim",
+      "title": "Japanese occupation of the Dutch East Indies: forced labour and famine",
+      "era": "1942–1945",
+      "era_band": "modern",
+      "tier": "STR",
+      "tier_reasoning": "The mass death came chiefly from Japanese rice and resource requisitioning that produced famine, and from the romusha forced-labour system worked under lethal conditions — structural and forced-labour death of a subject population rather than a program to destroy Indonesians as a group, so STR.",
+      "agent": "Imperial Japan (the occupying military administration that requisitioned food and conscripted Indonesians as romusha forced labourers)",
+      "toll": {
+        "display": "~1.8 million excess deaths in Java 1942–45 (van der Eng 2024); ~2.45 million net population loss; up to ~4 million often cited for the whole occupation",
+        "disputed": true,
+        "low": 1800000,
+        "high": 4000000,
+        "unit": "deaths",
+        "note": "QUARANTINE (audit 2026-06-18): the prior record's toll.low of ~2.4 million 'famine deaths' was a MISCHARACTERIZATION. The cited van der Eng (2024) paper does NOT give 2.4 million famine deaths; its estimate is ~1.8–1.9 million EXCESS DEATHS in Java for 1942–45 (~3.3–3.4 million NET POPULATION LOSS once ~1.5 million missing births are added). The ~2.45 million figure is Egbert de Vries's (1946) NET POPULATION LOSS estimate (120,000 in 1943, 813,000 in 1944, 1.5M in 1945) — deaths PLUS missing births, not pure deaths — which van der Eng validates as a net-loss figure. toll.low has been corrected to ~1.8 million excess deaths (the figure the cited source actually supports). The ~4 million toll.high is a postwar/UN-era figure repeated via reference works (Wikipedia citing Dower 1986, p. 296), but van der Eng (2024) — the same paper cited for the low — explicitly judges 4 million 'too high' because it folded in an unsubstantiated 1946 extrapolation; high retained as the widely-cited upper bound but flagged as rejected by current scholarship. All figures are demographic estimates over a starvation-and-disease catastrophe, not body counts. Romusha: 4-10 million conscripted on Java; of roughly 200,000-500,000 (Ricklefs) sent off Java to the outer islands, Burma and Thailand, only about 70,000 are estimated to have survived."
+      },
+      "received_lens": "suppressed",
+      "summary": "When Japan took the Dutch East Indies in 1942 its military administration seized rice and other supplies for the war effort and conscripted millions of Indonesians as romusha forced labourers. Food seizures helped produce a famine that, on the most recent scholarly estimate (van der Eng 2024), caused roughly 1.8 million excess deaths in Java across 1942–45 — about 3.3 million in net population loss once collapsed birth rates are counted — while labourers sent to projects like the Burma-Siam railway died at catastrophic rates. Older reference works cite up to four million dead for the whole occupation, a figure recent scholarship judges too high. The scale of the romusha catastrophe was long under-acknowledged in Indonesia's own national narrative.",
+      "relevance": "Indonesia-as-victim of a wartime occupier sits beside Indonesia's own later perpetration; the romusha dead also point at Japan's ledger, the same way the 1965 dead point at Indonesia's.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Pierre van der Eng, 'Mortality from the 1944–1945 famine in Java, Indonesia,' Asia-Pacific Economic History Review 64:2 (2024), pp. 192–212",
+          "supports": "toll.low",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/aehr.12287",
+          "caveat": "Verified 2026-06-18. Source is real (also as ANU CEH WP2024-01). It supports ~1.8 million EXCESS DEATHS in Java 1942–45 (~3.3–3.4 million net population loss incl. ~1.5 million missing births), and validates de Vries's ~2.45 million as a NET-LOSS figure — NOT '2.4 million famine deaths' as the prior record stated. Same paper explicitly judges the ~4 million total (toll.high) 'too high'. toll.low corrected to 1.8 million accordingly."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Japanese occupation of the Dutch East Indies,' Wikipedia, citing a postwar UN report (~4 million dead from famine and forced labour) and Dower (1986), p. 296",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Japanese_occupation_of_the_Dutch_East_Indies",
+          "caveat": "Verified 2026-06-18: the page does carry the ~4 million figure attributed to Dower (1986), p. 296. CONTESTED: van der Eng (2024), the source cited for toll.low, rejects 4 million as too high (it folded in an unsubstantiated 1946 extrapolation). Retained as the widely-cited upper bound, flagged disputed."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Rōmusha,' Wikipedia, citing M.C. Ricklefs (200,000-500,000 Javanese sent off Java, ~70,000 survivors) and Shigeru Satō",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/R%C5%8Dmusha",
+          "caveat": "Romusha figures (200,000–500,000 sent off Java, ~70,000 survivors; Ricklefs/Satō) corroborated by van der Eng (2024), which cites 2.6 million mobilised on Java. Verified 2026-06-18."
+        }
+      ],
+      "status": "UNVERIFIED",
+      "audit_note": "Audit 2026-06-18: sources are REAL but the prior toll mischaracterized van der Eng (2024) — '2.4 million famine deaths' was actually a net-population-loss figure (de Vries 2.45M), and the cited paper gives ~1.8M excess deaths and rejects the 4M high. toll.low corrected to 1.8M, display/summary/note/caveats fixed. Status UNVERIFIED to flag the original citation–claim mismatch that has now been quarantined and corrected."
+    },
+    {
+      "id": "idn-2",
+      "country": "IDN",
+      "role": "victim",
+      "title": "Dutch conquest of Aceh",
+      "era": "1873–1914",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "A decades-long colonial war of conquest in which the Dutch army destroyed villages and killed combatants and civilians to subjugate the Aceh sultanate; mass death as a method of conquest fits WAR, with episodes like the 1904 Gayo-Alas campaign shading toward atrocity.",
+      "agent": "Dutch colonial state and its Royal Netherlands East Indies Army (KNIL), under commanders including J.B. van Heutsz and Col. Gotfried van Daalen",
+      "toll": {
+        "display": "~50,000–70,000 Acehnese dead (violence and disease)",
+        "disputed": true,
+        "low": 50000,
+        "high": 70000,
+        "unit": "deaths",
+        "note": "Historian Adrian Vickers gives 50,000-60,000 Acehnese dead from violence and disease over the whole war; other reference summaries put Acehnese killed at 60,000-70,000 with further displacement. Counts are estimates over a 40-year war. Van Daalen's 1904 campaign in the Gayo and Alas highlands killed at least ~2,922 Acehnese, including ~1,149 women and children, in a single documented expedition."
+      },
+      "received_lens": "contested",
+      "summary": "From 1873 the Dutch fought a forty-year war to subjugate the independent sultanate of Aceh in northern Sumatra, using scorched-earth tactics that razed villages and killed tens of thousands of Acehnese through fighting, reprisal and disease. In a single 1904 campaign Colonel van Daalen's troops killed nearly three thousand people, more than a thousand of them women and children; photographs of the dead later fueled debate in the Netherlands about colonial methods.",
+      "relevance": "Long before Indonesia was a state and a perpetrator, its peoples were on the receiving end of imperial conquest — the lens the modern Dutch reckoning is only recently confronting.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Aceh War,' Wikipedia, citing Adrian Vickers (50,000-60,000 Acehnese dead from violence and disease) and figures for the 1904 van Daalen campaign",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Aceh_War",
+          "caveat": "Verified 2026-06-18: page carries Vickers 50,000–60,000 Acehnese dead (violence + disease), the 60,000–70,000 infobox figure, and van Daalen 1904 (≥2,922 dead incl. 1,149 women/children). Supports toll.low and toll.high."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Emmanuel Kreike, 'Genocide in the Kampongs? Dutch nineteenth century colonial warfare in Aceh, Sumatra,' Journal of Genocide Research 14:3-4 (2012), pp. 297-315",
+          "supports": "summary",
+          "url": "https://www.tandfonline.com/doi/abs/10.1080/14623528.2012.719367",
+          "caveat": "Verified 2026-06-18: real article, author Emmanuel Kreike (Princeton). Argues the war constituted 'indirect genocide' via destruction of environmental infrastructure. tandfonline returns 403 to bots (paywall), existence confirmed via Princeton/Semantic Scholar/ResearchGate."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Bart Luttikhuis & A. Dirk Moses, 'Mass violence and the end of the Dutch colonial empire in Indonesia,' Journal of Genocide Research 14:3-4 (2012), pp. 257-276",
+          "supports": "tier",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/14623528.2012.719362",
+          "caveat": "Verified 2026-06-18: real article, authors Luttikhuis & Moses (issue introduction). Supports WAR-with-genocidal-overtones framing. tandfonline 403 to bots; existence confirmed via EUI Cadmus/ResearchGate."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idn-3",
+      "country": "IDN",
+      "role": "perpetrator",
+      "title": "The 1965–66 anti-communist mass killings",
+      "era": "1965–1966",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "The army and allied militias hunted down and murdered members and suspected members of the Communist Party and the political left, plus targeted ethnic Chinese — extermination organized around political identity, so POL (some scholars argue the Bali and ethnic-Chinese dimensions shade toward EXT).",
+      "agent": "Indonesian Army under Maj. Gen. Suharto, working with paramilitaries and religious-youth groups (Pancasila Youth, Ansor) and local militias",
+      "toll": {
+        "display": "~500,000–1,000,000 killed (estimates range ~200,000 to 2–3 million)",
+        "disputed": true,
+        "low": 500000,
+        "high": 1000000,
+        "unit": "deaths",
+        "note": "Robert Cribb argues ~500,000 is the most defensible single figure and notes precision is impossible; a 1976 Indonesian army security-command estimate gave 450,000-500,000. Benedict Anderson concluded 500,000-1,000,000; Vincent Bevins puts it at up to a million or more. Higher claims reach 2-3 million. The low/high here span the mainstream consensus band; records were destroyed, bodies dumped in rivers and mass graves, and the killings were never officially investigated."
+      },
+      "received_lens": "denied",
+      "summary": "After a failed coup blamed on the Communist Party in late 1965, the Indonesian army under Suharto orchestrated the rounding-up and murder of party members, suspected leftists, trade unionists and ethnic Chinese, often handing victims to civilian and religious-youth militias to kill. Across roughly six months at least half a million people, and by many estimates up to a million, were killed; the Indonesian state has never prosecuted the perpetrators and long taught the events as a patriotic suppression of communism.",
+      "relevance": "One of the twentieth century's largest political massacres, carried out by the Indonesian state itself and still officially unrepented — the perpetrator ledger of a nation also written into the victim side.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Robert Cribb, 'Unresolved Problems in the Indonesian Killings of 1965-1966,' Asian Survey (2002) — ~500,000 most defensible, range 200,000 to 1 million",
+          "supports": "toll.low",
+          "url": "https://library.fes.de/libalt/journals/swetsfulltext/15592814.pdf",
+          "caveat": "Verified 2026-06-18: PDF is the genuine Cribb article (FES library mirror; metadata + body confirm authorship/title). Cribb's documented position that ~500,000 is the most defensible figure with a 200,000–1,000,000 range is corroborated across his corpus. Supports toll.low."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Indonesian mass killings of 1965–66,' Wikipedia, summarizing the 500,000-1,000,000 consensus band, the 1976 army estimate, Anderson, Bevins and higher 2-3 million claims",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Indonesian_mass_killings_of_1965%E2%80%9366",
+          "caveat": "Verified 2026-06-18: page carries the 500,000–1,000,000 band, the 1976 army estimate, Anderson, Bevins and the 2–3 million outliers. Supports toll.high."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Geoffrey Robinson et al. (eds.), 'New Directions in the Historiography of Indonesia's Mass Killings, 1965–66,' Indonesia no. 116 (Oct 2023), Project MUSE",
+          "supports": "summary",
+          "url": "https://muse.jhu.edu/pub/255/article/910147/pdf",
+          "caveat": "Verified 2026-06-18: real article in the journal Indonesia no. 116 (Oct 2023) special issue, Project MUSE. Supports the historiographical summary."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idn-4",
+      "country": "IDN",
+      "role": "perpetrator",
+      "title": "The occupation of East Timor",
+      "era": "1975–1999",
+      "era_band": "contemporary",
+      "tier": "EXT",
+      "tier_reasoning": "Over a 24-year occupation Indonesian forces killed, disappeared and starved a large fraction of a small population through massacres, forced relocation and engineered famine; the deliberate destruction of much of a people in their own land fits EXT, and the period is widely termed the East Timor genocide.",
+      "agent": "Indonesian armed forces (TNI/ABRI) and allied militias under Suharto's New Order, after the December 1975 invasion",
+      "toll": {
+        "display": "~102,800 conflict-related deaths (CAVR central estimate); ~18,600 violent killings/disappearances; higher estimates to ~200,000+",
+        "disputed": true,
+        "low": 102800,
+        "high": 200000,
+        "unit": "deaths",
+        "note": "The UN-backed Commission for Reception, Truth and Reconciliation (CAVR, 2005) put minimum conflict-related deaths at ~102,800 (±12,000): ~18,600 (±1,000) violent killings or disappearances and ~84,000 above-baseline deaths from hunger and illness, with an upper bound for hunger/illness around 183,000. CAVR attributed roughly 70% of documented violent killings to Indonesian forces. Amnesty International and others cite ~200,000 (about a third of the pre-invasion population); Gabriel Defert estimated ~308,000 for 1975-81. The low here is the CAVR central minimum; the high is the widely cited ~200,000."
+      },
+      "received_lens": "contested",
+      "summary": "Indonesia invaded the former Portuguese colony of East Timor in December 1975 and occupied it for nearly a quarter-century, during which its forces conducted massacres, forced relocations and counter-insurgency operations that, together with the famine and disease they helped cause, killed a large share of the territory's people. A UN truth commission later documented at least about 102,800 conflict-related deaths and attributed most of the violent killings to Indonesian forces; estimates of the total reach 200,000 and beyond.",
+      "relevance": "A modern Indonesian state, itself born from anti-colonial struggle, ran an occupation widely judged genocidal — the dual lens at its sharpest, victim of empire turned occupier of a smaller neighbour.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "Commission for Reception, Truth and Reconciliation in East Timor (CAVR), 'Chega!' final report (2005) — ~102,800 minimum conflict-related deaths; ~18,600 violent; ~84,000 from hunger/illness",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/East_Timor_genocide",
+          "caveat": "Verified 2026-06-18 against the reference entry, which carries CAVR's figures: ~102,800 minimum conflict-related deaths (±12,000), ~18,600 violent killings/disappearances, ~84,000 hunger/illness (upper bound ~183,000), and CAVR's ~70% attribution to Indonesian forces. Figure summarized via the reference entry; the originating body is the CAVR truth commission ('Chega!', 2005). Supports toll.low."
+        },
+        {
+          "kind": "reference",
+          "cite": "'East Timor genocide,' Wikipedia, summarizing CAVR figures, Amnesty International (~200,000) and Defert (~308,000)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/East_Timor_genocide",
+          "caveat": "Verified 2026-06-18: page carries Amnesty/HRW ~200,000 and Defert ~308,000 (≈44% of pre-invasion population). Supports toll.high."
+        },
+        {
+          "kind": "reference",
+          "cite": "'1975 invasion of East Timor,' Encyclopaedia Britannica",
+          "supports": "summary",
+          "url": "https://www.britannica.com/event/1975-invasion-of-East-Timor",
+          "caveat": "Verified 2026-06-18: real Britannica entry (returns 403 to bots; existence + content confirmed via search snapshot). Covers the 7 Dec 1975 invasion, ~25-year occupation and the 'one-third of the population' estimate. Supports summary."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

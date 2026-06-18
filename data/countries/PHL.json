@@ -1,0 +1,193 @@
+{
+  "iso": "PHL",
+  "name": "Philippines",
+  "note": "Two ledgers held together. As victim: the Filipino people were on the receiving end of two of the deadliest episodes in their history at the hands of foreign powers — the United States' war of conquest at the turn of the twentieth century, which killed hundreds of thousands of civilians through fighting, famine and disease, and Imperial Japan's wartime occupation, which culminated in the slaughter of Manila in 1945. As perpetrator: the modern Philippine state turned its violence inward — Ferdinand Marcos's martial-law dictatorship tortured, disappeared and killed thousands of its own citizens, and Rodrigo Duterte's 'war on drugs' produced extrajudicial killings on a scale the International Criminal Court has charged as crimes against humanity. The same nation appears as victim of empire and as perpetrator against its own people. Tiers tag the act, never the nation, and there is no ranking. The perpetrator ledger here is overwhelmingly state-against-citizen rather than against foreign peoples, a reflection of a country that has rarely projected force abroad but has repeatedly turned it on dissenters and the poor at home.",
+  "events": [
+    {
+      "id": "phl-1",
+      "country": "PHL",
+      "role": "victim",
+      "title": "The Philippine-American War",
+      "era": "1899–1902",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "A war of colonial conquest in which US forces fought Filipino independence fighters and used village-burning, reconcentration camps and reprisals; most of the mass civilian death came from the resulting famine and disease rather than a program to destroy Filipinos as a group, so WAR (with episodes like the Balangiga reprisal on Samar shading toward atrocity).",
+      "agent": "The United States Army, fighting the First Philippine Republic, under commanders including Gen. Elwell Otis, Gen. Arthur MacArthur and, on Samar, Gen. Jacob Smith",
+      "toll": {
+        "low": 200000,
+        "high": 1000000,
+        "unit": "deaths",
+        "display": "~200,000–250,000 civilian dead (mainstream estimate); up to ~1 million in higher estimates",
+        "disputed": true,
+        "note": "The US State Department's Office of the Historian and many modern historians put civilian deaths at about 200,000, most from famine and disease, including at least ~150,000 in a cholera epidemic toward the war's end; Wikipedia notes modern historians generally place it at 200,000–250,000. Filipino historian Luzviminda Francisco and some nationalist accounts argue for up to ~1 million; the highest claims reach further still. These are demographic estimates over a war-and-epidemic catastrophe, not body counts. Filipino combatant deaths are separately estimated at roughly 16,000–20,000 (American estimates) versus Aguinaldo's ~10,000; US combat dead were about 1,020."
+      },
+      "received_lens": "suppressed",
+      "summary": "After defeating Spain in 1898 the United States bought the Philippines and then fought the Filipinos who had declared their own republic, waging a three-year war of conquest. American troops burned villages, herded civilians into reconcentration zones, and on Samar carried out scorched-earth reprisals after the Balangiga ambush; the fighting and the famine and cholera it unleashed killed on the order of two hundred thousand civilians by mainstream counts and far more by others. The war was long minimized in American memory as an 'insurrection.'",
+      "relevance": "The Philippines-as-victim of an emerging imperial power; the war that bloodied the country's birth as a nation sits opposite the violence its own later governments would turn on Filipinos themselves.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'The Philippine-American War, 1899–1902,' US Department of State, Office of the Historian — 'as many as 200,000 Filipino civilians died from violence, famine, and disease'",
+          "supports": "toll.low",
+          "url": "https://history.state.gov/milestones/1899-1913/war",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "'Philippine–American War,' Wikipedia, citing the ~200,000–250,000 mainstream estimate (most from famine/disease, incl. ~150,000 cholera) and Luzviminda Francisco's ~1 million claim",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Philippine%E2%80%93American_War",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Paul A. Kramer, 'The Blood of Government: Race, Empire, the United States, and the Philippines' (2006) — on US methods and the war's character (referenced for tier)",
+          "supports": "tier",
+          "url": "https://uncpress.org/book/9780807856536/the-blood-of-government/",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "phl-2",
+      "country": "PHL",
+      "role": "victim",
+      "title": "Japanese occupation and the Manila massacre",
+      "era": "1941–1945",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Mass civilian death came from a brutal three-year occupation — forced labour, food requisitioning and famine — and from deliberate massacre, rape and execution of Manila's civilians by trapped Japanese troops in 1945; the killing of civilians as a method of war and reprisal fits WAR, with the Manila atrocities and other massacres shading toward EXT.",
+      "agent": "Imperial Japan's occupying military, and in February 1945 the Imperial Japanese Navy marines under Rear Adm. Sanji Iwabuchi in Manila, within Gen. Tomoyuki Yamashita's overall command",
+      "toll": {
+        "low": 100000,
+        "high": 1000000,
+        "unit": "deaths",
+        "display": "~100,000+ killed in the 1945 Manila massacre; ~500,000–1,000,000 total Filipino deaths under the occupation",
+        "disputed": true,
+        "note": "The Manila massacre death toll is usually given as about 100,000 civilians, with some historians citing 100,000–500,000 for the massacre itself; American artillery is blamed for a large share of the battle's destruction and, by Japanese estimates, roughly 40% of Filipino deaths in the battle. For the whole occupation, the Wikipedia 'Japanese occupation' article puts total deaths at about 500,000, with a widely cited breakdown of ~527,000 total (≈141,000 massacred, ≈336,500 war-famine deaths, ≈22,500 forced-labour deaths, ≈27,000 military); the National WWII Museum states 'approximately one million Philippine civilians died' over the occupation. The low here (100,000) is the Manila massacre core figure; the high (1,000,000) is the upper bound for total occupation deaths, sourced to the WWII Museum (NOT to the Wikipedia occupation article, which caps at ~527,000). Audit note (2026-06-18): the original high-end citation overstated the Wikipedia article as 'summarizing ~500,000–1,000,000'; the source actually caps at ~527,000, so the WWII Museum source (re-tagged toll.high) now carries the 1,000,000 figure. Estimates over a three-year catastrophe, not exact counts."
+      },
+      "received_lens": "memorial",
+      "summary": "Japan occupied the Philippines from 1942 to 1945, ruling through forced labour, food seizures and reprisal killings that, with the famine they helped cause, killed hundreds of thousands of Filipinos. As US forces closed in on Manila in February 1945, trapped Japanese naval troops massacred, raped and burned their way through the civilian population — killing roughly a hundred thousand people in churches, hospitals, schools and homes over a month. Gen. Yamashita was later tried and hanged for failing to prevent the atrocities.",
+      "relevance": "The Philippines-as-victim of a second occupying empire within half a century; the slaughter of Manila is a national memorial wound, the counterpart on Japan's perpetrator ledger.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Manila massacre,' Wikipedia — ~100,000 civilian dead (most from Japanese massacres), with some historians citing 100,000–500,000; Iwabuchi/Yamashita responsibility",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Manila_massacre",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "'Japanese occupation of the Philippines,' Wikipedia — 'Around 500,000 Filipinos died during the occupation'; ~527,000 casualty breakdown (≈27,000 military, ≈141,000 massacred, ≈22,500 forced-labour, ≈336,500 war-famine)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Japanese_occupation_of_the_Philippines",
+          "caveat": "Audit (2026-06-18): this article caps total occupation deaths at ~500,000–527,000 and does NOT itself state 1,000,000; it anchors the lower part of the high range. The 1,000,000 upper bound rests on the National WWII Museum source below, which states 'approximately one million Philippine civilians died during the nearly four-year Japanese occupation.'"
+        },
+        {
+          "kind": "reference",
+          "cite": "'Liberation of the Philippines,' The National WWII Museum (Cecilia Gaerlan) — Battle of Manila '~100,000' killed, and 'approximately one million Philippine civilians died during the nearly four-year Japanese occupation'",
+          "supports": "toll.high",
+          "url": "https://www.nationalww2museum.org/war/articles/liberation-of-philippines-cecilia-gaerlan",
+          "caveat": "Verified source for the 1,000,000 upper bound of total occupation deaths and for the ~100,000 Manila figure (re-tagged from 'summary' to 'toll.high' during audit so the high end carries an explicit supporting source)."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "phl-3",
+      "country": "PHL",
+      "role": "perpetrator",
+      "title": "Human rights abuses under the Marcos martial-law dictatorship",
+      "era": "1972–1986",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "The Marcos regime arrested, tortured, disappeared and killed political opponents, activists, journalists and suspected communists to entrench its rule; targeted state repression organized around political identity and dissent fits POL.",
+      "agent": "The Marcos dictatorship and the Armed Forces of the Philippines, Philippine Constabulary and intelligence units acting on its behalf",
+      "toll": {
+        "low": 3257,
+        "high": 11103,
+        "unit": "deaths",
+        "display": "~3,257 documented extrajudicial killings (737 disappearances, ~35,000 tortured, ~70,000 detained); 11,103 victims officially recognized for reparations",
+        "disputed": true,
+        "note": "Figures compiled by Amnesty International and the Task Force Detainees of the Philippines and cited by historians: ~3,257 known extrajudicial killings (of whom ~2,520 were tortured before death), 737 enforced disappearances, ~35,000 documented tortures, and ~70,000 political detentions. The 'low' here is the documented killings figure; the 'high' of 11,103 is the number of victims of killings, torture, disappearance and other abuses officially recognized and compensated under Republic Act 10368 (2013) — not all of them deaths, so the two ends measure different things and the unit 'deaths' applies cleanly only to the ~3,257. Officials note real victim numbers are likely higher, as many marginalized victims were never recorded."
+      },
+      "received_lens": "contested",
+      "summary": "After declaring martial law in 1972, Ferdinand Marcos ruled the Philippines for fourteen years by arresting tens of thousands of opponents and having security forces torture, disappear and kill activists, journalists, labour leaders and suspected communists — bodies of the murdered were often dumped in public in a tactic known as 'salvaging.' Human rights monitors documented some 3,257 extrajudicial killings, 737 disappearances and about 35,000 cases of torture, and a 2013 law recognized over 11,000 victims for reparations. The era's horrors are now contested ground as the Marcos family has returned to power.",
+      "relevance": "The Philippine state as perpetrator against its own citizens; the dictatorship's victims are the domestic counterpart to the Filipinos killed by foreign empires.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Human rights abuses of the Marcos dictatorship,' Wikipedia, citing Amnesty International and the Task Force Detainees of the Philippines — 3,257 killings, 737 disappearances, ~35,000 tortures, ~70,000 incarcerations",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Human_rights_abuses_of_the_Marcos_dictatorship",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "'In the Philippines, victims of martial law fear their stories are being erased,' CNN (2022) — 11,103 victims officially recognized and compensated under the 2013 law; ~3,257 killings, 35,000 tortures, 737 disappearances",
+          "supports": "toll.high",
+          "url": "https://www.cnn.com/2022/09/29/asia/philippines-martial-law-50-years-marcos-intl-hnk",
+          "caveat": "News outlet; figures it reports trace to Amnesty International, the Task Force Detainees of the Philippines and the Human Rights Violations Victims' Claims Board."
+        },
+        {
+          "kind": "press",
+          "cite": "'Five things to know about Martial Law in the Philippines,' Amnesty International (2022) — at least 50,000 arrested and detained 1972–1975",
+          "supports": "summary",
+          "url": "https://www.amnesty.org/en/latest/news/2022/04/five-things-to-know-about-martial-law-in-the-philippines/",
+          "caveat": "Human rights advocacy organization, but the primary documenter of these abuses in the period."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "phl-4",
+      "country": "PHL",
+      "role": "perpetrator",
+      "title": "Duterte's 'war on drugs'",
+      "era": "2016–2022",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "A state campaign in which police and state-linked vigilantes killed suspected drug users and dealers — overwhelmingly the urban poor — outside any legal process; systematic killing of a targeted social category as state policy fits POL, and the ICC has charged it as a crime against humanity (murder).",
+      "agent": "The Philippine National Police and state-linked vigilantes/death squads, directed by President Rodrigo Duterte's administration",
+      "toll": {
+        "low": 6252,
+        "high": 30000,
+        "unit": "deaths",
+        "display": "~6,252 officially acknowledged killed in operations; ~12,000–30,000 estimated by human rights groups and the ICC prosecutor",
+        "disputed": true,
+        "note": "The Duterte government's final official count acknowledged 6,252 drug suspects killed in police anti-drug operations (July 2016–May 2022). Human rights organizations and academics estimate 12,000–30,000 total killed once vigilante and 'unidentified-assailant' killings are included; by 2022 human rights advocates and the ICC prosecutor cited about 30,000. A University of the Philippines team verified 3,859 killings (2016–2021) from media reports; ACLED recorded 7,843 drug-war civilian deaths (2016–2022). The low here is the official operations figure; the high (30,000) is the upper human-rights/ICC estimate including off-the-books killings."
+      },
+      "received_lens": "contested",
+      "summary": "After taking office in 2016, Rodrigo Duterte ordered a nationwide 'war on drugs' in which the national police shot dead thousands of suspected users and dealers in operations recorded as self-defense, while state-linked vigilantes killed thousands more whose deaths went officially uncounted. The government acknowledged about 6,250 killed in police operations; human rights groups and the ICC prosecutor put the true toll at up to 30,000, the victims overwhelmingly poor. In 2025 Duterte was arrested on an ICC warrant, and the court has confirmed charges of crimes against humanity.",
+      "relevance": "A recent, ongoing chapter of the Philippine state killing its own — and one now before an international court, placing the country squarely on the perpetrator ledger in living memory.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Philippine drug war,' Wikipedia — official count of 6,252 killed in operations (2016–2022); human rights/academic estimates of 12,000–30,000",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Philippine_drug_war",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "'Arrested on ICC warrant: What was Duterte's war on drugs?,' Al Jazeera (2025) — human rights advocates and the ICC prosecutor estimate ~30,000 killed",
+          "supports": "toll.high",
+          "url": "https://www.aljazeera.com/news/2025/3/11/arrested-on-icc-warrant-what-was-dutertes-war-on-drugs",
+          "caveat": "News outlet; the 30,000 estimate originates with human rights organizations and the ICC Office of the Prosecutor."
+        },
+        {
+          "kind": "press",
+          "cite": "'ICC confirms crimes against humanity trial of ex-Philippine leader Duterte,' Al Jazeera (2026) — confirmation of crimes-against-humanity charges over the drug war",
+          "supports": "summary",
+          "url": "https://www.aljazeera.com/news/2026/4/23/icc-confirms-crimes-against-humanity-trial-of-ex-philippine-leader-duterte",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

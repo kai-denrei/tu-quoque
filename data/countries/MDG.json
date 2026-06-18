@@ -1,0 +1,108 @@
+{
+  "iso": "MDG",
+  "name": "Madagascar",
+  "note": "Researched 2026-06-18; adversarially audited 2026-06-18. Two ledgers present: victim (1947 French repression) and perpetrator (Ranavalona I's Merina terror). Tolls for both are heavily contested; see notes/MDG.md. All four-plus sources falsification-tested and confirmed (works/authors exist and support the specific claims attached); both events VERIFIED.",
+  "events": [
+    {
+      "id": "mdg-1",
+      "country": "MDG",
+      "role": "victim",
+      "title": "Repression of the Malagasy Uprising",
+      "era": "1947–49",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "French counter-insurgency war crimes — executions, torture, death flights, village burning — during armed suppression of a revolt; even the historian most critical of high tolls (Fremigacci) concludes there was no intent to exterminate ('pas de génocide oublié'), so this is WAR, not EXT. Independently re-derived: armed revolt + reprisal killings + war-crime conduct with no extermination intent = WAR; confirmed against assigned tier.",
+      "agent": "French colonial army and settler militias",
+      "toll": {
+        "display": "~11,000–100,000",
+        "disputed": true,
+        "low": 11342,
+        "high": 100000,
+        "unit": "deaths",
+        "note": "The French administration first claimed 89,000 dead (1947), then 'over 100,000' (1949), then revised down to 11,342 'known dead' (1950) — a state-organ count that almost certainly undercounts. Historian Jean Frémigacci argues the demographic curve cannot support 89,000 and estimates 30,000–40,000 total deaths, of which only ~10,000 were violent (≈2,000 killed by insurgents, ≈5,000–6,000 insurgents killed by colonial forces) and the remainder (≈20,000–30,000) from famine and disease among populations driven into flight. The high figures are death-count claims, not population-decline; the dispute is genuine and unresolved. AUDIT NOTE: Frémigacci's primary text (verified) supports the ~10,000-violent figure; the English Wikipedia gloss saying '30,000 violent' is an inaccurate paraphrase of the same source — this note follows the primary source. Both low and high ends are independently sourced."
+      },
+      "received_lens": "memorial",
+      "summary": "After nationalist secret societies launched a revolt on 29 March 1947, the French army crushed it over nearly two years: mass executions, torture, the burning of villages, collective punishment, and 'death flights' that threw prisoners from aircraft. The MDRM party was dissolved and its deputies framed and condemned.",
+      "relevance": "The textbook one-lens case — Madagascar as pure colonial victim — which is true here, but the atlas pairs it with the Merina monarchy's own terror so the nation appears on both sides.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Malagasy Uprising — Wikipedia",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Malagasy_Uprising",
+          "caveat": "Tertiary aggregator; used for orientation and to trace the named scholarly figures below, not as a primary authority. Audit-verified: article confirms the 89,000 (1947), 'over 100,000' (1949), 11,342 (1950) figures, the 29 March 1947 start, death flights, and MDRM outlawing."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Jean Frémigacci, '1947 : l'insurrection à Madagascar', L'Histoire no. 318 (March 2007)",
+          "supports": "toll.low",
+          "url": "https://etudescoloniales.canalblog.com/archives/2006/11/22/3246791.html",
+          "caveat": "Frémigacci is a French historian of the colonial empire; his revisionist low estimate has itself been challenged (e.g. demographer Alfred Sauvy argued an anti-malaria campaign masked the population loss), so treat as the scholarly floor, not settled fact. Audit-verified: the linked text reproduces Frémigacci, rejects 80,000–100,000 as 'resting on nothing', gives ~10,000 violent / 20,000–30,000 famine-disease / 30,000–40,000 total, and explicitly denies a 'forgotten genocide'."
+        },
+        {
+          "kind": "reference",
+          "cite": "Official French colonial administration revised figure (1950): 11,342 'known dead', as reported in the Malagasy Uprising literature",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Malagasy_Uprising",
+          "caveat": "Colonial state organ — produced by the perpetrator power and widely regarded as a deliberate undercount. Audit-verified against the Wikipedia article."
+        },
+        {
+          "kind": "press",
+          "cite": "Global Voices, 'In Madagascar, People Remember One of the Deadliest French Colonial Wars in History' (9 April 2017)",
+          "supports": "toll.high",
+          "url": "https://globalvoices.org/2017/04/09/in-madagascar-people-remember-one-of-the-deadliest-french-colonial-wars-in-history/",
+          "caveat": "Advocacy-leaning commemorative outlet; cites the high 80,000–100,000 colonial figures, which scholars dispute. Audit-verified: the article carries the High Commissioner's 'over 100,000', the ~80,000 National Assembly figure, and contrasts Frémigacci's ~10,000–30,000."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "mdg-2",
+      "country": "MDG",
+      "role": "perpetrator",
+      "title": "The reign of Ranavalona I",
+      "era": "1828–61",
+      "era_band": "pre-colonial",
+      "tier": "POL",
+      "tier_reasoning": "The deliberate, attributable killing — the tangena poison ordeal as a tool of political/religious terror and the execution of Christians and rivals — is POL; the far larger demographic collapse of this period was driven by famine, disease and forced-labour stress (STR-type causes, not intent) and is flagged as such in the toll note rather than counted as extermination. Independently re-derived: deliberate state terror killing = POL, disease/famine-driven collapse correctly held out as STR-type and NOT tiered EXT; assigned tier confirmed. This is the textbook STR-vs-EXT discipline — disease-driven population decline is not extermination.",
+      "agent": "Merina monarchy under Queen Ranavalona I",
+      "toll": {
+        "display": "tens of thousands killed; up to ~2.5 million population decline",
+        "disputed": true,
+        "low": 60,
+        "high": 100000,
+        "unit": "deaths",
+        "note": "Figures span different things and must not be summed. Deliberate killing: British missionary W.E. Cummins (1878) counted 60–80 Christians executed (in 1849, the worst year, 18 executed and ~1,900 punished); the tangena ordeal killed roughly 1,000/year in the 1820s rising to ~3,000/year under Ranavalona, and one 1838 estimate put cumulative tangena deaths in Imerina as high as 100,000 (~20% of the population) — Gwyn Campbell's demographic work is the source for the tangena and population figures. Separately, Campbell estimates ~60,000 non-Merina killed in the military campaigns of Radama and Ranavalona (1816–1853). The dramatic claim that Madagascar's population fell from ~5 million (1833) to ~2.5 million (1839) is a demographic-decline figure driven mainly by disease, malnutrition, slaving and forced labour — STR causes, not a death-count of intentional killing, and it is contested. low=60 reflects the firmest directly-attested deliberate-execution count; high=100,000 the upper tangena estimate. Both ends are independently sourced (Cummins via Ranavalona I article; tangena 100,000 via Campbell 1991 / Tangena article)."
+      },
+      "received_lens": "contested",
+      "summary": "The Merina queen drove her kingdom on lethal forced labour (fanompoana), used the tangena poison ordeal to kill suspected enemies by the thousand, executed Christians and political rivals, and waged subjugation campaigns against non-Merina peoples — even as those same policies aimed at keeping European powers out.",
+      "relevance": "Pre-colonial Madagascar was no peaceable kingdom: the Merina state inflicted mass death on Malagasy people decades before the French arrived, and the same queen is remembered both as a tyrant and as a sovereignty-defending nationalist.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Gwyn Campbell, 'The State and Pre-Colonial Demographic History: The Case of Nineteenth-Century Madagascar', Journal of African History 32:3 (1991), 415–445",
+          "supports": "toll.high",
+          "url": "https://www.cambridge.org/core/journals/journal-of-african-history/article/abs/state-and-precolonial-demographic-history-the-case-of-nineteenthcentury-madagascar1/32EB4E992623FEE32B2F45979A69D721",
+          "caveat": "Campbell argues the demographic crisis stemmed largely from state forced-labour policy and disease, not pure massacre — so his figures support a STR reading of the population decline, distinct from the deliberate-killing count. Audit-verified: article confirmed real (Cambridge Core + Wikidata + ResearchGate), JAH vol. 32 issue 3, pp. 415–445 (Oct/Nov 1991), author Gwyn Campbell, a recognised historian of Madagascar."
+        },
+        {
+          "kind": "reference",
+          "cite": "Ranavalona I — Wikipedia (citing Campbell and missionary W.E. Cummins, 1878, for the 60–80 executed Christians)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Ranavalona_I",
+          "caveat": "Tertiary aggregator; the underlying Cummins source is a 19th-century British missionary hostile to the regime, and the 'mad queen' framing it helped create is now widely treated as colonial distortion. Audit-verified: article carries the Cummins 60–80 figure, the 1849 18-executed/1,900-punished detail, the 5M→2.5M (1833–39) population decline attributed to Campbell, and the post-1970s nationalist reframing."
+        },
+        {
+          "kind": "reference",
+          "cite": "Tangena — Wikipedia (citing Campbell 1991 for the ~1,000/yr, ~3,000/yr and 1838 ~100,000 ordeal figures)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Tangena",
+          "caveat": "Tertiary; figures trace to Campbell 1991 and to 19th-century estimates that are inherently imprecise. Audit-verified: article states ~1,000/yr (1820s), ~3,000/yr (1828–61), and the 1838 ~100,000 / ~20% figure, all attributed to Campbell 1991."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

@@ -1,0 +1,165 @@
+{
+  "iso": "RUS",
+  "name": "Russia",
+  "note": "Two ledgers held open. As victim, Russia's people absorbed two of history's heaviest blows: the thirteenth-century Mongol conquest and the Nazi war of annihilation in 1941–45, the deadliest national loss of the Second World War. As perpetrator, the Russian Empire and the Soviet state — directed from St Petersburg and Moscow — carried out the Circassian genocide and the Holodomor among many others. The Soviet-era atrocities are placed here because the state that committed them was governed from Russia; they overlap with the victim ledgers of Ukraine, the North Caucasus peoples, and others, and are recorded on both maps. Tiers tag the act, not the nation; the Soviet state's crimes against its own peoples (the Gulag, the Great Terror, the deportations) are vast and only partly captured by the two perpetrator events listed here.",
+  "events": [
+    {
+      "id": "rus-1",
+      "country": "RUS",
+      "role": "victim",
+      "title": "The Mongol Invasion of Kievan Rus'",
+      "era": "1237–40",
+      "era_band": "pre-colonial",
+      "tier": "WAR",
+      "tier_reasoning": "A war of conquest in which Mongol armies stormed and sacked city after city and massacred those they could not use as slaves — mass killing as the method of subjugation, not a campaign to wipe out the Rus' as a people.",
+      "agent": "Mongol armies of the Golden Horde under Batu Khan and the general Subutai",
+      "toll": {
+        "display": "no reliable aggregate death count; Kiev (~50,000 inhabitants) and Chernigov (~30,000) all but obliterated; ~14 northeastern cities sacked",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "QUARANTINE (audit 2026-06-18): the two attached sources are verified as genuine and supporting the narrative — Wikipedia 'Mongol invasion of Kievan Rus'' confirms McEvedy's 7.5M→7M figure (Atlas of World Population History, 1978), Carpini's 'countless skulls and bones' quote, Kiev ~50,000 / Chernigov ~30,000, the ~14 sacked northeastern cities, and the sparing of Novgorod, Pskov and Smolensk; Wikipedia 'Siege of Kiev (1240)' confirms the nine-day siege (28 Nov–6 Dec 1240) and ~2,000 of 50,000 surviving, per Maiorov 2016 (Slavonic and East European Review 94(4):702–714). Event remains UNVERIFIED solely because no defensible aggregate death toll exists for either end (toll.low/high null). Contemporary and papal accounts report wholesale massacres of stormed-city populations with survivors enslaved, but no honest total can be assigned. McEvedy's 7.5M→7M is a demographic-decline figure capturing recovery and out-migration, NOT a death count, and must not be read as one. The killing was intense but localised to stormed cities (Ryazan, Vladimir, Kiev, Chernigov, Pereyaslavl); Novgorod, Pskov, and Smolensk were largely spared. Toll left null because no sourceable number exists for either end."
+      },
+      "received_lens": "memorial",
+      "summary": "From 1237 Mongol armies under Batu Khan swept across the divided principalities of Rus', taking Ryazan, Vladimir, and Moscow, then storming Kiev in December 1240. Chroniclers and a later papal envoy describe whole city populations put to the sword, with survivors enslaved. The largest centres were gutted, stone building stopped for decades, and the surviving princes were forced into two centuries of tribute to the Golden Horde.",
+      "relevance": "The state most often cast as a perpetrator on this map opens its victim ledger with a thirteenth-century conquest that left a lasting mark on Russian memory — and a reminder that the dead of a sack are real even when no honest number can be put to them.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Mongol invasion of Kievan Rus'' — citing Colin McEvedy's population estimate (~7.5M to ~7M) and contemporary accounts of city massacres",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Mongol_invasion_of_Kievan_Rus'",
+          "caveat": "Tertiary aggregator used for the narrative and the McEvedy demographic figure; medieval casualty accounts are impressionistic and the population estimate is not a death count. No primary chronicle read directly."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Siege of Kiev (1240)' — nine-day siege, walls breached 6 December 1240, much of the population massacred",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Kiev_(1240)",
+          "caveat": "Tertiary aggregator; siege chronology drawn from Alexander Maiorov (2016) as cited there, not read in the original."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "rus-2",
+      "country": "RUS",
+      "role": "victim",
+      "title": "Nazi German Invasion of the Soviet Union",
+      "era": "1941–45",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Total war on Soviet soil killed the overwhelming majority through combat, siege, and the war's by-products — but it contained a deliberately exterminatory core (Generalplan Ost, the planned starvation of cities and POWs) that on its own would be EXT; classed WAR for the aggregate, with that genocidal subset flagged.",
+      "agent": "Nazi Germany (Wehrmacht, SS, Einsatzgruppen) and its Axis allies invading and occupying Soviet territory",
+      "toll": {
+        "display": "~26–27 million total (Russian Academy 1993: 26.6M); ~7.4M civilians deliberately killed in occupied areas",
+        "disputed": true,
+        "low": 14700000,
+        "high": 46000000,
+        "unit": "deaths",
+        "note": "The Russian government recognises ~26.6 million total losses from a 1993 Russian Academy of Sciences study (about 8.7M military, ~18M civilian), and ~27 million is the most widely cited figure. The full scholarly span is far wider: Jean-Noël Biraben's 1958 demographic estimate gives a low of about 14.7 million, while Boris Sokolov (43.3M) and V. E. Korol (up to 46M) anchor the high end; mainstream work clusters at 24–27M. Of the civilian dead, Russian sources attribute roughly 7.4 million to direct, intentional killing in occupied regions (reprisals, executions, extermination under Generalplan Ost), with millions more from siege starvation (notably Leningrad) and Nazi famine and forced-labour policies. The low/high bracket the documented scholarly range; ~27M is the working consensus. These are Soviet-wide losses; Russians (RSFSR) were the largest single national share but far from all of them."
+      },
+      "received_lens": "memorial",
+      "summary": "In June 1941 Germany invaded the Soviet Union, intending not just conquest but the depopulation and enslavement of the Slavic east. Over four years the Wehrmacht and SS shot, starved, and worked to death millions of civilians and prisoners of war, besieged Leningrad into mass famine, and razed thousands of villages, while the Red Army bled to push the front back to Berlin. Soviet losses — military and civilian together — reached roughly 26 to 27 million, the heaviest national toll of the war.",
+      "relevance": "Russia's central place in twentieth-century memory as a victim — the war it calls the Great Patriotic War — sits on the same map as its own perpetrator ledger, and the dual lens insists both stay visible: the people who suffered Generalplan Ost are also the state that ran the Holodomor.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'World War II casualties of the Soviet Union' — Russian Academy of Sciences 1993 (~26.6M); range from Biraben (~14.7M) to Sokolov/Korol (~43–46M); ~7.4M civilians deliberately killed",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/World_War_II_casualties_of_the_Soviet_Union",
+          "caveat": "Tertiary aggregator synthesising contested demographic studies; the extreme high (Sokolov, Korol) and the low (Biraben) are outliers relative to the ~27M consensus, hence disputed:true."
+        },
+        {
+          "kind": "press",
+          "cite": "Meduza, '27 million lives lost: a closer look at the Soviet Union's official death toll in World War II' (9 May 2025)",
+          "supports": "summary",
+          "url": "https://meduza.io/en/feature/2025/05/09/27-million-lives-lost",
+          "caveat": "Independent Russian-exile outlet; used to corroborate the ~27M official figure and its construction, not as the primary demographic authority. Audit note: Meduza attributes the 26.6M to the 1990 Gorbachev report drawn from a Goskomstat/MSU/Defence Ministry demographic team; the JSON's '1993 Russian Academy of Sciences' refers to the same team's published monograph (Andreev, Darski & Kharkova, 'The Population of the Soviet Union 1922–1991', Moscow: Nauka, 1993) — the figures are the same lineage, not a contradiction."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "rus-3",
+      "country": "RUS",
+      "role": "perpetrator",
+      "title": "The Circassian Genocide",
+      "era": "1864 (campaign from 1763; expulsions to 1878)",
+      "era_band": "colonial",
+      "tier": "EXT",
+      "tier_reasoning": "The Russian Empire set out to clear an entire people from its homeland — killing, starving, and driving 90-plus percent of the Circassians out of the Caucasus — the deliberate destruction and removal of a group as such.",
+      "agent": "Russian Imperial army in the Caucasus (commanders incl. Nikolay Yevdokimov), expulsion approved by Tsar Alexander II",
+      "toll": {
+        "display": "~600,000–1,500,000 dead (some estimates to ~2M); 90–97% of Circassians killed or expelled",
+        "disputed": true,
+        "low": 600000,
+        "high": 1500000,
+        "unit": "deaths",
+        "note": "Estimates of those killed or dead from starvation, disease, and exhaustion during the conquest and forced deportation to the Ottoman Empire run from roughly 600,000 to 1.5 million, with some scholars putting total deaths as high as 2 million. The figures blur war-deaths, famine and epidemic among refugees crammed onto Black Sea ports and ships, and deaths in transit — so the range is wide and the unit imprecise. What is not in dispute is the demographic outcome: 90–97% of the Circassian population was killed or expelled, and as little as 3% remained in the Caucasus. Low/high bracket the most commonly cited death estimates."
+      },
+      "received_lens": "denied",
+      "summary": "As the Russian Empire finished its long conquest of the western Caucasus in 1864, it moved to clear the Circassians from their homeland for good. Imperial forces burned villages and drove survivors to the Black Sea coast, where hundreds of thousands died of hunger and disease waiting for or aboard overloaded Ottoman ships. Between 600,000 and 1.5 million perished, and all but a small remnant of the Circassian people were expelled.",
+      "relevance": "A nineteenth-century ethnic clearance that the modern Russian Federation still officially classifies as a voluntary 'migration' rather than a genocide — the perpetrator's denial is itself part of the dual-lens record.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Circassian genocide' — ~600,000–1,500,000 (to ~2M) dead; 90–97% killed or expelled; 1863–78; Russia denies genocide",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Circassian_genocide",
+          "caveat": "Tertiary aggregator; the death figures span war, famine, and deportation deaths and are inherently imprecise, hence disputed:true. Audit note: the cited article's infobox now leads with 1,000,000–2,000,000, but the 600,000 low traces to Walter Richmond, 'The Circassian Genocide' (Rutgers UP, 2013), who states 'at least 600,000' died, and the 1.5M upper-low to Charles King and the general scholarly span — both ends are sourceable and verified; the kept 600,000–1,500,000 bracket is a legitimate conservative-to-mainstream range."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Russo-Circassian War' — Russian conquest of the western Caucasus culminating 1864 and the mass expulsion to the Ottoman Empire",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Russo-Circassian_War",
+          "caveat": "Tertiary aggregator used for the military and chronological frame; not a primary or specialist authority. Audit: confirmed the article describes the conquest culminating 1864, the 1763 start, and the mass expulsion to the Ottoman Empire."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "rus-4",
+      "country": "RUS",
+      "role": "perpetrator",
+      "title": "The Holodomor (Soviet Famine in Ukraine)",
+      "era": "1932–33",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "Classed EXT because Soviet policy selectively weaponised an engineered famine against Ukrainian peasants — sealing the republic's borders, seizing grain to the seed, and blacklisting villages — though whether intent met the legal threshold of genocide remains contested among historians.",
+      "agent": "Soviet government under Joseph Stalin (the all-Union state, directed from Moscow)",
+      "toll": {
+        "display": "~3.5–5 million (Rudnytskyi et al. 2015: ~3.9M direct deaths) to 7–10 million (older / 2003 UN statement)",
+        "disputed": true,
+        "low": 3500000,
+        "high": 10000000,
+        "unit": "deaths",
+        "note": "The most detailed modern demographic study (Rudnytskyi et al., Canadian Studies in Population, 2015) estimates about 3.9 million direct excess deaths in Ukraine (plus ~0.6M lost births, for ~4.5M total losses), and recent scholarship clusters at 3.5–5 million. The high end reflects older and political figures: a 2003 joint UN statement signed by 25 states cited 7–10 million, and Cold-War-era estimates ran higher still. Low/high therefore bracket modern demography against the older maximal claims. The famine extended beyond Ukraine (Kazakhstan and the Volga also suffered catastrophically); this event covers the Ukrainian core."
+      },
+      "received_lens": "contested",
+      "summary": "In 1932–33 the Soviet state pressed collectivisation and impossible grain quotas onto the Ukrainian countryside, then confiscated food down to the seed grain, sealed the republic's borders to trap starving peasants, and blacklisted villages that fell short. Millions starved to death in one of Europe's great peacetime catastrophes — modern demographers count about 3.9 million dead in Ukraine, older estimates run to 7 million or more.",
+      "relevance": "Recorded in Russia's perpetrator ledger because the state that engineered it was governed from Moscow, while it stands as Ukraine's defining victim event — the clearest case on this map of an atrocity that must appear on two countries' pages at once.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Rudnytskyi, Levchuk, Wolowyna, Shevchuk & Kovbasiuk, 'Demography of a man-made human catastrophe: The case of massive famine in Ukraine 1932–1933', Canadian Studies in Population 42 (2015) — ~3.9M direct deaths",
+          "supports": "toll.low",
+          "url": "https://holodomor.ca/wp-content/uploads/2020/05/Demography-of-a-man-made-....pdf",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Holodomor' — modern range 3.5–5M; 2003 UN joint statement of 25 states citing 7–10M; intent and genocide recognition contested",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Holodomor",
+          "caveat": "Tertiary aggregator; the 7–10M high end is a political/UN figure higher than modern demographic work, and genocide classification is itself disputed, hence disputed:true."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

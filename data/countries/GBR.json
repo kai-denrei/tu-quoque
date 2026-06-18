@@ -1,0 +1,239 @@
+{
+  "iso": "GBR",
+  "name": "United Kingdom",
+  "note": "Seed bundled three distinct atrocities into one perpetrator row; split into separate schema-valid events (Bengal famine, Amritsar, Boer camps) and added the Great Irish Famine. Famines tiered STR (mass death by starvation/epidemic, not extermination of a group as such) with the policy-culpability dispute kept explicit; Amritsar tiered WAR (deliberate massacre). Two ledgers satisfied: the Blitz is the victim event.",
+  "events": [
+    {
+      "id": "gbr-1",
+      "country": "GBR",
+      "role": "perpetrator",
+      "title": "The 1943 Bengal famine",
+      "era": "1943–1944",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "Mass death came from starvation and epidemic disease, not a campaign to destroy Bengalis as a group; the dispute is over how much wartime British policy (rice/boat denial, refusal to divert grain shipments) turned a supply shock into catastrophe, which is structural-policy culpability, not exterminatory intent.",
+      "agent": "British Raj / Churchill's war cabinet",
+      "toll": {
+        "display": "~0.8–3.8 million (consensus ~2.1 million)",
+        "disputed": true,
+        "low": 800000,
+        "high": 3800000,
+        "unit": "deaths",
+        "note": "Estimates span 0.8M (low-end demographic reconstructions) to 3.8M; Ó Gráda and Sen-derived work cluster around 2.1M. Counts mix starvation deaths and famine-driven epidemic mortality (cholera, malaria, smallpox). The deeper dispute is causal: how much blame falls on Japanese conquest of Burma, the October 1942 cyclone and crop disease, hoarding and provincial mismanagement, versus the British 'denial' policies and the War Cabinet's repeated refusal to divert shipping."
+      },
+      "received_lens": "contested",
+      "summary": "After Burma fell, British authorities seized rice and roughly 45,000 boats from coastal Bengal to deny them to a feared Japanese invasion, while the War Cabinet repeatedly refused to divert grain ships to feed the province; markets broke, prices soared, and starvation plus epidemic disease killed millions, most of them rural poor.",
+      "relevance": "The state that styled itself the war's moral champion let a famine run in a colony it governed; whether by negligence or priority, the dead were its subjects.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Cormac Ó Gráda, scholarship on the Bengal famine (consensus ~2.1M)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Bengal_famine_of_1943",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Bengal famine of 1943 — Wikipedia (range 0.8M–3.8M; Famine Inquiry Commission, Sen, Maharatna, Dyson cited)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Bengal_famine_of_1943",
+          "caveat": "Tertiary aggregator; used for the spread of figures, which it sources to named scholars."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Madhusree Mukerjee, Churchill's Secret War (2010)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Churchill's_Secret_War",
+          "caveat": "Strong culpability thesis; Max Hastings and Sengoopta back its 'broad thrust', but Amartya Sen faults its data as thin (two rice stations in two of 27 districts). Cited for the denial-policy and shipping-refusal claims, not as a settled verdict."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Amartya Sen, Poverty and Famines (1981) — entitlement/demand-failure analysis",
+          "supports": "tier",
+          "url": "https://en.wikipedia.org/wiki/Bengal_famine_of_1943",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "gbr-2",
+      "country": "GBR",
+      "role": "perpetrator",
+      "title": "Jallianwala Bagh (Amritsar) massacre",
+      "era": "1919",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "A deliberate one-sided massacre of unarmed civilians by colonial troops under direct order; not a campaign to exterminate a group as such, so WAR rather than EXT, but plainly intentional killing, not disease.",
+      "agent": "Brig.-Gen. Reginald Dyer / British Indian Army",
+      "toll": {
+        "display": "~379–1,000 (Wagner ~500–600)",
+        "disputed": true,
+        "low": 379,
+        "high": 1000,
+        "unit": "deaths",
+        "note": "379 is the Hunter Commission (British official) count; the Indian National Congress put the dead at roughly 1,000; V.N. Datta estimated ~700 from municipal/police records; historian Kim Wagner narrows it to 500–600. The British figure is widely treated as a floor, as door-to-door Indian inquiries forced upward revisions."
+      },
+      "received_lens": "contested",
+      "summary": "On 13 April 1919 Dyer marched troops into an enclosed garden where thousands had gathered, blocked the exits, and ordered roughly ten minutes of fire into the densest part of the crowd until ammunition ran low; he later said his aim was to punish Indians for disobedience, not to disperse them.",
+      "relevance": "The empire that condemned atrocity abroad shot down its own unarmed subjects to make an example; the act, not the nation, is what the tier marks.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "Hunter Commission report (1920) — official British count of 379 dead",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Jallianwala_Bagh_massacre",
+          "caveat": "British state inquiry into a British atrocity; its figure is the contested low end, not a neutral count."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Kim A. Wagner, Amritsar 1919: An Empire of Fear and the Making of a Massacre (Yale UP, 2019) — ~500–600",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Amritsar_1919",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Jallianwala Bagh massacre — Wikipedia / Britannica (INC ~1,000; Datta ~700)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Jallianwala_Bagh_massacre",
+          "caveat": "INC figure is from the aggrieved party's own inquiry; cited as the high end of a genuinely disputed range."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "gbr-3",
+      "country": "GBR",
+      "role": "perpetrator",
+      "title": "Boer War concentration camps",
+      "era": "1900–1902",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "Deaths were overwhelmingly from malnutrition and epidemic disease (measles, typhoid, dysentery) in camps the British created by scorched-earth internment; mass civilian death by negligent confinement, not deliberate killing of a group as such — STR, with the intent debate kept in view.",
+      "agent": "British Army (Kitchener's scorched-earth policy)",
+      "toll": {
+        "display": "~28,000 Boers + ~14,000–20,000 Black Africans (~42,000–48,000)",
+        "disputed": true,
+        "low": 42000,
+        "high": 48000,
+        "unit": "deaths",
+        "note": "About 27,927 Boer deaths are recorded, ~24,000 of them children under 16. Black African camp deaths are far less documented: a recorded minimum of 14,154 (81% children) but estimates run to 20,000, as little record was kept of the ~107,000 interned. The combined range reflects the under-counting of the Black camps."
+      },
+      "received_lens": "contested",
+      "summary": "To break Boer guerrillas, Kitchener's forces burned farms, killed livestock, and herded tens of thousands of women, children, and Black labourers into overcrowded camps where measles, typhoid, and dysentery killed roughly one in four Boer inmates and an uncounted toll of Black Africans.",
+      "relevance": "Britain pioneered the civilian internment camp as a tool of war here, decades before the word acquired its later horror.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Elizabeth van Heyningen, 'The Concentration Camps of the South African (Anglo-Boer) War, 1900–1902', History Compass 7 (2009), pp. 22–43",
+          "supports": "summary",
+          "url": "https://compass.onlinelibrary.wiley.com/doi/10.1111/j.1478-0542.2008.00562.x",
+          "caveat": "Cite corrected on audit to match the linked work: the URL is van Heyningen's 2008/09 History Compass article (verified via DOI 10.1111/j.1478-0542.2008.00562.x, paywalled), not her 2013 Jacana book 'A Social History' (which exists separately). Same author, same subject."
+        },
+        {
+          "kind": "reference",
+          "cite": "Second Boer War concentration camps — Wikipedia (27,927 Boer dead; Black deaths 14,154 recorded, up to ~20,000)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Second_Boer_War_concentration_camps",
+          "caveat": "Tertiary; figures attributed to the post-war report and to van Heyningen / SAHO research."
+        },
+        {
+          "kind": "reference",
+          "cite": "South African History Online — White concentration camps 1900–1902",
+          "supports": "toll.low",
+          "url": "https://sahistory.org.za/article/women-and-children-white-concentration-camps-during-anglo-boer-war-1900-1902",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "gbr-4",
+      "country": "GBR",
+      "role": "victim",
+      "title": "The Blitz",
+      "era": "1940–1941",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Deliberate aerial bombardment of cities by an enemy state in wartime, killing combatants and civilians indiscriminately; a war crime in character but not a campaign to exterminate the British as a group.",
+      "agent": "Nazi Germany (Luftwaffe)",
+      "toll": {
+        "display": "~40,000–43,000",
+        "disputed": false,
+        "low": 40000,
+        "high": 43000,
+        "unit": "deaths",
+        "note": "Civilian deaths over the Blitz period (7 Sept 1940 – 16 May 1941); sources cluster at ~40,000–43,000, with IWM citing over 43,500. London bore nearly half; Coventry, Liverpool, Hull, Glasgow, Belfast and others were also hit."
+      },
+      "received_lens": "memorial",
+      "summary": "Over roughly eight months the Luftwaffe bombed London and Britain's industrial and port cities night after night, killing tens of thousands of civilians and destroying or damaging some two million homes.",
+      "relevance": "Britain endured area bombing as a victim here, and three years on became its largest practitioner over Germany — the dual lens in a single decade.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "The Blitz — Wikipedia (c. 40,000–43,000 civilians killed, Sept 1940–May 1941)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/The_Blitz",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Imperial War Museums — The Blitz Around Britain (over 43,500 killed)",
+          "supports": "toll.high",
+          "url": "https://www.iwm.org.uk/history/second-world-war/blitz/blitz-around-britain",
+          "caveat": "British national museum; figure ('over 43,500 civilians killed') is mainstream and uncontested but the source is a UK state-linked institution. URL corrected on audit: the previously cited /history/the-blitz-around-britain path 403s; the canonical live page is /history/second-world-war/blitz/blitz-around-britain."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "gbr-5",
+      "country": "GBR",
+      "role": "perpetrator",
+      "title": "The Great Irish Famine",
+      "era": "1845–1852",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "Mass death came from potato blight and the starvation and disease that followed, not deliberate killing of the Irish as a group; the charge is that London's laissez-faire relief and continued food exports turned blight into catastrophe — structural-policy culpability, fiercely contested as to intent.",
+      "agent": "British government (Whig administration, Trevelyan's relief policy)",
+      "toll": {
+        "display": "~1 million dead (+ ~1 million emigrated)",
+        "disputed": true,
+        "low": 1000000,
+        "high": 1500000,
+        "unit": "deaths",
+        "note": "Roughly 1 million excess deaths from starvation and disease is the standard figure; some estimates run higher (~1.1–1.5M) depending on how famine-era epidemic mortality is counted. A further ~1 million emigrated. Ireland's population fell from ~8.5M (1845) toward ~4.4M by 1901. The dispute is over British culpability: the shift from relief to laissez-faire and the continued export of food from a starving country."
+      },
+      "received_lens": "contested",
+      "summary": "When blight destroyed the potato crop that fed Ireland's poor, the British government moved from relief to a laissez-faire policy, kept food exports flowing out of the country, and let workhouse and outdoor relief lag behind the dying; about a million people starved or succumbed to famine disease and another million fled.",
+      "relevance": "A famine within the United Kingdom itself, where the governing state's response is widely judged to have deepened the death toll among its own subjects.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Great Famine (Ireland) — Wikipedia (~1M deaths, ~1M emigrated; population 8.5M to 4.4M)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Great_Famine_(Ireland)",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Britannica — Great Famine (Irish history): causes, deaths, relief efforts",
+          "supports": "toll.high",
+          "url": "https://www.britannica.com/event/Great-Famine-Irish-history",
+          "caveat": null
+        },
+        {
+          "kind": "primary",
+          "cite": "UK Parliament — 'The great famine' (parliamentary heritage account)",
+          "supports": "summary",
+          "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliamentandireland/overview/the-great-famine/",
+          "caveat": "Account by the institution implicated in the relief failure; used for the policy chronology, not for apportioning blame."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

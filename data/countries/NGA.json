@@ -1,0 +1,179 @@
+{
+  "iso": "NGA",
+  "name": "Nigeria",
+  "note": "Nigeria's atrocity record sits on both ledgers at once, and the Biafran war of 1967–1970 is the hinge. The Igbo of eastern Nigeria were victims twice over — slaughtered in the 1966 pogroms in the north, then starved by the hundreds of thousands when the federal state blockaded Biafra — yet the same blockade and the Asaba massacre were committed BY the Nigerian state and army, so the conflict appears in both ledgers as the same people's suffering and the state's own hand. Tolls here are unusually hard: there was no reliable census, bodies went into mass graves, and post-war Nigeria pursued a 'no victor, no vanquished' policy that discouraged counting, so famine figures span a factor of six. The contemporary record is split too — the Igbo and the northeastern population are victims of the Boko Haram insurgency, while the army's 2015 Zaria massacre of Shia Muslims is a state atrocity in its own right. None of these figures was inflated to balance the two columns; both sides are documented independently.",
+  "events": [
+    {
+      "id": "nga-1",
+      "country": "NGA",
+      "role": "victim",
+      "title": "The Biafran blockade and famine",
+      "era": "1967–1970",
+      "era_band": "modern",
+      "tier": "STR",
+      "tier_reasoning": "Audit-corrected from POL to STR. By the toll's own composition the deaths were ~90% from starvation and disease (Vestergaard/IEG Mainz; Heerten & Moses), and the question of whether the federal blockade carried genocidal intent against the Igbo as such remains an unresolved scholarly debate (Heerten & Moses). Per the tier definitions, death dominated by famine/disease with intent contested is STR, not the deliberate-state-policy-killing of POL or the group-destruction of EXT — even though starvation was openly weaponised, the dominant mortality channel is famine and the intent is disputed.",
+      "agent": "The Nigerian federal government and army under Yakubu Gowon, with starvation declared a tactic by federal leaders Obafemi Awolowo and Benjamin Adekunle",
+      "toll": {
+        "display": "~0.5–3 million",
+        "disputed": true,
+        "low": 500000,
+        "high": 3000000,
+        "unit": "deaths",
+        "note": "Estimates of civilians dead from starvation and disease span roughly 500,000 at the low end to about 2–3 million at the high end; figures of 1–2 million are the most commonly cited. There was no reliable census of Biafra, bodies went unrecorded into mass graves, and the war's relief politics gave both Biafran propagandists and the federal government incentives to distort the count, so no precise figure exists — the range reflects genuine scholarly uncertainty, not invented spread. AUDIT NOTE: the cited Wikipedia 'Blockade of Biafra' source documents 'one million or more' deaths and the Awolowo/Adekunle starvation quotes, not the 500,000 figure specifically; the 500,000 low bound is the outer scholarly low rather than a number stated by the cited source. The well-sourced core range is ~1–3 million (Vestergaard/IEG Mainz gives ~2 million; Heerten & Moses survey the up-to-3-million high)."
+      },
+      "received_lens": "suppressed",
+      "summary": "When the Igbo-led Eastern Region seceded as Biafra, the federal government threw a blockade around it that cut off food and medicine, and federal leaders openly called starvation a legitimate weapon of war; over nearly three years children and civilians died of kwashiorkor and famine in numbers the images of swollen-bellied children burned into global memory.",
+      "relevance": "The starved here were Nigerians — and the hand that starved them was the Nigerian state itself, which is why this single event sits on both this victim ledger and, as the agent, on the perpetrator side of the same history.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Online Atlas on the History of Humanitarianism and Human Rights (IEG Mainz), 'Biafra, 1967–1970' — overview of the famine and the contested death range",
+          "supports": "summary",
+          "url": "https://hhr-atlas.ieg-mainz.de/articles/vestergaard-biafra",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Blockade of Biafra' — documents federal leaders Awolowo and Adekunle declaring starvation a weapon and cites 'one million or more' deaths",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Blockade_of_Biafra",
+          "caveat": "Audit-verified: the article does carry the Awolowo ('starvation is one of the weapons of war') and Adekunle quotes and states 'one million or more' died. Tertiary aggregator used for the documented quotations and the lower bound of the estimate spread, not as a primary count; note it supports the ~1-million lower bound rather than the 500,000 outer-low figure."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "A. Dirk Moses & Lasse Heerten (eds.), 'Postcolonial Conflict and the Question of Genocide: The Nigeria–Biafra War' (Journal of Genocide Research / Routledge) — surveys the up-to-~3 million high estimates and the genocide debate",
+          "supports": "toll.high",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/14623528.2014.936700",
+          "caveat": "Audit-verified: Heerten & Moses, 'The Nigeria–Biafra war: postcolonial conflict and the question of genocide', Journal of Genocide Research 16:2–3 (2014), 169–203 — confirmed to exist; surveys the up-to-3-million high estimates and the genocide-intent debate. (The cite folds in the authors' edited Routledge volume of the same title; both works are real.)"
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "nga-2",
+      "country": "NGA",
+      "role": "victim",
+      "title": "The Boko Haram insurgency",
+      "era": "2009–present",
+      "era_band": "contemporary",
+      "tier": "STR",
+      "tier_reasoning": "Audit-corrected from WAR to STR. The UNDP's own decomposition is that ~314,000 of the ~350,000 deaths (about 90%) are INDIRECT — children under five dead from food scarcity, collapsed healthcare and displacement — not battle deaths. The direct-violence toll (~35,000) would be WAR, but the toll as a whole is dominated by famine, disease and displacement, which the tier definition assigns to STR; the standing rule that disease/famine-driven mortality is STR (not folded into WAR or escalated to EXT) controls here. The direct massacres remain real, but they are the minority channel of death.",
+      "agent": "Boko Haram (Jama'atu Ahlis Sunna Lidda'awati wal-Jihad) and its ISWAP offshoot, against civilians of Borno, Yobe and Adamawa",
+      "toll": {
+        "display": "~35,000 direct; ~350,000 total incl. indirect (through 2020)",
+        "disputed": true,
+        "low": 35000,
+        "high": 350000,
+        "unit": "deaths",
+        "note": "The low figure (~35,000) is direct deaths from battle and one-sided violence in Borno, Adamawa and Yobe since 2009. The high figure (~350,000, of which ~314,000 indirect) is the UNDP's 2021 estimate through end-2020, the bulk being children under five who died from food scarcity, broken healthcare and displacement caused by the conflict — a modeled excess-mortality figure, not a body count. Independent trackers (Nigeria Security Tracker, ACLED) counted ~34,000–38,000 deaths through 2018, consistent with the direct figure."
+      },
+      "received_lens": "contested",
+      "summary": "Boko Haram turned northeastern Nigeria into a war zone with mass shootings, suicide bombings, the 2014 Chibok schoolgirl abduction and the razing of whole towns; the killing and the displacement it caused wrecked the region's farms and clinics, so most of the dead — overwhelmingly young children — died of hunger and disease the conflict left in its wake.",
+      "relevance": "Nigerians of the northeast are the victims here — though the state's own counter-insurgency has its own record of abuses, which is why the country's role flips depending on which act you examine.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "UNDP, 'Assessing the Impact of Conflict on Development in North-East Nigeria' (2021) — ~350,000 deaths through end-2020, ~314,000 indirect",
+          "supports": "toll.high",
+          "url": "https://www.undp.org/sites/g/files/zskgke326/files/migration/ng/Assessing-the-Impact-of-Conflict-on-Development-in-NE-Nigeria---The-Report.pdf",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Council on Foreign Relations, 'Boko Haram's Deadly Impact' — Nigeria Security Tracker counted 37,530 deaths (ACLED 34,261) across 2011–2018, all parties combined",
+          "supports": "toll.low",
+          "url": "https://www.cfr.org/article/boko-harams-deadly-impact",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "Al Jazeera, 'Northeast Nigeria conflict killed more than 300,000 children: UN' (24 June 2021) — reports the UNDP figures and the under-five toll",
+          "supports": "summary",
+          "url": "https://www.aljazeera.com/news/2021/6/24/northeast-nigeria-conflict-killed-more-than-300000-children-un",
+          "caveat": "Audit-verified: article confirms ~350,000 deaths, 314,000 indirect, ~324,000 under-fives, 170 children dying daily — matching the UNDP figures."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "nga-3",
+      "country": "NGA",
+      "role": "perpetrator",
+      "title": "The Asaba massacre",
+      "era": "1967",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "Federal troops separated out and machine-gunned the male population of a town for being Igbo, a deliberate attempt to destroy the men and boys of a group in that place — targeted destruction of a community, so EXT.",
+      "agent": "The Nigerian Army's Second Infantry Division under Colonel Murtala Muhammed, the killings reportedly ordered by Major Ibrahim Taiwo",
+      "toll": {
+        "display": "~373–800+ killed",
+        "disputed": true,
+        "low": 373,
+        "high": 800,
+        "unit": "deaths",
+        "note": "No exact toll was ever counted. The low figure (373) is the Asaba Development Council's incomplete 1981 list of named dead. The high end (~500–800) is the estimate of anthropologist S. Elizabeth Bird and historian Fraser Ottanelli; a Quaker relief worker counted 759 men and boys, journalist Colin Legum reported 700, and eyewitnesses gave figures over 1,000. Bodies went into mass graves and many families were wiped out down the male line, so the true number is unrecoverable."
+      },
+      "received_lens": "suppressed",
+      "summary": "As federal troops retook Asaba in October 1967 they assembled the townspeople, ostensibly to celebrate 'One Nigeria,' then separated the men and boys from the women and shot them down with machine guns; the town was looted and occupied for months, with rapes and forced 'marriages' following.",
+      "relevance": "The Igbo who were victims of the war's famine were, in this same war, also victims of their own federal army's deliberate massacre — and Nigeria long buried the memory rather than reckon with it.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "S. Elizabeth Bird & Fraser M. Ottanelli, 'The Asaba Massacre: Trauma, Memory, and the Nigerian Civil War' (Cambridge University Press, 2017; ISBN 9781107140783) — estimate of 500–800 killed",
+          "supports": "toll.high",
+          "url": "https://www.cambridge.org/us/universitypress/subjects/history/african-history/asaba-massacre-trauma-memory-and-nigerian-civil-war",
+          "caveat": "Audit-verified: the book is real (Cambridge UP 2017, won the 2018 OHA Book Award), authored by Bird & Ottanelli, and its 500–800 estimate plus the men/boys-separated-and-machine-gunned account are corroborated by the Wikipedia reference. URL corrected from the Wikipedia page to the publisher's book page."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Asaba massacre' — perpetrating unit and commander, the 1981 Asaba Development Council list of 373 dead, and the spread of estimates",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Asaba_massacre",
+          "caveat": "Audit-verified: confirms the 373 Asaba Development Council list, the 500–800 Bird & Ottanelli estimate, the >1,000 eyewitness figures, and the 2nd Infantry Division / Murtala Muhammed / Major Ibrahim Taiwo command facts. Tertiary aggregator, corroborated by Bird and Ottanelli's scholarship."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "nga-4",
+      "country": "NGA",
+      "role": "perpetrator",
+      "title": "The Zaria massacre of Shia Muslims",
+      "era": "2015",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Soldiers used lethal force against a religious-political movement over three days, killing hundreds and concealing the bodies — state mass killing of a targeted group of citizens, so POL.",
+      "agent": "The Nigerian Army, against members of the Islamic Movement in Nigeria (a Shia group) led by Ibrahim Zakzaky",
+      "toll": {
+        "display": "~348–350+ killed",
+        "disputed": true,
+        "low": 347,
+        "high": 350,
+        "unit": "deaths",
+        "note": "Amnesty International documented more than 350 IMN members killed by security forces over 12–14 December 2015; a Kaduna state official admitted 347 bodies were dumped in a mass grave near Mando (a judicial commission of inquiry concluded 348 killed). The figures converge closely; the dispute is less about the count than about the army's denial and concealment. AUDIT NOTE: the cited 2017 Amnesty press release states the >350 toll and the 347 mass-grave admission and references satellite imagery of ~1,000 sq m of destruction (buildings and mosques); the more specific concealment findings (razed compound, washed bloodstains, removed cartridges) come from Amnesty's broader 2016 reporting rather than this exact press release, so that detail is removed from this note to avoid over-attribution. The concealment is genuine and Amnesty-documented, just not in the single URL cited here."
+      },
+      "received_lens": "denied",
+      "summary": "After a roadside confrontation between soldiers and Shia marchers in Zaria, the army stormed the movement's sites and killed hundreds over three days, then trucked the dead into a mass grave and scrubbed the scene; the movement's leader and his wife were detained for years and no soldier was held to account.",
+      "relevance": "A state that counts its own people among history's victims here turns on a religious minority of those same people — Nigeria as perpetrator against Nigerians, the dual lens within a single nation.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "Amnesty International, 'Nigeria: Families of hundreds of Shi'a Muslims killed in Zaria still await justice' (2017) — more than 350 killed, mass grave of 347 admitted",
+          "supports": "toll.high",
+          "url": "https://www.amnesty.org/en/latest/press-release/2017/12/nigeria-families-of-hundreds-of-shia-muslims-killed-in-zaria-still-await-justice/",
+          "caveat": "Audit-verified: the press release does state 'more than 350 IMN members were killed by security forces between 12 and 14 December 2015' and that 'a Kaduna state government official admitted that 347 IMN members were dumped in a mass grave near Mando.' Amnesty is a human-rights advocacy organization; its count rests on satellite imagery and witness testimony, corroborated by the Kaduna state official's admission of 347 buried."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, '2015 Zaria massacre' — the 347 mass-grave admission, the three-day timeline and the cover-up findings",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/2015_Zaria_massacre",
+          "caveat": "Audit-verified: confirms the 12–14 December 2015 timeline, the Nigerian Army as perpetrator and the IMN (Shia, led by Ibrahim Zakzaky) as the targeted group, the 347-body mass grave, Amnesty's ~350 and the judicial commission's 348. Tertiary aggregator, drawn from the Amnesty and Kaduna state findings."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

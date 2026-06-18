@@ -1,0 +1,193 @@
+{
+  "iso": "ETH",
+  "name": "Ethiopia",
+  "note": "Researched 2026-06-18 from scratch (no prior seed). Both ledgers are populated, but they are deliberately asymmetric and that asymmetry is itself the dual-lens point. Ethiopia's single clearest case of mass atrocity by an external agent is Fascist Italy's 1935–41 war and occupation (victim ledger). Its heaviest modern atrocity record, however, was authored by Ethiopian states against Ethiopian peoples: the Derg's Red Terror, the Derg's weaponization of the 1983–85 famine, and the federal government's role in the 2020–22 Tigray war (perpetrator ledger). The country that the world remembers as Africa's proud uncolonized victim of Mussolini is also the state whose own rulers organized some of the continent's worst post-war mass killing. Tolls on every event here are contested across an order of magnitude; low and high ends are separately sourced and the divergence is flagged in each toll.note.",
+  "events": [
+    {
+      "id": "eth-1",
+      "country": "ETH",
+      "role": "victim",
+      "title": "The Italian invasion and occupation (incl. the Yekatit 12 massacre)",
+      "era": "1935–1941",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "A war of aggression and military occupation in which Italian forces used banned mustard gas on combatants and civilians and carried out reprisal massacres; mass killing tied to armed conquest and occupation rather than a campaign to exterminate the Ethiopian people as such, so WAR rather than EXT.",
+      "agent": "Fascist Italy under Benito Mussolini; the occupation reprisals were ordered by Viceroy Rodolfo Graziani",
+      "toll": {
+        "display": "~275,000 combat deaths to ~760,300 total (disputed)",
+        "disputed": true,
+        "low": 275000,
+        "high": 760300,
+        "unit": "deaths",
+        "note": "Estimates diverge sharply by source and by what is counted. Italy's own military figure for Ethiopian soldiers killed was about 70,000; the Ethiopian government cited roughly 275,000 combat deaths. The Ethiopian government's 1945 memorandum to the Conference of Prime Ministers tallied 760,300 dead across the whole war and occupation — about 275,000 in battle, 300,000 of hunger among refugees, 75,000 patriots killed during occupation, 35,000 in concentration camps, 30,000 in the February 1937 massacre, 24,000 executed, and 17,800 civilians killed by air attack. Records were poor (bombed field hospitals destroyed many), so the high end is a state estimate, not a body count. The Yekatit 12 reprisal alone is variously put at 1,400–6,000 (contemporary foreign press), ~3,000 (Del Boca, Mockler), or ~19,200 (Ian Campbell, 2017)."
+      },
+      "received_lens": "memorial",
+      "summary": "Mussolini's armies invaded in October 1935, dropping bombs and mustard gas on a poorly armed defender, and occupied the country until 1941. After a failed assassination attempt on Viceroy Graziani on 19 February 1937, Italian forces and Blackshirts spent three days killing Ethiopians across Addis Ababa in the reprisal remembered as Yekatit 12.",
+      "relevance": "Ethiopia's defining place in the victim ledger — Africa's proud uncolonized empire ground under Fascist gas and guns — is the role the world remembers; the same nation's place in the perpetrator ledger is the one it would rather forget.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Second Italo-Ethiopian War overview — Italian figure ~70,000 soldiers killed; Ethiopian government ~275,000 combat deaths plus several hundred thousand more from bombing, executions, and starvation during war and occupation",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Second_Italo-Ethiopian_War",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Angelo Del Boca, citing Ethiopia's 1945 memorandum to the Conference of Prime Ministers — 760,300 total dead, itemized (275,000 battle; 300,000 refugee hunger; 75,000 patriots; 35,000 camps; 30,000 Feb. 1937 massacre; 24,000 executions; 17,800 civilians killed by air force)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Second_Italo-Ethiopian_War",
+          "caveat": "The high total is an Ethiopian government estimate compiled for a post-war claim, not a verified count; the regime had an interest in a maximal figure."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Ian L. Campbell, The Addis Ababa Massacre: Italy's National Shame (2017) — estimates ~19,200 killed in the Yekatit 12 reprisal, about 20% of the city's population; contrasted with lower contemporary estimates of 1,400–6,000 and Del Boca/Mockler's ~3,000",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Yekatit_12",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "eth-2",
+      "country": "ETH",
+      "role": "perpetrator",
+      "title": "The Red Terror (Qey Shibir)",
+      "era": "1976–1978",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "A state campaign of political extermination — the Derg set out to physically eliminate rival leftist movements and their suspected sympathizers through executions, disappearances, and torture, targeting a political category rather than an ethnic or national group, so POL.",
+      "agent": "The Derg military junta under Mengistu Haile Mariam",
+      "toll": {
+        "display": "~10,000–500,000 (disputed; outlier figures to ~980,000)",
+        "disputed": true,
+        "low": 10000,
+        "high": 500000,
+        "unit": "deaths",
+        "note": "Estimates span two orders of magnitude. Most accounts cluster between 10,000 and 150,000; Amnesty International estimated the toll 'could be as high as 500,000' for the 1977–78 peak; the Ethiopian Red Terror Documentation and Research Center gives a range of 30,000–750,000, and some compilations cite figures up to 980,000. The lower end reflects documented urban executions (e.g. at least 2,500 in the first wave Feb.–Sept. 1977); the higher ends fold in nationwide killings and deaths in detention that were never systematically counted."
+      },
+      "received_lens": "suppressed",
+      "summary": "From 1976 the Derg moved to crush rival Marxist factions — chiefly the EPRP and MEISON — by killing their members and suspected sympathizers, many of them young and educated, in street executions, prisons, and detention centers. Mengistu framed it openly as revolutionary necessity; he was later convicted of genocide in absentia (2006) and sentenced to death (2008).",
+      "relevance": "The country mourned worldwide as Mussolini's victim was, four decades on, the state running one of post-war Africa's most systematic campaigns of political murder against its own citizens.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Red Terror (Ethiopia) overview — range of 10,000 to 980,000 killed (23 Sept. 1976 – 22 March 1978); Amnesty International estimate the toll 'could be as high as 500,000'; perpetrated by the Derg under Mengistu",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Red_Terror_(Ethiopia)",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "EBSCO Research Starters, 'Red Terror in Ethiopia' — most experts place the toll between 10,000 and 150,000; at least ~2,500 killed in Addis Ababa alone March–June 1977 (documented urban-execution floor supporting the low end)",
+          "supports": "toll.low",
+          "url": "https://www.ebsco.com/research-starters/history/red-terror-ethiopia",
+          "caveat": "Audit 2026-06-18: source verified to give the 10,000–150,000 range and the ~2,500 first-wave figure; it does NOT contain the ERTDRC 30,000–750,000 range or the Amnesty ~500,000 figure (those are in the Wikipedia source above), so the cite was corrected to remove the over-attribution."
+        },
+        {
+          "kind": "press",
+          "cite": "Coverage of Mengistu Haile Mariam's trial — convicted of genocide in absentia 12 Dec. 2006 (life sentence Jan. 2007; death sentence on appeal, May 2008) for crimes including the Red Terror",
+          "supports": "summary",
+          "url": "https://www.voanews.com/a/a-13-2008-05-26-voa42/350201.html",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "eth-3",
+      "country": "ETH",
+      "role": "perpetrator",
+      "title": "The weaponized famine of 1983–1985",
+      "era": "1983–1986",
+      "era_band": "modern",
+      "tier": "STR",
+      "tier_reasoning": "Mass death driven by starvation and demographic collapse rather than direct killing of a defined group, so STR — but with the crucial finding that Derg counterinsurgency, aid restrictions, and forced resettlement turned drought into famine, making more than half the mortality attributable to state policy rather than weather alone.",
+      "agent": "The Derg under Mengistu Haile Mariam (drought as trigger; government counterinsurgency, grain extraction, and forced resettlement as multipliers)",
+      "toll": {
+        "display": "~300,000 to ~1.2 million (de Waal mid-range ~400,000–500,000; disputed)",
+        "disputed": true,
+        "low": 300000,
+        "high": 1200000,
+        "unit": "deaths",
+        "note": "A commonly cited UN figure of one million was challenged by Alex de Waal as having 'absolutely no scientific basis'; USAID figures put deaths above 300,000, insider estimates reach ~1.2 million, and de Waal's own study settles near 400,000–500,000. Human Rights Watch (de Waal's 'Evil Days', 1991) concluded human rights abuses made the famine 'come earlier, strike harder and extend further' than drought alone — food withheld from rebel-held areas, grain extracted at artificially low prices, and at least ~50,000 deaths in the 1985–86 forced resettlement of some 600,000 people. Famine death counts are inherently soft; the range reflects both methodology and political vantage."
+      },
+      "received_lens": "contested",
+      "summary": "Drought struck the north, but the Derg deepened the catastrophe: it withheld food from rebel-held Tigray and Wollo, ran a war that scorched fields and blocked trade, extracted grain at artificially low prices, and forcibly resettled hundreds of thousands, killing tens of thousands more in the transports. The 1984 footage that launched Live Aid showed a disaster that was as much made in Addis Ababa as in the clouds.",
+      "relevance": "The world raised millions for Ethiopia's starving as innocent victims of nature; scholarship since has shown the famine was substantially engineered by the Ethiopian state's own war on its northern peoples — victimhood and perpetration inside a single event.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Alex de Waal & Human Rights Watch, Evil Days: Thirty Years of War and Famine in Ethiopia (1991) — famine driven as much by counterinsurgency policy as by drought; HRW found more than half the mortality attributable to abuses that made the famine 'come earlier, strike harder and extend further'; de Waal's mortality estimate ~400,000–500,000; rejects the UN one-million figure as having 'absolutely no scientific basis whatsoever'",
+          "supports": "summary",
+          "url": "https://www.hrw.org/report/1991/09/01/evil-days/30-years-war-and-famine-ethiopia",
+          "caveat": "Audit 2026-06-18: the legacy URL (hrw.org/legacy/reports/1991/ethiopia/) returned HTTP 404 and was replaced with the live HRW report URL; the 'come earlier, strike harder and extend further' phrasing and the 'at least half a million civilians' / 'no scientific basis' quotes were verified verbatim."
+        },
+        {
+          "kind": "reference",
+          "cite": "1983–1985 famine in Ethiopia overview — death range from 300,000+ (USAID) to ~1.2 million (insider estimates); HRW finding that rights abuses made the famine 'come earlier, strike harder and extend further'; ~50,000+ deaths in 1985–86 forced resettlement of ~600,000 people",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/1983%E2%80%931985_famine_in_Ethiopia",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Alex de Waal, 'Steal, Burn, Rape, Kill' (London Review of Books, 2021) and Famine Crimes — starvation used as a counterinsurgency weapon by the Mengistu government against the TPLF; USAID low-end of 300,000+",
+          "supports": "toll.low",
+          "url": "https://www.lrb.co.uk/the-paper/v43/n12/alex-de-waal/steal-burn-rape-kill",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "eth-4",
+      "country": "ETH",
+      "role": "perpetrator",
+      "title": "The Tigray war",
+      "era": "2020–2022",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Large-scale war crimes and crimes against humanity — massacres of civilians, mass sexual violence, and a siege that produced famine deaths — committed in the course of armed conflict; investigators have raised but not legally settled the question of genocidal intent, so classed WAR rather than EXT.",
+      "agent": "The Ethiopian federal government and National Defense Force (ENDF) under Abiy Ahmed, alongside allied Eritrean forces and Amhara militia (the TPLF/TDF also committed atrocities)",
+      "toll": {
+        "display": "~102,000 to ~600,000+ (disputed; some estimates to ~800,000)",
+        "disputed": true,
+        "low": 102000,
+        "high": 600000,
+        "unit": "deaths",
+        "note": "A peer-reviewed University of London / LSHTM-linked study calculated over 102,000 excess deaths (Nov. 2020–mid-2022), about 72% from violence and the rest from collapsed healthcare and famine. Ghent University researchers estimated 162,000–378,000 from the combined effect of violence, famine, and lack of medical access. African Union mediator Olusegun Obasanjo publicly stated the war likely killed around 600,000; some accounts reach ~800,000, which would make it the deadliest conflict of the 21st century. A deliberate information blackout makes all counts uncertain. Atrocities were committed by all sides, but the federal government, its Eritrean allies, and Amhara forces accounted for the bulk of documented massacres of Tigrayan civilians."
+      },
+      "received_lens": "denied",
+      "summary": "When fighting broke out in November 2020 the federal government, Eritrean troops, and Amhara militia swept into Tigray and carried out mass extrajudicial killings (Axum, Mai Kadra, Mahbere Dego and others), systematic sexual violence, ethnic cleansing in western Tigray, and a siege that starved the region — while Addis Ababa denied access and cut communications. Tigrayan forces also committed massacres, including in Amhara areas.",
+      "relevance": "Tigrayans, themselves the heaviest victims of the 1983–85 famine, were now the victims of the Ethiopian state — while that same state, led by a Nobel Peace laureate, was the principal perpetrator: the lens rotating in real time.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Peer-reviewed study (University of London / health-metrics researchers) — over 102,000 excess deaths in Tigray, Nov. 2020–mid-2022, ~72% from violence, the rest from lack of healthcare and famine",
+          "supports": "toll.low",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12096794/",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "Casualties of the Tigray war overview — Ghent University estimate 162,000–378,000; AU mediator Obasanjo's public ~600,000 figure; estimates up to ~800,000; documented massacres by ENDF, Eritrean forces, Amhara militia, and TDF",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Casualties_of_the_Tigray_war",
+          "caveat": "Obasanjo's 600,000 was a public statement by a mediator, not a peer-reviewed count; the underlying data are weak due to the wartime blackout."
+        },
+        {
+          "kind": "press",
+          "cite": "Tigray war overview — federal forces, Eritrean troops, and Amhara militia documented carrying out massacres, sexual violence, ethnic cleansing, and a starvation siege; TPLF/TDF also committed atrocities",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Tigray_war",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

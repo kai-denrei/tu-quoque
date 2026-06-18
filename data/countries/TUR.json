@@ -1,0 +1,108 @@
+{
+  "iso": "TUR",
+  "name": "Turkey",
+  "note": "Audited 2026-06-18 (adversarial source-integrity + tier pass). Both ledgers present (perpetrator: Armenian Genocide; victim: Balkan Muslim expulsion). All cited works/authors verified to exist; every source confirmed to support the specific claim it is attached to (toll endpoints, tier, summary). Both tolls have independent low/high sourcing. McCarthy figures flagged for documented pro-Turkish/denialist reputation and used only as the partisan high end. All events VERIFIED.",
+  "events": [
+    {
+      "id": "tur-1",
+      "country": "TUR",
+      "role": "perpetrator",
+      "title": "The Armenian Genocide",
+      "era": "1915–17",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "The CUP government set out to destroy the Ottoman Armenians as a people through deportation, massacre, and engineered death marches — deliberate destruction of a group as such, the defining mark of EXT. Deaths were from organized killing and state-engineered starvation/exposure, not an unintended disease-driven collapse, so EXT (not STR) is the correct call.",
+      "agent": "Ottoman government (Committee of Union and Progress)",
+      "toll": {
+        "display": "~600,000–1.5 million",
+        "disputed": true,
+        "low": 600000,
+        "high": 1500000,
+        "unit": "deaths",
+        "note": "Deflationary end (~600,000) is Justin McCarthy's figure (Wikipedia: McCarthy arrived at 'a little less than 600,000'); the U.S. Holocaust Memorial Museum gives a floor of 'at least 664,000' (and up to 1.2 million), confirmed against the cited USHMM page. Mainstream scholarly consensus for 1915–18 deaths is 1.3–1.5 million, with Hovannisian citing a span up to 2 million. The Turkish state cites ~300,000 (Talaat's wartime figure), which Wikipedia notes carries 'no indication as to how those figures were obtained' — excluded here as a denialist claim, not a scholarly low bound. Low and high ends are independently sourced; disputed."
+      },
+      "received_lens": "denied",
+      "summary": "The Ottoman government arrested the Armenian intellectual and political leadership, then deported the empire's Armenian population in convoys driven into the Syrian desert, killing the men outright and starving, robbing, and massacring the women and children along the routes; Assyrian and Greek Christian communities were swept up in the same destruction.",
+      "relevance": "The clearest perpetrator entry in Turkey's ledger — and one the Republic still officially denies, making the lens of denial itself part of the atrocity's afterlife.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Ronald Grigor Suny, \"They Can Live in the Desert but Nowhere Else\": A History of the Armenian Genocide (Princeton University Press, 2015)",
+          "supports": "summary",
+          "url": null,
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "U.S. Holocaust Memorial Museum, \"The Armenian Genocide (1915–16): In Depth\"",
+          "supports": "toll.low",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/the-armenian-genocide-1915-16-in-depth",
+          "caveat": "Verified: page states 'at least 664,000 and possibly as many as 1.2 million died during the genocide.'"
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Casualties of the Armenian genocide\" — Wikipedia (citing Hovannisian's 600,000–2 million span and the 1.3–1.5 million mainstream range)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Casualties_of_the_Armenian_genocide",
+          "caveat": "Tertiary aggregator; figures cross-checked and confirmed against named scholars (Hovannisian 600k–2M, McCarthy <600k) and USHMM."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Armenian genocide denial\" — Wikipedia (documenting the Turkish state's denial policy since the 1920s)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Armenian_genocide_denial",
+          "caveat": "Verified: 'Since the 1920s, denial has been the policy of every government of the Ottoman Empire's successor state, the Republic of Turkey.'"
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "tur-2",
+      "country": "TUR",
+      "role": "victim",
+      "title": "Expulsion and Killing of Balkan Muslims",
+      "era": "1912–13",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "The Balkan states drove out the Muslim/Turkish population of the territory they conquered through massacre, terror, and forced flight — politically and ethnically targeted removal of a population, which is POL rather than EXT (the aim was to clear the conquered land of the group, not to annihilate the group everywhere it existed). A large share of refugee deaths came from starvation and disease, which weighs against an EXT read; the deliberate massacre and expulsion component keeps it out of a pure-STR (disease-collapse) framing. POL holds on independent re-derivation.",
+      "agent": "Balkan League states (Bulgaria, Serbia, Greece, Montenegro) and their armies and irregulars",
+      "toll": {
+        "display": "~632,000–1.5 million (deaths plus forced exile)",
+        "disputed": true,
+        "low": 632000,
+        "high": 1500000,
+        "unit": "deaths",
+        "note": "Figures mix outright killing with deaths from starvation and disease among refugees, and the headline ~1.5 million often counts both deaths AND exile together rather than deaths alone. The Wikipedia 'Persecution of Muslims during the Ottoman contraction' article (verified) gives 'between 632,000 and 1,500,000 Ottoman Muslim civilians killed' plus a refugee range of 400,000–813,000. Justin McCarthy estimates ~640,000 dead and ~860,000 who fled. McCarthy is the principal source for the high end but is a pro-Turkish scholar widely faulted for Armenian-genocide denial, so his numbers are treated as the partisan high end, not neutral ground. Low and high are sourced but the high leans on a partisan source; disputed."
+      },
+      "received_lens": "memorial",
+      "summary": "As the Balkan League overran the Ottoman Empire's last European provinces, its armies and irregular bands massacred, terrorized, and expelled the Muslim and Turkish villagers of Macedonia, Thrace, and the western Balkans; hundreds of thousands died from killing, exposure, and disease on the roads, and the survivors streamed into Anatolia as the muhacir refugees.",
+      "relevance": "The same dying empire that organized the destruction of its Armenians was itself, in the same decade, a population on the receiving end of ethnic cleansing — the dual lens in a single frame.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Justin McCarthy, Death and Exile: The Ethnic Cleansing of Ottoman Muslims, 1821–1922 (Darwin Press, 1995)",
+          "supports": "toll.high",
+          "url": null,
+          "caveat": "Pro-Turkish scholar; criticized as following a 'Turkish nationalistic agenda' (Colin Imber) and characterized by the Encyclopedia of Genocide as publishing 'shoddy and desperate books' that revise demography to minimize the Armenian population. His figures are the maximalist end and must be read against that documented bias."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Persecution of Muslims during the Ottoman contraction\" — Wikipedia (giving a Balkan Wars civilian death range of 632,000–1,500,000 and a refugee range of 400,000–813,000)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Persecution_of_Muslims_during_the_Ottoman_contraction",
+          "caveat": "Tertiary aggregator (figures verified on the page); the low figure derives from compiled demographic estimates, the high from McCarthy — both carry the deaths-vs-exile ambiguity noted in the toll."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Muhacir\" — Wikipedia, and EHNE, \"Immigration and Migration Policy in Post-Ottoman Turkey\" (on the refugee influx and its place in Turkish national memory)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Muhacir",
+          "caveat": "Verified: documents muhacir as Ottoman/Balkan Muslim refugees who settled in Anatolia and viewed Turkey as a protective 'motherland'; up to a third of modern Turkey's population may descend from them. The 'cherished memory' framing is editorial gloss on this national-memory standing, not a direct quote."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

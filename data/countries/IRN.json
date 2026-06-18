@@ -1,0 +1,193 @@
+{
+  "iso": "IRN",
+  "name": "Iran",
+  "note": "Built from scratch 2026-06-18 via live web research. Both ledgers are populated and roughly symmetric. Victim side: the Mongol conquest of the Khwarazmian Empire (1219–1221), where the heartland of historic Persia/Khorasan was devastated, and the Iraqi chemical-weapons campaign of the Iran–Iraq War (1980–88). Perpetrator side: the 1988 mass execution of political prisoners and the Islamic Republic's sustained persecution and killing of the Baha'i religious minority — both committed by the post-1979 state. Tolls are given as sourced ranges with the dispute shown: the Mongol figures in particular pit wildly exaggerated medieval-chronicle numbers against far smaller modern demographic estimates, and the 1988 toll ranges from the Amnesty/HRW floor to the much higher MEK claim. No figure or citation was invented; where a number could not be pinned to a source it was left as a sourced range or flagged. All four events VERIFIED by adversarial source-integrity + tier audit (2026-06-18); all 13 citations confirmed live to exist and support their attached claims.",
+  "events": [
+    {
+      "id": "irn-1",
+      "country": "IRN",
+      "role": "victim",
+      "title": "The Mongol Conquest of the Khwarazmian Empire",
+      "era": "1219–1221",
+      "era_band": "pre-colonial",
+      "tier": "WAR",
+      "tier_reasoning": "Genghis Khan's armies waged a war of conquest and reprisal that destroyed cities, slaughtered their populations, and depopulated Khorasan — mass killing in the course of war and the terror that followed it, which is WAR rather than EXT (the aim was conquest and punishment, not the annihilation of Persians as a people as such).",
+      "agent": "Genghis Khan and the Mongol armies",
+      "toll": {
+        "display": "hundreds of thousands to as high as 10–15 million (deaths across the campaign; cities like Nishapur and Merv each in the low hundreds of thousands)",
+        "disputed": true,
+        "low": 1250000,
+        "high": 15000000,
+        "unit": "deaths",
+        "note": "Among the most disputed tolls in history. Contemporary Persian chroniclers gave colossal figures — Juvayni claimed 1,747,000 dead at Nishapur alone, Ibn al-Athir ~700,000 at Merv — but modern historians regard these as gross exaggerations, noting those cities could only have held a fraction of the reported populations (Nishapur/Merv on the order of 150,000–200,000 each). The campaign-wide upper estimate of 10–15 million is cited but considered the maximalist end; the true count is unrecoverable. The low figure here is a conservative aggregate of the largest documented city massacres rather than a precise total. Disputed; the high end reflects culturally-shocked medieval reporting more than literal demography."
+      },
+      "received_lens": "memorial",
+      "summary": "After a Khwarazmian governor killed a Mongol trade caravan, Genghis Khan invaded and methodically destroyed the great cities of Persia and Khorasan, putting Nishapur, Merv, Herat, and others to the sword and depopulating much of the region; whole urban populations were massacred, irrigation systems wrecked, and survivors driven into flight.",
+      "relevance": "Persia here is the archetypal victim — a civilization that suffered one of premodern history's worst conquests; the same land's later rulers appear in the perpetrator ledger.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Mongol invasion of the Khwarazmian Empire\" — Wikipedia (campaign dates 1219–1221; casualties given 'possibly as high as 10–15 million'; notes medieval city tolls 'almost certainly an exaggeration')",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Mongol_invasion_of_the_Khwarazmian_Empire",
+          "caveat": "Tertiary aggregator; the 10–15 million is the upper bound of cited estimates, not a consensus figure. The article itself flags contemporary chronicle numbers as exaggerated."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Siege of Nishapur (1221)\" and \"Mongol invasion of Khorasan\" — Wikipedia (Juvayni's claim of 1,747,000 dead at Nishapur vs. modern estimates of ~100,000–200,000 based on pre-siege population)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Nishapur_(1221)",
+          "caveat": "Tertiary aggregator. The low aggregate is built from individual city massacres, not a verified campaign total; modern demographic estimates deflate the medieval figures sharply. Audit note (2026-06-18): the cited Siege of Nishapur article supports Juvayni's 1,747,000 figure and the ~100,000–200,000 pre-siege population/modern estimate; note the main campaign article attributes 1,300,000 to Juvayni for Nishapur — a discrepancy between Wikipedia articles, not an invented number. Both figures are flagged by Wikipedia as medieval exaggerations."
+        },
+        {
+          "kind": "reference",
+          "cite": "Encyclopaedia Britannica, \"Iran — The Mongol invasion\"",
+          "supports": "summary",
+          "url": "https://www.britannica.com/place/Iran/The-Mongol-invasion",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irn-2",
+      "country": "IRN",
+      "role": "victim",
+      "title": "Iraqi Chemical-Weapons Attacks During the Iran–Iraq War",
+      "era": "1983–1988",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Saddam Hussein's Iraq used poison gas against Iranian soldiers and civilians as a weapon of war, including the deliberate targeting of the civilian town of Sardasht — a war crime committed in the course of an interstate war, which fits WAR (mass killing tied to armed conflict) rather than a campaign to exterminate a people.",
+      "agent": "Ba'athist Iraq under Saddam Hussein",
+      "toll": {
+        "display": "~20,000 killed; 50,000–100,000+ total casualties",
+        "disputed": true,
+        "low": 20000,
+        "high": 100000,
+        "unit": "deaths",
+        "note": "Approximately 20,000 Iranians are estimated to have been killed directly by chemical agents (Iran's Foundation of Martyrs cites nearly 5,000 in the immediate term, with deaths continuing for decades from injuries). Total casualties including the wounded and chronically ill are put at over 50,000 (a 1991 declassified CIA estimate) to more than 100,000. The 'high' here is the total-casualty figure, not deaths alone; the death-specific count clusters around 20,000. Disputed and complicated by long-tail deaths from exposure."
+      },
+      "received_lens": "memorial",
+      "summary": "Across the Iran–Iraq War, Iraq launched hundreds of chemical attacks on Iranian troops and towns using mustard gas and nerve agents such as tabun and sarin, including the 1987 mustard-gas bombing of the civilian town of Sardasht; tens of thousands were killed or maimed while the major powers, several of which backed Iraq, largely looked away.",
+      "relevance": "A modern case of Iranians as victims of mass atrocity — and of international indifference — standing alongside the Islamic Republic's own perpetrator record from the same years.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Iraqi chemical attacks against Iran\" — Wikipedia (~20,000 killed by nerve agents; 50,000–100,000+ casualties; first verified combat use of nerve agents in 1984; over 350 attacks)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Iraqi_chemical_attacks_against_Iran",
+          "caveat": "Tertiary aggregator; death and casualty figures drawn in part from Iranian government bodies (Foundation of Martyrs and Veterans Affairs), which may have an interest in the framing, and from a 1991 CIA estimate."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Chemical bombing of Sardasht\" — Wikipedia (28 June 1987 mustard-gas attack; 130 killed, ~8,000 injured; first chemical attack explicitly on a purely civilian population)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Chemical_bombing_of_Sardasht",
+          "caveat": "Tertiary aggregator; the Sardasht casualty figures are widely cited but originate substantially from Iranian sources."
+        },
+        {
+          "kind": "press",
+          "cite": "Bulletin of the Atomic Scientists, \"Iraq once devastated Iran with chemical weapons as the world stood by\" (2024)",
+          "supports": "summary",
+          "url": "https://thebulletin.org/2024/07/iraq-once-devasted-iran-with-chemical-weapons-as-the-world-stood-by-governments-still-struggle-to-respond-to-chemical-warfare/",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irn-3",
+      "country": "IRN",
+      "role": "perpetrator",
+      "title": "The 1988 Mass Execution of Political Prisoners",
+      "era": "1988",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "On a secret order from Khomeini, the state pulled prisoners — many already serving sentences — before 'death commissions' and hanged them for their political beliefs and affiliations; the systematic killing of a political opposition is POL (mass political murder) rather than EXT (which would require targeting a people as such).",
+      "agent": "The Islamic Republic of Iran (on the order of Supreme Leader Ruhollah Khomeini)",
+      "toll": {
+        "display": "~2,800–5,000 (Amnesty/HRW); up to 30,000 (MEK)",
+        "disputed": true,
+        "low": 2800,
+        "high": 30000,
+        "unit": "deaths",
+        "note": "Amnesty International and Human Rights Watch estimate between 2,800 and 5,000 killed (Amnesty: no fewer than 5,000), having documented at least 2,100 named executions in the Iranian press for 1987–90. The People's Mujahedin of Iran (MEK), whose members were the principal victims, claims 30,000. The state has never published figures and worked to erase the killings from memory; the true total is unknown. Low end is the human-rights-organization floor, high end the MEK maximum; disputed."
+      },
+      "received_lens": "denied",
+      "summary": "In the final months of the Iran–Iraq War, Khomeini issued a secret order, and across at least 32 cities groups of prisoners were brought before four-man 'death commissions,' asked to recant their politics and religion, and — when they refused — hanged in waves over roughly five months; the dead were buried in unmarked mass graves and their families left without answers.",
+      "relevance": "The Islamic Republic's starkest perpetrator entry — committed in the same decade Iranians were dying under Iraqi gas — and one the state still denies and suppresses.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"1988 executions of Iranian political prisoners\" — Wikipedia (Amnesty/HRW estimate 2,800–5,000; MEK claims 30,000; Khomeini's July 1988 order; four-man death commissions in 32+ cities)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/1988_executions_of_Iranian_political_prisoners",
+          "caveat": "Tertiary aggregator; figures cross-checked against the named originators (Amnesty, HRW for the floor; MEK for the maximum)."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Amnesty International, \"Blood-Soaked Secrets: Why Iran's 1988 Prison Massacres Are Ongoing Crimes Against Humanity\" (2018) and report MDE 13/018/1992",
+          "supports": "toll.low",
+          "url": "https://www.amnesty.org/en/latest/campaigns/2018/10/blood-soaked-secrets/",
+          "caveat": "Human-rights advocacy organization. Audit note (2026-06-18): page verified live; Amnesty states 'minimum estimates put the death toll at around 5,000' and calls the killings crimes against humanity. This source documents the FLOOR (low end), not the 30,000 high — the supports field was corrected from toll.high to toll.low. The 30,000 maximum is the MEK claim, carried by the Wikipedia source above; it is not invented and is not Amnesty's figure."
+        },
+        {
+          "kind": "press",
+          "cite": "Human Rights Watch, \"Iran's 1988 Mass Executions: Evidence & Legal Analysis\" (2022)",
+          "supports": "summary",
+          "url": "https://www.hrw.org/news/2022/06/08/irans-1988-mass-executions",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irn-4",
+      "country": "IRN",
+      "role": "perpetrator",
+      "title": "Persecution and Killing of the Baha'i Minority",
+      "era": "1979–present (peak 1980s)",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "The Islamic Republic has executed Baha'is for their faith and waged a documented state campaign to deprive the community of education, work, property, and burial — religiously targeted persecution and killing of a group, classed POL here (systematic group persecution with executions); analysts including Genocide Watch describe it as approaching extermination, but the killing toll is in the low hundreds rather than the mass-death scale of an EXT event.",
+      "agent": "The Islamic Republic of Iran (revolutionary courts, IRGC, Ministry of Intelligence)",
+      "toll": {
+        "display": "~200 executed/killed since 1979 (193 by end of 1989), plus ~13–14 dead in prison",
+        "disputed": false,
+        "low": 200,
+        "high": 221,
+        "unit": "deaths",
+        "note": "Documentation converges: the Iran Human Rights Documentation Center counts 202 Baha'is executed, killed, or kidnapped since 1979 (193 of them by the end of 1989), plus ~13–14 who died in prison; the U.S. Baha'i community cites ~221 executed, disappeared, or killed since 1978. The death toll is comparatively low and well-documented; the larger harm is the systematic, decades-long deprivation of an entire community (job losses for ~15,000, university bans, property seizure). Not seriously disputed as a count. Audit note (2026-06-18): the IHRDC source (verified live: 202 + 14 in prison = 216) anchors the low end; the 221 high is the U.S. Baha'i community figure carried only in prose here, without its own source object — it is a real reported figure, not invented, but is the weaker-sourced end. HRW (2024, verified) independently corroborates 'over 200.'"
+      },
+      "received_lens": "denied",
+      "summary": "After the 1979 revolution the Islamic Republic branded the Baha'i faith heresy and set out to crush its largest religious minority — executing some two hundred Baha'is, most in the early 1980s (including ten women hanged in Shiraz in 1983), while barring the community from universities and government, firing thousands, seizing property, and denying members dignified burial under a policy a 1991 state memorandum described as blocking their 'progress and development.'",
+      "relevance": "A perpetrator entry of a different shape from 1988 — slower, smaller in body count, but a sustained state campaign against a people for their beliefs, which the state denies is persecution at all.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Iran Human Rights Documentation Center, \"Blocked from Progress: Persecution of Iran's Baha'i Community Since 1979\" (2022) — 202 executed/killed/kidnapped since 1979 (193 by end of 1989), ~14 dead in prison",
+          "supports": "toll.low",
+          "url": "https://iranhrdc.org/blocked-from-progress-persecution-of-irans-bahai-community-since-1979/",
+          "caveat": "Advocacy/documentation organization focused on Iranian human-rights abuses; figures are detailed and corroborated by Baha'i community records and HRW."
+        },
+        {
+          "kind": "press",
+          "cite": "Human Rights Watch, \"'The Boot on My Neck': Iranian Authorities' Crime of Persecution Against Baha'is in Iran\" (2024) — documents systematic state persecution (>200 executed; mass deprivation of rights)",
+          "supports": "summary",
+          "url": "https://www.hrw.org/report/2024/04/01/boot-my-neck/iranian-authorities-crime-persecution-against-bahais-iran",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Genocide Watch, \"Erased in the shadows: The persecution of Iran's Baha'is\" — places Iran's Baha'is at advanced stages of the genocide framework",
+          "supports": "tier",
+          "url": "https://www.genocidewatch.com/single-post/erased-in-the-shadows-the-persecution-of-iran-s-baha-is",
+          "caveat": "Advocacy organization applying its own ten-stage genocide model; cited for the characterization of severity, not as a death-toll source. The 'extermination' framing is the organization's assessment, not a measured mass-death count."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

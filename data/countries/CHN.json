@@ -1,0 +1,260 @@
+{
+  "iso": "CHN",
+  "name": "China",
+  "note": "Researched 2026-06-18. Seed compound events split into discrete, separately-tiered rows: the Great Leap famine (STR) and the Cultural Revolution (POL) are distinct acts and must not be averaged into one 'STR/mixed' dot; the Century of Humiliation was split so the Nanjing Massacre (WAR) stands on its own. A pre-colonial perpetrator case — the Dzungar genocide (EXT) — was added because the seed's only perpetrator rows were 20th-century and the deliberate-extermination tier was otherwise absent for China.",
+  "events": [
+    {
+      "id": "chn-1",
+      "country": "CHN",
+      "role": "perpetrator",
+      "title": "Great Leap Forward famine",
+      "era": "1958–1962",
+      "era_band": "contemporary",
+      "tier": "STR",
+      "tier_reasoning": "Structural: Mao's party drove the deaths through forced collectivisation, fantastical grain quotas, continued grain procurement and exports during starvation, and the suppression of relief — a man-made famine of policy and coercion, not a programme to destroy a group as such.",
+      "agent": "PRC state under Mao Zedong and the CCP",
+      "toll": {
+        "display": "~23–55 million excess deaths",
+        "disputed": true,
+        "low": 23000000,
+        "high": 55000000,
+        "unit": "deaths",
+        "note": "Wide spread reflects method, not doubt that the famine was catastrophic. Demographic/census reconstructions cluster lower (Banister ~30M; lower demographic readings ~23M); archival reconstructions run higher (Cao Shuji 32.5M; Yang Jisheng 36M starvation deaths plus ~40M unborn; Chen Yizi 43–46M; Yu Xiguang 55M; Dikötter 'at least 45M'). A cluster of PRC-aligned scholars (Sun Jingxian, Yang Songli) argue for only 3.5–4M; these are outliers, treated here as a denialist low-water mark and not the headline range. Excess-death counts exclude the tens of millions of births that never happened."
+      },
+      "received_lens": "suppressed",
+      "summary": "Mao's party herded farmers into communes, set impossible grain targets, and kept procuring and exporting grain while villages starved; cadres who reported the truth were purged, so the lie compounded the death. It was the largest famine in recorded history.",
+      "relevance": "The state that sits in China's victim ledger for Nanjing is, in living memory, the agent of one of the deadliest catastrophes any government has inflicted on its own people.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Judith Banister, China's Changing Population (1987) — ~30M excess deaths, cited by Becker as the most reliable demographic estimate",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Great_Chinese_Famine",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Frank Dikötter, Mao's Great Famine (2010) — 'at least 45 million'; Yu Xiguang (2015) ~55M",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Great_Chinese_Famine",
+          "caveat": "Dikötter's archival method is contested by demographers who consider his upper figures inflated; included as the high-end pole, not as settled fact."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Yang Jisheng, Tombstone / 墓碑 (2008) — ~36 million starvation deaths from internal CCP archives",
+          "supports": "summary",
+          "url": "https://www.npr.org/2012/11/10/164732497/a-grim-chronicle-of-chinas-great-famine",
+          "caveat": "Yang is a former Xinhua journalist whose book is banned in mainland China; his archival access is exceptional but his framing is openly critical of the Party."
+        },
+        {
+          "kind": "reference",
+          "cite": "MCLC Resource Center / NYT reporting on official 'Three Years of Natural Disasters' framing and ongoing censorship",
+          "supports": "summary",
+          "url": "https://u.osu.edu/mclc/2015/10/15/hidden-tale-of-chinas-great-famine/",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "chn-2",
+      "country": "CHN",
+      "role": "perpetrator",
+      "title": "The Cultural Revolution",
+      "era": "1966–1976",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Political mass violence: Mao unleashed factional struggle, Red Guard terror and state-directed purges to destroy political and class 'enemies'; most deaths came from organised repression by authorities, not from disease or famine.",
+      "agent": "PRC state under Mao Zedong; Red Guards and local revolutionary committees",
+      "toll": {
+        "display": "~1.1–2 million deaths; ~22–36 million persecuted",
+        "disputed": true,
+        "low": 1100000,
+        "high": 2000000,
+        "unit": "deaths",
+        "note": "Walder & Su Yang's county-annals study gives 750,000–1.5M killed in the countryside alone, a similar number permanently injured, and roughly 36M subjected to some form of political persecution; Walder's later national reconstruction gives 1.1–1.6M deaths and 22–30M direct victims of persecution. Higher older estimates (Rummel ~7.7M) rest on weaker data and are treated as outliers; lower estimates (Fairbank ~1M) anchor the bottom of the credible range."
+      },
+      "received_lens": "contested",
+      "summary": "Mao turned the country's youth into Red Guards and set them loose on teachers, officials and 'class enemies'; struggle sessions, beatings and mass killings followed, and the army and local committees did most of the killing once the chaos was directed downward. The Party itself later called it ten years of catastrophe.",
+      "relevance": "Unlike the famine, this was violence with named human agency at every level — a reminder that the same state appears in this atlas as both the mourned victim of Nanjing and the author of its own people's terror.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Andrew G. Walder & Yang Su, 'The Cultural Revolution in the Countryside', The China Quarterly (2003) — 750k–1.5M killed; ~36M persecuted",
+          "supports": "toll.low",
+          "url": "https://news.stanford.edu/stories/2019/10/violence-unfolded-chinas-cultural-revolution",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Andrew G. Walder, later national reconstruction — 1.1–1.6M deaths, 22–30M persecuted; upper credible bound ~2M",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Cultural_Revolution",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "CCP 'Resolution on Certain Questions in the History of Our Party' (1981) — official 'ten years of chaos / havoc' verdict",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Cultural_Revolution",
+          "caveat": "A ruling-party self-assessment: it concedes catastrophe and pins blame on the Gang of Four and Mao's 'errors' while protecting the Party's overall legitimacy and limiting open discussion."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "chn-3",
+      "country": "CHN",
+      "role": "perpetrator",
+      "title": "The Dzungar genocide",
+      "era": "1755–1758",
+      "era_band": "pre-colonial",
+      "tier": "EXT",
+      "tier_reasoning": "Extermination: the Qianlong Emperor issued explicit written orders to massacre the Dzungar Mongols as a people ('show no mercy', 'massacre the strong and able'), and historians describe the deliberate erasure of the Dzungars as a distinct nation — intent to destroy the group as such, the defining mark of the top tier. The smallpox deaths are part of the demographic collapse but the killing was ordered and intended.",
+      "agent": "Qing dynasty under the Qianlong Emperor; Manchu bannermen and allied Khalkha Mongols",
+      "toll": {
+        "display": "~480,000 dead (70–80% of ~600,000 Dzungars)",
+        "disputed": true,
+        "low": 420000,
+        "high": 480000,
+        "unit": "deaths",
+        "note": "Perdue and Clarke estimate 70–80% of roughly 600,000 Dzungars destroyed, i.e. ~420,000–480,000, between 1755 and 1758. The contemporary Qing scholar Wei Yuan's breakdown — ~40% of households dead of smallpox, ~30% killed by the army, ~20% fled — means a large share died of disease rather than directly by the sword; this is recorded honestly here. But the disease spread amid a campaign of encirclement and slaughter explicitly aimed at ending the Dzungars as a people, so the act is tiered EXT on intent, not on the proximate cause of each death."
+      },
+      "received_lens": "denied",
+      "summary": "After the Dzungar leader Amursana rebelled, the Qianlong Emperor ordered the Manchu army to wipe the Dzungar Mongols out as a people — to kill the able-bodied men, enslave or scatter the rest, and erase the Dzungar name. Two years of massacre and smallpox left the steppe khanate gone; the Qing repopulated the emptied land with Han, Hui and Uyghur settlers.",
+      "relevance": "Centuries before China sat in any victim ledger, a Chinese empire carried out a deliberate extermination — the dual lens reaching back into the Qing, and a case the modern Chinese state still frames as righteous 'unification' rather than genocide.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Peter C. Perdue, China Marches West: The Qing Conquest of Central Eurasia (2005)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Dzungar_genocide",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Michael Clarke, Xinjiang and China's Rise in Central Asia (2011) — 'complete destruction of the Zunghars as a people'",
+          "supports": "tier",
+          "url": "https://en.wikipedia.org/wiki/Dzungar_genocide",
+          "caveat": null
+        },
+        {
+          "kind": "primary",
+          "cite": "Wei Yuan (1794–1857), Qing scholar — population of ~600,000 in ~200,000 households; breakdown of smallpox/killed/fled",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Dzungar_genocide",
+          "caveat": "A 19th-century Qing official writing within the imperial tradition; his figures are the standard source but he wrote from the conqueror's side and decades after the events."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Dzungar genocide' and 'Qing reconquest of Xinjiang' — Qianlong's explicit extermination orders; official PRC framing as 'pingding' (pacification/unification)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Dzungar_genocide",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "chn-4",
+      "country": "CHN",
+      "role": "victim",
+      "title": "The Nanjing Massacre",
+      "era": "1937–1938",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "War-context atrocity: after capturing the capital, the Imperial Japanese Army carried out six weeks of mass killing of disarmed soldiers and civilians and systematic rape — a war crime of the first order, though framed here as part of an invasion rather than a standing programme to exterminate the Chinese as a group.",
+      "agent": "Imperial Japanese Army (Central China Area Army)",
+      "toll": {
+        "display": "~100,000–300,000 killed",
+        "disputed": true,
+        "low": 100000,
+        "high": 300000,
+        "unit": "deaths",
+        "note": "Sharply contested across Chinese and Japanese historiography. The Nanjing War Crimes Tribunal asserted 300,000+ (the figure on the Memorial Hall); the Tokyo Tribunal (IMTFE) found 200,000+; many academic estimates fall between 100,000 and 200,000 (Kasahara 'more than 100,000, close to 200,000 or more'; Yoshida 'more than 200,000'). Japanese revisionist denialists push far lower or deny the massacre entirely — that strand is noted as denial, not as a credible low estimate. The 300,000 figure is both a defensible tribunal finding and a politically charged number in PRC memory."
+      },
+      "received_lens": "memorial",
+      "summary": "After Nanjing fell in December 1937, the Japanese army spent roughly six weeks killing prisoners and civilians and raping tens of thousands of women across the city. China remembers it as the sharpest wound of the invasion; Japan's right still disputes the scale.",
+      "relevance": "This is the event China most insists the world remember — the anchor of its victim identity — and it sits on the same map as the Dzungar genocide its own empire ordered, which is exactly the dual lens the atlas exists to hold.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Tokushi Kasahara, Nankin jiken (1997) — 'more than 100,000, close to 200,000 or more'",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Death_toll_of_the_Nanjing_Massacre",
+          "caveat": null
+        },
+        {
+          "kind": "primary",
+          "cite": "Nanjing War Crimes Tribunal (1947) — 300,000+; figure inscribed at the Nanjing Massacre Memorial Hall",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Nanjing_Massacre",
+          "caveat": "A victors'/national tribunal figure that is also a charged symbol in PRC public memory; the higher bound is contested by many academic demographers who favour 100k–200k."
+        },
+        {
+          "kind": "primary",
+          "cite": "International Military Tribunal for the Far East (IMTFE, Tokyo, 1948) — over 200,000 killed",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Nanjing_Massacre",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Nanjing Massacre Memorial Day (national memorial since 2014; Memorial Hall opened 1985)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Nanjing_Massacre_Memorial_Day",
+          "caveat": "Reflects state-organised commemoration; the memorial framing is sincere but also serves contemporary PRC nationalism."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "chn-5",
+      "country": "CHN",
+      "role": "victim",
+      "title": "Opium Wars & the Century of Humiliation",
+      "era": "1839–1945",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "War and coercion by foreign powers: Britain, France and later other powers and Imperial Japan defeated the Qing in war, forced 'unequal treaties', seized concessions and indemnities, and waged the wider invasion of 1937–45 — a long sequence of armed coercion and wartime atrocity rather than a single extermination.",
+      "agent": "British Empire, France, other treaty powers, and Imperial Japan",
+      "toll": {
+        "display": "Opium Wars: tens of thousands; whole invasion era: ~14–20 million (Second Sino-Japanese War)",
+        "disputed": true,
+        "low": 14000000,
+        "high": 20000000,
+        "unit": "deaths",
+        "note": "The headline range is for the Second Sino-Japanese War (1937–1945), the deadliest phase of the 'century': academic study cited at 15–20M total casualties, with broad scholarly estimates of ~14–20M deaths (military + civilian); the PRC's own figure is 20M dead. The Opium Wars themselves killed comparatively few Chinese — on the order of tens of thousands of soldiers and inhabitants across both wars — but their treaties (Nanjing 1842 onward) opened the era. Nanjing 1937–38 (chn-4) is counted within this total and broken out separately for its tier."
+      },
+      "received_lens": "memorial",
+      "summary": "From 1839 Britain forced opium and 'unequal treaties' on a defeated Qing at gunpoint; France, Russia, Germany, Japan and others followed, carving out concessions, looting the Summer Palace, and extracting indemnities. The sequence culminated in Japan's 1937–45 invasion, which killed millions. China teaches the whole arc as its 'century of humiliation'.",
+      "relevance": "The empire that ordered the Dzungar extermination spent its next century on the receiving end of foreign conquest — the same nation in both ledgers, which is the atlas's whole point.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Britannica & Wikipedia, 'Opium Wars' / 'First Opium War' / 'Second Opium War' — unequal treaties, Treaty of Nanjing (1842), casualty scale",
+          "supports": "summary",
+          "url": "https://www.britannica.com/topic/Opium-Wars",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Academic population study cited in Second Sino-Japanese War literature — 15–20M total human casualties, 1937–1945",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Second_Sino-Japanese_War",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Standard modern-China historiography on the 1937–45 toll — broad scholarly range ~14–20M deaths",
+          "supports": "toll.low",
+          "url": "https://guides.loc.gov/sino-japanese-war-1937-1945",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

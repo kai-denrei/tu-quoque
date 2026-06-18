@@ -1,0 +1,186 @@
+{
+  "iso": "ZAF",
+  "name": "South Africa",
+  "note": "Built from scratch. Both ledgers are well supported. Victim side: the white and Black inmates of the British concentration camps in the South African War (1899–1902), and the Black South Africans whom the apartheid state shot and killed in their own country, of which Sharpeville is the iconic case. Perpetrator side: the Zulu kingdom's role in the Mfecane (pre-colonial, fiercely contested and historically weaponised by colonial and apartheid propaganda — caveated heavily, toll kept as a wide disputed range), and the apartheid regime's killing of its own citizens plus its deliberate destabilisation of neighbouring states. The Mfecane is tiered STR with explicit warning that its scale and Zulu-centric blame are disputed; apartheid internal repression is tiered POL. Care taken not to launder colonial 'Black-on-Black savagery' myth-making into a settled atrocity figure.",
+  "events": [
+    {
+      "id": "zaf-1",
+      "country": "ZAF",
+      "role": "victim",
+      "title": "Concentration camps of the South African (Anglo-Boer) War",
+      "era": "1900–1902",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "Deaths came overwhelmingly from malnutrition and epidemic disease (measles, typhoid, dysentery) in camps created by scorched-earth internment; this is mass civilian death by negligent confinement, not a campaign to exterminate a group as such — STR, with the intent debate kept in view.",
+      "agent": "British Army (Kitchener's scorched-earth and internment policy)",
+      "toll": {
+        "display": "~28,000 Boers + ~14,000–20,000 Black Africans (~42,000–48,000)",
+        "disputed": true,
+        "low": 42000,
+        "high": 48000,
+        "unit": "deaths",
+        "note": "About 27,927 Boer deaths are recorded, roughly 24,000 of them children under 16 (SAHO records 22,074 children; the post-war report 24,074 — both confirm children were the great majority) — around one in four of the Boer inmates died. Black African camp deaths are far less documented: a recorded minimum of about 14,154 (some 81% of them children) with estimates running to ~20,000, because little record was kept of the ~107,000 Black people interned. The combined range reflects the systematic under-counting of the Black camps. AUDIT 2026-06-18: all three sources verified against original/aggregator records (van Heyningen, History Compass 7:22–43, DOI confirmed; Wikipedia toll 27,927 + 14,154; SAHO white-camps 27,927/22,074 children). Both low and high ends independently sourced."
+      },
+      "received_lens": "contested",
+      "summary": "To break Boer guerrilla resistance, British forces under Kitchener burned farms and killed livestock, then herded tens of thousands of Boer women and children and Black labourers into overcrowded camps where measles, typhoid, and dysentery killed roughly a quarter of the Boer inmates and an uncounted toll of Black Africans.",
+      "relevance": "The same camp system makes South Africa's people victims here and Britain the perpetrator — and the differential record-keeping shows whose dead the empire bothered to count.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Elizabeth van Heyningen, 'The Concentration Camps of the South African (Anglo-Boer) War, 1900–1902', History Compass 7 (2009), pp. 22–43",
+          "supports": "summary",
+          "url": "https://compass.onlinelibrary.wiley.com/doi/10.1111/j.1478-0542.2008.00562.x",
+          "caveat": "Paywalled scholarly article (DOI 10.1111/j.1478-0542.2008.00562.x); cited for the social history and the under-documentation of the Black camps."
+        },
+        {
+          "kind": "reference",
+          "cite": "Second Boer War concentration camps — Wikipedia (27,927 Boer dead; Black deaths 14,154 recorded, up to ~20,000; ~154,000 interned)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Second_Boer_War_concentration_camps",
+          "caveat": "Tertiary aggregator; figures attributed to the post-war report and to van Heyningen / SAHO research."
+        },
+        {
+          "kind": "reference",
+          "cite": "South African History Online — Women and Children in White Concentration Camps during the Anglo-Boer War, 1900–1902",
+          "supports": "toll.low",
+          "url": "https://sahistory.org.za/article/women-and-children-white-concentration-camps-during-anglo-boer-war-1900-1902",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "zaf-2",
+      "country": "ZAF",
+      "role": "victim",
+      "title": "Sharpeville massacre",
+      "era": "1960",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "A one-sided massacre of unarmed protesters by state police firing without warning into a crowd; deliberate lethal force against civilians, not a campaign to exterminate a group as such — WAR, marking the act and not the nation.",
+      "agent": "South African Police (apartheid state)",
+      "toll": {
+        "display": "69–91 killed; ~180–281 wounded",
+        "disputed": true,
+        "low": 69,
+        "high": 91,
+        "unit": "deaths",
+        "note": "The figure of 69 killed (incl. 10 children) and ~180 wounded comes from apartheid-era police records and was treated as official for decades. Later scholarship (Clark & Worger, 'Voices of Sharpeville', Routledge 2023/2024, ISBN 9781032191300), drawing on previously embargoed autopsy/medical records and witness statements taken from hospital beds within days, found at least 91 killed and at least 238–281 wounded — i.e. the police count undercounted the dead and injured by at least a third. AUDIT 2026-06-18: book confirmed real (Routledge, real authors at LSU and UCLA); the 69/180 police figure, ~1,344 rounds in two minutes, and the revised ≥91/≥238 figures all independently verified. Both low (police count) and high (revised scholarship) ends sourced."
+      },
+      "received_lens": "memorial",
+      "summary": "On 21 March 1960 a crowd gathered outside the Sharpeville police station to protest the pass laws; without warning, police opened fire and shot some 1,344 rounds in about two minutes, killing dozens and wounding hundreds, many shot in the back as they fled.",
+      "relevance": "Here the South African state kills its own people; the same state's later regional wars put it on the perpetrator ledger — the dual lens within one polity.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Sharpeville massacre — Wikipedia (police record 69 dead, 180 injured; revised research ≥91 dead, ≥238/281 wounded)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Sharpeville_massacre",
+          "caveat": "Tertiary; the 69/180 figure it carries originates with apartheid police records, i.e. the perpetrator's own count, treated here as the contested low end."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Nancy L. Clark & William H. Worger, Voices of Sharpeville: The Long History of Racial Injustice (2023) — ≥91 killed, ≥238 wounded",
+          "supports": "toll.high",
+          "url": "https://theconversation.com/sharpeville-new-research-on-1960-south-african-massacre-shows-the-number-of-dead-and-injured-was-massively-undercounted-217828",
+          "caveat": "URL is the authors' own summary article in The Conversation rather than the book itself; cited for the revised, upward-corrected figures."
+        },
+        {
+          "kind": "reference",
+          "cite": "Britannica — Sharpeville massacre (21 March 1960, pass-law protest, police fire on crowd)",
+          "supports": "summary",
+          "url": "https://www.britannica.com/event/Sharpeville-massacre",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "zaf-3",
+      "country": "ZAF",
+      "role": "perpetrator",
+      "title": "The Mfecane (Zulu expansion and the wars it set off)",
+      "era": "c. 1810s–1840s",
+      "era_band": "pre-colonial",
+      "tier": "STR",
+      "tier_reasoning": "Most deaths came from the famine, displacement, and chain-reaction warfare that followed the disruption of farming and settlement, not from a single deliberate extermination — STR; the scale and the degree of specifically Zulu blame are heavily disputed.",
+      "agent": "The Zulu kingdom under Shaka and its successors (one driver among several)",
+      "toll": {
+        "display": "tens of thousands to ~1–2 million (figure heavily disputed)",
+        "disputed": true,
+        "low": null,
+        "high": 2000000,
+        "unit": "deaths",
+        "note": "QUARANTINE (status UNVERIFIED): no reliable death toll exists for this event and the entry is deliberately held unverified for that reason. Traditional estimates of 1–2 million dead are widely regarded as unreliable and were inflated by colonial and apartheid writers to portray the interior as 'empty' and Africans as authors of their own dispossession. Revisionist scholarship (the Julian Cobbing debate from 1988; Eldredge's response) places mortality far lower — tens of thousands to hundreds of thousands — and stresses multiple causes (drought, the slave and ivory trades, European frontier pressure) beyond Zulu militarism. No reliable hard count exists, so the low end is left null; the 2 million is recorded only as the disputed traditional ceiling, NOT an endorsed figure. AUDIT 2026-06-18: both sources verified (Wikipedia carries the 1–2M figure expressly as 'controversial' and summarises the multi-causal/revisionist consensus; Britannica 'Mfecane' exists and itself repeats the ~2M traditional figure). Because there is no sourceable low end and the high end is only a disputed propaganda ceiling — not a verified contested range — this event cannot be marked VERIFIED. The unverified status is the honest, principled outcome, not a source-integrity failure: the sources are real, but no defensible toll can be derived from them."
+      },
+      "received_lens": "contested",
+      "summary": "In the early 19th century the rise and military expansion of the Zulu kingdom under Shaka helped set off a period of upheaval across southern Africa, in which warfare, raiding, and the collapse of farming drove mass displacement and famine; how many died, and how much was the Zulu doing versus drought, slave-trading, and colonial pressure, is one of the most contested questions in African history.",
+      "relevance": "A southern-African people as perpetrator on its own terms — but the entry doubles as a warning, because the same event was looted by colonial propaganda to excuse white conquest, so its toll is shown as disputed, not settled.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Mfecane — Wikipedia (traditional 1–2M estimate noted as controversial; Cobbing/revisionist debate; multi-causal consensus)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Mfecane",
+          "caveat": "Tertiary; carries the traditional figure expressly as 'controversial' and summarises the revisionist case against Zulu-centric blame. The high number is recorded as a disputed ceiling, not an accepted toll."
+        },
+        {
+          "kind": "reference",
+          "cite": "Encyclopaedia Britannica — Mfecane (Zulu expansion, Nguni migrations, c. 1815–c. 1840)",
+          "supports": "summary",
+          "url": "https://www.britannica.com/event/Mfecane",
+          "caveat": null
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "zaf-4",
+      "country": "ZAF",
+      "role": "perpetrator",
+      "title": "Apartheid: state killing at home and destabilisation abroad",
+      "era": "1948–1994",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "A state systematically killing political opponents and civilians to preserve a racial order — detentions, torture, police shootings, death squads — plus deliberate fomenting of war in neighbouring states; political mass killing in service of a regime, tiered POL.",
+      "agent": "The apartheid South African state (security police, SADF, Vlakplaas death squads)",
+      "toll": {
+        "display": "~21,000 political deaths inside South Africa (1948–1994); far higher toll in regional wars it fuelled",
+        "disputed": true,
+        "low": 21000,
+        "high": 21000,
+        "unit": "deaths",
+        "note": "The Truth and Reconciliation Commission counted roughly 21,000 deaths from political violence in South Africa — about 7,000 between 1948 and 1989 (TRC: ~7,000 political deaths in this period, 73 in detention) and some 14,000 in the 1990–1994 transition, the latter inflamed by state-backed 'third force' violence. SINGLE-NUMBER TOLL: low and high are set equal because this is a documented-deaths aggregate, not a contested low–high range; it is a floor, not a disputed band. This figure covers internal deaths only and is not all attributable to the state alone (the IFP and ANC also killed). Separately, apartheid South Africa armed and directed RENAMO in Mozambique and UNITA in Angola and raided front-line states; those wars killed hundreds of thousands (Mozambique alone often cited at ~100,000+ to ~1 million displaced; Angola at half a million dead across the conflict), but those tolls belong to the host conflicts and are not folded into the headline number here. AUDIT 2026-06-18: ~7,000 (1948–1989) and ~19,050 gross-violation victims confirmed on the TRC source; the ~14,000 transition deaths (1990–1994) independently confirmed (Human Rights Committee documented ~14,000 deaths/22,000 injuries, 90%+ in PWV and KwaZulu-Natal); RENAMO/UNITA backing and SADF cross-border raids independently verified. Multi-actor (state/IFP/ANC) responsibility confirmed. Vlakplaas death-squad source (de Kock, Mxenge killings) verified real."
+      },
+      "received_lens": "memorial",
+      "summary": "To defend white minority rule, the apartheid state banned and jailed opponents, ran death squads such as the Vlakplaas unit that abducted and murdered activists, and shot protesters in the streets; abroad it armed insurgencies and raided neighbouring countries, helping turn the wars in Angola and Mozambique into mass-casualty catastrophes.",
+      "relevance": "The state that South Africa's Black majority experienced as victim was itself a major perpetrator — against its own citizens and across the whole of southern Africa.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Truth and Reconciliation Commission (South Africa) — Wikipedia (~7,000 deaths 1948–1989; ~14,000 in 1990–1994; ~19,050 gross-violation victims)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Truth_and_Reconciliation_Commission_(South_Africa)",
+          "caveat": "Tertiary; the TRC figures count deaths it documented and do not capture all unrecorded deaths, nor do they attribute every death to the state alone."
+        },
+        {
+          "kind": "reference",
+          "cite": "South African History Online — Vlakplaas and the History of Apartheid's Death Squad",
+          "supports": "summary",
+          "url": "https://sahistory.org.za/article/vlakplaas-and-history-apartheids-death-squad",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Apartheid — Wikipedia (regional destabilisation: backing of RENAMO and UNITA, cross-border raids on front-line states)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Apartheid",
+          "caveat": "Tertiary; cited for the destabilisation pattern. The regional war tolls are not included in this event's headline number and remain attributable to the host conflicts. AUDIT: RENAMO/UNITA backing and SADF cross-border raids on front-line states independently verified across multiple sources (Foreign relations of South Africa during apartheid; South African Border War)."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

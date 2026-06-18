@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "tuquoque/event",
+  "title": "event — one row in a ledger (handover §6.1)",
+  "type": "object",
+  "required": ["id", "country", "role", "title", "era", "tier", "agent", "toll", "summary", "relevance", "sources", "status"],
+  "properties": {
+    "id": { "type": "string", "description": "stable slug, e.g. cod-leopold" },
+    "country": { "type": "string", "pattern": "^[A-Z]{3}$", "description": "ISO_A3" },
+    "role": { "enum": ["victim", "perpetrator"] },
+    "title": { "type": "string" },
+    "era": { "type": "string", "description": "human era string, e.g. 1885–1908" },
+    "era_band": { "enum": ["pre-colonial", "colonial", "modern", "contemporary", null] },
+    "tier": { "enum": ["EXT", "POL", "WAR", "STR"], "description": "the ACT, never the nation (§6.2)" },
+    "tier_reasoning": { "type": ["string", "null"], "description": "why this tier; mandatory for STR/EXT calls" },
+    "agent": { "type": "string", "description": "who did it, plainly — no passive voice (§3)" },
+    "toll": {
+      "type": "object",
+      "required": ["display", "disputed"],
+      "properties": {
+        "low": { "type": ["number", "null"] },
+        "high": { "type": ["number", "null"] },
+        "unit": { "type": "string", "default": "deaths" },
+        "display": { "type": "string", "description": "always a range; bare round number is a bug (law 3)" },
+        "disputed": { "type": "boolean" },
+        "note": { "type": "string" }
+      }
+    },
+    "received_lens": { "enum": ["memorial", "suppressed", "denied", "contested", "flagellated", "triumphal", null], "description": "how the society's OWN public memory frames it (§6.1)" },
+    "summary": { "type": "string", "description": "1–3 sentences, Carlin register, concrete (§3)" },
+    "relevance": { "type": "string", "description": "why it matters to the dual-lens thesis, 1 sentence" },
+    "sources": { "type": "array", "items": { "$ref": "tuquoque/source" }, "minItems": 1 },
+    "status": { "enum": ["SEED", "RESEARCHED", "VERIFIED", "UNVERIFIED"] }
+  }
+}

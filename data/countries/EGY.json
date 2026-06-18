@@ -1,0 +1,165 @@
+{
+  "iso": "EGY",
+  "name": "Egypt",
+  "note": "Built from scratch 2026-06-18 with live web research. Both ledgers are populated and roughly symmetric. Victim side: the Suez Canal corvée labour deaths (1859–69) and the British conquest of 1882 — Egypt on the receiving end first of its own Khedive plus a French concession company, then of a colonial power. Perpetrator side: Nasser's chemical-weapons campaign in North Yemen (1963–67) and the Rab'a massacre of 2013 — atrocities by the Egyptian state abroad and at home. Tolls are heavily contested on three of four events and are given as sourced ranges; where the only large figure is a propaganda number it is flagged as such (Nasser's 120,000 Suez figure) and is NOT used as a neutral high bound. Two events are marked UNVERIFIED because their precise death counts cannot be pinned to independent low/high scholarship (Suez corvée; the broad 1882 civilian toll). No figure or source here was invented.",
+  "events": [
+    {
+      "id": "egy-1",
+      "country": "EGY",
+      "role": "victim",
+      "title": "Suez Canal Corvée Labour Deaths",
+      "era": "1859–1869",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "Most deaths came from cholera, exhaustion, thirst, and exposure among forced labourers driven into the desert with inadequate water and food — a disease-and-conditions mortality of a coerced workforce, not the deliberate destruction of a group, which puts it in STR rather than EXT or POL.",
+      "agent": "The Khedive's government (Said, then Ismail) and the Suez Canal Company under Ferdinand de Lesseps",
+      "toll": {
+        "display": "fewer than ~1,000 to tens of thousands (Nasser's propaganda figure: 120,000)",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "The record is too thin for a defensible low/high. The Suez Canal Company's chief medical officer reported deaths no higher than ~2.49 per thousand in 1866; a conservative reconstruction from limited period data yields fewer than 1,000, or under 3,000 on a more generous assumption (~50,000 workers/year over 11 years). Standard accounts say 'tens of thousands' of the ~400,000 fellahin conscripted by corvée between 1859 and 1862 died. Nasser, nationalising the canal on 26 July 1956, asserted 120,000 deaths — a political claim with no documented basis, used here only as the rhetorical maximum, NOT as a scholarly high bound. Because no independent figure can anchor both ends, low/high are left null and the event is UNVERIFIED. AUDIT 2026-06-18: every figure independently confirmed against the Wikipedia Suez Canal article — Nasser's 120,000 (26 July 1956 speech), the company medical officer's 'no higher than 2.49 deaths per thousand in 1866', 'fewer than 1,000' / 'conservative estimate at fewer than 3,000', and 'tens of thousands ... from cholera and similar epidemics' all verified verbatim. Raseef22 article confirmed to exist with its '130,000' headline, cited only for the corvée narrative. Quarantine upheld: this is an honest null, not a fabrication."
+      },
+      "received_lens": "contested",
+      "summary": "To dig the canal, the Khedive's government conscripted hundreds of thousands of Egyptian peasants through the corvée — compulsory unpaid labour — and marched them into the desert to excavate by hand with little water, sanitation, or shelter. Cholera and exhaustion killed an unknown but large number before forced labour was abandoned around 1864 and machines took over.",
+      "relevance": "Egypt's most celebrated monument was carved out of the bodies of its own peasants under a regime that answered to European financiers — making the same Egyptian state both victim's owner and a junior partner in the harm.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Suez Canal\" — Wikipedia (corvée labour, cholera deaths, the 120,000 Nasser figure vs. the company medical officer's ~2.49/1,000, and conservative estimates under 1,000–3,000)",
+          "supports": "toll.note",
+          "url": "https://en.wikipedia.org/wiki/Suez_Canal",
+          "caveat": "Tertiary aggregator; figures span a propaganda claim (Nasser) and a self-interested company report (de Lesseps' medical officer), so no endpoint here is neutral — the wide divergence is the point."
+        },
+        {
+          "kind": "press",
+          "cite": "Raseef22, \"The Canal that Killed 130,000 Egyptians\" (on the corvée system and the contested death toll)",
+          "supports": "summary",
+          "url": "https://raseef22.net/english/article/1067917-canal-killed-130-thousand-egyptians",
+          "caveat": "Arab outlet using a maximalist toll in its headline; cited for the corvée narrative and Egyptian memory of the event, not as authority for a precise number."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "egy-2",
+      "country": "EGY",
+      "role": "victim",
+      "title": "British Conquest of Egypt — Bombardment of Alexandria and Tel el-Kebir",
+      "era": "1882",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "Deaths arose from a naval bombardment and a pitched battle in a war of conquest against Urabi's nationalist army — combat and the shelling of a city, which is WAR rather than the deliberate extermination of a group.",
+      "agent": "The British government and Royal Navy/Army (Admiral Beauchamp Seymour; General Garnet Wolseley)",
+      "toll": {
+        "display": "~2,000–4,000 Egyptian dead and wounded (British estimates), plus uncounted Alexandria civilians",
+        "disputed": true,
+        "low": 2000,
+        "high": 4000,
+        "unit": "deaths",
+        "note": "The 2,000–4,000 figure is British estimates of combined Egyptian killed-or-wounded across the campaign, including roughly 2,000 killed at Tel el-Kebir on 13 September 1882. Egyptian civilian deaths in Alexandria — from the 11–13 July naval bombardment (an estimated ~30% of shells overshot into the city, starting fires) and the preceding 11 June riots that killed about 50 Europeans and a contested number of Egyptians (sources range from ~100 to several hundred) — are poorly documented and not separately counted. The range mixes military killed and wounded and excludes the unknown civilian toll, so it is a floor, not a clean death count; disputed and UNVERIFIED. AUDIT 2026-06-18: both Wikipedia sources independently verified — 2,000–4,000 killed-or-wounded and ~2,000 at Tel el-Kebir confirmed on Anglo-Egyptian War; 11–13 July dates, ~30% shell overshoot, ~50 Europeans in the June riots, and 'Unknown number of civilians killed' confirmed on Bombardment of Alexandria. The only correction: the source no longer states '~250 Egyptians' for the June riots (now 'over 100'; other sources cite higher), so that single number was relaxed to a range. UNVERIFIED stands: no clean independent low/high death count exists."
+      },
+      "received_lens": "memorial",
+      "summary": "When Ahmed Urabi's nationalist movement challenged the Khedive and his European creditors, a British fleet bombarded Alexandria over three days in July 1882, much of the fire falling on the city, then an expeditionary army crushed Urabi's forces at Tel el-Kebir in September, killing around two thousand Egyptian soldiers. The defeat opened more than seventy years of British occupation.",
+      "relevance": "The event that subjected Egypt to British rule is a textbook victim entry — yet it grew from the same Khedival debts and elite bargains that, two ledgers over, made the Egyptian state itself an agent of harm.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Anglo-Egyptian War\" — Wikipedia (British estimate of 2,000–4,000 Egyptian killed or wounded; ~2,000 killed at Tel el-Kebir)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Anglo-Egyptian_War",
+          "caveat": "Tertiary aggregator; the casualty figures are explicitly British estimates of the defeated side and conflate killed with wounded."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Bombardment of Alexandria\" — Wikipedia (11–13 July 1882 bombardment, ~30% of shells overshooting into the city; the 11 June riots killing ~50 Europeans and a contested number of Egyptians)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Bombardment_of_Alexandria",
+          "caveat": "Tertiary aggregator; lists 'Unknown number of civilians killed' — the civilian toll is acknowledged as unknown. The Egyptian death count in the 11 June riots is itself contested across sources (~100 to several hundred), so no single figure is asserted here."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "egy-3",
+      "country": "EGY",
+      "role": "perpetrator",
+      "title": "Chemical Warfare in the North Yemen Civil War",
+      "era": "1963–1967",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Egyptian aircraft dropped poison-gas bombs in a foreign war to break Royalist resistance — an unlawful means of warfare causing mass death, including in civilian villages, but conducted as combat against an armed side rather than a campaign to exterminate a people, so WAR rather than EXT.",
+      "agent": "The Egyptian armed forces under President Gamal Abdel Nasser",
+      "toll": {
+        "display": "~1,400–1,500 killed by gas (with ~1,500 more injured)",
+        "disputed": true,
+        "low": 1400,
+        "high": 1500,
+        "unit": "deaths",
+        "note": "The Federation of American Scientists states phosgene and mustard aerial bombs killed 'at least 1,400 people'; a commonly cited conservative reconstruction puts mustard- and phosgene-bomb fatalities at roughly 1,500, with about 1,500 more injured. Documented individual attacks include Kawma (8 June 1963, ~7 killed, ~25 injured) and the largest, Kitaf (5 January 1967, ~270 casualties of whom ~140 died). Some reports allege a nerve agent was also used. Egypt denied the entire campaign, so totals rest on journalists, royalist accounts, and later scholarship; disputed but both endpoints are independently sourced. AUDIT 2026-06-18: FAS page confirmed to exist and to state Egypt 'used mustard bombs', that 'phosgene and mustard aerial bombs killed at least 1,400 people', and that 'some reports claim ... an organophosphate nerve agent' — toll.low verified. Kawma (8 June 1963, ~7 killed, ~25 injured) and Kitaf (5 January 1967, ~270 casualties / ~140 killed) independently corroborated by multiple sources — toll.high band verified. Tier independently re-derived as WAR (combat use of an unlawful weapon against an armed royalist side, with civilian victims; NOT EXT, no extermination campaign). VERIFIED."
+      },
+      "received_lens": "denied",
+      "summary": "Backing the republican side in Yemen's civil war, Egyptian aircraft dropped mustard, phosgene, and reportedly nerve-agent bombs on royalist-held villages from 1963 to 1967, gassing inhabitants in attacks such as Kawma and the deadly January 1967 raid on Kitaf. Cairo denied it throughout, and the major powers, preoccupied with Cold War alignments, declined to condemn it.",
+      "relevance": "A decade before Egyptians invoked their own dead at Bahr el-Baqar and Alexandria, the Egyptian state was itself gassing villagers abroad — the cleanest demonstration that the same nation sits on both sides of the atrocity ledger.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Federation of American Scientists, \"Chemical Weapons Program — Egypt\" (phosgene and mustard aerial bombs killed 'at least 1,400 people' in Yemen; reports of an organophosphate nerve agent)",
+          "supports": "toll.low",
+          "url": "https://nuke.fas.org/guide/egypt/cw/index.html",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "\"North Yemen civil war\" — Wikipedia (Egyptian use of tear gas, mustard, phosgene and nerve agents 1963–67; Kawma 8 June 1963 ~7 killed; Kitaf 5 January 1967 ~140 of ~270 casualties killed; conservative ~1,500 fatalities)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/North_Yemen_civil_war",
+          "caveat": "Tertiary aggregator; the totals derive from contemporary journalists and royalist sources because Egypt denied the campaign and no neutral on-site investigation was permitted."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "egy-4",
+      "country": "EGY",
+      "role": "perpetrator",
+      "title": "The Rab'a (Rabaa) Massacre",
+      "era": "2013",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Security forces shot dead unarmed demonstrators to clear a political sit-in after a coup — a politically targeted mass killing of a defined group of protesters, which Human Rights Watch judged likely crimes against humanity, placing it in POL.",
+      "agent": "Egyptian police and armed forces under Interior Minister Mohamed Ibrahim and Defence Minister Abdel Fattah el-Sisi",
+      "toll": {
+        "display": "at least 817 to likely 1,000+ killed in a single day",
+        "disputed": true,
+        "low": 817,
+        "high": 1000,
+        "unit": "deaths",
+        "note": "Human Rights Watch, after a year-long investigation, documented a minimum of 817 killed at Rab'a al-Adawiya Square and concluded the real figure was likely at least 1,000 there alone; counting the simultaneous al-Nahda Square dispersal and uncounted morgue/hospital bodies pushes wider estimates from 600 up to about 2,600. HRW also reported that Interior Ministry officials had anticipated a toll of up to 3,500. The 817 floor and the 1,000+ likely figure are both HRW's; the very high end (2,600) comes from broader tallies. Disputed; low and high are sourced. AUDIT 2026-06-18: HRW report verified to exist with the exact title 'All According to Plan: The Rab'a Massacre and Mass Killings of Protesters in Egypt' (12 August 2014), documenting 817 deaths at Rab'a, likely over 1,000 there alone, the Interior Ministry's anticipated toll of up to 3,500, and the 'likely ... crimes against humanity' conclusion — toll.low verified. Rabaa massacre Wikipedia confirms the 600–2,600 range, the 817 minimum, al-Nahda Square, and command under el-Sisi with Interior Minister Mohamed Ibrahim — toll.high verified. Tier independently re-derived as POL (deliberate mass killing of a politically defined group of protesters). VERIFIED."
+      },
+      "received_lens": "suppressed",
+      "summary": "On 14 August 2013, six weeks after the military removed President Mohamed Morsi, Egyptian police and soldiers stormed two Cairo squares occupied by his supporters, killing hundreds of mostly unarmed protesters in hours — one of the largest single-day killings of demonstrators in modern history. Egyptian authorities have prosecuted no one for it.",
+      "relevance": "The contemporary anchor of Egypt's perpetrator ledger: a state that memorialises its own victims of foreign bombs has, within living memory, gunned down its own citizens by the hundreds and then suppressed any accounting.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, \"All According to Plan: The Rab'a Massacre and Mass Killings of Protesters in Egypt\" (12 August 2014)",
+          "supports": "toll.low",
+          "url": "https://www.hrw.org/report/2014/08/12/all-according-plan/raba-massacre-and-mass-killings-protesters-egypt",
+          "caveat": "Advocacy organisation, but the 817 figure is a documented minimum from a year-long investigation, deliberately conservative; HRW states the true Rab'a toll was likely at least 1,000."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Rabaa massacre\" — Wikipedia (estimates ranging from 600 to 2,600 killed; HRW minimum 817 and likely 1,000+; command under el-Sisi)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Rabaa_massacre",
+          "caveat": "Tertiary aggregator; the very high end (2,600) reflects broader/partisan tallies, while the floor follows HRW's documented count."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

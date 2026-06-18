@@ -1,0 +1,147 @@
+{
+  "iso": "COD",
+  "name": "Dem. Rep. Congo",
+  "note": "",
+  "events": [
+    {
+      "id": "cod-1",
+      "country": "COD",
+      "role": "victim",
+      "title": "The Congo Free State",
+      "era": "1885–1908",
+      "era_band": "colonial",
+      "tier": "POL",
+      "tier_reasoning": "Leopold ran a forced-labor extraction regime that killed through hostage-taking, mutilation, starvation and worked-to-death rubber quotas — atrocity in service of plunder, not deliberate destruction of a people as such, so POL rather than EXT.",
+      "agent": "Leopold II and his Force Publique concession companies",
+      "toll": {
+        "display": "~1.2–10 million",
+        "disputed": true,
+        "low": 1200000,
+        "high": 10000000,
+        "unit": "deaths",
+        "note": "The high figure (~10M, Hochschild) is a population DECLINE, not a counted death toll — it folds in disease, a collapsed birth rate and flight alongside killing, and Vansina later distanced himself from the 50%-loss thesis. The low figure (~1.2M, Sanderson 2020) is a demographer's most-likely modeled estimate. No baseline census exists before 1924, so any number is an extrapolation."
+      },
+      "received_lens": "memorial",
+      "summary": "Leopold's rubber regime took villages' women hostage to force men to meet quotas, had the Force Publique sever hands as proof of spent cartridges, and worked or starved people to death across the basin; how many died is contested but the cruelty is documented in detail.",
+      "relevance": "Rightly infamous — and the reference point against which everything else here gets misread as exculpation. It is not; the other ledgers stand alongside it, not instead of it.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Adam Hochschild, King Leopold's Ghost (1998) — argues roughly half the population, ~10 million, perished",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/King_Leopold%27s_Ghost",
+          "caveat": "Popular history with an explicit moral case against Leopold; the 10M figure is population decline, not a verified body count, and has been challenged by demographers."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Jean-Paul Sanderson, demographic reconstruction (2020) — most-likely ~1.2M, plausible range 1–5M",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Atrocities_in_the_Congo_Free_State",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Atrocities in the Congo Free State' — survey of estimates (Casement 3M; Forbath 5M+; Ndaywel è Nziem 5–10M; Vansina's revision)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Atrocities_in_the_Congo_Free_State",
+          "caveat": "Tertiary aggregator; used to map the spread of scholarly estimates, not as a primary count."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cod-2",
+      "country": "COD",
+      "role": "perpetrator",
+      "title": "Kongo Kingdom & the Atlantic slave trade",
+      "era": "16th–18th c.",
+      "era_band": "pre-colonial",
+      "tier": "POL",
+      "tier_reasoning": "Kongo kings and nobles captured, taxed and sold human beings for profit and political advantage — a sustained policy of predation on people, classed POL; the metric of harm is enslavement and the deaths it caused, which cannot be counted as a discrete figure.",
+      "agent": "Kongo kings and nobility (e.g. under Afonso I and his successors)",
+      "toll": {
+        "display": "enslavement of hundreds of thousands; death count uncounted",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "QUARANTINE (audit 2026-06-18): event retained UNVERIFIED because no source establishes a death toll for either the low or high end. West Central Africa (the Kongo–Angola coast and St. Helena region) was the single largest embarkation region of the entire Atlantic trade — roughly 5.7 million of ~12.5 million embarked Africans, per the Slave Voyages database (verified region-wide via corroborating sources). That total spans many polities and centuries, not Kongo alone, and counts people EMBARKED, not deaths. A specific death toll attributable to Kongo's elite slaving is genuinely unsourceable, so low and high are left null. The cited institutional facts (Afonso I's monopoly complaint, the 1645 household slave tax, ~62,000 sold 1780–1790, Thornton's principal-agency thesis) were all independently verified and are real; the UNVERIFIED status reflects the missing death metric, not a fabricated source."
+      },
+      "received_lens": "suppressed",
+      "summary": "From its early expansion wars Kongo enslaved captives, and as the Portuguese trade grew its kings and nobles sold people across the Atlantic — Afonso I himself complained to Lisbon not that slaving was wrong but that nobles were kidnapping freeborn Kongolese and cutting into his royal monopoly; by 1645 a household tax was payable in one slave per year.",
+      "relevance": "Exploitation of Congolese people long predated Leopold, and Congolese elites were principals in it, not only its prey.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "John K. Thornton, Africa and Africans in the Making of the Atlantic World, 1400–1800 — African states as active principals in the trade",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/John_Thornton_(historian)",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Slave Voyages (Trans-Atlantic Slave Trade Database) — ~5.7M embarked from West Central Africa, the largest of any region",
+          "supports": "toll.high",
+          "url": "https://www.slavevoyages.org/resources/images/category/Places/2",
+          "caveat": "Region-wide and multi-century total covering all West Central African polities and ports, not Kongo's elite trade specifically; counts embarkations, not deaths."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Kingdom of Kongo' — Afonso I's letters to João III, the household slave tax of 1645, and ~62,000 sold 1780–1790",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo",
+          "caveat": "Tertiary aggregator; used for the documented institutional facts, corroborated by Thornton's scholarship."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "cod-3",
+      "country": "COD",
+      "role": "perpetrator",
+      "title": "The Congo Wars",
+      "era": "1996–2003",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Overlapping armed conflicts drawing in many states and militias, with most deaths from war-induced collapse of health and food systems rather than a campaign to destroy a group — armed-conflict mortality, so WAR.",
+      "agent": "Congolese and foreign armies and militias (Rwanda, Uganda, Zimbabwe, Angola and dozens of armed groups)",
+      "toll": {
+        "display": "~0.9–5.4 million excess deaths",
+        "disputed": true,
+        "low": 863000,
+        "high": 5400000,
+        "unit": "deaths",
+        "note": "The IRC's headline figure is 5.4M excess deaths Aug 1998–Apr 2007 (its own stated range 3M–7.6M), most from disease and malnutrition, only ~350,000+ from direct violence in 1998–2001. The Human Security Report Project (2009/2010) argued the IRC used too low a pre-war baseline mortality and surveyed unrepresentative areas; recomputing, the IRC's last three surveys fell from ~2.83M to under 900,000 (~863,000) excess deaths for that sub-period. Methodology, not the killing, is what is disputed."
+      },
+      "received_lens": "contested",
+      "summary": "Two back-to-back wars after the 1994 Rwandan genocide spilled across the border drew in nine states and dozens of militias fighting over territory and minerals; armies massacred civilians and looted, and the larger toll came as the war shattered clinics, harvests and supply, killing people through disease and hunger.",
+      "relevance": "Most of this killing was done by Congolese and regional forces, not colonizers — and even the famous 5.4M figure is itself contested sharply downward.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "International Rescue Committee, Mortality in the DRC survey (2008), reported via ReliefWeb — 5.4M, range 3M–7.6M",
+          "supports": "toll.high",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/irc-study-shows-congos-neglected-crisis-leaves-54-million-dead",
+          "caveat": "IRC is an advocacy NGO with a fundraising interest in a high headline figure; its retrospective-survey methodology and baseline assumptions have been formally challenged."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Human Security Report Project, Human Security Report 2009/2010 (Simon Fraser University) — recomputed IRC's last three surveys to under 900,000",
+          "supports": "toll.low",
+          "url": "https://www.science.org/content/article/how-many-have-died-due-congos-fighting-scientists-battle-over-how-estimate-war-related",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Second Congo War' — overview of belligerents and the ~350,000 directly violent deaths 1998–2001",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Second_Congo_War",
+          "caveat": "Tertiary aggregator; used for the conflict outline, not for the contested toll."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

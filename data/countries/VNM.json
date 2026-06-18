@@ -1,0 +1,186 @@
+{
+  "iso": "VNM",
+  "name": "Vietnam",
+  "note": "Both ledgers are populated and well-documented. As victim: the 1944-45 famine under Japanese occupation and Vichy-French administration (a demographic catastrophe, tier STR), and the mass civilian death of the American-war years 1965-75 (tier WAR), with My Lai its emblem. As perpetrator: the Vietnamese Workers' Party land-reform executions of 1953-56 (class-based political killing, tier POL) and the 1968 Hue Massacre carried out by communist forces during the Tet Offensive (tier POL). Every toll here is genuinely contested: famine estimates run from ~400,000 to 2 million, war-death demography from ~882,000 (Hirschman et al.) to Vietnam's official 2 million civilians, land-reform executions from a few thousand (Moise) to 50,000+, and Hue from several hundred (Porter) to ~6,000 (official). Ranges below carry both a low and a high source and flag the dispute rather than picking a side. One ledger is NOT thinner than the other; the asymmetry is only that Vietnam's perpetrator record is dominated by internal political violence rather than external conquest.",
+  "events": [
+    {
+      "id": "vnm-1",
+      "country": "VNM",
+      "role": "victim",
+      "title": "The 1944-45 famine in northern Vietnam",
+      "era": "1944-45",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "Mass death by starvation driven by wartime rice requisition, forced crop-switching, price controls and a flood-wrecked harvest — a structural and policy-made famine, not a campaign to destroy a group as such, so it sits at STR rather than EXT.",
+      "agent": "Imperial Japan (occupation army requisitioning rice and forcing jute cultivation) together with the Vichy-French colonial administration (price ceilings, cash-crop diversion, failed relief)",
+      "toll": {
+        "display": "~400,000-2,000,000 (French/scholarly low ~400,000-1,000,000; Vietnamese official 1-2 million)",
+        "disputed": true,
+        "low": 400000,
+        "high": 2000000,
+        "unit": "deaths",
+        "note": "The figure is genuinely unknown and politically charged. Twenty provinces reported ~380,000 starvation plus ~20,000 disease deaths in May 1945; a French military estimate gave ~500,000; Governor-General Decoux's memoirs say about a million northerners starved; Ho Chi Minh's September 1945 independence proclamation and the Viet Minh asserted 2 million. These are starvation-mortality estimates over a few months in Tonkin and northern Annam, not a precise body count."
+      },
+      "received_lens": "memorial",
+      "summary": "In the last winter of the Second World War the rice ran out across northern Vietnam. The occupying Japanese army seized harvests for its troops and forced farmers to grow jute instead of rice, the Vichy-French administration held prices artificially low while the black-market rate soared, and a catastrophic 1944 flood wrecked the crop. People died in the villages and on the roads in their hundreds of thousands over a few months, somewhere between roughly four hundred thousand and two million of them.",
+      "relevance": "The same northern population that suffered this colonial-era catastrophe would, within a decade of liberation, produce a state that carried out its own mass killings — the famine victims and the land-reform executioners came from the same villages.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Geoffrey Gunn, 'The Great Vietnamese Famine of 1944-45 Revisited', The Asia-Pacific Journal: Japan Focus, vol. 9, issue 5 (2011)",
+          "supports": "summary",
+          "url": "https://apjjf.org/2011/9/5/geoffrey-gunn/3483/article",
+          "caveat": "Peer-reviewed historical study; treats the toll as uncertain and emphasises Japanese requisition and Vichy mismanagement as joint causes rather than fixing a single number."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Vietnamese famine of 1944-45', Wikipedia — compiles the provincial 1945 reports (~380,000 starvation + ~20,000 disease), the French military ~500,000 estimate and Decoux's ~1 million",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Vietnamese_famine_of_1944%E2%80%931945",
+          "caveat": "Tertiary encyclopaedia used only to assemble the lower-end estimates, which trace to French colonial reports and Decoux's memoirs."
+        },
+        {
+          "kind": "primary",
+          "cite": "Ho Chi Minh, Proclamation of Independence of the Democratic Republic of Vietnam, 2 September 1945 — cites 2 million famine deaths",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Proclamation_of_Independence_of_the_Democratic_Republic_of_Vietnam",
+          "caveat": "Founding political document of the DRV; the 2 million figure is a wartime nationalist claim used to indict France and Japan, so it anchors the high end as a contested upper bound, not a verified count."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "vnm-2",
+      "country": "VNM",
+      "role": "victim",
+      "title": "Vietnamese civilian dead of the American war",
+      "era": "1965-75",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Civilian death from bombing, artillery, free-fire zones and ground operations during an armed conflict — and discrete atrocities such as My Lai within it — falls under war conduct (WAR); the killing was a consequence of how the war was waged, not a programme to exterminate a group, so it is not EXT.",
+      "agent": "United States and allied (Republic of Vietnam, South Korean) forces; the My Lai massacre specifically by Charlie Company, 1st Battalion, 20th Infantry Regiment under Lt. William Calley",
+      "toll": {
+        "display": "Vietnamese civilians ~400,000-2,000,000; total Vietnamese war deaths ~882,000 (demographic) to ~3.4 million (official)",
+        "disputed": true,
+        "low": 400000,
+        "high": 2000000,
+        "unit": "deaths",
+        "note": "Civilian-only death estimates diverge sharply: Guenter Lewy (1978) ~405,000-627,000 North and South combined; Rummel ~360,000-391,000; Vietnam's 1995 government figure ~2 million civilians for 1955-75. The low/high here bracket the civilian estimates. For total Vietnamese war dead (soldiers and civilians, 1965-75), the Hirschman-Preston-Loi 1995 demographic study gives 791,000-1,141,000 (most likely ~882,000); Vietnam's official total runs to ~3.4 million. My Lai alone: US Army Peers inquiry counted 175-200 killed, the Vietnamese memorial lists 504 names."
+      },
+      "received_lens": "contested",
+      "summary": "Across the decade of heavy American involvement, hundreds of thousands of Vietnamese civilians were killed by bombing, artillery, free-fire zones and ground sweeps on both sides of the line. On 16 March 1968 the worst single confirmed American atrocity made the pattern undeniable: Charlie Company entered the hamlet of My Lai expecting Viet Cong, found none, and murdered between roughly 350 and 500 unarmed women, children and old men, raping and mutilating as they went. Of the soldiers charged, only Lieutenant William Calley was convicted, and he served three and a half years under house arrest.",
+      "relevance": "Vietnam is remembered worldwide as the archetypal victim of a superpower's war — the necessary other half of the ledger is that the Vietnamese state itself, in the same years, was killing on political and class lines.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Charles Hirschman, Samuel Preston & Vu Manh Loi, 'Vietnamese Casualties During the American War: A New Estimate', Population and Development Review 21:4 (1995) — 791,000-1,141,000 Vietnamese war deaths 1965-75, most likely ~882,000",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Vietnam_War_casualties",
+          "caveat": "Demographic estimate of total Vietnamese deaths (military and civilian); it is the conservative anchor. URL is the encyclopaedia summary citing the study, not the paywalled journal article itself."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Vietnam War casualties', Wikipedia — compiles the Hirschman et al. demographic estimate, Lewy's and Rummel's civilian figures, and Vietnam's 1995 official ~2 million civilian / ~3.4 million total figures",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Vietnam_War_casualties",
+          "caveat": "Tertiary encyclopaedia; the high end (Vietnam's official ~2 million civilians) is a government figure for 1955-75 and is contested as high by Western demographers."
+        },
+        {
+          "kind": "reference",
+          "cite": "'My Lai massacre', Wikipedia — US Army Peers Inquiry count 175-200, Vietnamese memorial list of 504 names, conviction of Lt. William Calley",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/My_Lai_massacre",
+          "caveat": "Tertiary encyclopaedia; the My Lai figures trace to the US Army's own Peers Commission and the Son My memorial, and the conviction details are court record."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "vnm-3",
+      "country": "VNM",
+      "role": "perpetrator",
+      "title": "The North Vietnam land-reform executions",
+      "era": "1953-56",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "A state-directed campaign of class-based denunciation tribunals and executions of landlords and 'rich peasants' — political and class killing carried out by the ruling party, which fits POL rather than the group-destruction of EXT or the disease-driven collapse of STR.",
+      "agent": "Democratic Republic of Vietnam — the Vietnamese Workers' Party (Lao Dong) leadership; a May 1953 Politburo directive set an execution quota of roughly one per thousand of population",
+      "toll": {
+        "display": "~3,000-15,000 executions (Moise); broader claims 800-2,500 (Porter) up to ~50,000",
+        "disputed": true,
+        "low": 3000,
+        "high": 15000,
+        "unit": "deaths",
+        "note": "Estimates are highly contested. Edwin Moise, the standard scholarly source, judges executions 'almost certainly between 3,000 and 15,000', often cited near ~13,500-15,000; Gareth Porter put forward a much lower 800-2,500; a figure of ~50,000 was once widely repeated, and outer claims reach 200,000. Declassified Vietnamese and Hungarian archive material indicates a toll well below the inflated Cold-War numbers but above the lowest skeptical figures. These are executions; additional deaths from imprisonment and 'struggle sessions' are not fully counted."
+      },
+      "received_lens": "suppressed",
+      "summary": "Between 1953 and 1956 the Vietnamese Workers' Party drove a land-redistribution campaign through 'struggle sessions' in which peasants were mobilised to denounce landlords and 'rich peasants' before untrained tribunals, with a Politburo directive setting an execution quota of about one per thousand people. Several thousand to perhaps fifteen thousand were shot or beaten to death, many on false or class-determined accusations, before the party admitted 'serious mistakes' and launched a Rectification of Errors in 1956.",
+      "relevance": "The state celebrated abroad as a victim of colonialism turned, in peacetime and against its own farmers, into the agent of class-based mass killing — the perpetrator half of Vietnam's ledger.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Edwin E. Moise, Land Reform in China and North Vietnam: Consolidating the Revolution at the Village Level (University of North Carolina Press, 1983) — estimates executions 'almost certainly between 3,000 and 15,000'",
+          "supports": "toll.low",
+          "url": "https://edmoise.sites.clemson.edu/landbook.html",
+          "caveat": "The standard academic monograph on the campaign; Moise argues the violence was partly a product of pre-existing village inequities, not only policy. URL is the author's own Clemson page for the book."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Land reform in North Vietnam', Wikipedia — compiles Moise's range, Porter's 800-2,500, the once-common ~50,000 figure, the May 1953 Politburo one-per-thousand directive and the 1956 Rectification of Errors",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Land_reform_in_North_Vietnam",
+          "caveat": "Tertiary encyclopaedia; the higher figures (~50,000 and above) are Cold-War-era estimates now generally regarded as inflated, retained here only to mark the upper bound of the dispute."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "vnm-4",
+      "country": "VNM",
+      "role": "perpetrator",
+      "title": "The Hue Massacre",
+      "era": "1968",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Summary executions of officials, intellectuals, suspected collaborators and religious figures during a military occupation — a political purge of a perceived class of enemies, which fits POL; it occurred inside a battle but the killings were deliberate executions of unarmed people, not collateral war damage.",
+      "agent": "Viet Cong (National Liberation Front) and the People's Army of Vietnam, during their month-long occupation of Hue in the 1968 Tet Offensive",
+      "toll": {
+        "display": "~several hundred to ~6,000 (mass graves yielded ~2,800 bodies; South Vietnam listed 4,062 murdered or abducted)",
+        "disputed": true,
+        "low": 700,
+        "high": 6000,
+        "unit": "deaths",
+        "note": "The scale is sharply contested. Official and Douglas Pike's accounts give ~2,800-6,000 killed; almost 2,800 bodies were recovered from mass graves in 1968-69 and South Vietnam published a list of 4,062 people murdered or abducted. Skeptics dispute these: Gareth Porter argued for only 'several hundred' executions, Ngo Vinh Long claimed ~710, Len Ackland ~300-400. Historian James Willbanks concludes mass executions did occur but the exact number is unresolved. Low and high here bracket the skeptical and official ends."
+      },
+      "received_lens": "denied",
+      "summary": "During the Tet Offensive of 1968 Viet Cong and North Vietnamese forces held the old imperial capital of Hue for about a month, and during the occupation and their retreat they rounded up and executed officials, teachers, priests, suspected collaborators and others on prepared lists. Mass graves found over the following year yielded close to 2,800 bodies, some bound, tortured or buried alive; South Vietnam listed more than four thousand murdered or abducted, while skeptical historians put the executions in the several hundreds.",
+      "relevance": "Committed in the same offensive that produced My Lai, the Hue killings are the mirror image of Vietnam's victimhood — and remain officially denied or minimised in Hanoi, where My Lai is memorialised.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "James H. Willbanks, The Tet Offensive: A Concise History (Columbia University Press, 2007) — concludes mass executions did occur at Hue though exact numbers are disputed; cited via the 'Massacre at Hue' literature",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Massacre_at_Hu%E1%BA%BF",
+          "caveat": "Willbanks is a recognised military historian taking the middle position between Pike and Porter. URL is the encyclopaedia entry citing his conclusion, not the book itself."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Massacre at Hue', Wikipedia — official/Pike toll ~2,800-6,000, ~2,800 bodies recovered from mass graves, South Vietnam's list of 4,062 murdered or abducted",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Massacre_at_Hu%E1%BA%BF",
+          "caveat": "Tertiary encyclopaedia; the high figures derive from South Vietnamese government counts and Douglas Pike, a US/RVN-aligned analyst, so they carry a propaganda incentive and are contested."
+        },
+        {
+          "kind": "press",
+          "cite": "Gareth Porter, 'The 1968 Hue Massacre' (Indochina Chronicle, reproduced online) — argues the executions numbered only several hundred and that official tolls were inflated",
+          "supports": "toll.low",
+          "url": "https://msuweb.montclair.edu/~furrg/porterhue1.html",
+          "caveat": "Porter is an anti-war revisionist who minimises the massacre; his low estimate is itself disputed and is included to anchor the contested low end, not as settled fact."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

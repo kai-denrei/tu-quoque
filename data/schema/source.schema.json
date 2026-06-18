@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "tuquoque/source",
+  "title": "source (handover §6.4)",
+  "type": "object",
+  "required": ["cite"],
+  "properties": {
+    "kind": { "enum": ["primary", "scholarly", "reference", "press", null], "description": "primary > scholarly > reference > press" },
+    "cite": { "type": "string", "description": "human citation, e.g. 'Hochschild, King Leopold's Ghost (1998)'" },
+    "supports": { "type": ["string", "null"], "description": "what it backs: toll.high | toll.low | summary | tier" },
+    "url": { "type": ["string", "null"], "description": "archived if possible" },
+    "caveat": { "type": ["string", "null"], "description": "MANDATORY for any biased source (colonial chronicler, state organ, partisan NGO)" }
+  }
+}
