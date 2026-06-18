@@ -1,0 +1,94 @@
+{
+  "iso": "JOR",
+  "name": "Jordan",
+  "note": "Built from scratch 2026-06-18 via live web research. The entry is deliberately asymmetric, and the asymmetry runs against the usual grain: Jordan's best-documented mass-atrocity event is one it committed, not one it suffered. PERPETRATOR side: Black September (1970–71), when King Hussein's army drove the PLO and armed Palestinian factions out of the kingdom in fighting that killed thousands and is remembered across the Palestinian world as a slaughter — the dominant, best-sourced atrocity event in modern Jordanian history. VICTIM side: the territory of modern Jordan (Transjordan) spent the centuries before independence as an Ottoman, then briefly Egyptian, then British-mandate periphery, and its largest documented atrocity-against-its-own-people is the Ottoman suppression of the 1910 Karak revolt — an 'indiscriminate massacre' that is real and well-attested in the historical record but for which no agreed death count exists (sources give 'hundreds imprisoned' and ten leaders executed, but no massacre body-count). The 1834 Egyptian siege and destruction of al-Karak under Ibrahim Pasha is also real but pre-modern and similarly unquantified. The Great Syrian/Lebanese famine of 1915–18, which killed perhaps half a million in Greater Syria, fell mainly on Mount Lebanon and the coast; scholarship on Transjordan describes severe hardship, requisition and the 1918 al-Salt Christian exodus but NOT mass starvation death on that scale, so no large famine toll is attributed to Jordan here. No figure or citation was invented; where the record gives no sourceable number, the toll is left null and the event marked UNVERIFIED rather than filled with a guess.",
+  "events": [
+    {
+      "id": "jor-1",
+      "country": "JOR",
+      "role": "victim",
+      "title": "The Ottoman Suppression of the Karak Revolt",
+      "era": "1910",
+      "era_band": "colonial",
+      "tier": "POL",
+      "tier_reasoning": "Ottoman forces crushed a local uprising against conscription and taxation with what the sources call an 'indiscriminate massacre' plus exemplary executions and mass imprisonment — state violence to break political resistance, which is POL rather than a war between armies or a campaign to exterminate a people.",
+      "agent": "The Ottoman state — the Damascus governor Sami Pasha and the military column he led into al-Karak in December 1910",
+      "toll": {
+        "display": "no agreed death count; sources describe an 'indiscriminate massacre,' 10 revolt leaders executed (5 in al-Karak, 5 in Damascus), and hundreds of Karakis imprisoned with harsh sentences",
+        "disputed": true,
+        "low": 10,
+        "high": null,
+        "unit": "deaths",
+        "note": "The historical record is qualitative, not quantitative. Sources agree Sami Pasha's forces ended the revolt with an 'indiscriminate massacre' and that 10 named leaders were executed and hundreds imprisoned, but give NO body-count for the massacre itself. The low (10) is only the documented executions — a hard floor, not the true toll, which was certainly higher but is not sourceable as a number. The high is left null. The revolt itself opened with rebels killing Ottoman census/garrison personnel; this toll line concerns the people of Karak/Transjordan as victims of the suppression."
+      },
+      "received_lens": "memorial",
+      "summary": "When Ottoman census teams arrived in al-Karak in December 1910 as a prelude to conscription, disarmament and new taxes, the townspeople rose, killed the officials and burned the government quarter; the Damascus governor Sami Pasha arrived days later and crushed the rising with an indiscriminate massacre, hanged ten of its leaders as an example and shipped hundreds of Karakis to Damascus prisons under hard-labour and life sentences.",
+      "relevance": "Jordan's people on the receiving end of an imperial state's punitive violence — the victim chapter that sits before the same land's own independent state, sixty years later, turns its army on the Palestinians in its midst in the perpetrator ledger.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Karak revolt\" — Wikipedia (4–10 Dec 1910 uprising in Transjordan against Ottoman conscription/taxation; suppressed by Sami Pasha with an 'indiscriminate massacre'; 10 leaders executed, hundreds imprisoned in Damascus)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Karak_revolt",
+          "caveat": "Tertiary aggregator; describes the suppression qualitatively as a massacre and gives the executions/imprisonments but no death count for the massacre itself."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Karak Resources Project (archaeological/historical survey of the Karak plateau), \"The Karak Plateau in the Ottoman Period\" — covers the 1910 revolt and notes leading rebels were publicly executed and the suppression became a symbol of Ottoman oppression for later Arab nationalists",
+          "supports": "summary",
+          "url": "https://www.karakresourcesproject.org/ottoman-period",
+          "caveat": "Scholarly regional history project; like the other sources it gives no specific casualty figure for the suppression, focusing on political consequences (executions, fines, imprisonment) rather than a body-count. AUDIT 2026-06-18: page verified live to exist and to cover the 1910 revolt, public execution of leaders, and its symbolism of Ottoman oppression for Arab nationalists."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "jor-2",
+      "country": "JOR",
+      "role": "perpetrator",
+      "title": "Black September — Jordan's War on the Palestinian Fedayeen",
+      "era": "1970–1971",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Jordan's army fought an armed adversary — the PLO and Palestinian factions that had built a state-within-a-state — in pitched urban combat and camp bombardment that killed thousands of fighters and civilians together; it is mass killing in the course of an internal war (WAR), not a campaign aimed at exterminating the Palestinians as a people.",
+      "agent": "The Jordanian state — King Hussein's army (the Arab Legion / Jordanian Armed Forces), shelling Palestinian camps and districts and storming fedayeen positions in Amman and the north",
+      "toll": {
+        "display": "Jordan: ~3,000 dead (fighters, soldiers and civilians); scholarly estimates ~2,000–3,400 (Massad: 3,400); PLO/Arafat claim: 25,000 Palestinians killed",
+        "disputed": true,
+        "low": 2000,
+        "high": 25000,
+        "unit": "deaths",
+        "note": "Sharply contested. Jordan's own figure is about 3,000 killed in total, counting Palestinian fighters, Jordanian soldiers and civilians. Scholarly estimates of Palestinian dead cluster around 2,000–3,400 (Joseph Massad, 'Colonial Effects,' cites 3,400; some scholars go as low as 1,500–2,000, others to 7,000–8,000). At the high end Yasser Arafat and the PLO claimed 25,000 Palestinians killed — the figure used in Palestinian national memory but well above scholarly counts. The low (2,000) is the scholarly floor; the high (25,000) is the PLO claim, flagged as a partisan maximum. Jordanian military dead are separately put at roughly 537. The composition (combatant vs. civilian) is itself disputed, with camp shelling putting civilians among the dead. AUDIT 2026-06-18: both toll ends are now correctly sourced — low (2,000) and high (25,000 PLO claim) both via the Wikipedia 'Black September' casualties section (re-verified live); Massad ('Colonial Effects', verified to exist) anchors the scholarly ~3,400 mid, NOT the 25,000 maximum. The original source mapping wrongly attributed toll.high=25,000 to Massad; corrected."
+      },
+      "received_lens": "triumphal",
+      "summary": "By 1970 armed Palestinian factions had turned parts of Jordan into a fedayeen enclave the monarchy no longer controlled, and after the PFLP hijacked and blew up airliners in the Jordanian desert, King Hussein loosed his army; in roughly ten days of fighting in September 1970, extended into mid-1971, Jordanian forces shelled Palestinian camps and stormed fedayeen positions in Amman and the north, killing thousands and ultimately driving the PLO out of the country to Lebanon.",
+      "relevance": "The same land whose people were massacred by an empire in 1910 here turns its own army on the Palestinians sheltering within it — Jordan as perpetrator of one of the defining traumas of modern Palestinian history, an event whose name a vengeful splinter group then took for itself.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Black September\" — Wikipedia (1970–71 Jordanian Civil War; King Hussein vs. PLO; main fighting 16–27 Sep 1970; casualties section: Jordan ~3,000 total dead, scholarly estimates 2,000–3,400, Massad 'Colonial Effects' cites 3,400, Arafat/PLO claim 25,000 Palestinians killed; Jordanian military ~537 dead)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Black_September",
+          "caveat": "Tertiary aggregator (figures re-verified against the live article 2026-06-18: scholarly 'between 2,000 and 3,400', Massad '3,400 killed', 'Arafat claimed ... 25,000 Palestinians', military '~537 dead' — all confirmed). It is the source compiling the competing figures, so the dispute it reports (scholarly 2,000–3,400 vs. PLO 25,000) is exactly the contested range, not a settled count. This is the ONLY source carrying the toll.high=25,000 PLO claim; both ends of the contested toll are sourced here."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Joseph A. Massad, \"Colonial Effects: The Making of National Identity in Jordan\" (Columbia University Press, 2001) — cited in the literature for a figure of ~3,400 Palestinians killed in the 1970–71 events",
+          "supports": "toll.low",
+          "url": "https://cup.columbia.edu/book/colonial-effects/9780231123235/",
+          "caveat": "Scholarly monograph (verified to exist; author, title, publisher and 2001 date confirmed against the Columbia UP catalog page). Massad's figure is ~3,400 — the upper end of the scholarly range, NOT the 25,000 maximum. AUDIT NOTE: this citation does NOT support toll.high=25,000; the 25,000 figure derives from Arafat/the PLO and is reported only by the Wikipedia 'Black September' source. Massad is therefore mapped to the scholarly cluster (anchoring the 2,000–3,400 low/mid range), not the partisan high."
+        },
+        {
+          "kind": "press",
+          "cite": "France 24 / AFP, \"Fifty years ago: Black September for PLO\" (15 Sep 2020) — Jordan says ~3,000 (fighters, soldiers and civilians) died; the PLO puts the toll in the tens of thousands; more than 4,000 died in ten days of fighting per the report",
+          "supports": "summary",
+          "url": "https://www.france24.com/en/20200915-fifty-years-ago-black-september-for-plo",
+          "caveat": "Wire-service retrospective; restates the Jordan-vs-PLO discrepancy rather than adjudicating it, and rounds the September fighting toll to 'more than 4,000.' (URL returned HTTP 403 on direct fetch; figures confirmed via the search index and matching AFP syndications such as Dhaka Tribune and Gulf News.) AUDIT 2026-06-18: re-confirmed via search index — Jordan's ~3,000 (Palestinian fighters, Jordanian soldiers and civilians) and the PLO's 'tens of thousands' both restated; article exists at the cited France 24 URL, published 15 Sep 2020."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

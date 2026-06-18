@@ -1,0 +1,193 @@
+{
+  "iso": "CUB",
+  "name": "Cuba",
+  "note": "Researched 2026-06-18. Both ledgers are well populated. Victim side: the demographic collapse of Cuba's Taíno after 1492 under Spanish conquest (a colonial-era atrocity that predates the Cuban state but is the formative violence done to the island's first peoples — agency named plainly as Spanish), and Spain's 1896–1898 reconcentración, the world's first modern concentration-camp system, which killed roughly a tenth of the island's population. Perpetrator side: the revolutionary government's firing-squad executions and political killings from 1959 onward (the well-documented core compiled by the Cuba Archive), and the 1994 '13 de Marzo' tugboat massacre, in which state vessels deliberately rammed and sank a boat of fleeing civilians. The dual lens is stark: the same 1959 revolution that overthrew Batista's dictatorship and ended an era of colonial and authoritarian brutality became, in power, a perpetrator against its own people. Tolls for the deep-historical Taíno event are population-decline figures, not body counts, and are flagged as such; the reconcentración and 13 de Marzo figures rest on stronger documentation, the latter on an Inter-American Commission on Human Rights finding.",
+  "events": [
+    {
+      "id": "cub-1",
+      "country": "CUB",
+      "role": "victim",
+      "title": "Collapse of the Taíno of Cuba",
+      "era": "1511–1550s",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The collapse was driven mainly by Old World epidemic disease against which the Taíno had no immunity, compounded by encomienda forced labor, famine, and the violence of conquest — a structural/demographic collapse rather than a single program to exterminate the group, though the enslavement and killing were deliberate.",
+      "agent": "The Spanish crown and the conquistadors and colonists of Cuba under Diego Velázquez (the encomienda system, tribute, and conquest)",
+      "toll": {
+        "display": "~tens to hundreds of thousands (a pre-conquest population reduced by ~80–90% within decades to a few thousand by mid-century)",
+        "disputed": true,
+        "low": 50000,
+        "high": 300000,
+        "unit": "deaths",
+        "note": "Population-DECLINE figure, not a counted death toll. Pre-conquest estimates for Cuba are genuinely unsettled and span a wide range; figures in the literature run from tens of thousands to several hundred thousand. Within a few decades of the 1511 Spanish invasion the indigenous population had fallen by roughly 80–90% to a few thousand survivors; for the Caribbean as a whole some 90% of the native population may have died within a half-century. The low and high here bracket plausible pre-contact estimates that were lost, not deaths individually attributable to Spanish violence versus disease."
+      },
+      "received_lens": "memorial",
+      "summary": "After Diego Velázquez's forces conquered Cuba beginning in 1511, the island's Taíno were driven into mines and fields under the encomienda system and crushed by tribute demands, while smallpox, measles, and other Old World diseases swept a people with no immunity. The Hispaniola cacique Hatuey, who crossed to Cuba to rally resistance, was captured and burned at the stake; within decades the indigenous population had fallen by some 80–90% to a few thousand.",
+      "relevance": "The first peoples of the island were nearly erased before the enslaved Africans and Spanish settlers who would build colonial Cuba had fully arrived — the foundational atrocity beneath everything that followed on the island.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Taíno genocide' overview — pre-contact Caribbean estimates span 10,000 to 1,000,000; 80–90% of the Taíno died within the first 30 years; enslavement and forced labor (not disease alone) as a major killer",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Ta%C3%ADno_genocide",
+          "caveat": "Tertiary aggregator; pre-contact population for Cuba is genuinely unsettled and estimates vary widely. Audit note: this page does not itself name Hatuey; the Hatuey detail in the summary rests on the Las Casas primary source, not this aggregator."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Andrés Reséndez, The Other Slavery (2016) — argues enslavement and forced labor, not disease alone, were major killers of the indigenous Caribbean, since populations did not rebound as European populations did after the Black Death",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Ta%C3%ADno_genocide",
+          "caveat": "Cited via the reference overview rather than directly from Reséndez's monograph; labor-mortality figures are scholarly estimates, not censuses."
+        },
+        {
+          "kind": "primary",
+          "cite": "Bartolomé de las Casas, A Short Account of the Destruction of the Indies (1542) — contemporary eyewitness documentation of Spanish atrocities against the Taíno, including the burning of Hatuey in Cuba",
+          "supports": "summary",
+          "url": null,
+          "caveat": "Las Casas was an advocate against the conquest and his quantities are widely held to be polemically inflated; used for the qualitative record, not the toll."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cub-2",
+      "country": "CUB",
+      "role": "victim",
+      "title": "The reconcentración",
+      "era": "1896–1898",
+      "era_band": "colonial",
+      "tier": "POL",
+      "tier_reasoning": "A deliberate state policy of forcibly herding a civilian population into garrison towns and camps, where engineered conditions of starvation and disease killed roughly a tenth of the island's people — mass death inflicted on a population to break a rebellion, not an effort to eliminate an ethnic group as such.",
+      "agent": "Spain's military governor of Cuba, General Valeriano Weyler, and the Spanish colonial army",
+      "toll": {
+        "display": "~155,000–400,000 deaths (commonly ~170,000, roughly 10% of the population)",
+        "disputed": true,
+        "low": 155000,
+        "high": 400000,
+        "unit": "deaths",
+        "note": "Estimates of civilian deaths from the reconcentración range from about 155,000–170,000 (often cited as roughly 10% of Cuba's population at the time) up to 400,000 in higher scholarly estimates. Deaths came overwhelmingly from starvation and from dysentery, typhoid, and other diseases bred by overcrowding and lack of sanitation in the camps rather than from direct killing. The low (~155,000) and high (~400,000) bracket the cited range; ~170,000 is the most commonly repeated figure."
+      },
+      "received_lens": "memorial",
+      "summary": "To deny Cuban independence fighters their rural support, Weyler in 1896 ordered the countryside emptied: peasants were forced within days into fortified towns and camps, and anyone who stayed outside was treated as a rebel. The camps had inadequate food, shelter, and sanitation, and starvation and epidemic disease killed on the order of 170,000 people — about a tenth of the island — in what is often called the first modern concentration-camp system.",
+      "relevance": "Cuba's modern victim ledger under its colonial ruler — a campaign of engineered civilian death that helped pull the United States into the 1898 war and opened the next chapter of foreign domination over the island.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Reconcentration policy' overview — Weyler's 1896 orders; deaths estimated at 170,000–400,000, with the lower band of ~155,000–170,000 cited as roughly 10% of the population; policy abolished March 1898 by General Ramón Blanco",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Reconcentration_policy",
+          "caveat": "Tertiary aggregator; the higher 400,000 figure rests on a narrower set of scholarly estimates."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Cuban War of Independence' overview — reconcentración caused the deaths of at least 170,000 Cubans, about 10% of the population, with a low band around 155,000",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Cuban_War_of_Independence",
+          "caveat": "Tertiary aggregator."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "John Lawrence Tone, War and Genocide in Cuba, 1895–1898 (2006) — monograph analyzing Weyler's reconcentración and its civilian death toll",
+          "supports": "summary",
+          "url": "https://muse.jhu.edu/article/228445/summary",
+          "caveat": "URL points to a published review of the book rather than the full text."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cub-3",
+      "country": "CUB",
+      "role": "perpetrator",
+      "title": "Revolutionary firing squads and political killings",
+      "era": "1959–present (core 1959–1960s)",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Sustained state political killing — execution by firing squad after summary revolutionary tribunals, extrajudicial killings, and deaths in custody — directed at perceived opponents of the regime for political reasons rather than at an ethnic group as such.",
+      "agent": "The revolutionary government of Cuba under Fidel Castro, its tribunals (notably under Che Guevara at La Cabaña), and state security forces",
+      "toll": {
+        "display": "~5,600 firing-squad executions plus ~1,200 extrajudicial killings documented (some 10,700+ regime-attributed deaths total)",
+        "disputed": true,
+        "low": 5600,
+        "high": 10723,
+        "unit": "deaths",
+        "note": "The Cuba Archive (Free Society Project) documents roughly 5,600 firing-squad executions and about 1,200 extrajudicial assassinations under the Castro government, requiring two independent sources per case; its broader database of regime-attributed deaths reaches about 10,723. The low (~5,600) reflects documented executions; the high (~10,723) the documented total across categories. These are minimum documented figures from a project critical of the regime; Cuban state records are not open, and counts at specific sites such as La Cabaña under Che Guevara in 1959 themselves range from about 55 to several hundred. The Cuban government and some scholars dispute the framing of these as atrocities, citing wartime-justice and Nuremberg-style justifications."
+      },
+      "received_lens": "denied",
+      "summary": "After taking power in January 1959, the new government executed members of Batista's forces and, over the following years, political opponents, after rapid revolutionary tribunals — crowds chanting 'al paredón' ('to the wall'). Che Guevara oversaw the tribunals and executions at La Cabaña fortress in 1959; over the decades the Cuba Archive documents some 5,600 firing-squad executions and about 1,200 extrajudicial killings under the regime.",
+      "relevance": "The revolution that overthrew Batista's dictatorship and promised to end an era of repression became, in power, a state that killed its own dissidents — Cuba's victim ledger producing, within a generation, its perpetrator ledger.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "American Enterprise Institute / Cuba Archive data — ~5,600 firing-squad executions and ~1,200 extrajudicial assassinations; ~10,723 documented regime-attributed deaths; Cuba Archive requires two independent sources per case",
+          "supports": "toll.high",
+          "url": "https://www.aei.org/carpe-diem/counting-victims-of-the-castro-regime-nearly-11000-to-date/",
+          "caveat": "Both the AEI outlet and the underlying Cuba Archive are politically opposed to the Cuban government; figures are documented minimums and the framing is contested."
+        },
+        {
+          "kind": "reference",
+          "cite": "'La Cabaña' overview — Che Guevara commanded the fortress prison January–June 1959; executions there estimated from 55 (Jon Lee Anderson) to 105, with several hundred executed nationwide in the period",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/La_Caba%C3%B1a",
+          "caveat": "Tertiary aggregator; site-specific counts are themselves disputed and Cuban records are not open."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Jon Lee Anderson, Che Guevara: A Revolutionary Life (1997) — biographer's account giving ~55 executions under Guevara's jurisdiction at La Cabaña, lower than figures cited by regime critics",
+          "supports": "toll.low",
+          "url": null,
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cub-4",
+      "country": "CUB",
+      "role": "perpetrator",
+      "title": "The '13 de Marzo' tugboat massacre",
+      "era": "13 July 1994",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "A deliberate act by state agents to kill fleeing civilians — ramming and sinking a boat of would-be emigrants, including children — found by the Inter-American Commission on Human Rights to be a violation of the right to life and characterized by Amnesty International as extrajudicial execution.",
+      "agent": "Cuban state vessels and their crews (tugboats Polargo 2 and Polargo 5), agents of the Castro government",
+      "toll": {
+        "display": "41 deaths (including 10 children); 31 survivors",
+        "disputed": false,
+        "low": 41,
+        "high": 41,
+        "unit": "deaths",
+        "note": "The Inter-American Commission on Human Rights (Report No. 47/96) and Amnesty International both find that 41 of the 72 people aboard died, including 10 minors, when state vessels rammed and swamped the tugboat about seven miles off Havana; 31 survived. The figure is not in serious dispute; what Cuba contests is responsibility, claiming the sinking was an accident."
+      },
+      "received_lens": "denied",
+      "summary": "Before dawn on 13 July 1994, about 72 people fled Cuba aboard the old tugboat '13 de Marzo'. Seven miles offshore, government vessels rammed the boat and blasted those on deck — including women and children — with high-pressure water hoses until it sank, killing 41 people, among them 10 children. The government denied responsibility and called it an accident; Fidel Castro later described the agents' actions as a 'truly patriotic effort'.",
+      "relevance": "State violence turned against ordinary Cubans for the act of trying to leave — the perpetrator ledger pointed at the very population the revolution claimed to serve, and one of the most documented cases against the regime.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "Inter-American Commission on Human Rights, Report No. 47/96, Case 11.436 (16 October 1996) — concludes the Cuban State is responsible for violating the right to life of the 41 people who died when government boats rammed and sank the tugboat",
+          "supports": "summary",
+          "url": "https://hrlibrary.umn.edu/cases/1996/cuba47-96.htm",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "Amnesty International, 'Cuba: The sinking of the \"13 de Marzo\" Tugboat on 13 July 1994' (1997) — finds sufficient evidence of an official operation and characterizes the deaths as extrajudicial execution; 41 dead including 10 minors",
+          "supports": "toll.high",
+          "url": "https://www.amnesty.org/en/documents/amr25/013/1997/en/",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "'Sinking of tugboat 13 de Marzo' overview — 41 of 72 aboard killed including 10 children; vessels Polargo 2 and Polargo 5 rammed the tug; Cuba denied responsibility and claimed it was accidental",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Sinking_of_tugboat_13_de_Marzo",
+          "caveat": "Tertiary aggregator."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

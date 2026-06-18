@@ -1,0 +1,176 @@
+{
+  "iso": "BDI",
+  "name": "Burundi",
+  "note": "Burundi is one of the clearest cases in this atlas of why the single lens fails: the same two peoples — the Hutu majority and the Tutsi minority — appear on both ledgers, switching roles within a single human lifetime, and sometimes within a single year. The deepest victim wound is the Ikiza of 1972, when the Tutsi-dominated state set out to kill the educated Hutu and killed by the conservative scholarly estimate between 100,000 and 150,000 people, by the higher estimates as many as 200,000-300,000; that same event is the country's paradigmatic perpetrator event, the act of the army and government under President Micombero, and so it sits on both ledgers, the same killing seen from the two ends of the gun. Then in October 1993 the lens inverted: after Tutsi soldiers assassinated the first elected Hutu president, Hutu peasants and FRODEBU local officials massacred Tutsi civilians — a 2002 UN/government study counted 116,059 dead across the wider violence — and the Tutsi-dominated army answered with its own reprisal massacres of Hutu, so that within weeks each people was at once victim and perpetrator. Both the Tutsi killings of 1993 and the army's reprisals fed a civil war (1993-2005) that killed on the order of 300,000 in total. The numbers are genuinely contested — whether 1972 or 1993 'counts' as genocide is disputed by serious scholars, and the dispute is itself politically loaded inside Burundi, where each community remembers its own dead and forgets the other's — so the ranges here are kept wide and the disputes are shown rather than resolved. Nothing was inflated to make the columns match; the ledgers balance on their own because in Burundi the killing genuinely ran both ways. There is no defensible pre-colonial mass-atrocity figure for the old Kingdom of Burundi and none is invented here.",
+  "events": [
+    {
+      "id": "bdi-1",
+      "country": "BDI",
+      "role": "victim",
+      "title": "The Ikiza — the 1972 mass killing of Hutu",
+      "era": "1972",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "A deliberate, state-organized campaign to destroy a defined group — the educated and elite Hutu — pursued to the point that roughly three-quarters of educated Burundian Hutu were killed or driven into exile; tiered EXT for the intent to eliminate a category of people, the basis on which the UN (1985) and Burundi's own truth commission (2021) called it genocide.",
+      "agent": "The Tutsi-dominated Burundian state under President Michel Micombero — the army, government officials, and the UPRONA youth wing (Jeunesses Révolutionnaires Rwagasore), who drew up and executed lists targeting educated and elite Hutu; here the Hutu majority are the victims of their own state",
+      "toll": {
+        "low": 100000,
+        "high": 300000,
+        "unit": "deaths",
+        "display": "~100,000-150,000 (conservative); up to 200,000-300,000",
+        "disputed": true,
+        "note": "Conservative estimates put the dead at 100,000-150,000; higher estimates reach 200,000-300,000. René Lemarchand, the leading scholar of Burundi, cites a 150,000-300,000 range and notes 'the number of victims will never be known,' with roughly 200,000 'reported killed' by late August 1972. The dead were overwhelmingly Hutu and disproportionately the educated class — by various estimates around three-quarters of educated Hutu were killed or fled. The low is the conservative floor, the high the upper bound found in the scholarship; the wide spread reflects the absence of any contemporaneous count."
+      },
+      "received_lens": "suppressed",
+      "summary": "After a localized Hutu-led rural insurrection in late April 1972 killed hundreds to thousands of Tutsi in the south, the Tutsi-dominated government and army under President Micombero answered with a months-long campaign to kill the educated and elite Hutu of the whole country. By August almost every educated Hutu was dead or had fled; the conservative count is 100,000-150,000 dead, the higher estimates reach 200,000-300,000. For years afterward the Burundian state suppressed public reference to the killings, and no one has ever been charged.",
+      "relevance": "This is the same event that anchors Burundi's perpetrator ledger — the Hutu seen as the victims here are the people the Tutsi-led state set out to destroy, the killing read from the receiving end.",
+      "audit_note": "Adversarial source-integrity audit 2026-06-18: all three sources independently verified. Lemarchand/Sciences Po page confirmed extant, authored by Lemarchand, supports 150,000-300,000 + ~200,000 by late August + army/JRR/Simbananiye + 'selective genocide'. Wikipedia 'Ikiza' confirmed for the 100,000-150,000 conservative floor and the 1985 UN / 2021 CVR genocide findings. EBSCO confirmed extant, supports the summary (educated/elite Hutu targeted by Tutsi-dominated army/government); EBSCO's stated range is 150,000-300,000 (cite text loosely says 100,000-300,000 — within bounds, not material). Tier independently re-derived EXT (deliberate eliminationist state campaign, ~75% of educated Hutu destroyed; not disease-driven). Both toll ends sourced. Promoted to VERIFIED.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "René Lemarchand, 'The Burundi Killings of 1972' (Sciences Po, Mass Violence and Resistance research network) — cites estimates of 150,000-300,000 dead, notes ~200,000 reported killed by late August, identifies the army and the Jeunesses Révolutionnaires Rwagasore as perpetrators and Foreign Minister Artémon Simbananiye as a principal organizer, and uses the term 'selective genocide'",
+          "supports": "toll.high",
+          "url": "https://www.sciencespo.fr/mass-violence-war-massacre-resistance/en/document/burundi-killings-1972.html",
+          "caveat": "Authored by Lemarchand, the foremost Western scholar of Burundi; partisan only in the ordinary scholarly sense, but the figures are his estimates, not a body count, and he states the true number is unknowable."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Ikiza' — gives the conservative 100,000-150,000 range and the up-to-300,000 high estimate, attributes the killings to the Tutsi-dominated army and government under Micombero, and records the UN's 1985 retroactive genocide label and the 2021 finding of Burundi's Truth and Reconciliation Commission",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Ikiza",
+          "caveat": "Tertiary aggregator used for the conservative lower bound and the classification history; the underlying figures trace to Lemarchand, Chrétien and others."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "EBSCO Research Starters, 'Ikiza or Burundi Killings of 1972' — summarizes the event as a series of mass killings of primarily educated and elite Hutu by the Tutsi-dominated army and government, with a death toll between 100,000 and 300,000 and the targeting of the Hutu educated class",
+          "supports": "summary",
+          "url": "https://www.ebsco.com/research-starters/history/ikiza-or-burundi-killings-1972",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "bdi-2",
+      "country": "BDI",
+      "role": "victim",
+      "title": "The 1993 massacres of Tutsi civilians",
+      "era": "1993",
+      "era_band": "contemporary",
+      "tier": "EXT",
+      "tier_reasoning": "A 1995 international commission of inquiry concluded the killings constituted an effort to destroy the Tutsi ethnic group as such, the threshold for EXT; the tier tags that finding while noting the unresolved dispute over whether the killings were planned/genocidal or a spontaneous eruption (a 1994 UN preliminary commission found no premeditated plan).",
+      "agent": "Hutu peasants and FRODEBU party officials in the provinces, who in some areas organized the killing of their Tutsi neighbours — one administrator arranged for dozens of Tutsi civil servants to be burned alive — in a vengeance eruption after Tutsi soldiers assassinated the elected Hutu president; here the Tutsi minority are the victims",
+      "toll": {
+        "low": 25000,
+        "high": 116059,
+        "unit": "deaths",
+        "display": "~25,000-50,000 (early estimates) up to 116,059 (2002 study, all October-December violence)",
+        "disputed": true,
+        "note": "[AUDIT-QUARANTINE 2026-06-18: sources verified, but toll.high not cleanly attributable to this event's victim community — see below; status kept UNVERIFIED on toll-attribution grounds, not source integrity.] Early estimates of those killed October-November 1993 ranged from about 25,000 to 50,000 Tutsi. A 2002 study by the UN Population Fund and the Burundian government counted 116,059 people dead across the 21 October-31 December 1993 violence as a whole, with at least 100,000 in late October — but that figure spans victims of both the initial Tutsi massacres and the army's subsequent reprisals against Hutu, so it is not a pure count of Tutsi dead. The low is an early estimate of Tutsi victims; the high is the broadest documented total for the period and is not cleanly attributable to one community."
+      },
+      "received_lens": "contested",
+      "summary": "On 21 October 1993 a Tutsi-dominated army faction assassinated Melchior Ndadaye, the first elected Hutu president, in a coup attempt. As word spread, Hutu peasants and some FRODEBU local officials began killing Tutsi civilians across the countryside — burning, hacking, and in places herding people to their deaths. Early estimates put the Tutsi dead at 25,000-50,000; whether the killings were a planned genocide or a spontaneous vengeance is still disputed by scholars and by the two communities themselves.",
+      "relevance": "Within a single year the Burundian lens inverts: the people who were the state's victims in 1972 are, in 1993, the killers of their Tutsi neighbours — and the army that protected the Tutsi here is on the other ledger for its own reprisal massacres of Hutu.",
+      "audit_note": "Adversarial source-integrity audit 2026-06-18: both sources VERIFIED. Wikipedia '1993 ethnic violence' confirmed for the 25,000-500,000 early range, the 116,059 (2002 UNFPA/govt) figure, Hutu-peasant/FRODEBU perpetration, the 1994 'no premeditated plan' finding and the 1995 'effort to destroy the Tutsi group' finding. Amnesty AFR 16/007/1995 confirmed extant (amnesty.org PDF returns 403 to automated fetch; document mirrored at amnesty.org/en/documents/afr16/007/1995/en/, refworld.org, reliefweb.int) and supports the summary. Tier independently re-derived EXT (tags the 1995 commission's eliminationist-intent finding), with the genuine 1994-vs-1995 dispute shown. STATUS KEPT UNVERIFIED on toll-attribution grounds, NOT source-integrity: the toll.high (116,059) is not a pure Tutsi count — it spans both the Tutsi massacres and the army's Hutu reprisals across the whole period, so the high end is not cleanly attributable to this event's victim community. This is a standing data-quality flag, not a falsified citation.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, '1993 ethnic violence in Burundi' — records early estimates of 25,000-500,000, the 2002 UNFPA/government figure of 116,059 dead for 21 Oct-31 Dec 1993, the perpetration of Tutsi killings by Hutu peasants and FRODEBU members, the 1994 UN finding of no premeditated plan, and the 1995 commission's finding of an effort to destroy the Tutsi group",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/1993_ethnic_violence_in_Burundi",
+          "caveat": "Tertiary aggregator; the 116,059 figure covers all victims of the period (Tutsi and Hutu, both massacres and army reprisals), not Tutsi alone, and the genocide classification is explicitly disputed between the 1994 and 1995 inquiries."
+        },
+        {
+          "kind": "press",
+          "cite": "Amnesty International, 'Burundi: Struggle for survival — immediate action vital to stop killings' (1995, AFR 16/007/1995) — documents the post-October-1993 violence, the army's reprisal killings of Hutu, and the March 1994 army massacre of more than 200 Hutu in Bujumbura's Kamenge zone",
+          "supports": "summary",
+          "url": "https://www.amnesty.org/en/wp-content/uploads/2021/06/afr160071995en.pdf",
+          "caveat": "Human-rights advocacy organization; rigorous but writing to mobilize action, and its figures are estimates gathered amid an ongoing conflict."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "bdi-3",
+      "country": "BDI",
+      "role": "perpetrator",
+      "title": "The Ikiza — the state's destruction of the Hutu elite (1972)",
+      "era": "1972",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "Organized from the top of the state to eliminate a defined group — the educated Hutu — and pursued until that group was effectively destroyed inside Burundi; tiered EXT for the eliminationist intent that led the UN in 1985 and Burundi's own truth commission in 2021 to call it genocide.",
+      "agent": "President Michel Micombero's Tutsi-dominated government and army — senior officers (Thomas Ndabemeye, Albert Shibura and others) and Foreign Minister Artémon Simbananiye, named by scholars as a principal architect, directing the army and the UPRONA youth militia to hunt down educated and elite Hutu from lists",
+      "toll": {
+        "low": 100000,
+        "high": 300000,
+        "unit": "deaths",
+        "display": "~100,000-150,000 (conservative); up to 200,000-300,000",
+        "disputed": true,
+        "note": "Same event and same toll as the victim entry (bdi-1), recorded here from the perpetrator's side. Conservative estimates: 100,000-150,000; Lemarchand's range: 150,000-300,000, with ~200,000 reported killed by late August 1972. The dead were overwhelmingly Hutu; roughly three-quarters of educated Hutu were killed or fled. No contemporaneous count exists, hence the wide range; no one has ever been prosecuted."
+      },
+      "received_lens": "denied",
+      "summary": "Triggered by a Hutu insurrection in the south, the Micombero government turned the army and the UPRONA youth militia on the educated and elite Hutu of the entire country in 1972, working from lists to kill teachers, civil servants, students, and clergy. The intent was to remove the Hutu who could lead — and it largely succeeded, killing 100,000 or more and emptying the country of its educated Hutu class. For decades the Tutsi-led state denied or suppressed what it had done.",
+      "relevance": "The defining act of the Burundian state on the perpetrator ledger is the same Ikiza that anchors the victim ledger — proof that in Burundi the categories of victim and perpetrator are not separate peoples but the same event seen from two ends.",
+      "audit_note": "Adversarial source-integrity audit 2026-06-18: both sources VERIFIED. Lemarchand/Sciences Po confirmed for Micombero government + named officers + Simbananiye as architect, 150,000-300,000 toll, and the 'selective genocide' framing. Wikipedia 'Ikiza' confirmed for the 100,000-150,000 conservative floor, Simbananiye as empowered to organize the killing, the 1985 UN / 2021 CVR genocide findings, and the absence of any prosecution. Tier independently re-derived EXT (top-down eliminationist destruction of a defined group; not disease-driven). Both toll ends sourced. Promoted to VERIFIED.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "René Lemarchand, 'The Burundi Killings of 1972' (Sciences Po, Mass Violence and Resistance research network) — names Micombero's government, named army officers and Foreign Minister Simbananiye as the organizers, cites a 150,000-300,000 toll, and frames the campaign as a deliberate targeting of the Hutu elite ('selective genocide')",
+          "supports": "summary",
+          "url": "https://www.sciencespo.fr/mass-violence-war-massacre-resistance/en/document/burundi-killings-1972.html",
+          "caveat": "Lemarchand is the foremost scholar of Burundi; the figures are his estimates and he states the true number is unknowable."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Ikiza' — attributes the killings to the Tutsi-Hima dictatorship and army under Micombero, names Simbananiye as empowered to organize the killing of Hutus, gives the 100,000-300,000 toll range, and records the 1985 UN and 2021 CVR genocide findings as well as the absence of any prosecution",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Ikiza",
+          "caveat": "Tertiary aggregator; the conservative lower bound and the agency attribution trace to Lemarchand, Chrétien, Des Forges and Kuper."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "bdi-4",
+      "country": "BDI",
+      "role": "perpetrator",
+      "title": "The army's reprisal massacres of Hutu (1993-1994)",
+      "era": "1993–1994",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Systematic reprisal killings of Hutu civilians by the national army during the opening of a civil war, including identifiable mass killings such as the March 1994 Kamenge raid; tiered WAR as atrocities by state forces within an armed conflict rather than EXT, since the documented pattern was punitive counter-insurgency rather than an established intent to destroy the Hutu as such.",
+      "agent": "The Tutsi-dominated Burundian armed forces, who after the October 1993 violence carried out systematic reprisal attacks on Hutu — in some areas the killing of Tutsi stopped only when the army arrived and began killing Hutu in turn, including a night raid on Bujumbura's Kamenge zone in March 1994 that killed more than 200 unarmed Hutu",
+      "toll": {
+        "low": 200,
+        "high": null,
+        "unit": "deaths",
+        "display": "200+ in the documented Kamenge raid; thousands across the wider army reprisals (not separately counted)",
+        "disputed": true,
+        "note": "[AUDIT-QUARANTINE 2026-06-18: source verified (Kamenge 200+ confirmed verbatim across Amnesty/Refworld/ReliefWeb mirrors), but this is a single-incident floor with a null high — status kept UNVERIFIED on toll-completeness grounds, not source integrity. Flagged: single-number / single-source toll.] Amnesty International documented a single army raid on Bujumbura's Kamenge zone on 6 March 1994 that killed more than 200 unarmed Hutu men, women and children — a firmly documented floor for one incident. The army's reprisals across the country in late 1993 and 1994 killed far more, but those Hutu dead are folded into the period's overall toll (the 2002 study's 116,059 covers both the Tutsi massacres and the army reprisals) and were never separately and reliably counted, so the high end is left null rather than guessed."
+      },
+      "received_lens": "denied",
+      "summary": "As Hutu killed Tutsi across Burundi after the October 1993 coup, the Tutsi-dominated army moved in and conducted its own systematic reprisals against Hutu civilians — in places the massacres of Tutsi ended only because the soldiers arrived and started killing Hutu. On 6 March 1994 soldiers raided the Kamenge zone of Bujumbura at night and killed more than 200 unarmed Hutu. The army's wider reprisal killings ran into the thousands but were never separately counted, and the state denied responsibility.",
+      "relevance": "The army that on the victim ledger is the shield of the Tutsi is here the killer of Hutu civilians — the same uniform on both sides of the ledger, in the same months.",
+      "audit_note": "Adversarial source-integrity audit 2026-06-18: both sources VERIFIED. Amnesty AFR 16/007/1995 confirmed extant (PDF 403 to automated fetch; mirrored at amnesty.org/en/documents/afr16/007/1995/en/, refworld.org, reliefweb.int); the '6 March 1994 night raid on Kamenge, more than 200 unarmed Hutu' is confirmed verbatim by independent search, as is the framing that Tutsi massacres in places stopped only when the army arrived and began killing Hutu (Amnesty further found the army 'more responsible than any other group' for Oct-1993-to-Dec-1995 deaths). Wikipedia '1993 ethnic violence' corroborates the army reprisals and the Hutu flight to Rwanda. Tier independently re-derived WAR (punitive counter-insurgency reprisals by state forces inside an armed conflict; no established intent to destroy Hutu as such — correctly distinguished from the 1972 EXT). STATUS KEPT UNVERIFIED on toll-completeness grounds, NOT source integrity: only one incident (Kamenge, 200+) is firmly documented and the high is intentionally null, so the toll is a single-incident floor rather than an event-wide count.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "Amnesty International, 'Burundi: Struggle for survival — immediate action vital to stop killings' (1995, AFR 16/007/1995) — documents the army's systematic reprisal killings of Hutu, notes that Tutsi massacres in some areas stopped only when the army arrived to kill Hutu, and records the 6 March 1994 Kamenge raid in which soldiers killed more than 200 unarmed Hutu civilians",
+          "supports": "toll.low",
+          "url": "https://www.amnesty.org/en/wp-content/uploads/2021/06/afr160071995en.pdf",
+          "caveat": "Human-rights advocacy organization writing amid the conflict to mobilize action; figures are field estimates, rigorous but not a definitive count."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, '1993 ethnic violence in Burundi' — records that the army conducted reprisal killings against Hutu during the same period and that thousands of Hutu fled to Rwanda, situating the army reprisals within the wider 1993 violence",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/1993_ethnic_violence_in_Burundi",
+          "caveat": "Tertiary aggregator; the army-reprisal detail is corroborated by the contemporaneous Amnesty reporting."
+        }
+      ],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

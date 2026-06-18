@@ -1,0 +1,179 @@
+{
+  "iso": "PRT",
+  "name": "Portugal",
+  "note": "Portugal's ledger leans heavily perpetrator, and at a scale that dwarfs the victim side. As the European state that invented and then dominated the Atlantic slave trade, Portuguese and Portuguese-Brazilian ships carried more enslaved Africans than any other flag — roughly 5.8 million embarked over three and a half centuries — and the deaths bound up in that traffic, counted only as those who died in transit, run to seven figures; on top of it sits a thirteen-year counter-insurgency war (1961–1974) in Angola, Mozambique and Guinea fought with massacres, napalm and forced resettlement. The victim side is real but far smaller: a small, peripheral kingdom that was rarely conquered, its largest mass-death events are a natural catastrophe (the 1755 Lisbon earthquake) and a famine driven by Napoleonic invasion and an Anglo-Portuguese scorched-earth defence (1810–1811). The asymmetry is not a research gap — it reflects a maritime empire that did far more harm abroad than it suffered at home. Brazil became independent in 1822, so the post-1822 Brazilian slave traffic belongs to Brazil's ledger; the figure here is the Portuguese-flag carrier total, of which Portugal proper and its Brazilian colony were jointly responsible for the bulk.",
+  "events": [
+    {
+      "id": "prt-1",
+      "country": "PRT",
+      "role": "perpetrator",
+      "title": "The Portuguese Atlantic slave trade",
+      "era": "1514–1866",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "A multi-century system of commercial enslavement and forced transoceanic transport that killed through the conditions of captivity and the Middle Passage rather than aiming to destroy any one people — mass death structural to an extractive economy, so STR rather than EXT; the intent was profit through bondage, not annihilation.",
+      "agent": "The Portuguese crown, Portuguese and Portuguese-Brazilian merchants and slavers",
+      "toll": {
+        "display": "~1 million+ killed in transit (of ~5.8 million embarked)",
+        "disputed": true,
+        "low": 1000000,
+        "high": 1800000,
+        "unit": "deaths",
+        "note": "This counts only deaths during the Middle Passage on Portuguese-flag voyages, not the far larger toll of capture, coastal holding and a lifetime of bondage. The SlaveVoyages database records ~5.8 million Africans embarked and ~4.8 million disembarked on Portuguese/Portuguese-Brazilian ships — a difference of roughly 1 million who died at sea — at a Portugal-to-Brazil mortality rate near 12.5%; SlaveVoyages puts total Middle Passage deaths across ALL flags at more than 1.8 million, of which Portugal, as the single largest carrier (~46% of the whole trade), bore the largest share. Deaths from slave raids, forced marches and barracoons before embarkation are uncounted and would raise the figure substantially. Brazil's independence in 1822 splits later voyages into Brazil's ledger."
+      },
+      "received_lens": "suppressed",
+      "summary": "Portugal opened the Atlantic slave trade in the fifteenth century and remained its largest operator into the nineteenth, its ships carrying roughly 5.8 million enslaved Africans — chiefly from Angola, Congo and the Guinea coast to Brazil; of those embarked, about one in eight died chained below deck before landfall, and the survivors were sold into bondage.",
+      "relevance": "Portugal is the wellspring of the system whose receiving end fills the ledgers of Angola, Mozambique, Brazil, Nigeria and a dozen others — the same traffic that is 'done to them' across the Atlas is here 'in their name'.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "SlaveVoyages / Trans-Atlantic Slave Trade Database (Eltis, Richardson, Behrendt, Florentino) — ~5.8M embarked and ~4.8M disembarked on Portuguese/Portuguese-Brazilian voyages; ~12.5% Brazil-route mortality; >1.8M total Middle Passage deaths across all flags",
+          "supports": "toll.low",
+          "url": "https://www.slavevoyages.org/blog/the-transatlantic-slave-trade-database/166",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Slavery in Portugal' — tabulates the TSTD Portugal/Brazil carrier totals by half-century 1501–1850 (the per-period rows sum to ~5.84M transported) and identifies Portugal as the largest single carrier of the Atlantic trade",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Slavery_in_Portugal",
+          "caveat": "Tertiary aggregator; used to map the database figures, not as a primary count. AUDIT 2026-06-18: verified the page tabulates the TSTD Portugal/Brazil rows (sum ~5,838,956), but the previously cited exact aggregate '5,467,957' and the explicit '~46% share' were NOT found stated on the page in the fetched version — the article presents the rows without computing a total or a percentage. Cite corrected to what the page actually shows. Carrier totals vary by cutoff date and by whether post-1822 Brazilian voyages are assigned to Portugal or Brazil."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Atlantic slave trade' — ~12.75M embarked across all flags, up to ~2M dying in the Middle Passage (~15% overall), with Portugal named the major carrier",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Atlantic_slave_trade",
+          "caveat": "Tertiary aggregator; the ~1.8–2M figure is the all-flag transit toll, of which Portugal's share is the largest but not the entirety."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "prt-2",
+      "country": "PRT",
+      "role": "perpetrator",
+      "title": "The Portuguese Colonial War and the Wiriyamu massacre",
+      "era": "1961–1974",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Atrocities embedded in a counter-insurgency war — village massacres, napalm strikes and forced resettlement aimed at breaking guerrilla support among civilians, not at exterminating a people — so WAR rather than EXT.",
+      "agent": "The Portuguese armed forces and PIDE/DGS secret police under the Estado Novo regime",
+      "toll": {
+        "display": "~50,000–100,000 African civilians killed across the three wars; ~150–400 at Wiriyamu",
+        "disputed": true,
+        "low": 50000,
+        "high": 100000,
+        "unit": "deaths",
+        "note": "The range covers African civilian deaths across the three theatres — Angola, Mozambique and Guinea-Bissau — over 1961–1974; estimates run from ~70,000 to ~110,000 civilians when the wars are combined, with deaths concentrated in Angola and Mozambique. Total war deaths including combatants on all sides exceed 100,000. At Wiriyamu (16 December 1972) the Red Cross counted ~150 killed, a later Expresso investigation based on soldiers' testimony put it near 300, and named-victim reconstructions reach ~385–400; the figures are contested because the regime denied and concealed the killing."
+      },
+      "received_lens": "contested",
+      "summary": "To hold its African empire the Estado Novo fought a thirteen-year war against independence movements in Angola, Mozambique and Guinea, herding villagers into fortified 'aldeamentos', bombing villages with napalm, and — at Wiriyamu in Mozambique in December 1972 — sending commandos to kill an entire village of women, men and children on a secret-police agent's order to 'kill them all'.",
+      "relevance": "The reverse image of Mozambique's and Angola's ledgers: what those countries record as suffering inflicted on them, Portugal records here as the late-colonial violence done in its name.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Portuguese Colonial War' — ~70,000–110,000 civilian deaths (30–50k Angola, 30–50k Mozambique, ~5k Guinea), plus napalm/chemical use and reprisal killings by Portuguese forces",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Portuguese_Colonial_War",
+          "caveat": "Tertiary aggregator; civilian tolls for the three wars are loose estimates with wide ranges, not registered counts."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Wiriyamu Massacre' — Red Cross ~150 killed; Expresso (Felicia Cabrita) ~300 from soldiers' testimony; named-victim count ~385; Operation Marosca planned by PIDE/DGS agents",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Wiriyamu_Massacre",
+          "caveat": "Tertiary aggregator; the death toll is disputed and was actively concealed by the Portuguese regime, so figures rest on Red Cross estimates, later journalistic reconstruction and survivor testimony."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Mustafah Dhada, The Portuguese Massacre of Wiriyamu in Colonial Mozambique, 1964–2013 (2016), reviewed in The English Historical Review — detailed reconstruction of the massacre and its cover-up",
+          "supports": "summary",
+          "url": "https://academic.oup.com/ehr/article-abstract/132/556/771/3834068",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "prt-3",
+      "country": "PRT",
+      "role": "victim",
+      "title": "The 1755 Lisbon earthquake, tsunami and fire",
+      "era": "1755",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "A natural catastrophe — earthquake, tsunami and the fires that followed — with no human agent of the killing; mass death by disaster, classed STR.",
+      "agent": "A great offshore earthquake and the tsunami and fires it triggered (no human perpetrator)",
+      "toll": {
+        "display": "~12,000–40,000 in Lisbon; ~40,000–50,000 across Portugal, Spain and Morocco",
+        "disputed": true,
+        "low": 12000,
+        "high": 50000,
+        "unit": "deaths",
+        "note": "Estimates for Lisbon itself span ~12,000 (recent low-end) to 30,000–40,000, with older contemporary accounts running as high as 60,000–100,000 that modern scholarship discounts. Economic historian Alvaro Pereira estimated the total death toll across Portugal, Spain and Morocco from the quake, tsunami and fires at 40,000–50,000, including ~10,000 in Morocco. The wide spread reflects the destruction of records and the difficulty of separating the 1 November event from a later November tremor series."
+      },
+      "received_lens": "memorial",
+      "summary": "On the morning of 1 November 1755 a massive offshore earthquake struck Lisbon, followed within an hour by a tsunami that swept the waterfront and by fires that burned for days; the capital was almost entirely destroyed and tens of thousands died, an event that shook Enlightenment Europe's faith in a benign providence.",
+      "relevance": "Portugal's single largest mass-death event at home is a natural disaster, not an atrocity — a reminder that the Atlas's victim ledgers also hold catastrophes no human ordered, set against a perpetrator side that humans very much did.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, '1755 Lisbon earthquake' — Lisbon estimates from ~12,000 up to 30,000–40,000; Pereira's regional total of 40,000–50,000 across Portugal, Spain and Morocco",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake",
+          "caveat": "Tertiary aggregator; contemporary 18th-century counts are unreliable and the article notes the difficulty of separating the 1 November event from later November tremors."
+        },
+        {
+          "kind": "reference",
+          "cite": "Encyclopaedia Britannica, 'Lisbon earthquake of 1755' — reports the higher contemporary estimate of up to ~60,000 killed in Lisbon",
+          "supports": "toll.high",
+          "url": "https://www.britannica.com/event/Lisbon-earthquake-of-1755",
+          "caveat": "Reference work citing higher-end historical figures that some modern studies revise downward."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "prt-4",
+      "country": "PRT",
+      "role": "victim",
+      "title": "Famine of the French invasions and scorched-earth defence",
+      "era": "1810–1811",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "Civilian mass death by starvation and disease produced by an invading army's depredations and a deliberate Anglo-Portuguese scorched-earth defence during the Napoleonic Peninsular War — deaths driven by the conduct of war, so WAR.",
+      "agent": "Napoleon's invading French army, and the Anglo-Portuguese scorched-earth policy under Wellington",
+      "toll": {
+        "display": "~40,000–50,000 Portuguese dead of hunger and disease",
+        "disputed": true,
+        "low": 40000,
+        "high": 50000,
+        "unit": "deaths",
+        "note": "Estimates hold that roughly 40,000–50,000 Portuguese died of starvation and disease in the winter of 1810–1811, when French Marshal Massena's army advanced on Lisbon and Wellington's Anglo-Portuguese forces stripped the countryside bare — burning crops, killing livestock and driving the population behind the Lines of Torres Vedras — to deny the invaders food. The figure is an estimate of excess deaths during one campaign winter, not a registered count, and excludes battlefield casualties and the wider toll of the 1807–1814 war. AUDIT 2026-06-18: the ~40,000 LOW end is sourced to the 'Lines of Torres Vedras' article ('By some estimates 40,000 died'); the ~50,000 HIGH end ('about 50,000 Portuguese died of hunger or disease, Oct 1810–Mar 1811') is documented in the Peninsular-War literature but rests on a single estimate not anchored to a citation on the listed pages — treat as the soft upper bound of a 40k–50k range, both ends being scholarly estimates rather than counts."
+      },
+      "received_lens": "memorial",
+      "summary": "When Napoleon's army drove on Lisbon in 1810, Wellington's Anglo-Portuguese command emptied and torched central Portugal ahead of it — destroying the harvest, slaughtering livestock and herding civilians behind the fortified Lines of Torres Vedras — so that tens of thousands of Portuguese starved or sickened to death that winter, trapped between the French and the deliberate wasteland built to stop them.",
+      "relevance": "Portugal as the overrun battleground of a great-power war — victim of both an invader's plunder and its own allies' scorched earth, the small-kingdom mirror of the empire that, abroad, did the conquering.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Lines of Torres Vedras' — 'By some estimates 40,000 died' among the Portuguese who retreated south of the lines under the scorched-earth defence in the winter of 1810–1811",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Lines_of_Torres_Vedras",
+          "caveat": "Tertiary aggregator; the famine death toll is a scholarly estimate for one campaign winter. AUDIT 2026-06-18: this page states the ~40,000 (LOW) figure, so its 'supports' was corrected from toll.high to toll.low. The ~50,000 (HIGH) figure ('about 50,000 Portuguese died of hunger or disease, Oct 1810–Mar 1811') is documented in the surrounding Peninsular-War literature but is not on this specific page; the high end is single-sourced beyond Wikipedia and should be treated as the upper bound of an estimate range, not a hard count."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Peninsular War' — background on the 1807 French occupation, the scorched-earth policy and resulting civilian starvation in central Portugal",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Peninsular_War",
+          "caveat": "Tertiary aggregator used for narrative context, not for a precise count."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

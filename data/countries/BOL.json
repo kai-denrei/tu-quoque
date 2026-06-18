@@ -1,0 +1,142 @@
+{
+  "iso": "BOL",
+  "name": "Bolivia",
+  "note": "Bolivia's dual ledger turns on a single mountain and a single state apparatus. On the 'done to them' (victim) side stands Potosi's Cerro Rico, the silver mountain whose colonial mita drafts and disease consumed Andean and African labor for nearly three centuries — the catastrophe is real and enormous, but its toll is one of the most contested figures in colonial history: Eduardo Galeano's widely repeated 'eight million' is treated by many scholars as an exaggeration that conflates the whole Viceroyalty of Peru with the mines, while conservative readings give 'hundreds of thousands,' so the event is entered with death-count low/high null and the dispute made explicit (it is also a structural disease-and-forced-labor catastrophe, STR, not a deliberate program to destroy a people). On the 'in their name' (perpetrator) side the agent is the Bolivian state itself, turning its army on its own population twice over: the 1942 Catavi massacre, where soldiers fired for hours on striking tin miners and their families, and the 1980-1981 Garcia Meza dictatorship (the 'Cocaine Coup'), whose security forces and paramilitaries killed, disappeared, and tortured to entrench the regime. The Chaco War (1932-1935) sits across the line and is recorded here as context rather than a ledger event: it was an interstate war Bolivia helped start, but its roughly 50,000-65,000 Bolivian dead were overwhelmingly Aymara and Quechua conscripts forcibly pressed into the army by a Criollo elite to die of thirst, disease, and gunfire in lowlands they had no stake in — Bolivia as perpetrator against its own highland peoples even as it was a belligerent state. Both contested tolls (Potosi's mita deaths and Catavi's dead) are shown as ranges with the official-vs-popular divergence named. No event was added to balance the ledgers; the perpetrator side is the better-counted, the colonial victim side the larger but least countable.",
+  "events": [
+    {
+      "id": "bol-1",
+      "country": "BOL",
+      "role": "victim",
+      "title": "The Potosi mita: forced labor and disease at the Cerro Rico",
+      "era": "1573-1825",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "A forced-labor draft compounded by mercury poisoning, silicosis, cave-ins, and Old World epidemics produced a structural demographic catastrophe (STR) — mass death as a byproduct of extraction and disease, not a declared program to annihilate a defined group (EXT).",
+      "agent": "the Spanish crown and the colonial administration of Viceroy Francisco de Toledo, who in 1573 imposed the mita — a rotating draft that conscripted roughly a seventh of able-bodied Andean men from sixteen highland provinces to dig and refine silver at Potosi — together with the mine and refinery owners who worked them in the shafts and amalgamation yards",
+      "toll": {
+        "display": "deaths contested across nearly three centuries: from 'hundreds of thousands' (conservative scholarship) up to the widely repeated but disputed 'eight million' (Galeano)",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "low_alt": 100000,
+        "high_alt": 8000000,
+        "note": "This is one of the most contested tolls in colonial history. The figure of about eight million dead, popularized by Eduardo Galeano in 'Open Veins of Latin America,' is treated by many historians as an exaggeration that conflates deaths across the entire Viceroyalty of Peru with the Potosi mines specifically; conservative readings put mine-and-refinery deaths in the 'hundreds of thousands.' Deaths folded together cave-ins, silicosis from rock dust, mercury and arsenic poisoning in the amalgamation process, and epidemics among conscripts crowded into the mining town. Because no death count for the mines specifically can be sourced with confidence, death-count low/high are null and the disputed order-of-magnitude range (~100,000 to ~8,000,000) is recorded in low_alt/high_alt with this caveat. The mita draft ran from 1573 until it was abolished in 1812 and formally ended at independence in 1825. Audit (2026-06-18): all three sources were verified to exist and to support their attached claims (the Cerro Rico Wikipedia article carries verbatim the 8M high, the 'hundreds of thousands' low, and the Viceroyalty-of-Peru conflation flag; Cultural Survival carries the 8M figure plus the silicosis / ~40-year life-expectancy detail; the Galeano excerpt is the genuine origin of the disputed high). Status remains UNVERIFIED solely on TOLL grounds — the death count is irreducibly contested and intentionally left null — NOT on source-integrity grounds, which are clean."
+      },
+      "received_lens": "memorial",
+      "summary": "From 1573 the Spanish administration of Viceroy Francisco de Toledo imposed the mita on Potosi, drafting roughly a seventh of able-bodied men from sixteen Andean provinces to rotate through the silver mountain and its refineries. Conscripts and enslaved Africans worked long shifts in hot, airless shafts, breathing silica and the mercury vapor of the amalgamation yards; cave-ins, silicosis, poisoning, and epidemics killed steadily across nearly three centuries. The silver built fortunes from Seville to Beijing while the mountain earned its name as the one that eats men.",
+      "relevance": "Here Bolivia's Andean peoples are the victims of an extracting empire — the same highland Aymara and Quechua whom the independent Bolivian state would later draft to die in the Chaco and fire on at Catavi, placing the country on both sides of its own ledger.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Cerro Rico,\" Wikipedia — mita reintroduced under Viceroy Francisco de Toledo from 1574; cites a high estimate of around eight million miner deaths under Spanish rule while noting other sources estimate 'hundreds of thousands' and that the eight-million figure may represent deaths across the whole Viceroyalty of Peru rather than Potosi specifically",
+          "supports": "toll.note",
+          "url": "https://en.wikipedia.org/wiki/Cerro_Rico",
+          "caveat": "Tertiary aggregator; carries both the disputed high figure and the conservative low and explicitly flags the conflation problem — used here precisely to document that the toll is contested, not to assert a number."
+        },
+        {
+          "kind": "press",
+          "cite": "Cultural Survival Quarterly, \"The Man-Eating Mines of Potosi\" — states an estimated eight million Inca laborers died in the process of silver extraction during colonial times; describes silicosis and pulmonary disease as the most common hazards and a working life expectancy not exceeding forty years",
+          "supports": "summary",
+          "url": "https://www.culturalsurvival.org/publications/cultural-survival-quarterly/man-eating-mines-potosi",
+          "caveat": "Advocacy publication carrying the high (Galeano-derived) figure as a death count; cited for the working conditions and the existence of the high estimate, not as confirmation that eight million is the verified toll."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Excerpts from Eduardo Galeano, 'Open Veins of Latin America' (Univ. of Kentucky course PDF) — the source of the widely cited claim that Potosi's Cerro Rico consumed roughly eight million lives over three centuries of colonial mining",
+          "supports": "toll.high",
+          "url": "https://www.uky.edu/~tmute2/nature-society/password-protect/nature-society-pdfs/eduardo-galeano-open-veins-excerpts.pdf",
+          "caveat": "Galeano is a polemical essayist, not a demographic historian; the eight-million figure is the origin of the disputed high end and is regarded by many scholars as inflated — recorded as the high bound of the dispute, not an established count. Audit (2026-06-18): the UKy PDF exists and is the genuine excerpt file, but its binary content could not be parsed via automated fetch; the attribution of the eight-million-at-Potosi claim to Galeano's 'Open Veins of Latin America' was independently corroborated through multiple secondary sources rather than direct full-text extraction."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "bol-2",
+      "country": "BOL",
+      "role": "perpetrator",
+      "title": "The Catavi massacre of striking tin miners",
+      "era": "1942",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "State security forces firing on unarmed strikers and their families to crush a labor movement is political mass violence (POL) — repression of dissent by the state, not warfare between armies (WAR) or destruction of an ethnic group (EXT).",
+      "agent": "the Bolivian army under the government of President Enrique Penaranda, which surrounded and fired on tin miners marching during a strike at the Patino company's Catavi and Siglo XX mines on 21 December 1942",
+      "toll": {
+        "display": "deaths disputed: 19 by the official report, up to 400 by the miners' own accounts",
+        "disputed": true,
+        "low": 19,
+        "high": 400,
+        "unit": "deaths",
+        "note": "The government's official report gave 19 killed and about 400 wounded; the workers and the miners' movement claimed deaths as high as roughly 400. The wide divergence reflects an official count minimizing the toll against a labor-movement memory that became foundational to Bolivian mining politics. The low (19) and high (400) are both sourced; the true figure is unknown and the gap is itself part of the historical record."
+      },
+      "received_lens": "memorial",
+      "summary": "In December 1942 some seven thousand miners at the Patino company's Catavi tin complex struck for higher wages; when the strikers, with women and children among them, marched toward the management offices on 21 December, the Bolivian army surrounded the crowd and opened fire for hours. The Penaranda government, anxious to protect wartime tin output for the Allies, had backed the company over the union. The dead — counted at 19 by the state and at up to 400 by the miners — and martyrs such as Maria Barzola became a rallying memory of the Bolivian labor movement.",
+      "relevance": "This is the Bolivian state as perpetrator against its own working people — the army defending a tin baron's mine by shooting the highland and mestizo miners who dug it, the same population the republic had drafted to die in the Chaco a decade earlier.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Catavi massacre,\" Wikipedia — massacre of striking miners by Bolivian government forces at the Catavi mine on 21 December 1942; official report of 19 killed and 400 wounded against workers' estimates of up to 400 dead; context of the Patino company wage dispute, the 7,000-strong strike, and President Enrique Penaranda's government",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Catavi_massacre",
+          "caveat": "Tertiary aggregator; carries both the official low (19) and the workers' high (up to 400) and the divergence between them, which is the point."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Catavi Massacre,\" Encyclopedia.com — overview of the December 1942 massacre at the Catavi tin mine, the strike against the Patino interests, the military firing on marchers, and the resulting domestic and international protest",
+          "supports": "summary",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/catavi-massacre",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "bol-3",
+      "country": "BOL",
+      "role": "perpetrator",
+      "title": "State terror under the Garcia Meza dictatorship ('the Cocaine Coup')",
+      "era": "1980-1981",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Systematic killing, disappearance, and torture of political opponents by a state to seize and hold power is political mass violence (POL), not warfare (WAR) or the destruction of a defined ethnic group (EXT).",
+      "agent": "General Luis Garcia Meza and his interior minister Colonel Luis Arce Gomez, who seized power in the violent coup of 17 July 1980 and unleashed the Bolivian armed forces, security services, and narco-financed paramilitaries on opponents until international isolation forced Garcia Meza out in August 1981",
+      "toll": {
+        "display": "an estimated ~1,000 killed in 13 months; about 150-164 disappeared for political reasons over the wider 1979-1982 period",
+        "disputed": true,
+        "low": null,
+        "high": 1000,
+        "unit": "deaths",
+        "note": "Human-rights accounts estimate some 1,000 people killed by the Bolivian army and security forces in only thirteen months of Garcia Meza's rule; the Bolivian Permanent Assembly for Human Rights (APDHB) recorded as many as 164 persons disappeared for political reasons between 1979 and November 1982, and across Bolivia's 1964-1982 dictatorships Amnesty International cites roughly 150 disappeared and around 200 executed (other scholarship gives up to ~650 assassinated). The ~1,000 killed is a single round estimate for the Garcia Meza period rather than a verified register, so the low is left null; the high is set at that 1,000 figure with this caveat. Notable killings include congressman and presidential candidate Marcelo Quiroga Santa Cruz, murdered and disappeared after the coup, and party members executed in the raid on the MIR offices."
+      },
+      "received_lens": "memorial",
+      "summary": "On 17 July 1980 General Luis Garcia Meza seized power in a coup financed by cocaine traffickers, with Colonel Luis Arce Gomez running the repression. Over thirteen months the army, security services, and paramilitaries hunted down opponents: roughly a thousand people are estimated killed, dozens disappeared, and many tortured, with the orator and presidential candidate Marcelo Quiroga Santa Cruz among the murdered. International outcry forced Garcia Meza out in August 1981; he was later convicted and died in a Bolivian prison.",
+      "relevance": "Bolivia here is perpetrator against its own citizens — a military regime turning the state's guns inward to entrench itself, self-inflicted national trauma of the kind that recurs across South America's dictatorship era and that the dual lens exists to hold open alongside the country's older role as colonial victim.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Luis Garcia Meza,\" Wikipedia — some 1,000 people estimated killed by the Bolivian army and security forces in only 13 months; the 17 July 1980 'Cocaine Coup'; Interior Minister Luis Arce Gomez as chief repressor; murder and disappearance of Marcelo Quiroga Santa Cruz; later conviction and 30-year sentence",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Luis_Garc%C3%ADa_Meza",
+          "caveat": "Tertiary aggregator; the 1,000 figure is a single round estimate for the period, used as the high bound with the count flagged as not a verified register."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch / Americas Watch, Bolivia report (December 1992) — documents the human-rights violations of the Garcia Meza dictatorship and the case for accountability; basis for the ~1,000-killed and APDHB ~164-disappeared (1979-1982) figures cited in reference works",
+          "supports": "toll.note",
+          "url": "https://www.hrw.org/reports/pdfs/b/bolivia/bolivia92d.pdf",
+          "caveat": "PDF could not be parsed in full during research (binary content); cited as the primary human-rights documentation underlying the figures, with the specific numbers corroborated through the report's summaries in secondary sources rather than direct full-text extraction."
+        },
+        {
+          "kind": "press",
+          "cite": "The Globe and Mail, \"Bolivia's former military dictator Luis Garcia Meza dies at 88\" (2018) — obituary recording the 1980 'bloody coup,' the regime's killings and disappearances (including a 2017 Rome conviction over 23 victims of Italian origin), and his eventual imprisonment in Bolivia",
+          "supports": "summary",
+          "url": "https://www.theglobeandmail.com/world/article-bolivias-former-military-dictator-luis-garcia-meza-dies-at-88/",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

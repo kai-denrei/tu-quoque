@@ -1,0 +1,201 @@
+{
+  "iso": "TUN",
+  "name": "Tunisia",
+  "note": "Built from scratch 2026-06-18 with live web research. Both ledgers are populated. Victim side: the Nazi German occupation of 1942-1943 (Tunisia was the only Arab country occupied by the Third Reich; ~5,000 Jewish men forced into ~32-40 labour camps, an unverified number dead from disease, beatings, overwork and Allied bombing — sources range from 'tens' to 'at least 46', with no agreed count — and isolated deportations to European death camps), and France's 1961 assault on Bizerte, in which French forces killed roughly 630 Tunisians over three days. Perpetrator side: the centuries-long slavery run from the Regency/Beylik of Tunis — Tunis-based corsairs seizing and ransoming Europeans, and the trans-Saharan trafficking of Black Africans (~100,000 between 1700 and 1880) — abolished in stages by Ahmad Bey in 1841-1846; and the lethal repression of the 2010-2011 uprising, in which Ben Ali's security forces shot dead hundreds of protesters. ASYMMETRY: Tunisia's perpetrator record is real but bounded — its mass-violence-against-civilians footprint is dominated by enslavement (a pre-colonial, multi-generational institution rather than a single dated massacre, with no clean death count) and by a state shooting its own protesters, not by external conquests or genocides. The death tolls here are mostly modest by atlas standards and one (the slave trade) resists any death figure entirely; figures left null where no sourceable count exists. The 2011 toll is genuinely contested between the 2012 Bouderbala preliminary count (338) and the much lower 2021 official recognised list (~129), and that dispute is shown. The Barbary-Europeans figure of ~1-1.25 million is a COMBINED Algiers+Tunis+Tripoli total and is NOT attributed to Tunis alone. No figure or source here was invented; where a clean independent death count cannot be pinned, the figure is left null and the event marked UNVERIFIED. AUDIT 2026-06-18 (adversarial source-integrity pass): every source re-checked against its claimed content. The Nazi-occupation entry (tun-1) previously asserted a '~265 dead' camp toll attributed to Yad Vashem; that figure is NOT in the cited source and could not be corroborated anywhere (the only hard count found is EHRI's 'at least 46 known to have died'), so it was removed as unsubstantiated and tun-1 stays UNVERIFIED with a null toll. The Bizerte (tun-2), slavery (tun-3) and 2011-uprising (tun-4) entries were all confirmed against live sources and upgraded to VERIFIED; a transposed wounded figure in tun-4 (2,147 → 2,174 injured, per Egypt Independent) was corrected. Country status is UNVERIFIED because one of four events (tun-1) remains UNVERIFIED.",
+  "events": [
+    {
+      "id": "tun-1",
+      "country": "TUN",
+      "role": "victim",
+      "title": "Nazi German Occupation and Forced Labour of Tunisian Jews",
+      "era": "1942–1943",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "A six-month occupation in which the German military and an SS Einsatzkommando rounded up Jewish men by ethnicity, forced ~5,000 into labour camps and killed many through overwork, disease and beatings — a targeted persecution of a group on racial grounds that did not reach systematic extermination only because the Axis was driven out, which makes it POL rather than the EXT it was preparing toward.",
+      "agent": "Nazi Germany — the Wehrmacht occupation command and an SS Einsatzkommando under Walter Rauff, with the local Vichy French administration",
+      "toll": {
+        "display": "death toll unverified — sources range from 'tens' (Yad Vashem) to 'at least 46' (EHRI); ~5,000 conscripted into ~32–40 labour camps",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "QUARANTINE (AUDIT 2026-06-18): the previously-asserted '~265 dead' figure was checked against its claimed source (Yad Vashem) and is NOT supported there; it has been removed as unsubstantiated. Tunisia was the only Arab/North African country occupied by Nazi Germany (November 1942 – May 1943). The camp count is sourced and firm: USHMM gives ~40 German labour/detention camps; Yad Vashem gives ~32; roughly 5,000 Jewish men were conscripted for forced labour (USHMM, Yad Vashem and the Montreal Holocaust Museum all give ~5,000). Death figures are reported only loosely and divergently: Yad Vashem says 'tens' died at the deadliest sites (Bizerte, Mateur); the EHRI Portal says 'at least 46 Jews are known to have died' during the occupation; USHMM and the Montreal Holocaust Museum give no comprehensive death toll. Deaths came from typhus, exhaustion, starvation, beatings by guards and Allied bombing of camp areas; there were also isolated deportations to European camps (the Tunisian boxer Victor 'Young' Perez was sent via Drancy to Auschwitz and killed on a death march in January 1945). Because no single agreed, independently corroborated death count exists, both endpoints are left null and the event is UNVERIFIED. Only the camp count (~32–40) and the ~5,000 conscription figure are asserted as fact; they are held in the note rather than as the toll.",
+        "low_source_note": "No independently corroborated death count. The lowest hard figure found is EHRI's 'at least 46 known to have died'; Yad Vashem says 'tens'. Neither is treated as a firm floor — the toll is held null.",
+        "high_source_note": "No independently corroborated high death count. The previously-cited '~265' is unsubstantiated and has been removed."
+      },
+      "received_lens": "suppressed",
+      "summary": "After the Allied landings in November 1942, German forces occupied Tunisia and within weeks began arresting Jewish leaders and seizing Jewish men for forced labour. Roughly 5,000 were marched into dozens of camps where they dug fortifications under Allied bombing and German guns; many died of typhus, hunger, beatings and exhaustion. An SS unit under Walter Rauff began the machinery of extermination, but the Axis was thrown out of Africa in May 1943 before it could be fully run.",
+      "relevance": "Tunisia's Jews — Tunisian people — were hunted on home soil by an outside occupier, while in the same atlas the Beys of Tunis appear as the state that ran a slave trade of its own; victimhood and authorship sit on the same page.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "United States Holocaust Memorial Museum, Holocaust Encyclopedia, \"Labor and Internment Camps in North Africa\" — ~40 German labour/detention camps in Tunisia (Nov 1942–May 1943); ~5,000 Tunisian Jewish men conscripted for forced labour",
+          "supports": "summary",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/labor-and-internment-camps-in-north-africa",
+          "caveat": "USHMM gives the camp count and conscription figure but does not state a death toll for Tunisia; the death figure comes from other sources."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Sheryl Silver Ochayon, \"The Jews of Algeria, Morocco and Tunisia,\" Yad Vashem — almost 5,000 Jews incarcerated in ~32 labour camps across Tunisia; Bizerte and Mateur described as the biggest and most lethal sites, where 'tens' of Jewish prisoners died of disease, labour, German guards' punishment and Allied bombing; SS units present to implement the 'Final Solution' but blocked by the Axis collapse",
+          "supports": "summary",
+          "url": "https://www.yadvashem.org/articles/general/the-jews-of-algeria-morocco-and-tunisia.html",
+          "caveat": "AUDIT 2026-06-18: the source text was re-checked and does NOT support the figures previously attributed to it. Yad Vashem says ~5,000 Jews in ~32 camps and that 'tens' died at Bizerte/Mateur — it does NOT give a ~10,000 forced-labour pool nor a ~265 death count. The '~265' figure could not be corroborated in any source consulted (the only hard count found is EHRI's 'at least 46 known to have died'); it has been removed as unsubstantiated. Yad Vashem is an Israeli state Holocaust-memorial body, so its framing emphasises Jewish victimhood. Because no agreed, independently corroborated death count exists, the toll stays null and the event UNVERIFIED."
+        },
+        {
+          "kind": "reference",
+          "cite": "Montreal Holocaust Museum (Musée de l'Holocauste Montréal), \"The Holocaust in Tunisia\" — ~5,000 Jewish men sent to forced-labour/internment camps; SS commander Walter Rauff led the Einsatzkommando; individual murders documented; deportation of Victor 'Young' Perez via Drancy to Auschwitz",
+          "supports": "summary",
+          "url": "https://museeholocauste.ca/en/resources-training/the-holocaust-in-tunisia/",
+          "caveat": "A Holocaust-memorial museum; reliable on the occupation's course but does not provide a comprehensive death toll, which is part of why the toll is held null."
+        },
+        {
+          "kind": "reference",
+          "cite": "EHRI Portal (European Holocaust Research Infrastructure), country page Tunisia — ~5,000 Jews sent to forced-labour camps under German/Italian occupation; 'at least 46 Jews are known to have died during this period'",
+          "supports": "toll.note",
+          "url": "https://portal.ehri-project.eu/countries/tn",
+          "caveat": "AUDIT 2026-06-18: added during audit as the only source consulted that gives a hard death count. EHRI is a research-infrastructure aggregator; '46' is an explicit floor ('at least'), not a comprehensive toll, so it is recorded in the note and the toll is kept null and the event UNVERIFIED."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "tun-2",
+      "country": "TUN",
+      "role": "victim",
+      "title": "French Assault on Bizerte (Bizerte Crisis)",
+      "era": "1961",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "A three-day armed battle in July 1961 in which French forces — facing a Tunisian blockade of their retained naval base — used airstrikes, armour, naval gunfire and paratroopers, killing some 630 Tunisian soldiers, paramilitaries and civilians; mass death inside a short, sharp armed conflict, which is WAR.",
+      "agent": "The French military (paratroopers, jets, armour and offshore cruisers), under orders to break the Tunisian blockade and hold the Bizerte base",
+      "toll": {
+        "display": "≈630 Tunisians killed (plus ~1,555 wounded); ~24 French dead",
+        "disputed": false,
+        "low": 630,
+        "high": 630,
+        "unit": "deaths",
+        "note": "Tunisia became independent in 1956 but France kept its strategic naval base at Bizerte, vital during the Algerian War. In July 1961 Tunisia blockaded the base to force evacuation; France responded with overwhelming force. The widely cited toll — about 630 Tunisians killed and ~1,555 wounded against ~24 French dead — is the figure of record (the Tunisian official balance sheet, repeated in standard references). It is not seriously contested in the way larger colonial tolls are, so low and high are set equal at the cited point figure rather than a wide range; the count is firm enough to mark the event RESEARCHED. French armour and aircraft also shelled Ferryville, killing soldiers and civilians together. France finally evacuated Bizerte in October 1963.",
+        "low_source_note": "~630 Tunisian dead — the figure carried in standard references for the crisis.",
+        "high_source_note": "Same point figure; no materially higher sourced count was found."
+      },
+      "received_lens": "memorial",
+      "summary": "Five years after independence, France still held its naval base at Bizerte. When Tunisia blockaded it in July 1961 to force a handover, France sent in paratroopers, jets, tanks and offshore cruisers. Over three days French forces overran the town and shelled the surrounding area, killing roughly 630 Tunisians — soldiers, paramilitaries and civilian volunteers alike — against about two dozen French dead.",
+      "relevance": "Bizerte is remembered in Tunisia as the bloody coda of French rule; it shares the atlas with the killings Tunisia's own rulers carried out, denying the consoling story of a nation only ever wronged.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Bizerte crisis\" — Wikipedia — three-day battle (July 1961) leaving ~630 Tunisians and ~24 French dead, ~1,555 Tunisians wounded; French paratroopers, jets, armour and offshore cruisers; shelling of Ferryville",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Bizerte_crisis",
+          "caveat": "Tertiary aggregator; the ~630 figure is described there as the official Tunisian balance sheet, so it carries the state's framing, though it is the standard figure of record."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Bizerte Crisis (1961),\" Encyclopedia.com — Tunisia blockaded the retained French base; France overran the town on 23 July 1961; France abandoned Bizerte 15 October 1963",
+          "supports": "summary",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/bizerte-crisis-1961",
+          "caveat": "AUDIT 2026-06-18: re-checked. Confirms the blockade (July 1961), French breaking it and holding the city until autumn, and the base abandoned in late 1963 — it does NOT itself carry the exact dates (23 July 1961, 15 Oct 1963), which come from the Wikipedia source; it corroborates the course and outcome only, and gives no casualty figures."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "tun-3",
+      "country": "TUN",
+      "role": "perpetrator",
+      "title": "Slavery Run from the Regency and Beylik of Tunis",
+      "era": "16th century–1846",
+      "era_band": "pre-colonial",
+      "tier": "STR",
+      "tier_reasoning": "A multi-generational institution rather than a single massacre: the Tunis state and its corsairs seized, held, trafficked and ransomed enormous numbers of Europeans and Black Africans, with deaths spread across raids, captivity and the desert crossing rather than a deliberate campaign to exterminate a defined group — sustained structural violence against captive populations, hence STR.",
+      "agent": "The Regency / Beylik of Tunis — the Bey, the state-licensed Barbary corsairs operating out of Tunis, and the Saharan slave-caravan merchants under the state's authority",
+      "toll": {
+        "display": "no death count; ~100,000 Black Africans trafficked into Tunisia 1700–1880; Tunis a major hub of a Barbary trade that enslaved ~1–1.25 million Europeans across all the Barbary states combined",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "This is enslavement, not a dated killing event, and it resists a death toll — the harm is captivity, trafficking and the mortality of raids and the desert crossing, none of it counted. Two scale figures anchor it. (1) Black Africans: Raëd Bader, drawing on trans-Saharan trade estimates, puts ~100,000 enslaved people trafficked into Tunisia between 1700 and 1880 (versus ~65,000 to Algeria, ~400,000 to Libya). (2) Europeans: Tunis (with Algiers and Tripoli) was a principal base of the Barbary corsairs, who over the 16th–18th centuries enslaved an estimated 1–1.25 million Europeans IN TOTAL across all the Barbary states — this combined figure is explicitly NOT Tunis's alone and must not be read as such. Resident-slave snapshots for Tunisia vary widely (Valensi: ~7,000 in 1861; Ferrière: ~167,000 slaves and freed slaves in 1848; Austen: ~100,000 total). Ahmad I Bey abolished slavery in stages — banning exports in 1841, closing the Tunis slave market in 1842, and decreeing full abolition in January 1846, one of the earliest abolitions in the Muslim world; a reinforcing decree followed in 1890. Because the harm is enslavement rather than death and no death count exists, low and high are null; the event is RESEARCHED on the strength of the well-sourced scale figures, with the toll explicitly null by nature.",
+        "low_source_note": "No death count exists for an enslavement institution of this kind; the population/trafficking figures are sourced in the note.",
+        "high_source_note": "No death count exists; see note."
+      },
+      "received_lens": "suppressed",
+      "summary": "For roughly three centuries the rulers of Tunis profited from two slave systems at once. State-licensed corsairs sailing from Tunis seized Europeans from ships and coastal towns to be sold or ransomed, while caravans hauled Black Africans across the Sahara into Tunisian markets — about 100,000 of them between 1700 and 1880. The Bey closed the Tunis slave market in 1842 and decreed abolition in 1846, early by the standards of the Muslim world.",
+      "relevance": "Tunisia is remembered for being raided and occupied by outsiders, but the Beys of Tunis were themselves slavers of Europeans and Africans — the same people who appear as victim elsewhere in this atlas authored a long captivity of others.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Slavery in Tunisia\" — Wikipedia — citing Raëd Bader (~100,000 Black Africans trafficked into Tunisia 1700–1880), Lucette Valensi (~7,000 slaves/descendants in 1861), Louis Ferrière (~167,000 slaves and freed slaves in 1848), Ralph Austen (~100,000 total); staged abolition by Ahmad I Bey 1841–1846; reinforcing decree 1890",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Slavery_in_Tunisia",
+          "caveat": "Tertiary aggregator; the underlying estimates (Bader, Valensi, Ferrière, Austen) diverge widely and the resident-slave snapshots are not mutually consistent, reflecting the genuine uncertainty of pre-modern slave demography."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Barbary slave trade\" — Wikipedia — Tunis among the principal Barbary corsair bases; ~1–1.25 million Europeans enslaved across all the Barbary states (Algiers, Tunis, Tripoli) combined, 16th to mid-18th centuries; 1798 raid on an islet near Sardinia carried off >900 people",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Barbary_slave_trade",
+          "caveat": "Tertiary aggregator; the ~1–1.25M European figure is a CONTESTED scholarly estimate (chiefly Robert Davis) for ALL the Barbary states together — it is not Tunis's share and is included only to show that Tunis was part of that trade, not to quantify Tunisian guilt."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"History of Ottoman era Tunisia\" — Wikipedia — the Regency of Tunis as a semi-autonomous Ottoman territory whose Bey commanded state corsairs preying on Christian shipping for captives and ransom",
+          "supports": "tier",
+          "url": "https://en.wikipedia.org/wiki/History_of_Ottoman_era_Tunisia",
+          "caveat": "AUDIT 2026-06-18: re-checked. Tertiary aggregator; corroborates the state's authorship of the corsair/slaving enterprise, and notes Tunis's corsairing 'never reached the prominence it did in Algiers' — consistent with the entry treating Tunis as one base among several, not the dominant one."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "tun-4",
+      "country": "TUN",
+      "role": "perpetrator",
+      "title": "Lethal Repression of the 2010–2011 Uprising",
+      "era": "2010–2011",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "State security forces shooting largely unarmed protesters during the uprising that toppled Ben Ali — politically motivated killing of a regime's own civilian population to suppress dissent, which is POL.",
+      "agent": "The Tunisian state under President Zine El Abidine Ben Ali — the police and security forces, with the Public Order Brigade (Brigade de l'Ordre Public) identified as a principal perpetrator",
+      "toll": {
+        "display": "≈129 to ≈338 killed (2021 official recognised list ~129; 2012 Bouderbala preliminary commission 338, of whom ~66% shot, police responsible for ~79% of deaths)",
+        "disputed": true,
+        "low": 129,
+        "high": 338,
+        "unit": "deaths",
+        "note": "The toll is genuinely contested and the dispute is documentary, not propagandistic. The Bouderbala commission's 2012 preliminary report — investigating abuses from the start of protests on 17 December 2010 — counted 338 killed and 2,174 wounded, reviewing 2,489 cases and finding ~66% of the dead had been shot and police responsible for ~79% of deaths and ~96% of injuries. This is the high end. A later official recognised list of martyrs and wounded, finalised by 2021, recognised far fewer — about 129 dead — after contested vetting of who qualified as a 'martyr of the revolution', which is the low end. Both figures are real and sourced; the gap reflects a dispute over recognition criteria, not over whether the state did the killing. The OHCHR earlier put the toll at ~147 plus ~72 prison deaths; Amnesty documented killings 'mostly by security force gunfire'. Marked RESEARCHED because the killing and its state authorship are firmly established and both toll endpoints are sourced.",
+        "low_source_note": "~129 — the 2021 official recognised list of revolution martyrs (Al Arabiya / Asharq Al-Awsat reporting).",
+        "high_source_note": "338 — the 2012 Bouderbala preliminary commission count (Egypt Independent / Middle East Monitor reporting)."
+      },
+      "received_lens": "contested",
+      "summary": "When protests erupted in December 2010 after Mohamed Bouazizi's self-immolation, Ben Ali's police and security forces met them with live fire. The 2012 Bouderbala commission found 338 people killed and over 2,000 wounded, two-thirds of the dead shot and police responsible for the great majority; a later official list recognised roughly 129 as martyrs. Ben Ali fled in January 2011.",
+      "relevance": "The same state machinery that Tunisians overthrew had spent the uprising shooting them; the country celebrated as the spark of the Arab Spring is also, in this ledger, the state that killed its own to stay in power.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "\"Enquiry says 338 deaths during Tunisian revolution,\" Egypt Independent (reporting the Bouderbala commission's 2012 preliminary report: 338 killed, 2,174 injured; 2,489 cases reviewed; ~66% shot; police responsible for ~79% of deaths, ~96% of injuries)",
+          "supports": "toll.high",
+          "url": "https://www.egyptindependent.com/enquiry-says-338-deaths-during-tunisian-revolution/",
+          "caveat": "Press report of an official commission's preliminary figures, later revised downward in the recognised-martyrs list; carries the commission's framing."
+        },
+        {
+          "kind": "press",
+          "cite": "\"Tunisia revolution: 129 died, 634 injured, official count shows,\" Al Arabiya (2021) — the finalised official recognised list of revolution martyrs and wounded, far lower than the 2012 preliminary figure",
+          "supports": "toll.low",
+          "url": "https://english.alarabiya.net/News/north-africa/2021/03/20/Tunisia-revolution-129-died-634-injured-official-count-shows",
+          "caveat": "The 2021 list reflects contested official vetting of who counts as a 'martyr of the revolution'; lower than field/NGO counts and the 2012 commission, hence the wide sourced range."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Amnesty International, \"Tunisia in Revolt: State Violence During Anti-Government Protests\" (MDE 30/011/2011) — killings 'mostly by security force gunfire'; bloodiest confrontations 8–10 January 2011 in Kasserine, Thala and Regueb; Public Order Brigade identified as a principal perpetrator",
+          "supports": "summary",
+          "url": "https://www.amnesty.org/en/documents/mde30/011/2011/en/",
+          "caveat": "AUDIT 2026-06-18: report existence and content confirmed (MDE 30/011/2011, published 1 March 2011; visited Bizerte, Kasserine, Regueb, Thala, Tunis; Public Order Brigade / Brigade de l'Ordre Public named as believed responsible for most killings). Amnesty is an advocacy organisation; rigorous on documentation but its mandate is human-rights criticism of states, so its framing centres state abuse (which is the point of this ledger entry)."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

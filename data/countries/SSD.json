@@ -1,0 +1,140 @@
+{
+  "iso": "SSD",
+  "name": "South Sudan",
+  "note": "Researched 2026-06-18 from scratch (no prior seed). South Sudan is the world's youngest state (independent 9 July 2011), but its peoples carry one of Africa's heaviest atrocity records, split cleanly across the two ledgers by the moment of independence. On the victim side, the southern Sudanese were the principal sufferers of the two long Sudanese civil wars run from Khartoum (1955–72 and especially 1983–2005), in which roughly two million southerners died from combat, government-engineered famine, slave raids, and disease — the agent there was the Khartoum state, logged here as a victim event for the people who became South Sudan, with Khartoum's own perpetrator record carried under SDN. On the perpetrator side, barely two years after independence the new state turned on its own: the December 2013 Juba massacre, in which President Salva Kiir's Dinka-dominated government forces hunted down and killed Nuer civilians, opened a 2013–2018 civil war in which ALL the principal South Sudanese armed forces — Kiir's government and Riek Machar's SPLM-IO alike — committed ethnic-targeted massacres that the UN found amounted to ethnic cleansing, leaving roughly 400,000 dead. The intra-southern 1991 Bor massacre, carried out by Machar's breakaway Nuer faction against Dinka civilians during the war against Khartoum, is logged here (per the project's SDN/SSD split) as an early perpetrator-side precedent. The dual-lens point is stark: the people the world remembers as the victims of Khartoum's wars and the celebrated cause of a long independence struggle are also the rulers and factions who, within their own new state, ran some of the 2010s' most documented campaigns of ethnic killing. Tolls are heavily contested — the civil-war figure is a modeled excess-death estimate the government rejects, and the older war and famine counts are pre-census approximations — with low and high ends separately sourced and flagged.",
+  "events": [
+    {
+      "id": "ssd-1",
+      "country": "SSD",
+      "role": "victim",
+      "title": "The southern toll of the Second Sudanese Civil War",
+      "era": "1983–2005",
+      "era_band": "modern",
+      "tier": "STR",
+      "tier_reasoning": "The roughly two-million death toll was driven overwhelmingly by war-induced famine, displacement, and disease across the southern population — a demographic catastrophe in which deliberate killing, scorched-earth raiding, and engineered starvation were multipliers — so STR, though the slave raids and grain-denial campaigns embedded within it carried clear EXT/POL character.",
+      "agent": "The Khartoum government and Sudanese Armed Forces, with allied Baggara 'Muraheleen' militias who raided southern (mainly Dinka) villages, took captives as slaves, and engineered famine; southern factions also targeted civilians during the war",
+      "toll": {
+        "display": "~2 million dead (war, famine, and disease, 1983–2005; widely cited, methodologically soft)",
+        "disputed": true,
+        "low": 1500000,
+        "high": 2000000,
+        "unit": "deaths",
+        "note": "The ~2 million figure is the standard scholarly and press estimate for the whole 22-year war and covers deaths from all causes — combat, famine, and disease — not an enumerated body count. The southern Sudanese (the population that became South Sudan) were the overwhelming majority of the dead and of the ~4 million displaced. Embedded sub-atrocities are better-bounded: the 1986–88 Bahr el Ghazal famine, caused by government-funded Muraheleen raiding, looting, and displacement of the Dinka, is put by the UN at 400,000–500,000 deaths in 1986–88, of which roughly 250,000 died in 1988 alone. The low endpoint here reflects more conservative readings of the war-wide toll; both endpoints rest on estimates rather than enumeration."
+      },
+      "received_lens": "memorial",
+      "summary": "For 22 years the Khartoum government fought the southern-based SPLA, and to break the south's base it bombed villages, armed Baggara militias who razed Dinka settlements and carried off women and children as slaves, and used the denial of food and relief access as a weapon. Roughly two million southerners died, most from the resulting famine and disease, and around four million were displaced — a toll that helped drive the south to the 2005 peace deal and 2011 independence.",
+      "relevance": "This is South Sudan's foundational victim memory — the suffering the world rallied around and that justified statehood — yet the very SPLA that fought Khartoum here would, after independence, author the atrocities in South Sudan's own perpetrator ledger.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Second Sudanese Civil War overview — 'roughly two million people died as a result of war, famine and disease caused by the conflict'; four million southerners displaced; Khartoum revived enslavement as a weapon via the Baggara 'Muraheleen' militia, who destroyed villages and took women and children as slaves",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Second_Sudanese_Civil_War",
+          "caveat": "Aggregate all-cause estimate for a 22-year war, not an enumerated death count; a tertiary reference summarizing scholarly figures."
+        },
+        {
+          "kind": "reference",
+          "cite": "1988 Sudan famine overview — the Bahr el Ghazal famine, caused by looting, raiding, displacement, killing, and abduction of Dinka by government-funded Arab Muraheleen militia, killed around 250,000 people in 1988; UN estimates 400,000–500,000 deaths across 1986–88 and three million displaced",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/1988_Sudan_famine",
+          "caveat": "Famine death estimates in a war zone with no functioning census; UN figures are humanitarian approximations."
+        },
+        {
+          "kind": "press",
+          "cite": "BlackPast.org, 'Second Sudanese Civil War (1983–2005)' — '22-year conflict ... during which two million people died'; the conflict is among the deadliest since WWII, with the toll placed near two million from combat, famine, and disease; used here for the lower-bound reading of the war-wide range",
+          "supports": "toll.low",
+          "url": "https://blackpast.org/global-african-history/events-global-african-history/second-sudanese-civil-war-1983-2005/",
+          "caveat": "Encyclopedic secondary source (canonical URL corrected during audit; site blocks automated fetching, content confirmed via search). The lower bound (1.5M) is a conservative reading, not a number BlackPast states verbatim; no enumerated count exists."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ssd-2",
+      "country": "SSD",
+      "role": "perpetrator",
+      "title": "The December 2013 Juba massacre of Nuer civilians",
+      "era": "2013",
+      "era_band": "contemporary",
+      "tier": "EXT",
+      "tier_reasoning": "House-to-house identification and killing of civilians selected by ethnicity (Nuer), with hundreds detained and shot in a single location, is deliberate destruction of a group, so EXT — the opening atrocity of a war the UN later found involved ethnic cleansing.",
+      "agent": "President Salva Kiir's government forces — elements of the SPLA (army), police, and National Security Service, including Dinka units of the presidential guard, targeting Nuer civilians in Juba",
+      "toll": {
+        "display": "hundreds killed in Juba (200–300 Nuer men shot in one Gudele incident alone); disputed",
+        "disputed": true,
+        "low": 200,
+        "high": 300,
+        "unit": "deaths",
+        "note": "The 200–300 range is the best-documented single incident: the 16 December 2013 Gudele killings, where government security forces detained and systematically shot that many Nuer men in a police building, per Human Rights Watch witness testimony. The total Juba death toll over the December 2013 week is higher but not reliably enumerated; over 25,000 Nuer were displaced from the capital. The figures bound the documented Gudele massacre, not the full Juba toll, which remains uncounted."
+      },
+      "received_lens": "contested",
+      "summary": "After a political split between President Salva Kiir and his former deputy Riek Machar, government soldiers, police, and security forces in Juba conducted house-to-house searches for Nuer men over the week of 16 December 2013, and in one Gudele incident detained and shot 200–300 of them in a single building. The killings, organized around ethnic identity, triggered the country's 2013–2018 civil war.",
+      "relevance": "Barely two years after independence won in the name of the south's victimhood, the new state's own forces hunted civilians by ethnicity — the people remembered as Khartoum's victims now appearing as perpetrators within their own borders.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, 'South Sudan: Ethnic Targeting, Widespread Killings' (16 Jan 2014) — government forces including SPLA, police, and National Security Service targeted Nuer civilians in house-to-house searches; on 16 December in Gudele 200–300 Nuer men were detained in a police building and systematically shot; over 25,000 Nuer displaced from Juba; HRW also documented opposition killings of Dinka",
+          "supports": "toll.high",
+          "url": "https://www.hrw.org/news/2014/01/16/south-sudan-ethnic-targeting-widespread-killings",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "US Holocaust Memorial Museum, South Sudan country page — civilians were targeted because of their ethnic identity; in March 2017 the UN Human Rights Commission determined ethnic cleansing was being committed; over 400,000 killed across the 2013–2018 war",
+          "supports": "summary",
+          "url": "https://www.ushmm.org/genocide-prevention/countries/south-sudan",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "South Sudanese Civil War overview — the December 2013 'Nuer massacre' in Juba, in which 200–300 Nuer men were collected in a room and shot, opened the war; later UN finding of ethnic cleansing (March 2017)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/South_Sudanese_Civil_War",
+          "caveat": "Tertiary reference; corroborates the HRW-documented Gudele figure rather than supplying an independent count."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ssd-3",
+      "country": "SSD",
+      "role": "perpetrator",
+      "title": "The 1991 Bor massacre of Dinka civilians",
+      "era": "1991",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "A targeted massacre of Dinka civilians selected by ethnicity by a breakaway Nuer faction, followed by cattle-killing and displacement that produced mass famine death, is deliberate destruction of a group, so EXT — logged under SSD (per the project's SDN/SSD split) as an intra-southern atrocity by forces that later became South Sudanese state and opposition factions.",
+      "agent": "Riek Machar's SPLA-Nasir faction and allied Nuer 'White Army' fighters, after splitting from John Garang's SPLA",
+      "toll": {
+        "display": "~2,000–5,000 killed directly; ~25,000 more dead from ensuing famine (disputed; some estimates run far higher)",
+        "disputed": true,
+        "low": 2000,
+        "high": 5000,
+        "unit": "deaths",
+        "note": "Amnesty International put the direct massacre toll at at least 5,000 Dinka, with the real figure possibly higher (toll.high, verified on the Bor massacre record). The lower bound of ~2,000 civilians killed by Machar's forces comes from the Riek Machar / 'Ethnic violence in South Sudan' Wikipedia records, NOT from Amnesty — the original audit-superseded citation wrongly attributed the 2,000 figure to Amnesty and to a page that does not carry it; corrected during the 2026-06-18 audit. The range is bounded here at 2,000–5,000 for the immediate killings (the wider 5,000–20,000 reference range exists but the higher aggregate figures are not independently enumerated). An estimated 25,000 more died in the following years from famine after their cattle were stolen or shot and survivors were displaced. Displacement of the Bor Dinka is widely put at ~700,000 fleeing to Equatoria, though lower UN-era figures (200,000–250,000) also exist. Machar initially called the massacre 'propaganda' and 'myth,' then publicly apologized in 2012."
+      },
+      "received_lens": "contested",
+      "summary": "Shortly after Riek Machar split from John Garang's SPLA in 1991, his Nuer SPLA-Nasir forces and the Nuer White Army attacked the Dinka heartland around Bor, killing thousands of civilians along ethnic lines on and around 15 November 1991 and driving some 700,000 Bor Dinka to flee. Tens of thousands more died in the ensuing famine as cattle were slaughtered and the displaced lost their land.",
+      "relevance": "Two decades before independence, the southern liberation movement turned its weapons on its own civilians along ethnic lines — a Dinka-versus-Nuer fault line that the perpetrators of 2013 would reopen, exposing the south's atrocity record as internal, not only inflicted from Khartoum.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Bor massacre overview — an estimated 5,000–20,000 civilians killed at Bor on 15 November 1991, carried out mostly by Nuer fighters of SPLA-Nasir under Riek Machar and the Nuer White Army; Amnesty International cited at least 5,000 Dinka killed (the figure used for toll.high); ~25,000 more later died from famine; Machar apologized in 2012",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Bor_massacre",
+          "caveat": "Tertiary reference carrying a wide range (5,000–20,000); the higher aggregate figures are not independently enumerated. The ~700,000 Bor Dinka displacement figure (in the summary) is sourced from other accounts of the flight to Equatoria, not from this page; lower UN-era figures of 200,000–250,000 also exist."
+        },
+        {
+          "kind": "reference",
+          "cite": "Riek Machar overview (and the parallel 'Ethnic violence in South Sudan' record) — 'As part of SPLA-Nasir, he was involved in the Bor massacre, where 2000 mostly civilians were killed in Bor in 1991'; this ~2,000 figure is the conservative lower bound used here. It is NOT an Amnesty International figure (Amnesty's estimate was 'at least 5,000') and is presented without independent enumeration",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Riek_Machar",
+          "caveat": "Tertiary reference; the ~2,000 figure appears uncited in the Wikipedia text and is not attributable to Amnesty International — corrected during audit, as the prior citation falsely attributed this number to Amnesty and pointed to a page (Bor_massacre) that does not contain it."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

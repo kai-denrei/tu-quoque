@@ -1,0 +1,176 @@
+{
+  "iso": "DOM",
+  "name": "Dominican Republic",
+  "note": "The Dominican Republic's dual ledger is unusually balanced, and that balance is the point. On the 'done to them' (victim) side the dominant catastrophe is colonial: Hispaniola was the first place in the Americas where the Spanish conquest unfolded, and the Taino people native to the island were destroyed within a few decades by forced labor, enslavement, violence, famine, and — later — epidemic disease, a collapse so total that the Taino were declared extinct by Spanish authorities centuries before the Dominican Republic existed as a state. (That same colonial collapse is the shared inheritance of Haiti, which occupies the western third of the same island.) A smaller, modern victim event is the 1916-1924 United States military occupation, during which US Marines fought and killed Dominican gavillero insurgents in the east; its death toll is real but modest and imprecisely counted. On the 'in their name' (perpetrator) side the record is heavy and well-documented, and it is concentrated in the 1930-1961 dictatorship of Rafael Trujillo: the 1937 Parsley Massacre, in which the Dominican army slaughtered thousands of ethnic Haitians along the border on Trujillo's order, and the broader internal terror by which the Trujillo state killed, disappeared, and tortured tens of thousands of its own Dominican citizens over three decades. The internal terror is filed as perpetrator because the agent was the Dominican state, but it is also self-inflicted national trauma — Dominicans killed by Dominicans — the dual lens at its sharpest. Two tolls are contested and shown as ranges: the pre-contact Taino population (estimates diverge by orders of magnitude, and the figures are decline estimates rather than clean death counts) and the Parsley Massacre (scholarly estimates range from roughly 12,000 documented to 20,000-plus).",
+  "events": [
+    {
+      "id": "dom-1",
+      "country": "DOM",
+      "role": "victim",
+      "title": "The destruction of the Taino of Hispaniola under Spanish rule",
+      "era": "1492-1540s",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The collapse was driven first by forced labor, enslavement, violence, and famine and later compounded by Old World epidemic disease (smallpox arrived in 1518) for which the Taino had no immunity — recorded as structural demographic destruction (STR), though scholars including Resendez and the Yale Genocide Studies Program argue the deliberate enslavement and exploitation warrant the genocide label.",
+      "agent": "Spanish conquistadors and colonists on Hispaniola, beginning with Columbus's expeditions from 1492, who imposed the encomienda and repartimiento forced-labor systems, enslaved the Taino, and redirected their food production and labor — driving mortality and crushing fertility across the first quarter-century before epidemics arrived",
+      "toll": {
+        "display": "catastrophic collapse; the Taino population fell from an estimated several hundred thousand (some estimates run far higher) to roughly 26,000-32,000 by 1514 and to a few hundred by the 1560s",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "low_alt": 26000,
+        "high_alt": 400000,
+        "note": "Death-count low/high are null because the figures are population-decline estimates, not clean death tolls, and conflate killing, enslavement, famine, collapsed fertility, and (after 1518) disease. The pre-contact population is genuinely contested: estimates range from a few tens of thousands to as high as ~750,000 or even 1,000,000, with several modern scholars favoring ~300,000-400,000 and a 2020 genetic analysis (Fernandes et al.) supporting the lower end. Documented decline figures: a Taino population of about 400,000 reduced to roughly 60,000 by 1508 and 26,334 (some accounts ~32,000) by 1514, then to about 200 by 1565; Spanish colonial authorities declared the Taino extinct by 1802. The first documented smallpox outbreak was December 1518, killing as much as one-third of the survivors by 1519 — meaning the bulk of the collapse predated the epidemics and was human-caused (forced labor and enslavement)."
+      },
+      "received_lens": "suppressed",
+      "summary": "When Columbus's expeditions reached Hispaniola from 1492, the Spanish imposed the encomienda forced-labor system and enslaved the island's Taino, working them in mines and fields and seizing their food and labor. Mortality climbed and birth rates collapsed; a population reckoned in the hundreds of thousands fell to roughly 26,000 by 1514, before the first smallpox epidemic of 1518 killed as much as a third of those who remained. By the 1560s only a few hundred survived, and Spanish authorities would later declare the Taino extinct. The first sustained European colonization in the Americas erased the people who had lived on the island.",
+      "relevance": "Here the people of Hispaniola are the victim — annihilated by an invading European power and the labor regime and pathogens it brought — a colonial catastrophe the Dominican Republic shares with Haiti, and which stands centuries before the Dominican state would itself become a perpetrator against Haitians and its own citizens.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Taino genocide,\" Wikipedia — pre-contact estimates from 10,000 to 1,000,000 with modern leanings toward 300,000-400,000; population of ~400,000 reduced to 60,000 by 1508 and ~26,334 by 1514, to ~200 by 1565, declared extinct by 1802; debate between disease-driven and slavery-driven interpretations, citing Andres Resendez and the Yale Genocide Studies Program",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Ta%C3%ADno_genocide",
+          "caveat": "Tertiary aggregator; pre-contact population is a contested estimate and the decline figures are population estimates rather than clean death counts, used here as a range with that distinction made explicit."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Hispaniola,\" Wikipedia — 1492 estimates ranging from a few tens of thousands to ~750,000 with a 2020 genetic analysis (Fernandes et al.) supporting the lower range; population of ~400,000 reduced to 60,000 by 1508 and 26,334 by 1514; encomienda and repartimiento forced labor; first documented smallpox outbreak December 1518 killing up to one-third of remaining Taino by May 1519; up to 95% decline within a century",
+          "supports": "toll.note",
+          "url": "https://en.wikipedia.org/wiki/Hispaniola",
+          "caveat": "Tertiary aggregator; corroborates the decline figures and the chronology placing the 1518 smallpox epidemic after the population was already largely destroyed by forced labor."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "dom-2",
+      "country": "DOM",
+      "role": "victim",
+      "title": "Killing of Dominican insurgents under the US military occupation",
+      "era": "1916-1924",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "A counterinsurgency war in which an occupying army fought and killed armed guerrillas and mistreated captives is recorded as armed conflict (WAR); documented abuses fall short of a systematic program to destroy a defined civilian group, and the death toll, while real, is modest and imprecisely counted.",
+      "agent": "the United States Marine Corps and the US-run Military Government of Santo Domingo, which occupied the country from 1916 and waged a counterinsurgency from 1917 to 1922 against the gavillero guerrillas of the eastern provinces of El Seibo and San Pedro de Macoris",
+      "toll": {
+        "display": "~950 Dominican insurgents killed or wounded (a combined casualty figure, not a clean death count); plus uncounted civilian deaths and documented mistreatment of prisoners",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "low_alt": 950,
+        "high_alt": 950,
+        "note": "The most-cited figure is ~950 Dominican insurgents 'killed or wounded' — a combined casualty count, not a death-only toll, so the death low/high are left null. By comparison the occupiers recorded 144 US Marines killed in action and 74 casualties among native constabularies. US Senate select-committee investigations documented mistreatment and torture of captured guerrillas; the US-trained Dominican Constabulary Guard persecuted and tortured opponents of the occupation. Specific civilian death figures were not established in the sources consulted. AUDIT 2026-06-18: both sources verified against source (Wikipedia confirms 144 USMC KIA, 74 constabulary casualties, 950 insurgents 'killed or wounded', Natera, El Seibo/San Pedro de Macoris, Senate investigations, Constabulary torture; GlobalSecurity confirms gavillero war 1917-1921, six Curtis Jenny aircraft, brutal counterinsurgency, Senate Select Committee on Haiti and Santo Domingo). The 950 remains a single combined killed-or-wounded number with no death-only or civilian breakdown, so low/high stay null — flagged single-number toll, not a source-integrity failure."
+      },
+      "received_lens": "contested",
+      "summary": "From 1916 the United States ran the Dominican Republic under a Marine-led military government. In the eastern sugar provinces of El Seibo and San Pedro de Macoris, a guerrilla movement, the gavilleros, fought the occupation from 1917; the Marines answered with superior firepower, aircraft, and counterinsurgency methods that US Senate investigators found included the mistreatment and torture of prisoners. Roughly 950 Dominican insurgents were killed or wounded before the guerrillas were broken, and the occupation lasted until 1924.",
+      "relevance": "Here the Dominican Republic appears as victim of a great-power occupation, its insurgents killed and its prisoners abused by a foreign army — a modern, smaller-scale entry that sits beside the vast colonial Taino catastrophe on the 'done to them' side of the ledger.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"United States occupation of the Dominican Republic (1916-1924),\" Wikipedia — 144 US Marines killed in action, 74 native-constabulary casualties, 950 Dominican insurgents killed or wounded; gavillero guerrilla war 1917-1922 in El Seibo and San Pedro de Macoris under leaders such as Ramon Natera; Senate investigations of mistreatment of captives; Constabulary Guard persecution and torture of opponents",
+          "supports": "toll.note",
+          "url": "https://en.wikipedia.org/wiki/United_States_occupation_of_the_Dominican_Republic_(1916%E2%80%931924)",
+          "caveat": "Tertiary aggregator; the 950 figure is a combined killed-or-wounded casualty count, not a death-only toll, and civilian deaths are not separately quantified."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Military Government of Santo Domingo,\" GlobalSecurity.org / Wikipedia — the eastern provinces of El Seibo and San Pedro de Macoris as the center of the gavillero insurgency 1917-1921; US use of air power and brutal counterinsurgent methods; congressional findings of mistreatment of imprisoned guerrillas",
+          "supports": "summary",
+          "url": "https://www.globalsecurity.org/military/ops/dominican-republic-1916.htm",
+          "caveat": "Defense-oriented reference aggregator; used for the course of the counterinsurgency and the existence of documented prisoner mistreatment, not for a precise death count."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "dom-3",
+      "country": "DOM",
+      "role": "perpetrator",
+      "title": "The Parsley Massacre of Haitians (El Corte)",
+      "era": "1937",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "A state-ordered, ethnically targeted mass killing — Dominican troops slaughtering people identified as Haitian by ancestry and by a language test — to purge an ethnic group from the borderland is recorded as extermination (EXT); it is widely characterized as a genocidal massacre driven by anti-Black racism and antihaitianismo.",
+      "agent": "Dominican dictator Rafael Trujillo, who ordered the killing, and the Dominican Army units he sent to the northwestern frontier and Cibao to carry it out with machetes — disguising the slaughter as spontaneous civilian violence",
+      "toll": {
+        "display": "~12,000-20,000 killed (estimates range from a documented 12,168 to 20,000-plus, with broader claims up to 30,000+)",
+        "disputed": true,
+        "low": 12168,
+        "high": 20000,
+        "unit": "deaths",
+        "note": "Estimates diverge widely. The low end of the firm range, 12,168, is the number of named victims compiled from refugee testimonies by Haitian priests and officials. Historian Richard Lee Turits (Hispanic American Historical Review, 2002) estimates Dominican troops slaughtered 'perhaps 15,000' ethnic Haitians. Scholars commonly cite roughly 20,000 deaths; broader ranges run from 9,000 up to 30,000 or higher, with Wikipedia noting an outer span of 17,000-75,000. The 12,168-20,000 band reflects the documented-list low and the common scholarly figure; the higher numbers are less firmly grounded. No senior Dominican official was ever held to account; the Dominican government paid Haiti $525,000 in reparations, of which survivors received almost nothing."
+      },
+      "received_lens": "denied",
+      "summary": "Over roughly six days in early October 1937, on the order of dictator Rafael Trujillo, Dominican army troops swept the northwestern border region and the Cibao and slaughtered people identified as ethnic Haitians — men, women, and children. Soldiers reportedly held up a sprig of parsley and demanded the Spanish word for it, perejil; those whose Creole-inflected pronunciation marked them as Haitian were killed, mostly with machetes to make the massacre look like spontaneous peasant violence rather than a state act. The killing is remembered by Dominicans as el corte, the cutting, and by Haitians as kout kouto-a.",
+      "relevance": "This is the Dominican state squarely as perpetrator — a dictatorship exterminating an ethnic minority on its own soil — and it stands in direct counterpoint to the country's colonial victimhood, the same island that lost its Taino now the site of a 20th-century ethnic massacre committed in the Dominican name.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Richard Lee Turits, \"A World Destroyed, A Nation Imposed: The 1937 Haitian Massacre in the Dominican Republic,\" Hispanic American Historical Review 82:3 (2002), Duke University Press — Dominican troops over 2-8 October 1937 slaughtered with machete 'perhaps 15,000' ethnic Haitians; Haitian priests and officials compiled a list of 12,168 named victims from refugee testimony",
+          "supports": "toll.low",
+          "url": "https://read.dukeupress.edu/hahr/article-abstract/82/3/589/34983/A-World-Destroyed-A-Nation-Imposed-The-1937",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Parsley massacre,\" Wikipedia — Trujillo ordered the massacre, carried out by Dominican Army troops 2-8 October 1937 in the northwestern frontier and Cibao; characterized as a genocidal massacre driven by anti-Black racism and antihaitianismo; estimates 'generally agree on approximately 20,000 deaths' within a broader cited span; $525,000 reparations of which survivors received almost nothing; no senior official held to account",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Parsley_massacre",
+          "caveat": "Tertiary aggregator; the death toll is genuinely contested, and the highest figures (the article's current 14,000-40,000 main range, the cited 17,000-75,000 outer span) are less firmly grounded than the ~12,000-20,000 band used here. AUDIT 2026-06-18: article reverified — confirms Trujillo's order, Dominican Army 2-8 Oct 1937, northwestern frontier and Cibao, 'genocidal massacre'/antihaitianismo, ~20,000 common scholarly figure, 17,000-75,000 outer span, $525,000 reparations of which survivors received almost nothing, perejil test; the article's headline range is now 14,000-40,000 rather than the '30,000+' phrasing in the cite, but the 12,168-20,000 band remains conservative and within it."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "dom-4",
+      "country": "DOM",
+      "role": "perpetrator",
+      "title": "State terror under the Trujillo dictatorship",
+      "era": "1930-1961",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "The systematic killing, disappearance, and torture of political opponents by a state over three decades to crush dissent and entrench one man's rule is political mass violence (POL), distinct from the ethnically targeted Parsley Massacre (filed separately as EXT).",
+      "agent": "the Dominican state under Rafael Trujillo, who ruled from 1930 to 1961, and his security apparatus — above all the Servicio de Inteligencia Militar (SIM) under Johnny Abbes — which imprisoned, tortured, disappeared, and killed Dominicans who opposed the regime",
+      "toll": {
+        "display": "~25,000-50,000 killed and disappeared over the 31-year dictatorship (figures include the 1937 Haitian massacre; estimates of internal Dominican deaths are less precise)",
+        "disputed": true,
+        "low": 25000,
+        "high": 50000,
+        "unit": "deaths",
+        "note": "Estimates for total deaths under Trujillo's 31-year rule range from about 25,000 (deaths and disappearances) to over 50,000. These totals encompass the 1937 Parsley Massacre of Haitians (filed separately as dom-3), so the internal-Dominican share is smaller and less precisely counted. A concrete data point: in April 1962 Dominican authorities reported 5,700 deaths in the previous five years alone — confirmed murders or missing persons presumed dead. The SIM disposed of bodies clandestinely, denying families remains, which makes a firm internal death count impossible; the low/high here are the standard whole-regime range with that overlap and imprecision noted. AUDIT 2026-06-18 — QUARANTINE: the Rafael Trujillo Wikipedia source (toll.low) reverified in full (25,000 to over 50,000 deaths/disappearances; SIM under Johnny Abbes; Mirabal sisters 25 Nov 1960; Galindez 1956; April 1962 Attorney-General report of 5,700 deaths in the prior five years; clandestine body disposal), and the HISTORY Mirabal source reverified. BUT the Chicago Public Library 'About Trujillo' page returned blank on repeated fetch and the specific 'more than 50,000 deaths' figure attributed to it (toll.high) could NOT be confirmed by independent search — the page's existence, secret-police network, and 1956 Galindez disappearance ARE confirmed, but not the precise 50,000 toll. The toll.high value of 50,000 is independently and firmly supported by the verified Rafael Trujillo Wikipedia source, so the number stands; the CPL attribution alone is what is quarantined. Event set UNVERIFIED on that single unverifiable source attribution."
+      },
+      "received_lens": "memorial",
+      "summary": "From 1930 to 1961 Rafael Trujillo ruled the Dominican Republic as a personal dictatorship enforced by terror. His secret police, the SIM under Johnny Abbes, imprisoned, tortured, disappeared, and killed Dominicans who opposed him, disposing of bodies so families could never recover them. Among the most infamous murders were the three Mirabal sisters, beaten to death by SIM agents on 25 November 1960 and pushed off a cliff to fake an accident; their killing helped turn opinion against the regime, and Trujillo was assassinated months later. Across the dictatorship tens of thousands were killed or disappeared.",
+      "relevance": "Here the Dominican state is the perpetrator against its own people — Dominicans killed and disappeared by a Dominican government — self-inflicted national trauma that, alongside the Parsley Massacre, makes the same regime the country's heaviest entry on the 'in their name' side of the ledger.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Rafael Trujillo,\" Wikipedia — estimates of total deaths under the regime range from 25,000 deaths and disappearances to over 50,000; SIM under Johnny Abbes organized imprisonments and killings; Mirabal sisters murdered 25 November 1960; Galindez disappearance 1956; April 1962 Dominican report of 5,700 deaths or disappearances in the prior five years; SIM disposed of bodies clandestinely",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Rafael_Trujillo",
+          "caveat": "Tertiary aggregator; the whole-regime totals include the 1937 Haitian massacre and the internal-Dominican death count is imprecise because the SIM destroyed remains, used here as a range with that overlap noted."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"About Trujillo,\" Chicago Public Library — Trujillo and his regime accountable for more than 50,000 deaths; extensive coercive secret-police network; state terrorism beyond Dominican borders including the 1956 Galindez disappearance in New York",
+          "supports": "toll.high",
+          "url": "https://www.chipublib.org/about-trujillo/",
+          "caveat": "Institutional reference summary. AUDIT 2026-06-18 — UNVERIFIED ATTRIBUTION: the page exists and confirms the secret-police network and the 1956 Galindez disappearance, but it returned blank on repeated fetch and the specific 'more than 50,000 deaths' figure attributed to it here could NOT be independently confirmed (absent from search excerpts). The 50,000 upper bound is instead firmly carried by the verified Rafael Trujillo Wikipedia source; treat this citation's toll figure as unverified pending a clean read of the page."
+        },
+        {
+          "kind": "press",
+          "cite": "HISTORY, \"Mirabal sisters assassinated by Trujillo regime\" (This Day in History, 25 November 1960) — SIM agents ambushed and beat to death the three Mirabal sisters and their driver outside Puerto Plata, then pushed the car off a cliff to stage an accident; the sisters became martyrs of the Dominican resistance",
+          "supports": "summary",
+          "url": "https://www.history.com/this-day-in-history/november-25/mirabal-sisters-assassinated-dominican-republic",
+          "caveat": null
+        }
+      ],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

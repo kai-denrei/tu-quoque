@@ -1,0 +1,186 @@
+{
+  "iso": "ZWE",
+  "name": "Zimbabwe",
+  "note": "Zimbabwe's ledger is dense on both sides and unusually symmetrical in its central horror: a people conquered by Maxim gun in the 1890s and ground through a white-minority counter-insurgency in the 1960s–70s (victim), then, within years of independence, the new Black-majority state turning the same machinery of mass killing on its own Ndebele minority in the Gukurahundi (perpetrator). The perpetrator side is anchored by Gukurahundi, which scholars and genocide bodies class as genocide; the state still forbids open discussion of it, so the dead are estimated rather than counted, and the toll range is correspondingly wide (a documented floor of ~2,000 against scholarly highs of 20,000+). A second perpetrator entry — Zimbabwe's 1998–2002 intervention in the Democratic Republic of the Congo — is included for the plunder and warfare it brought, but its civilian-death toll cannot be honestly separated from the wider Congo war's ~5 million, so that toll is left null and the event marked UNVERIFIED rather than balanced with an invented figure. On the victim side, the colonial-conquest and liberation-war tolls are themselves contested and mix combatant with civilian dead; the Nyadzonia and Chimoio raids in particular turn on a fierce dispute over whether the camps held refugees or guerrillas, flagged in each entry.",
+  "events": [
+    {
+      "id": "zwe-1",
+      "country": "ZWE",
+      "role": "victim",
+      "title": "The First Matabele War and conquest of the Ndebele kingdom",
+      "era": "1893–1894",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "A one-sided colonial war of conquest in which a chartered company's machine guns slaughtered massed Ndebele warriors and broke their kingdom — armed-conflict killing aimed at conquest and subjugation rather than at exterminating the Ndebele as a people, so WAR.",
+      "agent": "Cecil Rhodes's British South Africa Company, its police and Maxim-gun columns under Leander Starr Jameson",
+      "toll": {
+        "display": "~4,400–4,500 Ndebele killed",
+        "disputed": true,
+        "low": 4400,
+        "high": 4500,
+        "unit": "deaths",
+        "note": "The commonly cited figure is ~4,400–4,500 Ndebele dead across the war, concentrated in two engagements: roughly 1,500 killed at the Shangani River (25 Oct 1893) and ~2,500 at Bembesi (1 Nov 1893), against around 100 BSAC dead. These are battlefield estimates by the victors, with no Ndebele count; the true toll, including wounded who later died and the kingdom's collapse, is unknowable. Lobengula's death from smallpox in Jan 1894 added disease mortality on top of the killing."
+      },
+      "received_lens": "memorial",
+      "summary": "In 1893 Cecil Rhodes's British South Africa Company provoked and then crushed King Lobengula's Ndebele kingdom of Mthwakazi, its small columns using Maxim machine guns to mow down massed warriors at the Shangani River and Bembesi; an eyewitness said the guns cut the attackers down 'literally like grass.' Within months the kingdom had dissolved, Lobengula was dead, and the Company controlled Matabeleland.",
+      "relevance": "The founding violence of the colony that became Zimbabwe — a people conquered by machine gun whose descendants' state would, ninety years later, turn mass killing on the very same Ndebele heartland in the Gukurahundi.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'First Matabele War' — total Matabele deaths ~4,400–4,500; ~1,500 at Shangani River and ~2,500 at Bembesi; ~100 BSAC dead; Maxim guns decisive; kingdom dissolved, Lobengula dead Jan 1894",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/First_Matabele_War",
+          "caveat": "Tertiary aggregator; the casualty figures are estimates recorded by the British/Company victors, with no independent Ndebele count."
+        },
+        {
+          "kind": "reference",
+          "cite": "South African History Online, 'First Matabele War' — BSAC conquest of Matabeleland 1893–94, Rudd Concession background, collapse of the Ndebele kingdom",
+          "supports": "summary",
+          "url": "https://sahistory.org.za/article/first-matabele-war",
+          "caveat": "Used for the conflict narrative and chronology rather than for a precise toll."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "zwe-2",
+      "country": "ZWE",
+      "role": "victim",
+      "title": "The Rhodesian Bush War and cross-border massacres",
+      "era": "1964–1979",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "A fifteen-year counter-insurgency by the white-minority Rhodesian state in which Black Zimbabweans bore the disproportionate share of the dead — as guerrillas in combat and as civilians killed in operations, 'protected villages', reprisals and cross-border raids — armed-conflict killing and atrocity against an insurgency and the population it lived among, so WAR (tier unaffected by the toll-high audit flag).",
+      "agent": "The white-minority Rhodesian government and its Security Forces, including the Selous Scouts and air force",
+      "toll": {
+        "display": "~20,000 killed (well-attested floor; ~30,000 claimed by partisan accounts only)",
+        "disputed": true,
+        "low": 20000,
+        "high": 30000,
+        "unit": "deaths",
+        "note": "QUARANTINE (audit 2026-06-18): the toll.high of ~30,000 is NOT supported by any cited source. The cited Wikipedia 'Rhodesian Bush War' article states only 'c. 20,000 people killed overall' and 1,361 security-force dead; the ~30,000 figure appears in the audit only on a partisan hobbyist site (rhodesians.co), not in any verifiable secondary or scholarly source. The original claim that the great majority were Black civilians 'at ~97% of total losses' is likewise unsourced and is partially contradicted by GlobalSecurity's breakdown, which states more than half of the ~20,000 dead were guerrillas killed in combat operations (security forces ~1,120; white civilians ~500; black civilians killed by guerrilla actions ~3,500; 'crossfire' victims ~3,500). The well-attested floor is ~20,000 war-related deaths (Wikipedia and GlobalSecurity concur); Black Zimbabweans bore the disproportionate share of the dead, but the specific '~97%' and '~30,000' claims could not be verified and are retained only as a flagged, single-/partisan-sourced upper bound. Two single-day cross-border raids dominate the massacre record and ARE well-sourced: Operation Eland at Nyadzonia, Mozambique (9 Aug 1976), where the Selous Scouts killed roughly 1,000 — Amnesty International and ZANU say overwhelmingly unarmed refugees, Rhodesia claimed ~1,028 guerrillas; and Operation Dingo at Chimoio and Tembue (Nov 1977), with most sources putting the dead at over 1,000 including hundreds of civilians, against Rhodesian claims of 1,200–3,000 guerrillas. The combatant-vs-civilian split is the core dispute in both."
+      },
+      "received_lens": "memorial",
+      "summary": "From 1964 to 1979 Ian Smith's white-minority Rhodesian state fought the African guerrilla armies ZANLA and ZIPRA in a war that killed on the order of 20,000 people (conservative, well-attested figure; some partisan accounts claim up to ~30,000), with Black Zimbabweans bearing the disproportionate share of the dead as guerrillas in combat and as civilians caught in operations, 'protected villages' and reprisals. Twice the Selous Scouts and air force struck camps across the border in Mozambique — Nyadzonia in 1976 and Chimoio in 1977 — killing about a thousand people each time; ZANU and Amnesty International say most were unarmed refugees, while Rhodesia insisted they were trained guerrillas.",
+      "relevance": "The liberation war Zimbabweans remember as their second chimurenga was, for the population, a sustained campaign of killing by the minority state — and the dispute over who died at Nyadzonia and Chimoio shows how victim and combatant blur in the same atrocity.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Rhodesian Bush War' — 'c. 20,000 people killed overall'; 1,361 Rhodesian security-force dead",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Rhodesian_Bush_War",
+          "caveat": "AUDIT NOTE: verified to support ONLY the ~20,000 floor and the 1,361 security-force figure. The article does NOT state ~30,000 or give any racial percentage of the dead, so it does NOT support the former toll.high or the '~97% Black' claim. Tertiary aggregator; civilian-vs-combatant breakdowns across the war are not authoritatively settled."
+        },
+        {
+          "kind": "reference",
+          "cite": "GlobalSecurity.org, 'Rhodesian Bush War / Second Chimurenga / Zimbabwe Liberation Struggle' — 'most conservative figures indicate nearly 20,000 war-related deaths over the whole period'; more than half were guerrillas killed in combat; security forces ~1,120; ~500 white civilians; ~3,500 black civilians killed by guerrilla actions; ~3,500 'crossfire' victims",
+          "supports": "toll.low",
+          "url": "https://www.globalsecurity.org/military/world/war/zimbabwe.htm",
+          "caveat": "Independent corroboration of the ~20,000 floor and source of the casualty breakdown. Its breakdown contradicts the earlier '~97% Black civilian' framing (it puts more than half of the dead as guerrilla combatants), which is why that claim was removed in audit. No source found for a ~30,000 high."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Operation Eland' (Nyadzonia raid, 9 Aug 1976) — ~1,000 killed; AI/ZANU say overwhelmingly unarmed refugees, Rhodesia claimed ~1,028 guerrillas; UN Security Council Resolution 411 condemned it; AI called it a war crime",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Operation_Eland",
+          "caveat": "Tertiary aggregator; the refugee-vs-guerrilla composition of the camp is genuinely disputed between the belligerents."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Operation Dingo' (Chimoio and Tembue, Nov 1977) — Rhodesia claimed 1,200–3,000 ZANLA killed; most sources say over 1,000, including hundreds of civilians; camp held a mixed population of guerrillas, recruits and refugees with a hospital and schools",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Operation_Dingo",
+          "caveat": "Tertiary aggregator; the high end is a Rhodesian wartime claim, and the civilian share is contested."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "zwe-3",
+      "country": "ZWE",
+      "role": "perpetrator",
+      "title": "The Gukurahundi massacres in Matabeleland",
+      "era": "1983–1987",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "A state campaign of mass killing, torture and engineered starvation directed at the Ndebele ethnic group and Nkomo's supporters — destruction aimed at a defined people, classed by the International Association of Genocide Scholars as genocide, so EXT.",
+      "agent": "Robert Mugabe's ZANU-PF government and the North Korean-trained Fifth Brigade of the Zimbabwe National Army, with the Central Intelligence Organisation",
+      "toll": {
+        "display": "~2,000–20,000+ deaths (CCJP ~2,000–8,000; IAGS ~20,000)",
+        "disputed": true,
+        "low": 2000,
+        "high": 20000,
+        "unit": "deaths",
+        "note": "The Catholic Commission for Justice and Peace in Zimbabwe (with the Legal Resources Foundation) documented at least ~2,000 deaths in its 'Breaking the Silence' report and judged the true figure could reach ~8,000 — the conservative, evidence-based floor used here for the low. The International Association of Genocide Scholars adopted ~20,000 in a 2005 resolution (high). Local accounts and some estimates run to 40,000–80,000, but those upper figures are not as firmly sourced. Because the state suppressed records, forbids discussion of the killings, and many bodies went into mine shafts and mass graves, no count exists; the deaths combined public executions with a deliberate curfew-and-starvation regime, so part of the toll is engineered famine mortality."
+      },
+      "received_lens": "suppressed",
+      "summary": "From 1983 to 1987 Robert Mugabe's government sent the North Korean-trained Fifth Brigade into Matabeleland and the Midlands to crush the Ndebele political base of his rival Joshua Nkomo. The brigade, reporting outside the regular army chain to Mugabe, carried out public executions — villagers forced to dig their own graves before family — mass detentions at camps such as Bhalagwe, and a sealed-off curfew that starved communities; thousands died. The campaign ended only with the 1987 Unity Accord that absorbed Nkomo's ZAPU into ZANU-PF, and the state has never prosecuted anyone or permitted open commemoration.",
+      "relevance": "The newly independent Black-majority state turning mass killing on its own Ndebele minority in the same Matabeleland the British had conquered by Maxim gun in 1893 — Zimbabwe squarely as perpetrator against Zimbabweans, with figures still alive in government to this day implicated in the killing.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Catholic Commission for Justice and Peace in Zimbabwe & Legal Resources Foundation, 'Breaking the Silence, Building True Peace: A Report on the Disturbances in Matabeleland and the Midlands 1980–1988' (1997) — documented at least ~2,000 deaths, judged the figure could reach ~8,000",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Gukurahundi",
+          "caveat": "Cited here via the Wikipedia summary of the CCJP/LRF report; the documented ~2,000 is a conservative floor constrained by what could be evidenced under a suppressing state, not a complete count."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Gukurahundi' — Fifth Brigade (North Korean-trained, reporting to Mugabe) campaign 1983–1987 against the Ndebele and Nkomo's supporters; IAGS 2005 resolution estimated ~20,000 dead; range cited up to 80,000; ended by 1987 Unity Accord",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Gukurahundi",
+          "caveat": "Tertiary aggregator; the wide range reflects deliberate state concealment and the absence of any official accounting."
+        },
+        {
+          "kind": "reference",
+          "cite": "Genocide Watch, 'Zimbabwe' country report — classes Gukurahundi as genocide; over 20,000 Ndebele killed by the army's Fifth Brigade on Mugabe's orders; perpetrators never prosecuted, public discussion forbidden",
+          "supports": "tier",
+          "url": "https://www.genocidewatch.com/single-post/zimbabwe-genocide-watch-2023",
+          "caveat": "Advocacy NGO with an explicit genocide-prevention agenda; useful for the genocide classification, but its single-point ~20,000+ figure should be read alongside the CCJP's more conservative documented floor. Bias disclosed per audit."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "zwe-4",
+      "country": "ZWE",
+      "role": "perpetrator",
+      "title": "Intervention and plunder in the Second Congo War",
+      "era": "1998–2002",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Mugabe sent the Zimbabwe Defence Forces into another state's war as a combatant and used the deployment to strip Congolese resources — armed-conflict participation plus systematic plunder, so WAR; the specific civilian-death toll attributable to Zimbabwe cannot be isolated from the wider war.",
+      "agent": "Robert Mugabe's government and the Zimbabwe Defence Forces, alongside business interests tied to the ruling elite",
+      "toll": {
+        "display": "Zimbabwe-attributable death toll not separable",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "The Second Congo War as a whole is estimated at up to ~5.4 million deaths (1998–2008), mostly from war-driven disease and hunger, with ~350,000+ violent deaths to 2001 — but this is the toll of all belligerents, and the share attributable to Zimbabwean forces specifically is not separable and is not reliably documented. Mainstream accounts attribute to Zimbabwe primarily combat operations defending Laurent Kabila and systematic resource plunder rather than documented mass killings of civilians; the 2001 UN Panel of Experts accused Zimbabwe (with Rwanda and Uganda) of systematically exploiting Congolese diamonds, cobalt, coltan and gold through elite-controlled companies. Toll left null rather than borrowing the war-wide figure; event marked UNVERIFIED for the death metric."
+      },
+      "received_lens": "denied",
+      "summary": "In August 1998 Robert Mugabe deployed the Zimbabwe Defence Forces — eventually some 12,000 troops — to prop up Laurent Kabila's government in the Democratic Republic of the Congo against a Rwandan- and Ugandan-backed rebellion, tipping the balance of the war. Alongside the fighting, a UN Panel of Experts found that Zimbabwe, like Rwanda and Uganda, systematically looted Congolese diamonds, cobalt, coltan and gold through companies tied to Mugabe's family and military, even as the deployment drained Zimbabwe's own treasury.",
+      "relevance": "Zimbabwe as perpetrator beyond its borders — its army and ruling elite turning another country's catastrophe into combat and plunder — though, unlike Gukurahundi, the record supports plunder and warfare more than a separable count of civilians it killed, which is why the toll is left honestly null.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Second Congo War' — Zimbabwean deployment (peak ~12,000) defending Kabila; war total estimated up to ~5.4 million deaths; 2001 UN Panel of Experts accused Zimbabwe, Rwanda and Uganda of systematically exploiting Congolese resources",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Second_Congo_War",
+          "caveat": "Tertiary aggregator; the ~5.4M figure is the entire war's toll and is NOT attributable to Zimbabwe, and Zimbabwe's specific civilian-death role is not documented as mass killing."
+        },
+        {
+          "kind": "primary",
+          "cite": "UN Panel of Experts on the Illegal Exploitation of Natural Resources and Other Forms of Wealth of the DR Congo (S/2001/357, April 2001) — found systematic exploitation of Congolese resources by Zimbabwe, Rwanda and Uganda",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Second_Congo_War",
+          "caveat": "Cited here via the Wikipedia summary of the UN Panel report; the report documents resource plunder, not a Zimbabwe-specific civilian death toll."
+        }
+      ],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

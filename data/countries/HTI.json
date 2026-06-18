@@ -1,0 +1,239 @@
+{
+  "iso": "HTI",
+  "name": "Haiti",
+  "note": "Researched 2026-06-18. Both ledgers are well populated. Victim side: the demographic collapse of the Taíno of Hispaniola after 1492, the lethal French slave system of Saint-Domingue (the deadliest in the Americas), and the 1937 Parsley Massacre of Haitians by the Dominican state. Perpetrator side: the 1804 extermination of the colony's remaining white population on Dessalines's order, and the Duvalier dictatorships' state terror (1957–1986; the well-quantified core is François 'Papa Doc' Duvalier, 1957–1971). Note on attribution: the Taíno and Saint-Domingue events predate the Haitian state — the perpetrators were Spanish and French colonial powers — but they are the formative atrocities done to the land's people and so sit in Haiti's victim ledger; agency is named plainly. Tolls for the deep-historical events are population-decline figures, not body counts, and are flagged as such. The 1804 massacre is the clearest perpetrator case: a people freshly freed from genocidal slavery turning to mass killing of their former enslavers.",
+  "events": [
+    {
+      "id": "hti-1",
+      "country": "HTI",
+      "role": "victim",
+      "title": "Collapse of the Taíno of Hispaniola",
+      "era": "1492–1540s",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The collapse was driven mainly by epidemic disease against which the Taíno had no immunity, compounded by encomienda forced labor, famine from tribute demands, and warfare — a structural/demographic collapse rather than a single program to exterminate the group, though enslavement and violence were deliberate.",
+      "agent": "The Spanish crown and colonists of Hispaniola (encomienda system, tribute, and conquest)",
+      "toll": {
+        "display": "~hundreds of thousands (pre-contact ~300,000–1,000,000 reduced to ~32,000 by 1514 and a few hundred by the 1560s)",
+        "disputed": true,
+        "low": 300000,
+        "high": 1000000,
+        "unit": "deaths",
+        "note": "Population-DECLINE figure, not a counted death toll. Pre-contact estimates for Hispaniola span an order of magnitude — modern scholars often favor 300,000–400,000, while some early and high estimates reach ~1,000,000. Spanish counts recorded ~32,000 by 1514 and only a few hundred by the 1560s; within three decades 80–90% of the Taíno had died. The low/high here bracket the pre-contact population that was lost, not deaths individually attributable to Spanish violence versus disease. QUARANTINE (audit 2026-06-18): the toll.high (~1,000,000) is sourced (the Taíno-genocide overview gives a pre-contact range of '10,000 to 1,000,000'), but the toll.LOW (300,000) is NOT carried by any cited source. Modern pre-contact estimates for Hispaniola are genuinely unsettled and do not converge on 300,000 — Rosenblat gives ~100,000, Moya Pons ~400,000, Cook & Borah ~7–8,000,000 — so '300,000' is an editorial low that no attached source supports. Both-end sourcing fails for this event; status set UNVERIFIED until a source for the chosen low bound is attached or the low is revised to a sourced figure (e.g. ~400,000 per Moya Pons or ~100,000 per Rosenblat)."
+      },
+      "received_lens": "memorial",
+      "summary": "Within roughly two generations of Columbus's 1492 landing, the Taíno population of Hispaniola fell from hundreds of thousands to a few hundred. Spanish settlers worked them to death in mines and fields under the encomienda system and imposed tribute that brought famine, while smallpox, measles, and other Old World diseases tore through a people with no immunity.",
+      "relevance": "The first peoples of the island that became Haiti were nearly erased before the enslaved Africans who would build the colony ever arrived — the foundational atrocity beneath everything that followed.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Taíno genocide' overview — pre-contact estimates between 10,000 and 1,000,000; ~32,000 remaining by 1514; ~200 by 1565; 80–90% died within three decades",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Ta%C3%ADno_genocide",
+          "caveat": "Tertiary aggregator; pre-contact population for Hispaniola is genuinely unsettled and estimates vary by an order of magnitude."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Andrés Reséndez, The Other Slavery (2016), and Jason Hickel — argue enslavement and forced labor (not disease alone) were major killers; Hickel estimates mine labor killed ~one-third of the population every six months",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Ta%C3%ADno_genocide",
+          "caveat": "Cited via the reference overview; figures on labor mortality are scholarly estimates, not censuses."
+        },
+        {
+          "kind": "primary",
+          "cite": "Bartolomé de las Casas, A Short Account of the Destruction of the Indies (1542) — contemporary eyewitness documentation of Spanish atrocities against the Taíno",
+          "supports": "summary",
+          "url": null,
+          "caveat": "Las Casas was an advocate against the conquest and his quantities are widely held to be polemically inflated; used for the qualitative record, not the toll."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "hti-2",
+      "country": "HTI",
+      "role": "victim",
+      "title": "The Saint-Domingue slave system",
+      "era": "1680s–1804",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The mass death came from a labor regime so lethal that planters found it cheaper to import new enslaved Africans than to keep the existing ones alive — structural exploitation producing extermination-scale mortality, not a single campaign to destroy a group.",
+      "agent": "French colonists and the French crown, operating the sugar and coffee plantations of Saint-Domingue",
+      "toll": {
+        "display": "~1,000,000 deaths over the colony's history (of ~800,000+ Africans imported)",
+        "disputed": true,
+        "low": 800000,
+        "high": 1000000,
+        "unit": "deaths",
+        "note": "Roughly 800,000–1,000,000 enslaved Africans are estimated to have died under the Saint-Domingue system across its existence; about a million is the commonly cited cumulative figure. The sugar plantations carried a 6–10% annual mortality rate — the highest in the Western Hemisphere — and life expectancy after arrival was often under a decade. The low (~800,000) reflects the documented import total whose deaths the system consumed; the high (~1,000,000) the cumulative-deaths estimate. These are aggregate estimates, not a register of the dead."
+      },
+      "received_lens": "memorial",
+      "summary": "France turned Saint-Domingue into the richest colony in the world by working enslaved Africans to death on its sugar and coffee plantations. Conditions were so lethal — a 6–10% annual death rate on the sugar estates — that owners replaced the dead by importing tens of thousands of new captives a year rather than letting people live; about half a million were enslaved there on the eve of the 1791 revolution.",
+      "relevance": "The same enslaved population that France ground up in its plantations would rise, win the only successful large-scale slave revolution, and found Haiti — the victim ledger that produced the perpetrator ledger entry that follows.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Slavery in Haiti' overview — ~2,000 slaves in 1681 rising to nearly 500,000 by 1789; about a million enslaved people died under the system; 6–10% annual mortality on sugar plantations, the highest in the Western Hemisphere",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Slavery_in_Haiti",
+          "caveat": "Tertiary aggregator; the ~1,000,000 cumulative-death figure is an estimate, not a documented count."
+        },
+        {
+          "kind": "reference",
+          "cite": "Saint-Domingue colonial profile — French importers brought roughly 800,000 Africans; ~500,000 enslaved (~90% of the population) by 1790; ~30,000 imported per year in 1789",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Saint-Domingue",
+          "caveat": "Tertiary aggregator; import totals are reconstructed from trade records and vary among historians."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "C. L. R. James, The Black Jacobins (1938) — classic history of Saint-Domingue slavery and the revolution, documenting the lethality of the plantation regime",
+          "supports": "summary",
+          "url": null,
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "hti-3",
+      "country": "HTI",
+      "role": "victim",
+      "title": "The Parsley Massacre",
+      "era": "October 1937",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "A state set out to physically eliminate an ethnic group within its borders — Dominican troops sorting and killing people identified as Haitian over a few days — the destruction of a group as such.",
+      "agent": "The Dominican Republic's army under dictator Rafael Trujillo",
+      "toll": {
+        "display": "~14,000–35,000 (scholarly consensus ~20,000)",
+        "disputed": true,
+        "low": 14000,
+        "high": 35000,
+        "unit": "deaths",
+        "note": "The exact number is impossible to calculate — killings happened in isolated border areas and bodies were thrown into the sea or mass graves. Estimates range widely; a low end around 14,000, a frequently cited band of 17,000–35,000, and figures as high as ~75,000 appear in the literature, with scholarly consensus clustering near 20,000. The low (14,000) and high (35,000) bracket the mainstream range; the ~75,000 outlier is noted but not used as the ceiling."
+      },
+      "received_lens": "suppressed",
+      "summary": "Over roughly five days in October 1937, Dominican soldiers on Trujillo's order killed Haitians and Haitian-descended people along the border. Soldiers reportedly held up sprigs of parsley and demanded the Spanish word 'perejil' — those who could not roll the 'r' in the Haitian-Creole way were marked as Haitian and cut down, mostly with machetes to disguise the killings as civilian violence.",
+      "relevance": "Haiti's modern victim ledger at the hands of its neighbor — the same border later crossed by Haitian state violence and by Dominican deportations, a wound that still shapes Hispaniola.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Parsley massacre' overview — death toll impossible to calculate; estimates ~14,000 to ~75,000, scholarly consensus ~20,000; carried out 2–8 October 1937 by Dominican Army on Trujillo's order",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Parsley_massacre",
+          "caveat": "Tertiary aggregator; underlying counts are weak because killings were hidden and bodies disposed of."
+        },
+        {
+          "kind": "reference",
+          "cite": "Encyclopaedia Britannica, 'Parsley Massacre' — Trujillo-ordered killing of Haitians along the border, October 1937, with estimates spanning roughly 9,000–30,000",
+          "supports": "toll.low",
+          "url": "https://www.britannica.com/event/Parsley-Massacre",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "NPR, 'Remembering To Never Forget: Dominican Republic's Parsley Massacre' (2012) — account of the perejil identification method and the machete killings",
+          "supports": "summary",
+          "url": "https://www.npr.org/sections/thetwo-way/2012/10/01/162092252/remembering-to-never-forget-dominican-republics-parsley-massacre",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "hti-4",
+      "country": "HTI",
+      "role": "perpetrator",
+      "title": "The 1804 massacre of the white population",
+      "era": "February–April 1804",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "A deliberate, ordered campaign to kill people because of their group identity — the remaining white French residents — to the point of near-eradication of that population: destruction of a group as such.",
+      "agent": "The new Haitian state under Jean-Jacques Dessalines and his soldiers (formerly enslaved people)",
+      "toll": {
+        "display": "~3,000–7,000 deaths",
+        "disputed": true,
+        "low": 3000,
+        "high": 7000,
+        "unit": "deaths",
+        "note": "Estimates run from about 3,000 to 7,000 white residents killed between February and April 1804. Historian Philippe Girard notes the figure of ~3,000 for Cap-Haïtien is likely inflated, since only about 1,700 white residents remained there after evacuation. The low (3,000) and high (7,000) bracket the cited range."
+      },
+      "received_lens": "contested",
+      "summary": "Months after declaring independence, Dessalines ordered the killing of the colony's remaining white French inhabitants, city by city, specifying silent weapons like knives and bayonets. Between February and April 1804 his troops killed several thousand and all but eliminated the white population — sparing Polish defectors, some Germans, and useful professionals such as doctors.",
+      "relevance": "A people that had just survived the most lethal slave system in the hemisphere turned, on independence, to exterminating its former enslavers — Haiti's perpetrator ledger born directly out of its victim ledger, the dual lens at its starkest.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'1804 Haitian massacre' overview — 3,000 to 7,000 white people killed February–22 April 1804 on Dessalines's order; silent weapons specified; Poles, some Germans, and select professionals spared",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/1804_Haitian_massacre",
+          "caveat": "Tertiary aggregator."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Philippe Girard, historian of the Haitian Revolution — gives the 3,000–7,000 range and cautions the ~3,000 Cap-Haïtien figure is likely inflated given only ~1,700 white residents remained there",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/1804_Haitian_massacre",
+          "caveat": "Cited via the reference overview rather than directly from Girard's monograph."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Laurent Dubois, Avengers of the New World: The Story of the Haitian Revolution (2004) — narrative history covering the independence period and the 1804 killings",
+          "supports": "summary",
+          "url": null,
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "hti-5",
+      "country": "HTI",
+      "role": "perpetrator",
+      "title": "The Duvalier dictatorship's terror",
+      "era": "1957–1971 (Duvalier dynasty to 1986)",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Sustained state political killing — torture, disappearance, and execution of opponents and ordinary citizens by the regime and its Tonton Macoutes militia — targeting the population for control and dissent rather than for membership in an ethnic group.",
+      "agent": "François 'Papa Doc' Duvalier's government and its Tonton Macoutes (Volontaires de la Sécurité Nationale) militia",
+      "toll": {
+        "display": "~30,000–60,000 killed under François Duvalier (1957–1971)",
+        "disputed": true,
+        "low": 30000,
+        "high": 60000,
+        "unit": "deaths",
+        "note": "Estimates for those killed during François Duvalier's 14-year rule range from about 30,000 to 60,000, including political opponents and ordinary people. The total number of prisoners who starved, were tortured to death, or were executed in regime jails such as Fort Dimanche is unknown. The figure covers the elder Duvalier's presidency; the dynasty's terror continued under his son Jean-Claude until 1986, making any single number a floor for the dynasty as a whole."
+      },
+      "received_lens": "suppressed",
+      "summary": "From 1957 to 1971 François Duvalier ruled Haiti through fear, using the Tonton Macoutes — a militia that eventually numbered in the hundreds of thousands and lived off extortion — to torture, disappear, and kill perceived opponents and their families. Bodies were left on display, prisoners died in jails like Fort Dimanche, and dissent became deadly even in private.",
+      "relevance": "The independent Haitian state turning its machinery of violence on its own people — the perpetrator ledger pointed inward, against the very population whose ancestors' liberation founded the nation.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'François Duvalier' overview — estimates of those killed during his rule range from 30,000 to 60,000; Tonton Macoutes created 1959, eventually ~300,000 members, funded over half the government budget alongside the Presidential Guard",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Duvalier",
+          "caveat": "Tertiary aggregator; regime-era killings were largely undocumented and the 30,000–60,000 band is an estimate."
+        },
+        {
+          "kind": "press",
+          "cite": "Amnesty International, 'Haiti: The truth must not die with Jean-Claude Duvalier' (2014) — documents the dynasty's record of torture, killings, and impunity",
+          "supports": "summary",
+          "url": "https://www.amnesty.org/en/latest/news/2014/10/haiti-truth-must-not-die-jean-claude-duvalier/",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Sciences Po Mass Violence and Resistance Research Network — 'Massacres perpetrated in the 20th Century in Haiti', cataloguing killings under the Duvalier presidency",
+          "supports": "summary",
+          "url": "https://www.sciencespo.fr/mass-violence-war-massacre-resistance/en/document/massacres-perpetrated-20th-century-haiti.html",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

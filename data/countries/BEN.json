@@ -1,0 +1,133 @@
+{
+  "iso": "BEN",
+  "name": "Benin",
+  "note": "Benin's ledgers are sharply asymmetric, and the asymmetry is the point. The dominant pre-colonial power on this soil, the Kingdom of Dahomey (Abomey/Ouidah), was one of West Africa's foremost slave-raiding and slave-exporting states: it built its wealth and firepower by attacking neighbours — Yoruba towns, the Mahi, the kingdom of Ketou — and selling the captives to European ships at Ouidah, and it killed hundreds of war-captives a year in its royal Annual Customs. So the perpetrator column here is deep and well-documented, while the victim column is thinner and more recent: the French conquered Dahomey by force in 1890-1894, breaking the kingdom and exiling King Behanzin, and the territory's peoples were also fed into the same Atlantic trade — many of those embarked from the Bight of Benin were captives taken within or near present-day Benin. Two important honesty notes. First, the slave-trade tolls are EXPORT/SALE counts of people DEPORTED, not death counts; the killing they encode is real but unrecoverable as a single number, and is flagged as such everywhere. Second, the modern era does NOT carry a mass-atrocity event: Mathieu Kerekou's Marxist-Leninist military regime (1972-1989) ran a secret police (the DDS), jailed and tortured dissidents, and shot at student protesters, but this is political repression an order of magnitude below the mass-death threshold this atlas tracks — credible sources note no systematic mass executions on a genocidal scale — so it is recorded here in the note rather than inflated into a tiered event. Nothing was invented to balance the columns.",
+  "events": [
+    {
+      "id": "ben-1",
+      "country": "BEN",
+      "role": "perpetrator",
+      "title": "Dahomey's slave-raiding and the Atlantic trade through Ouidah",
+      "era": "c.1720s–1860s",
+      "era_band": "colonial",
+      "tier": "EXT",
+      "tier_reasoning": "The organized, state-run seizure and permanent removal of defined populations for sale into bondage — the deliberate destruction of communities by carrying their people off in chains — is targeted human destruction, so EXT; the headline figure is an export/sale count of those deported, with the death toll a separate, smaller, uncounted figure spread across raids, the march to the coast, and the Middle Passage.",
+      "agent": "The Kingdom of Dahomey — its kings (Agaja, Tegbesu, Ghezo and others) and armies — which raided neighbouring Yoruba towns, the Mahi, and the kingdom of Ketou for captives and sold them, as a royal monopoly, to European slavers at the port of Ouidah",
+      "toll": {
+        "low": 1000000,
+        "high": 2000000,
+        "unit": "deaths",
+        "display": "~1–2 million deported via the Bight of Benin; deaths a fraction of this",
+        "disputed": true,
+        "note": "CAVEAT: these are counts of people DEPORTED (embarked), not killed. Roughly 2 million captives — about 16% of the estimated 12.5 million transported in the transatlantic trade — embarked from the 'Slave Coast' / Bight of Benin between the early 16th and late 19th centuries, and historians estimate Ouidah alone exported more than 1 million Africans, second in Africa only to Luanda. Not all of these were taken by Dahomey (Allada, Ouidah and others traded before Dahomey conquered the coast in the 1720s), but Dahomey became the dominant slave-supplier of the region and its raids fed the port for over a century. The low bound (~1 million) is the conservative Ouidah-only export figure; the high bound (~2 million) is the full Bight-of-Benin embarkation total. The actual death toll — those killed resisting capture, on the forced march, in the barracoons, and in the Middle Passage (trade-wide Middle Passage mortality ran around 15%) — is genuinely unrecoverable, so the range is set to deportation counts and the death figure is left unquantified by design rather than invented. AUDIT 2026-06-18: the ~2m Bight-of-Benin / ~16% figure is on Wikipedia's 'Slave Coast of West Africa' article, attributed ON-PAGE to Fuglestad (2018) — NOT, as a prior draft of this record stated, to SlaveVoyages / Eltis & Richardson; that attribution was unverifiable and has been removed. The '>1 million from Ouidah, second only to Luanda' figure is confirmed via the Slavery and Remembrance reference site (Colonial Williamsburg Foundation / National Endowment for the Humanities). The earlier '15,000–20,000/yr peak at Ouidah' detail could not be independently confirmed and has been dropped rather than retained unsourced."
+      },
+      "received_lens": "contested",
+      "summary": "From the 1720s, when Dahomey conquered the coastal kingdoms of Allada and Ouidah, its kings made the slave trade a crown monopoly: armies marched out each year against Yoruba towns, the Mahi and the kingdom of Ketou, killed those who resisted, and drove the captives down to Ouidah to be sold to European ships for guns, gunpowder, cloth, cowries and alcohol. Roughly a million people, perhaps more, were shipped from Ouidah alone, making it one of the busiest slave ports on the continent.",
+      "relevance": "The Bight of Benin that appears on the victim side of the broader Atlantic-trade story was supplied by Dahomey's own raids — the same kingdom whose people were later conquered and whose territory mourns the trade was, in its own era, the hand that captured and sold its neighbours.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Slave Coast of West Africa' — ~2 million enslaved Africans embarked from the Bight of Benin (~16% of the ~12.5 million transported in the transatlantic trade), with Ouidah the primary embarkation point (likely more than half embarked at the beach south of Ouidah); on-page attribution is to Fuglestad (2018)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Slave_Coast_of_West_Africa",
+          "caveat": "AUDIT 2026-06-18: on-page text confirms ~2 million / ~16% from the Slave Coast and 'likely more than half' embarked at the beach south of Ouidah, and Dahomey's takeover of Allada and Ouidah. CORRECTION: the on-page citation for these figures is Fuglestad (2018), NOT the SlaveVoyages / Trans-Atlantic Slave Trade Database (Eltis & Richardson) as a prior draft claimed; that attribution could not be verified and was removed. Tertiary aggregator; the figure is an embarkation (deportation) estimate, not a death count."
+        },
+        {
+          "kind": "reference",
+          "cite": "Slavery and Remembrance (Colonial Williamsburg Foundation / National Endowment for the Humanities), 'Ouidah' — Ouidah exported >1 million Africans over two centuries, second in Africa only to Luanda",
+          "supports": "toll.low",
+          "url": "https://slaveryandremembrance.org/articles/article/?id=A0120",
+          "caveat": "AUDIT 2026-06-18: the page returns HTTP 403 to automated fetch, but the load-bearing claim ('Ouidah alone exported more than one million Africans ... Only one other port in Africa (Luanda) transported a greater volume') is confirmed verbatim via the search index quoting this page. Reputable public-history reference project; the figure is an export count, not a death count, and Ouidah's trade predates and is broader than Dahomey's control alone. The earlier '15,000–20,000/yr peak' detail could not be confirmed and has been removed from this cite."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Dahomey' — the kingdom as a major slave-supplier built on raids against neighbours, the royal monopoly over the European trade at Ouidah, and Ghezo's (1818–1858) attempted shift to 'legitimate' palm-oil trade",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Dahomey",
+          "caveat": "RESEARCHED 2026-06-18: on-page text confirms the raid-and-sell economy, the crown monopoly barring Europeans from dealing with the population directly, and the goods exchanged. Tertiary aggregator; cites Robin Law and related scholarship; no single total slave figure is given on this page, so the numbers above rest on the SlaveVoyages-derived and Slavery-and-Remembrance sources."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ben-2",
+      "country": "BEN",
+      "role": "perpetrator",
+      "title": "The Annual Customs: ritual killing of captives at Abomey",
+      "era": "18th–late 19th c.",
+      "era_band": "colonial",
+      "tier": "EXT",
+      "tier_reasoning": "The deliberate, ceremonial killing of war-captives and condemned prisoners year after year as a state institution — the targeted destruction of a defined class of people — is intentional human destruction, so EXT, even though the per-event toll is far smaller than the slave trade it accompanied.",
+      "agent": "The Dahomean monarchy at Abomey — successive kings, above all Ghezo (r. 1818–1858) — which sacrificed war-captives and prisoners at the yearly Annual Customs (Xwetanu) and in far larger numbers at the 'grand customs' marking a king's death",
+      "toll": {
+        "low": 100,
+        "high": 4000,
+        "unit": "deaths",
+        "display": "~100–300/year at regular customs (peaks far higher; up to ~4,000 reported for one event, disputed)",
+        "disputed": true,
+        "note": "The numbers are contested and the dispute is the substance. Scholarly estimates (drawing on Robin Law's work) put the regular Annual Customs at roughly 100–200 victims in the 18th century, rising to about 300 under Ghezo in the 1830s–1840s, then falling to as few as ~32 by the mid-to-late 19th century under British diplomatic pressure; Law cautions that European observers, 'through ignorance or malice, often interpreted as human sacrifices killings which were really of a different character' (judicial executions, witchcraft ordeals, political terrors), i.e. they exaggerated West African human sacrifice. Contemporary European accounts and some reports gave figures of 500 or more, and as many as 4,000 were REPORTED killed at a single ceremony in 1727 — a figure most historians treat as inflated. The 'grand customs' at a king's death involved many more victims than the yearly rite. The low bound (~100) is the conservative scholarly floor for a regular Annual Customs; the high bound (~4,000) is the largest single reported figure, flagged as disputed and probably exaggerated. AUDIT 2026-06-18: CORRECTION — the 100–200 / 300 / ~32 scholarly range and Law's 'ignorance or malice' caveat are NOT on Wikipedia's 'Annual Customs of Dahomey' article (which carries only the 500 and 1727 '4,000' figures and cites Rummel for the latter); a prior draft misattributed them there. Those figures and the Law quotation are confirmed in the secondary survey 'The kingdom of Dahomey and the Atlantic world' (africanhistoryextra.com), which cites Robin Law directly and explicitly flags the numbers as unreliable 'guestimates,' and are corroborated by independent web search. The 500 figure is on the Wikipedia 'Annual Customs of Dahomey' and 'Dahomey' articles. A Rummel 'Death by Government' Dahomey figure could not be independently verified and is therefore NOT relied on here."
+      },
+      "received_lens": "contested",
+      "summary": "Each year at Abomey the Dahomean court held the Annual Customs, in which war-captives and condemned prisoners were ritually killed to honour the royal ancestors and display the king's power; scholarly estimates put the regular toll in the low hundreds, far higher at the 'grand customs' that followed a king's death. European reports inflated the numbers for abolitionist and anti-abolitionist effect, so the exact scale is genuinely disputed — but that the institution killed captives systematically is not.",
+      "relevance": "The captives who were not sold abroad could be killed at home: the same war machine that fed Ouidah also fed the execution grounds of Abomey, which is why Dahomey's name sits on the perpetrator ledger twice over.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'The kingdom of Dahomey and the Atlantic world' (africanhistoryextra.com), citing Robin Law — regular Annual Customs estimated at ~100–200 victims/year in the 18th c., peaking ~300 under Ghezo, falling to ~32 in the mid-to-late 19th c., with Law quoted that Europeans 'often interpreted as human sacrifices killings which were really of a different character' and the author cautioning these are unreliable 'guestimates'",
+          "supports": "toll.low",
+          "url": "https://www.africanhistoryextra.com/p/the-kingdom-of-dahomey-and-the-atlantic",
+          "caveat": "AUDIT 2026-06-18: source CHANGED from Wikipedia's 'Annual Customs of Dahomey' article, which does NOT in fact carry the 100–200 / 300 / 32 range or Law's exaggeration quote (a prior draft wrongly placed them there). This secondary survey confirms the full range and the Robin Law quotation directly and flags the figures as 'guestimates that rose and fell depending on how each Dahomean ruler was perceived,' which is why the toll is a wide flagged range. Verified additionally via independent web search returning the same Law quotation."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Dahomey' — ~500 prisoners sacrificed at the customs, far more (hundreds to thousands) at a king's death, the 1727 report of ~400/4,000, and the note that human sacrifice was exaggerated by anti-abolitionist Western authors",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Dahomey",
+          "caveat": "AUDIT 2026-06-18: on-page text re-verified — confirms 'During the Annual Custom, 500 prisoners would be sacrificed,' 'when a ruler died, hundreds, to thousands of prisoners would be sacrificed,' the 1727 '400 ... also often reported to be 4,000' report, and that 'Human sacrifice was often exaggerated by contemporary anti-abolitionist Western authors.' Tertiary aggregator; the high figures are explicitly flagged on-page as likely exaggerated, consistent with the disputed range used here."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ben-3",
+      "country": "BEN",
+      "role": "victim",
+      "title": "The French conquest of Dahomey",
+      "era": "1890–1894",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "Two short colonial wars in which a French expeditionary force defeated the Dahomean army, burned the capital and annexed the kingdom, with the dead concentrated among combatants — armed conquest, so WAR rather than the deliberate group-destruction of EXT.",
+      "agent": "The French Third Republic and its marine expeditionary forces under General Alfred-Amédée Dodds, which defeated King Behanzin's army (including the female regiments the Europeans called 'Amazons'), forced the burning of Abomey, exiled Behanzin, and annexed Dahomey into French West Africa",
+      "toll": {
+        "low": 1753,
+        "high": 2000,
+        "unit": "deaths",
+        "display": "~1,750–2,000+ Dahomeans killed (Second War alone); first war and broader conquest uncounted",
+        "disputed": true,
+        "note": "No comprehensive death toll exists for the whole conquest. The best-quantified phase is the Second Franco-Dahomean War (1892–1894): Dahomean losses are given as about 1,753 killed and 2,680 wounded, against French losses of around 85 killed, 440 wounded and 205 dead of disease. The First Franco-Dahomean War (1890) added several hundred more Dahomean dead — at the Battle of Cotonou the Fon 'suffered several hundred dead (129 within the French lines)' — while French combat losses across the whole war were minimal (16 killed, 83 wounded). The low bound (~1,753) is the documented Second-War Dahomean killed; the high bound (~2,000) rounds in the First-War and uncounted dead. These are battlefield figures from French colonial records, which counted their own losses precisely and the enemy's loosely; the true Dahomean toll, including civilians, is higher and uncounted. AUDIT 2026-06-18: the Second-War figures (1,753 killed / 2,680 wounded Dahomean; 85 killed / 440 wounded / 205 dead of disease French) are re-confirmed on Wikipedia's 'Second Franco-Dahomean War' infobox; the First-War '129 within the French lines' / 'several hundred dead' at Cotonou and the war-total 16 killed / 83 wounded French are re-confirmed on Wikipedia's 'First Franco-Dahomean War' article. CORRECTION: a prior draft characterised the First-War losses as 'hundreds near Porto-Novo' against '~33 French wounded'; the source locates the 129/several-hundred figure at the Battle of Cotonou and gives war-total French casualties of 16 killed / 83 wounded."
+      },
+      "received_lens": "memorial",
+      "summary": "In two wars between 1890 and 1894 France broke the Kingdom of Dahomey: General Dodds's columns advanced on Abomey, defeating Behanzin's army and its women's regiments in a string of battles in which the Dahomeans lost some 1,750 dead in the second war alone; Behanzin burned and abandoned his capital, surrendered in January 1894, and was exiled to Martinique as France annexed the kingdom into French West Africa. Behanzin is today remembered in Benin as a symbol of resistance.",
+      "relevance": "The slave-raiding kingdom of Dahomey — the hand on this country's perpetrator ledger — was itself conquered, burned out and dismantled by a larger empire, so the same state is both perpetrator and victim across Benin's history.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Second Franco-Dahomean War' — French commander Dodds, forces engaged, Dahomean losses ~1,753 killed / 2,680 wounded vs French ~85 killed / 440 wounded / 205 dead of disease, the burning of Abomey and Behanzin's surrender and exile",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Second_Franco-Dahomean_War",
+          "caveat": "AUDIT 2026-06-18: on-page infobox/text re-verified — confirms the casualty figures (Dahomey 1,753 killed / 2,680 wounded; France 85 killed / 440 wounded / 205 dead of disease), commander Gen. Alfred-Amédée Dodds, the burning and evacuation of Abomey with the French entering on 17 Nov 1892, and Behanzin's 15 Jan 1894 surrender and exile to Martinique. Tertiary aggregator drawing on French colonial military records, which count French losses more precisely than Dahomean."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'First Franco-Dahomean War' — the 1890 war under Dodds/Behanzin, with the Fon suffering 'several hundred dead (129 within the French lines)' at the Battle of Cotonou and minimal French combat losses (war-total 16 killed / 83 wounded)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/First_Franco-Dahomean_War",
+          "caveat": "AUDIT 2026-06-18: on-page text re-verified — confirms the 1890 war, the '129 within the French lines' / 'several hundred dead' Fon losses at the Battle of Cotonou, the war-total French casualties of 16 killed / 83 wounded, and the 3 October 1890 treaty making Porto-Novo a French protectorate. CORRECTION: the source places the 129/several-hundred figure at Cotonou and gives 16 killed / 83 wounded French for the whole war, not the 'hundreds near Porto-Novo / ~33 French wounded' a prior draft stated. Tertiary aggregator; First-War Dahomean losses are reported as approximate ('several hundred'), hence the rounded high bound."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

@@ -1,0 +1,179 @@
+{
+  "iso": "GIN",
+  "name": "Guinea",
+  "note": "Guinea's two ledgers are deliberately lopsided, and the lopsidedness is the truth of the place: the country's worst-documented mass atrocities were inflicted by Guinean rulers on Guineans, not by outsiders. The victim ledger holds one firmly attested event — the French colonial conquest of 1896-1898, which broke the Fula Imamate of Fouta Djallon at Porédaka and crushed Samori Touré's Wassoulou resistance in Upper Guinea — a real but, in body-count terms, modest-and-poorly-quantified episode by the standards of this atlas. The perpetrator ledger is where the scale lives: Ahmed Sékou Touré's one-party state (1958-1984) ran Camp Boiro and a network of detention camps in which estimates of the dead range from roughly 5,000 (a US congressional figure) to about 50,000 (Amnesty International, the Camp Boiro Memorial, and the victims' association), killed by execution, torture and the deliberate starvation regime inmates called the 'diète noire'; the same regime in 1976 turned openly against the Fula (Peul), with Touré — a Malinke — publicly calling for their elimination, executing Fula elites such as OAU founding secretary-general Diallo Telli, and driving Fula refugees into an exile estimated at up to two million Guineans; and the post-Touré junta carried out the 28 September 2009 Conakry stadium massacre, for which a Guinean court in 2024 convicted junta leader Moussa Dadis Camara of crimes against humanity. The dual lens is unusually literal here: the Fula who are victims on the perpetrator ledger's 1976 entry are themselves Guineans, persecuted by a Guinean state — the same people appearing as both, inside one country, within one lifetime. No toll was inflated to balance the columns; the perpetrator side genuinely outweighs the victim side, and that asymmetry is left standing. Pre-colonial Guinea — the slave-raiding and warfare of the Fouta Djallon theocracy and Samori's own scorched-earth campaigns and slave trade — is real but unquantified, and no figure is invented for it.",
+  "events": [
+    {
+      "id": "gin-1",
+      "country": "GIN",
+      "role": "victim",
+      "title": "The French conquest of Fouta Djallon and Upper Guinea",
+      "era": "1896–1898",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "An organized colonial war of conquest that broke the Fula Imamate of Fouta Djallon and the Wassoulou resistance and annexed the territory; tiered WAR for the scale of organized armed violence aimed at subjugation rather than the destruction of a defined people.",
+      "agent": "The French colonial state and its column of tirailleurs (Senegalese riflemen) with artillery and modern repeating rifles, which destroyed Almami Bokar Biro's army at Porédaka and ran down Samori Touré's forces in a multi-year campaign before capturing and deporting him",
+      "toll": {
+        "low": 150,
+        "high": null,
+        "unit": "deaths",
+        "display": "~150+ at Porédaka; wider conquest toll undocumented",
+        "disputed": false,
+        "note": "Only one engagement carries a firm figure: the Battle of Porédaka (13 Nov 1896), where Bokar Biro's Fouta Djallon army lost roughly 150 dead and 300 wounded against three French tirailleurs wounded — an emblem of the firepower gap. The toll of the wider conquest (Samori's seven-year Upper Guinea resistance, the campaigns against forest-zone peoples lasting to 1911) is not aggregated in any source consulted; the high end is left null rather than guessed. This is the documented floor, not a measure of the conquest's full human cost."
+      },
+      "received_lens": "suppressed",
+      "summary": "Between 1896 and 1898 France subjugated the territory that became Guinea. At Porédaka in November 1896 a column of French-led riflemen with artillery destroyed the army of the Fula Imamate of Fouta Djallon in about an hour, ending its independence; in Upper Guinea the empire-builder Samori Touré fought a long retreat before French forces captured him in 1898 and deported him to Gabon, where he died. Resistance in the forest zone was not fully crushed until 1911.",
+      "relevance": "This is the one clear instance of Guinea's peoples as mass victims of an outside power — the colonial wound that the post-independence state would invoke even as it filled the far larger perpetrator ledger against its own citizens. Audit note: the French column at Porédaka also included Fulbe allies under Umaru Bademba Barry per the cited source, not tirailleurs alone.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Battle of Porédaka' — 13 Nov 1896 French colonial victory over the Imamate of Futa Jallon under Bokar Biro; gives 150 dead and 300 wounded on the Fula side against 3 French tirailleurs wounded, after which Fouta Djallon was annexed",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Por%C3%A9daka",
+          "caveat": "Tertiary aggregator; the Porédaka casualty figures (150 dead, 300 wounded vs 3 French wounded) were re-confirmed against the cited article during audit and remain attributed to it; still merit corroboration against a scholarly/primary source for definitive use."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Samori Ture' / 'Samorian state' — Mandingo Wars (1882-1898) between France and Samori Touré's Wassoulou Empire across Upper Guinea and neighbouring territories, ending with his capture in 1898 and death in deportation in 1900",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Samorian_state",
+          "caveat": "Tertiary aggregator; used for the narrative of the wider conquest, which it does not quantify in death-toll terms."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "gin-2",
+      "country": "GIN",
+      "role": "perpetrator",
+      "title": "Camp Boiro and the terror of the Sékou Touré state",
+      "era": "1960–1984",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "A sustained campaign of political mass murder by a one-party state against perceived opponents — imprisonment, torture, execution and deliberate starvation across a network of detention camps; tiered POL for the targeting of people by political loyalty rather than the destruction of a defined ethnic or national group.",
+      "agent": "Ahmed Sékou Touré's Parti Démocratique de Guinée state — its security services, the Camp Boiro detention complex in Conakry and a network of provincial camps, where a 'Revolutionary Committee' extracted confessions under torture and condemned prisoners to death or to the 'diète noire' (withholding all food and water until death)",
+      "toll": {
+        "low": 5000,
+        "high": 50000,
+        "unit": "deaths",
+        "display": "~5,000 to ~50,000 dead",
+        "disputed": true,
+        "note": "Estimates diverge by an order of magnitude and are inherently uncertain given the regime's secrecy. The lower bound (~5,000 executed or dead from torture and starvation at Camp Boiro) is cited to a US House of Representatives report; the upper bound (~50,000 killed across the regime) is the figure given by Amnesty International, the Camp Boiro Memorial organization and the victims' association (AVCB), whose compiled victim lists exceed 50,000 names (corroborated at camp-boiro.org / Global Voices). Audit: both attributions were confirmed — the Camp Boiro Wikipedia article attributes ~5,000 to a US Congress report and ~50,000 to RFI (27 Mar 2008), while the Sékou Touré article attributes ~50,000 to Amnesty and the Camp Boiro Memorial; the AVCB >50,000-name list was independently corroborated. The 2002 exhumation (mass graves near Kindia, one reportedly holding ~400 bodies, discovered by the Children of the Victims of Boiro Camp) was corroborated via search but is NOT in the cited Wikipedia article; the specific '17-18 October 1971' framing for those bodies could not be independently confirmed and is held loosely. The range reflects real scholarly and advocacy divergence, not a settled count."
+      },
+      "received_lens": "contested",
+      "summary": "From independence in 1958 until Sékou Touré's death in 1984, his one-party state met a succession of mostly fabricated 'plots' with waves of arrests, holding thousands at Camp Boiro in Conakry and other camps. Prisoners were tortured into confessions, hanged or shot, or killed slowly by the 'black diet' of total food and water deprivation; victims included an OAU secretary-general, ministers, an archbishop and ordinary citizens. Death-toll estimates run from about 5,000 to roughly 50,000, and no one has ever been tried for the killings.",
+      "relevance": "The state that presented itself to the world as Africa's proud anti-colonial pioneer was, at home, the most lethal perpetrator in Guinea's history — the inversion the dual lens exists to make visible.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Camp Boiro' — defunct Guinean detention camp in Conakry (1960-1984) under Sékou Touré; states ~5,000 executed or dead from torture/starvation, with alternative estimates of ~50,000; describes the 'black diet,' the Revolutionary Committee, named victims, and the 2002 mass-grave discovery",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Camp_Boiro",
+          "caveat": "Tertiary aggregator; audit confirmed it attributes the ~5,000 figure to a US Congress report and the ~50,000 figure to RFI (27 Mar 2008) — both still merit tracing to those primary sources for definitive use. (The Sékou Touré companion article additionally attributes ~50,000 to Amnesty and the Camp Boiro Memorial.)"
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Ahmed Sékou Touré' — summarizes the regime's repression, the wide-ranging death-toll estimates (~5,000 to ~50,000), Amnesty International's count of 4,000 detained for political reasons (1969-1976) with 2,900 unaccounted for, and the flight of some 1.5 million Guineans into exile",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Ahmed_S%C3%A9kou_Tour%C3%A9",
+          "caveat": "Tertiary aggregator; audit confirmed it attributes the ~50,000 upper bound to Amnesty International and the Camp Boiro Memorial organization and the ~5,000 lower bound to a US House of Representatives report, plus Amnesty's 4,000 detained / 2,900 unaccounted (1969-1976) and ~1.5 million in exile. The ~50,000 originates with advocacy/memorial organisations rather than independent forensic counts and is an advocacy estimate, openly disclosed."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "gin-3",
+      "country": "GIN",
+      "role": "perpetrator",
+      "title": "The 1976 campaign against the Fula (Peul)",
+      "era": "1976",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "A state campaign of ethnic persecution — public incitement against an ethnic group, execution of its elites, purges and mass-displacement-inducing terror; tiered POL rather than EXT because the documented record is of incitement, targeted elite killings and exile rather than a verified programme of mass extermination, though the explicit eliminationist rhetoric places it at the edge of EXT.",
+      "agent": "Sékou Touré (an ethnic Malinke) and his state — who in August 1976 delivered speeches denouncing a fabricated 'Fula plot,' publicly called for the Fula to be eliminated ('Peul racism must be given a first-class burial') and urged other groups to kill them, then executed Fula figures including OAU founding secretary-general Diallo Telli and purged Fula from office",
+      "toll": {
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "display": "no reliable death count; up to ~2 million Fula and others driven into exile",
+        "disputed": true,
+        "note": "No sourceable death count exists for a discrete 1976 anti-Fula massacre — the documented violence is the execution of named elites (notably Diallo Telli, who died in detention at Camp Boiro; sources place his death in late 1976/early 1977), arrests, purges and incitement, with the deaths folded into the broader regime toll (event gin-2). The clearest quantified harm is displacement: the Fula came to constitute a majority of the roughly two million Guineans in exile by the end of Touré's rule. Some Fula advocacy and commentary frame the 1976 incitement as a precursor to later genocides; that characterization is contested and is not asserted here as a death figure. Toll left null rather than invented. Audit: the 'first-class burial' quote in the agent field was traced to its primary source — Touré's 22 Aug 1976 speech, published in Horoya no. 2237 (29 Aug–4 Sep 1976) and archived at WebGuinee.Net (added as a source); the original reads 'Le racisme peulh, nous devons lui donner un enterrement de première classe, un enterrement définitif.'"
+      },
+      "received_lens": "contested",
+      "summary": "In August 1976, citing a fabricated Fula assassination plot, Sékou Touré turned the machinery of his state explicitly against the Fula (Peul), Guinea's largest ethnic group. In published speeches he called for their elimination and urged Guineans of other groups to kill them; the regime executed Fula elites — among them Diallo Telli, the first secretary-general of the OAU, who died of the 'black diet' at Camp Boiro — purged Fula from administration, and drove a wave of Fula into an exile that grew to as many as two million Guineans.",
+      "relevance": "Here the dual lens turns literal: the victims are themselves Guineans, an ethnic group persecuted by a Guinean state, so the same people appear as both perpetrator-nation and victim within a single country and a single decade.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "NYU Gallatin Confluence, 'Guinea's Ethnic Conflict' — documents Touré's 1976 campaign against the Fula: arrests and death sentences, the execution of Diallo Telli, eliminationist rhetoric ('we will annihilate them ... by radical revolutionary war'), and the 'Malinkaization' of administration",
+          "supports": "summary",
+          "url": "https://confluence.gallatin.nyu.edu/sections/research/guineas-ethnic-conflict",
+          "caveat": "Student/research essay; corroborated on the rhetoric and elite executions but it does not supply a death toll for the anti-Fula campaign, and its framing of intent should be weighed against scholarly sources."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Ahmed Sékou Touré' — records the May 1976 'Fula plot,' the arrest and death of Diallo Telli, and that the Fula came to form a majority of the ~2 million Guineans in exile by the end of Touré's rule",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Ahmed_S%C3%A9kou_Tour%C3%A9",
+          "caveat": "Tertiary aggregator; used for the plot, the Telli arrest/death and the exile figure, which it attributes to the regime's anti-Fula turn. Audit note: this article records the May 1976 'Fula plot' and Telli's arrest/death but contains NO eliminationist quote — the 'annihilate them' quote is supported by the NYU Gallatin source and the 'first-class burial' quote by the WebGuinee.Net primary source below."
+        },
+        {
+          "kind": "reference",
+          "cite": "WebGuinée.Net (Bibliothèque numérique guinéenne), Ahmed Sékou Touré, 'Discours sur le racisme peul,' 22 August 1976 — primary-text archive of the speech delivered at the Palais du Peuple, reproducing 'Le racisme peulh, nous devons lui donner un enterrement de première classe, un enterrement définitif' ('Peul racism, we must give it a first-class burial, a definitive burial'); original publication Horoya no. 2237, 29 Aug–4 Sep 1976",
+          "supports": "summary",
+          "url": "https://www.webguinee.net/bibliotheque/sekou_toure/discours/discours_anti_peul/astDisc082176.html",
+          "caveat": "Diaspora-run primary-source archive (WebGuinée), not a peer-reviewed edition; cited to anchor the eliminationist quote quoted in the agent/summary fields to its stated original (Horoya, the PDG regime's own newspaper). The archive is partisan in framing but the verbatim French text matches the quote attributed to Touré across multiple independent secondary sources."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "gin-4",
+      "country": "GIN",
+      "role": "perpetrator",
+      "title": "The 28 September 2009 Conakry stadium massacre",
+      "era": "2009",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "A premeditated mass killing and mass rape of unarmed political demonstrators by a military junta's security forces, judged crimes against humanity by a Guinean court; tiered POL for the deliberate targeting of an assembled political opposition rather than an armed-conflict event.",
+      "agent": "The military junta of Captain Moussa Dadis Camara — its elite Presidential Guard ('red berets') under Lt. Aboubacar 'Toumba' Diakité, with gendarmes and militias, who sealed the stadium and opened fire on tens of thousands of demonstrators and committed mass rape",
+      "toll": {
+        "low": 57,
+        "high": 200,
+        "unit": "deaths",
+        "display": "~57 (govt) to ~150–200 (HRW) killed; 100+ women raped",
+        "disputed": true,
+        "note": "The junta admitted 57 (some accounts 56) dead; Guinean civil society and the opposition counted at least 157; Human Rights Watch, drawing on hospital records and witness and medical interviews, estimated about 150 to 200 killed and called the higher figure the more credible one. More than 100 women were raped or sexually mutilated (a UN panel cited 109). Bodies were reportedly removed and hidden, frustrating an exact count; the low is the junta's self-report, the high HRW's estimate."
+      },
+      "received_lens": "memorial",
+      "summary": "On 28 September 2009, tens of thousands gathered in a Conakry stadium to protest the military junta that had seized power the previous December. Camara's Presidential Guard sealed the exits and opened fire, killing scores; soldiers also raped and mutilated more than a hundred women, and bodies were removed to obscure the toll. Counts run from the junta's 57 to Human Rights Watch's estimate of 150-200 dead. In July 2024 a Guinean court convicted Camara and others of crimes against humanity, a rare reckoning in Guinea's history of impunity.",
+      "relevance": "Unlike the unpunished killings of the Touré era, this perpetrator event ended in a courtroom — the same Guinean state that committed the atrocity eventually, fifteen years on, judged it, showing the dual lens can include accountability as well as denial.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, 'Guinea: September 28 Massacre Was Premeditated' (27 Oct 2009) — found the killing organized and pre-planned; estimated about 150-200 dead against the government's 57, documented sealed exits and coordinated fire, and interviewed 27 victims of sexual violence; called it a likely crime against humanity",
+          "supports": "toll.high",
+          "url": "https://www.hrw.org/news/2009/10/27/guinea-september-28-massacre-was-premeditated",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, '2009 Guinean protests' — gives the government figure of 56 dead, the civil-society figure of at least 157 dead, 1,253 injured, and a UN panel finding of 109 women and girls raped or sexually mutilated, with the Presidential Guard ('red berets') as perpetrators under junta leader Moussa Dadis Camara",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/2009_Guinean_protests",
+          "caveat": "Tertiary aggregator; the official 56/57 and civil-society 157 figures should be confirmed against the underlying UN and HRW reporting for definitive use."
+        },
+        {
+          "kind": "press",
+          "cite": "Amnesty International, 'Guinea: Convictions for crimes against humanity following 28 September 2009 massacre trial a historic moment' (July 2024) — reports the conviction of Moussa Dadis Camara and others for crimes against humanity, framing the verdict as a landmark accountability moment for the at-least-150 killed and 100+ women raped",
+          "supports": "summary",
+          "url": "https://www.amnesty.org/en/latest/news/2024/07/guinea-convictions-for-crimes-against-humanity-following-28-september-2009-massacre-trial-a-historic-moment/",
+          "caveat": "Amnesty is a victim-advocacy NGO; cited for the verdict and characterization. Audit: the release exists (re-confirmed; direct fetch again returned HTTP 403), and the conviction was independently corroborated — HRW 'Guinea: Landmark Verdict in Stadium Mass Killings Trial' (31 Jul 2024), Washington Post and Al Jazeera all report Camara found guilty of crimes against humanity (command responsibility) and sentenced to 20 years; UN commission figures of at least 156 killed and 109 women/girls raped. (Camara was later given a controversial presidential pardon on 28 Mar 2025 — noted for completeness.)"
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

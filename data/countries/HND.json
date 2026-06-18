@@ -1,0 +1,179 @@
+{
+  "iso": "HND",
+  "name": "Honduras",
+  "note": "Honduras's dual ledger turns on a single hinge year, 1969, that sits on both sides of the page. The deepest 'done to them' wound is the demographic catastrophe of the Spanish conquest: the indigenous peoples of Honduras — Lenca, Maya, Pech, and others — were killed in the fighting, worked to death in mines and the encomienda, and above all shipped out by the tens of thousands as slaves to the Caribbean islands and Panama while Old World disease ran ahead of the conquerors, collapsing the population by something on the order of 90-95% within a generation; that collapse is filed STR because it was driven by disease, slavery, and forced labour rather than a single program of extermination, and its toll is given as a population-decline range, not a death count. The second victim entry is the 1969 'Football War,' in which the Salvadoran army invaded and bombed Honduran towns. But 1969 is also the country's clearest 'in their name' moment: in the weeks before that war, Honduran mobs — with the government's acquiescence — beat, robbed, and killed Salvadoran migrants and drove tens of thousands of them out of the country, an anti-immigrant pogrom El Salvador called genocide. The heaviest documented perpetrator event is more recent and self-inflicted: the army intelligence unit Battalion 3-16, which in the 1980s abducted, tortured, and disappeared at least 184 Hondurans suspected of leftist sympathies — Hondurans killed by Hondurans, with U.S. and Argentine training behind them. A further perpetrator-side pattern — the killing of Bajo Aguan campesinos and land and environmental defenders such as Berta Caceres after the 2009 coup, by security forces and landowners' guards — is real and ongoing but is recorded in the note rather than entered with an invented total, since the documented case figures (HRW's 29 homicides; the human-rights commissioner's 92 killed 2009-2012) measure a contested and still-unfolding pattern rather than a single closed event. No toll here has been invented to balance the two sides.",
+  "events": [
+    {
+      "id": "hnd-1",
+      "country": "HND",
+      "role": "victim",
+      "title": "The demographic collapse of indigenous Honduras under the Spanish conquest",
+      "era": "1524–1550s",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The catastrophic population loss was driven primarily by Old World disease, mass enslavement and export, and the forced labour of the encomienda and mines rather than by a single deliberate program to exterminate a defined people, which places it in the structural/systemic category (STR) rather than extermination (EXT).",
+      "agent": "Spanish conquistadors and colonists — beginning with expeditions tied to Hernan Cortes, Pedro de Alvarado, and rival captains — who enslaved and exported the native population, worked them in mines and the encomienda, and whose arrival spread epidemic disease",
+      "toll": {
+        "display": "indigenous population fell from roughly 500,000–800,000 to a few thousand under Spanish control by the 1540s (~90-95% decline); deaths not separately countable",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "This is a population-decline figure, not a verified death count, and the two are entered as null because no reliable territory-specific death toll exists. Pre-conquest population estimates for what is now Honduras range widely — commonly cited figures run from about 500,000 (Britannica/Wikipedia note estimates 'up to 2 million' but place the likely figure nearer 500,000) to roughly 800,000 (the figure used in the Spanish-conquest narrative for the western and central highlands). Within roughly two decades the settled population under Spanish control had been reduced to a few thousand: by 1539 an estimated 15,000 Native Americans remained under Spanish control, and by 1541 only about 8,000. Secondary summaries give the overall loss as 'as much as 95%' of the indigenous population within a few decades. The deaths cannot be cleanly separated from those exported as slaves (who died abroad) and those killed by disease, so a single death range would be fabrication; the decline range stands in its place. The standard scholarly treatment is Linda Newson, 'The Cost of Conquest: Indian Decline in Honduras under Spanish Rule' (1986)."
+      },
+      "received_lens": "suppressed",
+      "summary": "From the 1520s the Spanish fought their way into Honduras and then dismantled the peoples who lived there. Conquistadors raised immediate cash by seizing natives — especially along the north coast — and selling them as slaves into the Caribbean islands and Panama; survivors were bound to the encomienda and driven into the mines, while smallpox, measles, and other Old World diseases ran ahead of the soldiers. A population that may have numbered half a million or more was reduced to a few thousand under Spanish control within a generation. The Lenca leader Lempira united more than two hundred indigenous groups in resistance before he was killed around 1537; the collapse continued regardless.",
+      "relevance": "Honduras's foundational atrocity is one done to its first peoples by an outside empire — the victim ledger's deepest entry, and a near-total demographic erasure that the national story long folded into a tale of 'discovery' and mestizaje rather than catastrophe. [AUDIT 2026-06-18: All three sources verified. Both Wikipedia articles quote verbatim (800,000 contact pop / slavery to Caribbean+Panama / Old World diseases / Lempira c.1537; 'nearer 500,000' up to 2M / 15,000 by 1539 / 8,000 by 1541). Newson, The Cost of Conquest (Dellplain no.20, Westview 1986) confirmed real via Smithsonian, Routledge, Duke HAHR 1987 review, Cambridge Core review; HAHR review confirms >90% decline driven by disease/slavery/encomienda — supports STR tier. Death tolls correctly held null (population-decline range, not a death count); quarantine honest, not fabricated. Tier independently re-derived as STR (disease/slavery/forced-labour, no single extermination program) — matches.]",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"History of Honduras (to 1838),\" Wikipedia — pre-conquest population 'probably nearer to 500,000' (estimates up to 2 million); native population collapsed through disease, mistreatment, and export of large numbers as slaves to the Caribbean islands; ~15,000 remained under Spanish control by 1539, ~8,000 by 1541",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/History_of_Honduras_(to_1838)",
+          "caveat": "Tertiary aggregator; pre-conquest population estimates vary enormously between authorities, so the figures are given as a wide range and no death count is derived from them."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Spanish conquest of Honduras,\" Wikipedia — estimated population of 800,000 (concentrated in the western and central regions) at contact; conquistadors gained income 'by selling natives into slavery on the Caribbean Islands and in Panama'; spread of Old World diseases (smallpox, measles, typhoid, yellow fever, malaria); Lempira's resistance c. 1537",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_Honduras",
+          "caveat": "Tertiary aggregator; the 800,000 figure is one estimate among several and is used for the contact-era population, not as a basis for a death toll."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Linda A. Newson, \"The Cost of Conquest: Indian Decline in Honduras under Spanish Rule\" (Dellplain Latin American Studies no. 20, Westview Press, 1986) — the standard monograph on the demographic collapse of indigenous Honduras under Spanish rule (bibliographic record, ResearchGate)",
+          "supports": "tier",
+          "url": "https://www.researchgate.net/publication/358324364_The_Cost_of_Conquest_Indian_Decline_in_Honduras_Under_Spanish_Rule",
+          "caveat": "Cited as the authoritative scholarly treatment of the decline; the full quantitative figures sit behind the monograph and a paywalled review, so this entry's numbers are drawn from corroborating reference sources rather than directly quoted from Newson."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "hnd-2",
+      "country": "HND",
+      "role": "victim",
+      "title": "The Football War (Salvadoran invasion of Honduras)",
+      "era": "1969",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "A short interstate war in which the Salvadoran army invaded Honduran territory and bombed Honduran towns, with the majority of the dead reportedly civilians, is armed conflict between states (WAR) rather than a one-sided campaign against a defined group (EXT) or internal political repression (POL).",
+      "agent": "The armed forces of El Salvador, which invaded Honduras on 14 July 1969, bombed Honduran towns and the airbase at Toncontin, and pushed several kilometres across the border before an OAS-brokered ceasefire on 18 July",
+      "toll": {
+        "display": "~2,000–3,000 killed across both countries (Honduran civilian dead among them); official Honduran figure 99 dead, disputed up to ~1,500",
+        "disputed": true,
+        "low": 99,
+        "high": 3000,
+        "unit": "deaths",
+        "note": "Figures are contested and cover both belligerents. Official Honduran records give 165 casualties including 99 dead, but these are disputed: the parish priest of Nueva Ocotepeque reportedly counted some 400 dead in his town alone, and internal CIA documents are cited as putting Honduran deaths as high as ~1,500. Aggregate estimates for the whole 100-hour war commonly run to 'several thousand' (often given as ~2,000-3,000) killed across both countries, with most historians agreeing civilians were the majority of the dead. The low bound (99) is the official Honduran death figure; the high bound (3,000) is the upper end of the combined two-country estimate. The war also displaced an estimated 300,000 people across the region. Honduras is filed here as victim because El Salvador was the invading party; the same year's persecution of Salvadoran migrants by Hondurans is filed separately on the perpetrator side."
+      },
+      "received_lens": "memorial",
+      "summary": "On 14 July 1969 the Salvadoran army invaded Honduras, bombing Honduran towns and the main airbase and driving across the border, after months of border tension over land reform and Salvadoran migration that had boiled over around three World Cup qualifying matches. Honduran towns near the frontier were shelled and bombed; civilians made up most of the dead. The Organization of American States brokered a ceasefire after about a hundred hours, on 18 July, and Salvadoran forces later withdrew. The fighting killed somewhere between hundreds and a few thousand people across the two countries and uprooted hundreds of thousands.",
+      "relevance": "The same conflict the atlas files against Honduras as perpetrator (the anti-Salvadoran pogrom) also made Honduras a victim — its towns bombed and its civilians killed by an invading neighbour — so 1969 sits on both ledgers at once, the cleanest illustration of the dual lens this atlas exists to hold. [AUDIT 2026-06-18: Both sources verified. Wikipedia Football War quotes verbatim (14 Jul invasion / 18 Jul OAS ceasefire / 165 casualties 99 dead / Nueva Ocotepeque priest ~400 / CIA up to 1,500 / civilians the majority / 300k displaced). Combined 'several thousand (~2,000-3,000)' toll independently corroborated by multiple sources. Britannica page exists with correct framing (live in search; 403 only to automated fetch). Toll dual-sourced: low 99 (official Honduran) + high 3,000 (combined two-country upper end). Tier independently re-derived as WAR (interstate army invasion + bombing) — matches.]",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Football War,\" Wikipedia — Salvadoran invasion 14 July 1969, OAS ceasefire 18 July; official Honduras 165 casualties / 99 dead, disputed (parish priest of Nueva Ocotepeque ~400 dead; CIA documents up to ~1,500); 'several thousand' combined deaths and ~300,000 displaced; civilians the majority of losses",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Football_War",
+          "caveat": "Tertiary aggregator; the death figures span official, clerical, and intelligence sources that disagree by an order of magnitude, hence the wide disputed range."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Football War,\" Encyclopaedia Britannica — 1969 conflict ('100 Hour War') between El Salvador and Honduras rooted in land reform and migration disputes; Salvadoran attack and OAS-negotiated ceasefire",
+          "supports": "summary",
+          "url": "https://www.britannica.com/event/Football-War",
+          "caveat": "General reference encyclopedia; used for the war's framing and chronology rather than a precise toll."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "hnd-3",
+      "country": "HND",
+      "role": "perpetrator",
+      "title": "State terror by Battalion 3-16",
+      "era": "1980–1984",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "The clandestine abduction, torture, and forced disappearance of citizens suspected of leftist or oppositional sympathies, carried out by a state intelligence unit to suppress dissent, is political repression (POL) rather than warfare (WAR) or the destruction of an ethnic group (EXT).",
+      "agent": "Battalion 3-16, an intelligence unit of the Honduran Army, operating as a state death squad — reorganized and run in its worst years by General Gustavo Alvarez Martinez — with training and support from the U.S. CIA and Argentine military advisers",
+      "toll": {
+        "display": "at least 184 disappeared or extrajudicially killed; many more tortured",
+        "disputed": false,
+        "low": 184,
+        "high": 184,
+        "unit": "deaths",
+        "note": "The figure of at least 184 people disappeared or extrajudicially killed comes from the Honduran National Commissioner for Human Rights and was cited in U.S. congressional correspondence; it is widely treated as a documented floor rather than a contested estimate, with many additional victims abducted and tortured but not killed. The number is described as 'at least' because the unit's clandestine methods (unmarked vehicles, secret detention sites, bodies in unmarked graves) mean the true total is plausibly higher; no higher verified count exists, so the range is held at the documented 184 rather than inflated. The unit was active in a broader sense from roughly 1979 into the 1990s, but its most intense killing fell in the early 1980s under Alvarez Martinez."
+      },
+      "received_lens": "contested",
+      "summary": "In the early 1980s, while Honduras served as a U.S. staging ground against the region's leftist movements, the army's intelligence unit Battalion 3-16 hunted down Hondurans suspected of subversion — students, teachers, unionists, and activists. Operating in plainclothes and disguises, its agents seized victims off the street in unmarked trucks, interrogated and tortured them with electric shock and near-drowning, and disappeared many into unmarked graves. A later Honduran human-rights commission documented at least 184 such killings and disappearances. The unit's commander, General Gustavo Alvarez Martinez, and many of its members had been trained at the U.S. School of the Americas and by Argentine officers; a CIA adviser reportedly coached its interrogators.",
+      "relevance": "The perpetrator ledger's heaviest modern entry collapses into the same people as the victim ledger — Hondurans abducted and killed by the Honduran state — and exposes the foreign hand (U.S. and Argentine) behind a death squad later half-acknowledged at home, a reckoning still contested rather than settled. [AUDIT 2026-06-18: All three sources verified. Wikipedia quotes verbatim (at least 184 disappeared/killed; 1996 Lantos-Kennedy congressional letter citing the National Commissioner for Human Rights; torture by electric shock/water submersion/suffocation; Alvarez Martinez; 19+ School of the Americas grads; CIA + Argentine 'Operation Charly'). HRW 1994 'The Facts Speak for Themselves' confirmed (exact title, relays the official NCHR report). CJA Honduras page confirmed — corroborates the 184 figure independently and the Reyes v. Lopez Grijalba suit. The 184 is single-authority (NCHR) but cross-confirmed by two independent sources and honestly framed as a documented floor, not disputed. Tier independently re-derived as POL (clandestine state repression of suspected leftists) — matches.]",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Battalion 3-16 (Honduras),\" Wikipedia — army intelligence unit / death squad; at least 184 disappeared or extrajudicially killed (per a 1996 U.S. congressional letter citing the National Commissioner for Human Rights); torture methods; led by Gen. Gustavo Alvarez Martinez; ~19 members trained at the School of the Americas; CIA support and Argentine 'Operation Charly' training",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Battalion_3-16_(Honduras)",
+          "caveat": "Tertiary aggregator; the 184 figure derives from the Honduran human-rights commissioner and is a documented floor that even official sources treat as a minimum."
+        },
+        {
+          "kind": "press",
+          "cite": "Human Rights Watch, \"The Facts Speak for Themselves: The Preliminary Report on Disappearances of the National Commissioner for the Protection of Human Rights in Honduras\" (1994) — documents the 1980s forced disappearances and the commissioner's investigation into them",
+          "supports": "summary",
+          "url": "https://www.hrw.org/report/1994/07/01/facts-speak-themselves/preliminary-report-disappearances-national-commissioner",
+          "caveat": "Human Rights Watch is an advocacy organization, but this report relays the findings of the official Honduran National Commissioner for Human Rights and is the standard documentary source for the disappearances."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Center for Justice and Accountability (CJA), Honduras program page and Reyes v. Lopez Grijalba litigation — documents Battalion 3-16's abductions, torture, and disappearances and the prosecution of a former commander",
+          "supports": "tier",
+          "url": "https://cja.org/where-we-work/honduras/",
+          "caveat": "CJA is a human-rights litigation organization that brought cases against former Battalion 3-16 officers; cited for the documented pattern of state-directed disappearance, with the advocacy interest noted."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "hnd-4",
+      "country": "HND",
+      "role": "perpetrator",
+      "title": "The 1969 anti-Salvadoran pogrom",
+      "era": "1969",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Organized mob violence — beatings, killings, dispossession, and mass expulsion — targeting a national minority (Salvadoran migrants) with the acquiescence of the state, driving tens of thousands from the country, is political/ethnic persecution (POL) rather than interstate warfare (WAR) or a verified extermination campaign (EXT).",
+      "agent": "Honduran mobs and local authorities, acting with the acquiescence of the Honduran government, against Salvadoran migrants — preceded by the state's enforcement of a 1962 land-reform law that stripped land from Salvadoran settlers",
+      "toll": {
+        "display": "dozens of Salvadorans reported killed; tens of thousands (El Salvador said ~300,000 over time) beaten, dispossessed, and expelled",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "A precise death toll for the pre-war persecution is not reliably documented and is entered as null. Contemporary accounts describe 'dozens' of Salvadorans killed or brutalized and tens of thousands forced to flee — El Salvador stated that about 12,000 Salvadorans were driven out in the days after the second football match (late June 1969), with the total uprooted over the period estimated by El Salvador at up to ~300,000 (other estimates of overall displacement run 60,000-130,000). The Salvadoran government formally charged Honduras with 'genocide' against its emigrants and broke relations on 26 June 1969. Because no source gives a verified count of those killed (as opposed to expelled), the death range is held null and the event marked UNVERIFIED on its toll; the expulsion of tens of thousands is well attested."
+      },
+      "received_lens": "denied",
+      "summary": "In the weeks before the 1969 war, anti-Salvadoran feeling — stoked by competition for land and jobs and by the football matches — turned into organized violence inside Honduras. Mobs dragged Salvadoran migrants from their homes, beat and robbed them, drove them from their jobs, and forced them toward the border; the Honduran government did little to stop it and was widely seen to sanction it. Tens of thousands of Salvadorans, some of whom had lived in Honduras for decades, fled on foot, many of them injured. El Salvador called it genocide against its people and broke off relations, and the persecution helped trigger the invasion that followed.",
+      "relevance": "Honduras as perpetrator in the very conflict where it was also victim: the bombed Honduran towns of the Football War cannot be read honestly without the pogrom that preceded them, in which Hondurans expelled and brutalized a vulnerable migrant minority — the dual lens turned on a single year. [AUDIT 2026-06-18: Both sources verified. Wikipedia Football War quotes verbatim (anti-Salvadoran riots; 300,000 Salvadorans in Honduras; El Salvador's ~12,000-flee claim; 1962 land-reform law stripping Salvadoran-occupied land). ADST 'The 1969 Soccer War' (2014, U.S. Foreign Service oral histories) confirmed verbatim — Salvadorans 'dragged out of their homes, beaten, driven off jobs, brutalized,' government 'sanctioned those mob actions,' genocide charge, 26 Jun break in relations. Death toll correctly held null (only expulsion attested, no verified count of those killed vs. expelled); quarantine honest. Tier independently re-derived as POL (state-acquiescent mob persecution/expulsion of a national minority) — matches.]",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Football War,\" Wikipedia — anti-Salvadoran riots across Honduras after the June 1969 match; ~300,000 Salvadorans then in Honduras; El Salvador's claim that ~12,000 were forced to flee in days; 1962 land-reform law (enforced by 1967) stripping land from Salvadoran immigrants; thousands of laborers expelled before the war",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Football_War",
+          "caveat": "Tertiary aggregator; figures on those expelled are cited from El Salvador's own claims and vary, and no verified count of those killed is provided."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Association for Diplomatic Studies and Training, \"The 1969 'Soccer War' Between Honduras and El Salvador\" (2014) — Salvadorans 'dragged out of their homes, beaten, driven off jobs, and brutalized,' with the Honduran government sanctioning the mob actions; tens of thousands streaming back across the border, many beaten; El Salvador's 'genocide' charge and 26 June break in relations",
+          "supports": "summary",
+          "url": "https://adst.org/2014/06/the-1969-soccer-war/",
+          "caveat": "An oral-history/diplomatic-studies account drawing on U.S. Foreign Service recollections; vivid on the persecution but not a source of a precise verified death toll."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

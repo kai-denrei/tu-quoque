@@ -1,0 +1,136 @@
+{
+  "iso": "CZE",
+  "name": "Czechia",
+  "note": "Czechia's twentieth century supplies an unusually clean dual lens within a single decade. On the victim side, the Czech lands under Nazi occupation (the Protectorate of Bohemia and Moravia, 1939–45) saw the near-total destruction of two peoples on Czech soil — the Jews and the Roma — the latter through camps at Lety and Hodonín that were staffed and guarded entirely by Czech gendarmes, which is itself a perpetrator thread inside the victim story. On the perpetrator side, immediately after liberation, Czech militias, the Revolutionary Guards, the army and ordinary civilians drove out roughly three million ethnic Germans in 1945–46, killing tens of thousands in 'wild' expulsions and organized massacres at Postoloprty, Přerov, Ústí and on the Brno death march. The note worth keeping: the same population that was the front-line target of one of the most efficient deportation systems in occupied Europe became, within months, the agent of one of the largest forced population transfers of the postwar period. The perpetrator side is genuinely smaller in absolute toll than the victim side — this is not a research gap but the historical record of a small Central European nation that was overrun, then took violent revenge as the occupier withdrew.",
+  "events": [
+    {
+      "id": "cze-1",
+      "country": "CZE",
+      "role": "victim",
+      "title": "The Holocaust in Bohemia and Moravia",
+      "era": "1939–1945",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "The systematic deportation and murder of the Jews of the Protectorate, the deliberate destruction of a people as such, so EXT.",
+      "agent": "Nazi Germany (the SS and RSHA under Reinhard Heydrich), assisted by the local Czech gendarmerie",
+      "toll": {
+        "display": "~71,000–78,000 killed",
+        "disputed": false,
+        "low": 71000,
+        "high": 78000,
+        "unit": "deaths",
+        "note": "Of approximately 82,309 Jews deported from the Protectorate, roughly 71,000 were killed at extermination sites in the occupied east; a further ~7,000 were killed inside Bohemia and Moravia, giving a total near 78,000. About 14,000 of the Protectorate's pre-war Jews survived. Figures from the USHMM Holocaust Encyclopedia; the transport records kept at Theresienstadt (Terezín) are among the better-documented in occupied Europe."
+      },
+      "received_lens": "memorial",
+      "summary": "After Germany occupied the Czech lands in 1939, the SS used the fortress town of Theresienstadt as a transit ghetto, funneling some 73,600 Protectorate Jews through it before deporting most onward to killing sites in the Baltic, the Lublin district and Auschwitz; German authorities ran the deportations and the local Czech gendarmerie assisted with round-ups and guarding.",
+      "relevance": "Czechia appears here as the soil on which a people was destroyed — the same lens under which, in its own perpetrator ledger, Czech forces stand for the expulsion of the Germans a few years later.",
+      "status_audit": "VERIFIED 2026-06-18: both citations resolve to the real USHMM 'Holocaust in Bohemia and Moravia' page; 82,309 deported / ~71,000 killed in deportation / ~7,000 killed within B&M / ~14,000 survivors / 73,603 to Theresienstadt / 'assisted by local Czech gendarmerie' all confirmed verbatim. Tier EXT correct (deliberate destruction of a people). Toll range narrow and both ends USHMM-sourced.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "United States Holocaust Memorial Museum, Holocaust Encyclopedia, 'The Holocaust in Bohemia and Moravia' — ~82,309 deported, ~71,000 killed in deportation plus ~7,000 killed within Bohemia and Moravia, ~14,000 survivors",
+          "supports": "toll.high",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/the-holocaust-in-bohemia-and-moravia",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "United States Holocaust Memorial Museum, Holocaust Encyclopedia — ~73,603 Protectorate Jews deported to Theresienstadt; Theresienstadt as transit ghetto; deportations by German authorities 'assisted by local Czech gendarmerie'",
+          "supports": "summary",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/the-holocaust-in-bohemia-and-moravia",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cze-2",
+      "country": "CZE",
+      "role": "victim",
+      "title": "The Romani genocide in Bohemia and Moravia (Porajmos)",
+      "era": "1942–1945",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "The near-total destruction of the native Bohemian and Moravian Roma, killed for who they were, so EXT.",
+      "agent": "Nazi Germany, with the Lety and Hodonín camps administered and guarded by Czech gendarmes",
+      "toll": {
+        "display": "~5,000 killed; ~90% of the native Czech Roma",
+        "disputed": true,
+        "low": 4900,
+        "high": 6000,
+        "unit": "deaths",
+        "note": "Of roughly 6,500 people recorded as Roma in the Protectorate in 1942, only about 600 of the native Bohemian and Moravian Roma survived — historians estimate around 90% perished, implying a death toll on the order of 5,000–6,000. At Lety camp itself about 326 died (including all c. 30 children born there) and at least 511 were deported from Lety to Auschwitz; the names of 4,493 Protectorate Roma appear in the Auschwitz 'Gypsy Camp' files, where most were murdered. Exact totals are uncertain because the community was so thoroughly destroyed that few records and few survivors remained. QUARANTINE (audit 2026-06-18): the toll figures themselves verify against their cited sources (Wikipedia 'Lety concentration camp' for the camp-level numbers; Romea.cz for the ~600 survivors / ~90% perished / >5,000 imprisoned). The 4,493 figure is real but is sourced to the Council of Europe factsheet, not to the holocaust.cz page originally cited; the summary citation has been re-pointed (see sources caveat). Event held UNVERIFIED solely on the citation-attribution defect in the summary source, not on any toll error."
+      },
+      "received_lens": "suppressed",
+      "summary": "From 1942 the Roma of Bohemia and Moravia were concentrated in two camps — Lety in Bohemia and Hodonín in Moravia — that were run and guarded entirely by Czech gendarmes, where malnutrition and disease killed hundreds before the survivors were deported to Auschwitz-Birkenau and largely gassed; only about 600 of the native Czech Roma lived to return.",
+      "relevance": "A genocide on Czech soil in which Czechs were not only victims' neighbors but the camps' guards — the dual lens collapsed into a single event, and a memory long suppressed (a pig farm stood on the Lety site until 2018).",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Lety concentration camp' — ~326 deaths at Lety including ~30 children born in the camp; 511 deported to Auschwitz on two transports (94 on 4 Dec 1942, 417 on 14 May 1943); camp guarded by Czech gendarmes; ~6,500 Roma recorded in the Protectorate in 1942",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Lety_concentration_camp",
+          "caveat": "Tertiary aggregator; used for camp-level figures and administration, which it draws from Czech historical sources."
+        },
+        {
+          "kind": "press",
+          "cite": "Romea.cz, 'The forgotten Holocaust: Romani victims of the Holocaust...' — of more than 5,000 Bohemian and Moravian Roma imprisoned at Auschwitz and other camps, only ~600 returned; ~90% of the native Czech Roma perished",
+          "supports": "toll.high",
+          "url": "https://romea.cz/en/czech-republic/the-forgotten-holocaust-romani-victims-of-the-holocaust-and-their-place-in-the-czech-past-and-present",
+          "caveat": "Roma advocacy outlet; cited for survivor/death proportions that are consistent with the Council of Europe and academic estimates of near-total destruction."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "holocaust.cz (Terezín Initiative Institute), 'The gypsy camp at Lety' and 'The Gypsy Camp at Hodonín u Kunštátu' — both camps' supervisory staff 'recruited from the police force of the Protectorate of Bohemia and Moravia'; ~1,309 interned at Lety of whom 326 survived; transports to Auschwitz Dec 1942 and May 1943; about 5,000 Czech-lands Roma murdered overall",
+          "supports": "summary",
+          "url": "https://www.holocaust.cz/en/history/concentration-camps-and-ghettos/the-gypsy-camp-at-lety/",
+          "caveat": "AUDIT 2026-06-18: original cite pointed to the holocaust.cz 'Persecution of Roma and Sinti in the Protectorate' overview page and attributed three specifics to it — 'run solely by Czech personnel,' 'none punished after 1945,' and '4,493 Protectorate Roma named in the Auschwitz Gypsy Camp files' — that do NOT appear on that page. Cite re-pointed to the holocaust.cz camp pages, which confirm Czech Protectorate police as staff and the ~5,000 death total. The 'run solely by Czech personnel / none punished' phrasing traces to the English Wikipedia 'Concentration camps Lety and Hodonín' article; the 4,493 figure to the Council of Europe Roma Genocide factsheet (coe.int, HTTP 403 on fetch). Substance is corroborated; the original page-to-claim attribution was wrong."
+        }
+      ],
+      "status_audit": "UNVERIFIED 2026-06-18: toll figures verify (Wikipedia Lety, Romea.cz) and tier EXT is correct (genocidal destruction of a people — gassing at Auschwitz dominates; the camp disease deaths do not make this STR). Held UNVERIFIED only because the summary source citation as written attributed specific quotes/figures to a holocaust.cz page that does not contain them. Citation re-pointed and discrepancy disclosed; substance corroborated across real sources.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "cze-3",
+      "country": "CZE",
+      "role": "perpetrator",
+      "title": "The expulsion of the Germans from Czechoslovakia",
+      "era": "1945–1946",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "A state-directed forced removal of an ethnic group, carried out through internment, massacres and lethal deportation marches aimed at clearing a population from the land rather than exterminating it as such, so POL; much of the death toll came via disease, exposure and suicide under the conditions of expulsion.",
+      "agent": "Czech militias and Revolutionary Guards, the Czechoslovak army, and civilians, under the postwar Beneš government's expulsion policy",
+      "toll": {
+        "display": "~15,000–30,000 deaths",
+        "disputed": true,
+        "low": 15000,
+        "high": 30000,
+        "unit": "deaths",
+        "note": "The 1995 joint German-Czech commission of historians concluded the toll was 'at least 15,000' and up to a maximum of about 30,000; German records counted ~18,889 confirmed deaths (incl. 3,411 suicides) and Czech records ~22,247 (incl. 6,667 unexplained cases or suicides). An older West German government estimate of ~270,000 deaths is now regarded by scholars as substantially overstated; some historians put the wider range at 24,000–40,000. Deaths spanned 'wild' expulsions (May–Aug 1945), internment camps, and the organized transfers of 1946. Major killings include Postoloprty (~763 shot), the Brno death march (~800 dead of ~20,000 expelled), Přerov (265 shot), and the Ústí massacre (at least 43)."
+      },
+      "received_lens": "contested",
+      "summary": "As the war ended, Czech militias, the Revolutionary Guards, army units and ordinary civilians drove roughly three million ethnic Germans out of Bohemia and Moravia — in the 'wild' summer of 1945 thousands were shot, beaten, interned or forced onto lethal marches, with mass shootings at Postoloprty and Přerov and the Brno death march, before the organized expulsions of 1946 cleared the rest under Allied sanction.",
+      "relevance": "The atlas's tightest dual lens: the same Czech population that had just been the target of Nazi deportation became, within months, the agent of one of the largest forced removals of postwar Europe.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Expulsion of Germans from Czechoslovakia' — 1995 German-Czech joint commission: 'at least 15,000' up to ~30,000 dead; German records ~18,889 deaths (3,411 suicides), Czech records ~22,247 (6,667 unexplained/suicides); West German 1958 estimate ~270,000 now deemed overstated",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Expulsion_of_Germans_from_Czechoslovakia",
+          "caveat": "Tertiary aggregator; the death-toll range is itself politically contested between German expellee organizations (higher) and Czech accounts (lower), so the sourced figures are the binational commission's consensus band."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Expulsion of Germans from Czechoslovakia' — massacres at Postoloprty (763 shot), Přerov (265 shot), Brno death march (~800 dead of ~20,000), Ústí (at least 43); perpetrators 'armed volunteers,' soldiers, police, officials; official expulsions 25 Jan–Oct 1946; ~3 million expelled",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Expulsion_of_Germans_from_Czechoslovakia",
+          "caveat": "Tertiary aggregator; massacre-level figures vary between sources, used here for the documented set of major incidents."
+        }
+      ],
+      "status_audit": "VERIFIED 2026-06-18: both citations resolve to the real Wikipedia 'Expulsion of Germans from Czechoslovakia' page; 1995 commission band 15,000–30,000, German records 18,889 (3,411 suicides), Czech records 22,247 (6,667 unexplained/suicides), 1958 estimate ~270,000 now overstated, and massacre tolls (Postoloprty 763, Přerov 265, Brno ~800 of ~20,000, Ústí ≥43), official expulsions 25 Jan–Oct 1946, ~3 million expelled — all confirmed verbatim. Both ends of the contested toll are sourced. Tier POL correct: state-directed ethnic removal, not extermination as such (not EXT), with deaths largely a byproduct of expulsion/violence rather than a primary disease driver (not STR).",
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

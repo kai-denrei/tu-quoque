@@ -1,0 +1,133 @@
+{
+  "iso": "BEL",
+  "name": "Belgium",
+  "note": "Belgium's ledger is unusually lopsided in scale: the perpetrator side carries one of the largest atrocities of the colonial era — the Congo Free State, the personal possession of the Belgian king Leopold II, which Belgium then annexed and ran as a colony until 1960 — while the victim side, though real and well documented, is an order of magnitude smaller. The Congo Free State is formally Leopold's private venture rather than the Belgian state's, but it was a Belgian sovereign's enterprise financed and staffed through Belgium, and Belgium inherited and continued the colony; it belongs in Belgium's perpetrator ledger. On the victim side, Belgium was twice the front-line target of German invasion: the 'Rape of Belgium' civilian massacres of 1914 and the Nazi destruction of Belgian Jewry in 1942–1944. The asymmetry here is not a research gap — it reflects a small, late-industrializing European state that was both a major colonial perpetrator and a repeatedly overrun battleground, not a serial aggressor against its neighbors.",
+  "events": [
+    {
+      "id": "bel-1",
+      "country": "BEL",
+      "role": "perpetrator",
+      "title": "The Congo Free State",
+      "era": "1885–1908",
+      "era_band": "colonial",
+      "tier": "POL",
+      "tier_reasoning": "Leopold II ran a forced-labor extraction regime that killed through hostage-taking, mutilation, punitive village destruction, starvation and worked-to-death rubber quotas — atrocity in service of plunder rather than the deliberate destruction of a people as such, so POL rather than EXT; the bulk of the demographic loss came via disease and a collapsed birth rate driven by that regime.",
+      "agent": "Leopold II of Belgium and his Force Publique concession companies",
+      "toll": {
+        "display": "~1.2–10 million",
+        "disputed": true,
+        "low": 1200000,
+        "high": 10000000,
+        "unit": "deaths",
+        "note": "The high figure (~10M, Hochschild and an early Vansina estimate) is a population DECLINE, not a counted death toll — it folds in disease (sleeping sickness, smallpox), a collapsed birth rate and mass flight alongside killing, and Vansina's own local study attributed under five percent of deaths to direct violence. The low figure (~1.2M, Sanderson 2020) is a demographer's most-likely modeled estimate. No baseline census exists before 1924, so every number is an extrapolation; most historians reject the 'genocide' label while documenting a deliberate, lethal coercion system."
+      },
+      "received_lens": "memorial",
+      "summary": "Belgium's king ran the Congo basin as his private property, extracting rubber through a Force Publique that took villages' women hostage to force the men to meet quotas, severed hands as proof of spent cartridges, and burned villages that fell short; how many died is fiercely contested, but the cruelty of the system is documented in detail by contemporaries like Casement and Morel.",
+      "relevance": "The atlas's clearest case of a European state as mass perpetrator abroad — the same Congo Free State sits in the Congolese ledger as 'done to them', and here it sits as 'in their name'.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Adam Hochschild, King Leopold's Ghost (1998) — argues roughly half the population, ~10 million, perished",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/King_Leopold%27s_Ghost",
+          "caveat": "Popular history written as an explicit moral case against Leopold; the 10M figure is population decline, not a verified body count, and has been challenged by demographers."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Jean-Paul Sanderson, demographic reconstruction (2020) — most-likely ~1.2M, plausible range 1–5M",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Atrocities_in_the_Congo_Free_State",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Atrocities in the Congo Free State' — survey of estimates (Casement ~3M; Forbath 5M+; Ndaywel è Nziem 5–10M; Vansina's revision) and the disease-as-primary-cause finding",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Atrocities_in_the_Congo_Free_State",
+          "caveat": "Tertiary aggregator; used to map the spread of scholarly estimates and the causation debate, not as a primary count."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "bel-2",
+      "country": "BEL",
+      "role": "victim",
+      "title": "The Rape of Belgium",
+      "era": "1914–1918",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Deliberate reprisal killings of civilians by an invading army during the opening campaign and occupation of the First World War — atrocities embedded in armed conflict and aimed at terrorizing a population into submission, not at exterminating a people, so WAR.",
+      "agent": "The Imperial German Army",
+      "toll": {
+        "display": "~6,000 killed in the 1914 massacres; ~23,700 total civilian deaths under occupation",
+        "disputed": false,
+        "low": 6000,
+        "high": 23700,
+        "unit": "deaths",
+        "note": "The lower end (~6,000) counts civilians shot outright in the August–September 1914 reprisal massacres; the higher end (~23,700) adds the ~17,700 who died in expulsion, deportation, imprisonment or by court-ordered execution across the whole 1914–1918 occupation. Neither figure includes the roughly 90,000 indirect 'excess' deaths attributed to occupation-era food shortages, nor the 3,000+ killed at the electrified 'Wire of Death' border fence."
+      },
+      "received_lens": "memorial",
+      "summary": "As Germany swept through Belgium in August 1914 its troops, claiming to suppress civilian snipers, shot hostages and burned towns — 674 killed at Dinant, 383 at Tamines, the university library at Leuven torched — and the killing continued through four years of occupation that deported some 120,000 Belgians for forced labor.",
+      "relevance": "The same Belgium that ran the Congo was, within a few years, itself the front-line victim of a neighbor's invasion — the dual lens in a single generation.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "John Horne & Alan Kramer, German Atrocities, 1914: A History of Denial (2001) — the definitive study of the 1914 invasion massacres",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/German_atrocities_of_1914",
+          "caveat": "Audit note: the book's headline tally is ~6,500 civilians killed across Belgium AND France combined; the ~6,000 carried here is the Belgium-only figure as reported in the 'Rape of Belgium' literature drawing on this study."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Rape of Belgium' — total of ~23,700 civilian deaths (6,000 murdered + 17,700 in expulsion/deportation/imprisonment/execution) plus the town-by-town massacre tallies",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Rape_of_Belgium",
+          "caveat": "Tertiary aggregator; the wartime 'Rape of Belgium' framing was also amplified by Allied propaganda, so figures are drawn from the scholarly consensus the article reports rather than from contemporary atrocity claims."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "bel-3",
+      "country": "BEL",
+      "role": "victim",
+      "title": "The Holocaust in Belgium",
+      "era": "1942–1944",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "The systematic round-up and deportation of Jews and Roma from Belgium for extermination at Auschwitz-Birkenau — the deliberate destruction of a people, so EXT.",
+      "agent": "Nazi Germany (SS/Sicherheitspolizei), with Belgian collaborationist auxiliaries",
+      "toll": {
+        "display": "~24,000 deported via Mechelen murdered; ~28,000 Belgian Jews killed overall",
+        "disputed": false,
+        "low": 24000,
+        "high": 28902,
+        "unit": "deaths",
+        "note": "Of ~24,916 Jews and 351 Roma deported from the Kazerne Dossin (Mechelen) transit camp on 28 trains, only about 1,240 survived — roughly 24,000 killed. Counting all Belgian Jews murdered (including those seized outside the Mechelen route) the standard figures run ~28,000, with 28,902 cited in Belgium's own state reckoning; about half of Belgium's roughly 66,000 pre-war Jews were hidden and survived."
+      },
+      "received_lens": "memorial",
+      "summary": "From August 1942 the SS used the Dossin barracks at Mechelen as the single transit camp funneling Belgium's Jews and Roma onto trains to Auschwitz, where most were gassed on arrival; Belgian collaborationist paramilitaries helped with the round-ups, while ordinary Belgians hid roughly half the country's Jews from deportation.",
+      "relevance": "Belgium appears here as victim of genocide on its own soil — the same lens under which, in the Congo ledger, it stands accused.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Kazerne Dossin Memorial / Wikipedia, 'Mechelen transit camp' — 24,916 Jews and 351 Roma deported on 28 trains; ~1,240 survivors",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Mechelen_transit_camp",
+          "caveat": "Tertiary aggregator drawing on the Kazerne Dossin memorial's documented transport records, which are among the best-kept in occupied Europe."
+        },
+        {
+          "kind": "reference",
+          "cite": "USHMM Holocaust Encyclopedia / Wikipedia, 'The Holocaust in Belgium' — ~28,000 of ~66,000 Belgian Jews murdered; 28,902 in Belgium's own reckoning",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/The_Holocaust_in_Belgium",
+          "caveat": "Audit note: USHMM gives the framing (65–70k pre-war, ~25k deported, fewer than 2k deportee survivors, over 25k hidden) but does NOT itself state a ~28,000 total; the 'around 28,000' total is from Wikipedia 'The Holocaust in Belgium', and the precise 28,902 is Belgium's own official state reckoning (corroborated independently). URL corrected to the article carrying the figure."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}
