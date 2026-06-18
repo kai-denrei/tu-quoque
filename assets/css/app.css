@@ -173,6 +173,26 @@
 .name-count { font-family: var(--mono); color: var(--glow); font-size: var(--step-3); line-height: 1; }
 .name-flash { animation: nameflash .55s var(--ease); }
 @keyframes nameflash { 0% { opacity: .2; letter-spacing: .12em; } 55% { opacity: 1; } 100% { letter-spacing: normal; } }
+.recall { font-family: var(--mono); color: var(--glow); margin-left: .5ch; }
+.choice-in { animation: choicein .32s var(--ease) both; }
+@keyframes choicein { from { opacity: 0; transform: translateY(7px); } to { opacity: 1; transform: none; } }
+
+/* magnifier lens (Name it) — zoomed circular view so tiny countries are visible */
+.magnifier {
+  position: relative;
+  width: clamp(170px, 46vw, 250px); aspect-ratio: 1;
+  margin: .3rem auto 1rem;
+  border-radius: 50%; overflow: hidden;
+  border: 2px solid var(--glow); background: #0b0b0f;
+  box-shadow: 0 0 0 6px rgba(202,160,90,.10), 0 12px 30px rgba(0,0,0,.55);
+}
+.magnifier svg { width: 100%; height: 100%; display: block; }
+.magnifier::after {
+  content: ""; position: absolute; inset: 0; border-radius: 50%; pointer-events: none;
+  background: radial-gradient(circle at 32% 26%, rgba(255,255,255,.14), transparent 42%);
+}
+.mg-other  { fill: #262732; stroke: #0b0b0f; stroke-width: .25; }
+.mg-target { fill: var(--teal); stroke: #07120f; stroke-width: .25; }
 
 /* ============ STUB VIEWS (Compare / Essays) ============ */
 .stub { max-width: 64ch; margin: 2rem auto; }

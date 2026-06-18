@@ -32,6 +32,52 @@ export async function mountLearn(container) {
   let i = 0, score = 0;
   let advanceTimer = null;
 
+  // ---- magnifier: a zoomed circular lens of one country (so tiny states are visible) ----
+  const NS = 'http://www.w3.org/2000/svg';
+  const PW = 1000, PH = 500;
+  const projX = (lon) => (lon + 180) / 360 * PW;
+  const projY = (lat) => (90 - lat) / 180 * PH;
+  const ringD = (ring) => {
+    let s = '';
+    for (let k = 0; k < ring.length; k++) { s += (k ? 'L' : 'M') + projX(ring[k][0]).toFixed(1) + ' ' + projY(ring[k][1]).toFixed(1); }
+    return s + 'Z';
+  };
+  const featureD = (f) => { let d = ''; for (const poly of f.geometry) for (const ring of poly) d += ringD(ring); return d; };
+  const bbox = (f) => {
+    let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+    for (const poly of f.geometry) for (const ring of poly) for (const [lon, lat] of ring) {
+      const x = projX(lon), y = projY(lat);
+      if (x < x0) x0 = x; if (x > x1) x1 = x; if (y < y0) y0 = y; if (y > y1) y1 = y;
+    }
+    return { x0, y0, x1, y1 };
+  };
+  function buildMagnifier(iso) {
+    const target = worldData.features.find((f) => f.iso === iso);
+    if (!target) return null;
+    const b = bbox(target);
+    const size = Math.max(b.x1 - b.x0, b.y1 - b.y0, 2.5);   // min size for point-like countries
+    const half = size * 1.7 / 2;                             // padding around the country
+    const cx = (b.x0 + b.x1) / 2, cy = (b.y0 + b.y1) / 2;
+    const vx0 = cx - half, vx1 = cx + half, vy0 = cy - half, vy1 = cy + half;
+    const svg = document.createElementNS(NS, 'svg');
+    svg.setAttribute('viewBox', `${vx0} ${vy0} ${half * 2} ${half * 2}`);
+    svg.setAttribute('preserveAspectRatio', 'xMidYMid slice');
+    for (const f of worldData.features) {                    // faint context — only what overlaps the lens
+      if (f.iso === iso) continue;
+      const fb = bbox(f);
+      if (fb.x1 < vx0 || fb.x0 > vx1 || fb.y1 < vy0 || fb.y0 > vy1) continue;
+      const p = document.createElementNS(NS, 'path');
+      p.setAttribute('d', featureD(f)); p.setAttribute('class', 'mg-other');
+      svg.appendChild(p);
+    }
+    const tp = document.createElementNS(NS, 'path');
+    tp.setAttribute('d', featureD(target)); tp.setAttribute('class', 'mg-target');
+    svg.appendChild(tp);
+    const wrap = el('div', 'magnifier');
+    wrap.appendChild(svg);
+    return wrap;
+  }
+
   const MODES = [['capital', 'Find the capital'], ['population', 'Which is bigger?'], ['name', 'Name it · 3s']];
   function renderModes() {
     modeSwitch.innerHTML = '';
@@ -57,15 +103,18 @@ export async function mountLearn(container) {
     else nameQ();
   }
 
-  // "Name it": highlight a country, 3-second countdown, flash the name, honor-system self-grade
+  // "Name it": a zoomed lens of the country, 3-second countdown, flash the name, honor-system self-grade
   function nameQ() {
     const c = pick(pool);
-    map.mark(c.iso, 'q-target');
+    map.mark(c.iso, 'q-target');                            // also mark on the world map for global context
     let t = 3;
     qBox.innerHTML = `
-      <div class="quiz-prog">name it · the highlighted country</div>
+      <div class="quiz-prog">name it · the country in the lens</div>
+      <div id="mgmount"></div>
       <div class="quiz-q name-count" id="ndown">${t}</div>
       <div class="quiz-ask">Recall its name before it flashes…</div>`;
+    const mg = buildMagnifier(c.iso);
+    if (mg) qBox.querySelector('#mgmount').appendChild(mg);
     const dEl = qBox.querySelector('#ndown');
     const tick = () => {
       t--;
@@ -76,12 +125,15 @@ export async function mountLearn(container) {
     function reveal() {
       qBox.innerHTML = `
         <div class="quiz-prog">name it</div>
+        <div id="mgmount2"></div>
         <div class="quiz-q name-flash">${c.name}</div>
         <div class="quiz-ask">Did you get it? (honor system)</div>
         <div class="choices">
           <button class="choice" data-ok="1"><span class="opt">✓</span>Correct</button>
           <button class="choice" data-ok="0"><span class="opt">✗</span>Incorrect</button>
         </div>`;
+      const mg2 = buildMagnifier(c.iso);
+      if (mg2) qBox.querySelector('#mgmount2').appendChild(mg2);
       qBox.querySelectorAll('.choice').forEach((b) => (b.onclick = () => {
         if (qBox.dataset.answered) return;
         qBox.dataset.answered = '1';
@@ -103,25 +155,39 @@ export async function mountLearn(container) {
     const sameRegion = pool.filter((c) => c.iso !== ans.iso && c.region === ans.region);
     const distractors = shuffle(sameRegion.length >= 3 ? sameRegion.slice() : pool.filter((c) => c.iso !== ans.iso)).slice(0, 3);
     const options = shuffle([ans, ...distractors]);
+    // 3s recall window with NO choices, then reveal them one by one
+    let t = 3;
     qBox.innerHTML = `
       <div class="quiz-prog">capital · the highlighted country</div>
       <div class="quiz-q">${ans.name}</div>
-      <div class="quiz-ask">What is its capital?</div>
-      <div class="choices"></div>`;
-    const choices = qBox.querySelector('.choices');
-    options.forEach((o, idx) => {
-      const b = el('button', 'choice');
-      b.type = 'button'; b.dataset.iso = o.iso;
-      b.innerHTML = `<span class="opt">${String.fromCharCode(65 + idx)}</span>${o.capital}`;
-      b.onclick = () => {
-        if (qBox.dataset.answered) return;
-        qBox.dataset.answered = '1';
-        if (o.iso === ans.iso) { b.classList.add('correct'); score++; }
-        else { b.classList.add('wrong'); choices.querySelector(`[data-iso="${ans.iso}"]`).classList.add('correct'); }
-        showFact(`${ans.name} — capital ${ans.capital}, population ${fmt(ans.population)}.`, i === ROUND - 1);
-      };
-      choices.append(b);
-    });
+      <div class="quiz-ask">What is its capital? <span class="recall" id="rc">${t}</span></div>
+      <div class="choices" id="choices"></div>`;
+    const rc = qBox.querySelector('#rc');
+    const tick = () => {
+      t--;
+      if (t > 0) { rc.textContent = t; advanceTimer = setTimeout(tick, 1000); }
+      else { rc.textContent = ''; revealChoices(); }
+    };
+    advanceTimer = setTimeout(tick, 1000);
+
+    function choose(o, b, choices) {
+      if (qBox.dataset.answered) return;
+      qBox.dataset.answered = '1';
+      if (o.iso === ans.iso) { b.classList.add('correct'); score++; }
+      else { b.classList.add('wrong'); choices.querySelector(`[data-iso="${ans.iso}"]`).classList.add('correct'); }
+      showFact(`${ans.name} — capital ${ans.capital}, population ${fmt(ans.population)}.`);
+    }
+    function revealChoices() {
+      const choices = qBox.querySelector('#choices');
+      options.forEach((o, idx) => {
+        const b = el('button', 'choice choice-in');
+        b.style.animationDelay = (idx * 0.22) + 's';      // appear one by one
+        b.type = 'button'; b.dataset.iso = o.iso;
+        b.innerHTML = `<span class="opt">${String.fromCharCode(65 + idx)}</span>${o.capital}`;
+        b.onclick = () => choose(o, b, choices);
+        choices.append(b);
+      });
+    }
   }
 
   function populationQ() {
