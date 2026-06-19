@@ -104,9 +104,10 @@ batches (5h window was at 53% when starting), most-populous first. Script (reusa
 - ☑ **Batch 1** (run `wf_047ae8a6-5db`): IND IDN PAK NGA BRA BGD RUS ETH PHL EGY VNM IRN THA TZA ZAF → 6 VERIFIED, 9 UNVERIFIED (mostly honest null/contested tolls). Integrated.
 - ☑ **Batch 2** (run `wf_4c1d5a41-6f4`): ITA KEN MMR COL KOR SDN UGA DZA ARG IRQ AFG CAN YEM UKR MAR → 7 VERIFIED, 8 UNVERIFIED. Integrated + pushed.
 - ☑ **Batch 3** `wf_4c87dede-f48` (AGO POL UZB MYS PER GHA SAU MOZ CIV NPL CMR VEN AUS PRK NER) · ☑ **Batch 4** `wf_c97c958a-93e` (MLI SYR BFA LKA MWI ZMB KAZ CHL TCD ROU SOM GTM SEN ECU NLD).
-- ☑ **Batch 5** `wf_5706036a-8ac` (ZWE…PRT) · ☑ **Batch 6** `wf_d50b5794-1f3` (SWE ARE GRC TJK PNG AZE HUN TGO BLR AUT CHE SLE LAO TKM LBY).
-- **PROGRESS: 102 / 165 done (batches 1–6). 63 remaining.** 383 events, 1,033 sources, 0 invalid. Status: 49 VERIFIED, 53 UNVERIFIED.
-- ⏸ **PAUSED on the WEEKLY cap: 7d at 94%** (5h fine). A batch adds ~3-4 pts of 7d, would risk the hard 100% weekly cap mid-run. Wakeup re-checks hourly; resumes the remaining 63 once the weekly RESETS (7d drops). RESUME recipe unchanged: recompute next ~15 most-populous unresearched, edit batch-script fallback (clean names by hand), launch Workflow, integrate+push, repeat until 0.
+- ☑ **Batch 5** (ZWE…PRT) · ☑ **Batch 6** `wf_d50b5794-1f3` (SWE ARE GRC TJK PNG AZE HUN TGO BLR AUT CHE SLE LAO TKM LBY) · ☑ **Batch 7** `wf_8edd014d-9a0` (KGZ PRY NIC SRB BGR SLV COG DNK LBN FIN LBR SVK IRL NZL CAF).
+- **PROGRESS: 117 / 165 done (batches 1–7). 48 remaining.** 443 events, 1,185 sources, 0 invalid. Status: 53 VERIFIED, 64 UNVERIFIED.
+- ⏸ **PAUSED — both windows maxed: 5h 90%, 7d 99%.** Wakeup re-checks; resumes when 5h ≤ ~50% AND 7d below cap (weekly resets shortly). ~3-4 more batches to finish.
+- ⚠️ **GitHub Pages BLOCKED:** account-level "Actions has been disabled for this user" (kai-denrei) — breaks both legacy + Actions Pages builders → 404. Repo is correctly configured (build_type=workflow, .nojekyll, .github/workflows/pages.yml) and WILL auto-deploy once Actions is re-enabled on the account (operator action / GitHub support). Site works locally (localhost:8848) + content is in the public repo. Awaiting operator decision (re-enable Actions vs alternative host).
 - ☐ Batches 2…N: after each, regenerate `data/countries/index.json`, validate JSON, `node build/bump-version.mjs`, check 5h budget before the next. RESUME a stuck batch via resumeFromRunId.
 - NEXT-BATCH RECIPE: `node -e` over data/geo/reference.json minus existing data/countries/*.json, sort by population,
       take next ~15, edit the fallback array in the batch script (or pass args), re-invoke Workflow.
