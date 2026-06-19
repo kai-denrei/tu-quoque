@@ -1,0 +1,168 @@
+{
+  "iso": "MRT",
+  "name": "Mauritania",
+  "note": "Mauritania's two ledgers are unusual in that the same nation appears on both within a single living memory, and the line between victim and perpetrator runs straight through the country's own population rather than across a border. The victim ledger's clearest documented wound is the French colonial conquest of 1903-1934, the slow 'pacification' that subdued the Moorish emirates and the desert tribes, razed the holy city of Smara and its library in 1913, and ended Mauritanian self-rule — an episode that is real and well-attested but whose African death toll the colonial archive never honestly counted, so no defensible figure is given here rather than an invented one. The perpetrator ledger is the heavier of the two and is the work of the Arab-Berber (Bidan) ruling order against Black Mauritanians: first the centuries-old, descent-based chattel slavery of the Haratin — Mauritania was the last state on earth to formally abolish slavery (1981) and did not criminalize it until 2007, and tens of thousands remain enslaved by the most credible current estimates; and second the 'passif humanitaire' of 1989-1991, when the state expelled tens of thousands of Black citizens to Senegal and Mali and killed several hundred Black soldiers and civilians in a purge whose emblem is the hanging of 28 Afro-Mauritanian soldiers at Inal on independence day 1990. The asymmetry is deliberate and unbalanced on purpose: the documented mass atrocities here were overwhelmingly committed BY the Mauritanian state against a part of its own people, and that fact is left standing rather than offset with invented victim events. Nothing on either ledger was inflated to make the columns match; where the colonial archive offers no honest count, the toll is left null.",
+  "events": [
+    {
+      "id": "mrt-1",
+      "country": "MRT",
+      "role": "victim",
+      "title": "The French colonial conquest of Mauritania",
+      "era": "1903–1934",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "An organized, decades-long military conquest and counter-insurgency by a colonial state to subdue the Moorish emirates and desert tribes, including the razing of the holy city of Smara; tiered WAR for the scale of organized armed violence over reconquest rather than EXT, since the aim was subjugation and pacification, not the destruction of a defined people.",
+      "agent": "The French colonial state, led by administrator Xavier Coppolani and then Colonel Henri Gouraud — columns of French officers and Senegalese tirailleurs who, after Coppolani's 1905 assassination, pushed north, took the Adrar in 1908-1909, and razed Smara and its manuscript library in 1913, fighting tribal and Sahrawi resistance into the 1930s",
+      "toll": {
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "display": "no honest count (unquantified)",
+        "disputed": false,
+        "note": "The African death toll of the conquest and the decades of 'pacification' was never honestly counted by the colonial archive, and no credible aggregate figure exists in the scholarship consulted. Resistance under figures such as Ma al-Aynayn and his followers, and the suppression of the Adrar and desert tribes, produced battlefield and reprisal deaths over three decades, but these are not reliably quantified. No number is invented to fill the gap; the toll is left null."
+      },
+      "received_lens": "suppressed",
+      "summary": "From 1903 France moved north of the Senegal River to absorb the Moorish emirates, using marabout alliances and military columns; after Xavier Coppolani was assassinated at Tidjikja on 12 May 1905, Colonel Henri Gouraud took the Adrar in 1908-1909, and during the campaign against Ma al-Aynayn's movement French forces razed the holy city of Smara (in the Saguia el-Hamra, now Western Sahara) and its library of thousands of manuscripts in 1913. Resistance under the Sahrawi leader Ma al-Aynayn and his successors continued into the 1930s before the colony was fully subdued. The human cost in African lives was never honestly counted by the conquerors.",
+      "relevance": "The Moorish and desert peoples crushed and colonized here are the ancestors of the Arab-Berber order that, two generations later, appears on the perpetrator ledger for enslaving and purging Black Mauritanians.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Colonial Mauritania' — narrates the French conquest from Coppolani's 1901-1905 expansion (peaceful submission of Trarza, Brakna, Tagant by 1904), Gouraud's 1908-1909 capture of Atar and the Adrar, and the prolonged pacification with French forces thwarting raids from 1912 to the last raid in 1934",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Colonial_Mauritania",
+          "caveat": "Tertiary aggregator used for the narrative timeline only; not relied on for any death figure (none is given). AUDIT 2026-06: page does NOT mention Smara — the 1913 Smara razing is sourced separately (see Wikipedia 'Smara' / 'Saguia el-Hamra'), and Smara lies in the Saguia el-Hamra (Western Sahara), not Mauritania proper, though it falls within the same anti-Ma-al-Aynayn campaign."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Smara' / 'Saguia el-Hamra' — Ma al-Aynayn made Smara his capital and religious centre in 1902 with an important Islamic library; during the French campaign against him the town was sacked almost completely in 1913 by the French Army and its library destroyed",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Smara",
+          "caveat": "AUDIT-added 2026-06 to correctly source the 1913 Smara razing, which the 'Colonial Mauritania' page does not cover. Smara is geographically in the Saguia el-Hamra (Western Sahara); included here as part of the same French Saharan conquest tied to Ma al-Aynayn, not as an event inside Mauritania's modern borders."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Xavier Coppolani' — French military and colonial administrator who drew up the 1901 plan to move into the territory and forged marabout alliances (Shaykh Sidya Baba, Shaykh Saad Bouh); the emirates accepted French rule in 1903-04 and he was killed in 1905 by a member of the Gudfiyya brotherhood. The specific 12 May 1905 / Tidjikja detail is corroborated by the French Ministry of Defence image archive (ImagesDéfense) and Larousse",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Xavier_Coppolani",
+          "caveat": "Tertiary aggregator; used for actor and chronology, not for any toll. AUDIT 2026-06: the Wikipedia page does not itself give the month/place of the assassination — 'Tidjikja, 12 May 1905' is verified via ImagesDéfense (gouv.fr) and Larousse and is uncontested."
+        },
+        {
+          "kind": "reference",
+          "cite": "U.S. Library of Congress Country Studies, 'Mauritania — French Colony: Pacification' — describes Gouraud's 1908 expedition, the capture of Atar, the submission of the Adrar peoples, and the prolonged 'pacification' of the territory, noting heavy losses to nomadic herds but no human death count",
+          "supports": "summary",
+          "url": "https://countrystudies.us/mauritania/11.htm",
+          "caveat": "Reference work summarizing the colonial period; corroborates the military chronology but gives no aggregate death count (only livestock losses)."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "mrt-2",
+      "country": "MRT",
+      "role": "perpetrator",
+      "title": "Descent-based chattel slavery of the Haratin",
+      "era": "pre-1900–present",
+      "era_band": "modern",
+      "tier": "STR",
+      "tier_reasoning": "A multi-generational system of hereditary enslavement and forced labour imposed by a ruling class on a subordinate population, a structural atrocity of bondage rather than a single mass-killing event; tiered STR for systemic deprivation and coercion of an entire caste rather than EXT, as the aim is exploitation, not extermination, though it is descent-based and racialized.",
+      "agent": "Mauritania's Arab-Berber (Bidan) ruling elite — slaveholding families and a state that abolished slavery only by decree in 1981, did not criminalize it until 2007, and has prosecuted almost no slaveholders since, leaving the Haratin held as inherited property in domestic, agricultural and pastoral servitude",
+      "toll": {
+        "low": 90000,
+        "high": 149000,
+        "unit": "deaths",
+        "display": "~90,000-149,000 currently enslaved (persons, not deaths)",
+        "disputed": true,
+        "note": "This is a count of PEOPLE HELD IN SLAVERY, not a death toll — the 'deaths' unit does not apply and is retained only for schema conformity. The 2023 Global Slavery Index (Walk Free) estimates roughly 149,000 people in modern slavery in Mauritania, a prevalence of about 32 per 1,000 — among the highest in the world (3rd globally, behind North Korea and Eritrea). The lower bound of ~90,000 is the Walk Free Global Slavery Index 2018 estimate (90,000, ~2.4% of population), widely reported and treated as conservative because the government obstructs study of the practice. Activist organizations argue the true figure is far higher when broader slave-like dependency is counted (local sources cite up to ~20% of the population), while the government disputes that slavery persists at all. AUDIT 2026-06: both the 149,000 (GSI 2023) and 90,000 (GSI 2018) figures independently corroborated via web search; the centuries-long cumulative human cost in lives is real but inherently unquantifiable, so no death figure is asserted."
+      },
+      "received_lens": "denied",
+      "summary": "For centuries the Arab-Berber Bidan held the Black Haratin as hereditary chattel, with slave status passed down the maternal line; Mauritania was the last country on earth to abolish slavery, doing so only by decree in 1981 and not making it a crime until 2007. Despite the laws, the most credible current estimates put tens of thousands — on the order of 90,000 to 149,000 people — still in slavery or slave-like servitude, with prosecutions of slaveholders almost nonexistent. The state largely denies that the practice survives.",
+      "relevance": "The same Bidan order that France subjugated on the victim ledger is here the slaveholding class, and its victims are fellow Mauritanians — the dual lens collapsed inside one nation and one social order.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Walk Free, Global Slavery Index 2023 — Mauritania country snapshot, estimating roughly 149,000 people in modern slavery at a prevalence of about 32 per 1,000, among the highest rates in the world",
+          "supports": "toll.high",
+          "url": "https://cdn.walkfree.org/content/uploads/2023/09/28082229/GSI-Snapshot-Mauritania.pdf",
+          "caveat": "Modelled estimate (survey extrapolation plus vulnerability modelling), not a census; counts people in slavery, not deaths. PDF confirmed to exist but did not parse to text on fetch; figure corroborated by Walk Free's findings pages and by Statista's relay of the 2023 index."
+        },
+        {
+          "kind": "press",
+          "cite": "Statista, 'Countries With the Highest Prevalence of Slavery' (2023) — relays the Global Slavery Index 2023, ranking Mauritania third worldwide at 32 enslaved per 1,000 inhabitants (behind North Korea and Eritrea)",
+          "supports": "toll.high",
+          "url": "https://www.statista.com/chart/30666/estimated-number-of-people-in-modern-slavery-per-1000/",
+          "caveat": "Press/data relay of the Walk Free index; corroborates the prevalence figure, not an independent estimate. AUDIT 2026-06: Statista page redirect-blocked on fetch, but the 32-per-1,000 / 3rd-globally figure is independently confirmed via web search of the GSI 2023."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Walk Free, Global Slavery Index 2018 — Mauritania — estimated 90,000 people in modern slavery (about 2.4% of the population), widely reported as a conservative lower bound given government obstruction of study",
+          "supports": "toll.low",
+          "url": "https://www.walkfree.org/global-slavery-index/",
+          "caveat": "AUDIT-added 2026-06 to give the contested toll's low end (~90,000) an explicit source binding; the 2018 GSI estimate is corroborated via web search. Modelled estimate, counts people in slavery, not deaths."
+        },
+        {
+          "kind": "reference",
+          "cite": "Encyclopaedia / reference coverage of slavery in Mauritania — documents descent-based maternal-line chattel slavery of the Haratin, the 1981 abolition decree, the 2007 and 2015 criminalization laws, and the persistence of the practice with minimal enforcement",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Slavery_in_Mauritania",
+          "caveat": "Tertiary aggregator; used for the legal chronology and the nature of the system, with the population figure anchored to the Global Slavery Index rather than to this page. AUDIT 2026-06: legal chronology (matrilineal chattel slavery; 1981 abolition decree as last country worldwide; 2007 criminalization; 2015 expansion; near-zero prosecutions, only one conviction) verbatim-confirmed on the page."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "mrt-3",
+      "country": "MRT",
+      "role": "perpetrator",
+      "title": "The 'passif humanitaire': ethnic purge and the Inal massacre",
+      "era": "1989–1991",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "A state campaign of mass expulsion, extrajudicial killing and torture deliberately targeting a racial/ethnic group — Black Mauritanians — within the country's own population; tiered POL for the political-state targeting of a defined group through purge and deportation, with the racialized, identity-based selection of victims pushing it toward EXT.",
+      "agent": "The Mauritanian state under President Maaouya Ould Sid'Ahmed Taya — the army, gendarmerie and security services, which expelled tens of thousands of Black (Halpulaar, Soninke, Wolof) citizens to Senegal and Mali, stripped them of nationality and property, and arrested, tortured and executed hundreds of Black soldiers and civilians, hanging 28 Afro-Mauritanian soldiers at the Inal camp on independence day, 28 November 1990",
+      "toll": {
+        "low": 500,
+        "high": 600,
+        "unit": "deaths",
+        "display": "~500-600 killed (plus ~60,000-80,000 expelled)",
+        "disputed": true,
+        "note": "Human Rights Watch (World Report 1992) and MENA Rights Group document between roughly 500 and 600 Black Mauritanians killed in the 1990-1991 purge — executed, or dead from torture in incommunicado detention — out of one to three thousand Afro-Mauritanians arrested (HRW: 'one to three thousand'; MENA Rights Group: ~3,000) between October 1990 and mid-January 1991; the 28 soldiers hanged at Inal on 28 November 1990 are the emblematic case. AUDIT 2026-06: the HRW WR1992 page itself was fetched and verbatim-confirms 'five to six hundred black political prisoners were executed or tortured to death by government forces between November 1990 and March 1991' and refugee numbers of approximately 53,000 in Senegal and seven-to-eight thousand in Mali. Separately, Black Mauritanians were expelled to Senegal and Mali in 1989-1990: HRW World Report 1989 states 40,000-50,000 expelled; later counts run higher (40,000-80,000 across sources). The 500-600 band is the killed-in-custody/execution count; the expulsion figure is a displacement count, not deaths, and is not added to the killed toll. The killing total during the cross-border violence of 1989 is not reliably aggregated and is not added here."
+      },
+      "received_lens": "denied",
+      "summary": "Using a 1989 border dispute with Senegal as cover, the Taya regime expelled tens of thousands of Black Mauritanians to Senegal and Mali — stripping them of citizenship, land and livestock — and then, between late 1990 and early 1991, arrested around 3,000 Afro-Mauritanian soldiers and civilians and killed between 500 and 600 of them through execution and torture. The most notorious act was the hanging of 28 Black soldiers at the Inal military camp on independence day, 28 November 1990. A 1993 amnesty law shielded the perpetrators, many of whom kept high office, and the state has never reckoned with the period it euphemistically calls the 'passif humanitaire.'",
+      "relevance": "The state that the victim ledger shows as the prey of French conquest is here the executioner of its own Black citizens — and the Inal hangings on independence day make the perpetrator and the founding myth share a single date.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, World Report 1992 — Mauritania — states that 'five to six hundred black political prisoners were executed or tortured to death' in 1990-1991 out of one to three thousand blacks arrested, and reports approximately 53,000 refugees in Senegal and 7,000-8,000 in Mali",
+          "supports": "toll.high",
+          "url": "https://www.hrw.org/reports/1992/WR92/AFW-05.htm",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "MENA Rights Group, 'Mauritania: Survivors of the “passif humanitaire” demand truth and justice 29 years after the Inal massacre' — documents the 28 soldiers hanged at Inal on 28 November 1990, roughly 3,000 Afro-Mauritanian soldiers arrested between October 1990 and mid-January 1991, and between 500 and 600 killed by summary execution",
+          "supports": "toll.low",
+          "url": "https://menarights.org/en/articles/mauritania-survivors-passif-humanitaire-demand-truth-and-justice-29-years-after-inal",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "Global Voices, 'The untold tragedy of 28 Mauritanian soldiers executed on Independence Day' (23 Dec 2018) — confirms 28 Black soldiers hanged by fellow soldiers at Inal on 28 November 1990 (Mauritania's independence day), accused of plotting a coup, and the 1993 amnesty that shielded perpetrators",
+          "supports": "summary",
+          "url": "https://globalvoices.org/2018/12/23/the-untold-tragedy-of-28-mauritanians-soldiers-hanged-on-independence-day/",
+          "caveat": "Press/citizen-media account; corroborates the Inal specifics, not relied on for the aggregate killed total."
+        },
+        {
+          "kind": "reference",
+          "cite": "Human Rights Watch, World Report 1989 — Mauritania — documents the April 1989 border violence and states that 'some 40,000 to 50,000 black Mauritanians -- members of the Peul, Wolof, Soninke and Bambara ethnic groups -- have been expelled from their own country' and now live in refugee camps in northern Senegal",
+          "supports": "summary",
+          "url": "https://www.hrw.org/reports/1989/WR89/Mauritan.htm",
+          "caveat": "AUDIT 2026-06: page fetched and verified — it states 40,000-50,000 expelled, NOT the 60,000-80,000 previously cited here, and it gives NO UN refugee-registration figures (those ~53,000 Senegal / 7,000-13,000 Mali numbers come from HRW WR1992 and later UNHCR reporting, not this page). Citation corrected to match the source. Expulsion estimates vary across sources (40,000-80,000) and count displaced persons, not deaths; given as displacement context, not added to the killed toll."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

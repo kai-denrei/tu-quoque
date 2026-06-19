@@ -1,0 +1,133 @@
+{
+  "iso": "PRI",
+  "name": "Puerto Rico",
+  "note": "Researched 2026-06-19; built from scratch (no prior seed). Puerto Rico has never been a sovereign state — it was a Spanish colony from 1493 to 1898 and has been a United States territory since, so its history is overwhelmingly one of violence DONE TO its people by outside powers, and the perpetrator ledger is genuinely thin rather than thinly researched. Victim side: the demographic collapse of the Taíno of Borikén after Spanish contact (a colonial-era catastrophe that predates any Puerto Rican polity but is the formative violence done to the island's first peoples), and the Ponce massacre of 1937, in which the US-appointed colonial governor's Insular Police shot dead unarmed Nationalist marchers. Perpetrator side: there is no Puerto Rican army that has waged war abroad and no record of a Puerto Rico-organized mass killing of another people. The one defensible entry is the 1950 repression of the Nationalist independence uprisings (the Utuado massacre and the aerial bombing of Jayuya), because the killing was carried out by the Puerto Rico National Guard under the orders of Luis Muñoz Marín, the first popularly elected Puerto Rican governor — Puerto Rican forces and a Puerto Rican government killing Puerto Ricans, even though the whole frame sat inside US colonial sovereignty. That 1950 event is genuinely double-edged: it is both a victim story (independentistas killed for seeking sovereignty) and a perpetrator story (a Puerto Rican government did the shooting and bombing); it is placed in the perpetrator ledger to name that agency plainly, with the colonial context kept in view. Tolls for the Taíno collapse are population-DECLINE estimates, not counted bodies, and the pre-contact baseline is sharply disputed; the 20th-century massacre tolls are precise to within a narrow range. The dual lens for Puerto Rico is less about a single people committing atrocity at scale than about how thoroughly a colonized people has been the object rather than the author of mass violence — and the uncomfortable fact that the one time a Puerto Rican government held the guns, it turned them on its own independence movement.",
+  "events": [
+    {
+      "id": "pri-1",
+      "country": "PRI",
+      "role": "victim",
+      "title": "Collapse of the Taíno of Borikén",
+      "era": "1493–c.1540 (catastrophic phase 1508–1530s)",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The collapse was driven mainly by Old World epidemic disease (above all the 1518–19 smallpox outbreak) against which the Taíno had no immunity, compounded by the lethal forced labor of the encomienda/repartimiento gold-mining system and the violence of conquest — a structural and demographic collapse rather than a single program to exterminate a group, though much of the enslavement and killing was deliberate.",
+      "agent": "The Spanish crown and the conquistadors and colonists of Puerto Rico under Juan Ponce de León — conquest campaigns, the repartimiento/encomienda system of forced labor and tribute, and the gold mines that consumed Taíno laborers",
+      "toll": {
+        "display": "a pre-contact population estimated at roughly 30,000–60,000 (some sources cite far higher figures up to several hundred thousand) reduced to about 1,500–5,500 within roughly two generations — a collapse on the order of 90% or more",
+        "disputed": true,
+        "low": 30000,
+        "high": 60000,
+        "unit": "deaths",
+        "note": "Population-DECLINE figures, not a counted death toll. The pre-contact Taíno population of Borikén is genuinely unsettled: a commonly cited scholarly band is roughly 30,000–60,000, while higher estimates run to about 100,000 and some sources cite figures as high as 600,000, reflecting the wider unresolved debate over Greater Antilles contact-era populations (low estimates by Rosenblat against high estimates associated with Cook, Borah, and Las Casas). The first Spanish census in 1511 counted about 5,500 Taíno held in forced labor; by 1531 roughly 1,545 remained on the colonial rolls. The low/high here bracket the commonly cited pre-contact estimate. The deaths were caused overwhelmingly by smallpox, measles, and influenza together with overwork and starvation in the mines, not individually attributable to Spanish violence alone; the 1511 rebellion under Agüeybaná II was crushed."
+      },
+      "received_lens": "memorial",
+      "summary": "When Juan Ponce de León began the Spanish settlement of Puerto Rico in 1508, the island held perhaps 30,000 to 60,000 Taíno across several chiefdoms. The colonists pressed them into the repartimiento system, sending men to the gold mines and breaking up families, while the 1518–19 smallpox epidemic swept through a people with no immunity. The first census in 1511 found about 5,500 Taíno; by 1531 the colonial rolls counted roughly 1,545. A 1511 revolt led by the cacique Agüeybaná II was defeated, and within two generations the Taíno had all but vanished as a distinct population — though their ancestry survives in modern Puerto Ricans.",
+      "relevance": "Puerto Rico's foundational catastrophe is the near-erasure of its first people in the opening decades of Spanish rule, the original act of mass violence done to the island and the deepest layer of its long history as a colonized place.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Taíno genocide' overview — Greater Antilles contact-era population estimates from 10,000 to 1,000,000; 80–90% died within the first ~30 years; causes include disease, encomienda forced labor (Reséndez: lethal mine labor), warfare, and starvation",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Ta%C3%ADno_genocide",
+          "caveat": "Tertiary aggregator; the figures are for the Greater Antilles broadly (Hispaniola foremost), not Puerto Rico alone, and the pre-contact baseline is the single most disputed number in Caribbean demography. AUDIT 2026-06-19: page verified live; confirmed Hispaniola pre-contact band 10,000-1,000,000, 80-90% dead within 30 years, disease as overwhelming cause plus encomienda labor/warfare/starvation, and the Resendez citation on slavery as a major killer."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Spanish settlement of Puerto Rico' overview — settlement from 1508 under Ponce de León; population decline from introduced disease, encomienda forced labor, and warfare; the 1511 Taíno rebellion",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Spanish_settlement_of_Puerto_Rico",
+          "caveat": "Tertiary aggregator; does not give a precise pre-contact figure for Borikén, so the baseline range is drawn from other sources."
+        },
+        {
+          "kind": "press",
+          "cite": "'The Taíno of Puerto Rico' (Puerto Rico Report) — cites ~100,000 pre-contact with some sources to 600,000; census decline (5,500 in 1511, ~1,545 by 1531); smallpox as a primary killer; modern Puerto Ricans carry 10–15% Taíno ancestry",
+          "supports": "toll.low",
+          "url": "https://puertoricoreport.com/the-taino-of-puerto-rico/",
+          "caveat": "Advocacy/news outlet, not peer-reviewed; the census figures corroborate other sources but the high pre-contact estimates should be read as an upper bound, not a settled figure. AUDIT 2026-06-19: page verified live; confirmed it cites ~100,000 pre-contact (up to 600,000), the 1511 census of 5,500 and 1,545 by 1531, smallpox, and 10-15% Taino DNA — all as attached. Note that this source's figures support the UPPER end of the dispute; the toll.low of 30,000 reflects the low (Rosenblat-style) band documented in toll.note, not this source."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "pri-2",
+      "country": "PRI",
+      "role": "victim",
+      "title": "The Ponce massacre",
+      "era": "21 March 1937 (Palm Sunday)",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "Colonial state police firing on an unarmed political demonstration and killing civilians because of their independence politics — a political massacre of dissidents, not an attempt to eliminate an ethnic group.",
+      "agent": "The Insular Police of Puerto Rico, ordered by the US-appointed colonial Governor Blanton Winship and commanded on the day by Police Chief Colonel Enrique de Orbeta",
+      "toll": {
+        "display": "19 killed (17 civilian marchers and bystanders, 1 policeman, 1 National Guardsman killed by friendly fire) and over 200 wounded",
+        "disputed": false,
+        "low": 17,
+        "high": 19,
+        "unit": "deaths",
+        "note": "The standard toll is 19 dead and more than 200 wounded. The low (17) counts the unarmed civilians shot by police; the high (19) includes the two members of the security forces who also died (one policeman and one National Guardsman killed by friendly fire). Governor Winship's initial account to Washington undercounted the dead; the ACLU-led Hays Commission later established the figures and assigned responsibility to the police."
+      },
+      "received_lens": "memorial",
+      "summary": "On Palm Sunday, 21 March 1937, the Nationalist Party held a march in Ponce to mark the abolition of slavery and protest the jailing of their leader Pedro Albizu Campos. Governor Blanton Winship had the permit revoked at the last minute; when the marchers proceeded, the Insular Police surrounded them and opened fire without warning. Seventeen unarmed civilians and bystanders were shot dead and more than two hundred were wounded, many hit while fleeing. An ACLU-led commission found the police solely responsible and called it a massacre; no officer was ever charged.",
+      "relevance": "The bloodiest single day of US colonial repression on the island, when the colonial government's own police gunned down unarmed Puerto Ricans for marching under their flag — the clearest 20th-century case of mass violence done to Puerto Rico's people.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Ponce massacre' overview — 21 March 1937; 17 civilians, 1 policeman, and 1 National Guardsman killed, 200+ wounded; ordered by Governor Winship, executed by the Insular Police under Col. de Orbeta; ACLU/Hays Commission found it a police massacre with no prosecutions",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Ponce_massacre",
+          "caveat": "Tertiary aggregator; the core figures are corroborated by the contemporary Hays Commission and standard histories. AUDIT 2026-06-19: page verified live; confirmed 17 civilians + 1 policeman + 1 National Guardsman killed (19 total), 200+ wounded, ordered by Governor Winship, executed by the Insular Police under Col. de Orbeta, and the ACLU/Hays Commission finding with no prosecutions."
+        },
+        {
+          "kind": "press",
+          "cite": "Zinn Education Project, 'March 21, 1937: Ponce Massacre' — police opened fire on a peaceful, legally organized Nationalist march, killing 19 and wounding over 200; permit revoked by Governor Winship",
+          "supports": "summary",
+          "url": "https://www.zinnedproject.org/news/tdih/ponce-massacre/",
+          "caveat": "Educational advocacy organization with an explicitly anti-colonial framing; used for narrative corroboration of figures that match the reference source. AUDIT 2026-06-19: page confirmed live (HTTP 403 to direct fetch is anti-bot blocking, not a missing page) via search snippet — it states 19 killed and 200+ wounded at a peaceful Nationalist march under Governor Winship, matching the attached claim."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "pri-3",
+      "country": "PRI",
+      "role": "perpetrator",
+      "title": "Repression of the 1950 Nationalist uprisings (Utuado massacre and the bombing of Jayuya)",
+      "era": "30 October – early November 1950",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "A government suppressing an armed political insurrection with summary executions of surrendered prisoners and aerial bombardment of its own towns — lethal state political violence against an insurgent movement, not an effort to destroy an ethnic group.",
+      "agent": "The Puerto Rico National Guard under Major General Luis R. Esteves, mobilized on the orders of Governor Luis Muñoz Marín (the first popularly elected Puerto Rican governor), who declared martial law — including the Puerto Rico Air National Guard that bombed Jayuya and Utuado",
+      "toll": {
+        "display": "about 28 killed across all uprising sites (roughly 16 Nationalists, 8 police and soldiers, 4 civilians), including 4–5 Nationalists executed after surrendering at the Utuado police station",
+        "disputed": true,
+        "low": 16,
+        "high": 28,
+        "unit": "deaths",
+        "note": "Police estimates put total deaths across the Jayuya, Utuado, San Juan, Arecibo and other uprisings at about 28: roughly 16 Nationalists, 8 police officers and soldiers, and 4 civilians. The low (16) counts the Nationalist dead; the high (28) is the total across all sides and locations. At Utuado, after Nationalists surrendered they were marched to the police station and machine-gunned — four killed outright and others left for dead, with a 17-year-old reportedly bayoneted (the 'Utuado massacre'). Casualty figures vary between sources and the government suppressed news of the bombing, so totals should be read as estimates."
+      },
+      "received_lens": "suppressed",
+      "summary": "When the Nationalist Party launched armed revolts on 30 October 1950 to demand independence, Governor Luis Muñoz Marín declared martial law and mobilized some 3,500 Puerto Rico National Guard troops. At Utuado, Nationalists who had surrendered were taken to the police station and machine-gunned — four shot dead and others left for dead in what became known as the Utuado massacre. The Puerto Rico Air National Guard sent P-47 fighters to bomb and strafe the town of Jayuya and Utuado, destroying much of Jayuya, while the government kept news of the bombing from spreading off the island. Around 28 people died across the uprisings.",
+      "relevance": "The one occasion when a Puerto Rican government and Puerto Rican-led forces — not a Spanish or US administration — did the killing: an elected Puerto Rican governor turned his own National Guard and warplanes on Puerto Ricans seeking independence, making 1950 both a victim story and the island's clearest perpetrator entry.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Utuado uprising' overview — 30 October 1950; Nationalists machine-gunned after surrendering at the Utuado police station; Puerto Rico National Guard under Maj. Gen. Esteves on Governor Muñoz Marín's orders; P-47s bombed Jayuya and Utuado; ~28 dead across all sites",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Utuado_uprising",
+          "caveat": "Tertiary aggregator; the article itself notes internal discrepancies between the local Utuado casualty count (infobox cites ~7 Nationalists killed at Utuado, of whom 4-5 were machine-gunned after surrendering at the police station) and the island-wide total of ~28. AUDIT 2026-06-19: page verified live; the Utuado police-station execution (four killed outright, others left for dead; 17-year-old Antonio Gonzalez among the dead), the National Guard under Esteves, Munoz Marin's martial law, and the P-47 bombing are all confirmed as attached."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Jayuya Uprising' overview — revolt led by Blanca Canales; Governor Muñoz Marín declared martial law and authorized aerial bombardment; ten P-47 Thunderbolts bombed and strafed Jayuya; ~28 deaths (16 Nationalists, 8 police/soldiers, 4 civilians); news suppressed",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Jayuya_Uprising",
+          "caveat": "Tertiary aggregator; figures are police estimates and the bombing was deliberately kept out of off-island press, so the record is incomplete. AUDIT 2026-06-19: both this and the Utuado uprising page verified live; confirmed the island-wide ~28 dead (16 Nationalists, 8 police/soldiers, 4 civilians), ten P-47 Thunderbolts, Blanca Canales, Munoz Marin's martial law, and Esteves command — all as attached. Both ends of the toll (low 16, high 28) are sourced. Status raised from UNVERIFIED to VERIFIED: the earlier flag rested on real-world data incompleteness (suppressed news, police estimates), which is properly disclosed in toll.note and disputed:true, not on any source-integrity failure."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

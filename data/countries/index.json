@@ -1,5 +1,5 @@
 {
-  "count": 117,
+  "count": 132,
   "countries": [
     {
       "iso": "AFG",
@@ -23,6 +23,12 @@
       "iso": "ARG",
       "name": "Argentina",
       "events": 4,
+      "status": "UNVERIFIED"
+    },
+    {
+      "iso": "ARM",
+      "name": "Armenia",
+      "events": 3,
       "status": "UNVERIFIED"
     },
     {
@@ -78,6 +84,12 @@
       "name": "Bulgaria",
       "events": 3,
       "status": "VERIFIED"
+    },
+    {
+      "iso": "BIH",
+      "name": "Bosnia and Herzegovina",
+      "events": 5,
+      "status": "UNVERIFIED"
     },
     {
       "iso": "BLR",
@@ -158,6 +170,12 @@
       "status": "UNVERIFIED"
     },
     {
+      "iso": "CRI",
+      "name": "Costa Rica",
+      "events": 2,
+      "status": "VERIFIED"
+    },
+    {
       "iso": "CUB",
       "name": "Cuba",
       "events": 4,
@@ -206,6 +224,12 @@
       "status": "UNVERIFIED"
     },
     {
+      "iso": "ERI",
+      "name": "Eritrea",
+      "events": 4,
+      "status": "UNVERIFIED"
+    },
+    {
       "iso": "ESP",
       "name": "Spain",
       "events": 3,
@@ -226,6 +250,12 @@
     {
       "iso": "GBR",
       "name": "United Kingdom",
+      "events": 5,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "GEO",
+      "name": "Georgia",
       "events": 5,
       "status": "VERIFIED"
     },
@@ -256,6 +286,12 @@
     {
       "iso": "HND",
       "name": "Honduras",
+      "events": 4,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "HRV",
+      "name": "Croatia",
       "events": 4,
       "status": "VERIFIED"
     },
@@ -350,6 +386,12 @@
       "status": "VERIFIED"
     },
     {
+      "iso": "KWT",
+      "name": "Kuwait",
+      "events": 2,
+      "status": "VERIFIED"
+    },
+    {
       "iso": "LAO",
       "name": "Laos",
       "events": 2,
@@ -378,6 +420,12 @@
       "name": "Sri Lanka",
       "events": 4,
       "status": "UNVERIFIED"
+    },
+    {
+      "iso": "LTU",
+      "name": "Lithuania",
+      "events": 3,
+      "status": "VERIFIED"
     },
     {
       "iso": "MAR",
@@ -410,10 +458,22 @@
       "status": "VERIFIED"
     },
     {
+      "iso": "MNG",
+      "name": "Mongolia",
+      "events": 4,
+      "status": "VERIFIED"
+    },
+    {
       "iso": "MOZ",
       "name": "Mozambique",
       "events": 5,
       "status": "UNVERIFIED"
+    },
+    {
+      "iso": "MRT",
+      "name": "Mauritania",
+      "events": 3,
+      "status": "VERIFIED"
     },
     {
       "iso": "MWI",
@@ -425,6 +485,12 @@
       "iso": "MYS",
       "name": "Malaysia",
       "events": 5,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "NAM",
+      "name": "Namibia",
+      "events": 3,
       "status": "VERIFIED"
     },
     {
@@ -464,8 +530,20 @@
       "status": "VERIFIED"
     },
     {
+      "iso": "OMN",
+      "name": "Oman",
+      "events": 4,
+      "status": "UNVERIFIED"
+    },
+    {
       "iso": "PAK",
       "name": "Pakistan",
+      "events": 3,
+      "status": "UNVERIFIED"
+    },
+    {
+      "iso": "PAN",
+      "name": "Panama",
       "events": 3,
       "status": "UNVERIFIED"
     },
@@ -492,6 +570,12 @@
       "name": "Poland",
       "events": 5,
       "status": "UNVERIFIED"
+    },
+    {
+      "iso": "PRI",
+      "name": "Puerto Rico",
+      "events": 3,
+      "status": "VERIFIED"
     },
     {
       "iso": "PRK",
@@ -653,6 +737,12 @@
       "iso": "UKR",
       "name": "Ukraine",
       "events": 4,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "URY",
+      "name": "Uruguay",
+      "events": 3,
       "status": "VERIFIED"
     },
     {

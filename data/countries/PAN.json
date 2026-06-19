@@ -1,0 +1,147 @@
+{
+  "iso": "PAN",
+  "name": "Panama",
+  "note": "Panama's two ledgers are sharply asymmetric, and the atlas shows that rather than forcing a balance. As victim the record is heavy: the original peoples of the isthmus — above all the Cueva of the Darién — were destroyed within a generation of Spanish arrival (mostly disease compounded by slaving and forced gold labour, hence STR), and four and a half centuries later the United States bombed and burned the Panama City barrio of El Chorrillo in the 1989 invasion to depose Manuel Noriega. The perpetrator ledger is genuinely thinner. Panama is a small country that never ran a colonial empire or fought wars of conquest; its largest internal atrocity is the political repression of its own 1968–1989 military dictatorship under Omar Torrijos and Manuel Noriega — torture, murder and forced disappearance of dissidents, documented by the 2002 Truth Commission at roughly a hundred-plus named victims. That is real state crime but an order of magnitude smaller in scale than what was done to Panama's people, and the entry is kept to what the record supports. A lesser perpetrator episode — the young republic's forced-acculturation campaign against the Guna that provoked the 1925 Tule Revolution (about 27 police killed in the rising, with reported abuses by the police occupiers beforehand) — is noted here for honesty but is too small in documented death toll to carry its own event. The analytic work is keeping the disease-driven indigenous collapse (STR) distinct from deliberate killing, and showing the wide, contested range of the 1989 invasion toll without inflating or minimizing it.",
+  "events": [
+    {
+      "id": "pan-1",
+      "country": "PAN",
+      "role": "victim",
+      "title": "Destruction of the Cueva and the indigenous Darién",
+      "era": "c. 1510–1550",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The near-total loss of the Cueva and other isthmus peoples was overwhelmingly demographic collapse — Old World disease compounded by enslavement, forced gold-mining labour and the shattering of native society — rather than a campaign to exterminate a defined group, hence STR rather than EXT.",
+      "agent": "Spanish conquistadors and colonial governors of Castilla del Oro — above all Pedro Arias de Ávila (Pedrarias Dávila), called 'Furor Domini' for his cruelty — through slaving raids, gold-mining forced labour and warfare, with Old World epidemics as the principal killer",
+      "toll": {
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "display": "near-total collapse of an isthmus population estimated at ~200,000 (older estimates up to ~2 million); the Cueva extinct as a people by c. 1535–1550",
+        "disputed": true,
+        "note": "QUARANTINE (2026-06 audit): the source originally attached to this event's summary — Wikipedia 'Indigenous peoples of Panama' — was re-checked and FAILS to support its claim: that article now covers only the current (2023-census) indigenous population and contains none of the pre-contact population figures, the 'Cueva largest group' claim, or the c.1535–1550 extinction date cited. The underlying facts themselves remain independently verified (Wikipedia 'History of Panama' supplies the ~200,000–2,000,000 range and the encomienda-driven collapse; the Cueva-language article and Sauer/Andagoya supply the ~1535 extinction and the disease-plus-slaving mechanism), but the broken citation means the summary is not cleanly sourced as recorded, so this event is marked UNVERIFIED pending a corrected primary citation for the 'Cueva largest group / extinct as a people' claim. — This is a population-collapse, not a counted body count. Estimates of the pre-contact indigenous population of the Panamanian isthmus range from roughly 200,000 (more recent scholarship) to as high as 2 million (older estimates); the largest group, the Cueva of eastern Panama and the Darién, was effectively extinct as a distinct people by about 1535–1550. The dominant killer was imported disease (smallpox and others) for which the indigenous population had no immunity, compounded by Spanish slaving raids, the forced labour of carrying captives to dig gold in distant mountains, and outright warfare under Pedrarias Dávila. Because the baseline population is itself uncertain and no defensible absolute death count exists, both low and high are left null and the magnitude is given as a collapse, not a number."
+      },
+      "received_lens": "suppressed",
+      "summary": "After the Spanish planted Santa María la Antigua del Darién in Cueva territory around 1510 and Pedrarias Dávila arrived as governor in 1514, the indigenous peoples of the isthmus were ground out within a generation. Epidemic disease did most of the killing, but the Spanish accelerated it by enslaving the Cueva, marching captives to dig gold in far mountains, and waging war on those who resisted; by mid-century the Cueva had ceased to exist as a people and the Darién lay depopulated.",
+      "relevance": "The first and largest mass death on Panamanian soil fell on its original inhabitants — establishing the country as victim centuries before its modern state could ever be a perpetrator, and a worked example of holding disease-driven collapse (STR) apart from deliberate extermination (EXT).",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Cueva language,\" Wikipedia (the Cueva language of eastern Panama / Darién, spoken across multiple Indigenous polities encountered from 1510, declined and went extinct by c. 1535 amid European disease, violent conflict and enslavement under the Spanish conquest)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Cueva_language",
+          "caveat": "AUDIT 2026-06: replaces the original 'Indigenous peoples of Panama' citation, which on re-check did NOT support the claim (that article now covers only the 2023-census population). This Cueva-language article supports the ~1535 extinction and the disease/violence/enslavement mechanism; the 'Cueva the single largest group' and the ~200,000 baseline are NOT in this stub article and remain only loosely sourced (see History of Panama for the population range), which is why the event stays UNVERIFIED. Tertiary aggregator; the extinction date is a scholarly estimate."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"History of Panama,\" Wikipedia (pre-Columbian indigenous population estimated from ~200,000 to as high as ~2 million; collapse under the encomienda forced-labour system and repeated military campaigns; indigenous slaves later replaced by enslaved Africans)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/History_of_Panama",
+          "caveat": "Tertiary; the ~2 million high is an older estimate the same source notes more recent studies revise down to ~200,000 — read as a contested ceiling, not an established figure."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Carl Ortwin Sauer, 'The Early Spanish Main' (University of California Press, 1966) — account of Pedrarias Dávila's harsh treatment of the natives of Darién leaving the region 'lost and desolate' and forcing relocation of the Spanish base to Panama City; Pascual de Andagoya's contemporary narrative describes captives taken to dig gold in distant mountains and chiefs rewarded for delivering slaves",
+          "supports": "tier",
+          "url": "https://archive.org/details/earlyspanishmain00saue_0",
+          "caveat": "The standard scholarly narrative was consulted via reference summaries and the Andagoya primary narrative rather than a full direct reading of Sauer's text; it establishes the mechanisms of collapse, not a precise toll. AUDIT 2026-06: Sauer, 'The Early Spanish Main' (UC Press, 1966) confirmed to exist (306 pp; held by Internet Archive at the cited URL). The Andagoya narrative (captives in chains to dig gold, depopulated Darién under Pedrarias) and the 'Furor Domini' epithet (Las Casas) are independently verified; this source supports the tier."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "pan-2",
+      "country": "PAN",
+      "role": "victim",
+      "title": "U.S. invasion and the burning of El Chorrillo",
+      "era": "1989–1990",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Civilian deaths caused by a foreign military's heavy-weapons assault on a densely populated urban neighbourhood during an armed invasion — wartime killing of civilians in violation of the laws of war, hence WAR rather than a campaign of political extermination.",
+      "agent": "The United States military (Operation Just Cause), under President George H. W. Bush, invading Panama to depose Manuel Noriega; combat centred on the Panama Defense Forces headquarters in the El Chorrillo barrio of Panama City",
+      "toll": {
+        "low": 202,
+        "high": 3000,
+        "unit": "deaths",
+        "display": "civilians: U.S. official ~202; Americas Watch ~300; UN ~500; Catholic Church 673 total Panamanians; Ramsey Clark 3,000",
+        "disputed": true,
+        "note": "The civilian death toll of the December 1989 invasion is sharply contested. The U.S. military's official count was about 202 civilians killed (plus 314 Panamanian military and 23 U.S. troops). Independent estimates run higher: Americas Watch put civilian deaths around 300, the United Nations around 500, the Roman Catholic Church about 673 total Panamanians, and former U.S. Attorney General Ramsey Clark as high as 3,000. The low here (202) is the U.S. official civilian figure; the high (3,000) is Clark's much-disputed estimate — grassroots groups alleged thousands killed and bodies bulldozed into mass graves, while U.S. and Panamanian government figures stayed in the hundreds. Roughly 15,000–20,000 people were left homeless when El Chorrillo burned. The truth is genuinely unestablished, which is why the range is so wide."
+      },
+      "received_lens": "contested",
+      "summary": "Shortly after midnight on 20 December 1989, the United States launched Operation Just Cause to oust Manuel Noriega, opening with an assault on the Panama Defense Forces headquarters in El Chorrillo — a poor, largely Afro-Panamanian barrio of Panama City. The fighting and the fires that followed destroyed most of the neighbourhood and left some 15,000–20,000 people homeless. How many civilians died is still disputed, from the U.S. official figure of around 202 to estimates of several hundred and, at the high and contested end, as many as 3,000, with reports of bodies buried in mass graves.",
+      "relevance": "The most documented modern atrocity on Panamanian soil was inflicted by the world's most powerful state on a small one's poorest citizens — Panama as victim in the contemporary era, and a case where the atlas shows a wide, honestly contested toll rather than picking the lowest or highest number.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"United States invasion of Panama,\" Wikipedia (death-toll table: U.S. military ~202 civilians and 314 PDF; UN ~500; Americas Watch ~300; Catholic Church 673 total; Ramsey Clark 3,000; ~20,000 displaced; El Chorrillo largely destroyed)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/United_States_invasion_of_Panama",
+          "caveat": "Tertiary aggregator collating estimates from sources with sharply differing methods and agendas; the figures span official, NGO, church and activist sources and are not directly comparable."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Inter-American Commission on Human Rights, Report on Case 10.573 (USA), OAS — petition disputing the official U.S. count of 202 civilian and 314 military Panamanian deaths and alleging far higher civilian casualties from the invasion",
+          "supports": "toll.low",
+          "url": "https://cidh.oas.org/annualrep/93eng/usa.10573.htm",
+          "caveat": "The IACHR report records both the U.S. official figure (the low bound here) and the petitioners' higher claims; it documents the dispute rather than resolving the toll. Page returned HTTP 403 on direct fetch and was confirmed via search-engine summaries of its contents. AUDIT 2026-06: case verified real — Case 10.573, José Isabel Salas Galindo et al. v. United States, Admissibility Report No. 31/93 (14 Oct 1993), later Merits Report No. 121/18; complainants dispute the official 202 civilian / 314 military count and allege many more civilian deaths."
+        },
+        {
+          "kind": "press",
+          "cite": "Americas Watch / Human Rights Watch, mission report on the 1989 Panama invasion (January 1990) — concluded U.S. tactics and weapons in El Chorrillo caused an inordinate number of civilian victims in violation of the Geneva Conventions; civilian deaths estimated around 300",
+          "supports": "toll.high",
+          "url": "https://www.hrw.org/legacy/campaigns/iraq/panama91_appen.htm",
+          "caveat": "Human-rights NGO critical of the U.S. operation; its ~300 figure is far below Ramsey Clark's contested 3,000 high but well above the U.S. official count — included as an independent mid-range estimate, with the 3,000 high attributed to Clark and reported by the aggregator above. AUDIT 2026-06: HRW/Americas Watch report verified to exist and to state 'at least 280 to 305 civilians, and possibly more' (≈300) and that U.S. tactics in El Chorrillo caused 'an inordinate number of civilian victims, in violation of … the Geneva Conventions.'"
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "pan-3",
+      "country": "PAN",
+      "role": "perpetrator",
+      "title": "Repression under the military dictatorship",
+      "era": "1968–1989",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "The state's military regime tortured, murdered and forcibly disappeared political dissidents over two decades — targeted political repression by security forces, hence POL rather than open warfare (WAR) or group-extermination (EXT).",
+      "agent": "The Panamanian military regime and its security forces — the National Guard and later the Panama Defense Forces, including the G-2 intelligence service — under Generals Omar Torrijos (1968–1981) and Manuel Noriega (1983–1989)",
+      "toll": {
+        "low": 110,
+        "high": 132,
+        "unit": "deaths",
+        "display": "Truth Commission: 110 of 148 cases reported (70 murdered, 40 disappeared); list of 132 named killed or disappeared",
+        "disputed": true,
+        "note": "Panama's Truth Commission (Comisión de la Verdad), reporting in April 2002, examined 148 cases of human-rights abuse during the 1968–1989 dictatorship and documented 110 — of which 70 were murdered and 40 forcibly disappeared — and located 24 clandestine grave sites; an additional 40 cases remained to be investigated. A published list named 132 people killed or disappeared over the 21-year regime. Most documented killings fell in the regime's first years (1968–1972) and targeted supporters of the deposed President Arnulfo Arias. The range here (110–132) reflects the verified-case count versus the named-victim list; the true total is somewhat higher given uninvestigated cases and incomplete records, but no larger sourceable figure exists, so the toll is kept to what the Commission established."
+      },
+      "received_lens": "suppressed",
+      "summary": "Across the 1968–1989 military dictatorship, Panama's security forces tortured, murdered and disappeared political opponents — most notoriously the 1985 abduction, torture and beheading of Noriega critic Hugo Spadafora. The 2002 Truth Commission documented around 110 victims, 70 killed and 40 disappeared, and uncovered two dozen clandestine graves, concentrated in the regime's early years against backers of the president it had overthrown.",
+      "relevance": "Panama's clearest entry on the perpetrator ledger — the state killing its own citizens to hold power — recorded at the scale the evidence supports rather than inflated to match the far larger harms done to Panama's people, which is the discipline the atlas demands.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Panama Truth Commission,\" Wikipedia (April 2002 report: 148 cases examined, 110 documented — 70 murdered, 40 disappeared; 24 clandestine grave sites; most cases 1968–1972, targeting supporters of President Arias; regime under Torrijos and Noriega)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Panama_Truth_Commission",
+          "caveat": "Tertiary aggregator summarizing the Commission's findings; figures are the documented-case counts, a floor rather than a definitive total given uninvestigated cases."
+        },
+        {
+          "kind": "press",
+          "cite": "United States Institute of Peace, \"Truth Commission: Panama\" — overview of the 2001 Comisión de la Verdad established by President Mireya Moscoso to investigate killings and disappearances under the 1968–1989 military regime",
+          "supports": "tier",
+          "url": "https://www.usip.org/publications/2001/01/truth-commission-panama",
+          "caveat": "Institutional summary of the commission's mandate and scope; corroborates the perpetrator (state security forces) and the political-repression character, used for tier rather than a precise toll. AUDIT 2026-06: USIP page verified real (returns HTTP 403 to automated fetch but exists per OAS/USIP indexes); commission created by President Mireya Moscoso, Executive Decree No. 2 of 18 Jan 2001, to investigate killings and disappearances under Torrijos and Noriega, 1968–1989."
+        },
+        {
+          "kind": "press",
+          "cite": "Amnesty International, \"Panama: Fresh investigations urged after Manuel Noriega extradition\" (December 2011) — cites Noriega-era killings of opponents including Hugo Spadafora (1985), and Panamanian convictions for the murders of political opponents",
+          "supports": "summary",
+          "url": "https://www.amnesty.org/en/latest/news/2011/12/panama-fresh-investigations-urged-after-manuel-noriega-extradition/",
+          "caveat": "Human-rights organization; documents the pattern and specific cases of state killing rather than an aggregate toll. AUDIT 2026-06: Amnesty release verified real (Dec 2011, post-extradition), citing the 1985 Spadafora assassination, convictions for killing political opponents, and the 1968–70 disappearances of Kimble, Quiroz Morales and Heliodoro Portugal."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

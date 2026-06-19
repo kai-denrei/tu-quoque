@@ -1,0 +1,133 @@
+{
+  "iso": "NAM",
+  "name": "Namibia",
+  "note": "Namibia's ledger is heaviest, and best documented, on the victim side. The German colonial extermination of the Herero and Nama (1904–1908) is widely called the first genocide of the twentieth century, and the apartheid-era South African Defence Force raid on the Cassinga refugee camp (1978) killed hundreds of Namibian exiles. The perpetrator ledger is genuinely thinner but real and well-attested: the liberation movement SWAPO, fighting that same colonial war from exile, detained, tortured and 'disappeared' hundreds of its own members in Angola on false accusations of spying for South Africa — abuses the SWAPO-led state has since refused to investigate. Two caveats run through the file: (1) the Herero/Nama toll mixes direct killing with engineered desert and camp deaths and is reported as a population-loss estimate, not a body count; (2) the Cassinga toll is contested between those who call it a massacre of refugees and those (the SADF) who called it a strike on a military base, and the SWAPO-camp toll is bounded only by the number who never returned, since no full accounting was ever made. No event, toll or source here has been invented to balance the two ledgers.",
+  "events": [
+    {
+      "id": "nam-1",
+      "country": "NAM",
+      "role": "victim",
+      "title": "The Herero and Nama genocide",
+      "era": "1904–1908",
+      "era_band": "colonial",
+      "tier": "EXT",
+      "tier_reasoning": "A colonial campaign explicitly aimed at annihilating two named peoples — von Trotha's order to shoot every Herero, the driving of survivors into the desert, and the concentration camps — is destruction directed at groups, so EXT, even though much of the death came through engineered thirst, starvation and camp disease rather than direct shooting.",
+      "agent": "The German Empire's colonial army under Lieutenant General Lothar von Trotha",
+      "toll": {
+        "display": "~50,000–90,000 deaths (Herero ~40,000–80,000; Nama ~10,000)",
+        "disputed": true,
+        "low": 50000,
+        "high": 90000,
+        "unit": "deaths",
+        "note": "Scholarship gives ~40,000–80,000 Herero dead (roughly 80% of the pre-war Herero population) and ~10,000 Nama (about half theirs); the combined ~50,000–90,000 range here adds those bands. Around 100,000 is the figure the German government itself uses for total deaths of these groups in the period. The toll is a population-loss estimate, not a body count: most Herero died of thirst and starvation after being driven into the Omaheke Desert following the Battle of Waterberg (Aug 1904), and roughly half the prisoners later held in the German concentration camps (Shark Island/Lüderitz, Swakopmund, Windhoek and others, closed Jan 1908) died of disease, abuse and forced labour. Historians dispute how much of the desert mortality reflects deliberate extermination policy versus environmental death after expulsion."
+      },
+      "received_lens": "memorial",
+      "summary": "After the Herero rose against German rule in January 1904 and were routed at Waterberg, General Lothar von Trotha issued an October 1904 order that every Herero found in German territory be shot, and German troops sealed off the Omaheke Desert so that survivors who fled into it died of thirst and hunger; the Nama who rose the following year met the same campaign. Those who surrendered were put into concentration camps where about half died.",
+      "relevance": "The defining atrocity done to Namibia's peoples — and a colonial extermination that Germany only formally acknowledged as genocide in 2015–2021, the long delay being itself part of how it was received.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Herero and Nama genocide' — ~40,000–80,000 Herero (≈80% of pre-war population) and ~10,000 Nama (≈half) killed 1904–1908; von Trotha's Oct 1904 extermination order; Omaheke Desert deaths; ~half of concentration-camp prisoners died (camps closed 27 Jan 1908)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Herero_and_Nama_genocide",
+          "caveat": "Tertiary aggregator; the toll is a population-loss estimate rather than an enumerated count. Verified 2026-06-19: ~80% Herero / ~50% Nama population loss, von Trotha's 2 Oct 1904 extermination order, Omaheke Desert deaths and concentration-camp mortality independently corroborated by the German government (~100,000), Britannica, the Montreal Holocaust Museum, and the primary order text held by German History in Documents and Images (GHDI)."
+        },
+        {
+          "kind": "reference",
+          "cite": "German Federal Government (bundesregierung.de), 'Commemoration of the genocide of the Herero and Nama' — German state acknowledges genocide and gives ~100,000 deaths of these groups in the colonial period; 2021 settlement of €1.1 billion in development aid",
+          "supports": "toll.low",
+          "url": "https://www.bundesregierung.de/breg-en/news/commemoration-herero-and-nama-2350762",
+          "caveat": "The perpetrator state's own framing; it acknowledges genocide and gives ~100,000 deaths (verified at this URL 2026-06-19). Note: this specific page mentions only the May 2021 joint declaration, not the €1.1bn figure or the explicit rejection of legal liability — those (widely reported elsewhere) are not stated on this page. The 2021 deal rejected legal liability and was rejected by many Herero and Nama descendants, who were not allowed to negotiate directly."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "nam-2",
+      "country": "NAM",
+      "role": "victim",
+      "title": "The Cassinga raid",
+      "era": "1978",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "An airborne attack on a populated exile camp during the liberation war, killing hundreds including many women and children, is armed-conflict atrocity (WAR) rather than a campaign to destroy a group; the dispute over whether the dead were civilians or combatants is exactly why the act, not a group-destruction intent, is what is tagged.",
+      "agent": "The South African Defence Force (SADF), in Operation Reindeer, on the orders of the apartheid government",
+      "toll": {
+        "display": "~582–624 deaths",
+        "disputed": true,
+        "low": 582,
+        "high": 624,
+        "unit": "deaths",
+        "note": "A secret SWAPO Central Committee report recorded 582 dead and 400 wounded (low); an Angolan government report gave 624 dead and 611 injured, including 167 women and 298 teenagers and children (high). South African losses were minimal (about three or four killed). The core dispute is composition and status: SWAPO and Angola called Cassinga a refugee camp and the dead defenceless civilians, while the SADF and the later South African Truth and Reconciliation Commission held it was a SWAPO/PLAN military facility — and many of those killed were female or teenage and did not wear uniforms, making the civilian/combatant split impossible to fix."
+      },
+      "received_lens": "memorial",
+      "summary": "On 4 May 1978 South African aircraft bombed the SWAPO camp at Cassinga in southern Angola and then dropped paratroopers, killing roughly 600 people, many of them women and children, in a few hours. SWAPO and Angola called it a massacre of refugees; South Africa called it a strike on a guerrilla base. In Namibia 4 May is now Cassinga Day.",
+      "relevance": "Apartheid South Africa's deadliest single blow against Namibians in exile — and a killing whose victim count is inseparable from the still-unsettled argument over whether Cassinga was a refuge or a base.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Cassinga massacre' / Battle of Cassinga — SWAPO Central Committee report 582 dead, 400 wounded; Angolan government report 624 dead (incl. 167 women, 298 teenagers/children) and 611 injured; SADF Operation Reindeer, 4 May 1978; refugee-camp vs military-facility dispute",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Cassinga_massacre",
+          "caveat": "Tertiary aggregator; the two cited tolls come from the belligerent parties (SWAPO and Angola), and the civilian/combatant composition is contested. Verified 2026-06-19: 'Cassinga massacre' redirects to 'Battle of Cassinga'; the SWAPO Central Committee report (582 dead / 400 wounded) and the Angolan white paper (624 dead incl. 167 women and 298 teenagers/children, 611 injured) are reproduced there, corroborated by an independent academic source (Journal for Contemporary History, UFS)."
+        },
+        {
+          "kind": "reference",
+          "cite": "South African History Online, 'SADF attacks a Namibian refugee camp in Cassinga, Angola' — more than 600 killed, mostly women and children; UN delegation called the action 'criminal in legal terms and savage in moral terms'; ongoing debate over refugee camp vs military camp",
+          "supports": "summary",
+          "url": "https://sahistory.org.za/dated-event/south-african-defence-force-sadf-attacks-namibian-refugee-camp-cassinga-angola",
+          "caveat": "Reference site sympathetic to the liberation narrative; frames Cassinga as a refugee camp, which the SADF disputed. Verified 2026-06-19: page states 'more than 600 Namibians, mostly women and children' killed, quotes the UN delegation ('criminal in legal terms and savage in moral terms'), and acknowledges the refugee-camp-vs-military-camp debate."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "nam-3",
+      "country": "NAM",
+      "role": "perpetrator",
+      "title": "The SWAPO spy purge and Lubango dungeons",
+      "era": "1980s",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "A liberation movement's detention, torture and extrajudicial killing of its own members as suspected internal enemies is political mass killing of perceived dissidents, so POL; the deaths came through abuse, starvation and execution in detention rather than open warfare.",
+      "agent": "SWAPO's security apparatus under Solomon 'Jesus' Hawala, within the movement led by Sam Nujoma",
+      "toll": {
+        "display": "hundreds detained; ~154–256 unaccounted for, presumed dead",
+        "disputed": true,
+        "low": 154,
+        "high": 256,
+        "unit": "deaths",
+        "note": "Historian Marion Wallace records that SWAPO detained and tortured 'hundreds, and possibly thousands' of its own members, with some dying in the harsh conditions at Lubango in Angola. A 1993 U.S. State Department report put the number of SWAPO detainees still unaccounted for at 154–256 (used here for low/high); the ICRC's tracing effort (Nov 1991–April 1993) found none of the missing alive. The figures count the disappeared/presumed-dead, not a verified body count — no full accounting was ever made. About 400 surviving detainees were released as independence neared in 1989."
+      },
+      "received_lens": "suppressed",
+      "summary": "Through the 1980s, after South African raids convinced its leadership that the movement was riddled with spies, SWAPO's security service detained hundreds of its own cadres in pits at Lubango and other Angolan camps, tortured them into false confessions of working for South Africa, and killed or 'disappeared' many of them. After independence the SWAPO-led government declined to investigate, and the man who ran the detentions, Solomon Hawala, was made head of the new Namibian army.",
+      "relevance": "The same movement Namibians remember as their liberators, and as victims of Cassinga, was itself a perpetrator against Namibians — torturing and disappearing its own people, then burying the record in official silence.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Paul Trewhela, review of Oiva Angula, 'SWAPO Captive' (published on Martin Plaut's blog), citing Marion Wallace's 'A History of Namibia' — SWAPO 'detained and tortured hundreds, and possibly thousands, of its own members', falsely accused as South African agents; Solomon 'Jesus' Hawala, the 'butcher of Lubango', ran security and was made army chief in 1990",
+          "supports": "summary",
+          "url": "https://martinplaut.com/2018/08/22/review-of-swapo-captive-a-comrades-experience-of-betrayal-and-torture/",
+          "caveat": "A book review on a journalist's blog; the review is authored by Paul Trewhela (a former South African political prisoner) and hosted on Martin Plaut's blog. The underlying historical claims rest on Marion Wallace's academic history of Namibia and survivor testimony, but the source itself is secondary commentary. Verified 2026-06-19: the Wallace quote ('hundreds, and possibly thousands') and the Hawala 'butcher of Lubango' / 1990 army-chief facts appear verbatim."
+        },
+        {
+          "kind": "reference",
+          "cite": "U.S. Department of State, Country Report on Human Rights Practices 1993 — Namibia (via Refworld): 154–256 SWAPO detainees still unaccounted for; ICRC final tracing report (Nov 1991–April 1993) found none of the missing alive",
+          "supports": "toll.high",
+          "url": "https://www.refworld.org/docid/3ae6aa52c.html",
+          "caveat": "U.S. government human-rights reporting; the range bounds the disappeared/presumed-dead, not a confirmed death count, because SWAPO never released full records. Verified 2026-06-19: the Refworld page itself returned HTTP 403 on direct fetch, but the exact passage — 'The number of SWAPO detainees still unaccounted for ranges from 154 to 256' plus the ICRC final tracing report (Nov 1991–April 1993) — is confirmed in the indexed/cached text of the 1993 U.S. State Department Country Report on Namibia (also at refworld.org/reference/annualreport/usdos/1994/en/25327). Distinct from the unattributable UNMD '1,110/115/315' figure, which was correctly NOT cited."
+        },
+        {
+          "kind": "reference",
+          "cite": "Human Rights Watch, 'Accountability in Namibia: Human Rights and the Transition to Democracy' (1992) — documents SWAPO's mid-1980s arrest, detention and torture of its own members accused of spying for South Africa, the Lubango interrogation centre and 'dungeons', and that 'a full accounting has yet to take place' post-independence",
+          "supports": "summary",
+          "url": "https://www.hrw.org/report/1992/06/01/accountability-namibia/human-rights-and-transition-democracy",
+          "caveat": "Verified 2026-06-19 against the HRW HTML report (the PDF mirror returns binary/unreadable on fetch): the report states verbatim 'In the mid 1980s, SWAPO arrested and accused its own members of spying for South Africa and detained and tortured them' and that after independence 'a full accounting has yet to take place'. Named, dated, primary HRW report; no undisclosed bias to flag."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

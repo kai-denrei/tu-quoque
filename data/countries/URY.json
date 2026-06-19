@@ -1,0 +1,147 @@
+{
+  "iso": "URY",
+  "name": "Uruguay",
+  "note": "Uruguay's dual ledger is asymmetric in a way that is itself the point. The 'in their name' side is heavy and foundational: in 1831 the newborn republic's army, under its first constitutional president Fructuoso Rivera, lured and slaughtered the surviving Charrua at Salsipuedes and broke the country's original people as a people — long remembered (where remembered at all) as the act that made Uruguay 'a country without Indians'; and from 1973 to 1985 the civic-military dictatorship turned the state against its own citizens, jailing, torturing, killing, and disappearing them on a per-capita scale that briefly made Uruguay hold 'the highest concentration of political prisoners in the world.' The 'done to them' side is dominated by the foreign-perpetrated face of that same era: under Operation Condor, the coordinated cross-border repression of the Southern Cone dictatorships, the large majority of Uruguay's roughly 197 disappeared were exiles seized, tortured, and killed on Argentine soil — Uruguayans made up nearly half of all documented Condor victims, the largest share of any member country. The asymmetry is real and is not papered over: Uruguay has no major modern episode of being conquered or massacred by a foreign army on its own land (the Guerra Grande of 1839-1851 and the War of the Triple Alliance against Paraguay are not entered as Uruguay-victim events — the first an internal civil war with foreign intervention, the second a war in which Uruguay was a junior member of the aggressor alliance). The deepest dual-lens tension lives inside the same facts: the dictatorship's victims were Uruguayans killed by the Uruguayan state, and Salsipuedes makes the Charrua simultaneously Uruguay's original people (done to them) and the target of the Uruguayan state (in their name). Two tolls are genuinely hard: the Charrua destruction (where the documented Salsipuedes killing is small but the destruction of the people is total, and no verified campaign-wide death count exists) and the disappeared (where domestic and Condor-abroad cases overlap).",
+  "events": [
+    {
+      "id": "ury-1",
+      "country": "URY",
+      "role": "victim",
+      "title": "Uruguayan exiles hunted abroad under Operation Condor",
+      "era": "1975–1981",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "The cross-border abduction, torture, and forced disappearance of political exiles by coordinating state security services to eliminate dissidents is political mass violence (POL), not warfare between armies (WAR) or the destruction of an ethnic group (EXT).",
+      "agent": "Argentine and Chilean security forces operating under Operation Condor — at sites such as the Automotores Orletti clandestine center in Buenos Aires — with the active complicity of Uruguay's own military intelligence (the SID), which sent officers to interrogate and 'repatriate' captured Uruguayans",
+      "toll": {
+        "display": "~140–182 of Uruguay's ~197 disappeared were seized abroad, the majority in Argentina",
+        "disputed": true,
+        "low": 140,
+        "high": 182,
+        "unit": "deaths",
+        "note": "Of the roughly 197 enforced disappearances Uruguay officially attributes to its dictatorship era (1968-1985), only about 31 occurred inside Uruguay; the large majority were exiles disappeared abroad, the overwhelming share in Argentina under Operation Condor (one breakdown gives ~182 in Argentina). The 'unit: deaths' here means the disappeared, who are presumed killed; very few of those who passed through centers like Automotores Orletti survived. The range reflects differing counts of which cases are classified as foreign/Condor versus domestic, and which fall inside the strict Condor window; the figures overlap with the dictatorship's total disappeared (event ury-3) and should not be added to it. Uruguayans made up roughly 48% of all documented Operation Condor victims — the largest national share."
+      },
+      "received_lens": "memorial",
+      "summary": "Tens of thousands of Uruguayans fled the dictatorship for neighboring countries; many were not safe there. Under Operation Condor — the secret pact by which the dictatorships of Argentina, Chile, Uruguay, Paraguay, Bolivia, and Brazil hunted each other's exiles — Uruguayan militants, trade unionists, and their families were kidnapped on the streets of Buenos Aires, held in clandestine torture centers such as Automotores Orletti, and either murdered there or secretly flown back to Uruguay to be disappeared. Most of Uruguay's roughly 197 disappeared vanished this way, on foreign soil. That the prey were so often Uruguayan, and that their own country's intelligence service helped run the hunt, is the wound's particular shape.",
+      "relevance": "Uruguay, more often the perpetrator in its modern history, here appears as victim — its citizens the most-targeted nationality of a transnational killing machine — yet the victimhood is entangled, because the Uruguayan state was a founding partner in the very apparatus that disappeared its own people abroad.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Francesca Lessa, \"Fifty years after the Uruguay coup, why so few people have been brought to justice for dictatorship crimes\" (The Conversation, 2023) — 197 enforced disappearances and 202 extrajudicial executions 1968-1985; Uruguayans 48% of Operation Condor victims persecuted beyond borders 1969-1981",
+          "supports": "summary",
+          "url": "https://theconversation.com/fifty-years-after-the-uruguay-coup-why-so-few-people-have-been-brought-to-justice-for-dictatorship-crimes-207459",
+          "caveat": "Written by an academic specialist on Condor (Lessa) for a general-audience outlet; the figures cited are drawn from her research and Uruguayan official sources and are widely corroborated."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Civic-military dictatorship of Uruguay,\" Wikipedia — a 2000 commission confirmed ~31 disappeared killed inside Uruguay plus ~182 in Argentina; most disappearances occurred abroad under Operation Condor",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Civic-military_dictatorship_of_Uruguay",
+          "caveat": "Tertiary aggregator; the domestic/abroad breakdown derives from a state commission and is approximate, with totals still being revised upward (Uruguay's human-rights institution reported the disappeared list at 205 cases by 2026)."
+        },
+        {
+          "kind": "press",
+          "cite": "Centro de Estudios Legales y Sociales (CELS), \"Operation Condor — A criminal conspiracy to forcibly disappear people\" — ~300 detainees (Uruguayans, Chileans, Bolivians, Paraguayans, Cubans, Argentines) passed through Automotores Orletti in 1976; ~27 Uruguayans disappeared in Buenos Aires Aug–Oct 1976; ~10% of Orletti prisoners survived",
+          "supports": "toll.low",
+          "url": "https://www.cels.org.ar/especiales/plancondor/en/",
+          "caveat": "CELS is an Argentine human-rights NGO that was a plaintiff in the Condor trials; cited for documented case counts from the judicial record, which it presents from the victims' side."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ury-2",
+      "country": "URY",
+      "role": "perpetrator",
+      "title": "The Salsipuedes massacre and the extermination of the Charrua",
+      "era": "1831–1832",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "A state campaign that lured and killed the men of a defined people, enslaved the surviving women and children, and ended the Charrua as a community — the deliberate destruction of a group — is EXT, distinct from disease-driven demographic collapse (STR), though the surviving population was already small after two centuries of colonial attrition.",
+      "agent": "The Uruguayan army under President Fructuoso Rivera, with the field operation commanded by his nephew Bernabe Rivera, who summoned the Charrua to a friendly meeting and then attacked them",
+      "toll": {
+        "display": "~40 killed at Salsipuedes (campaign total higher but undocumented); the Charrua destroyed as a people",
+        "disputed": true,
+        "low": 40,
+        "high": null,
+        "unit": "deaths",
+        "note": "The documented Salsipuedes killing is small: official reports gave about 40 Charrua killed and around 300 taken prisoner on 11 April 1831, with further attacks (e.g. ~15 killed at Mataojo in August 1831) through 1832. But the count understates the event: the Charrua by 1831 numbered only in the hundreds, the surviving remnant of a people whose pre-colonial population is estimated at no more than 10,000-20,000 and who had been worn down over 200 years of European territorial occupation. The captured women and children were marched ~260 km to Montevideo and distributed as household servants and slaves; four were shipped to Paris and exhibited, where they died. By 1840 only about 18 Charrua were said to survive in Uruguay. No verified campaign-wide death toll exists, so toll.high is left null: the true magnitude is the destruction of a people, not a body count, and inflating a death number would misrepresent the record."
+      },
+      "received_lens": "suppressed",
+      "summary": "On 11 April 1831 President Fructuoso Rivera invited the surviving Charrua to a meeting at the Salsipuedes creek, ostensibly to enlist their help defending the frontier, then had his troops fall on them once they were off guard. The soldiers killed the men and took the women and children prisoner, marching them to Montevideo to be parceled out as servants. Follow-up sweeps over the next year finished the work. The Charrua — the indigenous people who had resisted the Spanish for two centuries — were effectively wiped out as a community, and Uruguay was thereafter described as a country without Indians, a self-image that long erased the killing from public memory.",
+      "relevance": "The deepest entry in Uruguay's perpetrator ledger and a clean dual-lens collapse: the same people remembered as Uruguay's original inhabitants were destroyed by the Uruguayan state at the moment of the nation's founding, then written out of the national story.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Massacre of Salsipuedes,\" Wikipedia — 11 April 1831; Uruguayan army under Fructuoso Rivera, field command Bernabe Rivera; official report ~40 killed, ~300 taken prisoner; described as a genocidal massacre and the death blow to Uruguay's indigenous nations; prisoners marched to Montevideo and sold; four taken to Paris",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Massacre_of_Salsipuedes",
+          "caveat": "Tertiary aggregator; the ~40 figure is the official military report of the day, which is widely regarded as understating the true killing, and the 'genocide' characterization, while broadly accepted, is a moral framing."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Indigenous peoples in Uruguay,\" Wikipedia — pre-colonial indigenous population estimated at no more than 10,000-20,000; Charrua decline a 200-year process driven by European territorial occupation; in 1831 Rivera's campaign killed most Charrua men and the ~300 surviving women and children were divided as slaves and servants; by 1840 only ~18 Charrua survived in Uruguay",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Indigenous_peoples_in_Uruguay",
+          "caveat": "Tertiary aggregator; population figures are scholarly estimates with wide error bars, and the '18 survivors by 1840' figure is a traditional account rather than a precise census."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Nicola Rambaldi Migliore et al., \"The genomic prehistory of the Indigenous peoples of Uruguay\" (PNAS Nexus, 2022, Oxford Academic) — notes the Charrua were already reduced to the hundreds by 1831, the remnant of a long demographic decline, before Salsipuedes",
+          "supports": "tier",
+          "url": "https://academic.oup.com/pnasnexus/article/1/2/pgac047/6571940",
+          "caveat": "A peer-reviewed genomics paper cited for its demographic context (that the targeted population was already small); it is not a casualty study of the massacre itself."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ury-3",
+      "country": "URY",
+      "role": "perpetrator",
+      "title": "State terror under the civic-military dictatorship",
+      "era": "1973–1985",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "The systematic imprisonment, torture, killing, and forced disappearance of perceived political opponents by the state to hold power is political repression (POL), not warfare between armies (WAR) or the destruction of an ethnic group (EXT).",
+      "agent": "The Uruguayan civic-military dictatorship — beginning with President Juan Maria Bordaberry's 1973 dissolution of parliament alongside the armed forces, then a succession of military-backed presidents (Aparicio Mendez, Gregorio Alvarez) — through its army, police, and intelligence services",
+      "toll": {
+        "display": "~197 disappeared and ~202 killed; ~5,000+ political prisoners, with ~1 in 50 citizens detained at some point",
+        "disputed": true,
+        "low": 197,
+        "high": 399,
+        "unit": "deaths",
+        "note": "Uruguay officially attributes about 197 enforced disappearances and about 202 extrajudicial executions to the period 1968-1985, giving a combined killed-and-disappeared figure near 399 — small in absolute terms next to Argentina or Chile, but the repression's signature was its breadth, not its body count. Roughly 5,000 people were arrested for political reasons and held; about one in 500 citizens was a political prisoner at the peak and about one in 50 passed through detention, which for many meant torture. By early 1976 Uruguay held the highest per-capita concentration of political prisoners in the world. The disappeared total overlaps with the Condor-abroad cases in event ury-1 (the majority of the ~197 vanished in Argentina); the figures are still being revised, with Uruguay's human-rights institution reporting the disappeared list at 205 cases by 2026."
+      },
+      "received_lens": "contested",
+      "summary": "After President Juan Maria Bordaberry and the armed forces shut down parliament in June 1973, Uruguay's dictatorship set about crushing the left and dissent of every kind. Security forces arrested students, trade unionists, and party members by the thousands, ran a network of detention centers where torture was routine, killed some two hundred people, and disappeared nearly two hundred more — most of them seized abroad. What set Uruguay apart was scale relative to size: a small, once-stable democracy that locked up its citizens at a higher per-capita rate than any country on earth and earned the name 'the torture chamber of Latin America.' A 1986 amnesty law long shielded the perpetrators, and the reckoning is still unfinished.",
+      "relevance": "The clearest modern case of the dual lens collapsing into one people — a state that imprisoned, tortured, and killed its own citizens — and the mirror of Uruguay's victim ledger, since the same machinery reached across borders to disappear Uruguayan exiles under Operation Condor.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Francesca Lessa, \"Fifty years after the Uruguay coup, why so few people have been brought to justice for dictatorship crimes\" (The Conversation, 2023) — 197 enforced disappearances; 202 extrajudicial executions; one in 500 citizens a political prisoner; one in 50 through detention with torture; highest per-capita political-prisoner concentration in the world by early 1976",
+          "supports": "toll.low",
+          "url": "https://theconversation.com/fifty-years-after-the-uruguay-coup-why-so-few-people-have-been-brought-to-justice-for-dictatorship-crimes-207459",
+          "caveat": "Written by an academic Condor specialist for a general-audience outlet; the figures are drawn from her research and Uruguayan official records and are widely corroborated."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Civic-military dictatorship of Uruguay,\" Wikipedia — 1973-1985; coup via Bordaberry's dissolution of parliament; ~5,000 arrested for political reasons; ~20% of the population arrested for shorter or longer periods; highest number per capita of political prisoners in the world; succession of military-backed presidents",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Civic-military_dictatorship_of_Uruguay",
+          "caveat": "Tertiary aggregator; the '20% arrested' framing is a broad estimate and the killed/disappeared totals are official figures still being revised upward over time."
+        },
+        {
+          "kind": "press",
+          "cite": "Portal PIT-CNT, \"La INDDHH informo que la lista de desaparecidos en Uruguay asciende a 205 casos\" (2026) — Uruguay's National Human Rights Institution (INDDHH) reported the disappeared list had risen to 205 cases, with investigations continuing",
+          "supports": "summary",
+          "url": "https://www.pitcnt.uy/novedades/la-inddhh-informo-que-la-lista-de-desaparecidos-en-uruguay-asciende-205-casos-y-la",
+          "caveat": "PIT-CNT is Uruguay's national trade-union federation, a party to the memory-and-justice movement; cited for the official INDDHH figure it reports, which reflects the still-open, upward-revised count."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

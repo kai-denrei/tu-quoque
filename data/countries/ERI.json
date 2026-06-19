@@ -1,0 +1,172 @@
+{
+  "iso": "ERI",
+  "name": "Eritrea",
+  "note": "Eritrea's record is unusually symmetrical in moral weight but asymmetric in documentation. The victim ledger is the older and more voluminous: a 30-year war of independence (1961–1991) in which the Ethiopian state — first the Haile Selassie monarchy, then the Derg military dictatorship — razed villages and massacred civilians (Ona/Besikdira 1970, Asmara 1975, She'eb 1988), with an Eritrean death toll commonly put at 60,000–90,000 and the wider war killing on the order of 150,000–200,000. A documentation caveat runs through these victim events: many of the most detailed accounts and the highest tolls come from the present Eritrean government's own outlets (Ministry of Information / shabait.com) and diaspora commemoration sites, which have a clear interest in maximising the figures and casting Ethiopia as sole villain; where possible the entries lean on the independent massacre record and flag the state sources. The perpetrator ledger is more recent but rests on stronger independent evidence: the same liberation movement that won the war became, in power after 1991, the subject of a UN Commission of Inquiry that found crimes against humanity (enslavement, torture, disappearance) committed by the Eritrean state against its own people, and Eritrean troops carried out the Axum massacre and other atrocities in Ethiopia's Tigray war of 2020–2022 — Eritrea as both the victim and the author of mass atrocity within a single human lifetime. No event, toll or source has been invented to balance the two sides; the symmetry here is in the historical record, not manufactured.",
+  "events": [
+    {
+      "id": "eri-1",
+      "country": "ERI",
+      "role": "victim",
+      "title": "Ethiopian counter-insurgency massacres in the War of Independence",
+      "era": "1961–1991",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "A 30-year war in which the occupying Ethiopian army deliberately razed villages and shot civilians as a counter-insurgency method; armed-conflict atrocity against a population suspected of backing the rebels, so WAR rather than a campaign to exterminate a defined ethnic group.",
+      "agent": "The Ethiopian army — under Emperor Haile Selassie, then the Derg military regime of Mengistu Haile Mariam",
+      "toll": {
+        "display": "~60,000–90,000 Eritrean deaths (war-wide; ~150,000–200,000 all sides)",
+        "disputed": true,
+        "low": 60000,
+        "high": 90000,
+        "unit": "deaths",
+        "note": "The low/high (~60,000–90,000) are the figures most often cited for Eritrean dead — soldiers and civilians — across the 1961–1991 war; estimates for the conflict as a whole run from ~100,000 to ~200,000 including Ethiopian and Cuban forces. Discrete massacres folded into this entry: Ona and Besikdira near Keren (30 Nov–1 Dec 1970), where Ethiopian troops avenging a killed general burned villages and shot inhabitants — Besikdira mosque ~120 killed (up to ~220 in the village), Ona several hundred, the two days together put as high as ~nearly 1,000; and the Asmara killings of January–February 1975, with ~3,000 reported dead on 14 February alone and far higher cumulative figures (~11,000) given by Eritrean sources. Several of the largest figures originate with the Eritrean government and diaspora commemorations and cannot be independently confirmed; the independent massacre record corroborates the events and the lower bands. AUDIT 2026-06-19: every source on this event was checked and is REAL and supports its attached claim — Wikipedia massacres-list figures (Ona 800+, Besikdira mosque 120, Asmara 1975 ~3,000) match exactly; Wikipedia WoI infobox now gives Eritrean combatants 65,000–70,000, Ethiopian ~100,000, civilians 150,000–280,000 (so the war-wide ~100,000–200,000 here is conservative on the civilian side); the shabait high-end (Ona ~1,000; Asmara ~11,000) was located across the two named state articles. Event kept UNVERIFIED because the precise tolls rest substantially on interested Eritrean-state sources, not because any citation is fabricated."
+      },
+      "received_lens": "memorial",
+      "summary": "Across three decades of war, the Ethiopian army tried to break Eritrean support for the independence fighters by attacking the villages themselves — burning homes, shooting families and gunning down people who had taken refuge in mosques and churches. At Ona and Besikdira near Keren in 1970 troops massacred villagers in reprisal for a slain general; in and around Asmara in early 1975 they opened fire on civilians in churches, homes and schools over several weeks.",
+      "relevance": "The Eritrean nation was forged in atrocity done to it — the same villages whose burning is now commemorated by the state are the foundation of the regime that the UN would later accuse of crimes against its own people.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'List of massacres committed during the Eritrean War of Independence' — Ona (1 Dec 1970, ~800+), Besikdira (30 Nov 1970, mosque ~120), Asmara (15 Feb 1975, ~3,000), She'eb (1988)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/List_of_massacres_committed_during_the_Eritrean_War_of_Independence",
+          "caveat": "Tertiary aggregator; several listed tolls trace back to Eritrean nationalist sources and should be read as the high end of contested ranges."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Eritrean War of Independence' — Eritrean dead commonly given as ~60,000–90,000; war-wide deaths ~100,000–200,000; ~400,000 refugees",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Eritrean_War_of_Independence",
+          "caveat": "Tertiary aggregator; the wide range reflects the absence of any reliable wartime census."
+        },
+        {
+          "kind": "press",
+          "cite": "Eritrea Ministry of Information (shabait.com), 'Ona massacre' (https://shabait.com/2020/12/05/ona-massacre/ — Ona 800+, Besikdira mosque 120 / village ~220, together ~nearly 1,000) and 'The unforgettable massacres' (https://shabait.com/2020/02/21/the-unforgettable-massacres/ — Asmara 1975 ~11,000 over six weeks across the city and 57 villages)",
+          "supports": "toll.high",
+          "url": "https://shabait.com/2020/12/05/ona-massacre/",
+          "caveat": "Official Eritrean state outlet: a party to the conflict with a strong interest in maximising the toll and casting Ethiopia as sole aggressor; its higher figures are uncorroborated and used only as the contested upper bound. AUDIT: both named state articles were located and confirmed to carry the cited figures — the Ona/Besikdira tolls live at the linked URL, the ~11,000 Asmara figure at the second URL now spelled out in the cite (the linked Ona page does NOT itself contain the Asmara figure)."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "eri-2",
+      "country": "ERI",
+      "role": "victim",
+      "title": "The She'eb massacre",
+      "era": "1988",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "A single deliberate slaughter of a town's mostly-women-and-children population by an occupying army during the war; a war-crime massacre rather than a campaign of group extermination, so WAR.",
+      "agent": "The Ethiopian army under the Derg regime of Mengistu Haile Mariam",
+      "toll": {
+        "display": "~200–500 deaths",
+        "disputed": true,
+        "low": 200,
+        "high": 500,
+        "unit": "deaths",
+        "note": "Accounts put roughly 400 killed in She'eb itself plus at least 100 more in neighbouring villages, giving a commonly cited range of about 200 (lower estimates) to 500 (town plus surroundings). The victims were mostly women, children and the elderly, the men having left to find work. AUDIT 2026-06-19: the single attached Wikipedia source is REAL and confirms 12 May 1988, Derg/Ethiopian army, ~400 in town + at least 100 in neighbouring villages, killed by tanks and shooting, many elderly and children — and it traces the toll to an academic work (Brenda K. Uekert, 'Rivers of Blood: A Comparative Study of Government Massacres'), NOT to an Eritrean-nationalist outlet, which strengthens the figure. QUARANTINE FLAG: this is a single-source event and the lone source is anchored to toll.high; the toll.low (200) is a softening inference, not independently sourced. Kept UNVERIFIED for the toll metric on single-source grounds. (Note: the Wikipedia massacres-list page carries a stray '1988-12-05' date for She'eb; the dedicated, academically sourced She'eb article gives May 1988, which is used here.)"
+      },
+      "received_lens": "memorial",
+      "summary": "In May 1988 Ethiopian forces razed the town of She'eb, ordered the population to assemble, then drove tanks over them and shot those who tried to run; most of the dead were women, children and old people, the men having gone to the towns to earn a living.",
+      "relevance": "One of the most concrete single atrocities of the war — and a reminder that the worst of what was done to Eritreans fell on the people least able to fight back.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'She'eb massacre' — May 1988; town razed, civilians assembled and crushed under tanks / shot; ~400 in the town plus ~100+ in nearby villages",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/She%27eb_massacre",
+          "caveat": "Tertiary aggregator; the toll is an estimate drawn in part from Eritrean accounts of the event."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "eri-3",
+      "country": "ERI",
+      "role": "perpetrator",
+      "title": "Crimes against humanity by the Eritrean state (UN Commission of Inquiry)",
+      "era": "1991–present",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "A UN inquiry found a systematic state apparatus of enslavement (indefinite national service), arbitrary imprisonment, enforced disappearance, torture and murder used to control the population; political repression and enslavement of a people by its own government, so POL.",
+      "agent": "The Eritrean government and ruling party (PFDJ) under President Isaias Afwerki, and the National Security Office",
+      "toll": {
+        "display": "~300,000–400,000 enslaved; deaths uncounted",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "The headline figure is not a death count: the UN Commission's Chair Mike Smith estimated that 300,000–400,000 Eritreans had been effectively enslaved through indefinite national/military service. The Commission documented murder among the crimes against humanity but did not produce an aggregate death toll, and Eritrea's closed, secret-detention system makes any count of those who have died in prison, in custody or fleeing the country genuinely unsourceable — so low and high are left null. Hundreds of thousands have also fled the country. AUDIT 2026-06-19: both sources verified REAL and supporting — UN News story 531522 confirms the crimes-against-humanity finding (enslavement, imprisonment, enforced disappearance, torture, persecution, rape, murder, widespread and systematic since 1991) and names Mike Smith as Chair; the HRW 2015 'Scathing UN Report' page exists and corroborates; the 300,000–400,000 enslaved estimate is independently confirmed as Smith's (OHCHR/wire reporting). CORRECTION: Smith was the COMMISSION CHAIR, not 'chief investigator' — fixed in the cite. Event kept UNVERIFIED for the death metric only (genuinely null), with the substantive findings well attested."
+      },
+      "received_lens": "denied",
+      "summary": "A UN Commission of Inquiry concluded in 2016 that, since taking power in 1991, the Eritrean government and ruling party had committed crimes against humanity — enslavement, imprisonment, enforced disappearance, torture, rape, persecution and murder — to instil fear in and control the population, with an estimated 300,000–400,000 people enslaved through open-ended conscription. The government rejected the findings and has made no reforms.",
+      "relevance": "The liberation movement that suffered the war's atrocities became, in power, the perpetrator of mass atrocity against the very people it had freed — the dual lens collapsed into a single generation.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "UN Commission of Inquiry on Human Rights in Eritrea, June 2016 report (via OHCHR / UN News) — crimes against humanity (enslavement, imprisonment, enforced disappearance, torture, persecution, rape, murder) committed in a widespread and systematic manner since 1991; Commission Chair Mike Smith's estimate of 300,000–400,000 enslaved",
+          "supports": "summary",
+          "url": "https://news.un.org/en/story/2016/06/531522",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, 'Eritrea: Scathing UN Report' (10 June 2015) and Amnesty International country reporting — corroborate indefinite national service as forced labour and the pattern of detention, disappearance and torture",
+          "supports": "summary",
+          "url": "https://www.hrw.org/news/2015/06/10/eritrea-scathing-un-report",
+          "caveat": null
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "eri-4",
+      "country": "ERI",
+      "role": "perpetrator",
+      "title": "The Axum massacre in the Tigray war",
+      "era": "2020",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Eritrean troops fighting in a foreign war systematically shot unarmed civilians and executed men and boys house-to-house over roughly 24 hours; a war-crime massacre that rights groups said may amount to a crime against humanity, classed WAR.",
+      "agent": "The Eritrean Defence Forces, fighting alongside Ethiopian federal forces",
+      "toll": {
+        "display": "~200–800 deaths",
+        "disputed": true,
+        "low": 200,
+        "high": 800,
+        "unit": "deaths",
+        "note": "Human Rights Watch estimated over 200 civilians most likely killed on 28–29 November 2020 (and over 345 total across the wider operation); Amnesty International put it at well over 200 and compiled 240+ named victims; the Ethiopian Human Rights Commission gathered evidence of over 100; the Associated Press reported as many as ~800 executed over that weekend. The 200–800 range reflects this spread; the wider Axum operation from 19 November also killed civilians through shelling. Killings were carried out by EDF troops, identified by Eritrean licence plates, uniforms and dialect. AUDIT 2026-06-19: all three sources verified REAL and mutually corroborating — Amnesty (240+ names, may amount to crime against humanity), HRW (200+ on 28–29 Nov, 345 total), Wikipedia Axum (EHRC 100+, AP 800). Both ends of the contested toll are independently sourced (low 200 = HRW/Amnesty floor; high 800 = AP, flagged as the single highest, uncorroborated estimate). Event UPGRADED to VERIFIED: strongest-evidenced event in the file, no fabricated or interested source."
+      },
+      "received_lens": "denied",
+      "summary": "After taking the historic town of Axum in November 2020, Eritrean soldiers went house to house on 28–29 November shooting unarmed men and boys in the streets and executing detainees, in what Human Rights Watch and Amnesty International called a likely crime against humanity. Eritrea long denied its forces were even in Ethiopia.",
+      "relevance": "Within a single human lifetime the people who were massacred by an occupying army in their own villages had become the occupying army massacring civilians in someone else's — the clearest possible statement of the atlas's refusal of the single lens.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Amnesty International, 'Ethiopia: Eritrean troops' massacre of hundreds of Axum civilians may amount to crime against humanity' (26 Feb 2021) — EDF systematically killed well over 200 civilians on 28–29 Nov 2020",
+          "supports": "toll.high",
+          "url": "https://www.amnesty.org/en/latest/news/2021/02/ethiopia-eritrean-troops-massacre-of-hundreds-of-axum-civilians-may-amount-to-crime-against-humanity/",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, 'Ethiopia: Eritrean Forces Massacre Tigray Civilians' (5 Mar 2021) — over 200 likely killed 28–29 Nov 2020; house-to-house executions; perpetrators identified as Eritrean",
+          "supports": "toll.low",
+          "url": "https://www.hrw.org/news/2021/03/05/ethiopia-eritrean-forces-massacre-tigray-civilians",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Axum massacre' — death-toll spread: EHRC 100+, HRW/Amnesty 200+, Associated Press ~800; EDF identified as perpetrator",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Axum_massacre",
+          "caveat": "Tertiary aggregator; the ~800 AP figure is the highest single estimate and not independently confirmed by the rights groups, who give over 200."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

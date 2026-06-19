@@ -1,0 +1,140 @@
+{
+  "iso": "LTU",
+  "name": "Lithuania",
+  "note": "Lithuania carries one of the most exact dual-ledger overlaps in this atlas: the same event — the Holocaust of 1941–1944 — sits in both columns, because Lithuania's people were among its most complete victims AND Lithuanian forces were among its most active perpetrators. On the victim side, the destruction was nearly total: of roughly 208,000–210,000 Jews living in Lithuania when Germany invaded in June 1941, an estimated 190,000–195,000 were murdered, over 95 percent — historians of the Holocaust in Lithuania (Bubnys, Sužiedėlis) call it a more complete annihilation than befell any other country. Most died in the first six months, shot at pits like the Ninth Fort in Kaunas and Paneriai (Ponary) near Vilnius. On the perpetrator side, those killings were not done by Germans alone: German Einsatzgruppen supplied command and direction, but Lithuanian auxiliary units — the TDA battalions, the mobile Rollkommando Hamann, the Ypatingasis būrys (Special Squad) at Paneriai — did much of the actual shooting, in the countryside often almost unsupervised. Yad Vashem's chief historian Dina Porat records that at the outset German units killed mostly men while the Lithuanians killed unselectively, women and children included. This perpetrator history is genuinely about a segment of the population — auxiliaries, paramilitaries, and collaborators operating under and alongside German command, not a sovereign Lithuanian state, which did not exist as an independent actor under occupation — and that distinction is kept explicit in the entry. Lithuania's own people then suffered a second mass crime under the Soviets: NKVD/MGB deportations in 1941 and 1945–1953 sent roughly 130,000 to Siberia and Central Asia, of whom some 20,000–28,000 died, alongside the bloody suppression of the postwar partisan war. The point worth keeping: for decades the national memory foregrounded the Soviet-victim story and was slow to face the Holocaust-perpetrator story; both are true, and the ledger holds them together.",
+  "events": [
+    {
+      "id": "ltu-1",
+      "country": "LTU",
+      "role": "victim",
+      "title": "The Holocaust of Lithuania's Jews",
+      "era": "1941–1944",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "The near-total, deliberate destruction of Lithuania's Jewish community — shooting them as a people at mass pits within months — is annihilation of a group as such, the defining EXT case.",
+      "agent": "Nazi German Einsatzgruppen (Einsatzkommando 3 and others) directing the killings, with Lithuanian auxiliary police, the TDA battalions, the Rollkommando Hamann, and the Ypatingasis būrys carrying out much of the actual shooting",
+      "toll": {
+        "display": "~190,000–195,000 Jews murdered (over 95% of the prewar community)",
+        "disputed": false,
+        "low": 190000,
+        "high": 195000,
+        "unit": "deaths",
+        "note": "Of roughly 208,000–210,000 Jews in Lithuania as of January 1941, an estimated 190,000–195,000 were killed before the war's end, the great majority between June and December 1941. USHMM gives 'about 90 percent of Lithuanian Jews' murdered, 'one of the highest victim rates in Europe'; the detailed scholarly accounting puts it above 95 percent — 'a more complete destruction than befell any other country in the Holocaust.' The range here is a death count, not a population-decline estimate; the community was hunted and shot, not lost to disease, hence the narrow undisputed range and the EXT tier."
+      },
+      "received_lens": "memorial",
+      "summary": "Within weeks of the German invasion in June 1941, the killing began — first in pogroms and then in systematic mass shootings at pits outside the towns. By the end of 1941 most of Lithuania's Jews were already dead: roughly 70,000 shot at Paneriai near Vilnius, nearly 10,000 in a single day at the Ninth Fort in Kaunas, tens of thousands more in the countryside. Of a community of more than 200,000 — one of the oldest and most learned in Europe — over 95 percent were murdered.",
+      "relevance": "Lithuania's victim ledger and its perpetrator ledger are the same event seen from opposite ends: the Jews murdered here were Lithuania's own people, and many of the men at the pits were Lithuanian too.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "USHMM Holocaust Encyclopedia, 'Lithuania' — prewar Jewish population ~160,000 (rising to ~250,000 with refugees); 'the Germans murdered about 90 percent of Lithuanian Jews, one of the highest victim rates in Europe'; most killed in the first six months of occupation",
+          "supports": "summary",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/lithuania",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'The Holocaust in Lithuania' — ~208,000–210,000 Jews as of 1 Jan 1941; estimated 190,000–195,000 murdered, most June–December 1941; 'more than 95% ... a more complete destruction than befell any other country in the Holocaust'; ~80,000 killed by October 1941, ~175,000 by year's end",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/The_Holocaust_in_Lithuania",
+          "caveat": "Tertiary aggregator; the figures and the >95% framing draw on the work of historians Arūnas Bubnys and Saulius Sužiedėlis, cited there and corroborated by USHMM's 90% figure."
+        },
+        {
+          "kind": "primary",
+          "cite": "The Jäger Report (Karl Jäger, Einsatzkommando 3, 1 Dec 1941) — running daily tally of 137,346 people killed 2 July–25 Nov 1941, the overwhelming majority Jews (a Feb 1942 update gives 138,272, of which 136,421 Jews: 46,403 men, 55,556 women, 34,464 children)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/J%C3%A4ger_Report",
+          "caveat": "Contemporaneous perpetrator document covering only EK 3's tally to late November 1941, not the full 1941–44 toll; used to anchor the scale and the women-and-children breakdown of the 1941 killings."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ltu-2",
+      "country": "LTU",
+      "role": "victim",
+      "title": "Soviet mass deportations of Lithuanians to Siberia",
+      "era": "1941; 1945–1953",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "The forced removal of tens of thousands of Lithuanians by national-political category — nationalists, 'kulaks', partisan families, deportees chosen by quota — to lethal exile is mass political persecution of a population, so POL.",
+      "agent": "The Soviet state security apparatus (NKVD/NKGB in 1941, MVD/MGB after 1944), acting on Moscow's orders under the Serov Instructions",
+      "toll": {
+        "display": "~130,000 deported; ~20,000–28,000 died in exile",
+        "disputed": true,
+        "low": 20000,
+        "high": 28000,
+        "unit": "deaths",
+        "note": "At least ~130,000 Lithuanians (roughly 4.5% of the population, 70% women and children) were deported in 1941 and 1945–1953: ~17,500 in the first June 1941 operation, then ~112,000 in dozens of postwar operations, the largest being Operation Vesna (May 1948, ~40,000) and Operation Priboi (March 1949, ~29,000). Death-in-exile estimates vary: one accounting gives ~28,000 total (≈16,500 in 1945–1952, ~8,000 from the harsher 1941 wave, ~3,500 in 1953–58); the Genocide and Resistance Research Centre's range for 1945–1952 alone is 11,000–16,500. The toll here counts deaths in exile; it does not include the separate killings of the 1944–1953 anti-Soviet partisan war."
+      },
+      "received_lens": "memorial",
+      "summary": "Beginning at 3 a.m. on 14 June 1941 and resuming in force after the Soviet reconquest, the NKVD and its successors loaded Lithuanians onto cattle trains for Siberia, the Arctic, and Central Asia — chosen by quota and category: nationalists, the educated, 'kulaks', the families of partisans. Roughly 130,000 were deported across the two occupations; somewhere between 20,000 and 28,000 died of cold, hunger, and disease in exile, and tens of thousands never came home.",
+      "relevance": "The atrocity the national memory held onto most tightly — the Lithuanian as Soviet victim — which for decades crowded out the harder half of the dual lens, the Lithuanian as Holocaust perpetrator.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Soviet deportations from Lithuania' — ≥130,000 deported (table total 129,475); June 1941 operation ~17,485 (16,246 traced); Operation Vesna (1948) 40,002; Operation Priboi (1949) 29,180; ~28,000 deaths in exile (≈16,500 in 1945–1952, ~8,000 from 1941, ~3,500 in 1953–58)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Soviet_deportations_from_Lithuania",
+          "caveat": "Tertiary aggregator; figures attributed there to the Lithuanian Genocide and Resistance Research Centre and Soviet archival operation records."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Researching Internal Displacement, 'The Mass Deportations of Lithuanians during the Two Soviet Occupations' — ~130,000 deported (≈4.5% of population), ~20,000 perished in exile; June 1941 ~17,500; ~112,000 in 34 operations 1945–1953; NKVD-organized with lists and quotas; 1945–1952 deaths 11,000–16,500",
+          "supports": "toll.low",
+          "url": "https://researchinginternaldisplacement.org/short_pieces/the-mass-deportations-of-lithuanians-during-the-two-soviet-occupations/",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ltu-3",
+      "country": "LTU",
+      "role": "perpetrator",
+      "title": "Lithuanian auxiliaries in the Holocaust: Rollkommando Hamann and Paneriai",
+      "era": "1941–1944",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "The hands-on extermination of Jews as a group by Lithuanian-manned killing units is annihilation of a people as such, EXT — entered on Lithuania's perpetrator ledger for the role of its auxiliaries, not because a sovereign Lithuanian state ordered it.",
+      "agent": "Lithuanian auxiliary forces under and alongside German command — the TDA battalions (notably the 3rd company in the mobile Rollkommando Hamann) and the Ypatingasis būrys (Special Squad) at Paneriai — directed by Einsatzkommando 3 officers including Joachim Hamann",
+      "toll": {
+        "display": "~60,000 killed by Rollkommando Hamann; ~70,000 at Paneriai",
+        "disputed": false,
+        "low": 60000,
+        "high": 70000,
+        "unit": "deaths",
+        "note": "Rollkommando Hamann — 8–10 Germans of Einsatzkommando 3 plus several dozen Lithuanians of the TDA's 3rd company (under Bronius Norkus) — killed at least ~60,000 Jews in the Lithuanian countryside July–October 1941; by the Jäger Report's own tally TDA members killed about 26,000 between July and December 1941. At Paneriai (Ponary) near Vilnius, where the ~80-strong Ypatingasis būrys carried out most of the actual shooting, an estimated 70,000 Jews were murdered (total site toll ~80,000–100,000 including Poles, Soviet POWs, and others) between July 1941 and August 1944. These figures overlap with, rather than add to, the ~190,000–195,000 total of ltu-1; this entry isolates the share executed by Lithuanian-manned units to record the perpetrator role, not a separate body count."
+      },
+      "received_lens": "contested",
+      "summary": "The murder of Lithuania's Jews was directed by German Einsatzgruppen, but much of the killing was done by Lithuanians. The mobile Rollkommando Hamann — a handful of Germans and a company of Lithuanian TDA volunteers — drove from town to town shooting whole Jewish communities into pits, at least 60,000 in three months. At Paneriai outside Vilnius the roughly 80 men of the Ypatingasis būrys shot some 70,000 people. As the Einsatzkommando 3 commander put it, the goal of a 'Jew-free' Lithuania could only be reached through cooperation with the Lithuanian auxiliaries.",
+      "relevance": "The atrocity Lithuania was slowest to claim: not a crime done to its people but one done by them, the proof that the same nation can be near-totally victim and active perpetrator in the same eighteen months.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "The Jäger Report (Karl Jäger, EK 3, 1 Dec 1941) — credits SS-Obersturmführer Joachim Hamann's Rollkommando, working with 'Lithuanian partisans' (i.e. TDA), with making the killing possible at scale; daily tally 137,346 killed 2 July–25 Nov 1941",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/J%C3%A4ger_Report",
+          "caveat": "Contemporaneous perpetrator document; reproduced and analyzed via the Wikipedia transcription, which quotes Jäger crediting the Lithuanian auxiliaries directly."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Rollkommando Hamann' — unit of 8–10 Germans of EK 3 plus several dozen Lithuanians of the TDA 3rd company (cmdr. Bronius Norkus); committed mass murders of countryside Jews July–Oct 1941, death toll at least ~60,000; per the Jäger Report TDA members killed ~26,000 July–Dec 1941",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Rollkommando_Hamann",
+          "caveat": "Tertiary aggregator; figures sourced there to the Jäger Report and Lithuanian Holocaust historiography."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Ponary massacre' — ~70,000 Jews (up to 100,000 total with ~2,000 Poles, ~8,000 Soviet POWs and others) murdered July 1941–Aug 1944; 'most of the actual killings were carried out by the Ypatingasis būrys (Lithuanian volunteers), 80 men strong'",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Ponary_massacre",
+          "caveat": "Tertiary aggregator; alternative scholarly accounting (Monika Tomkiewicz) gives ~80,000 total including 72,000 Jews — the upper '100,000' is the broad end of the range."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

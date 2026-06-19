@@ -1,0 +1,172 @@
+{
+  "iso": "HRV",
+  "name": "Croatia",
+  "note": "Croatia is one of the cleanest illustrations of why a single-lens history fails: within the same century its people were both the agents of a genocide and the targets of mass killing, and the national memory is fiercely selective about which half it remembers. On the perpetrator side, the Ustaša-run Independent State of Croatia (NDH, 1941–1945) was a Nazi-aligned puppet state that carried out a genocide of Serbs, Jews, and Roma — the camp complex at Jasenovac, run entirely by Croatian forces rather than by Germans, is its central monument; the broader regime murdered on the order of 300,000–400,000 Serbs plus tens of thousands of Jews and Roma. Half a century later, during the 1995 Operation Storm that ended the war for independence, Croatian forces killed hundreds of Serb civilians and the offensive emptied the Krajina of up to 200,000 Serbs — an event Croatia commemorates as a triumphal national holiday while Serbs call it ethnic cleansing. On the victim side, in May 1945 Yugoslav Partisans under Tito killed tens of thousands of Croatian soldiers and civilians who had fled to Austria and were handed back at Bleiburg — a slaughter suppressed for the entire communist era. And in 1991 the Yugoslav People's Army and Serb forces besieged and destroyed Vukovar, then took some 260 patients and staff from its hospital and shot them at Ovčara. The Jasenovac death toll is still a live political weapon — figures offered have ranged from a denialist 1,500 to a Serbian-nationalist 700,000–1,100,000, against a documented name-list of roughly 83,000 — so the ledger keeps the act and its disputed numbers distinct from the propaganda built on both sides of it.",
+  "events": [
+    {
+      "id": "hrv-1",
+      "country": "HRV",
+      "role": "perpetrator",
+      "title": "The Ustaša genocide of Serbs, Jews and Roma (Jasenovac and the NDH)",
+      "era": "1941–1945",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "The Ustaša state set out to eliminate Serbs, Jews and Roma as groups — through massacres, deportation, forced conversion and a network of death camps centred on Jasenovac — which is the deliberate destruction of peoples, so EXT.",
+      "agent": "The Ustaša movement and the Independent State of Croatia (NDH) under Ante Pavelić, which built and ran the Jasenovac camp complex with Croatian, not German, personnel",
+      "toll": {
+        "display": "~300,000–400,000 Serbs plus tens of thousands of Jews and Roma killed by the regime; ~77,000–99,000 dead at Jasenovac specifically",
+        "disputed": true,
+        "low": 300000,
+        "high": 400000,
+        "unit": "deaths",
+        "note": "The toll range here is for the Serb victims of the whole NDH regime: the USHMM gives 320,000–340,000 Serbs killed across the state, while scholars such as Saul Friedländer give 300,000–400,000 for 1941–early 1942; on top of this the regime killed more than 30,000 Croatian Jews and roughly 26,000 Roma. Jasenovac itself is the central site: USHMM estimates 77,000–99,000 killed there, and the Jasenovac Memorial's name-by-name list documents about 83,145 victims (≈47,600 Serbs, ≈16,200 Roma, ≈13,100 Jews). Jasenovac's toll is one of the most politically manipulated figures in Europe — claims have run from a denialist ~1,500 to Serbian-nationalist figures of 700,000–1,100,000 — hence disputed: true; the entry uses the documented and scholarly ranges, not the propaganda extremes."
+      },
+      "received_lens": "contested",
+      "summary": "After the 1941 Axis invasion of Yugoslavia, Hitler installed the fascist Ustaša movement to rule a puppet Croatian state covering most of present-day Croatia and Bosnia. Pavelić's regime moved immediately to destroy the Serbs, Jews and Roma within its borders — village massacres, forced conversions, deportations, and a chain of camps anchored by Jasenovac, which Croatians ran themselves. The regime killed on the order of 300,000–400,000 Serbs along with most of Croatia's Jews and Roma; at Jasenovac alone the documented dead number in the high tens of thousands.",
+      "relevance": "This is Croatia's perpetrator ledger in its starkest form — a genocide carried out by a Croatian state with Croatian hands — and the live dispute over its scale, fought between Croatian minimisers and Serbian inflators, is itself part of why the single-lens telling of the Balkans keeps failing.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "USHMM Holocaust Encyclopedia, 'Jasenovac' — 77,000–99,000 killed at Jasenovac (45,000–52,000 Serbs, 12,000–20,000 Jews, 15,000–20,000 Roma, 5,000–12,000 Croat/Muslim political opponents); the broader Ustaša regime killed 320,000–340,000 Serbs and more than 30,000 Croatian Jews",
+          "supports": "toll.low",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/jasenovac",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "Balkan Insight, 'Croatia's Jasenovac Death Toll: A Political Numbers Game' (31 Jan 2018) — documented figures of ~330,000–390,000 Serbs killed by the Ustaša; Jasenovac Memorial name-list of 83,145 victims; political claims ranging from ~1,500 to ~1.1 million",
+          "supports": "toll.high",
+          "url": "https://balkaninsight.com/2018/01/31/croatia-s-jasenovac-death-toll-a-political-numbers-game-01-31-2018/btj/",
+          "caveat": "Journalism, but used here precisely for its survey of the competing political claims and the Memorial's documented name-list; the article itself flags the manipulation on both the Croatian and Serbian sides."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Saul Friedländer, The Years of Extermination: Nazi Germany and the Jews, 1939–1945 — the Ustaša killed between 300,000 and 400,000 Serbs during 1941 and early 1942",
+          "supports": "toll.high",
+          "url": null,
+          "caveat": "Standard scholarly work; cited via secondary reference (Wikipedia, 'World War II persecution of Serbs') rather than a direct page image, so the page number is not given here. Audit 2026-06-19: work and author confirmed real (The Years of Extermination, 2007); the 300,000–400,000 figure for 1941–early 1942 is the figure attributed to Friedländer in the Wikipedia 'World War II in Yugoslavia' article — secondary access stands, claim faithfully represented."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "hrv-2",
+      "country": "HRV",
+      "role": "perpetrator",
+      "title": "Killings and expulsion of Krajina Serbs in Operation Storm",
+      "era": "1995",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Croatian forces retaking the Krajina killed mostly elderly Serb civilians and the offensive emptied the region of its Serb population through flight, looting and arson — atrocity against an enemy civilian population in war, not an attempt to exterminate Serbs as such, so WAR.",
+      "agent": "The Croatian Army and police during and after the August 1995 Operation Storm offensive",
+      "toll": {
+        "display": "~324–677 Serb civilians killed; up to ~150,000–200,000 Serbs displaced",
+        "disputed": true,
+        "low": 324,
+        "high": 677,
+        "unit": "deaths",
+        "note": "The ICTY established that at least 324 Serb civilians were killed during and after Operation Storm; the Croatian Helsinki Committee for Human Rights documented 677 (sometimes cited as 667) mostly elderly Serbs killed or disappeared. The civilian-death count is the toll figure here; separately the offensive caused the flight of roughly 150,000–200,000 (up to ~250,000 in the highest estimates) Krajina Serbs, most of whom never returned — a displacement, not a death count, hence kept in the note. The generals Ante Gotovina and Mladen Markač were convicted at trial in 2011 but acquitted on appeal in 2012 (3–2) on individual command responsibility; the killings of civilians themselves were not disputed by the appeals chamber, and lower-level Croatian convictions exist (e.g. the Grubori killings)."
+      },
+      "received_lens": "triumphal",
+      "summary": "In August 1995 the Croatian Army overran the self-declared Serb statelet in the Krajina in a four-day offensive that effectively ended the war of independence. As Serb forces and the bulk of the Serb population fled, Croatian troops and police killed hundreds of those who stayed — overwhelmingly the old and infirm — and burned and looted Serb villages on a large scale; up to 200,000 Serbs left and did not come back. Croatia marks the operation as Victory Day, a national holiday.",
+      "relevance": "The sharpest dual-lens point in modern Croatia: the same offensive that Croatia celebrates as the triumphal liberation of its territory also emptied the Krajina of its Serbs and killed hundreds of civilians — victory and atrocity in the same week, remembered as only the former.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "Balkan Insight, 'Croatian Serbs Commemorate Victims of 1995 Operation Storm' (4 Aug 2021) — Croatian Helsinki Committee figure of 677 mostly elderly Serbs killed; up to 200,000 Serbs displaced; ICTY figure of 324 civilians killed",
+          "supports": "toll.high",
+          "url": "https://balkaninsight.com/2021/08/04/croatian-serbs-commemorate-victims-of-1995-operation-storm/",
+          "caveat": "Journalism; the 677 figure is the Croatian Helsinki Committee's and the 324 is the ICTY's, both attributed in the report — used for the divergence between the two counts."
+        },
+        {
+          "kind": "primary",
+          "cite": "ICTY Appeals Chamber, 'Appeals Chamber Acquits and Orders Release of Ante Gotovina and Mladen Markač' (16 Nov 2012) — overturns 2011 convictions for the murder, persecution and expulsion of Serb civilians during Operation Storm on grounds of individual criminal responsibility",
+          "supports": "summary",
+          "url": "https://www.icty.org/en/press/appeals-chamber-acquits-and-orders-release-ante-gotovina-and-mladen-marka%C4%8D",
+          "caveat": "Court record; the acquittal turned on command responsibility and the artillery-impact standard, not on whether civilians were killed — so it cannot be read as a finding that no crimes occurred."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "hrv-3",
+      "country": "HRV",
+      "role": "victim",
+      "title": "The fall of Vukovar and the Ovčara hospital massacre",
+      "era": "1991",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "The 86-day siege that destroyed Vukovar and the execution of some 260 captives taken from its hospital were war crimes against a captured enemy town and its wounded, not a campaign to annihilate Croats as a people, so WAR.",
+      "agent": "The Yugoslav People's Army (JNA) together with Serb Territorial Defence and paramilitary forces; the Ovčara executions were carried out by Serb paramilitaries after the JNA handed the prisoners over",
+      "toll": {
+        "display": "~3,000 dead in the siege; ~194–264 captives killed at Ovčara",
+        "disputed": false,
+        "low": 194,
+        "high": 264,
+        "unit": "deaths",
+        "note": "The toll range here is for the Ovčara massacre specifically: on 20–21 November 1991 roughly 255–264 men (and one woman) — wounded fighters, hospital staff and civilians — were taken from Vukovar hospital to the Ovčara farm and shot; the ICTY found 194 of them killed there, and investigators recovered about 200 sets of remains, with others still missing. The 194 (court-confirmed killed) anchors the low end and ~264 (taken and not seen again) the high. Separately, around 3,000 soldiers and civilians died in the 86-day siege of Vukovar itself — a broader figure kept in the note. JNA officers Mile Mrkšić and Veselin Šljivančanin were convicted by the ICTY for Ovčara."
+      },
+      "received_lens": "memorial",
+      "summary": "From August 1991 the Yugoslav army and Serb forces besieged the eastern Croatian town of Vukovar for 86 days, shelling it into ruins; around 3,000 people died before it fell on 18 November. The next day Serb forces seized Vukovar's hospital, loaded some 260 wounded patients, staff and civilians onto buses, drove them to a pig farm at Ovčara, and shot them. The ICTY confirmed 194 killed there and convicted two JNA officers.",
+      "relevance": "Vukovar is the founding wound of Croatia's victim memory — the city as martyr — and sits in the same war whose ending, Operation Storm, lands Croatia on the perpetrator ledger: the besieged of 1991 became the besiegers of 1995.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "UN IRMCT (Mechanism for International Criminal Tribunals), 'Vukovar Crimes' — more than 200 non-Serbs taken from Vukovar hospital on 20 Nov 1991, 194 killed near Ovčara; convictions of Mile Mrkšić and Veselin Šljivančanin",
+          "supports": "toll.low",
+          "url": "https://www.irmct.org/en/mip/features/vukovar",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "Balkan Insight, 'The Fall of Vukovar: Oral History of a Croatian Town's Destruction' (18 Nov 2021) — 86-day siege, town largely destroyed, around 3,000 soldiers and civilians dead including 86 children",
+          "supports": "summary",
+          "url": "https://balkaninsight.com/2021/11/18/the-fall-of-vukovar-oral-history-of-a-croatian-towns-destruction/",
+          "caveat": "Journalism; the ~3,000 siege-death figure is widely reported and consistent across Croatian and international sources."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "hrv-4",
+      "country": "HRV",
+      "role": "victim",
+      "title": "The Bleiburg repatriations and death marches",
+      "era": "1945",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "The mass summary execution of surrendered Croatian soldiers and accompanying civilians by the victorious Partisans was a political liquidation of the defeated and presumed collaborators, not a campaign to destroy Croats as an ethnic group, so POL.",
+      "agent": "Yugoslav Partisan forces of the new communist regime under Josip Broz Tito, after the British army turned the columns back at Bleiburg in Austria",
+      "toll": {
+        "display": "~30,000–100,000 killed; Tezno mass grave alone holds an estimated ~15,000",
+        "disputed": true,
+        "low": 30000,
+        "high": 100000,
+        "unit": "deaths",
+        "note": "Estimates for the Bleiburg killings and the subsequent death marches range from about 30,000 to 100,000, with the wide spread driven by destroyed records and politicised counting — pro-Ustaša sources inflate the figure, communist-era sources minimised it (a point made by historian Jozo Tomasevich, who himself estimated on the order of 50,000 Croats and Bosnian Muslims killed in connection with the events). The single largest known site is the Tezno antitank trench near Maribor, with an estimated ~15,000 dead, concealed by the Yugoslav authorities until uncovered during 1999 highway construction. Most victims were soldiers and civilians of the collapsed NDH; Slovene, Serb and Montenegrin collaborationist forces and civilians were also killed."
+      },
+      "received_lens": "suppressed",
+      "summary": "In May 1945, as the war ended, remnants of the Croatian armed forces and tens of thousands of accompanying civilians fled north and tried to surrender to the British at Bleiburg in Austria. The British turned them back to the Yugoslav Partisans, who killed them in summary executions and on forced death marches deep into Yugoslavia — the largest single grave, at Tezno, holds an estimated 15,000. The killing was officially silenced for the entire communist era and only excavated and acknowledged decades later.",
+      "relevance": "Bleiburg is Croatia's other foundational victim memory, and the mirror of Jasenovac: many of the dead had served the genocidal NDH, so the same population appears on both ledgers — perpetrators of one slaughter who became victims of another — which is exactly the doubled vision this atlas insists on.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Bleiburg repatriations' — death toll estimated at 30,000–100,000; victims chiefly Croatian (NDH) soldiers and civilians plus Slovene, Serb and Montenegrin collaborationist forces; killings by Tito's Partisans, suppressed during the Yugoslav period",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Bleiburg_repatriations",
+          "caveat": "Tertiary aggregator; the 30,000–100,000 range and the Tomasevich and Tezno figures it carries trace to the scholarly literature (Tomasevich) and to Slovenian mass-grave investigations."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Tezno massacre' — an estimated ~15,000 NDH soldiers and civilians killed by Yugoslav Partisans at Tezno near Maribor, May 1945, buried in a concealed antitank trench discovered in 1999",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Tezno_massacre",
+          "caveat": "Tertiary aggregator; used for the Tezno site specifics, corroborated by the Slovenian Commission on Concealed Mass Graves' 2007 investigation. Audit 2026-06-19: Tezno page confirms ~15,000 killed, Yugoslav Partisan perpetrators, NDH POW/civilian victims, antitank trench discovered 1999 during motorway construction near Maribor — matches the cite. Note: both ends of the contested 30,000–100,000 toll rest on the single Bleiburg tertiary range, which traces to Tomasevich; acceptable and honestly caveated, but it is not an independent dual-source confirmation of low vs high."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

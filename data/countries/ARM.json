@@ -1,0 +1,147 @@
+{
+  "iso": "ARM",
+  "name": "Armenia",
+  "note": "Built from scratch 2026-06-19 via live web research. Armenia's atrocity record is profoundly asymmetric, and the file reflects that rather than forcing a balance. The victim ledger carries two of the best-documented mass atrocities of the late Ottoman era: the Hamidian massacres of 1894-1896 and, above all, the Armenian Genocide of 1915-1916, the deliberate destruction of the Ottoman Armenian population and the paradigm case of twentieth-century genocide. The perpetrator ledger is thinner and almost entirely confined to the modern Armenian-Azerbaijani conflict over Nagorno-Karabakh: the strongest single documented case is the Khojaly massacre of February 1992, where Human Rights Watch placed direct responsibility for the killing of fleeing Azerbaijani civilians on Karabakh Armenian forces. This asymmetry is real, not an artifact of research gaps: the modern Republic of Armenia (independent only since 1991) has a short state history, and its principal perpetrator conduct sits inside a conflict in which it is also a victim. The First Nagorno-Karabakh War (1988-1994) more broadly displaced hundreds of thousands of Azerbaijanis from Armenian-held territory, but Khojaly is the single best-documented lethal massacre and is used here as the representative perpetrator entry; the wider displacement is flagged in its toll note. A recurring caveat throughout: every figure in both ledgers is politically charged. Turkey denies the 1915 genocide; Azerbaijan calls Khojaly a 'genocide' and inflates its toll; the Armenian side has at times minimized Khojaly. Figures below use scholarly and HRW ranges over state claims, with the divergence shown. The Khojaly entry is the perpetrator mirror of Azerbaijan's victim ledger (aze-3).",
+  "events": [
+    {
+      "id": "arm-1",
+      "country": "ARM",
+      "role": "victim",
+      "title": "The Hamidian Massacres",
+      "era": "1894-1896",
+      "era_band": "colonial",
+      "tier": "POL",
+      "tier_reasoning": "Ottoman troops and Kurdish irregulars carried out a wave of massacres against Armenian communities across Anatolia under Sultan Abdul Hamid II to crush Armenian political demands and reassert control over a subject population — large-scale, ethnically targeted killing for state-political ends, which is POL rather than EXT (a punitive empire-wide pogrom, not yet the total annihilation campaign of 1915).",
+      "agent": "Ottoman military forces and Kurdish irregular units (Hamidiye), under Sultan Abdul Hamid II",
+      "toll": {
+        "display": "~80,000-300,000 deaths",
+        "disputed": true,
+        "low": 80000,
+        "high": 300000,
+        "unit": "deaths",
+        "note": "Estimates of Armenian deaths vary widely. Lower scholarly figures run from roughly 80,000-100,000; commonly cited ranges are 200,000 to over 300,000 killed, with hundreds of thousands more displaced or orphaned (at least ~50,000 children orphaned), per the Encyclopaedia Britannica and the Wikipedia 'Hamidian massacres' summary of the historiography. The killings also swept in Assyrian Christians (e.g. ~25,000 killed at Diyarbekir). Low and high are sourced; disputed."
+      },
+      "received_lens": "denied",
+      "summary": "Between 1894 and 1896, after Armenians in regions such as Sasun resisted oppressive taxation and pressed for reforms, Ottoman troops and state-armed Kurdish Hamidiye irregulars attacked Armenian villages, towns, and churches across the eastern Ottoman provinces, burning congregations alive, razing villages, and forcing survivors to convert or flee, in killings that tapered off only under international pressure in 1897.",
+      "relevance": "The rehearsal for 1915: the same state apparatus that would later destroy the Ottoman Armenians first practiced mass killing against them here, establishing Armenians as the archetypal late-Ottoman victim group two decades before the genocide.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Hamidian massacres\" — Encyclopaedia Britannica (atrocities carried out by Ottoman forces and Kurdish irregulars against Armenians 1894-1896 under Abdul Hamid II)",
+          "supports": "summary",
+          "url": "https://www.britannica.com/topic/Hamidian-massacres",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Hamidian massacres\" — Wikipedia (1894-1896; Ottoman forces and Kurdish irregulars; death estimates ranging from ~80,000 to over 300,000; ~50,000 orphaned; ~25,000 Assyrians killed at Diyarbekir)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Hamidian_massacres",
+          "caveat": "Tertiary aggregator on a politicized event; figures cross-checked against the article's cited historiography. Turkish state narratives dispute the framing and the numbers."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "The Cambridge World History of Genocide, ch. 25, \"The Ottoman Massacres of Armenians, 1894-1896 and 1909\"",
+          "supports": "tier",
+          "url": "https://www.cambridge.org/core/books/abs/cambridge-world-history-of-genocide/ottoman-massacres-of-armenians-18941896-and-1909/81A9DF0AD37185DBCB8BB02DDC44D10C",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "arm-2",
+      "country": "ARM",
+      "role": "victim",
+      "title": "The Armenian Genocide",
+      "era": "1915-1916",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "The Ottoman government deliberately set out to destroy the empire's Armenian population through mass execution, death marches, starvation, and deportation into the Syrian desert — the intentional annihilation of a national-religious group, the paradigm case of EXT and the event for which the word 'genocide' was coined.",
+      "agent": "Ottoman government, directed by the Committee of Union and Progress (the 'Young Turks'), supported by army units, auxiliary forces, and civilians",
+      "toll": {
+        "display": "~664,000-1,500,000 deaths",
+        "disputed": true,
+        "low": 664000,
+        "high": 1500000,
+        "unit": "deaths",
+        "note": "QUARANTINE (audit 2026-06-19): event UNVERIFIED — one citation does not support the claim it was attached to. The US Holocaust Memorial Museum estimates at least 664,000 and possibly as many as 1.2 million died during the main phase of the genocide (verified verbatim). The most commonly cited figure, used by Armenia and many scholars, is 1.5 million — roughly two-thirds of the empire's pre-war Armenian population; this high-end is corroborated by Encyclopaedia Britannica. Disagreement persists because of destroyed or incomplete Ottoman records, differing methodologies, and political agendas. NOTE: the third source (AGMI/Tatoyan, Journal of Genocide Studies) was originally attached to toll.high (~1.5M) and described as a 'maximalist' Armenian bound; on audit the article actually argues the most widely accepted estimate is ~1 million (≈600k in 1915 + ≈400k in 1916), i.e. it does NOT support 1.5M and is not maximalist — its supports/caveat have been corrected to reflect this. Low (USHMM floor) is firmly sourced; high (1.5M) rests on Britannica, not AGMI."
+      },
+      "received_lens": "denied",
+      "summary": "Beginning in spring 1915 under cover of the First World War, the Ottoman Committee of Union and Progress arrested and killed Armenian elites and conscripts, then deported the wider Armenian population on forced marches into the Syrian desert, where the army, gendarmes, and irregulars massacred, starved, and worked them to death; by 1916 the great majority of Ottoman Armenians were dead, and Turkey denies to this day that the killings constituted genocide.",
+      "relevance": "The defining catastrophe of the Armenian people and the modern template for state-organized extermination — the original 'never again' that the rest of the atlas measures against, and the foundation of Armenia's identity as victim nation.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "United States Holocaust Memorial Museum, \"The Armenian Genocide (1915-16): In Depth\" (carried out by the Committee of Union and Progress / Young Turks; at least 664,000 and possibly up to 1.2 million dead; spring 1915 through autumn 1916)",
+          "supports": "toll.low",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/the-armenian-genocide-1915-16-in-depth",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Encyclopaedia Britannica, \"Armenian Genocide\" / Britannica summary (scholarly estimates ranging to ~1.5 million, roughly two-thirds of the Ottoman Armenian population)",
+          "supports": "toll.high",
+          "url": "https://www.britannica.com/event/Armenian-Genocide",
+          "caveat": "Page returned HTTP 403 to automated fetch; the ~1.5 million / two-thirds figure is corroborated by the Britannica summary surfaced in search and is the widely cited Armenian and scholarly high-end estimate."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Robert Tatoyan, \"Calculations of the Armenian Death Toll during the Main Phase of the Armenian Genocide (1915-1916): Sources, Data, and Methods, 1915-1923,\" Journal of Genocide Studies (Armenian Genocide Museum-Institute), vol. 13 no. 1 (2025) — concludes the most widely accepted estimate is ~1 million (≈600,000 in 1915 + ≈400,000 in 1916)",
+          "supports": "toll.note",
+          "url": "https://agmipublications.am/index.php/jgs/article/view/136",
+          "caveat": "AUDIT-CORRECTED 2026-06-19: this source was previously mis-cited as supporting toll.high (~1.5 million) and labelled the 'maximalist' Armenian bound. Verified twice (article abstract + ResearchGate listing): it actually argues the most widely accepted main-phase toll is ~1 million, NOT 1.5 million, so it does not support the high end and is not a maximalist source. Re-attached to toll.note as scholarly context on the central estimate. Published by an Armenian state-affiliated institute (AGMI), so partisan framing still noted, but its number is below, not above, the cited high-end."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "arm-3",
+      "country": "ARM",
+      "role": "perpetrator",
+      "title": "The Khojaly Massacre",
+      "era": "1992",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "During the First Nagorno-Karabakh War, Karabakh Armenian forces killed Azerbaijani civilians as they fled the captured town of Khojaly — the deliberate killing of a fleeing ethnic civilian population in the course of territorial conquest, which is POL (targeted killing of a group) rather than an incidental battlefield WAR toll or a full EXT campaign.",
+      "agent": "Armenian (Karabakh) armed forces, with participation by personnel of the Russian/CIS 366th Motor Rifle Regiment",
+      "toll": {
+        "display": "~200-613 civilians killed",
+        "disputed": true,
+        "low": 200,
+        "high": 613,
+        "unit": "deaths",
+        "note": "Human Rights Watch documented at least 200 civilians killed and stated as many as 500-1,000 may have died, with no exact count possible because Armenian forces held the ground afterward; an earlier 1993 HRW report cited at least 161. The official Azerbaijani figure is 613 civilians, including 106 women and 63 children. HRW placed direct responsibility for the civilian deaths on Karabakh Armenian forces, while also noting that Azerbaijani fighters intermixed with the fleeing column. The low (HRW floor of at least 200) and high (Azerbaijani official 613) are independently sourced; disputed. This single massacre stands in for the broader First Nagorno-Karabakh War (1988-1994), in which Armenian advances displaced an estimated 500,000-724,000 Azerbaijanis from Karabakh and adjacent districts. Azerbaijan officially calls Khojaly a 'genocide,' a framing not adopted by HRW or Memorial."
+      },
+      "received_lens": "contested",
+      "summary": "On the night of 25-26 February 1992, as Karabakh Armenian forces (joined by elements of the Russian 366th regiment) took the town of Khojaly in Nagorno-Karabakh, they fired on a column of Azerbaijani civilians fleeing toward safety, killing women, children, and the elderly among the dead in the single deadliest massacre of the First Nagorno-Karabakh War; Human Rights Watch concluded the attacking force was obliged to take precautions to spare the civilians and did not.",
+      "relevance": "Armenia's clearest perpetrator entry and the exact mirror of Azerbaijan's central victim grievance (aze-3) — the nation whose genocide defines twentieth-century victimhood also stands, in living memory, as the documented author of a massacre of fleeing civilians.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "Human Rights Watch, \"Response to Armenian Government Letter on the town of Khojaly, Nagorno-Karabakh\" (1997): \"we place direct responsibility for the civilian deaths with Karabakh Armenian forces\"",
+          "supports": "summary",
+          "url": "https://www.hrw.org/news/1997/03/23/response-armenian-government-letter-town-khojaly-nagorno-karabakh",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Khojaly massacre\" — Wikipedia (26 Feb 1992; Armenian forces and the 366th regiment; HRW 'at least 200,' up to 500-1,000, 1993 report at least 161; Azerbaijani official 613 incl. 106 women, 63 children)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Khojaly_massacre",
+          "caveat": "Tertiary aggregator on a contested event; HRW and Azerbaijani-official figures cross-checked. Azerbaijani 'genocide' framing and Armenian minimization both noted; numbers attributed to their sources."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, \"Azerbaijan: Seven Years of Conflict in Nagorno-Karabakh\" (December 1994), documenting the conduct of Karabakh Armenian forces in the war",
+          "supports": "toll.low",
+          "url": "https://www.hrw.org/reports/AZER%20Conflict%20in%20N-K%20Dec94_0.pdf",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

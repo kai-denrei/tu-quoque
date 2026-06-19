@@ -1,0 +1,211 @@
+{
+  "iso": "BIH",
+  "name": "Bosnia and Herzegovina",
+  "note": "Bosnia is the textbook case for why this atlas refuses the single lens: in one short war (1992–1995) the same patch of ground produced Europe's only post-Holocaust judicially recognised genocide, and atrocities committed by all three of its peoples. The country's dominant memory is overwhelmingly that of victim — and the documented record bears that out: the worst single crime, the Srebrenica genocide, was committed against Bosniaks by Bosnian Serb forces, the broader ethnic cleansing of 1992 (Prijedor, the Omarska and Keraterm camps, the emptying of eastern and northern Bosnia) fell mainly on Bosniaks and Bosnian Croats, and Sarajevo endured the longest siege of a capital in modern warfare. The most reliable count, the Research and Documentation Centre's name-by-name Bosnian Book of the Dead, records about 96,000 dead, roughly half civilian, of whom the large majority were Bosniaks. But the perpetrator ledger is real and convicted, not invented for balance: the Bosnian Croat statelet of Herceg-Bosna ran its own ethnic-cleansing campaign against Bosniaks in central Bosnia, with the Ahmići massacre as its monument; and the Bosniak-led Army of Bosnia and Herzegovina killed and tortured Serb prisoners at the Čelebići camp and massacred Croat civilians at Grabovica and Uzdol. Two cautions run through this file. First, the perpetrator entries here cover Bosnia's OWN forces — the Bosnian Serb Army (VRS) and Republika Srpska, though they fought on Bosnian soil, were politically and logistically an arm of Serbia's war and so their genocide is carried on Bosnia's victim ledger and on Serbia's perpetrator one, not here; the Herceg-Bosna campaign likewise ran 'in concert with the leadership of Croatia' for a Greater Croatia, a link the ICTY established. Second, the war's overall toll is itself a contested number — the wartime figure of 200,000 was roughly double the later documented count — so the ledger uses the name-based research, not the propaganda figure.",
+  "events": [
+    {
+      "id": "bih-1",
+      "country": "BIH",
+      "role": "victim",
+      "title": "The Srebrenica genocide",
+      "era": "1995",
+      "era_band": "contemporary",
+      "tier": "EXT",
+      "tier_reasoning": "Bosnian Serb forces separated the men and boys of a captured population and killed them en masse with the aim of destroying the Bosniak community there — found to be genocide by both the ICTY and the ICJ, so EXT.",
+      "agent": "The Army of Republika Srpska (VRS) under General Ratko Mladić, on the orders of the Bosnian Serb leadership under Radovan Karadžić, after the UN 'safe area' fell in July 1995",
+      "toll": {
+        "display": "~8,000 Bosniak men and boys killed; 6,981 identified by DNA",
+        "disputed": false,
+        "low": 7000,
+        "high": 8000,
+        "unit": "deaths",
+        "note": "The ICTY found that 7,000–8,000 Bosnian Muslim men and boys were murdered after the fall of Srebrenica in July 1995; the ICMP estimates 'just over 8,000' killed and has identified 6,981 victims by DNA (7,017 by all methods). Roughly 30,000 women, children and elderly were forcibly expelled. The number is among the best-documented of any modern atrocity, built from mass-grave exhumations and a court-tested DNA programme, hence disputed: false despite genocide denial in Republika Srpska and Serbia."
+      },
+      "received_lens": "memorial",
+      "summary": "In July 1995 Mladić's forces overran the UN-declared 'safe area' of Srebrenica as the Dutch peacekeepers stood aside. The Bosnian Serb army separated the men and boys from the women, bused the women out, and over several days shot some 8,000 captured males and bulldozed them into mass graves, later digging many up again to scatter the bodies and hide the crime. The ICTY and the International Court of Justice both ruled it genocide.",
+      "relevance": "Srebrenica is the keystone of Bosnia's victim memory and Europe's only judicially established genocide since the Holocaust — and it sits in the same atlas entry as the proven crimes Bosnia's own Croat and Bosniak forces committed, the doubled vision this project insists on.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "United Nations, 'About the 1995 Genocide in Srebrenica' — up to 8,000 Bosnian Muslim men and boys killed by Bosnian Serb forces under Mladić, ~30,000 forcibly transferred; ICTY and ICJ both ruled it genocide; 16 individuals convicted",
+          "supports": "toll.high",
+          "url": "https://www.un.org/en/observances/srebrenica-genocide-commemoration-day/about",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "International Commission on Missing Persons (ICMP), 'Srebrenica' — estimates just over 8,000 killed; 6,981 victims identified by DNA, 7,017 by all methods",
+          "supports": "toll.low",
+          "url": "https://icmp.int/srebrenica/",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "bih-2",
+      "country": "BIH",
+      "role": "victim",
+      "title": "The 1992 ethnic cleansing of Bosniaks: Prijedor and the camps",
+      "era": "1992–1995",
+      "era_band": "contemporary",
+      "tier": "EXT",
+      "tier_reasoning": "From the war's first weeks Bosnian Serb authorities set out to remove the non-Serb population of northern and eastern Bosnia through mass killing, camps and deportation in order to make the territory ethnically Serb — destruction and expulsion of groups as such, so EXT.",
+      "agent": "Bosnian Serb political authorities and the Army of Republika Srpska, with police and paramilitaries, across municipalities such as Prijedor (the Omarska, Keraterm and Trnopolje camps), Foča, Zvornik and Brčko",
+      "toll": {
+        "display": "Tens of thousands killed across the cleansing campaign; ~3,500+ dead in Prijedor, ~700 killed at Omarska camp",
+        "disputed": true,
+        "low": 700,
+        "high": 3500,
+        "unit": "deaths",
+        "note": "QUARANTINE / non-range toll: there is no single agreed death count for the whole 1992 cleansing campaign, so toll.low and toll.high here are NOT the two ends of one quantity but two distinct documented sub-tolls — low = the Omarska camp deaths (~700; camp open 25 May–21 August 1992, ~6,000 inmates), high = the Prijedor-municipality campaign deaths (>3,500 non-Serbs; RDC: 4,868 killed/missing in Prijedor, incl. 3,515 Bosniak civilians). [Audit fix 2026-06-19: the original record stored low=3500/high=700, an inverted band; re-ordered so low ≤ high and the source supports-tags match their figures (Omarska→toll.low, Prijedor→toll.high).] Across the war the Research and Documentation Centre's Bosnian Book of the Dead names ~96,000 dead in total, about half civilians, of whom roughly 82 percent of civilian victims were Bosniaks — most of those civilian deaths came from this campaign of expulsion and detention rather than from front-line combat. Status UNVERIFIED reflects that the campaign-wide total remains unestablished as a single sourceable number; both sub-figures and all three sources were independently confirmed in the 2026-06-19 audit."
+      },
+      "received_lens": "memorial",
+      "summary": "When Bosnia declared independence in 1992, Bosnian Serb authorities moved to seize a contiguous Serb territory by emptying it of Muslims and Croats. In towns like Prijedor they fired non-Serbs from their jobs, marked their houses, then rounded the men into camps — Omarska, Keraterm, Trnopolje — where prisoners were starved, beaten and killed, while families were deported in convoys. The campaign hollowed out whole municipalities of their Bosniak population in a matter of months.",
+      "relevance": "This is the slower, wider crime beneath Srebrenica — the deliberate unmaking of Bosnia's Muslim and Croat communities — and it is the victim record against which Bosnia's own perpetrator entries must be read, not erased.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Prijedor ethnic cleansing' — Bosnian Serb forces cleansed Bosniaks and Croats from the Prijedor region 1992–1993; death toll exceeding 3,500 (RDC: 4,868 killed/missing in Prijedor incl. 3,515 Bosniak civilians); non-Serb population reduced from ~56,000 to ~9,000",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Prijedor_ethnic_cleansing",
+          "caveat": "Tertiary aggregator; the >3,500 Prijedor figure and population-change numbers trace to RDC/ICTY findings and the local survivors' associations cited there. Audit 2026-06-19: page content verified — confirmed >3,500 deaths (RDC 3,515 Bosniak civilians) and ~56,000→~9,000 non-Serb population drop."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Omarska camp' — run by the Army of Republika Srpska near Prijedor, open 25 May–21 August 1992, ~6,000 inmates, ~700 killed by starvation, beatings and executions",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Omarska_camp",
+          "caveat": "Tertiary aggregator; the ~700 deaths and ~6,000 inmates figures derive from ICTY camp-cases (e.g. Tadić, Kvočka et al.). Audit 2026-06-19: page content verified — confirmed ARBiH→VRS operator, 25 May–21 August 1992 dates, ~6,000 inmates, ~700 killed."
+        },
+        {
+          "kind": "reference",
+          "cite": "Every Casualty Counts, 'Bosnia-Herzegovina' — Research and Documentation Centre Bosnian Book of the Dead documents ~95,940 named dead, roughly half civilian, ~82% of civilian victims Bosnian Muslims; total war dead estimated 'more than 100,000', against the wartime 200,000 claim",
+          "supports": "summary",
+          "url": "https://everycasualty.org/conflict/bosnia-herzegovina/",
+          "caveat": "Aggregator summarising the RDC's name-based database, judged 'highly reliable' by an independent 2007 assessment; used for the campaign-wide proportions, not a precise sub-toll. Audit 2026-06-19: page content verified — confirmed 95,940 named dead, ~half civilian, ~82% of civilian victims Bosnian Muslims, total 'barely half' of the widely cited 200,000."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "bih-3",
+      "country": "BIH",
+      "role": "victim",
+      "title": "The siege of Sarajevo",
+      "era": "1992–1996",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "The 1,425-day shelling and sniping of a besieged capital killed thousands of civilians and terrorised a city — a sustained war crime against a civilian population, but not a campaign to exterminate them as a group, so WAR.",
+      "agent": "The Army of Republika Srpska under Generals Stanislav Galić and Dragomir Milošević, ringing the city from the surrounding hills",
+      "toll": {
+        "display": "~11,500 killed in the city, including ~1,600 children",
+        "disputed": false,
+        "low": 11000,
+        "high": 13952,
+        "unit": "deaths",
+        "note": "ICTY demographic work and standard accounts put the siege dead at roughly 11,500 in the city, including around 1,600 children; some counts of total deaths over the whole siege period run to about 13,952. The lower figure is the commonly cited city death toll; the higher (13,952) is the Research and Documentation Centre count for the siege period — 9,429 Bosniaks, 3,573 Serbs, 810 Croats and 140 others — reflecting broader counts of all deaths during the siege. The siege lasted from 5 April 1992 to 29 February 1996, the longest of a capital city in modern warfare. Audit 2026-06-19: low end cross-checked against Britannica (11,540 killed, ~1,600 children) and the ICTY OTP demographic report; high end (13,952) confirmed as the RDC siege count via independent search."
+      },
+      "received_lens": "memorial",
+      "summary": "For nearly four years Bosnian Serb forces held the high ground around Sarajevo and shelled and sniped the encircled city below, cutting off food, water and electricity. Roughly 11,500 people died, among them about 1,600 children; queues, markets and funerals became targets. The ICTY convicted two successive VRS commanders, Galić and Dragomir Milošević, for a campaign explicitly aimed at terrorising the civilian population.",
+      "relevance": "Sarajevo is the image the world kept of Bosnia-as-victim — a European capital starved and shelled on live television — and the third pillar of the victim ledger that frames, without cancelling, Bosnia's own perpetrator record.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "ICTY, 'Death Toll in the Siege of Sarajevo, April 1992 to December 1995' (OTP demographic report) — demographic study of civilian and total deaths during the siege used in the Galić and Milošević prosecutions",
+          "supports": "toll.low",
+          "url": "https://www.icty.org/x/file/About/OTP/War_Demographics/en/slobodan_milosevic_sarajevo_030818.pdf",
+          "caveat": "Prosecution demographic exhibit; figures here are cross-checked against the widely reported ~11,500 city-death count. Audit 2026-06-19: PDF confirmed live at this exact URL (title 'Death Toll in the Siege of Sarajevo, April 1992 to December 1995'); document is a binary-encoded PDF so its text was not machine-read, but existence and identity verified via ICTY War-Demographics listing."
+        },
+        {
+          "kind": "reference",
+          "cite": "Britannica, 'Siege of Sarajevo (1992–96)' — siege lasted 5 April 1992 to 29 February 1996, the longest siege of a capital in modern history; ~11,540 killed including ~1,600 children",
+          "supports": "summary",
+          "url": "https://www.britannica.com/event/Siege-of-Sarajevo",
+          "caveat": "Audit 2026-06-19: page returns HTTP 403 to automated fetch but exists and was content-verified via search — confirms 5 Apr 1992–29 Feb 1996 dates, longest siege of a capital in modern history, ~11,540 killed and ~1,600 children (the toll.low / display figures)."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "bih-4",
+      "country": "BIH",
+      "role": "perpetrator",
+      "title": "Herceg-Bosna's ethnic cleansing of Bosniaks: the Lašva Valley and Ahmići",
+      "era": "1992–1994",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "The Bosnian Croat statelet ran a campaign to remove Bosniaks from territory it claimed — massacres, expulsions and detention camps aimed at making the land Croat — which is ethnic cleansing of a group, so POL.",
+      "agent": "The Croatian Defence Council (HVO) and the leadership of the Croatian Community of Herceg-Bosna under Jadranko Prlić and others, acting (per the ICTY) in concert with the leadership of Croatia toward a 'Greater Croatia'",
+      "toll": {
+        "display": "~117–120 Bosniak civilians killed at Ahmići alone; ~1,300 Bosniak deaths across the Lašva Valley campaign",
+        "disputed": true,
+        "low": 117,
+        "high": 1300,
+        "unit": "deaths",
+        "note": "The Ahmići massacre of 16 April 1993, the single worst HVO atrocity against Bosniaks, killed roughly 117–120 Bosniak civilians; it was the culmination of the Lašva Valley ethnic-cleansing campaign (May 1992–April 1993), to which around 1,300 Bosniak deaths are attributed. The low end here is the documented Ahmići count (Wikipedia 'Ahmići massacre', tracing to ICTY Blaškić/Kordić & Čerkez); the high end (1,300) is the broader Lašva Valley campaign figure, tracing to Wikipedia 'Lašva Valley ethnic cleansing' and the ICTY Kordić & Čerkez finding of a common plan to cleanse the valley. disputed: true because the wider campaign total is an estimate rather than a single court-fixed number. The ICTY convicted Dario Kordić (25 years, persecution as a crime against humanity), Tihomir Blaškić (sentence reduced to 9 years on appeal), Mario Čerkez and others, and in the Prlić et al. case convicted six senior Herceg-Bosna leaders for a joint criminal enterprise to ethnically cleanse Bosniaks (final appeal judgment 2017). Audit 2026-06-19: Ahmići 117–120 and the convictions verified against the Wikipedia page (tracing ICTY); the 1,300 Lašva Valley high end independently confirmed via search but is not carried by a dedicated source object below — held as an estimate, consistent with disputed: true."
+      },
+      "received_lens": "contested",
+      "summary": "While Bosnian Croats and Bosniaks had been allies against the Serbs, in 1992–93 the Croat leadership of the self-declared Herceg-Bosna turned on the Bosniaks to carve out a Croat-ruled territory. The HVO drove Muslims from villages in central Bosnia, ran detention camps, and on 16 April 1993 entered the village of Ahmići and killed some 120 Bosniak civilians, burning families in their homes. The ICTY found a deliberate plan to cleanse the Lašva Valley and convicted both local commanders and the top Herceg-Bosna leadership.",
+      "relevance": "This is Bosnia's clearest perpetrator entry committed by its own people — Bosnian Croats cleansing Bosnian Muslims — and it shows that within the same country one of the three peoples was simultaneously a principal victim and a convicted perpetrator.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Ahmići massacre' — 117–120 Bosniak civilians killed by the HVO on 16 April 1993, the largest massacre of the Croat–Bosniak war and culmination of the Lašva Valley ethnic cleansing; ICTY convictions of Kordić (25 years), Blaškić and Čerkez",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Ahmi%C4%87i_massacre",
+          "caveat": "Tertiary aggregator; the 117–120 figure and convictions are drawn from ICTY judgments (Blaškić, Kordić and Čerkez) cited there. Audit 2026-06-19: page content verified — confirmed 16 Apr 1993, HVO perpetrator, 117–120 Bosniak civilians, culmination of Lašva Valley cleansing, Kordić 25y / Blaškić (reduced to 9y on appeal) / Čerkez convictions."
+        },
+        {
+          "kind": "primary",
+          "cite": "ICTY, 'Six Senior Herceg-Bosna Officials Convicted' (Prlić et al., 29 May 2013; final appeal 29 Nov 2017) — six Bosnian Croat leaders found guilty of a joint criminal enterprise to ethnically cleanse Bosniaks and other non-Croats from claimed Herceg-Bosna territory, acting in concert with the leadership of Croatia",
+          "supports": "summary",
+          "url": "https://www.icty.org/en/press/six-senior-herceg-bosna-officials-convicted",
+          "caveat": "Court record; establishes the ethnic-cleansing JCE and the Croatia link, the basis for both the agent description and the tier. Audit 2026-06-19: page content verified — confirmed 29 May 2013, six convicted (Prlić 25y, Stojić/Petković/Praljak 20y, Ćorić 16y, Pušić 10y), JCE to permanently remove the Muslim population, acting 'in concert with the leadership of Croatia' (Tuđman and Šušak named as JCE members)."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "bih-5",
+      "country": "BIH",
+      "role": "perpetrator",
+      "title": "Bosnian government forces' crimes against Serb and Croat civilians: Čelebići, Grabovica and Uzdol",
+      "era": "1992–1993",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Bosniak-led government forces murdered and tortured Serb prisoners in a detention camp and massacred Croat civilians during offensives — war crimes against captives and enemy civilians, not a campaign to destroy a group as such, so WAR.",
+      "agent": "Forces of the Republic of Bosnia and Herzegovina — the Territorial Defence/Army of Bosnia and Herzegovina (ARBiH) and the Bosnian Interior Ministry — including the guards at the Čelebići camp and ARBiH units in Operation Neretva '93",
+      "toll": {
+        "display": "Multiple Serb prisoners killed at Čelebići (camp of 400–700); ~13–33 Croat civilians killed at Grabovica; ~25–29 Croat civilians killed at Uzdol",
+        "disputed": true,
+        "low": 13,
+        "high": 33,
+        "unit": "deaths",
+        "note": "These are several distinct, smaller crimes by Bosnian government forces rather than one mass event. At the Čelebići camp (run from spring 1992 by Bosniak and Bosnian Croat forces, 400–700 Serb prisoners) detainees were murdered, tortured and raped; the ICTY convicted Hazim Delić, Zdravko Mucić and the guard Esad Landžo (Zejnil Delalić acquitted), but did not fix a single agreed death total. During Operation Neretva '93 the ARBiH massacred Croat civilians at Grabovica — the ICTY found at least 13 killed (other accounts give up to 33) — and at Uzdol, where the ICTY found at least 25 Croat civilians killed (other counts up to 29). The toll.low/high fields hold the Grabovica range (13–33); commander Sefer Halilović was acquitted on effective-control grounds, while several direct perpetrators were convicted in Bosnian courts. disputed: true reflects the divergence between court-found minimums and higher reported counts."
+      },
+      "received_lens": "contested",
+      "summary": "The Bosniak-led government side, the principal victim of the war, also committed crimes against its enemies' civilians and prisoners. At the Čelebići camp near Konjic in 1992, guards murdered, tortured and raped Serb detainees; the ICTY convicted the commanders and one guard. During the 1993 Neretva offensive against the Croats, ARBiH troops killed Croat villagers at Grabovica and went on a killing spree among the civilians of Uzdol. The tolls were in the dozens, not the thousands, but the crimes were real and prosecuted.",
+      "relevance": "These entries keep the Bosniak side off a pedestal: the people who suffered Srebrenica also ran a camp that tortured Serbs and massacred Croat villagers — smaller in scale, but exactly the kind of fact a victim-only history erases.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "UN IRMCT, 'Čelebići crimes' (Mucić et al., IT-96-21) — Serb prisoners detained by Bosnian Croat and Bosnian Muslim forces at the Čelebići camp were murdered, tortured and raped (April–December 1992); Hazim Delić, Zdravko Mucić and Esad Landžo convicted, Zejnil Delalić acquitted",
+          "supports": "summary",
+          "url": "https://www.irmct.org/en/mip/features/celebici",
+          "caveat": "Court record; the page does not give a single agreed death total for the camp, hence none is asserted here. Audit 2026-06-19: page content verified — confirmed Čelebići camp near Konjic (Apr–Dec 1992), Serb prisoners murdered/tortured/raped by Bosnian Croat and Bosnian Muslim forces, Delić/Landžo/Mucić convicted, Delalić acquitted; no death total stated, consistent with the record."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Grabovica massacre' — ARBiH (9th Brigade) killings of Croat civilians on 8–9 September 1993 during Operation Neretva '93; ICTY found at least 13 killed (up to 33 maintained by other sources); Sefer Halilović acquitted (no effective control), direct perpetrators Vlahovljak/Karagić/Rajkić convicted (13 years each)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Grabovica_massacre",
+          "caveat": "Tertiary aggregator; the court-found minimum (13) comes from the ICTY Halilović judgment cited there, the higher figure (33) from local/press accounts. Audit 2026-06-19: this URL covers ONLY Grabovica (the original cite claimed it covered Uzdol too — corrected). It carries the toll.low/high range (13–33). The Uzdol figures (≥25 court-found, up to 29 alleged) are documented separately at Wikipedia 'Uzdol massacre' and the ICTY Halilović trial judgment (icty.org/x/cases/halilovic/tjug/en/tcj051116e.htm), independently confirmed in the audit; they are not carried by this source object."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

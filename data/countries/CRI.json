@@ -1,0 +1,101 @@
+{
+  "iso": "CRI",
+  "name": "Costa Rica",
+  "note": "Researched 2026-06-19; built from scratch (no prior seed). The two ledgers are deliberately asymmetric, and the asymmetry is real, not an artifact of thin research. Victim side: the demographic collapse of the indigenous peoples of what is now Costa Rica after Spanish contact from 1502, a colonial-era catastrophe that predates the Costa Rican state but is the formative violence done to the land's first peoples (agency named plainly as the Spanish crown, conquistadors, and the encomienda). Perpetrator side is genuinely thin: Costa Rica has no record of a state-organized mass killing on the scale seen elsewhere in Central America, and it abolished its standing army in 1948. The clearest documented case of lethal state political violence is the Codo del Diablo murders of December 1948, in which six imprisoned communist supporters were taken from a train and shot dead by members of the victorious Figueres-aligned Public Force eight months after the civil war. That war itself (about 2,000 dead, the bloodiest event of 20th-century Costa Rican history) involved killing by both sides and is summarized in the perpetrator event's context; it is not given its own ledger entry because agency in the wider war is shared and contested. Tolls for the deep-historical indigenous event are population-DECLINE figures, not counted bodies, and are flagged as such; the Codo del Diablo figure of six is precise and undisputed. The dual lens for Costa Rica is less about a single people being both victim and perpetrator at scale than about a country that built its modern self-image as a peaceful, demilitarized democracy nonetheless having a founding indigenous catastrophe behind it and a small, real act of political murder at the moment of that democracy's birth.",
+  "events": [
+    {
+      "id": "cri-1",
+      "country": "CRI",
+      "role": "victim",
+      "title": "Collapse of the indigenous peoples of Costa Rica",
+      "era": "1502–c.1600 (catastrophic phase mid-16th to early 17th century)",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The collapse was driven mainly by Old World epidemic disease against which the native peoples had no immunity, compounded by the violence of conquest, enslavement, and the encomienda labor system — a structural and demographic collapse rather than a single program to exterminate a group, though much of the enslavement and killing was deliberate.",
+      "agent": "The Spanish crown and the conquistadors and colonists of Costa Rica (conquest campaigns, slave-raiding, and the encomienda system of forced labor and tribute)",
+      "toll": {
+        "display": "a pre-contact population estimated at ~400,000–500,000 reduced to roughly 7,000–8,000 by the end of the 16th century (a decline on the order of 90%+)",
+        "disputed": true,
+        "low": 400000,
+        "high": 500000,
+        "unit": "deaths",
+        "note": "Population-DECLINE figures, not a counted death toll. The pre-contact population of what is now Costa Rica is genuinely unsettled: a widely repeated estimate puts it at roughly 400,000–500,000 across about nineteen chiefdoms when Columbus landed in 1502, while some sources cite a far lower figure of around 20,000, reflecting real disagreement among historians. By 1561 the population had fallen to roughly 120,000, and by the end of the 16th century only about 7,000–8,000 native people remained; one colonial count records just 999 by 1714. The low/high here bracket the commonly cited pre-contact estimate; the deaths were caused overwhelmingly by smallpox, measles, and influenza, not individually attributable to Spanish violence alone."
+      },
+      "received_lens": "memorial",
+      "summary": "When Columbus reached the Caribbean coast in 1502, the territory held perhaps 400,000 to 500,000 people across roughly nineteen chiefdoms. Over the following century Spanish conquest, slave-raiding, and the encomienda system pressed survivors into forced labor and tribute, while smallpox, measles, and influenza swept communities with no immunity. By 1561 the population had fallen to about 120,000, and by 1600 only some 7,000 to 8,000 native people remained — a collapse of over ninety percent that left Costa Rica with one of the smallest indigenous populations in Central America.",
+      "relevance": "Costa Rica's modern self-image as a small, peaceful, racially homogeneous democracy rests partly on the near-erasure of its first peoples in the first colonial century — the founding catastrophe beneath the country that calls itself an exception.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Indigenous peoples of Costa Rica' overview — at Columbus's arrival 'about 20,000 Costa Rican natives'; collapse attributed primarily to disease (especially smallpox) and to enslavement, with many enslaved people escaping",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Indigenous_peoples_of_Costa_Rica",
+          "caveat": "Tertiary aggregator that foregrounds a low ~20,000 pre-contact estimate, against the ~400,000–500,000 band given elsewhere, so the pre-contact baseline is genuinely contested. AUDIT 2026-06-19: verified by direct fetch — the page DOES state ~20,000 and disease/enslavement, but does NOT contain the '7,000–8,000 by end of 16th century' figure originally attributed to it; cite corrected to match the page's actual content."
+        },
+        {
+          "kind": "press",
+          "cite": "Costa Rica history overview: 'When Columbus landed in 1502 there were approximately nineteen different chieftainships across the country – a mixture of both cacicazgos and señorios – accommodating a combined population of between 400,000 and 500,000'; reduced to ~120,000 by 1561 through epidemic disease and fighting",
+          "supports": "toll.high",
+          "url": "https://www.anywhere.com/costa-rica/travel-guide/history",
+          "caveat": "Travel/popular-history site, not peer-reviewed; the high pre-contact estimate is one band of a genuinely disputed range and should be read as an upper bound, not a settled figure. AUDIT 2026-06-19: this source REPLACES the previously cited costaricaspecialists.co.uk URL, which on direct fetch did NOT contain the 400,000–500,000 figure (it only called the region 'sparsely inhabited') — a citation that did not support its claim. The 400,000–500,000 / nineteen-chiefdom figure is verified by direct fetch of this anywhere.com page."
+        },
+        {
+          "kind": "academic",
+          "cite": "Solórzano Fonseca, 'The indigenous population of Costa Rica in the 16th century at the moment of contact with the europeans' (Revista de Ciencias Sociales / SciELO Costa Rica, 2017) — notes most local histories estimate ~400,000 at contact but argues Bishop Bernardo Augusto Thiel's far lower figure (~27,000 for the whole country) is more accurate; documents the genuine scholarly dispute over the baseline",
+          "supports": "toll.note",
+          "url": "https://www.scielo.sa.cr/scielo.php?script=sci_abstract&pid=S2215-41752017000100313&lng=en&nrm=iso",
+          "caveat": "Peer-reviewed abstract (full text not read); cited to substantiate the disputed pre-contact baseline — it corroborates BOTH the high ~400,000 estimate as the conventional figure AND a low ~27,000 estimate, validating the disputed:true framing."
+        },
+        {
+          "kind": "reference",
+          "cite": "Colonial demographic figures: ~120,000 indigenous people by 1561 and ~7,000–8,000 by the end of the 16th century; epidemic disease (smallpox, influenza, measles) and the encomienda as primary drivers; a roughly 70% workforce drop between the 1560s and 1611",
+          "supports": "summary",
+          "url": "https://www.britannica.com/topic/history-of-Costa-Rica",
+          "caveat": "Cited via search summary because the Britannica page blocked direct fetch (HTTP 403, re-confirmed on audit 2026-06-19); figures corroborate other independent sources (anywhere.com for 1561; multiple search results for the 7,000–8,000 endpoint and 70% drop) but the Britannica page itself was not read in full text."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cri-2",
+      "country": "CRI",
+      "role": "perpetrator",
+      "title": "The Codo del Diablo murders",
+      "era": "19 December 1948",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "A targeted extrajudicial killing of imprisoned political opponents by state security agents because of their communist affiliation — a small-scale political murder by the state, not an attempt to eliminate an ethnic group.",
+      "agent": "Members of Costa Rica's Public Force (Fuerza Pública) aligned with the victorious Figueristas, under the de facto Founding Junta of the Second Republic — named perpetrators Captain Manuel Zúñiga Jirón, agent Luis Norberto Valverde Quirós, and driver Clarencio Auld Alvarado",
+      "toll": {
+        "display": "6 killed",
+        "disputed": false,
+        "low": 6,
+        "high": 6,
+        "unit": "deaths",
+        "note": "Six imprisoned men were taken from a train and shot at the 'Codo del Diablo' bend of the Reventazón River near Siquirres, Limón province, and their bodies thrown into the river: Federico Picado Sáenz, Tobías Vaglio Sardi, Lucio Ibarra, Octavio Sáenz Soto, Álvaro Aguilar, and the Nicaraguan Narciso Sotomayor. The figure of six is precise and not in dispute."
+      },
+      "received_lens": "suppressed",
+      "summary": "Eight months after Costa Rica's 1948 civil war ended, six political prisoners affiliated with the communist Vanguardia Popular party were pulled from a train on 19 December 1948 and shot dead at a river bend called the Codo del Diablo ('the Devil's Elbow') near Siquirres, their bodies dumped in the Reventazón. The killers were members of the new Figueres-aligned Public Force; though later charged and convicted, they fled the country, reportedly with help from contacts in the government, and served no prison time.",
+      "relevance": "At the very moment Costa Rica was founding the demilitarized, peaceful republic it would build its identity on, agents of the winning side murdered six defeated opponents and walked free — the perpetrator entry for a country whose self-image leaves little room for one.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Codo del Diablo murders' overview — six communist political prisoners killed 19 December 1948 near Siquirres; perpetrators from the Public Force (Zúñiga Jirón, Valverde Quirós, driver Auld Alvarado); convicted but fled abroad with government help",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Codo_del_Diablo_murders",
+          "caveat": "Tertiary aggregator; corroborated by a Spanish-language Wikipedia entry and a documentary film ('El Codo del Diablo', 2014, dir. Ernesto & Antonio Jara) on the case. AUDIT 2026-06-19: page exists and confirmed by direct fetch — all six victim names, the three named perpetrators, the Vanguardia Popular affiliation, the Siquirres/Reventazón location, and the fled-with-government-help impunity outcome all verified."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Asesinatos del Codo del Diablo' (Spanish Wikipedia) — names the six victims and the perpetrators; situates the killing under the de facto Founding Junta of the Second Republic and the Figueristas",
+          "supports": "toll.high",
+          "url": "https://es.wikipedia.org/wiki/Asesinatos_del_Codo_del_Diablo",
+          "caveat": "Tertiary aggregator. AUDIT 2026-06-19: page exists and confirmed by direct fetch — names the six victims and three perpetrators and situates the killing under the de facto Junta Fundadora de la Segunda República / figuerista faction; further corroborated by Costa Rican sources (El Espíritu del 48, La República, SURCOS Digital)."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

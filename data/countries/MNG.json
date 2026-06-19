@@ -1,0 +1,165 @@
+{
+  "iso": "MNG",
+  "name": "Mongolia",
+  "note": "Built from scratch 2026-06-19 via live web research. Both ledgers are populated, and Mongolia is one of the starkest dual-lens cases in the atlas: its 13th-century state was among the deadliest perpetrators in recorded history, while its 18th- and 20th-century people were victims of near-extermination. PERPETRATOR side: the Mongol conquests under Genghis Khan and his successors, anchored here by the Khwarazmian campaign of 1219-1221 (deliberate city massacres in a war of conquest) and the destruction of the Tangut Western Xia (1209-1227), which several historians call the first recorded attempted genocide. Conquest-era tolls are deeply contested: medieval chroniclers cite figures (1.3M at Merv, 1.7M at Nishapur) that modern scholars regard as gross exaggerations, while the overall conquest toll spans an order of magnitude (the popular 40-60M figure rests on shaky population data). Figures below use sourced ranges with the medieval-vs-modern dispute shown. VICTIM side: the Stalinist repressions of 1937-1939 (Choibalsan's purge under Soviet/NKVD direction, ~20,000-35,000 killed including some 18,000 Buddhist lamas) and the Dzungar genocide of 1755-1758, the Qing extermination of the Oirat (Western) Mongols. IMPORTANT NUANCE on the Dzungar entry: the Dzungars were Oirat Mongols, but the killing took place in Dzungaria (in present-day Xinjiang, China), not within the borders of the modern Mongolian state; it is included as an atrocity against Mongol people, with that geographic caveat flagged. The asymmetry between a single nomadic homeland and the continental scale of its medieval empire's violence is the whole point of the dual ledger here.",
+  "events": [
+    {
+      "id": "mng-1",
+      "country": "MNG",
+      "role": "victim",
+      "title": "The Stalinist Repressions (Great Repression)",
+      "era": "1937-1939",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "A state purge directed from Moscow killed 'enemies of the revolution' — Buddhist clergy, aristocrats, military officers, and party officials — as political and class targets; this is lethal political repression of designated groups (POL), not an attempt to annihilate a people as such (EXT) or a disease-driven collapse (STR).",
+      "agent": "The Mongolian People's Republic under Khorloogiin Choibalsan, carried out at Stalin's direction with the Soviet NKVD (Mikhail Frinovsky) supplying target lists",
+      "toll": {
+        "display": "~20,000-35,000 deaths (incl. ~18,000 Buddhist lamas)",
+        "disputed": true,
+        "low": 20000,
+        "high": 35000,
+        "unit": "deaths",
+        "note": "Estimates of those executed cluster at roughly 20,000-35,000 'enemies of the revolution,' a figure representing about three to five percent of Mongolia's total population at the time (the country had roughly 700,000-900,000 people in the late 1930s), per the Wikipedia 'Stalinist repressions in Mongolia' summary. Of these, more than 18,000 were Buddhist lamas; over 700 monasteries were destroyed, and the monastic clergy fell from some 80,000-90,000 in 1937 to under 500 by the end of 1938. Low and high are sourced; disputed."
+      },
+      "received_lens": "memorial",
+      "summary": "Between September 1937 and April 1939, Choibalsan's government, acting on Stalin's orders and with NKVD officers supplying the lists, ran an extraordinary commission that bypassed the courts to order tens of thousands of executions — Buddhist monks, aristocrats, military leaders, and party members shot or sent to die — while more than 700 monasteries were razed and the country's once-vast monastic clergy was almost entirely wiped out.",
+      "relevance": "Mongolia's defining modern victim memory, now publicly memorialized in Ulaanbaatar — the same people whose medieval state filled the perpetrator ledger were, in the 20th century, on the receiving end of a Moscow-directed mass killing.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Stalinist repressions in Mongolia\" — Wikipedia (main phase Sept 1937-April 1939; 20,000-35,000 executed = 3-5% of population; >18,000 lamas; >700 monasteries destroyed; perpetrators Choibalsan, NKVD's Frinovsky, under Stalin's direction)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Stalinist_repressions_in_Mongolia",
+          "caveat": "Tertiary aggregator; figures cross-checked against the article's cited historiography and contemporary reporting."
+        },
+        {
+          "kind": "press",
+          "cite": "The Washington Times, \"Mongolians recall purges by Stalin\" (2001)",
+          "supports": "summary",
+          "url": "https://www.washingtontimes.com/news/2001/jul/7/20010707-024154-7538r/",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "mng-2",
+      "country": "MNG",
+      "role": "victim",
+      "title": "The Dzungar Genocide (Extermination of the Oirat Mongols)",
+      "era": "1755-1758",
+      "era_band": "colonial",
+      "tier": "EXT",
+      "tier_reasoning": "After the Dzungar leader Amursana rebelled, the Qianlong Emperor issued explicit orders to eradicate the Dzungar nation and name; the deliberate destruction of a people through massacre, induced starvation, and the spread of smallpox is the core of EXT, even though disease compounded the death toll.",
+      "agent": "The Qing dynasty under the Qianlong Emperor (Manchu bannermen, with Khalkha Mongol, Uyghur, and other allied auxiliaries)",
+      "toll": {
+        "display": "~420,000-480,000 deaths (70-80% of the Dzungar people)",
+        "disputed": true,
+        "low": 420000,
+        "high": 480000,
+        "unit": "deaths",
+        "note": "Historians Peter C. Perdue and Michael Clarke estimate 420,000-480,000 deaths, roughly 70-80% of a pre-genocide Dzungar population of about 600,000, per the Wikipedia 'Dzungar genocide' summary; the Qing scholar Wei Yuan attributed roughly 40% of deaths to smallpox, ~30% to killing by Manchu bannermen, and ~20% who fled to Russia or the Kazakhs. GEOGRAPHIC CAVEAT: the Dzungars were Oirat (Western) Mongols, but the genocide took place in Dzungaria, in present-day Xinjiang, China, not inside the modern Mongolian state; it is counted here as an atrocity against Mongol people. Low and high are sourced; disputed."
+      },
+      "received_lens": "suppressed",
+      "summary": "Between 1755 and 1758 the Qing Qianlong Emperor, enraged when the Oirat Mongol leader Amursana rebelled rather than accept a divided khanate, ordered the extermination of the entire Dzungar people; Qing armies massacred the population, starvation followed the destruction of the steppe economy, and smallpox swept the survivors, leaving perhaps four out of five Dzungars dead and their homeland resettled with Han, Hui, Uyghur, and Manchu colonists.",
+      "relevance": "A near-total destruction of a Mongol people that the historian Mark Levene called the eighteenth century's genocide par excellence — the victim mirror to the Mongols' own earlier conquests, and a reminder that 'Mongol' on the victim ledger includes the western Oirats, not only the Khalkha of the modern state.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Peter C. Perdue, \"China Marches West: The Qing Conquest of Central Eurasia\" (2005/2009), cited via the Wikipedia 'Dzungar genocide' article: 420,000-480,000 deaths, ~70-80% of the Dzungar population",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Dzungar_genocide",
+          "caveat": "Perdue's figure accessed through the Wikipedia citation rather than the original monograph; corroborated there by Michael Clarke's estimate."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Dzungar genocide\" — Wikipedia (1755-1758; Qianlong Emperor's extermination order; 420,000-480,000 deaths per Perdue and Clarke; pre-genocide population ~600,000 per Wei Yuan; Dzungars = Oirat/Western Mongols)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Dzungar_genocide",
+          "caveat": "Tertiary aggregator; figures cross-checked against the cited scholars (Perdue, Clarke, Levene) and the Qing source Wei Yuan."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "mng-3",
+      "country": "MNG",
+      "role": "perpetrator",
+      "title": "The Mongol Invasion of the Khwarazmian Empire",
+      "era": "1219-1221",
+      "era_band": "pre-colonial",
+      "tier": "WAR",
+      "tier_reasoning": "A war of conquest in which the Mongols carried out deliberate massacres of whole cities that surrendered or resisted — atrocity prosecuted as a method of war and terror (WAR); individual sieges (Gurganj, Nishapur, the Tangut campaign) shade toward EXT, but the campaign overall is a conquest, not a single-group annihilation.",
+      "agent": "The Mongol Empire under Genghis Khan, with his sons Jochi, Chagatai, Ogedei, and Tolui and generals Subutai and Jebe",
+      "toll": {
+        "display": "~2-15 million deaths (heavily disputed)",
+        "disputed": true,
+        "low": 2000000,
+        "high": 15000000,
+        "unit": "deaths",
+        "note": "Total casualties for the Khwarazmian campaign are estimated at between two and fifteen million, counting massacre, famine from destroyed irrigation, and disease, per the Wikipedia 'Mongol invasion of the Khwarazmian Empire' summary. Medieval chroniclers cite far larger city tolls — e.g. ~1.3 million at Merv (Juvayni) and 1.7 million at Nishapur — which modern historians regard as gross exaggerations, since the cities could not have held such populations. The headline range is itself wide and contested; low and high are sourced; disputed."
+      },
+      "received_lens": "triumphal",
+      "summary": "After the Khwarazmian governor of Otrar seized a Mongol trade caravan and executed its members in 1218, Genghis Khan invaded; over 1219-1221 his armies stormed the great cities of Central Asia — Bukhara, Samarkand, Merv, Nishapur, Gurganj, Herat — and, where they met resistance or broke surrender terms, slaughtered or enslaved entire populations, ploughed over the ruins, and wrecked the irrigation that the survivors depended on, killing on a scale measured in the millions.",
+      "relevance": "The core of Mongolia's perpetrator ledger and the foundation of its triumphal national memory of Genghis Khan — the same conquest celebrated at home as imperial glory is, on the other side of the lens, one of the deadliest campaigns in human history.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Mongol invasion of the Khwarazmian Empire\" — Wikipedia (1219-1221; Genghis Khan; triggered by the Otrar massacre of Mongol merchants; total casualties estimated 2-15 million; medieval city tolls of 1.3M at Merv and 1.7M at Nishapur judged exaggerated by modern historians)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Mongol_invasion_of_the_Khwarazmian_Empire",
+          "caveat": "Tertiary aggregator; the 2-15M range is itself broad and contested, and medieval chronicle figures are noted there as exaggerations."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Destruction under the Mongol Empire\" — Wikipedia (overall conquest toll commonly cited as 40-60 million from McEvedy & Jones's 1978 population atlas; China's population fell from ~120M to ~60M by 1300; Persia from ~2.5M to ~250,000 per John Masson Smith; scholars including David Morgan and Jack Weatherford skeptical of the high figures)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Destruction_under_the_Mongol_Empire",
+          "caveat": "Tertiary aggregator; the 40-60M total rests on McEvedy & Jones's contested population estimates and is presented with explicit scholarly skepticism, not as consensus."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "mng-4",
+      "country": "MNG",
+      "role": "perpetrator",
+      "title": "The Destruction of the Tangut Western Xia",
+      "era": "1209-1227",
+      "era_band": "pre-colonial",
+      "tier": "EXT",
+      "tier_reasoning": "After the Western Xia refused to supply troops, Genghis Khan ordered the eradication of the Tangut people and their culture, systematically destroying their cities, countryside, and written record; the deliberate attempt to annihilate a people as such is the core of EXT.",
+      "agent": "The Mongol Empire under Genghis Khan",
+      "toll": {
+        "display": "Mass killing of the Tangut; total deaths not reliably quantified (pre-war population ~3 million)",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "No reliable death-count range exists for the Tangut destruction; medieval and modern sources describe near-total slaughter of the population and the obliteration of Western Xia cities, but do not supply a defensible numeric toll. The Western Xia had a population on the order of 3 million before the war, per the Wikipedia 'Destruction under the Mongol Empire' summary. The historian John Man describes the campaign as the first recorded example of attempted genocide. Toll set to null because no sourceable number exists; the population baseline is given for scale, not as a death figure."
+      },
+      "received_lens": "denied",
+      "summary": "When the Tangut Western Xia kingdom, a Mongol vassal, refused to provide soldiers for Genghis Khan's western campaigns, he invaded again in 1225-1227 with orders to exterminate the Tangut people and erase their culture; Mongol armies systematically destroyed their cities and countryside, killed the population, and so thoroughly obliterated the Western Xia that the kingdom is little remembered today — which the historian John Man calls the first recorded attempt at genocide.",
+      "relevance": "The starkest single-group entry in Mongolia's perpetrator ledger: a deliberate erasure of a whole people and civilization, sitting opposite the near-extermination of the Oirat Mongols (mng-2) that its own descendants would later suffer.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Mongol conquest of Western Xia\" — Wikipedia (1205-1227; Genghis Khan's order to exterminate the Tangut; John Man's 'first ever recorded example of attempted genocide')",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Mongol_conquest_of_Western_Xia",
+          "caveat": "Tertiary aggregator; no reliable death-toll figure is available for the Tangut destruction, so the toll is left null."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Destruction under the Mongol Empire\" — Wikipedia (Western Xia/Tangut pre-war population ~3,000,000; John Man's characterization as attempted genocide)",
+          "supports": "tier",
+          "url": "https://en.wikipedia.org/wiki/Destruction_under_the_Mongol_Empire",
+          "caveat": "Tertiary aggregator; the ~3M population is a baseline for scale, not a death count, which remains unquantified."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

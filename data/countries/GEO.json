@@ -1,0 +1,204 @@
+{
+  "iso": "GEO",
+  "name": "Georgia",
+  "note": "Built from scratch 2026-06-19 via live web research. Both ledgers are populated, but the record is asymmetric in character. Georgia's victim history is dominated by the Soviet conquest and the terror that followed: the 1921 Red Army invasion that ended the first Georgian republic, the savage suppression of the 1924 August Uprising, and the Great Terror of 1937-1938 administered locally by Lavrentiy Beria. Georgia's perpetrator history is more recent and tied to the post-Soviet wars over its breakaway regions: in the 1992-93 war in Abkhazia, Georgian National Guard troops and especially the Mkhedrioni paramilitary committed documented killings, looting, and terror against Abkhaz and other civilians; in August 2008, the Georgian army's indiscriminate shelling of Tskhinvali with Grad rockets and heavy artillery opened a war and killed civilians. A standing caveat for both post-Soviet conflicts: every figure is mirrored by an opposing Russian, Abkhaz, or Ossetian counter-claim, and atrocities were committed by all sides — these entries record only what authoritative third parties (Human Rights Watch, the UN, the EU-funded Tagliavini mission) attributed to Georgian forces, never the wider conflict's toll. Soviet-era victim figures rest on rehabilitation records, the Black Book of Communism, and the historian Eric Lee; the older Stalinist numbers were long suppressed and remain partly contested.",
+  "events": [
+    {
+      "id": "geo-1",
+      "country": "GEO",
+      "role": "victim",
+      "title": "Red Army Invasion and Conquest of Georgia",
+      "era": "1921",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "A cross-border military invasion by Soviet Russia's Red Army to overthrow the independent Georgian republic; the deaths were overwhelmingly combat and campaign deaths of soldiers and civilians during the conquest, which is WAR rather than a targeted killing of a group (POL/EXT).",
+      "agent": "Soviet Russia's Red Army (commanders Anatoly Gekker and Mikhail Velikanov), engineered by Georgian-born Soviet officials Joseph Stalin and Sergo Ordzhonikidze with Lenin's approval",
+      "toll": {
+        "low": 8700,
+        "high": 20000,
+        "unit": "deaths",
+        "display": "~8,700 combat deaths; up to ~20,000 total",
+        "disputed": true,
+        "note": "The Wikipedia summary of the Soviet-Georgian War gives, for the February-March 1921 campaign, roughly 3,200 Georgian military killed or captured, 3,800-5,000 Georgian civilians killed, and about 5,500 Soviet troops killed (low end here sums the directly reported deaths). The Russian statistician I.A. Kurganov is cited for an estimate that the 1921-22 operations against Georgia cost about 20,000 lives in total (the high end). Low and high are sourced; disputed because counting methods and the time window differ."
+      },
+      "received_lens": "memorial",
+      "summary": "In February 1921 the Red Army crossed into the Democratic Republic of Georgia, whose independence Soviet Russia had recognized the year before, on the pretext of a staged peasant rising; within three weeks it took Tbilisi, drove out the Menshevik government, and installed Bolshevik rule, at a cost of thousands of soldiers' and civilians' lives. Georgia marks the date with flags at half-staff.",
+      "relevance": "The founding wound of Soviet Georgia and the start of the victim chain that runs through 1924 and 1937 — and a reminder that the conquest was directed by two Georgians, Stalin and Ordzhonikidze, complicating any simple Russian-versus-Georgian framing.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Red Army invasion of Georgia\" (Soviet-Georgian War) — Wikipedia (Feb-Mar 1921; ~3,200 Georgian military killed/captured, ~3,800-5,000 civilians, ~5,500 Soviet troops; Kurganov estimate ~20,000 total for 1921-22)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Red_Army_invasion_of_Georgia",
+          "caveat": "Tertiary aggregator on a politicized event; figures cross-checked against the article's cited sources. The Kurganov total is an estimate spanning 1921-22 operations, not a single battlefield count. Audit (2026-06-19): article since retitled 'Soviet invasion of Georgia'; the cited URL still resolves via redirect, and the infobox figures (~3,200 Georgian killed/captured, 3,800-5,000 civilians, 5,500 Soviet killed, Kurganov ~20,000) were re-verified."
+        },
+        {
+          "kind": "press",
+          "cite": "Radio Free Europe/Radio Liberty, \"Georgia Marks 1921 Red Army Occupation By Flying National Flags At Half-Staff\"",
+          "supports": "summary",
+          "url": "https://www.rferl.org/a/georgia-marks-1921-red-army-occupation-flags-half-staff/30454540.html",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "geo-2",
+      "country": "GEO",
+      "role": "victim",
+      "title": "Suppression of the August Uprising",
+      "era": "1924",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "After a failed anti-Soviet insurrection, the Cheka and Red Army executed thousands of people — chiefly nobles and intellectuals — without trial and deported tens of thousands; the deliberate mass killing of a defined political and social class to break a national movement is POL rather than EXT (it aimed to decapitate the independence movement, not to annihilate Georgians as a people).",
+      "agent": "Soviet Cheka and Red Army (Red Army under Semyon Pugachev), with Lavrentiy Beria rising to prominence in the crackdown; overall orders from Stalin and Ordzhonikidze",
+      "toll": {
+        "low": 7000,
+        "high": 12578,
+        "unit": "deaths",
+        "display": "~7,000-12,578 executed (plus ~3,000 combat deaths, ~20,000 deported)",
+        "disputed": true,
+        "note": "Per the Wikipedia 'August Uprising' summary: about 3,000 died in the fighting itself; estimates of those executed in the suppression range from 7,000-10,000 (sources cited to Lang and Pethybridge, the low end here) up to 12,578 put to death from 29 August to 5 September 1924 according to the most recent accounts, a figure also carried in The Black Book of Communism (the high end). Roughly 20,000 people were deported to Siberia and Central Asia. The headline range counts executions; combat and deportation totals are noted separately. Low and high are sourced; disputed."
+      },
+      "received_lens": "memorial",
+      "summary": "When the Committee for Independence of Georgia launched a national revolt in August 1924, the Soviet response was annihilating: within a week, Cheka and Red Army units executed thousands of people without trial — entire families, nobles, and intellectuals among them — and deported some twenty thousand more, gutting the country's pro-independence elite for a generation. Stalin's reported vow was that 'all of Georgia must be plowed under.'",
+      "relevance": "The event that broke open Georgian resistance and launched the career of Beria, a Georgian who would administer terror against his own countrymen — the dual lens internalized, with Georgians both the victims and, in Beria, the instrument.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"August Uprising\" — Wikipedia (28 Aug-5 Sept 1924; ~3,000 combat deaths; 7,000-10,000 executed per Lang/Pethybridge, 12,578 per recent accounts and The Black Book of Communism; ~20,000 deported; Beria, Pugachev, Stalin, Ordzhonikidze named)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/August_Uprising",
+          "caveat": "Tertiary aggregator; execution figures cross-checked against the cited historians (Lang, Pethybridge) and the Black Book of Communism. The 12,578 figure is contested as possibly high; the 7,000-10,000 band is the more conservative scholarly estimate."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Eric Lee, \"The August Uprising, 1924: The Georgian Anti-Soviet Revolt and the Birth of Democratic Socialism\" (McFarland)",
+          "supports": "summary",
+          "url": "https://books.google.com/books/about/The_August_Uprising_1924.html?id=ThOQEQAAQBAJ",
+          "caveat": "Cited as the dedicated scholarly monograph on the uprising; consulted via its catalogue/review listing rather than the full text for this entry. Audit (2026-06-19): publisher and exact subtitle ('...and the Birth of Democratic Socialism', not '...the Birth of the Resistance') verified against the Google Books record; cite corrected."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "geo-3",
+      "country": "GEO",
+      "role": "victim",
+      "title": "The Great Terror in Soviet Georgia",
+      "era": "1937-1938",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "Mass arrests, sham trials, executions, and deportations of citizens under fabricated 'counter-revolutionary' charges as part of Stalin's purge — lethal political repression of a population by quota, the defining shape of POL; it targeted perceived enemies of the regime, not an ethnic group for annihilation (EXT).",
+      "agent": "Soviet NKVD in Georgia under Lavrentiy Beria, executing Stalin's and Yezhov's orders (Order No. 00447 and signed execution lists)",
+      "toll": {
+        "low": 3100,
+        "high": 15000,
+        "unit": "deaths",
+        "display": "~3,100+ death sentences; ~15,000+ repressed in Georgia",
+        "disputed": true,
+        "note": "Per the Communist Crimes (Estonian Institute of Historical Memory) country profile on Georgia: Georgia was set an initial 'limit' of 5,000 for execution and deportation, but by year's end more than 15,000 people had been repressed in the Georgian SSR; more than 3,600 individuals were tried in Georgia under Stalin's signed lists, of whom over 3,100 received death sentences (the low end here is that ~3,100 confirmed death-sentence figure; the high end is the ~15,000+ total repressed, which mixes executions with deportations and imprisonment). The death-vs-repression distinction is the main caveat. Soviet-wide, the Great Terror executed at least ~750,000. Low and high are sourced; disputed and incomplete."
+      },
+      "received_lens": "memorial",
+      "summary": "During Stalin's purge of 1937-1938, the NKVD in Georgia — run by the Georgian Lavrentiy Beria — arrested, tried by quota, and shot thousands of its own citizens on invented charges, filling prisons and feeding mass graves; remains are still being exhumed today, including at a military base near Batumi. More than three thousand people in Georgia received death sentences through Stalin's signed lists alone.",
+      "relevance": "The third blow of the Soviet victim chain, and the one most entangled with Georgian agency: the terror that killed Georgians was administered by a Georgian, Beria, the same figure who had made his name crushing the 1924 uprising — victim and perpetrator collapsed into one career.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Communism in Georgia\" — Communist Crimes / Estonian Institute of Historical Memory (initial limit 5,000; >15,000 repressed in Georgian SSR by year-end; >3,600 tried under Stalin's lists, >3,100 death sentences; ~0.75% of population repressed)",
+          "supports": "toll.low",
+          "url": "https://communistcrimes.org/en/countries/georgia",
+          "caveat": "Memory-institute aggregator; Georgia-specific figures rely on Soviet/post-Soviet rehabilitation records, which are incomplete. The ~15,000 'repressed' total includes deportations and imprisonment, not deaths alone."
+        },
+        {
+          "kind": "press",
+          "cite": "Al Jazeera, \"'Thrown like animals': Georgians identify victims in Stalin's mass graves\" (2024)",
+          "supports": "summary",
+          "url": "https://www.aljazeera.com/features/2024/1/28/georgias-mass-graves-the-forensic-experts-uncovering-victims-of-stalins-purge",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "geo-4",
+      "country": "GEO",
+      "role": "perpetrator",
+      "title": "Georgian Forces' Atrocities in the War in Abkhazia",
+      "era": "1992-1993",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Beyond combat, Georgian National Guard troops and the Mkhedrioni paramilitary carried out ethnically targeted looting, house-to-house killings, hostage-taking, and terror against Abkhaz and other civilians in occupied districts — deliberate violence against a civilian population on ethnic lines, which is POL rather than the war's overall battlefield toll (WAR) or a campaign of extermination (EXT).",
+      "agent": "Georgian National Guard and the Mkhedrioni paramilitary (under State Council chairman Eduard Shevardnadze's government; field warlords including Tengiz Kitovani and Jaba Ioseliani)",
+      "toll": {
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "display": "no reliable count of victims of Georgian-side abuses alone",
+        "disputed": true,
+        "note": "Human Rights Watch and the UN documented systematic abuses by Georgian forces — looting, pillage, hostage-taking, and house-to-house murder, with villages in the Ochamchira district terrorized and 'ethnically based pillage, looting, assault and murder' in Sukhumi after its 1992 capture — but no source isolates a death toll for Georgian-perpetrated killings alone. For scale: the whole war killed roughly 10,000-30,000 people (about 5,000 ethnic Georgians and 4,000 Abkhaz reported killed or missing) and displaced about 250,000 Georgians, with atrocities committed by all sides. A Georgian-side victim count cannot be responsibly stated, so the figures are null."
+      },
+      "received_lens": "contested",
+      "summary": "After invading Abkhazia in August 1992 and seizing Sukhumi, Georgian National Guard troops and Mkhedrioni paramilitaries looted and burned, destroyed Abkhaz archives and cultural sites, and — in the Ochamchira district especially — terrorized Abkhaz villages with daily intimidation and house-to-house killings, abuses the UN and Human Rights Watch documented alongside (and answered by) Abkhaz atrocities against Georgians.",
+      "relevance": "Georgia's clearest perpetrator entry and the mirror image of its own victim history: the country that remembers Soviet terror against its people had, within a generation of independence, its own forces and warlords terrorizing a smaller nation's civilians — with the Abkhaz then doing the same to Georgians in reprisal.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, \"Georgia/Abkhazia: Violations of the Laws of War and Russia's Role in the Conflict\" (1995): documents Georgian-force looting, hostage-taking, and house-to-house murder, terror in Ochamchira district, and 'ethnically based pillage, looting, assault and murder' in Sukhumi",
+          "supports": "summary",
+          "url": "https://www.hrw.org/reports/1995/Georgia2.htm",
+          "caveat": "Authoritative HRW report. Audit (2026-06-19): the previously cited Refworld mirror (refworld.org/.../22166) returned HTTP 403; replaced with the stable canonical HRW host (hrw.org/reports/1995/Georgia2.htm; full PDF at hrw.org/reports/pdfs/g/georgia/georgia953.pdf). Findings ('daily intimidation, widespread looting and house-to-house murder' in Ochamchira; looting/murder of ethnic Abkhaz in Sukhumi) confirmed via report excerpts."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"War in Abkhazia (1992-1993)\" — Wikipedia (Georgian attack Aug 1992; UN Oct 1993 fact-finding mission found 'numerous and serious' violations by both sides; ~10,000-30,000 total dead, ~5,000 Georgians and ~4,000 Abkhaz killed/missing; ~250,000 Georgians displaced)",
+          "supports": "toll.note",
+          "url": "https://en.wikipedia.org/wiki/War_in_Abkhazia_(1992%E2%80%931993)",
+          "caveat": "Tertiary aggregator on a conflict where both sides dispute the numbers and the framing; cited for context totals, not for a Georgian-only victim count, which no source provides."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "geo-5",
+      "country": "GEO",
+      "role": "perpetrator",
+      "title": "Indiscriminate Shelling of Tskhinvali",
+      "era": "2008",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "The Georgian army's use of inaccurate Grad rockets and heavy artillery against a populated city violated the laws of war's principle of distinction and killed civilians, but Human Rights Watch found no evidence Georgia sought to target civilians deliberately — making this an indiscriminate-attack WAR violation rather than the deliberate killing of a group (POL/EXT).",
+      "agent": "Georgian armed forces, under President Mikheil Saakashvili's government",
+      "toll": {
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "display": "civilian deaths documented but not conclusively counted",
+        "disputed": true,
+        "note": "Human Rights Watch documented Georgian Grad and artillery strikes hitting Tskhinvali's hospital, residential blocks on Stalin Street, and outlying villages, and named individual civilian deaths, but stated it lacked the capacity to determine a conclusive civilian-casualty number for the Georgian attack. Overall war figures (Georgia reported 228 of its own civilians killed; South Ossetia reported 365 dead) mix all causes and all parties. Russia initially claimed up to 2,000 Ossetian civilian deaths but the EU-funded Tagliavini mission and others found that figure grossly inflated. No reliable death count for the Georgian shelling alone exists, so the figures are null."
+      },
+      "received_lens": "contested",
+      "summary": "On the night of 7-8 August 2008, the Georgian army opened the war by shelling Tskhinvali with Grad multiple-rocket launchers and heavy artillery — weapons too imprecise for use in a populated city — hitting the hospital, apartment blocks, and surrounding villages and killing civilians. The EU's independent Tagliavini mission concluded the attack could not be justified as necessary or proportionate under international law.",
+      "relevance": "Georgia's contemporary perpetrator entry: the same state that suffered Soviet artillery and Russian invasion turned indiscriminate fire on a city of its own former citizens — even as Russia's response and the South Ossetian ethnic cleansing of Georgians made Georgians victims again in the same war.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, \"Up In Flames: Humanitarian Law Violations and Civilian Victims in the Conflict over South Ossetia\" (2009): documents Georgian Grad/artillery strikes on Tskhinvali's hospital and residential areas, finds 'disregard for the protection of civilians,' but no deliberate targeting and no conclusive casualty count",
+          "supports": "summary",
+          "url": "https://www.hrw.org/report/2009/01/23/flames/humanitarian-law-violations-and-civilian-victims-conflict-over-south",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "EU Independent International Fact-Finding Mission on the Conflict in Georgia (Tagliavini Report, 2009), as summarized in press coverage: the shelling of Tskhinvali by Georgian forces on 7-8 Aug 2008 began the war and was not justifiable as necessary or proportionate, though overall responsibility was assigned to neither side alone",
+          "supports": "tier",
+          "url": "https://www.wsws.org/en/articles/2009/10/geor-o02.html",
+          "caveat": "The Tagliavini findings are quoted via press summary rather than the primary report PDF; the same press coverage stresses the mission found Russian provocations and refused to assign sole blame to Georgia."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

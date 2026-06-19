@@ -1,0 +1,186 @@
+{
+  "iso": "OMN",
+  "name": "Oman",
+  "note": "Built from scratch on 2026-06-19 with live web research (WebSearch/WebFetch). The two ledgers are asymmetric, and the asymmetry is honest. VICTIM side: the strongest documented mass-violence done TO Oman's people is the Portuguese conquest of the coast under Afonso de Albuquerque in 1507 (massacre and mutilation at Muscat, Qalhat and Quriyat) — but contemporary chroniclers give no usable body count, so its toll is carried as null/UNVERIFIED; the modern Dhofar war (1965–1975) killed Dhofaris on a far larger scale, though responsibility for those civilian deaths is genuinely split between the Sultan's forces and the rebels. PERPETRATOR side is the heavier and better-documented ledger: for roughly two centuries the Omani sultanate (capital moved to Zanzibar under Said bin Sultan in 1840) ran one of the largest slave-trading systems of the Indian Ocean world, funnelling enslaved East Africans through Zanzibar to clove plantations and to Arabia and Persia, with mass mortality in the raids, the inland caravans and the plantations; and during the Dhofar war the Sultan's regime used deliberate collective punishment — poisoning and blocking wells, burning villages, killing livestock and shooting civilians. Slavery was not abolished in Oman until 1970. A NOTE ON ATTRIBUTION: the Dhofar civilian toll (~8,000) cannot be cleanly apportioned between the Sultanate, its British/Iranian allies and the PFLOAG rebels (who also executed civilians), so it is carried once on the VICTIM side as a whole-war figure and the regime's specific deliberate acts are carried separately on the PERPETRATOR side without a fabricated regime-only body count. The slave-trade tolls are trafficking VOLUMES (the firmest numbers in the scholarship), with the very large death figures from raids and transit flagged as separate, contested estimates rather than folded into a single count. No figure, source, author or URL here was invented.",
+  "events": [
+    {
+      "id": "omn-1",
+      "country": "OMN",
+      "role": "victim",
+      "title": "Portuguese Conquest and Sack of the Omani Coast under Albuquerque",
+      "era": "1507",
+      "era_band": "pre-colonial",
+      "tier": "WAR",
+      "tier_reasoning": "A naval expedition stormed coastal towns, slaughtered defenders and inhabitants and burned the city in the course of armed conquest — extreme wartime killing and atrocity against a population, not a campaign to exterminate a defined group, so WAR rather than EXT.",
+      "agent": "The Portuguese armada under Afonso de Albuquerque",
+      "toll": {
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "display": "no usable death count; chroniclers describe men, women and children slaughtered at Muscat, Qalhat and Quriyat and the city burned (defender losses recorded only as 'very heavy')",
+        "disputed": true,
+        "note": "No reliable numeric toll survives. Sixteenth-century accounts (and the modern reference works that relay them) describe Albuquerque's force of roughly 460–500 men taking Quriyat and Muscat in the summer of 1507 with indiscriminate slaughter of inhabitants 'not sparing women and children', the burning of Muscat after a ransom went unpaid, and the mutilation of prisoners — ears and noses cut off before release. Defender casualties are characterised only as 'very heavy'; no figure can be sourced, so the toll is left null and the event marked UNVERIFIED on the number."
+      },
+      "received_lens": "memorial",
+      "summary": "In the summer of 1507 a Portuguese fleet under Afonso de Albuquerque worked down the Omani coast, storming Qalhat, Quriyat and then Muscat. Defenders and townspeople — by the chroniclers' own account including women and children — were cut down, Muscat was burned when its ransom went unpaid, and Albuquerque had the ears and noses of Muslim prisoners cut off before releasing them. The coast then stayed under Portuguese control for about 150 years.",
+      "relevance": "Oman opens the atlas as a victim — a coastal people massacred and mutilated by an incoming maritime empire — the same role its own sultanate would later impose on East Africans through the slave trade it ran from Zanzibar.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Capture of Muscat (1507)\" — Wikipedia (Albuquerque's ~500 men and 6 ships take Quriyat and Muscat in 1507; 'men, women and children were slaughtered'; city set ablaze after a 10,000-xerafin ransom went unpaid; both sides' casualties listed as 'Unknown'; cites Peterson, Historical Muscat, 2007) [AUDIT 2026-06-19: re-fetched and verified verbatim — corrected from earlier 'defender losses very heavy' to the page's actual 'Unknown' for both sides; the substance (no usable numeric toll) is unchanged]",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Capture_of_Muscat_(1507)",
+          "caveat": "Tertiary aggregator relaying 16th-century Portuguese chroniclers (the conquerors' own narrative); it gives no numeric death toll for the inhabitants and does not itself mention the ear/nose mutilation, which is carried from the separate historiography below."
+        },
+        {
+          "kind": "reference",
+          "cite": "Morse Stephens, 'Albuquerque' (Rulers of India series), via Heritage History — describes Albuquerque on the Oman coast in 1507 conquering Qalhat and Quriyat 'using brutal force', sparing neither women nor children, and ordering the ears and noses of Muhammadan prisoners cut off before releasing them at Muscat",
+          "supports": "summary",
+          "url": "https://heritage-history.com/index.php?author=stephens&book=albuquerque&c=read&readAll=true",
+          "caveat": "An older (early-20th-century) imperial-British biography of Albuquerque written in a colonial register; useful for the specific mutilation detail, which it draws from Portuguese sources, but its framing and lack of a casualty count mean it cannot supply a verified toll."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "omn-2",
+      "country": "OMN",
+      "role": "perpetrator",
+      "title": "The Omani Sultanate's East African Slave Trade (Zanzibar)",
+      "era": "c. 1690s–1873 (legal trade), abolition in Oman 1970",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "A sustained, commercially organised system of enslavement — raiding, forced caravan marches, sea transport and plantation labour — that killed people on a mass scale as a structural feature of the enterprise rather than as a one-off massacre, which is STR.",
+      "agent": "The Omani sultanate and its merchants — above all Said bin Sultan (Seyyid Said), who moved his capital to Zanzibar in 1840 and built the clove-plantation slave economy — together with the Arab and Swahili traders operating under the sultanate's flag",
+      "toll": {
+        "low": 15000,
+        "high": 50000,
+        "unit": "deaths",
+        "display": "trafficking VOLUME, not a death count: ~15,000–20,000 (Cheriau, late 1850s–1873) to ~40,000–50,000 (Beachey/Petterson) Africans enslaved through Zanzibar per year at the peak; East African 19th-c. total estimated 800,000 to >2,000,000; mass deaths additional (see note)",
+        "disputed": true,
+        "note": "QUARANTINE (AUDIT 2026-06-19): the high end of this toll has a source-integrity defect, so the event is marked UNVERIFIED. The carried low/high (15,000–50,000) are ANNUAL TRAFFICKING VOLUMES at the peak, not annual deaths. The LOW (15,000–20,000/yr, late 1850s–1873) is solid: re-verified verbatim from Raphaël Cheriau (Réunion slavery portal), a named researcher; same source gives the 800,000–>2,000,000 19th-century East-African total. The HIGH (~50,000/yr) was originally attributed to the 'Slavery in Zanzibar' Wikipedia page as relaying Petterson/Beachey with a ~30% plantation-death figure — but on re-fetch that page carries NONE of those specifics (no 40,000–50,000 figure, no Petterson, no Beachey, no 30%); it supports only 'two-thirds of Zanzibar enslaved by the 1850s'. The 50,000/yr number is nonetheless a real, long-standing high-end estimate (R.W. Beachey, 'The Slave Trade of Eastern Africa', Collins 1976) and was confirmed verbatim during the audit on a fetchable but WEAK-PROVENANCE travel/heritage page (Afar.com), which now carries it as the toll.high source. Because the high end rests on a weak source rather than the scholarly citation originally claimed, the toll range cannot be certified and the event is UNVERIFIED pending a proper scholarly citation for the high figure. The dropped ~30% plantation-mortality claim is NOT carried anywhere as a number. The DEATHS in the trade are large but far less precisely quantified: caravan mortality (commonly cited as around one in five en route), plus raid and sea deaths; David Livingstone is widely quoted estimating tens of thousands dying yearly before reaching the coast, but that figure could not be tied to a clean primary citation and is noted, not carried."
+      },
+      "received_lens": "contested",
+      "summary": "From the late 17th century the Omani sultanate dominated the Indian Ocean slave trade, and under Said bin Sultan — who shifted his capital to Zanzibar in 1840 — it became an industrial-scale system: Arab and Swahili traders raided deep into East Africa, marched captives to the coast, and shipped tens of thousands a year through Zanzibar to clove and coconut plantations and onward to Arabia and Persia. By the 1850s two-thirds of Zanzibar's people were enslaved. Mortality in the raids, the caravans, the dhows and the plantations was enormous; Oman itself did not abolish slavery until 1970.",
+      "relevance": "Here Oman is the perpetrator on the largest scale — a people once massacred by an incoming empire running, for two centuries, one of the great enslavement systems of the Indian Ocean world, the mirror image of its own 1507 victimhood.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Raphaël Cheriau, \"The slave trade in the western Indian Ocean during the second half of the 19th century\" — Réunion slavery & plantation history portal (~15,000–20,000 Africans captured yearly and taken to Zanzibar, late 1850s–1873; East African 19th-c. total 800,000 to >2,000,000; about half kept on the coast, the rest sent to the Red Sea, Arabia, the Persian Gulf and the Indian coast)",
+          "supports": "toll.low",
+          "url": "https://www.portail-esclavage-reunion.fr/en/documentaires/the-slave-trade/the-slave-trade-in-the-indian-ocean-2/the-slave-trade-in-the-western-indian-ocean-during-the-second-half-of-the-19th-century/",
+          "caveat": "A scholarly synthesis on a museum/heritage portal (Réunion); the figures are regional 19th-century estimates rather than a hard count, and the article spans the western Indian Ocean as a whole, not Oman alone."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Slavery in Zanzibar\" — Wikipedia (by the 1850s two-thirds of the population of Zanzibar estimated enslaved; clove cultivation ordered on Zanzibar from 1828) [AUDIT 2026-06-19: re-fetched. The page does NOT carry the 40,000–50,000/yr figure, does NOT cite Petterson or R.W. Beachey, and does NOT state the ~30% plantation-death figure that the original cite attributed to it. Only the 'two-thirds enslaved by the 1850s' claim is supported. Cite corrected to match the page; this source no longer supports toll.high.]",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Slavery_in_Zanzibar",
+          "caveat": "Tertiary aggregator. As originally cited it failed verification (the specific annual-volume and mortality figures attributed to it are absent from the page as fetched on 2026-06-19), so it has been demoted to supporting only the enslaved-population proportion in the summary."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Slave Market, Zanzibar Town\" — Afar.com travel/heritage entry: 'At the height of the slave trade in the 18th and 19th centuries, some 50,000 people were brought to Zanzibar each year' [AUDIT 2026-06-19: added during the audit as a fetchable, directly-quoted source for the high end (~50,000/yr) after the originally-cited Wikipedia page was found not to carry it; the 50,000/yr figure traces in the literature to R.W. Beachey, 'The Slave Trade of Eastern Africa', Collins 1976, a real work by a real author]",
+          "supports": "toll.high",
+          "url": "https://www.afar.com/places/slave-market-zanzibar-town",
+          "caveat": "A travel/heritage page, not a scholarly source — weak provenance. It supports the bare 50,000/yr number but gives no methodology; the figure is a long-standing high-end estimate (Beachey 1976) that overlaps with rather than contradicts Cheriau's 15,000–20,000/yr and is carried as the top of a range, not as an agreed fact."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Saʿīd ibn Sulṭān / Sayyid Said (1790–1856)\" — biographical reference material (moved his capital from Muscat to Zanzibar in 1840, introduced/expanded large-scale clove production worked by enslaved labour, and increased the numbers of slaves moving through Zanzibar; financed caravans deep into the interior, reaching Lake Tanganyika by 1837) [AUDIT 2026-06-19: Britannica URL 403'd on re-fetch; the capital move (1840), clove-slavery economy and trade expansion were independently CORROBORATED via the EBSCO Research Starter on Saʿīd ibn Sultan (https://www.ebsco.com/research-starters/history/said-ibn-sultan). The specific '~30,000 a year by the 1860s' export figure and the 'Lake Malawi/Congo basin' inland detail could NOT be verified on any fetchable page (EBSCO gives Lake Tanganyika, 1837), so they have been removed from the cite to avoid an unverifiable claim.]",
+          "supports": "summary",
+          "url": "https://www.britannica.com/biography/Said-ibn-Sultan",
+          "caveat": "Reference/encyclopaedic source for Said bin Sultan's role and the 1840 capital move. The Britannica page itself was not fetchable this audit (403); the load-bearing biographical facts were re-verified via EBSCO. No precise slave-export count is carried from this source."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Slavery in Oman\" — Wikipedia (Oman a major centre of the Indian Ocean slave trade running enslaved East Africans from the Swahili coast via Zanzibar to Oman, Arabia and Persia; slavery abolished in Oman only on 23 July 1970 after Sultan Qaboos deposed his father; Sultan Said bin Taimur reportedly held ~500 slaves)",
+          "supports": "tier",
+          "url": "https://en.wikipedia.org/wiki/Slavery_in_Oman",
+          "caveat": "Tertiary aggregator; used for the trade's structure and the 1970 abolition date (which it states clearly), not for trafficking or death figures. [AUDIT 2026-06-19: re-fetched and verified verbatim — Swahili-coast→Zanzibar→Oman/Arabia/Persia routing, abolition 23 July 1970 after Qaboos deposed his father, Said bin Taimur ~500 slaves.]"
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "omn-3",
+      "country": "OMN",
+      "role": "victim",
+      "title": "Dhofari Civilians in the Dhofar War",
+      "era": "1965–1975",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Civilians died on a large scale as a result of a counter-insurgency war — bombardment, search-and-destroy operations and rebel reprisals — making this WAR; it is not a campaign to exterminate the Dhofari people, so not EXT.",
+      "agent": "All armed parties to the Dhofar war — the Sultanate of Oman's forces and their British, Iranian and Jordanian allies, and the PFLOAG/PFLO rebels (who also executed and abducted civilians)",
+      "toll": {
+        "low": 8000,
+        "high": 10000,
+        "unit": "deaths",
+        "display": "~8,000 civilian/non-combatant deaths (estimate); ~10,000 total killed across all sides over the war",
+        "disputed": true,
+        "note": "Figures are estimates. Non-combatant fatalities over the conflict are estimated at about 8,000 (carried as the low), with total deaths across all sides put at roughly 10,000 (the high). Crucially, responsibility for the civilian dead cannot be cleanly apportioned: deaths came from the Sultan's forces (and allied British/Iranian operations), from RAF/SAF airstrikes (e.g. PFLOAG claims of strikes on Hauf in 1972, unconfirmed for casualty numbers), AND from the rebels — the PFLOAG, for instance, overran Rakhyut in August 1969 and is reported to have summarily executed up to ~80 civilians. A clean victim-only-of-one-side count does not exist, so the whole-war civilian figure is carried here and the Sultanate's specific deliberate acts are recorded separately under omn-4."
+      },
+      "received_lens": "contested",
+      "summary": "Across the Dhofar war (1965–1975) the mountain people of Dhofar were caught between the Sultanate's forces and their British, Iranian and Jordanian allies on one side and the Marxist PFLOAG/PFLO rebels on the other. Roughly 8,000 non-combatants are estimated to have died — from search-and-destroy operations, airstrikes and blockade on one side and rebel executions and abductions (such as the killing of up to 80 villagers at Rakhyut in 1969) on the other — out of about 10,000 total killed.",
+      "relevance": "Dhofar's civilians are the modern victims in Oman's ledger — but the same war supplies the perpetrator entry too, because the very state meant to protect them deliberately poisoned their wells and burned their villages.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Action on Armed Violence (AOAV), \"Civilian Casualties from British Military: The Dhofar Rebellion\" (2022) — non-combatant fatalities never precisely recorded but 'believed to be approximately 8,000' over the conflict; British military deaths ~25; notes the Sultan's forces poisoned wells, killed livestock and shot civilians, while the PFLOAG executed/abducted civilians (e.g. up to 80 killed at Rakhyut, Aug 1969)",
+          "supports": "toll.low",
+          "url": "https://aoav.org.uk/2022/civilian-casualties-from-british-military-the-dhofar-rebellion/",
+          "caveat": "AOAV is an anti-armed-violence advocacy organisation; it states plainly that a civilian death count attributable to British (and by extension any single party's) action 'cannot be determined', so the 8,000 is a whole-war estimate, not a verified or apportioned figure. Bias (advocacy framing) is disclosed. [AUDIT 2026-06-19: re-fetched and verified verbatim — non-combatant fatalities 'believed to be approximately 8,000', 25 British military deaths, wells poisoned / livestock killed / civilians shot by SAF, Rakhyut Aug 1969 up to 80 executed by PFLOAP, British-action count 'cannot be determined'.]"
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Dhofar Rebellion\" — Wikipedia (1965–1975, ~10,000 total killed; rebel losses per Iranian estimates ~1,400 killed; Sultanate ~187 killed; Iran ~719 killed; UK ~24 killed; combatants: Oman, Britain, Iran, Jordan vs PFLOAG/PFLO backed by South Yemen, the USSR and China; early collective punishment — villages burned and wells concreted/blown up)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Dhofar_Rebellion",
+          "caveat": "Tertiary aggregator; the ~10,000 total and the per-side breakdowns mix sources (some, like the rebel figures, are Iranian/coalition estimates) and should be read as approximate. [AUDIT 2026-06-19: re-fetched and verified verbatim — 10,000 total killed; per-side figures (rebels ~1,400, Sultanate 187, Iran 719, UK 24); combatants Oman/Britain/Iran/Jordan vs PFLOAG/PFLO backed by South Yemen/USSR/China; villages burned, wells concreted over or blown up.]"
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "omn-4",
+      "country": "OMN",
+      "role": "perpetrator",
+      "title": "Collective Punishment of Dhofar by the Sultanate (Said bin Taimur's Regime)",
+      "era": "1965–1970 (worst phase), within the war to 1975",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "The state deliberately attacked the civilian basis of life in a rebellious region — poisoning and destroying wells, burning villages, killing livestock and shooting civilians — collective-punishment tactics in an armed conflict, which is WAR.",
+      "agent": "The Sultanate of Oman under Sultan Said bin Taimur — the Sultan's Armed Forces (officered in part by seconded/contract British personnel)",
+      "toll": {
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "display": "no regime-only death count exists; deliberate acts documented — wells poisoned/concreted/destroyed, villages burned, livestock killed, civilians shot (deaths fold into the ~8,000 whole-war civilian estimate at omn-3)",
+        "disputed": true,
+        "note": "Deliberately left null. The Sultanate's collective-punishment tactics in Dhofar are documented — heavy-handed search-and-destroy missions, villages burned, wells concreted over or blown up, wells poisoned, livestock deliberately killed and civilians shot — but no source isolates how many civilian deaths these specific acts caused as opposed to the rest of the war. To avoid fabricating a regime-only body count, the toll is null here; the aggregate civilian death estimate (~8,000) is carried once at omn-3."
+      },
+      "received_lens": "suppressed",
+      "summary": "In the early years of the Dhofar war the Sultanate of Oman under Said bin Taimur tried to break the insurgency by punishing the population that fed it: the Sultan's Armed Forces burned villages, killed livestock, and poisoned, concreted over or blew up the wells the mountain people depended on, and shot civilians. The starvation-and-thirst strategy radicalised Dhofar rather than pacifying it, and was only reversed after Qaboos overthrew his father in 1970 and shifted to a 'hearts and minds' approach.",
+      "relevance": "The same Sultanate that appears as the home of victims — Dhofaris and, centuries earlier, Muscat's massacred townsfolk — is itself the perpetrator here, waging war on its own subjects' wells and herds, so that Oman stands on both sides of a single conflict.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Action on Armed Violence (AOAV), \"Civilian Casualties from British Military: The Dhofar Rebellion\" (2022) — documents the Sultan's Armed Forces using 'the poisoning of wells, the deliberate killing of livestock, and the shooting of civilians' as coercive measures against the population",
+          "supports": "summary",
+          "url": "https://aoav.org.uk/2022/civilian-casualties-from-british-military-the-dhofar-rebellion/",
+          "caveat": "Advocacy organisation; it attributes the tactics to the Sultan's Armed Forces (with British personnel only in seconded/contract officer roles) but provides no death count for these specific acts, hence the null toll. Bias disclosed. [AUDIT 2026-06-19: re-fetched and verified verbatim — 'the poisoning of wells, the deliberate killing of livestock, and the shooting of civilians' attributed to SAF troops under Sultan Said.]"
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Dhofar Rebellion\" — Wikipedia (early-war response to the rebellion: 'heavy-handed search and destroy missions were launched in Dhofar, villages were burned, and wells were concreted over or blown up'; Sultan Said bin Taimur's repressive, development-blocking rule; reversal of policy after the 1970 coup)",
+          "supports": "tier",
+          "url": "https://en.wikipedia.org/wiki/Dhofar_Rebellion",
+          "caveat": "Tertiary aggregator; corroborates the collective-punishment tactics but gives no figure for civilian deaths caused specifically by the Sultanate's actions. [AUDIT 2026-06-19: re-fetched and verified verbatim — 'Heavy-handed search and destroy missions were launched in Dhofar, villages were burned, and wells were concreted over or blown up.']"
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

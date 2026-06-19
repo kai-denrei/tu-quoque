@@ -1,0 +1,101 @@
+{
+  "iso": "KWT",
+  "name": "Kuwait",
+  "note": "Built from scratch on 2026-06-19 with live web research (WebSearch/WebFetch). The two ledgers belong to the same seven months. VICTIM side: the Iraqi invasion and occupation of 2 August 1990 – 26 February 1991, during which Iraqi forces executed, tortured and disappeared Kuwaitis, looted the country, and left roughly 600 people 'missing' in Iraqi custody whose bodies were later recovered from mass graves in Iraq after 2003. PERPETRATOR side: as soon as the Kuwaiti government returned from exile in February 1991, it presided over a campaign of vengeance against the long-resident non-Kuwaiti population — principally Palestinians, but also Iraqis and the stateless Bedoon — involving extrajudicial killings, torture in custody, mass arbitrary detention and the expulsion or barred return of most of a community of roughly 400,000 Palestinians. The two events are causally entangled: the PLO's alignment with Saddam Hussein was the pretext for the reprisals, and the victims of the second event were not the same people as the victims of the first. A DELIBERATE OMISSION: pre-oil Kuwait (founded ~1756) was a pearling and trading sheikhdom whose economy ran partly on enslaved pearl divers and the Gulf slave trade — but in that system the Kuwaiti merchant/Nakhuda class and ruling elite were the exploiters/perpetrators and enslaved East Africans and bonded divers the victims, and there is no discrete, sourceable death toll, so it is flagged here for honesty rather than fabricated into an event. Tolls: the occupation death figures rest on Middle East Watch and Amnesty contemporaneous documentation plus Kuwaiti government missing-persons counts and are carried as ranges; the post-liberation killing range is anchored on the firmly documented 'over 40 extrajudicial killings' (Middle East Watch, 'A Victory Turned Sour', 1991) at the low end and a much larger, contested ~4,000-killed claim (Rosen, Middle East Quarterly, 2012) at the high end, with the dispute shown. No figure, source, author or URL here was invented.",
+  "events": [
+    {
+      "id": "kwt-1",
+      "country": "KWT",
+      "role": "victim",
+      "title": "Iraqi Invasion and Occupation of Kuwait",
+      "era": "1990–1991",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "A state army invaded and occupied a neighbouring country, killing combatants and civilians, summarily executing resisters and disappearing detainees during a seven-month belligerent occupation — armed-conflict and occupation killing of a population, which is WAR; the targeted executions of resistance suspects shade toward POL but the event is anchored on the invasion/occupation as a whole.",
+      "agent": "Iraq under Saddam Hussein — the Iraqi Army and security/intelligence forces occupying Kuwait",
+      "toll": {
+        "low": 600,
+        "high": 1000,
+        "unit": "deaths",
+        "display": "at least ~600 Kuwaitis killed in the first three months (Middle East Watch); ~1,000 Kuwaitis estimated to have died over the war (Kuwaiti sources); ~600 disappeared in Iraqi custody, many later found in mass graves",
+        "disputed": true,
+        "note": "Figures are contemporaneous estimates, not a verified census. Middle East Watch (Human Rights Watch) estimated at least 600 Kuwaitis were killed in the first three months following the August 1990 invasion, with scores summarily executed in September–October 1990 and again in January–February 1991. Kuwaiti sources put total Kuwaiti deaths during the 1990–91 war at roughly 1,000 (with more than 1,200 'martyrs' counted over a longer span). Separately, about 600 Kuwaitis and other residents last seen in Iraqi custody were registered as 'missing'/disappeared; the remains of many were recovered from mass graves in Iraq after the 2003 fall of Saddam Hussein. The disputed flag reflects that the low (killed in first three months) and high (total war deaths) measure different spans, and that direct civilian, soldier and non-national death breakdowns vary by source."
+      },
+      "received_lens": "memorial",
+      "summary": "In the early hours of 2 August 1990 more than 100,000 Iraqi troops poured across the border and seized Kuwait City within a day. Over the seven-month occupation Iraqi forces arbitrarily detained thousands, tortured prisoners, and summarily executed suspected resistance members — some shot in front of their families — while stripping the country of its wealth. When the occupation ended in February 1991, around 600 Kuwaitis and other residents who had vanished into Iraqi custody were still missing; many of their bodies were later dug from mass graves inside Iraq.",
+      "relevance": "Kuwait's foundational modern atrocity is one done TO it — yet the same government that returned in triumph as the wronged victim immediately turned its security forces on its own resident Palestinian, Iraqi and stateless population, so the atlas carries both halves of the same year.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Human Rights Watch / Middle East Watch World Report 1990, 'Iraq and Occupied Kuwait' (Middle East Watch estimate of at least 600 Kuwaitis killed in the first three months of occupation; summary executions in September–October 1990 of physicians, hospital volunteers and food-distribution personnel, some in front of their families; widespread torture and arbitrary detention; continued summary executions Jan–Feb 1991). The same occupation narrative is carried forward in the HRW World Report 1992 'Iraq and Occupied Kuwait' chapter.",
+          "supports": "toll.low",
+          "url": "https://www.refworld.org/reference/annualreport/hrw/1991/en/43631",
+          "caveat": "Human Rights Watch is a human-rights monitor; figures are its contemporaneous wartime estimates, not a verified count. AUDIT 2026-06-19: the specific 'at least 600 killed in the first three months' figure is documented (via Refworld's indexed text) in HRW's World Report 1990 'Iraq and Occupied Kuwait' (refworld id 43631 / docid 467fca3cc), NOT in the World Report 1992 chapter the record originally cited (refworld id 40507) — the URL has been corrected to the report that actually carries the figure; the 1992 chapter (https://www.refworld.org/reference/annualreport/hrw/1992/en/40507) corroborates the same occupation killings. Both Refworld pages return HTTP 403 to automated fetch and are verified from Refworld's search-indexed full text and corroborating Middle East Watch reporting, not full-page extraction."
+        },
+        {
+          "kind": "press",
+          "cite": "HISTORY, 'Iraq invades Kuwait | August 2, 1990' (invasion of >100,000 Iraqi troops on 2 Aug 1990; capture of Kuwait City within hours; Iraqi forces killed hundreds and jailed/tortured hundreds more; systematic looting of gold reserves, equipment and museum treasures; occupation ended 26 Feb 1991)",
+          "supports": "summary",
+          "url": "https://www.history.com/this-day-in-history/august-2/iraq-invades-kuwait",
+          "caveat": "Popular-history outlet; used for the narrative outline of the invasion and looting, not for precise casualty figures."
+        },
+        {
+          "kind": "reference",
+          "cite": "Amnesty International, 'Iraq/Occupied Kuwait' (Dec 1990, MDE 14/16/90) and subsequent reporting — documentation of arbitrary arrest and detention without trial of thousands, widespread torture in custody, and extrajudicial execution of unarmed civilians including children during the occupation; roughly 600 Kuwaitis last seen in Iraqi custody registered as missing, with remains later found in mass graves in Iraq",
+          "supports": "toll.high",
+          "url": "https://www.amnesty.org/en/documents/mde14/016/1990/en/",
+          "caveat": "Amnesty International is a human-rights advocacy organisation. AUDIT 2026-06-19: the document is VERIFIED to exist with this exact reference number (MDE 14/16/90), title ('Iraq/Occupied Kuwait: Human Rights Violations Since 2 August'), and December 1990 date; it documents arbitrary arrest and detention without trial of thousands, widespread torture, and the extrajudicial execution of hundreds of unarmed civilians including children. The original PDF URL (the Arabic-path /ar/ mirror) returned HTTP 403 to automated fetch, so the citation URL has been corrected to Amnesty's canonical English document landing page. The ~600 missing and the post-2003 mass-grave recoveries are well attested across multiple sources but the precise death total remains an estimate."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "kwt-2",
+      "country": "KWT",
+      "role": "perpetrator",
+      "title": "Post-Liberation Reprisals and Expulsion of Palestinians and Other Residents",
+      "era": "1991",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "A reinstated government used murder, torture, arbitrary mass detention and forced expulsion against an ethnic/political category of residents (chiefly Palestinians, plus Iraqis and stateless Bedoon) it branded collaborators — deliberate state repression and collective punishment of a perceived enemy group, which is POL; the systematic targeting and mass expulsion of an ethnic community brushes against EXT but the documented killing toll and the dominant character (expulsion, not extermination) keep it at POL.",
+      "agent": "The reinstated Kuwaiti government — its security forces (notably the State Security Investigative Police) and irregular armed groups, including members linked to the ruling family, working with official forces",
+      "toll": {
+        "low": 40,
+        "high": 4000,
+        "unit": "deaths",
+        "display": "over 40 extrajudicial killings documented (Middle East Watch, the majority Palestinians); a far higher, contested ~4,000-killed claim (Rosen/MEQ); alongside ~200,000 Palestinians expelled and ~200,000 more barred from returning; 6,000+ detained",
+        "disputed": true,
+        "note": "The killing toll is genuinely contested. Middle East Watch's September 1991 report 'A Victory Turned Sour' firmly documented OVER FORTY extrajudicial killings during the post-liberation martial-law period (February–June 1991), the majority of victims Palestinians; one Kuwait cemetery, al-Rigga, held 54 'unidentified' bodies of people killed or dead in unexplained circumstances after liberation. That ~40+ figure is the well-documented LOW. The HIGH, ~4,000 killed (with ~16,000 said to have been tortured), is reported by Steven J. Rosen in Middle East Quarterly (2012) who attributes it to the Palestinian advocacy organisation Badil; it is an order of magnitude larger and far less firmly sourced (a partisan-origin figure relayed through a partisan outlet) — carried as the contested high, not as an established count. The non-lethal scale is clearer: roughly 200,000 Palestinians were expelled from March–September 1991 and about 200,000 more who had fled during the Iraqi occupation were denied return (out of a pre-war Palestinian community of roughly 357,000–450,000, reduced to ~10,000–22,000 by September 1991), and more than 6,000 people, mostly Palestinians, Iraqis and Bedoon, were detained between February and November 1991."
+      },
+      "received_lens": "denied",
+      "summary": "When Kuwait's government returned from exile on 26 February 1991, its security forces and allied armed groups launched a campaign of vengeance against the long-resident non-Kuwaiti population it accused of collaborating with the Iraqi occupiers — above all Palestinians, whose leadership had sided with Saddam Hussein. Human-rights monitors documented more than forty extrajudicial killings, torture by electric shock and beatings in detention, and more than 6,000 arbitrary arrests, while officials urged the 'cleansing' of alleged fifth columnists. Through terror, dismissal from jobs and economic strangulation, roughly 200,000 Palestinians were driven out and another 200,000 barred from returning, all but erasing a community of nearly 400,000.",
+      "relevance": "This is the atlas's hinge for Kuwait: the same nation that had just suffered Iraqi occupation answered its liberation by murdering, torturing and expelling its own Palestinian, Iraqi and stateless residents — the wronged victim of one season becoming the perpetrator of the next, against people who had nothing to do with the invasion.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch / Middle East Watch, 'A Victory Turned Sour: Human Rights in Kuwait since Liberation' (September 1991) — 64-page report documenting over forty extrajudicial killings (the majority Palestinians), deaths in detention from beatings and neglect, systematic torture, and a government-inspired campaign of vengeance against Palestinians, Iraqis and stateless Bedoon",
+          "supports": "toll.low",
+          "url": "https://www.hrw.org/report/1991/09/01/victory-turned-sour-human-rights-kuwait-liberation",
+          "caveat": "Human Rights Watch is a human-rights monitor; this is the principal contemporaneous documentation and is the basis for the well-attested 'over 40 extrajudicial killings' low-end figure."
+        },
+        {
+          "kind": "reference",
+          "cite": "Human Rights Watch World Report 1992, 'Kuwait' chapter (post-liberation summary executions and deaths in detention during March–April 1991; 54 unidentified bodies in al-Rigga cemetery; more than 6,000 detained Feb–Nov 1991, mostly Palestinians, Iraqis and Bedoon; torture by electric shock, burns and beatings by the State Security Investigative Police and irregular armed groups; over 1,500 deported March–August 1991)",
+          "supports": "summary",
+          "url": "https://www.hrw.org/reports/1992/WR92/MEW2.htm",
+          "caveat": "Human Rights Watch monitor; used for the detention, torture, cemetery and perpetrator-agency detail. Figures are HRW's contemporaneous documentation."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Steven J. Rosen, 'Kuwait Expels Thousands of Palestinians', Middle East Quarterly, Fall 2012 (pre-war Palestinian community of ~400,000–450,000; ~200,000 expelled March–September 1991 and ~200,000 more denied return, leaving ~10,000–22,000 by September 1991; contested estimates of ~4,000 killed and ~16,000 tortured in Kuwaiti detention; economic strangulation; officials' calls to 'cleanse' Kuwait of alleged fifth columnists)",
+          "supports": "toll.high",
+          "url": "https://www.meforum.org/middle-east-quarterly/kuwait-expels-palestinians",
+          "caveat": "Middle East Quarterly is published by the Middle East Forum, a think tank with a pronounced pro-Israel editorial stance, and the author is a former AIPAC research director — a clear partisan lens on a Palestinian-displacement subject. AUDIT 2026-06-19: the article is VERIFIED to exist (Vol 19 No 4, Fall 2012). DOUBLE-FLAG ON PROVENANCE: the ~4,000-killed / ~16,000-tortured figures are NOT Rosen's own estimate — in the article he attributes them to Badil (a Palestinian advocacy organisation: 'About 4,000 people were killed, and 16,000 tortured'). So the contested high originates in a Palestinian-advocacy source and is relayed through a pro-Israel outlet; both ends of that chain are partisan and the number is an order of magnitude above Middle East Watch's contemporaneously documented '40+' killings. It is carried ONLY as the contested high end, not as an established count. The displacement figures (~200,000 expelled / ~200,000 barred; pre-war ~400,000–450,000 down to ~20,000) are quoted in this article and corroborated by Wikipedia and HRW."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}
