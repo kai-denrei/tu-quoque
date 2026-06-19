@@ -1,0 +1,186 @@
+{
+  "iso": "COG",
+  "name": "Republic of the Congo",
+  "note": "Frequently confused with its larger neighbour across the river, the Democratic Republic of the Congo (former Belgian Congo, ISO COD) — this entry is the smaller Republic of the Congo (Congo-Brazzaville), the former French colony of Middle Congo within French Equatorial Africa. Its atrocity record is strongest and best documented on the VICTIM side, under two French colonial systems: the early concessionary-company terror of the 1890s–1900s (forced rubber labour, hostage camps and killings, exposed by the suppressed 1905 Brazza report) and the Congo-Océan railroad of 1921–1934, one of the deadliest construction projects in history. The PERPETRATOR ledger is thinner but real and modern: it belongs to the post-colonial state and the personal rule of Denis Sassou-Nguesso, above all the 'Disappeared of the Beach' — the May 1999 abduction and presumed murder of returning refugees by his presidential guard. The 1997–1999 civil war sits ACROSS the line: Congolese civilians were killed in indiscriminate shelling of Brazzaville by BOTH Sassou-Nguesso's Cobra militia and President Lissouba's government forces, so it is logged here as a victim event for the population while noting that Congolese factions, including the eventual victor's own militia, did the killing. Two toll caveats: the colonial concessionary-era death count for the French Congo specifically has never been reconstructed as a defensible single number and is left null (the often-cited '10 million' / 'half the population' figure belongs to the BELGIAN Congo Free State and must not be borrowed here); and the Congo-Océan toll spans roughly 15,000–23,000 in mainstream estimates to as high as 60,000 in unofficial ones.",
+  "events": [
+    {
+      "id": "cog-1",
+      "country": "COG",
+      "role": "victim",
+      "title": "French concessionary-company terror in the Middle Congo",
+      "era": "c.1898–1910",
+      "era_band": "colonial",
+      "tier": "POL",
+      "tier_reasoning": "A regime of forced rubber and ivory extraction enforced by hostage-taking, beatings and killings to compel quotas — sustained violent domination and political terror of a subject population to extract labour, rather than a campaign to exterminate a defined group, so POL; the aggregate dead it caused were never counted.",
+      "agent": "French concessionary companies and colonial agents in Middle Congo (French Equatorial Africa), with the complicity of the colonial administration",
+      "toll": {
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "display": "many thousands killed; aggregate never reconstructed",
+        "disputed": true,
+        "note": "QUARANTINE (death metric): No defensible aggregate death toll exists for the French Congo concessionary period, so low/high are null and the event is held UNVERIFIED on the NUMBER only — the atrocity pattern is well attested. The 1905 inquiry led by Pierre Savorgnan de Brazza documented systematic hostage camps, requisitions and killings: at Bangui, inspectors found dozens of women crammed without ventilation as hostages for rubber, many of whom died within weeks; in the 1903 'Gaud–Toqué affair' two French administrators executed an African man, Pakpa, with dynamite. These are documented TYPES of mortality, not a count. IMPORTANT: the widely cited figure of roughly 10 million dead, or 'half the population', refers to the BELGIAN Congo Free State (ISO COD) and must NOT be transferred to the French Congo; no comparable reconstructed figure exists for the French side."
+      },
+      "received_lens": "suppressed",
+      "summary": "From the late 1890s France carved its Middle Congo territory into vast concessions and let private companies extract rubber and ivory by force. Company agents and colonial officials seized women and children as hostages to compel rubber quotas, flogged and killed those who fell short, and disrupted the food economy until communities starved. In 1905 Pierre Savorgnan de Brazza was sent to investigate, documented hostage camps, mass deaths in custody and atrocities such as the dynamiting of a prisoner; his report was buried by the French government and not published for a century.",
+      "relevance": "The foundational violence done to the people of Congo-Brazzaville — a French concessionary terror long overshadowed by the better-known horrors of the Belgian Congo across the river, and deliberately suppressed by the colonial power that committed it.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Encyclopaedia Britannica, 'Republic of the Congo — The colonial era' — ruthless treatment of local people and extreme exploitation by concessionary companies mobilising forced labour for rubber and palm oil; Brazza's 1905 inquiry into the excesses",
+          "supports": "summary",
+          "url": "https://www.britannica.com/place/Republic-of-the-Congo/The-colonial-era",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "Nofi Media (English), 'Rapport Brazza: Anatomy of a colonial state silence' (2025) — the 1905 Brazza report on the French Congo: hostage camps (Bangui, dozens of women dead in custody), rubber quotas destroying subsistence, the 1903 Gaud–Toqué dynamite killing of Pakpa; the report buried and reduced from ~1,200 to ~112 pages",
+          "supports": "summary",
+          "url": "https://www.nofi.media/en/2025/07/rapport-brazza-anatomy-of-a-colonia/96471",
+          "caveat": "Advocacy-leaning outlet on colonial memory; used for the documented abuses and the suppression of the Brazza report, not for any aggregate toll (which it does not provide)."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Moudwe Daga (SOAS), African Affairs, ''A symbol of French colonialism': The Brazza Memorial and contested colonial memory in Congo', Vol. 124, Issue 494 (Jan 2025), pp. 25-45, DOI 10.1093/afraf/adaf006 — the colonial violence of the French Congo and its contested memorialisation",
+          "supports": "summary",
+          "url": "https://academic.oup.com/afraf/article/124/494/25/8058724",
+          "caveat": null
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "cog-2",
+      "country": "COG",
+      "role": "victim",
+      "title": "The Congo-Océan railroad",
+      "era": "1921–1934",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "Death on a vast scale driven by forced conscription, starvation rations, disease and exhaustion on a labour project the colonial state knew was killing its workers — structural/conditions-of-life mortality rather than a deliberate campaign to destroy a defined group, so STR; the toll is contested across a wide range.",
+      "agent": "the French colonial administration of French Equatorial Africa and the construction firm Société de Construction des Batignolles, using forced-labour conscripts",
+      "toll": {
+        "low": 15000,
+        "high": 60000,
+        "unit": "deaths",
+        "display": "~15,000–23,000 (mainstream); up to ~60,000 (unofficial estimates); at least ~20,000 (Daughton)",
+        "disputed": true,
+        "note": "Estimates diverge widely and no rigorous count was kept. Historian J.P. Daughton, drawing on French and Congolese archives for 'In the Forest of No Joy' (2021), concludes at least ~20,000 African workers died building the line. Mainstream summaries give a range of roughly 15,000–23,000 deaths; unofficial investigations have claimed far higher figures of 30,000–60,000. The low anchor (15,000) and high anchor (60,000) bracket the full cited span; the central, best-supported estimate is 'at least 20,000.' Workers were forcibly conscripted from across French Equatorial Africa, transported in chains, and died from disease, malnutrition and abuse in the Mayombe forest."
+      },
+      "received_lens": "suppressed",
+      "summary": "To link Brazzaville to the Atlantic at Pointe-Noire, the French colonial administration and the contractor Société de Construction des Batignolles built a 511-kilometre railway through the Mayombe forest between 1921 and 1934. Tens of thousands of African men were conscripted at gunpoint from across French Equatorial Africa, marched in chains to the worksite, and set to hacking, digging and tunnelling on starvation rations. They died in the thousands from disease, exhaustion, malnutrition and abuse — a mortality the French administration recorded and continued to tolerate. André Gide and others denounced it; the contractor and the metropolitan press downplayed it.",
+      "relevance": "One of the deadliest construction projects in history, suffered by the people of Congo-Brazzaville at the hands of a French state that prided itself on humanitarianism — the central monument of the colonial-era victim ledger.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Stanford Report, 'Deadly railroad project in Congo reveals colonial-era abuses' (2021), on J.P. Daughton, 'In the Forest of No Joy' (Norton, 2021) — at least ~20,000 believed to have died, 1921–1934; Daughton drew on French and Congolese archives, company records, survivor interviews, medical and photographic evidence",
+          "supports": "toll.low",
+          "url": "https://news.stanford.edu/stories/2021/07/deadly-railroad-project-congo-reveals-colonial-era-abuses",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'In the Forest of No Joy' / 'Congo–Ocean Railway' — built 1921–1934 by the Société de Construction des Batignolles for France in French Equatorial Africa; forced conscription, transport in chains, deadly labour in the Mayombe forest; mainstream ~15,000–23,000 and unofficial up-to-~60,000 death ranges",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/In_the_Forest_of_No_Joy",
+          "caveat": "Tertiary aggregator; the wide span (15,000 to 60,000) reflects the genuine absence of a reliable count, with the higher figures from unofficial investigations."
+        },
+        {
+          "kind": "press",
+          "cite": "Foreign Affairs, capsule review of J.P. Daughton, 'In the Forest of No Joy' (20 Apr 2021) — confirms the railroad as one of history's deadliest construction projects and Daughton's archival basis",
+          "supports": "summary",
+          "url": "https://www.foreignaffairs.com/reviews/capsule-review/2021-04-20/forest-no-joy-congo-ocean-railroad-and-tragedy-french-colonialism",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cog-3",
+      "country": "COG",
+      "role": "perpetrator",
+      "title": "The 'Disappeared of the Beach' (Brazzaville river port)",
+      "era": "1999",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "The state's own presidential guard abducted and forcibly disappeared returning refugees, presumed executed, as political reprisal in the wake of civil war — targeted enforced disappearance and killing of perceived enemies by the government, so POL.",
+      "agent": "the Republic of the Congo presidential guard under President Denis Sassou-Nguesso; officers later named include Republican Guard commander Gen. Blaise Adoua and Army Inspector-General Norbert Dabira",
+      "toll": {
+        "low": 85,
+        "high": 353,
+        "unit": "deaths",
+        "display": "~85 to ~353 disappeared (presumed killed)",
+        "disputed": true,
+        "note": "Figures cited vary. Human-rights filings and reporting commonly cite 'more than 350' (often 353) refugees who disappeared at the Beach river port in the first weeks of May 1999 and were never seen again, presumed murdered. The 2005 Brazzaville trial of 15 security officials addressed the cases of about 85–86 of the disappeared and ended in acquittals, though the court ordered the state to pay compensation to the relatives of 86 victims. The low anchor (85/86) is the number formally adjudicated; the high anchor (353) is the figure most cited for the total who vanished. The returnees were among roughly 6,500 refugees coming home from the DRC under a UN-brokered humanitarian corridor."
+      },
+      "received_lens": "denied",
+      "summary": "In May 1999, as civil war wound down, several thousand Congolese refugees returned from the Democratic Republic of the Congo to Brazzaville through a UN-brokered humanitarian corridor that landed at the river port known as 'the Beach.' There members of President Denis Sassou-Nguesso's presidential guard arrested hundreds of mostly young men for 'interrogation'; more than 350 were never seen again and are presumed to have been killed near the presidential palace. A 2005 trial of fifteen security officials, including the Republican Guard commander, ended in acquittals; only compensation to some families was ordered.",
+      "relevance": "Congo-Brazzaville as perpetrator against its own returning people: a state that abducted and disappeared the very refugees it had guaranteed safe passage, then secured impunity for those responsible — the clearest modern entry in the perpetrator ledger.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "FIDH (International Federation for Human Rights), 'The Disappeared of Beach, Brazzaville case' — more than 350 persons disappeared at the Beach in the first weeks of May 1999; the 2005 Brazzaville trial of 15 security officials ended in acquittals ('show-trial'); ~80 rescued victims/relatives as civil parties in the French proceeding; defendants include Army Inspector-General Norbert Dabira",
+          "supports": "toll.high",
+          "url": "https://www.fidh.org/en/issues/litigation/litigation-against-individuals/the-disappeared-of-the-beach-case/15898-the-disappeared-of-beach-brazzaville-case-the-defence-of-norbert-dabira",
+          "caveat": "Litigant/advocacy organisation acting for the victims; used for the documented facts of the case and the trial outcome, which are corroborated by independent reporting."
+        },
+        {
+          "kind": "press",
+          "cite": "France 24 / AFP, 'The missing of Brazzaville's \"Beach\", 20 years on' (14 May 2019) — ~350 detained by Congolese security services in May 1999 among ~6,500 refugees returning from DRC; case implicates Republican Guard commander Gen. Blaise Adoua and Inspector-General Norbert Dabira; 2005 trial of 15 officials addressed 85 cases and ended in acquittals",
+          "supports": "toll.low",
+          "url": "https://www.france24.com/en/20190514-missing-brazzavilles-beach-20-years",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "The New Humanitarian (formerly IRIN), 'Disappeared but not forgotten: Brazzaville's missing refugees' — the May 1999 disappearances at the Beach, the missing presumed killed, and the long failure of accountability",
+          "supports": "summary",
+          "url": "https://www.thenewhumanitarian.org/report/75431/congo-disappeared-not-forgotten-brazzaville%E2%80%99s-missing-refugees",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cog-4",
+      "country": "COG",
+      "role": "victim",
+      "title": "Civil war shelling of Brazzaville and the Pool",
+      "era": "1997–1999",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Indiscriminate artillery and militia violence killed civilians in densely populated districts during an armed power struggle — armed-conflict mortality including civilians, rather than a campaign to destroy a defined group, so WAR.",
+      "agent": "rival Congolese forces: Denis Sassou-Nguesso's Cobra militia (Angolan-backed) and President Pascal Lissouba's government forces and allied Cocoye and Ninja militias",
+      "toll": {
+        "low": 13929,
+        "high": 25050,
+        "unit": "deaths",
+        "display": "~13,900–25,000 deaths (1997–1999 war total)",
+        "disputed": true,
+        "note": "Aggregated estimates for the 1997–1999 war total give roughly 13,929–25,050 deaths, with over 200,000 internally displaced. No precise count exists; the figures are war-wide and include both phases (the 1997 battle for Brazzaville and the 1998–1999 Pool fighting). Single documented incidents include the December 1998 bombardment of the Bacongo and Makélékélé districts of Brazzaville, reported to have killed at least ~1,000 people. The toll cannot be attributed to one side: BOTH Sassou-Nguesso's Cobra militia and Lissouba's government forces shelled populated areas of the capital, which is why this is logged as a victim event for the Congolese population while noting Congolese factions did the killing. SINGLE-SOURCE NUMERIC RANGE (audit flag): the precise 13,929-25,050 endpoints derive from a single tertiary aggregate (Wikipedia); the underlying pattern of mass civilian death from indiscriminate shelling and the December 1998 Bacongo/Makelekele toll of at least ~1,000 are independently corroborated by the U.S. State Department 1997 and 1998 Country Reports, but the specific range endpoints are not independently sourced and no rigorous count exists."
+      },
+      "received_lens": "contested",
+      "summary": "When the 1992 elected president Pascal Lissouba and former ruler Denis Sassou-Nguesso fought for power in 1997, their militias turned Brazzaville into a battlefield, shelling crowded districts indiscriminately; with Angolan military backing, Sassou-Nguesso's Cobra militia seized the capital in October 1997 and he took power. Fighting then spread to the Pool region in 1998–1999, displacing hundreds of thousands. The December 1998 bombardment of the Bacongo and Makélékélé neighbourhoods alone reportedly killed at least a thousand civilians. Roughly 14,000 to 25,000 people died across the war.",
+      "relevance": "An atrocity that sits across the dual ledger: the Congolese people were the victims, but the shelling was done by rival Congolese factions — including the Cobra militia of the man who would rule the country for the next quarter-century — so the same war belongs to both the victim and perpetrator stories.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Republic of the Congo Civil War (1997–1999)' — ~13,929–25,050 total deaths and over 200,000 displaced; indiscriminate shelling of Brazzaville by both Lissouba's forces and Sassou-Nguesso's militias; December 1998 Bacongo/Makélékélé bombardment with at least ~1,000 dead; Angolan backing for the Cobra militia",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Republic_of_the_Congo_Civil_War_(1997%E2%80%931999)",
+          "caveat": "Tertiary aggregator; the toll range is war-wide and not separable by perpetrating side, and no rigorous count exists for this conflict."
+        },
+        {
+          "kind": "reference",
+          "cite": "U.S. Department of State, 1997 Country Report on Human Rights Practices — Republic of Congo — extrajudicial killings, indiscriminate shelling of Brazzaville neighbourhoods by both sides, and ethnic targeting of civilians during the 1997 fighting",
+          "supports": "summary",
+          "url": "https://1997-2001.state.gov/global/human_rights/1997_hrp_report/congorep.html",
+          "caveat": "A foreign government's human-rights report; used for the documented pattern of civilian harm during the 1997 war, not for a precise toll."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

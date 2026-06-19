@@ -1,0 +1,172 @@
+{
+  "iso": "SVK",
+  "name": "Slovakia",
+  "note": "Slovakia is one of the atlas's cleanest cases of a people who were both the destroyed and the destroyers inside the same war. As victims, the Jews of the wartime Slovak State were annihilated — roughly 69,000 of about 89,000 killed — and after the 1944 Slovak National Uprising was crushed, German units and their Slovak collaborators burned more than a hundred villages and shot thousands of Slovak partisans, suspected partisans and civilians in reprisal. But the perpetrator ledger is unusually direct: the clerical-fascist Slovak State led by President Jozef Tiso was the first Axis partner to consent to deporting its own Jews, and the only one that actually paid Germany to take them — 500 Reichsmarks per person, more than 30 million RM in total — believing it was buying their resettlement when in fact it was financing their murder. The same Hlinka Guard that helped round up Jews in 1942 reconstituted as the POHG emergency divisions in 1944–45 and stood beside German Einsatzkommandos at the mass graves of Kremnička and Nemecká. The two ledgers here are not symmetric in scale but they are entangled in personnel and institutions: the victim story and the perpetrator story were carried out, in part, by the same uniforms. The note worth keeping is that Slovak Jews appear in BOTH ledgers — as the people destroyed, and as the people their own government paid to have destroyed.",
+  "events": [
+    {
+      "id": "svk-1",
+      "country": "SVK",
+      "role": "victim",
+      "title": "The Holocaust in Slovakia",
+      "era": "1942–1945",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "The near-total destruction of the Jewish population of Slovakia, killed for who they were, is the paradigm case of EXT.",
+      "agent": "Nazi Germany's killing apparatus at the camps in occupied Poland, supplied by the Slovak State, which deported the victims",
+      "toll": {
+        "display": "~68,000–69,000 killed",
+        "disputed": true,
+        "low": 68000,
+        "high": 69000,
+        "unit": "deaths",
+        "note": "Of roughly 89,000 Jews recorded in the Slovak Republic in the 1940 census, an estimated ~69,000 were murdered. About 57,000–58,000 were deported in the first wave (March–October 1942), and a further ~12,600 (USHMM) to ~13,500 (Wikipedia) in the second wave after the German invasion of September 1944. The USHMM states 'more than 70,000 Jews' were deported from Slovakia and 'the Germans murdered more than 60,000 of them'; the per-country total most often cited is ~68,000–69,000 dead. Exact figures are uncertain because, as the Wikipedia overview notes, the sources for the 1942 wave diverge. A separate ~45,000 Jews lived in the southern districts ceded to Hungary in 1938 and were largely deported by Hungary in 1944 — they are counted in Hungary's record, not here."
+      },
+      "received_lens": "memorial",
+      "summary": "Between March and October 1942 the Slovak State concentrated and deported some 58,000 of its Jews to Auschwitz, Majdanek, Sobibor and the ghettos of the Lublin district, where the SS murdered nearly all of them; after the Germans occupied Slovakia in 1944 they deported about 12,600 more. Of roughly 89,000 Slovak Jews, around 69,000 were killed.",
+      "relevance": "Slovakia appears here as the land where a people was destroyed — the same Jews who, in Slovakia's own perpetrator ledger, were handed over by their government for a fee.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "United States Holocaust Memorial Museum, Holocaust Encyclopedia, 'The Holocaust in Slovakia' — ~88,951 Jews in the 1940 census; ~57,000 deported March–October 1942; ~12,600 deported from September 1944; 'German and Slovak authorities deported more than 70,000 Jews from Slovakia; the Germans murdered more than 60,000 of them'",
+          "supports": "toll.low",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/the-holocaust-in-slovakia",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'The Holocaust in Slovakia' — 89,000 Jews in 1940 (3.4% of population); ~58,000 deported 25 Mar–20 Oct 1942 ('the exact number is unknown due to discrepancies in the sources'); ~13,500 deported in the 1944–45 second wave; 'an estimated 69,000 were murdered'",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/The_Holocaust_in_Slovakia",
+          "caveat": "Tertiary aggregator; the 1942 figure is itself stated as uncertain, so it is used here as the high-end consensus estimate alongside the USHMM."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "svk-2",
+      "country": "SVK",
+      "role": "victim",
+      "title": "Reprisals after the Slovak National Uprising",
+      "era": "1944–1945",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Punitive mass killing of partisans, suspected partisans and civilians and the destruction of villages during the occupation that followed the uprising — atrocity within and after combat, so WAR.",
+      "agent": "Nazi Germany's SS and security units (including the Dirlewanger Brigade and Einsatzgruppe H), with Slovak collaborator formations",
+      "toll": {
+        "display": "~4,000–5,300 killed in reprisals; 100+ villages destroyed",
+        "disputed": true,
+        "low": 4000,
+        "high": 5300,
+        "unit": "deaths",
+        "note": "Estimates of the number murdered by the Germans and their collaborators on Slovak territory from September 1944 to March 1945 range from about 4,000 to 5,300; more than 100 villages were destroyed in retaliation (including Kalište, Tokajik, Telgart, Cierny Balog and Kremnicka). This count is for the reprisal/occupation killings; roughly 3,000 more insurgent soldiers and partisans died in the fighting itself, and about 30,000 Slovaks were deported to German camps. The reprisal dead overlap partly with the Kremnicka and Nemecka massacres (event svk-4), which are recorded separately on the perpetrator side because Slovak units took part."
+      },
+      "received_lens": "memorial",
+      "summary": "When the Slovak National Uprising of August–October 1944 was crushed, German forces occupied the country and waged a campaign of reprisal — hanging partisans and their families, burning more than a hundred villages, and shooting thousands of suspected insurgents and civilians at sites across central Slovakia until the front overtook them in spring 1945.",
+      "relevance": "Slovaks as the targets of occupation terror — even as Slovak collaborator units stood among the killers at some of the same execution sites, the entanglement that defines this country's ledgers.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "The National WWII Museum, 'The Slovak National Uprising of 1944' — the number murdered by the Germans and their collaborators on Slovak territory September 1944–March 1945 'ranges between 4,000 to 5,300 people'; 'more than 100 villages were destroyed in retaliation'",
+          "supports": "toll.low",
+          "url": "https://www.nationalww2museum.org/war/articles/slovak-national-uprising-1944",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Slovak National Uprising' — German reprisals killed 'up to 5,000 people' (about 2,000 of them Jews); German forces totaled nearly 50,000 men including the SS-Sonderregiment Dirlewanger and SS units; ~30,000 Slovak citizens deported to camps",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Slovak_National_Uprising",
+          "caveat": "Tertiary aggregator; reprisal-death figures vary by source and definition (occupation period vs combat), used here for the high-end band."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "svk-3",
+      "country": "SVK",
+      "role": "perpetrator",
+      "title": "The Slovak State's deportation of its own Jews",
+      "era": "1942",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "The Slovak State organized, legislated and paid for the removal of its Jewish citizens to extermination — knowing participation in the destruction of a group as such, so EXT, even though the gassing itself was carried out on German soil.",
+      "agent": "The Slovak State under President Jozef Tiso and PM Vojtech Tuka, with the Hlinka Guard and gendarmerie running the round-ups",
+      "toll": {
+        "display": "~57,000–58,000 deported in 1942; nearly all killed",
+        "disputed": true,
+        "low": 57000,
+        "high": 58000,
+        "unit": "deaths",
+        "note": "Slovak authorities deported about 57,000–58,000 Jews between 25 March and 20 October 1942; only a few hundred survived. The Slovak government paid Germany 500 Reichsmarks per deportee — more than 30 million RM in total — for what it was told was resettlement. This event counts the 1942 deportations the Slovak State itself organized; the deaths overlap with the broader Holocaust toll recorded on the victim side (event svk-1), and are entered here to attribute Slovak state agency, not as an additional toll. The exact 1942 figure is uncertain (sources give 57,000–58,000). QUARANTINE (audit 2026-06-19): status set UNVERIFIED for a SOURCE-INTEGRITY defect, not a factual one. The underlying facts — ~57,000–58,000 deported, 500 RM/head, >30 million RM total, first/only Axis state to pay — are all independently true and traceable (USHMM and Wikipedia 'The Holocaust in Slovakia' / 'Deportation of Jews from Slovakia'). But two of the three citations attached to this event did NOT support the specific claims tagged to them: the Auschwitz Museum podcast page does not state '57,000', 'first Axis partner', or '30 million' (it supports only the 500 RM fee and 'only state to pay'), and the USHMM Tiso article contains no mention of any payment/Reichsmarks at all. The toll.low (57,000) is therefore now carried by the USHMM 'Holocaust in Slovakia' figure and toll.high (58,000) by Wikipedia — both sourced on event svk-1 — rather than by the mis-attributed Auschwitz cite. Cites and 'supports' fields corrected; re-verify and restore VERIFIED once a source that explicitly states each number is bound directly to it."
+      },
+      "received_lens": "contested",
+      "summary": "The clerical-fascist Slovak State was the first of Germany's Axis partners to consent to deporting its own Jews and the only one to pay for it — 500 Reichsmarks a head — passing the laws, organizing the transports and using the Hlinka Guard to drive some 58,000 Jews to the camps in occupied Poland in 1942, where almost all were murdered.",
+      "relevance": "The atlas's sharpest dual lens: the same Slovak Jews who appear in the victim ledger were, in this ledger, deported and paid for by their own government — a state financing the murder of its citizens.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'The Holocaust in Slovakia' — ~58,000 deported 25 Mar–20 Oct 1942; Slovak State agreed to pay 500 Reichsmarks per deportee; 'Slovakia was the only country which paid to deport its Jewish population' (aside from Croatia at 30 RM); deportations organized by the Slovak government with the Hlinka Guard and gendarmerie",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/The_Holocaust_in_Slovakia",
+          "caveat": "Tertiary aggregator; the per-deportee payment and the 'first/only Axis state to pay' framing are well-established in the scholarship it cites."
+        },
+        {
+          "kind": "primary",
+          "cite": "Auschwitz-Birkenau Memorial and Museum, 'Deportations of Jews from Slovakia' (e-learning podcast) — Slovakia paid a fee of '500 Reichsmarks per person — a considerable sum'; 'Slovakia was the only state that decided to pay' substantial sums to deport its Jews; first transports of 1,000 women, men sent to camps in the Lublin region",
+          "supports": "summary",
+          "url": "https://www.auschwitz.org/en/education/e-learning/podcast/deportations-of-jews-from-slovakia/",
+          "caveat": "AUDIT 2026-06-19: the page (twice re-fetched) supports only the 500 RM fee and 'only state to pay'; it does NOT contain the phrases 'first Axis partner', 'over 30 million RM', or the figure '57,000 deported March–October 1942' that the original cite attributed to it. Cite and 'supports' corrected accordingly; the 57,000 figure is carried by the USHMM/Wikipedia sources, not this one."
+        },
+        {
+          "kind": "reference",
+          "cite": "United States Holocaust Memorial Museum, Holocaust Encyclopedia, 'Jozef Tiso' — 'In March 1942, Slovakian authorities signed an agreement with Nazi Germany that permitted the deportation of the Slovak Jews'; describes the deportation process organized under the Tiso-led Slovak state",
+          "supports": "summary",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/jozef-tiso-1",
+          "caveat": "AUDIT 2026-06-19: the Tiso article supports the March 1942 deportation agreement and Slovak state agency, but it contains NO mention of Reichsmarks, payment, or a 500 RM-per-Jew fee (verified by two targeted re-fetches). The original cite's payment claim was unsupported by this source and has been removed; the 500 RM / 30 million RM facts are carried by the Wikipedia and Auschwitz Museum sources."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "svk-4",
+      "country": "SVK",
+      "role": "perpetrator",
+      "title": "The Kremnicka and Nemecka massacres",
+      "era": "1944–1945",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "Mass executions in which roughly half the victims were Jews and Roma killed for who they were, the rest partisans and suspects shot at pit-side — deliberate killing of marked groups, so EXT.",
+      "agent": "The Hlinka Guard Emergency Divisions (POHG), alongside the German Einsatzkommando 14 of Einsatzgruppe H",
+      "toll": {
+        "display": "~1,600–1,650 killed",
+        "disputed": true,
+        "low": 1600,
+        "high": 1650,
+        "unit": "deaths",
+        "note": "About 747 people were shot at Kremnicka (211 women, 58 children; roughly half Jewish) and approximately 900 killed at Nemecka, where bodies were burned, making the count an estimate — together on the order of 1,600–1,650. Victims included Jews, Roma, captured and suspected partisans, and a few Allied servicemen. Slovak Hlinka Guard emergency divisions took part in the killings alongside German Einsatzkommando 14, which is why this is recorded on the perpetrator side; the dead also fall within the broader reprisal toll on the victim side (event svk-2)."
+      },
+      "received_lens": "memorial",
+      "summary": "After the Slovak National Uprising collapsed, the Hlinka Guard Emergency Divisions and the German Einsatzkommando 14 shot some 747 prisoners into mass graves at Kremnicka and burned roughly 900 more at Nemecka over the winter of 1944–45 — Jews, Roma, partisans and suspects, about half of the Kremnicka dead Jewish.",
+      "relevance": "Direct Slovak agency in killing: the same Hlinka Guard that had rounded up Jews for deportation in 1942 stood at the pits in 1944, making Slovaks perpetrators and not merely the occupier's bystanders.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Kremnicka and Nemecka massacres' — 747 victims at Kremnicka (211 women, 58 children, about half Jewish), ~900 at Nemecka (bodies cremated, figure estimated); 'both the Hlinka Guardsmen and Einsatzkommando 14 participated in the killings'; victims included Jews, Roma, partisans and suspected partisans",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Kremni%C4%8Dka_and_Nemeck%C3%A1_massacres",
+          "caveat": "Tertiary aggregator; the Nemecka total is an estimate because the bodies were burned, so the combined figure is a range."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Einsatzgruppe H' — the German security police task force deployed in Slovakia after the uprising worked with Slovak collaborator units (including the Hlinka Guard Emergency Divisions / POHG) in the killings of Jews and partisans, including at Kremnicka and Nemecka",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Einsatzgruppe_H",
+          "caveat": "Tertiary aggregator; cited for the German–Slovak joint perpetration that defines the dual-lens point."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

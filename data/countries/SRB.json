@@ -1,0 +1,172 @@
+{
+  "iso": "SRB",
+  "name": "Serbia",
+  "note": "Serbia is one of the clearest dual-lens cases in modern Europe, and the two ledgers sit only fifty years apart. In the Second World War Serbs were among the worst-hit peoples of occupied Yugoslavia: the Croatian Ustaša state set out to destroy the Serb population of its territory, and German occupiers shot Serbian civilians by the thousand in reprisal — Serbian memory of this (Jasenovac, Kragujevac) is deep, justified, and politically alive. The perpetrator ledger is the mirror image and the harder one for Serbian national memory: in the 1990s wars of Yugoslav succession, forces acting in the Serb national cause carried out the worst atrocities in Europe since 1945 — the Srebrenica genocide and the ethnic cleansing of Kosovo. A live distinction must be kept honestly: Srebrenica was committed by the Bosnian Serb Army of Republika Srpska, not directly by the Serbian state (the ICJ found Serbia guilty of failing to prevent and punish, not of committing, the genocide), whereas the Kosovo campaign was run by the Serbian/FRY state itself under Milošević. Both belong on the perpetrator ledger because they were carried out in the Serb national name; the atlas tags the act, not the nation, and does not let one ledger cancel the other.",
+  "events": [
+    {
+      "id": "srb-1",
+      "country": "SRB",
+      "role": "victim",
+      "title": "Ustaša Extermination of Serbs in the Independent State of Croatia",
+      "era": "1941–45",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "The Ustaša regime set out to eliminate the Serb population of its territory through killing, expulsion, and forced conversion — deliberate destruction of a group as such, the defining extermination case.",
+      "agent": "The Ustaša regime of the Axis-puppet Independent State of Croatia (NDH) — Ustaša militia and Croatian state police, in Croatia and Bosnia-Herzegovina",
+      "toll": {
+        "display": "~320,000–340,000 Serbs killed (USHMM); higher estimates exist",
+        "disputed": true,
+        "low": 320000,
+        "high": 340000,
+        "unit": "deaths",
+        "note": "The US Holocaust Memorial Museum estimates Ustaša authorities murdered 320,000–340,000 ethnic Serbs across Croatia and Bosnia during NDH rule. At the Jasenovac camp complex specifically, USHMM estimates 45,000–52,000 Serbs among 77,000–99,000 total victims. Higher figures circulate (Yad Vashem cites 'over 500,000' killed plus 250,000 expelled and 200,000 forcibly converted to Catholicism); some Serbian nationalist and some Croatian apologist counts diverge sharply for political reasons. The range here is the deliberate-killing figure; the dispute is shown rather than resolved."
+      },
+      "received_lens": "memorial",
+      "summary": "After the Axis carved up Yugoslavia in 1941, the Ustaša regime of the puppet Croatian state launched a campaign to rid its territory of Serbs by killing, expelling, or forcibly converting them. Ustaša militia burned Serbian villages, massacred inhabitants, and ran a network of camps — Jasenovac the most notorious — where tens of thousands of Serbs, along with Jews and Roma, were murdered. Hundreds of thousands of Serbs died.",
+      "relevance": "This is the heaviest entry on Serbia's victim ledger and the historical wound most cited in Serbian memory — the same memory that, fifty years later, made the perpetrator ledger of the 1990s so hard for the nation to face.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "USHMM Holocaust Encyclopedia, 'Jasenovac' — 45,000–52,000 Serbs among 77,000–99,000 total camp victims; 320,000–340,000 Serbs killed across NDH territory",
+          "supports": "toll.low",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/jasenovac",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "USHMM Holocaust Encyclopedia, 'Axis Invasion of Yugoslavia' — Croat authorities killed between 320,000 and 340,000 ethnic Serbs in Croatia and Bosnia-Herzegovina",
+          "supports": "toll.high",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/axis-invasion-of-yugoslavia",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "srb-2",
+      "country": "SRB",
+      "role": "victim",
+      "title": "Kragujevac Massacre",
+      "era": "1941",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "German forces shot thousands of civilian hostages in reprisal for partisan attacks — a war crime of collective punishment against a captive civilian population, not an attempt to destroy the Serb people as such.",
+      "agent": "German Wehrmacht units (724th and 749th Infantry Regiments), assisted by Serbian collaborationist auxiliaries, in occupied Serbia",
+      "toll": {
+        "display": "~2,778 killed (German-Serbian scholarly consensus)",
+        "disputed": true,
+        "low": 2778,
+        "high": 2794,
+        "unit": "deaths",
+        "note": "German and Serbian scholars have converged on roughly 2,778–2,794 killed over 21 October 1941, including about 144 high-school students and other minors. Wartime German records reported around 2,300 shot; some postwar Yugoslav estimates ran to 5,000–7,000. The lower scholarly figure is now the agreed one; the higher historical claims are noted as contested."
+      },
+      "received_lens": "memorial",
+      "summary": "On 21 October 1941 German occupation forces rounded up the men and boys of Kragujevac and shot roughly 2,800 of them at the Šumarice field, in reprisal for partisan attacks that had killed and wounded German soldiers — under Hitler's standing order of 100 hostages per German killed. Among the dead were schoolboys taken straight from their classrooms.",
+      "relevance": "Kragujevac is the emblem of German reprisal terror in Serbia and a fixture of Serbian victim memory — the kind of collective-punishment massacre that, when Serbian forces later besieged and shelled civilians in the 1990s, the atlas insists be read against the perpetrator ledger rather than only the victim one.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Kragujevac massacre' relaying German-Serbian scholarly consensus — ~2,778–2,794 killed including 144 high-school students; carried out by German 724th/749th Infantry Regiments with collaborationist auxiliaries",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Kragujevac_massacre",
+          "caveat": "Tertiary aggregator; it relays the agreed German-Serbian scholarly figure but is not itself the primary authority."
+        },
+        {
+          "kind": "press",
+          "cite": "HISTORY.com, 'Germans massacre men, women and children in Yugoslavia, October 21, 1941' — German army murdered 2,300 men and boys at Kragujevac in October 1941 in reprisal (wartime-record figure)",
+          "supports": "summary",
+          "url": "https://www.history.com/this-day-in-history/october-21/germans-massacre-men-women-and-children-in-yugoslavia",
+          "caveat": "Popular-history outlet citing the lower wartime German-record figure (2,300), not the 2,778–2,794 scholarly consensus used for the toll; used to corroborate the event and order of magnitude, not as the primary authority."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "srb-3",
+      "country": "SRB",
+      "role": "perpetrator",
+      "title": "Srebrenica Genocide",
+      "era": "1995",
+      "era_band": "contemporary",
+      "tier": "EXT",
+      "tier_reasoning": "International courts ruled the systematic execution of Bosniak men and boys at Srebrenica an act of genocide — the deliberate destruction of part of a group as such, the defining extermination case.",
+      "agent": "The Army of Republika Srpska (Bosnian Serb forces) under General Ratko Mladić, with Serbian paramilitary units; ordered within Republika Srpska's military and political leadership",
+      "toll": {
+        "display": "~8,000 Bosniak men and boys killed",
+        "disputed": false,
+        "low": 7000,
+        "high": 8372,
+        "unit": "deaths",
+        "note": "The widely cited figure is more than 8,000 Bosniak (Bosnian Muslim) men and boys killed over a few days in July 1995; the Srebrenica-Potočari memorial lists 8,372 names. Identified-remains counts have climbed past 6,900 through DNA work, which is why a low end around 7,000 is firmly documented and the ~8,000+ figure is the accepted total. Roughly 30,000 women, children, and elderly were forcibly expelled. The toll is not seriously disputed in scholarship; denial of it is a political, not an evidentiary, position."
+      },
+      "received_lens": "denied",
+      "summary": "In July 1995 the Bosnian Serb Army overran the UN 'safe area' of Srebrenica, separated the Bosniak men and boys from the women, and over several days executed more than 8,000 of them in fields, warehouses, and schools, burying them in mass graves later dug up and scattered to hide the crime. The women and children were expelled. It was the worst single mass killing in Europe since the Second World War.",
+      "relevance": "Srebrenica is the heaviest entry on Serbia's perpetrator ledger — and the one most actively denied in Serbian and Republika Srpska public life — committed in the Serb national name even though by the Bosnian Serb army rather than the Belgrade state, which is exactly the kind of atrocity the atlas refuses to let a nation's victim history excuse.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "United Nations, 'About the 1995 Genocide in Srebrenica' — up to 8,000 Bosnian Muslim men and boys killed by Bosnian Serb forces under Ratko Mladić; ruled genocide by ICTY and ICJ; 16 convicted including Mladić and Karadžić",
+          "supports": "toll.high",
+          "url": "https://www.un.org/en/observances/srebrenica-genocide-commemoration-day/about",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Britannica, 'Srebrenica genocide' — more than 8,000 Bosniak boys and men killed by Bosnian Serb forces; ICTY and ICJ findings of genocide",
+          "supports": "summary",
+          "url": "https://www.britannica.com/event/Srebrenica-genocide",
+          "caveat": null
+        },
+        {
+          "kind": "primary",
+          "cite": "ICTY Outreach, 'Facts About Srebrenica' — judicially established account of the July 1995 mass executions of Bosniak men and boys",
+          "supports": "tier",
+          "url": "https://www.icty.org/x/file/Outreach/view_from_hague/jit_srebrenica_en.pdf",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "srb-4",
+      "country": "SRB",
+      "role": "perpetrator",
+      "title": "Ethnic Cleansing of Kosovo",
+      "era": "1998–99",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Serbian and Yugoslav state forces ran a coordinated campaign of killings and mass expulsion to drive the Albanian population out of Kosovo — destruction and removal of a national group below the threshold of total extermination.",
+      "agent": "Serbian Ministry of Interior police, Yugoslav Army (VJ), and Serb paramilitaries, directed through the FRY/Serbian chain of command under President Slobodan Milošević",
+      "toll": {
+        "display": "~10,000–13,500 Kosovar Albanians killed; ~862,000 expelled",
+        "disputed": true,
+        "low": 10000,
+        "high": 13500,
+        "unit": "deaths",
+        "note": "The Humanitarian Law Center / Kosovo Memory Book documents roughly 13,500 dead and missing on all sides, the large majority Kosovar Albanian civilians killed by Serbian/Yugoslav forces; HRW documented over 3,400 specific killings and noted this was an undercount, and ICTY exhumations had reached about 4,300 bodies by mid-2001. Around 862,000 Albanians were expelled from Kosovo and several hundred thousand more internally displaced. The death range is contested at the edges; the mass-expulsion figure is firm."
+      },
+      "received_lens": "contested",
+      "summary": "Between 1998 and June 1999, Serbian police, the Yugoslav army, and allied paramilitaries waged a campaign across Kosovo to drive out its Albanian majority — massacring civilians in villages such as Račak and Gornje Obrinje, burning homes, and forcing roughly 862,000 people across the borders at gunpoint. The killings and expulsions were directed from the top of the Serbian and Yugoslav state under Slobodan Milošević.",
+      "relevance": "Kosovo is the perpetrator atrocity carried out directly by the Serbian state rather than a proxy army, and it sits on the ledger beside the WWII victim entries as the cleanest case of the dual lens: the people shelled at Kragujevac in 1941 became, through their state, the people who emptied Kosovo's villages in 1999.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, 'Under Orders: War Crimes in Kosovo' — coordinated campaign by Serbian MUP, VJ, and paramilitaries under Milošević's chain of command; 862,979 Albanians expelled; 3,453 documented killings (acknowledged undercount)",
+          "supports": "summary",
+          "url": "https://www.hrw.org/reports/2001/kosovo/undword.htm",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Humanitarian Law Center, Kosovo Memory Book Database — 13,535 individuals killed or disappeared during the 1998–2000 Kosovo conflict (10,812 Albanians, 2,197 Serbs, 526 other non-Albanians), based on 31,600 documents",
+          "supports": "toll.high",
+          "url": "https://www.hlc-rdc.org/en/dokumentovanje-i-pamcenje-2/31600-documents-undoubtedly-confirm-death-or-disappearance-of-13535-individuals-during-war-in-kosovo/",
+          "caveat": "All-sides total: the 13,535 figure covers all ethnicities and combatants; the large majority (10,812) are ethnic Albanians, the bulk of them civilians killed by Serbian/Yugoslav forces, but not every Albanian death is attributable to those forces."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

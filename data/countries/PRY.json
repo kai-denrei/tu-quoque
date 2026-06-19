@@ -1,0 +1,149 @@
+{
+  "iso": "PRY",
+  "name": "Paraguay",
+  "note": "Paraguay's dual ledger is unusually clean on both sides. On the 'done to them' (victim) side stands the War of the Triple Alliance (1864-1870), in which the combined armies of Brazil, Argentina, and Uruguay invaded, occupied, and waged a war of near-annihilation against Paraguay's people — proportionally one of the deadliest wars in modern history, though the precise toll is among the most disputed figures in Latin American demography (population decline runs from Vera Blinn Reber's low of about 7-18.5% to Thomas Whigham and Barbara Potthast's high of 60-69%, and not all of that decline was death — migration and lost territory are folded in, so death-count low/high are entered as sourced ranges with the dispute and the death-vs-decline caveat made explicit). On the 'in their name' (perpetrator) side the agent is the Paraguayan state itself under General Alfredo Stroessner's 35-year dictatorship (1954-1989): the systematic state terror documented by the official Comisión de Verdad y Justicia (executions, forced disappearances, mass torture, exile), and — recorded as a separate event because it targeted a defined people for destruction — the catastrophe of the Aché (Guayakí), the forest-dwelling indigenous nation whose population collapsed through slave raids, child abductions, forced resettlement, and killings as the agricultural and logging frontier was opened on Stroessner's watch. The asymmetry of eras (one nineteenth-century war as victim, two twentieth-century state crimes as perpetrator) reflects the record, not a thumb on the scale: no event, toll, or source was added to balance the two sides. Where the toll is irreducibly contested (the war) or unregistered (the Aché dead), the number is left as a sourced range or null with the dispute named, and the affected event is marked UNVERIFIED on toll grounds alone.",
+  "events": [
+    {
+      "id": "pry-1",
+      "country": "PRY",
+      "role": "victim",
+      "title": "The War of the Triple Alliance: Paraguay's near-destruction",
+      "era": "1864-1870",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "An interstate war in which invading allied armies fought, occupied, and broke a belligerent state, with mass death of soldiers and civilians from combat, starvation, and epidemic, is warfare (WAR) — even though its closing campaigns of pursuit, scorched earth, and conscription of boys and old men approached annihilation, it was not a declared program to exterminate Paraguayans as an ethnic group (EXT).",
+      "agent": "the allied armies of Brazil, Argentina, and Uruguay — the Triple Alliance — who, after Paraguay's president Francisco Solano Lopez opened hostilities, invaded and occupied Paraguay and pressed the war for years to its end, while Lopez's own government drove the dwindling Paraguayan population, including boys and old men, into the field until his death at Cerro Cora in March 1870",
+      "toll": {
+        "display": "deaths sharply disputed: from roughly 21,000-55,000 (Reber, low end, much of it non-lethal decline) to roughly 250,000-310,000+ (Whigham & Potthast, high end); population fell from about 420,000-450,000 pre-war to as low as ~166,000-221,000 after",
+        "disputed": true,
+        "low": 21000,
+        "high": 310000,
+        "unit": "deaths",
+        "note": "This is one of the most contested tolls in Latin American history, and much of the dispute is about whether figures describe deaths or total population decline. Vera Blinn Reber (1988) put population loss at about 8.7-18.5% of a ~300,000 pre-war population (secondary sources sometimes round the low end to ~7%) — implying on the order of 21,000-55,000 deaths once migration (1-3%) and lost territory are separated out from mortality. Thomas Whigham and Barbara Potthast, in 'The Paraguayan Rosetta Stone' (Latin American Research Review, 1999), argued for 60-69% loss from a ~420,000-450,000 pre-war population (fell to ~140,000-166,000), implying roughly 252,000-310,000 dead; Jan Kleinpenning (2002) recalculated an intermediate ~43-51%. The traditional claim of a ~1.3 million pre-war population and a near-total male die-off (the oft-cited 28,746 surviving men) is now discredited and the male-survivor figure is shown to be false. The low (21,000) and high (310,000) are both sourced to the published demographic scholarship; the true death count is unknown and the order-of-magnitude gap is itself the historical record. AUDIT 2026-06-19: all three sources verified to exist and to support their attached claims; Reber's HAHR article and the Whigham/Potthast revision (and Whigham & Potthast's separate 1990 HAHR critique 'Some Strong Reservations') confirmed. Event remains UNVERIFIED on toll grounds alone — the death count is irreducibly disputed, not because any source failed. Even on the conservative reading the proportional loss makes this one of the deadliest wars in modern history relative to population."
+      },
+      "received_lens": "memorial",
+      "summary": "After Paraguay's president Francisco Solano Lopez took the country to war in late 1864, Brazil, Argentina, and Uruguay allied against him and invaded. Over more than five years their armies ground down the Paraguayan forces and then the country itself; combat, starvation, and cholera and other epidemics killed soldiers and civilians together, and in the final campaigns a collapsing Paraguay sent boys and old men into battle. By Lopez's death at Cerro Cora in 1870 Paraguay's population had fallen catastrophically — by scholarly estimates running from roughly a sixth to two-thirds of its people — and the nation was left occupied, dismembered of territory, and demographically broken.",
+      "relevance": "Here Paraguay's people are the victims of neighboring states that invaded and nearly unmade them — the foundational national wound — even as the same Paraguayan state would in the next century turn its security apparatus on its own citizens and on the Aché, placing the country on both sides of the ledger.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Vera Blinn Reber, \"The Demographics of Paraguay: A Reinterpretation of the Great War, 1864-70,\" Hispanic American Historical Review 68:2 (1988) — argues the war cost Paraguay roughly 7-18.5% of a ~300,000 pre-war population and separates mortality from migration and territorial loss; the principal low-end revision against the older catastrophist figures",
+          "supports": "toll.low",
+          "url": "https://read.dukeupress.edu/hahr/article/68/2/289/147309/The-Demographics-of-Paraguay-A-Reinterpretation-of",
+          "caveat": "A revisionist demographic argument that deliberately minimizes the traditional toll; cited as the sourced low bound of the dispute, not as a settled count. AUDIT: article verified to exist (HAHR 68:2, 1988) via Duke University Press; its existence is further attested by Whigham & Potthast's published 1990 HAHR rebuttal 'Some Strong Reservations.' Duke's hosted page is paywalled and 403s automated fetch, but the citation, range, and pre-war population figure are confirmed. The published low percentage is ~8.7% (some secondaries say 7%); the implied ~21,000 floor stands within the sourced spread."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Paraguayan War casualties,\" Wikipedia — surveys the competing demographic estimates: Reber's 7-18.5% low, Whigham & Potthast's 60-69% high (implying ~252,000-310,000 deaths from a 420,000-450,000 pre-war population), Kleinpenning's intermediate ~43-51%, the discredited ~1.3 million pre-war claim, and the now-falsified 28,746-surviving-men figure",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Paraguayan_War_casualties",
+          "caveat": "Tertiary aggregator; used precisely because it lays out the full spread of published estimates and the death-vs-population-decline distinction, not to assert a single number."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"War of the Triple Alliance,\" Encyclopaedia Britannica — overview of the 1864-1870 war: Brazil, Argentina, and Uruguay allied against Paraguay under Francisco Solano Lopez, the prolonged invasion and occupation, the devastation of the Paraguayan population, and Lopez's death at Cerro Cora in 1870",
+          "supports": "summary",
+          "url": "https://www.britannica.com/event/War-of-the-Triple-Alliance",
+          "caveat": null
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "pry-2",
+      "country": "PRY",
+      "role": "perpetrator",
+      "title": "State terror under the Stroessner dictatorship",
+      "era": "1954-1989",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Systematic killing, forced disappearance, mass torture, and exile of perceived opponents by a state to seize and hold power for 35 years is political mass violence (POL) — repression of a population by its own government, not warfare (WAR) or the destruction of an ethnic group (EXT).",
+      "agent": "General Alfredo Stroessner and the Paraguayan state he ruled from his 1954 coup until 1989 — the army, the police (notably the investigations department under Pastor Coronel), and the apparatus of the Colorado Party — which detained, tortured, killed, disappeared, and exiled political opponents, and which served as a hub of the cross-border Operation Condor network in the 1970s",
+      "toll": {
+        "display": "official Truth Commission count: 59 extrajudicially executed and 336 forcibly disappeared (~395 dead/disappeared); 18,772 tortured; 3,470 exiled; about 20,090 direct victims documented for 1954-2003",
+        "disputed": false,
+        "low": 395,
+        "high": 425,
+        "unit": "deaths",
+        "note": "Paraguay's official Comisión de Verdad y Justicia (Truth and Justice Commission), whose 2008 final report 'Anive hagua oiko' covered 1954-2003, documented 59 people extrajudicially executed and 336 forcibly disappeared (detenidos-desaparecidos) — about 395 killed or disappeared — alongside 18,772 people tortured, 3,470 forced into exile, and roughly 20,090 direct victims of human-rights violations in total. The killed-or-disappeared figure is sometimes rounded to ~423-425 in press accounts; the low/high here bracket the Commission's 395 and that higher rounded figure. These are documented-case totals from the Commission's investigation, not an estimate of all deaths, so the real toll may be higher; the figures are treated as a sourced, undisputed register rather than a contested range. Of those murdered, the bodies of only a few dozen have ever been recovered. AUDIT 2026-06-19: the full register (59 / 336 / 18,772 / 3,470 / ~20,090, period 1954-2003) is independently corroborated across multiple sources, and the codehupy primary page is confirmed to host the eight-volume final report. The toll is well-sourced and undisputed; event upgraded to VERIFIED."
+      },
+      "received_lens": "memorial",
+      "summary": "From his 1954 coup until his overthrow in 1989, General Alfredo Stroessner ran Latin America's longest dictatorship of the era, fusing the army and the Colorado Party into a machine for crushing dissent. The police and security services detained, tortured, killed, and disappeared opponents, and Paraguay became a key node of Operation Condor, the cross-border campaign by South America's military regimes to hunt exiles. Paraguay's own Truth and Justice Commission later documented 59 executed, 336 disappeared, nearly nineteen thousand tortured, and thousands more driven into exile.",
+      "relevance": "This is the Paraguayan state as perpetrator against its own citizens — the same nation that was the victim of invasion in the 1860s turning its security apparatus inward for a generation, the self-inflicted national trauma the dual lens exists to hold open alongside Paraguay's role as victim.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "Comisión de Verdad y Justicia del Paraguay, 'Informe Final: Anive hagua oiko' (2008) — the official state truth commission report on human-rights violations of 1954-2003, source of the documented totals of 59 executed, 336 disappeared, 18,772 tortured, 3,470 exiled, and ~20,090 direct victims",
+          "supports": "toll.low",
+          "url": "https://www.codehupy.org.py/verdadyjusticia/",
+          "caveat": "Official state commission; the figures are documented-case counts and likely a floor rather than a ceiling on total victims. The repository page links the eight-volume PDF report but the page text itself did not render the numeric tables on automated fetch; the totals were corroborated through multiple independent secondary summaries of the report."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Comisión de Verdad y Justicia,\" Spanish Wikipedia — summarizes the Paraguayan Truth Commission's findings: 20,090 direct victims, 336 disappeared, 18,772 tortured, 59 extrajudicially executed, and 3,470 exiled during 1954-2003",
+          "supports": "toll.high",
+          "url": "https://es.wikipedia.org/wiki/Comisi%C3%B3n_de_Verdad_y_Justicia",
+          "caveat": "Tertiary aggregator. AUDIT: on automated fetch this page reliably renders only the executed/disappeared figures (59 + 336; one line garbles the sum as '325'); the torture/exile/total figures (18,772 / 3,470 / ~20,090) were NOT visible on this page on fetch and are corroborated instead through the official report and independent Spanish-language summaries, which all agree. Treat this citation as corroborating the killed/disappeared count; the high-end totals rest on the primary CVJ report, not this page."
+        },
+        {
+          "kind": "press",
+          "cite": "World Politics Review, \"The Specter of Stroessner's Dictatorship Still Haunts Paraguay\" — account of the 1954-1989 regime, its repression and torture apparatus, Paraguay's role in Operation Condor, and the Truth Commission's documentation of the victims",
+          "supports": "summary",
+          "url": "https://www.worldpoliticsreview.com/paraguay-stroessner-politics-dictatorship-operation-condor/",
+          "caveat": "Subscription news analysis; cited for narrative context, not for the numeric toll. AUDIT: article verified to exist at the cited URL, covering Stroessner 1954-1989, the secret-police apparatus, the Archives of Terror, and Paraguay's role in Operation Condor."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "pry-3",
+      "country": "PRY",
+      "role": "perpetrator",
+      "title": "Destruction of the Aché (Guayakí) people",
+      "era": "1954-1978",
+      "era_band": "contemporary",
+      "tier": "EXT",
+      "tier_reasoning": "Slave raids, abduction of children, forced resettlement onto reservations run by the regime's agents, and killings that collapsed a defined indigenous people by most accounts well over half — the targeted destruction of a group as such — is recorded as extermination (EXT), though scholars debate whether the legal threshold of 'specific intent' to destroy was met, with the state arguing the deaths were a byproduct of frontier expansion rather than a declared program.",
+      "agent": "the Paraguayan state under Alfredo Stroessner together with the settlers, ranchers, loggers, and slave-raiders it enabled — opening Aché forest land in eastern Paraguay to roads, ranching, and timber while official and quasi-official reservations (such as the one associated with the New Tribes Mission and the regime's indigenous-affairs apparatus) became sites where the captured Aché died of disease, hunger, and violence",
+      "toll": {
+        "display": "death-count unregistered; the Aché population fell by an estimated 60-85% during the 1960s-1970s (one estimate ~900 deaths), but no verified count exists",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "low_alt": 500,
+        "high_alt": 1000,
+        "unit": "deaths",
+        "note": "There is no official death register for the Aché catastrophe, so death-count low/high are null. Scholarship and indigenous-rights documentation estimate that 60-85% of the Aché perished during the 1960s and 1970s, with one figure putting the dead at roughly 900; the disputed order-of-magnitude range (~500-1,000) is recorded in low_alt/high_alt with this caveat. Deaths folded together outright killings (people 'hacked to death with machetes' to clear land), slave raids in which adults were murdered and children seized and sold, and mass mortality from disease, hunger, and despair on the reservations. The German anthropologist Mark Münzel documented the atrocities in his 1973 IWGIA report 'The Aché Indians: Genocide in Paraguay' (his genocide accusation dates to 1971; followed by Richard Arens, ed., 'Genocide in Paraguay,' Temple University Press, 1976, with an epilogue by Elie Wiesel); the British, U.S., and West German governments at the time denied a genocide was occurring. In 2013-2014 surviving Aché (the Federación Nativa Aché), advised by jurist Baltasar Garzón, filed a universal-jurisdiction genocide suit in Argentina against those responsible for the Stroessner-era crimes. Whether the legal threshold of genocidal intent was met remains contested (Jérémie Gilbert notes the difficulty of proving 'specific intent'); the demographic destruction of the people is not. AUDIT 2026-06-19: all three sources verified to exist and to support their claims — Münzel's IWGIA Document 11 (1973, 82 pp.) and Arens (Temple UP, 1976, ISBN 9780877220886) are real books; the Wikipedia and Survival International items carry the 85%/~900 estimates and the Argentine suit. Event remains UNVERIFIED on toll grounds alone: no death register for the Aché exists anywhere (low/high null), so the toll cannot be verified even though source integrity passes."
+      },
+      "received_lens": "contested",
+      "summary": "As Stroessner's government opened the forests of eastern Paraguay to roads, ranches, and logging in the 1950s through 1970s, the forest-dwelling Aché were hunted, killed, and broken as a people. Slave-raiders murdered adults and seized children to be sold or given away; survivors were rounded up onto reservations tied to the regime's indigenous-affairs office and a foreign mission, where disease, hunger, and violence killed many more. By most accounts the Aché lost between 60 and 85 percent of their population. Anthropologist Mark Münzel's reports brought international charges of genocide, which the regime and several Western governments denied.",
+      "relevance": "Here the Paraguayan state is perpetrator against a people within its own borders — clearing a forest nation off its land for the frontier economy — the indigenous-victim crime that sits inside the same dictatorship as the political repression of pry-2, and that complicates any picture of Paraguay solely as the wronged party of pry-1.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Genocide of Indigenous peoples in Paraguay,\" Wikipedia — documents the Aché catastrophe under Stroessner: an estimated 85% of the tribe died in the 1960s-1970s (one estimate ~900 deaths), people 'hacked to death with machetes' to clear land for timber, mining, farming, and ranching, Münzel's 1971 genocide accusation, and the debate over genocidal intent",
+          "supports": "toll.note",
+          "url": "https://en.wikipedia.org/wiki/Genocide_of_Indigenous_peoples_in_Paraguay",
+          "caveat": "Tertiary aggregator; carries the 60-85% / ~900 estimates and the intent dispute and is used to record that the toll is contested and unregistered, not to assert a count."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Mark Münzel, 'The Aché Indians: Genocide in Paraguay' (IWGIA Document 11, 1973); and Richard Arens, ed., 'Genocide in Paraguay' (Temple University Press, 1976) — the foundational anthropological documentation of the slave raids, child abductions, reservation deaths, and population collapse of the Aché under the Stroessner regime",
+          "supports": "summary",
+          "url": "https://www.iwgia.org/en/paraguay/2067-ache-people-of-paraguay-madrid-conference-on-a-for",
+          "caveat": "Münzel wrote as an advocate-anthropologist charging genocide; cited as the primary contemporaneous documentation of the atrocities. The linked IWGIA page is a later conference notice on the 'forgotten genocide' rather than the full 1973 document; the 1973 report and the 1976 Arens volume are the underlying sources. AUDIT: both underlying works verified to exist (Münzel, IWGIA Doc. 11, 1973; Arens ed., Temple UP, 1976, ISBN 9780877220886). IWGIA still hosts the report directly (a scanned PDF and a publication page exist) — the conference-notice URL is a weaker pointer than necessary but is real and the attribution is accurate."
+        },
+        {
+          "kind": "press",
+          "cite": "Survival International, \"South American tribe sues over historic genocide\" — reports the Aché's 2013-2014 universal-jurisdiction genocide suit in Argentina (with jurist Baltasar Garzón) over atrocities under Stroessner's dictatorship in the late 1960s",
+          "supports": "summary",
+          "url": "https://www.survivalinternational.org/news/10264",
+          "caveat": "Indigenous-rights advocacy organization; cited for the existence and framing of the Argentine genocide suit, not for a death toll."
+        }
+      ],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

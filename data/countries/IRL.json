@@ -1,0 +1,193 @@
+{
+  "iso": "IRL",
+  "name": "Ireland",
+  "note": "Built from scratch. The victim ledger is the documented core of Irish modern memory: the Cromwellian conquest and the Great Famine, both mass-death events the colonial overlord (England/Britain) inflicted on Ireland's people and both already held as PERPETRATOR rows under GBR — the same events, read from the other side. The perpetrator ledger is genuinely thin and the asymmetry is real, not an oversight: for most of recorded history Ireland was a conquered island with no sovereign state of its own to commit atrocity in its name, and the modern Irish Republic (independent 1922) has fought no war of aggression and run no colony. Two honest perpetrator entries survive that test. The 1641 rebellion: Irish Catholic insurgents and the peasantry killed thousands of Protestant settlers, the largest organised mass killing committed by Irish hands — but there was no Irish state, the agent was a rebellion against colonisation, and the toll was wildly inflated by contemporary propaganda. The Mother and Baby Homes: a 20th-century atrocity of the actual Irish state and the Catholic Church it empowered, where ~9,000 children of unmarried mothers died at lethal rates in institutions the Republic funded and licensed. Tolls are kept as ranges with the dispute shown; nothing was invented to balance the two sides.",
+  "events": [
+    {
+      "id": "irl-1",
+      "country": "IRL",
+      "role": "victim",
+      "title": "The Great Famine (An Gorta Mór)",
+      "era": "1845–1852",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "Mass death came from potato blight and the starvation and epidemic disease that followed, not a deliberate campaign to exterminate the Irish as a group; the charge is that British relief policy and continued food exports turned blight into catastrophe — structural-policy culpability, fiercely contested as to intent.",
+      "agent": "British government (Whig administration; Trevelyan's relief regime) over a colonised Ireland",
+      "toll": {
+        "display": "~1 million dead (+ ~1 million emigrated); higher estimates ~1.1–1.5M",
+        "disputed": true,
+        "low": 1000000,
+        "high": 1500000,
+        "unit": "deaths",
+        "note": "Roughly 1 million excess deaths from starvation and famine disease is the consensus figure (Ó Gráda's 'informed guess', since no civil registration existed). Counting averted births pushes the demographic loss toward ~1.4M. A further ~1 million emigrated. Ireland's population fell from ~8.4M (1844) to ~6.6M (1851) and kept falling for decades. The figure is a population-decline reconstruction, not a death count. The deeper dispute is British culpability: the shift from relief to laissez-faire and the export of food from a starving country. AUDIT QUARANTINE (2026-06-19): the toll.high source is unverifiable as cited. The URL attached to the ~1.1–1.5M 'Mokyr' figure (the Great Famine Wikipedia article) contains NO reference to Mokyr, and his specific bounds are contested in the scholarship — RTÉ's famine-mortality history piece puts Mokyr's own lower/upper bounds nearer ~0.8–1.0M+ and attributes the 1–1.4M (with averted births) figure to historians broadly, not to Mokyr. The high end (~1.5M) is therefore not cleanly sourced to the work named; the ~1M consensus low end (Ó Gráda) IS verified. Event held UNVERIFIED pending a correct source for the high bound."
+      },
+      "received_lens": "memorial",
+      "summary": "When blight destroyed the potato crop that fed Ireland's rural poor, the British government moved from relief toward a laissez-faire policy, kept food exports flowing out of the country, and let workhouse and outdoor relief lag behind the dying; about a million people starved or succumbed to famine disease and another million fled, mostly to North America. (Audit note: the ~1M low-end death toll is solidly sourced and verified — Ó Gráda EH.net and the UCC Atlas; only the high-bound 'Mokyr ~1.5M' source failed verification, which is why the event status is UNVERIFIED.)",
+      "relevance": "Ireland here is the textbook victim of a famine governed from London; the same catastrophe sits in the GBR ledger as a perpetrator row — one event, two lenses.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Cormac Ó Gráda, 'Ireland's Great Famine', EH.net Encyclopedia (~1 million excess deaths, one-eighth of the population)",
+          "supports": "toll.low",
+          "url": "https://eh.net/encyclopedia/irelands-great-famine/",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Joel Mokyr, Why Ireland Starved (1983) — upper/lower-bound excess-death reconstruction ~1.1–1.5M",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Great_Famine_(Ireland)",
+          "caveat": "AUDIT FLAG (2026-06-19): UNVERIFIED. The book Why Ireland Starved (1983, Allen & Unwin) is real, but the URL given here (Great Famine Wikipedia article) does NOT mention Mokyr or the 1.1–1.5M range at all, so the URL does not support the claim attached to it. Independent checks show Mokyr's OWN excess-death bounds are lower and contested (~0.8–1.0M+ per RTÉ's famine-mortality history piece), with the 1–1.4M figure attributed to historians broadly rather than to Mokyr specifically. The high bound (~1.5M) is therefore not cleanly sourced; no replacement URL is asserted because none verified was found that pins ~1.5M specifically to Mokyr."
+        },
+        {
+          "kind": "reference",
+          "cite": "University College Cork, Atlas of the Great Irish Famine 1845–1852 (~1M dead; population 8.4M→6.6M)",
+          "supports": "summary",
+          "url": "https://www.ucc.ie/en/cacsss/research/researchimpact/atlasofthegreatirishfamine1845-1852/",
+          "caveat": "AUDIT VERIFIED (2026-06-19): page live; confirms '~1 million perished 1845–52' and '~1.25 million fled'. It does not itself state the 8.4M→6.6M census decline (that is corroborated separately by the Great Famine Wikipedia census figures, 8.17M→6.55M); the core ~1M figure it supports is verified."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "irl-2",
+      "country": "IRL",
+      "role": "victim",
+      "title": "The Cromwellian conquest of Ireland",
+      "era": "1649–1653",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The bulk of the death toll came from war-driven famine and plague (deliberately induced by scorched-earth campaigning) rather than direct killing; the massacres at Drogheda and Wexford were lethal but the mass demographic collapse was structural, so STR, with the war-crime sieges noted and the intent debate kept in view.",
+      "agent": "Oliver Cromwell and the English New Model Army / Commonwealth regime",
+      "toll": {
+        "display": "~15–40% population loss; ~600,000+ excess deaths; ~50,000 transported",
+        "disputed": true,
+        "low": 200000,
+        "high": 618000,
+        "unit": "deaths",
+        "note": "William Petty's 17th-century estimate put excess deaths since 1641 at ~618,000 (~40% of a 1641 population of ~1.4M), of which ~400,000 Catholics. Modern historians treat 40% as too high and cluster nearer 15–20% population loss for the conquest period, implying excess deaths in the low-to-mid hundreds of thousands — hence the low bound (~200,000) here. Most died of war-induced famine and bubonic plague, not the sword. At Drogheda (1649) the ~3,000-strong garrison and many civilians and priests were killed; at Wexford ~2,000 soldiers and ~1,500 townspeople died. Roughly 50,000 Irish were transported as indentured labour to the West Indies and North America."
+      },
+      "received_lens": "memorial",
+      "summary": "After the 1641 rebellion and the Confederate wars, Cromwell landed in 1649 and broke Irish and Royalist resistance with storming sieges — slaughtering the garrison and townspeople at Drogheda and Wexford — and then a scorched-earth campaign whose induced famine and plague killed a large fraction of the population, followed by mass land confiscation and the transportation of tens of thousands.",
+      "relevance": "The conquest that shattered Catholic Ireland is held in the GBR ledger as English perpetration; from Ireland's side it is foundational victimhood and the origin of 'the curse of Cromwell'.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "Sir William Petty (1650s) — contemporary estimate of ~618,000 excess deaths / ~40% population loss",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Cromwellian_conquest_of_Ireland",
+          "caveat": "A 17th-century estimate by an English official-economist who profited from the post-conquest land survey; treated by modern historians as an upper bound, not a neutral count."
+        },
+        {
+          "kind": "reference",
+          "cite": "Cromwellian conquest of Ireland — Wikipedia (modern range ~15–20% population loss; 40% Petty figure; Drogheda/Wexford tolls; ~50,000 transported)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Cromwellian_conquest_of_Ireland",
+          "caveat": "Tertiary aggregator; used for the modern scholarly range that revises Petty downward (article states 'closer to 20%') and for the siege and transportation figures (Wexford ~2,000 soldiers + ~1,500 townspeople; ~50,000 transported), which it attributes to named historians. AUDIT VERIFIED (2026-06-19): article live; Petty ~618,000/~40%, modern ~20%, Wexford and 50,000-transported figures all confirmed. Drogheda's ~3,000-garrison framing is at the upper edge of the sourced range (garrison ~2,550, Cromwell reported ~3,500 total dead incl. ~2,800 soldiers plus civilians/priests) but consistent."
+        },
+        {
+          "kind": "reference",
+          "cite": "Trinity College Dublin, The Down Survey of Ireland — the Cromwellian conquest and land confiscation",
+          "supports": "summary",
+          "url": "https://downsurvey.ie/",
+          "caveat": "AUDIT URL CORRECTION (2026-06-19): the previously cited URL (downsurvey.tchpc.tcd.ie/history.html) now 301-redirects and the /history.html page 404s. Corrected to the live TCD project root downsurvey.ie, which confirms the project is real and TCD-run and covers the Cromwellian conquest (1649–53), the subsequent land confiscation/redistribution to English Protestants, and William Petty's 1656–58 survey. Supports the summary; no figures changed."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irl-3",
+      "country": "IRL",
+      "role": "perpetrator",
+      "title": "The 1641 rebellion massacres of Protestant settlers",
+      "era": "1641–1642",
+      "era_band": "pre-colonial",
+      "tier": "WAR",
+      "tier_reasoning": "Deliberate sectarian killing and expulsion of unarmed settler civilians by insurgents and the peasantry; a one-sided massacre in character but not a sustained campaign to exterminate Protestants as a group, so WAR rather than EXT.",
+      "agent": "Irish Catholic rebels under Sir Phelim O'Neill and the rural peasantry (no Irish state existed)",
+      "toll": {
+        "display": "~4,000 killed directly; up to ~12,000 incl. deaths from expulsion",
+        "disputed": true,
+        "low": 4000,
+        "high": 12000,
+        "unit": "deaths",
+        "note": "Modern historians estimate ~4,000 Protestant settlers killed outright, with thousands more stripped and expelled who then died of exposure and disease, giving an upper figure of ~12,000 — roughly 10% of the settler population (nearer 30% in Ulster). Contemporary Protestant propaganda claimed 100,000–200,000 dead (Milton cited 154,000 in Ulster alone); those figures were recognised as wild exaggerations even at the time and are rejected by scholarship. The biggest single incident was the Portadown massacre, where about 100 settlers were drowned and shot in the River Bann."
+      },
+      "received_lens": "contested",
+      "summary": "At the start of the 1641 rising, Irish Catholic insurgents seizing back confiscated lands turned on the Protestant and English settler population of Ulster, killing several thousand outright and stripping and driving thousands more from their homes to die of cold and hunger; the leaders' attempts to restrain the killing failed once the peasantry rose.",
+      "relevance": "The atrocity most often committed in the name of Catholic Ireland — and the propaganda pretext Cromwell later cited to justify the conquest; Ireland appears here as perpetrator of the very sectarian massacre its conquerors used against it.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Irish Rebellion of 1641 — Wikipedia (~4,000 killed directly, up to ~12,000 incl. exposure deaths; ~10% of settlers, ~30% in Ulster)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Irish_Rebellion_of_1641",
+          "caveat": "AUDIT VERIFIED + CORRECTION (2026-06-19): article live; the ~4,000-killed-directly, up-to-~12,000-with-exposure, ~10%-of-settlers / ~30%-in-Ulster figures, and the >200,000 propaganda claim, are all confirmed in the article. CORRECTION: the article attributes these modern figures to Kenyon & Ohlmeyer (1998) and Marshall (2006), NOT to 'Canny, Gillespie, Ó Siochrú' as previously stated here; the original attribution was inaccurate and is withdrawn. Tertiary aggregator used for the modern range against inflated contemporary claims."
+        },
+        {
+          "kind": "reference",
+          "cite": "Portadown massacre — Wikipedia (largest single 1641 massacre; ~100 settlers killed at the River Bann)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Portadown_massacre",
+          "caveat": "AUDIT NOTE (2026-06-19): article live; ~100 killed at the River Bann (drowned/shot), largest single 1641 massacre, eyewitness William Clarke's figure (range 68–196). This source corroborates the CHARACTER of the killings and the largest single incident; it does NOT by itself establish the toll.low of 4,000 — that aggregate comes from the 1641 Depositions scholarship surfaced in the Irish Rebellion of 1641 article (and is corroborated by RTÉ's 4,000–12,000 range). Mapping noted; figures stand."
+        },
+        {
+          "kind": "press",
+          "cite": "RTÉ Brainstorm, 'What happened during the Irish rebellion of 1641?' (overview of the killings and the propaganda inflation of the toll)",
+          "supports": "summary",
+          "url": "https://www.rte.ie/brainstorm/2021/0209/1196035-irish-rebellion-1641/",
+          "caveat": "Irish public-broadcaster explainer (by Eamon Darcy, Maynooth University); cited for the narrative and the propaganda-vs-scholarship framing, not as primary quantification. AUDIT VERIFIED (2026-06-19): article live; gives the 4,000–12,000 range and the 154,000 propaganda-myth figure, matching this event's framing."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irl-4",
+      "country": "IRL",
+      "role": "perpetrator",
+      "title": "Mother and Baby Homes (deaths of infants in church-state institutions)",
+      "era": "1922–1998",
+      "era_band": "contemporary",
+      "tier": "STR",
+      "tier_reasoning": "Mass death of infants from disease, prematurity, and neglect in institutions run for unmarried mothers; lethal conditions the state knew about and tolerated rather than a campaign to kill the children, so STR — structural neglect and stigma-driven institutional mortality.",
+      "agent": "The Irish state (which funded and inspected the homes) and Catholic religious orders (Bon Secours, Sacred Heart and others) that ran them",
+      "toll": {
+        "display": "~9,000 children died across the homes (1922–1998)",
+        "disputed": false,
+        "low": 9000,
+        "high": 9000,
+        "unit": "deaths",
+        "note": "The 2021 Commission of Investigation found about 9,000 children died in the 18 institutions it examined between 1922 and 1998 — roughly 15% of the ~57,000 children who passed through them. Infant mortality ran at multiples of the national average: in the worst years and homes, recorded death rates among admitted/born children reached three-quarters (Bessborough, 1943: ~75%) and Sean Ross / Roscrea lost 1,090 of 6,079 infants. The 9,000 figure is the Commission's count for the homes investigated and is not seriously disputed; the true cross-institution total may be higher as not all homes were in scope. At Tuam, 978 children died and remains were found in a disused sewage structure."
+      },
+      "received_lens": "flagellated",
+      "summary": "For most of the 20th century the Irish state and Catholic religious orders confined unmarried mothers and their babies in institutions where infants died at rates far above the national average from disease, prematurity, and neglect; authorities knew the death rates and let the system continue, and at Tuam the dead infants were buried in a decommissioned sewage tank.",
+      "relevance": "The clearest atrocity of the sovereign Irish state itself — not against a foreign enemy but against its own most powerless citizens — and the entry that keeps Ireland from appearing in the atlas as victim only.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "Final Report of the Commission of Investigation into Mother and Baby Homes (2021), Executive Summary, gov.ie — ~9,000 child deaths, 1922–1998, across 18 institutions",
+          "supports": "toll.low",
+          "url": "https://www.gov.ie/en/publication/22c0e-executive-summary-of-the-final-report-of-the-commission-of-investigation-into-mother-and-baby-homes/",
+          "caveat": "Irish state-commissioned inquiry into a state-and-church atrocity; survivors have criticised aspects of its findings and tone, but its death-count figures are drawn from institutional records and are the authoritative quantification. AUDIT VERIFIED (2026-06-19): the gov.ie URL returns HTTP 405 to automated fetch (method blocked, NOT a dead/404 page) — gov.ie disallows scripted GETs. The publication is genuine and live; the ~9,000 figure (one in seven, 1922–1998, 18 institutions, ~57,000 throughput, double national infant mortality) is independently corroborated by the two Irish Times reports in this same event and by the gov.ie department publication page. Verified despite the fetch block."
+        },
+        {
+          "kind": "press",
+          "cite": "The Irish Times, 'Mother and Baby Homes report: 9,000 children died amid high infant mortality rate' (12 Jan 2021)",
+          "supports": "summary",
+          "url": "https://www.irishtimes.com/news/social-affairs/mother-and-baby-homes-report-9-000-children-died-amid-high-infant-mortality-rate-1.4456382",
+          "caveat": "Newspaper report of the Commission's findings; cited for the 9,000 figure, the ~57,000 throughput, and the infant-mortality comparison. AUDIT VERIFIED (2026-06-19): article live; confirms 9,000 deaths, 15% of ~57,000, Bessborough 75.19% in 1943, Sean Ross 1,090/6,079 — all matching this event's note."
+        },
+        {
+          "kind": "press",
+          "cite": "The Irish Times, 'Mother and baby homes: Commission finds that 978 children died at Tuam facility' (12 Jan 2021)",
+          "supports": "toll.high",
+          "url": "https://www.irishtimes.com/news/social-affairs/mother-and-baby-homes-commission-finds-that-978-children-died-at-tuam-facility-1.4456694",
+          "caveat": "Cited for the Tuam-specific count (978) and the sewage-structure burial, corroborating Catherine Corless's research; the high bound equals the low bound because 9,000 is a settled commission count, not a disputed range. AUDIT VERIFIED (2026-06-19): article live; confirms 978 deaths at Tuam and remains in a decommissioned sewage tank, confirmed by the Commission's 2019 fifth interim report."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

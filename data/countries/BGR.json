@@ -1,0 +1,133 @@
+{
+  "iso": "BGR",
+  "name": "Bulgaria",
+  "note": "Bulgaria's two ledgers sit only seventy years apart and turn on the same nationalist project — building and holding a Bulgarian nation-state in a contested Balkan space. The victim side is the founding national trauma: in 1876 the Ottoman state crushed the April Uprising with irregular bashi-bazouk troops who massacred Bulgarian villagers, most infamously at Batak, and the resulting 'Bulgarian Horrors' shocked Europe (Gladstone's pamphlet, Schuyler's and Baring's reports) and helped trigger the 1877–78 Russo-Turkish War that created modern Bulgaria. The perpetrator side comes from the same drive for a 'Greater Bulgaria': in March 1943 Bulgarian military and police authorities rounded up and deported 11,343 Jews from the territories Bulgaria occupied as an Axis power — Greek Thrace, Yugoslav (Vardar) Macedonia, and Pirot — and handed them to the Germans for Treblinka, where almost all were murdered. The crucial asymmetry, and the reason Bulgaria's Holocaust record is genuinely two-faced: the same government that destroyed the Jews of the occupied lands also bowed to domestic protest (Dimitar Peshev, the Orthodox Church, public figures) and did NOT deport its own ~48,000 Bulgarian Jews — a real rescue that is often inflated into a clean 'Bulgaria saved its Jews' narrative that erases the occupied-territory dead. The second perpetrator entry turns the lens inward: after the 9 September 1944 communist coup, the new Bulgarian regime and its militia killed thousands of real and imagined enemies in purges and the People's Court, a state crime against Bulgarians by Bulgarians that the communist era then suppressed. The number of victims there remains sharply contested. Bulgaria thus appears as a wronged people who became, within living memory, both an external perpetrator (the deportations) and an internal one (the purge).",
+  "events": [
+    {
+      "id": "bgr-1",
+      "country": "BGR",
+      "role": "victim",
+      "title": "The Bulgarian Horrors: suppression of the April Uprising (incl. Batak)",
+      "era": "1876",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "The Ottoman state crushed an insurrection by unleashing irregular troops on the Bulgarian civilian population in mass reprisal killings; it was terror against a rebellious population rather than a program to exterminate Bulgarians as such, so WAR.",
+      "agent": "The Ottoman state, which deployed irregular bashi-bazouk cavalry and Circassian and local Muslim militia to suppress the rising; at Batak the killing was led by Ahmed Aga of Barutin",
+      "toll": {
+        "display": "~12,000–30,000 Bulgarians killed (Batak alone ~1,200–5,000)",
+        "disputed": true,
+        "low": 12000,
+        "high": 30000,
+        "unit": "deaths",
+        "note": "Contemporary investigators diverged sharply. The British Embassy's Walter Baring put the total at about 12,000 killed; the US consul-general Eugene Schuyler reported around 15,000 massacred. Later French and Russian consular estimates, and Bulgarian sources, ran as high as 25,000–40,000, with ~30,000 commonly cited. At Batak specifically estimates range from ~1,200 to ~8,000, with ~5,000 the most-cited figure (Schuyler reported ~5,000 of a population of ~8,000). The wide spread reflects rival diplomatic agendas in 1876 and the difficulty of counting; the range here brackets the credible contemporary investigations on the low end and the higher consular/Bulgarian estimates on the high end."
+      },
+      "received_lens": "memorial",
+      "summary": "In spring 1876 Bulgarians rose against Ottoman rule; the state crushed the rising not mainly with the regular army but by turning loose bashi-bazouk irregulars on the villages. At Batak thousands of civilians who had surrendered were slaughtered, the church where many sheltered burned. Across the region somewhere between roughly 12,000 and 30,000 Bulgarians were killed, and reports of the 'Bulgarian Horrors' — amplified by Gladstone's pamphlet — turned European opinion against the Ottomans and helped bring on the war that created modern Bulgaria.",
+      "relevance": "This is Bulgaria's founding victim story, the atrocity that put 'Bulgaria' on the map of European conscience — and the same nationalism it forged would, two generations later, drive the state's own crimes in occupied Thrace and Macedonia.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'April Uprising of 1876' — Baring ~12,000; Schuyler 'fifteen thousand people in all massacred'; later French/Russian consular and Bulgarian estimates 25,000–40,000 (~30,000 commonly cited); killings by bashi-bazouk irregulars",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/April_Uprising_of_1876",
+          "caveat": "Tertiary aggregator; the figures trace to the 1876 Baring and Schuyler reports and later consular estimates, all of which were shaped by the rival diplomatic positions of the powers."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Batak massacre' — Ottoman bashi-bazouk irregulars under Ahmed Aga; casualty estimates 1,200–8,000, most common ~5,000; Schuyler reported ~5,000 of a population of ~8,000",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Batak_massacre",
+          "caveat": "Tertiary aggregator; Batak figures are themselves contested and were a focus of nationalist contestation in Bulgaria as recently as the 2000s."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "bgr-2",
+      "country": "BGR",
+      "role": "perpetrator",
+      "title": "Deportation of the Jews of occupied Thrace, Macedonia and Pirot",
+      "era": "1943",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "Bulgarian authorities systematically rounded up an entire civilian group — the Jews of the occupied territories — and delivered them to be killed at Treblinka; that is participation in the deliberate destruction of a people, so EXT.",
+      "agent": "The Bulgarian state — its Commissariat for Jewish Affairs (KEV) under Aleksandar Belev, with the army and police — which interned the Jews of occupied Vardar Macedonia, Greek Thrace and Pirot and handed them to Nazi Germany, coordinated with the German adviser Theodor Dannecker",
+      "toll": {
+        "display": "11,343 Jews deported to Treblinka, almost all murdered",
+        "disputed": false,
+        "low": 11343,
+        "high": 11343,
+        "unit": "deaths",
+        "note": "The USHMM gives 11,343 Jews deported in the first half of March 1943 from the Bulgarian-occupied territories: about 7,144 from Vardar (Yugoslav) Macedonia (interned at the Tobacco Monopoly transit camp in Skopje) and roughly 4,075 from Greek Western Thrace and eastern Macedonia (assembled at Gorna Dzhumaya and Dupnitsa), plus small numbers from Pirot. Almost all were sent to the Treblinka killing center and murdered on arrival; only a handful survived. The figure is firm and undisputed in the scholarship. Note the deliberate contrast: the same Bulgarian government did NOT deport the ~48,000 Jews of Bulgaria proper, who survived."
+      },
+      "received_lens": "contested",
+      "summary": "As an Axis power Bulgaria occupied Greek Thrace, Yugoslav Macedonia and the Serbian town of Pirot. In March 1943 Bulgarian soldiers and police rounded up the Jews of those lands — about 7,100 from Macedonia held in the Skopje tobacco warehouse, about 4,000 from Thrace — and handed all 11,343 to the Germans, who shipped them to Treblinka, where nearly every one was gassed. The same government, under pressure from MPs, clergy and the public, refused to deport Bulgaria's own ~48,000 Jews.",
+      "relevance": "The exact pivot of Bulgaria's dual ledger: the popular 'Bulgaria saved its Jews' story is true for citizens inside the old borders and false for the 11,343 in the occupied lands, whom the same state delivered to death — a rescue and a deportation signed by one government.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "USHMM Holocaust Encyclopedia, 'Bulgaria' — Bulgarian military and police deported 11,343 Jews from occupied territories in March 1943; ~7,000 Macedonian Jews interned in Skopje, ~4,000 from Greek Thrace; virtually all died at Treblinka; Bulgaria's ~48,000 native Jews not deported after public protest (Dimitar Peshev)",
+          "supports": "toll.low",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/bulgaria",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'The Holocaust in Bulgarian-occupied Greece' — 4,075 Jews deported from Bulgarian-occupied Greece (Western Thrace and eastern Macedonia), assembled 4 March 1943, sent to Treblinka and killed on arrival; deportations organized by Belev's KEV and Dannecker",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/The_Holocaust_in_Bulgarian-occupied_Greece",
+          "caveat": "Tertiary aggregator; the 4,075 Greek figure and the 7,144 Macedonian figure together with small Pirot numbers sum to the USHMM total of 11,343."
+        },
+        {
+          "kind": "reference",
+          "cite": "Yad Vashem, 'March 1943, Jews being deported from Macedonia to the Treblinka Death Camp' — 7,144 Macedonian Jews from Skopje, Bitola and Stip assembled at the Tobacco Monopoly in Skopje and deported in three transports 22–29 March 1943 to Treblinka",
+          "supports": "toll.high",
+          "url": "https://www.yadvashem.org/holocaust/this-month/march/1943-2.html",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "bgr-3",
+      "country": "BGR",
+      "role": "perpetrator",
+      "title": "The communist purge and People's Court after the 1944 coup",
+      "era": "1944–1945",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "After seizing power the new Bulgarian regime killed real and perceived political enemies — officials, officers, anti-communists, 'class enemies' — through summary executions and politicized tribunals; this is destruction of a political category, so POL.",
+      "agent": "The Bulgarian communist-led Fatherland Front regime installed by the 9 September 1944 coup — its partisan militia and the new People's Militia carried out extrajudicial killings, and the People's Court (from December 1944) handed down mass death sentences, with Soviet backing",
+      "toll": {
+        "display": "~2,730 court death sentences; total killed estimated ~5,000 to ~30,000",
+        "disputed": true,
+        "low": 2730,
+        "high": 30000,
+        "unit": "deaths",
+        "note": "The People's Court tried about 11,122 people by April 1945 and condemned roughly 2,730 to death (with 1,305 life sentences and ~5,119 shorter terms) — a firm documented figure for judicial executions. The far larger and bitterly contested number is extrajudicial: estimates of those killed or 'disappeared' in the autumn-1944 purges range from a conservative ~5,000 up to ~18,000, ~26,000 (both derived from counts of the officially 'missing'), and as high as 30,000. No agreed total exists; figures are politically charged, with anti-communist sources favoring the high end and others cautioning that the higher numbers rest on inference from missing-persons data, not bodies."
+      },
+      "received_lens": "suppressed",
+      "summary": "After the 9 September 1944 coup the communist-led Fatherland Front, backed by the arriving Red Army, moved to destroy the old order. Partisan and militia squads carried out summary killings of officials, army officers, police and anti-communists across the autumn of 1944, and from December the People's Court condemned roughly 2,730 people to death in mass political trials. How many died in total is fiercely disputed — credible estimates run from a few thousand to as many as 30,000 — and the communist state spent decades suppressing the question.",
+      "relevance": "Bulgaria's perpetrator ledger turned inward: the state killing its own people for who they had been, then erasing the count — the mirror image of 1876, where Bulgarians were the ones cut down for rebelling against the state.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Britannica, 'Bulgaria: The early communist era' — by April 1945 the People's Courts had tried 11,122 people, condemning 2,730 to death, 1,305 to life, 5,119 to up to 20 years; unofficial estimates of up to 30,000 killed without trial",
+          "supports": "toll.low",
+          "url": "https://www.britannica.com/place/Bulgaria/The-early-communist-era",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, '1944 Bulgarian coup d'état' — 'between 4,000 and 30,000 people were killed or missing in just the first four months,' attributing extrajudicial killings to communist security forces, the People's Militia and the People's Court",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/1944_Bulgarian_coup_d'%C3%A9tat",
+          "caveat": "Tertiary aggregator carrying multiple citation-needed tags; the casualty range is acknowledged in the source itself to be incomplete and disputed, and is politically charged between anti-communist and revisionist accounts."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

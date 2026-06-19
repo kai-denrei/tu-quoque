@@ -1,0 +1,172 @@
+{
+  "iso": "DNK",
+  "name": "Denmark",
+  "note": "Denmark's dual ledger is asymmetric in the way of a small, rich, peaceful-by-reputation state. The heaviest mass-death event done TO the Danish people is not a man-made atrocity at all but the Black Death (STR), which gutted the kingdom in 1349-1350; its twentieth-century victimhood under German occupation was, by European standards, mild (about 3,000 occupation deaths and roughly 120 of its ~7,800 Jews killed), and the dominant memory is the celebrated rescue of nearly all Danish Jews. The perpetrator side is heavier than the gentle self-image suggests: relative to its tiny population Denmark was a major slave-trading power, shipping on the order of 100,000-130,000 enslaved Africans to its Caribbean colonies over roughly 175 years, and as recently as the 1960s-70s the Danish state ran a covert mass contraception campaign on Inuit women and girls in Greenland, for which it apologized in 2025. No event, toll, or source here was invented to balance the two columns; where a man-made Danish victim atrocity of large scale simply is not in the record, none was manufactured.",
+  "events": [
+    {
+      "id": "dnk-1",
+      "country": "DNK",
+      "role": "victim",
+      "title": "The Black Death in Denmark",
+      "era": "1349-1350",
+      "era_band": "pre-colonial",
+      "tier": "STR",
+      "tier_reasoning": "Disease-driven demographic collapse, not a deliberate killing, places it in the structural/disaster tier.",
+      "agent": "The second-plague pandemic (Yersinia pestis), spreading north through Europe into the Danish kingdom; no human perpetrator.",
+      "toll": {
+        "low": 300000,
+        "high": 500000,
+        "unit": "deaths",
+        "display": "~300,000-500,000 dead (roughly 40-50% of the population)",
+        "disputed": true,
+        "note": "QUARANTINE (audit 2026-06-19): These are population-decline estimates derived from skeletal and demographic analysis, not a counted death toll, and the toll range here is a single-anchor derivation (40-50% applied to a ~750,000-1,000,000 population base) rather than two independently sourced low/high figures. There are no contemporary Danish witness accounts of the plague (confirmed: the Wikipedia article states 'The death toll is not possible to estimate' and 'There are no contemporary witness statements'), and Danish historians caution that the exact toll cannot be reliably estimated. The attached scholarly paper (Kelmelis & DeWitte 2021) is a paleodemographic survivorship study; it does not itself state the 40-50%-of-the-kingdom figure, which comes from secondary summaries. Event held UNVERIFIED for this reason."
+      },
+      "received_lens": "memorial",
+      "summary": "The plague that swept Europe reached Denmark around 1349 and killed something on the order of two of every five people within about a year. Farms and whole parishes were abandoned, and the demographic shock took the kingdom more than a century to recover from.",
+      "relevance": "The largest mass death ever suffered by the Danish people was a pandemic with no perpetrator, a reminder that a nation's deepest catastrophe is not always something done to it by other humans.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Black Death in Denmark' (pre-plague population ~750,000-1,000,000; no contemporary witness statements; toll 'not possible to estimate' from records, with severe abandonment of farms/parishes)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Black_Death_in_Denmark",
+          "caveat": "Tertiary encyclopedia source; explicitly states a precise toll cannot be derived from surviving Danish records."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Kelmelis S. & DeWitte S.N., 'Urban and rural survivorship in pre- and post-Black Death Denmark,' Journal of Archaeological Science: Reports, vol. 38, art. 103089 (2021) (paleodemographic skeletal/survivorship analysis of pre- and post-plague Danish populations; the ~40-50% reduction of the kingdom's pre-epidemic population is cited in secondary coverage, not stated verbatim in this paper)",
+          "supports": "toll.low",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S2352409X21003011",
+          "caveat": "AUTHOR CORRECTED IN AUDIT (2026-06-19): originally misattributed to 'Sharrah et al.'; the real authors are Kelmelis & DeWitte (verified via CU Boulder VIVO record and author publication list). The article exists (same title, journal, year, vol. 38, art. 103089) but the ScienceDirect abstract is paywalled (HTTP 403). The 40-50%-of-population toll is drawn from secondary summaries of this and related demographic work, not a verbatim counted toll in the paper itself."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "dnk-2",
+      "country": "DNK",
+      "role": "victim",
+      "title": "German occupation of Denmark in the Second World War",
+      "era": "1940-1945",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Deaths arose from invasion, occupation, and wartime repression by a foreign belligerent, placing it in the war tier.",
+      "agent": "Nazi Germany: the Wehrmacht invasion of 9 April 1940, and after August 1943 the SS and German occupation administration carrying out arrests, executions, and the attempted deportation of Danish Jews.",
+      "toll": {
+        "low": 3000,
+        "high": 7000,
+        "unit": "deaths",
+        "display": "~3,000 occupation-related Danish deaths (about 7,000 if Danes who died fighting in German service are included)",
+        "disputed": false,
+        "note": "The lower figure counts Danes killed as a direct result of the occupation (resistance fighters, executions, bombing, sabotage reprisals, and about 120 of Denmark's roughly 7,800 Jews who died in Theresienstadt or while fleeing). The higher ~7,000 includes some 4,000 Danish volunteers killed fighting in German forces on the Eastern Front, which is a different category and is why the range is broad."
+      },
+      "received_lens": "triumphal",
+      "summary": "Germany invaded in 1940 and ruled relatively lightly until August 1943, when it imposed martial law, arrests, and executions. When Berlin moved to deport Denmark's Jews in October 1943, Danes ferried more than 7,000 of them to safety in Sweden, so that almost the entire community survived; the occupation itself cost a few thousand Danish lives.",
+      "relevance": "Denmark's WWII memory is dominated by a rescue rather than a massacre, a rare case where a victimized people is remembered chiefly for what it did to save others under occupation.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "National Museum of Denmark, 'German occupation (1940-1945)' (war and occupation cost ~7,000 Danish lives; ~3,000 died as a direct result of the occupation; ~4,000 volunteers died in German service)",
+          "supports": "toll.low",
+          "url": "https://en.natmus.dk/historical-knowledge/denmark/german-occupation-1940-1945/",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "USHMM Holocaust Encyclopedia, 'Denmark' and 'Rescue of the Danish Jews' (more than 7,000 Jews ferried to Sweden; ~120 Danish Jews died, mostly in Theresienstadt or while escaping)",
+          "supports": "summary",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/denmark",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "dnk-3",
+      "country": "DNK",
+      "role": "perpetrator",
+      "title": "The Danish slave trade and slavery in the Danish West Indies",
+      "era": "1672-1848",
+      "era_band": "colonial",
+      "tier": "EXT",
+      "tier_reasoning": "Systematic, profit-driven enslavement and lethal exploitation of a defined group of people over generations places it in the extermination/atrocity tier even where deaths were not the explicit aim.",
+      "agent": "The Danish crown and its chartered companies (Danish West India and Guinea Company, later the state), together with Danish slavers, plantation owners, and colonial officials on St. Thomas, St. Jan, and St. Croix.",
+      "toll": {
+        "low": 10000,
+        "high": 130000,
+        "unit": "deaths",
+        "display": "~10,000+ killed on the Middle Passage; ~100,000-130,000 trafficked, with plantation deaths exceeding births for ~175 years",
+        "disputed": true,
+        "note": "Sources differ on the total embarked: ~111,000 (voyage-database tallies), ~120,000 (National Museum of Denmark), and up to ~130,000 (University of Gothenburg research). About 100,000 are estimated to have disembarked alive, implying ~8-10%+ (on the order of 10,000-20,000) died in transit. The full death toll is far higher but uncountable: plantation conditions were so lethal that the enslaved population died faster than it reproduced across the entire period, so cumulative deaths cannot be reduced to a single sourced figure. The low end here is the defensible minimum (Middle Passage deaths); the high end is the trafficked total, not a death count."
+      },
+      "received_lens": "contested",
+      "summary": "From the 1670s Denmark ran Caribbean sugar colonies on the labor of enslaved Africans, shipping on the order of 100,000-130,000 people across the Atlantic, of whom roughly a tenth died on the voyage. On the plantations of St. Croix and the other islands the work killed people faster than children were born. Denmark banned the trade in 1792 (effective 1803) but kept slavery itself until 1848.",
+      "relevance": "Measured against its tiny population, peaceful, progressive Denmark was one of the most intensive slave-trading powers in Europe, a fact long minor in its national self-image.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "National Museum of Denmark, 'Slavery and Slave Trade' (in the Danish West Indies) (~120,000 enslaved Africans transported by Danish ships, ~100,000 disembarked, ~8-10% died on an average voyage; work so harsh more died than were born; slavery abolished 1848)",
+          "supports": "toll.high",
+          "url": "https://en.natmus.dk/historical-knowledge/historical-themes/danish-colonies/the-danish-west-indies/slavery/",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "University of Gothenburg, 'Denmark as a colonial power' (research finding ~130,000 enslaved Africans transported from the Danish Gold Coast fort 1680-1803; relative to population, Denmark was the largest slave-trading stakeholder among the colonial powers)",
+          "supports": "toll.high",
+          "url": "https://www.gu.se/en/news/denmark-as-a-colonial-power",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Danish slave trade' (over 100,000 transported to the Danish West Indies, approximately half dying due to inhumane conditions; Saint Croix held ~26,500 enslaved by 1803)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Danish_slave_trade",
+          "caveat": "Tertiary source; its 'approximately half dying' figure is an aggregate estimate combining transit and plantation mortality and should be treated as illustrative, not a precise count."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "dnk-4",
+      "country": "DNK",
+      "role": "perpetrator",
+      "title": "Forced contraception and assimilation of the Inuit in Greenland",
+      "era": "1950s-1990s",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "A state campaign of coerced birth control and cultural assimilation aimed at controlling and reshaping an Indigenous population is a political/persecution atrocity rather than a mass-killing.",
+      "agent": "The Danish state and Danish doctors in colonial Greenland, who fitted IUDs in Inuit women and girls without consent and ran assimilation programs removing children from their families and language.",
+      "toll": {
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "display": "Not a death-toll event: ~4,500 women and girls fitted with IUDs without consent; Greenland's birth rate roughly halved",
+        "disputed": false,
+        "note": "This is a reproductive-coercion and cultural-destruction harm, not a mass-death event, so a death toll does not apply and the numeric fields are null. The documented scale is ~4,500 fertile Inuit women and girls (roughly half of those of childbearing age) given intrauterine devices without their consent, mainly between 1966 and 1970-75, some as young as 12, with the birth rate halving in a few years; the 1951 'Little Danes' experiment took 22 children to Denmark, and thousands of Greenlandic children were later sent to Danish boarding schools."
+      },
+      "received_lens": "flagellated",
+      "summary": "From the 1950s Denmark pursued forced assimilation of Greenland's Inuit, removing children to be raised as 'little Danes,' and in the 1960s-70s ran a covert campaign that fitted intrauterine devices in roughly 4,500 women and girls, some still children, without consent, halving the birth rate. Denmark formally apologized in 2025 and moved to compensate the survivors.",
+      "relevance": "Within living memory a modern Scandinavian democracy quietly tried to control and shrink an Indigenous people it ruled, a colonial-style atrocity committed not in a distant century but in the era of the welfare state.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Forced contraception of women in Greenland' / 'Spiral case' (about half of ~9,000 fertile women given IUDs without consent; over 4,500 between 1966-1970; girls as young as 12; birth rate halved; cases continued into the 1990s; apologies and lawsuits)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Forced_contraception_of_women_in_Greenland",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "BBC News, 'Denmark apologises to Greenland's forced contraception victims' (2025) and Council on Foreign Relations coverage (PM Mette Frederiksen's apology calling the campaign systematic discrimination; ~4,500 women and girls affected; reconciliation/compensation fund)",
+          "supports": "summary",
+          "url": "https://feeds.bbci.co.uk/news/articles/c5yelp5466no",
+          "caveat": "Press reporting on a recent investigation; the affected total ~4,500 is the figure cited by the Danish government and reporters, and final numbers from the ongoing inquiry may be revised."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

@@ -1,5 +1,5 @@
 {
-  "count": 102,
+  "count": 117,
   "countries": [
     {
       "iso": "AFG",
@@ -74,6 +74,12 @@
       "status": "UNVERIFIED"
     },
     {
+      "iso": "BGR",
+      "name": "Bulgaria",
+      "events": 3,
+      "status": "VERIFIED"
+    },
+    {
       "iso": "BLR",
       "name": "Belarus",
       "events": 4,
@@ -88,6 +94,12 @@
     {
       "iso": "BRA",
       "name": "Brazil",
+      "events": 5,
+      "status": "UNVERIFIED"
+    },
+    {
+      "iso": "CAF",
+      "name": "Central African Republic",
       "events": 5,
       "status": "UNVERIFIED"
     },
@@ -134,6 +146,12 @@
       "status": "UNVERIFIED"
     },
     {
+      "iso": "COG",
+      "name": "Republic of the Congo",
+      "events": 4,
+      "status": "UNVERIFIED"
+    },
+    {
       "iso": "COL",
       "name": "Colombia",
       "events": 4,
@@ -156,6 +174,12 @@
       "name": "Germany",
       "events": 4,
       "status": "VERIFIED"
+    },
+    {
+      "iso": "DNK",
+      "name": "Denmark",
+      "events": 4,
+      "status": "UNVERIFIED"
     },
     {
       "iso": "DOM",
@@ -192,6 +216,12 @@
       "name": "Ethiopia",
       "events": 4,
       "status": "VERIFIED"
+    },
+    {
+      "iso": "FIN",
+      "name": "Finland",
+      "events": 4,
+      "status": "UNVERIFIED"
     },
     {
       "iso": "GBR",
@@ -254,6 +284,12 @@
       "status": "VERIFIED"
     },
     {
+      "iso": "IRL",
+      "name": "Ireland",
+      "events": 4,
+      "status": "UNVERIFIED"
+    },
+    {
       "iso": "IRN",
       "name": "Iran",
       "events": 4,
@@ -296,6 +332,12 @@
       "status": "VERIFIED"
     },
     {
+      "iso": "KGZ",
+      "name": "Kyrgyzstan",
+      "events": 3,
+      "status": "UNVERIFIED"
+    },
+    {
       "iso": "KHM",
       "name": "Cambodia",
       "events": 2,
@@ -311,6 +353,18 @@
       "iso": "LAO",
       "name": "Laos",
       "events": 2,
+      "status": "UNVERIFIED"
+    },
+    {
+      "iso": "LBN",
+      "name": "Lebanon",
+      "events": 4,
+      "status": "UNVERIFIED"
+    },
+    {
+      "iso": "LBR",
+      "name": "Liberia",
+      "events": 5,
       "status": "UNVERIFIED"
     },
     {
@@ -386,6 +440,12 @@
       "status": "VERIFIED"
     },
     {
+      "iso": "NIC",
+      "name": "Nicaragua",
+      "events": 4,
+      "status": "VERIFIED"
+    },
+    {
       "iso": "NLD",
       "name": "Netherlands",
       "events": 4,
@@ -394,6 +454,12 @@
     {
       "iso": "NPL",
       "name": "Nepal",
+      "events": 4,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "NZL",
+      "name": "New Zealand",
       "events": 4,
       "status": "VERIFIED"
     },
@@ -440,6 +506,12 @@
       "status": "VERIFIED"
     },
     {
+      "iso": "PRY",
+      "name": "Paraguay",
+      "events": 3,
+      "status": "UNVERIFIED"
+    },
+    {
       "iso": "ROU",
       "name": "Romania",
       "events": 5,
@@ -482,16 +554,34 @@
       "status": "UNVERIFIED"
     },
     {
+      "iso": "SLV",
+      "name": "El Salvador",
+      "events": 5,
+      "status": "UNVERIFIED"
+    },
+    {
       "iso": "SOM",
       "name": "Somalia",
       "events": 4,
       "status": "UNVERIFIED"
     },
     {
+      "iso": "SRB",
+      "name": "Serbia",
+      "events": 4,
+      "status": "VERIFIED"
+    },
+    {
       "iso": "SSD",
       "name": "South Sudan",
       "events": 3,
       "status": "VERIFIED"
+    },
+    {
+      "iso": "SVK",
+      "name": "Slovakia",
+      "events": 4,
+      "status": "UNVERIFIED"
     },
     {
       "iso": "SWE",

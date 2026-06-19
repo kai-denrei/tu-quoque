@@ -1,0 +1,186 @@
+{
+  "iso": "NIC",
+  "name": "Nicaragua",
+  "note": "Nicaragua's dual ledger is unusually symmetrical: the same modern state that suffered also turned on its own people, and the violence often runs along a single seam — Nicaraguans killing Nicaraguans. The 'done to them' side opens with the deepest wound of all, the demographic collapse of the indigenous peoples of Pacific Nicaragua after the Spanish conquest of the 1520s, when disease and a massive slave trade to Panama and Peru emptied the land within a few decades. Its modern victim entry is the Somoza dictatorship's war against the population during the 1972-1979 insurrection, when the National Guard bombed cities and killed tens of thousands. The 'in their name' side is held by the Sandinista state and its successors: the 1981-1982 forced relocation and killing of Miskito communities on the Atlantic coast (the 'Red Christmas'), and the 2018 police-and-paramilitary crackdown on protesters under the returned Ortega government, which the Inter-American Commission documented as conduct that may amount to crimes against humanity. The Contra War of the 1980s is deliberately NOT entered as a Nicaragua perpetrator event, because the Contras were a U.S.-financed insurgent force rather than the Nicaraguan state, and the worst documented atrocities of that war are split between the Contras (a U.S.-directed actor) and the Sandinista state; the Miskito relocation captures the cleanest Sandinista-state perpetration of that period. The colonial collapse is filed STR because disease, not deliberate extermination, was the primary killer, even though the slave trade was deliberate; that asymmetry is shown in its toll note. The single most contested figure here is the 1972-1979 death toll (commonly given as 'more than 30,000' but cited as high as 50,000), shown as a range.",
+  "events": [
+    {
+      "id": "nic-1",
+      "country": "NIC",
+      "role": "victim",
+      "title": "The demographic collapse of indigenous Pacific Nicaragua",
+      "era": "1520s–1540s",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The collapse was driven primarily by Old World disease for which the indigenous population had no immunity (structural/demographic collapse, STR), even though a deliberate, large-scale slave trade and conquest violence compounded it; it was not a planned extermination of a defined group (EXT).",
+      "agent": "Spanish conquistadors under governor Pedrarias Davila, who launched the conquest from Panama in 1524, enslaved tens of thousands for export to Panama and the mines of Peru, and whose arrival carried the epidemics that did most of the killing",
+      "toll": {
+        "display": "~400,000–600,000 dead within decades; pre-conquest population estimated ~825,000",
+        "disputed": true,
+        "low": 400000,
+        "high": 600000,
+        "unit": "deaths",
+        "note": "This is a demographic-collapse figure, not a battlefield body count. The pre-conquest population of what is now Nicaragua is estimated at roughly 500,000 to over a million, with ~825,000 a commonly cited figure; within about three decades it fell to a few tens of thousands. The 400,000-600,000 range is the estimated decline attributed primarily to introduced disease (smallpox, measles, typhus), compounded by an estimated ~200,000 indigenous people exported as slaves to South America between 1528 and 1540 (a Library of Congress 'Country Study' figure) and by conquest violence and mistreatment. Disease and slaving overlap as causes, so the components cannot be cleanly separated; the toll measures population lost, of which deaths are the largest but not the only part."
+      },
+      "received_lens": "suppressed",
+      "summary": "After Pedrarias Davila's forces moved into Nicaragua from Panama in the mid-1520s, the indigenous peoples of the Pacific lowlands — the Nicarao, Chorotega, and others — were destroyed as societies within a generation. Old World epidemics for which they had no immunity tore through communities before and during the conquest, while Spanish slavers shipped an estimated 200,000 people out through Nicaraguan ports to labour and die in Panama and the mines of Peru. A population of several hundred thousand to perhaps a million fell to a few tens of thousands. It is the largest die-off in the country's history, and the least commemorated.",
+      "relevance": "Before Nicaragua was a state that could victimize or be victimized, its original peoples were nearly erased — the foundational atrocity beneath every later one, carried in almost no public memory because the dead left few to remember them.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Spanish conquest of Nicaragua,\" Wikipedia — pre-contact population estimated ~825,000; 400,000-600,000 dead, primarily disease; conquest 1524-1527 (Pacific) onward; depopulation from disease, slave export, war and mistreatment",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_Nicaragua",
+          "caveat": "Tertiary aggregator; the population and death figures are scholarly estimates with wide uncertainty, drawn largely from demographic historians (e.g. Linda Newson, 'Indian Survival in Colonial Nicaragua', 1987), not a precise count."
+        },
+        {
+          "kind": "reference",
+          "cite": "U.S. Library of Congress, 'Nicaragua: A Country Study' (1993), republished via Brewminate — an estimated 200,000 native Nicaraguans exported as slaves to South America from 1528 to 1540, mainly to Peruvian mines; western Nicaragua's population 'almost completely wiped out' by introduced disease",
+          "supports": "summary",
+          "url": "https://brewminate.com/a-history-of-nicaragua-from-the-precolonial-period-to-national-independence/",
+          "caveat": "A reference government study (public domain) reproduced on a third-party site; the 200,000 slave-export figure is an estimate and is given without an isolated death count, so it supports the slave-trade dimension of the toll rather than a verified death total."
+        },
+        {
+          "kind": "reference",
+          "cite": "Linda A. Newson, 'Indian Survival in Colonial Nicaragua' (University of Oklahoma Press, 1987) — the standard demographic study of the conquest-era collapse and slave trade",
+          "supports": "tier",
+          "url": null,
+          "caveat": "Cited as the underlying scholarly authority for the demographic-collapse estimates; the full text was not directly accessed in this research, only its standing as the field's reference work, so specific page figures are not quoted from it here."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "nic-2",
+      "country": "NIC",
+      "role": "victim",
+      "title": "The Somoza dictatorship's war on the population (1972–1979 insurrection)",
+      "era": "1972–1979",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "The Somoza regime's killing was the lethal repression of its own population — aerial bombing of cities, torture, and summary executions of civilians to hold power — which is political mass violence (POL); it overlapped with civil war but the toll counts overwhelmingly civilians killed by the state, not army-versus-army losses (WAR).",
+      "agent": "The Somoza family dictatorship and its National Guard (Guardia Nacional), which bombed and shelled rebel-held cities, and tortured, raped, and summarily executed civilians during the insurrection that ended Anastasio Somoza Debayle's rule",
+      "toll": {
+        "display": "~30,000–50,000 killed (mostly civilians), 1972–1979",
+        "disputed": true,
+        "low": 30000,
+        "high": 50000,
+        "unit": "deaths",
+        "note": "Figures vary by source and start date. Britannica gives 'more than 30,000' killed by the time the revolution ended in 1979 — the commonly cited floor. Higher accounts cite up to 50,000 killed in the two years before Somoza's fall, including thousands killed when the National Guard bombed cities such as Leon, Esteli, Chinandega, and Masaya. A U.S. Defense Department study gives 45,000-65,000 dead for the combined 1978-1990 period (revolution plus Contra War), which is a wider frame. The 30,000-50,000 range here covers the 1972-1979 anti-Somoza insurrection specifically; the count is genuinely uncertain because the regime concealed casualties and the fighting was urban and chaotic."
+      },
+      "received_lens": "memorial",
+      "summary": "Through the 1970s the Somoza dynasty — backed for decades by the United States — answered the rising Sandinista insurgency by turning its National Guard on the country. The Guard tortured and summarily executed suspected sympathizers, raped, and, in the final offensive, let the rebels seize cities so it could level them with aerial bombing and artillery, killing thousands of civilians in Leon, Esteli, Chinandega, Masaya, and the barrios of Managua. By the time Anastasio Somoza Debayle fled in July 1979, more than 30,000 — and by some accounts up to 50,000 — were dead, most of them civilians. The dictatorship's collapse is remembered nationally as a liberation.",
+      "relevance": "Nicaragua as victim of its own state: a U.S.-propped dynasty that bombed its own cities and tortured its own citizens, the atrocity that produced the Sandinista revolution — which would, in turn, generate its own perpetrator entries.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Encyclopaedia Britannica, 'Nicaragua: The Sandinista government' / 'history of Nicaragua' — more than 30,000 killed by the time the revolution ended in 1979",
+          "supports": "toll.low",
+          "url": "https://www.britannica.com/place/Nicaragua/The-Sandinista-government",
+          "caveat": "Reference encyclopedia; the 'more than 30,000' figure is a rounded estimate for the insurrection period, not a precise count."
+        },
+        {
+          "kind": "press",
+          "cite": "Time, 'Nicaragua: Somoza's Reign of Terror' — National Guard subjecting peasants to torture, rape, and summary execution; aerial bombing (T-33 jets, gunships) of barrios in Managua, Leon, Masaya, Matagalpa; ~200,000 refugees",
+          "supports": "summary",
+          "url": "https://time.com/archive/6880365/nicaragua-somozas-reign-of-terror/",
+          "caveat": "Contemporary news magazine reporting from the conflict; vivid and broadly corroborated on the pattern of repression, but a single outlet's account rather than a casualty tally."
+        },
+        {
+          "kind": "press",
+          "cite": "Socialist Party (UK), 'Lessons of the Sandinista Revolution' — 50,000 killed in the two years before the fall of the dictatorship; National Guard bombing of Leon, Esteli, Chinandega and Masaya, ~6,000 killed",
+          "supports": "toll.high",
+          "url": "https://www.socialistparty.org.uk/articles/5946/11-09-2004/lessons-of-the-sandinista-revolution/",
+          "caveat": "An openly partisan socialist-party source sympathetic to the revolution; cited only for the high-end 50,000 figure, which should be treated as an upper-bound estimate from an interested party, not a neutral count."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "nic-3",
+      "country": "NIC",
+      "role": "perpetrator",
+      "title": "The 'Red Christmas': Sandinista forced relocation and killing of Miskito communities",
+      "era": "1981–1982",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "The Sandinista state's forced removal of indigenous communities, accompanied by killings and destruction of villages, was political repression aimed at clearing a suspected support base for the Contras (POL); the documented killings number in the dozens rather than constituting a planned destruction of the Miskito as a people (EXT).",
+      "agent": "The Sandinista government and the Sandinista People's Army, which forcibly relocated dozens of Miskito villages off the Coco River and killed Miskitos during the 1981-1982 operations, including the documented killings at Leimus",
+      "toll": {
+        "display": "dozens killed (at least ~64 documented); ~8,500+ forcibly relocated, thousands displaced",
+        "disputed": true,
+        "low": 64,
+        "high": 64,
+        "unit": "deaths",
+        "note": "The atrocity's primary scale is displacement, not death count. Around 8,500 Miskito were forcibly resettled and tens of thousands ultimately displaced; the killings are documented in the dozens. A Nicaraguan attorney general's complaint (later dropped) concerned the killings of 'at least 64 Miskito Indians' by Nicaraguan troops in the early 1980s, and the Inter-American Commission documented killings including the Leimus incident. The 64 figure is a documented floor from a specific legal complaint, not a comprehensive total; the full death toll is uncertain and the broader injury is the forced relocation itself. Disputed both in number and in framing — accounts range from 'worst political mistake' to characterizations of ethnic persecution."
+      },
+      "received_lens": "contested",
+      "summary": "In late 1981 and through 1982, fearing the Miskito of the Atlantic coast were becoming a support base for the U.S.-backed Contras, the Sandinista government forcibly emptied dozens of Miskito villages along the Coco River, marching some 8,500 people inland to resettlement camps called Tasba Pri and burning what they left behind. Soldiers killed Miskitos in the process, including a documented massacre at Leimus, and tens of thousands eventually fled into Honduras. The episode — la Navidad Roja, the Red Christmas — became one of the revolution's defining atrocities against its own indigenous citizens. Decades later, a complaint over the killing of at least 64 Miskitos was filed against Daniel Ortega and other officials, then dropped.",
+      "relevance": "The revolution that overthrew Somoza's terror became, within two years, a state that uprooted and killed its own indigenous people — the perpetrator face of the same Sandinista movement that the victim ledger casts as Nicaragua's liberators.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Mateo Jarquin, 'Red Christmases: the Sandinistas, indigenous rebellion, and the origins of the Nicaraguan civil war, 1981-82,' Cold War History 18:1 (2018) — Sandinista government forcibly resettled ~8,500 Miskito, killing dozens and displacing thousands",
+          "supports": "summary",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/14682745.2017.1347637",
+          "caveat": "Peer-reviewed scholarly article; abstract accessed rather than full text, so specific internal figures beyond the headline (~8,500 relocated, dozens killed) are not quoted from the body."
+        },
+        {
+          "kind": "press",
+          "cite": "Fox News / Associated Press, 'Nicaraguan prosecutors drop case against Daniel Ortega in 1980s killings of Miskito Indians' — complaint concerned the killing of at least 64 Miskito Indians by Nicaraguan troops in the early 1980s",
+          "supports": "toll.low",
+          "url": "https://www.foxnews.com/world/nicaraguan-prosecutors-drop-case-against-daniel-ortega-in-1980s-killings-of-miskito-indians",
+          "caveat": "Wire-service report carried by a partisan U.S. outlet; the '64 killed' figure derives from a specific legal complaint that was dropped, so it is a documented floor tied to one case, not an adjudicated total."
+        },
+        {
+          "kind": "primary",
+          "cite": "Inter-American Commission on Human Rights, 'Report on the Situation of Human Rights of a Segment of the Nicaraguan Population of Miskito Origin' (1983), Chapter 3 — documents the Coco River relocation of 42 villages to the Tasba Pri settlements and killings including the Leimus incident",
+          "supports": "tier",
+          "url": "https://hrlibrary.umn.edu/iachr/country-reports/nicaragua1983-ch3.html",
+          "caveat": "An official human-rights body's contemporaneous investigation (hosted by the University of Minnesota Human Rights Library); authoritative on the relocation and specific incidents, though it documents abuses without a single comprehensive death toll."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "nic-4",
+      "country": "NIC",
+      "role": "perpetrator",
+      "title": "The 2018 crackdown on protesters",
+      "era": "2018–2019",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "The state's lethal repression of largely unarmed protesters — extrajudicial executions, mass detention, and torture to crush dissent and keep power — is political mass violence (POL); international experts found conduct that may constitute crimes against humanity, but it was repression of a political movement, not the destruction of an ethnic group (EXT).",
+      "agent": "The government of Daniel Ortega and Rosario Murillo — the National Police and armed pro-government 'parapolice' groups — which fired on demonstrators, carried out extrajudicial executions, and mass-detained and tortured opponents during and after the April 2018 protests",
+      "toll": {
+        "display": "at least 355 killed (18 Apr 2018 – 31 Jul 2019)",
+        "disputed": true,
+        "low": 300,
+        "high": 355,
+        "unit": "deaths",
+        "note": "The Inter-American Commission on Human Rights (IACHR) documented at least 355 people killed in the repression between 18 April 2018 and 31 July 2019 — 340 men, 15 women, including 27 children/adolescents and 23 National Police agents. Human Rights Watch and others reported 'more than 300' killed and over 2,000 injured during the main 2018 crackdown, which forms the low bound. The Nicaraguan government disputes responsibility and passed an amnesty law; some local groups cited higher tallies during the crisis. The 355 IACHR figure is the most rigorously assembled count and includes a small number of police among the dead."
+      },
+      "received_lens": "denied",
+      "summary": "In April 2018, protests against a social-security reform — and then against the government itself — spread across Nicaragua. The Ortega-Murillo government answered with lethal force: National Police and masked, armed pro-government groups fired on demonstrators, carried out extrajudicial executions, and over the following months detained, tortured, and prosecuted thousands of opponents. The Inter-American Commission documented at least 355 people killed, most of them civilians, and an independent expert group found the state had committed acts that may amount to crimes against humanity. The government denied responsibility, passed an amnesty for the security forces, and shut down the human-rights monitors.",
+      "relevance": "The Sandinista revolutionaries who once toppled a dictatorship that bombed its own cities became, four decades on, a government documented executing its own protesters — the victim ledger's liberators returning as the perpetrator ledger's state, the dual lens closing into a single Nicaraguan circle.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "Inter-American Commission on Human Rights (OAS), 'IACHR Updates Death Toll Records of Human Rights Crisis that Started in April 2018 in Nicaragua' (2021) — at least 355 killed 18 Apr 2018-31 Jul 2019 (340 men, 15 women, 27 children/adolescents, 23 police); deaths from excessive and lethal force by state and parapolice agents; GIEI found conduct that may constitute crimes against humanity",
+          "supports": "toll.high",
+          "url": "https://www.oas.org/en/iachr/jsForm/?File=/en/iachr/media_center/preleases/2021/302.asp",
+          "caveat": "Official inter-governmental human-rights body; the page returned an access block on direct fetch but its 355 figure and breakdown are consistently reported across IACHR releases and independent coverage. Nicaragua's government disputes the Commission's findings and expelled its monitors."
+        },
+        {
+          "kind": "press",
+          "cite": "Human Rights Watch, 'Crackdown in Nicaragua: Torture, Ill-Treatment, and Prosecutions of Protesters and Opponents' (2019) and 'Nicaragua: Protests Leave Deadly Toll' (2018) — more than 300 killed and over 2,000 injured in the crackdown by National Police and armed pro-government groups; widespread abuses including extrajudicial executions and torture",
+          "supports": "toll.low",
+          "url": "https://www.hrw.org/report/2019/06/19/crackdown-nicaragua/torture-ill-treatment-and-prosecutions-protesters-and",
+          "caveat": "An international human-rights NGO; its 'more than 300' figure is an early/conservative count corroborated by the IACHR's higher documented total, not a partisan inflation."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

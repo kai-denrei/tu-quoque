@@ -1,0 +1,204 @@
+{
+  "iso": "SLV",
+  "name": "El Salvador",
+  "note": "El Salvador's two ledgers turn, like neighbouring Guatemala's, on the same peoples in opposite roles. As victim the country's first and largest mass death was suffered by its own Indigenous population — the Pipil/Nahua and others — after Pedro de Alvarado's 1524 invasion: overwhelmingly disease, so STR rather than deliberate extermination, though conquest war, enslavement and tribute compounded it. A second, much smaller victim entry records the persecution and mass expulsion of Salvadoran migrants in Honduras around the 1969 'Football War'; it is kept deliberately narrow and marked UNVERIFIED because the deaths attributable specifically to that persecution (as opposed to the four-day war itself, which El Salvador started by invading) are not cleanly quantified. The perpetrator ledger is squarely the work of El Salvador's own state and ruling elite: the 1932 'La Matanza', in which Gen. Maximiliano Hernández Martínez's military killed tens of thousands of peasants and used Indigenous appearance and dress to mark targets, all but extinguishing the Pipil culture in the west; and the 1980–1992 civil war, in which a UN truth commission found government forces responsible for about 85% of the violence against civilians — its sharpest single episode the 1981 El Mozote massacre by the US-trained Atlácatl Battalion. The hard discipline here is keeping disease-driven colonial collapse (STR) apart from the deliberate killing of peasants and Indigenous people (the 1932 massacre has a genuine ethnocide dimension); separating the El Mozote peak from the broader war that contained it without double-counting; and not inflating the thin victim side to 'balance' the ledgers. The core dual-lens point is stark and Guatemalan in shape: in the perpetrator ledger the victims were Salvadorans — the same peasants and Indigenous people who anchor the victim ledger, killed by their own state.",
+  "events": [
+    {
+      "id": "slv-1",
+      "country": "SLV",
+      "role": "victim",
+      "title": "Spanish conquest and demographic collapse of the Indigenous population",
+      "era": "1524–c. 1600",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The catastrophic loss of Indigenous life after Alvarado's 1524 invasion was overwhelmingly the work of Old World epidemics compounded by war, enslavement and forced tribute — demographic collapse rather than the deliberate extermination of a defined group, hence STR rather than EXT.",
+      "agent": "Pedro de Alvarado and the conquistadors who invaded from Guatemala in 1524 (with thousands of Indigenous Guatemalan allies), and the colonial order they imposed, with Old World epidemics — smallpox, measles, typhus — as the principal killer",
+      "toll": {
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "display": "~90% decline within the first century of contact; one common estimate has the Indigenous population fall from as many as ~500,000 to ~75,000 in the first ~50 years (population-decline estimate, not a counted toll)",
+        "disputed": true,
+        "note": "This is a population-DECLINE figure, not a verified body count, and the pre-contact baseline is itself sharply contested — estimates for the territory of present-day El Salvador run anywhere from ~130,000 to ~1,000,000, with low-to-mid figures generally judged more likely. A widely repeated figure has the Indigenous population fall from as many as ~500,000 to roughly 75,000 within the first half-century of Spanish rule, and scholarship cited on the conquest holds that around 50% of the native population had already died of new diseases before Alvarado even arrived in 1524, with later epidemic waves (1545–48, 1576–81) cutting populations to roughly 10% of pre-contact levels — about a 90% loss within a century. Because both the baseline and the absolute deaths are soft, numeric low and high are left null and the decline is recorded as percentages and a soft range. The overwhelming cause was epidemic disease the Spanish neither understood nor deliberately spread (smallpox arriving ahead of Alvarado), which is why the act is tiered STR rather than EXT; conquest warfare, enslavement and forced labour and tribute were the secondary drivers."
+      },
+      "received_lens": "suppressed",
+      "summary": "In 1524 Pedro de Alvarado led an expedition out of newly conquered Guatemala into the lands of the Pipil and other Indigenous peoples west of the Lempa River, meeting fierce resistance before the Spaniards drove on toward the Pipil capital of Cuscatlán. The killing that followed was done mostly by disease. Smallpox had already swept the region before Alvarado arrived, and later waves of measles and typhus, alongside conquest war, enslavement and forced tribute, ground the Indigenous population down by roughly nine-tenths within a century — one of the steep colonial collapses of Central America.",
+      "relevance": "The first and largest mass death on Salvadoran soil was suffered by the country's own Indigenous peoples, mostly through disease no one yet understood — establishing El Salvador as victim before it was ever a perpetrator, and the same Pipil/Indigenous population the state would target again in 1932.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Spanish conquest of El Salvador', Wikipedia — Alvarado's 1524 invasion from Guatemala with ~250 Spaniards and ~5,000 Indigenous allies; smallpox preceding the Spanish (up to ~50% of the native population eliminated by disease before 1524); later epidemics (1545–48, 1576–81) cutting populations to ~10% of pre-contact levels; ~90% Indigenous decline within the first century",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_El_Salvador",
+          "caveat": "Tertiary aggregator; pre-contact baseline figures (~130,000 to ~1,000,000) are contested scholarly estimates, and the mortality figures are order-of-magnitude population-decline estimates rather than counted deaths."
+        },
+        {
+          "kind": "reference",
+          "cite": "Encyclopædia Britannica / standard colonial-history summaries of El Salvador — Alvarado's 1524 arrival and Pipil resistance west of the Lempa; estimate that the Indigenous population fell from as many as ~500,000 to ~75,000 in roughly the first 50 years of Spanish rule",
+          "supports": "toll.high",
+          "url": "https://www.britannica.com/place/El-Salvador/The-colonial-period",
+          "caveat": "The ~500,000-to-~75,000 figure is a commonly cited population-decline estimate, not a counted body count; the baseline is uncertain, so numeric low/high are left null and the figure is recorded only in the display/note."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "slv-2",
+      "country": "SLV",
+      "role": "victim",
+      "title": "Persecution and expulsion of Salvadoran migrants in Honduras around the 'Football War'",
+      "era": "1969",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "In 1969 Salvadoran migrants in Honduras were beaten, driven from homes and jobs and expelled en masse amid official Honduran land-reform pressure and nationalist incitement — collective persecution and forced displacement of a national group, hence POL; tolls are too soft for a higher confidence and the entry is left UNVERIFIED.",
+      "agent": "Honduran mobs, landowners and authorities, amid a Honduran government land-reform drive that targeted Salvadoran settlers — the persecution preceding and surrounding the July 1969 war (a war El Salvador itself started by invading)",
+      "toll": {
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "display": "~300,000 Salvadorans displaced / forced to flee Honduras; war deaths reported as 'several thousand' across both sides (deaths attributable specifically to anti-Salvadoran persecution not cleanly quantified)",
+        "disputed": true,
+        "note": "The well-documented figure here is displacement, not deaths: up to ~300,000 Salvadoran migrants were living in Honduras by 1969 and large numbers were beaten, driven off land and jobs and forced back to El Salvador, many on foot. The 'several thousand' deaths commonly cited for the 1969 Football War cover the four-day war as a whole — combat on both sides — not the persecution of civilians specifically, and there is no clean, well-sourced death count for the anti-Salvadoran violence alone. This entry is therefore marked UNVERIFIED and its numeric low/high left null. It is also included with the explicit caveat that El Salvador started the war itself by invading Honduras on 14 July 1969 — the dual-lens reason it sits awkwardly even in the victim ledger."
+      },
+      "received_lens": "contested",
+      "summary": "By 1969 perhaps 300,000 Salvadorans had migrated to land-rich, sparsely populated Honduras. As Honduras pushed a land reform that scapegoated Salvadoran settlers, and nationalist feeling boiled over around World Cup qualifying matches, Salvadorans were dragged from homes, beaten, driven from jobs and expelled, many trekking long distances back across the border. El Salvador then invaded on 14 July 1969 in a war that lasted about a hundred hours and reportedly killed several thousand on both sides before a ceasefire.",
+      "relevance": "A reminder that Salvadorans have also been targeted as a national group abroad — but a deliberately cautious one: the persecution is real and the displacement large, yet the deaths are not cleanly counted, and El Salvador, victim here, was simultaneously the invading aggressor in the war, so the entry is held to UNVERIFIED.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Football War', Encyclopædia Britannica — July 1969 conflict rooted in land, migration and economic tension; up to ~300,000 Salvadoran migrants in Honduras; persecution and expulsion of Salvadorans; El Salvador invaded 14 July 1969 in a roughly four-day ('100-hour') war",
+          "supports": "summary",
+          "url": "https://www.britannica.com/event/Football-War",
+          "caveat": "Encyclopaedia summary; the ~300,000 figure is a displacement/migrant-population estimate, and Britannica's body could not be fetched directly (HTTP 403) — facts here are corroborated by multiple secondary sources but the death count for the persecution specifically is not given, hence UNVERIFIED."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Soccer War', EBSCO Research Starters / contemporary accounts — riots in Honduras in which Salvadorans were dragged from homes, beaten and driven from jobs; thousands forced back to El Salvador in poor condition after walking to the border; the war as a whole producing 'several thousand' deaths and ~300,000 displaced Salvadorans",
+          "supports": "summary",
+          "url": "https://www.ebsco.com/research-starters/history/soccer-war",
+          "caveat": "Secondary summary; the 'several thousand' deaths figure covers the entire war on both sides, not the anti-Salvadoran persecution alone, so no death toll is attributed in the structured toll fields."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "slv-3",
+      "country": "SLV",
+      "role": "perpetrator",
+      "title": "La Matanza — the 1932 massacre of peasants and Indigenous people",
+      "era": "1932",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "The state crushed a peasant-communist uprising by killing tens of thousands of rural Salvadorans to terrorise the countryside — political mass killing, hence POL; the deliberate targeting of Indigenous people by dress and appearance gives it a genuine ethnocidal dimension noted in the toll, but the killing was framed against rebels/'communists', so it is tiered POL rather than EXT.",
+      "agent": "the Salvadoran military government of Gen. Maximiliano Hernández Martínez — the army and security forces (under figures including Gen. José Tomás Calderón and Col. Joaquín Valdés), suppressing a January 1932 peasant and communist uprising",
+      "toll": {
+        "low": 10000,
+        "high": 40000,
+        "unit": "deaths",
+        "display": "~10,000–40,000 killed; commonly summarised as ~30,000 (about 2% of the population)",
+        "disputed": true,
+        "note": "Estimates vary widely. The low end of the broadly accepted range is ~10,000; the high end is ~40,000, with ~30,000 (roughly 2% of El Salvador's population at the time) the figure most often cited in summaries — historian John Beverley puts it at around 30,000, about four percent of the population in his framing. At the far low end, Col. Osmín Aguirre y Salinas claimed 'no more than 6,000 to 7,000', a self-interested official minimisation. The killing went far beyond the brief uprising (22–25 January 1932): the army's repression ran through February. Indigenous people were specifically targeted — those in 'Indian' dress or appearance were shot on sight in places — and the massacre is often described as an ethnocide that all but ended public Pipil language and dress in western El Salvador, the dimension that complicates the POL tier."
+      },
+      "received_lens": "suppressed",
+      "summary": "In January 1932, after the new dictatorship of Gen. Maximiliano Hernández Martínez cancelled election results, Pipil peasants and the small Communist Party rose up in western El Salvador, briefly seizing towns such as Izalco. The army crushed the revolt within days and then turned to systematic reprisal, machine-gunning peasants in batches and shooting people on sight for looking Indigenous. Estimates of the dead range from about 10,000 to 40,000 — commonly put near 30,000 — and the terror so stigmatised Indigenous identity that the Pipil largely abandoned their language and traditional dress in public for generations.",
+      "relevance": "The clearest early case of the atlas's point on the perpetrator side: the Salvadoran state killed tens of thousands of its own peasants and deliberately marked Indigenous people for death — the same Pipil/Indigenous population that anchors the victim ledger — in an event long suppressed in national memory.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'La Matanza', Wikipedia — January 1932 peasant-communist uprising and government massacre under Gen. Maximiliano Hernández Martínez; death-toll range ~10,000–40,000; army's use of Indigenous appearance, dress and language to designate targets; described as an ethnocide leading to near-extinction of the Pipil language; Col. Osmín Aguirre y Salinas's low claim of 6,000–7,000; John Beverley's ~30,000 (~4% of population)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/La_Matanza",
+          "caveat": "Tertiary aggregator; the toll is genuinely disputed across an order of magnitude, and the lowest figures derive from self-interested official sources — the structured range (10,000–40,000) brackets the mainstream scholarly estimates."
+        },
+        {
+          "kind": "reference",
+          "cite": "Zinn Education Project, 'Jan. 22, 1932: La Matanza (\"The Massacre\") Begins in El Salvador', and Minority Rights Group, 'Indigenous peoples in El Salvador' — the 1932 government killings in western El Salvador, with estimates often cited at ~30,000 (~2% of the population) and the specific targeting and lasting suppression of Pipil/Indigenous identity",
+          "supports": "toll.low",
+          "url": "https://www.zinnedproject.org/news/tdih/la-matanza/",
+          "caveat": "Educational/advocacy summaries; figures track the standard scholarly range and are used here to corroborate the ~30,000 central estimate and the Indigenous-targeting, not as independent counts."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "slv-4",
+      "country": "SLV",
+      "role": "perpetrator",
+      "title": "El Mozote massacre",
+      "era": "1981",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "An elite army battalion deliberately killed hundreds of unarmed villagers — separating, executing and burning men, women and children to terrorise a peasant population during counter-insurgency — a political mass killing of civilians, hence POL.",
+      "agent": "the Salvadoran Army's US-trained Atlácatl Battalion, commanded by Lt. Col. Domingo Monterrosa, during a December 1981 counter-insurgency sweep in Morazán department",
+      "toll": {
+        "low": 811,
+        "high": 1000,
+        "unit": "deaths",
+        "display": "~811 named victims (low) up to ~1,000 killed; >200 confirmed by forensic excavation",
+        "disputed": true,
+        "note": "The low figure of 811 is the documented count of named victims compiled in the case before the Organization of American States' human-rights system; the high end is the commonly cited ~1,000 civilians killed in and around El Mozote over December 1981. The UN Truth Commission, drawing on the Argentine Forensic Anthropology Team's exhumations begun in November 1992, confirmed more than 200 sets of remains at one site (mostly children), a floor consistent with the larger estimates rather than a competing total. The killings (11–12 December 1981, after the army arrived on 10 December) involved separating men from women and children, executions, rape and the burning of bodies and buildings — among the largest massacres in modern Latin American history."
+      },
+      "received_lens": "contested",
+      "summary": "On 11–12 December 1981 the Atlácatl Battalion — a counter-insurgency unit created and trained that year with US funding — entered the hamlet of El Mozote and surrounding villages in Morazán, separated the men, women and children, and methodically executed them, raping women and girls and burning the bodies and houses. Around 800 to 1,000 civilians, most of them children, were killed. The Salvadoran and US governments denied the massacre for years; only in 1992 did the Argentine Forensic Anthropology Team begin exhuming the remains, and El Salvador's government formally apologised in 2011.",
+      "relevance": "The sharpest single instance of the perpetrator ledger: the Salvadoran state, armed and trained by an outside power, slaughtered an unarmed peasant village — the kind of Salvadoran civilian the victim ledger is built from — and then denied it for a decade.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'El Mozote massacre', Wikipedia — Atlácatl Battalion under Domingo Monterrosa; 11–12 December 1981; ~811 to ~1,000 civilians killed; UN Truth Commission and Argentine Forensic Anthropology Team confirming >200 remains (mostly children) from November 1992 exhumations; US funding and training of the battalion; 2011 government apology",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/El_Mozote_massacre",
+          "caveat": "Tertiary aggregator; the 811 figure is a named-victim count and ~1,000 an estimate, while the >200 forensic figure is a confirmed floor from one site, not a competing total."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Amnesty International, 'El Salvador massacre: a 30-year fight for justice' (2011) — the El Mozote massacre by the Atlácatl Battalion in December 1981, with more than 800 civilians killed, and the decades-long struggle for accountability and acknowledgement",
+          "supports": "summary",
+          "url": "https://www.amnesty.org/en/latest/news/2011/12/el-salvador-massacre-year-fight-justice/",
+          "caveat": "Human-rights advocacy organisation and interested party; its account is consistent with the UN Truth Commission findings and the forensic record."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "slv-5",
+      "country": "SLV",
+      "role": "perpetrator",
+      "title": "State terror in the Salvadoran civil war",
+      "era": "1980–1992",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Over twelve years the state and allied death squads killed and disappeared tens of thousands of their own civilians — through army massacres, paramilitary killings and disappearances aimed at crushing real and imagined opposition — political mass killing of a population, hence POL (El Mozote, its sharpest episode, is tiered separately under slv-4).",
+      "agent": "the Salvadoran armed forces and security services and the death squads linked to them — the army, National Guard and allied paramilitaries — across the 1980–1992 civil war; the UN Truth Commission attributed about 85% of the violence against civilians to government forces",
+      "toll": {
+        "low": 70000,
+        "high": 75000,
+        "unit": "deaths",
+        "display": "~75,000 killed (plus ~7,000–8,000 disappeared); UN Truth Commission found ~85% of violence by government forces",
+        "disputed": true,
+        "note": "The standard estimate is ~75,000 Salvadorans killed over 1980–1992 (about 1.4% of the population), with thousands more disappeared; ~70,000 is a commonly used slightly lower figure for the killed, so the range is recorded as ~70,000–75,000. The 1993 UN Truth Commission ('From Madness to Hope'), drawing on some 22,000 testimonies, attributed roughly 85% of the documented acts of violence against civilians to the armed forces and ~10% to death squads linked to them, with the FMLN guerrillas responsible for a much smaller share (commonly cited around 5%). El Mozote (slv-4) and other named massacres (Sumpul River 1980, El Calabozo 1982) are subsets of this total, not additional to it. The atlas records the state's documented majority share here without erasing the guerrillas' smaller share."
+      },
+      "received_lens": "contested",
+      "summary": "From 1980 to 1992 El Salvador's military-led governments and the death squads tied to them waged war on their own population, beginning with the 1980 assassination of Archbishop Óscar Romero and the killing of mourners at his funeral. The army carried out village massacres in the countryside while death squads disappeared and murdered students, unionists, clergy, peasants and suspected sympathisers in the cities. Around 75,000 people were killed and thousands more disappeared. A UN-backed truth commission concluded in 1993 that government armed forces were responsible for about 85% of the documented acts of violence against civilians, with allied death squads accounting for roughly a further 10% and the FMLN insurgency for a much smaller share.",
+      "relevance": "The dual-lens discipline applied: the Salvadoran state was the principal killer of Salvadorans for over a decade — the peasants and Indigenous people of the victim ledger — and the atlas records the state's documented ~85% share while acknowledging the smaller share of violence committed by the FMLN insurgency.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "UN Commission on the Truth for El Salvador, 'From Madness to Hope: The 12-Year War in El Salvador' (1993) — ~75,000 killed over 1980–1992; ~22,000 testimonies; ~85% of documented acts of violence against civilians attributed to state armed forces and ~10% to allied death squads, with the FMLN responsible for a much smaller share; over 40 senior officials named",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Truth_Commission_for_El_Salvador",
+          "caveat": "Source kind labelled 'primary' but the URL is a Wikipedia (tertiary) summary of the Truth Commission report; the report 'De la Locura a la Esperanza / From Madness to Hope' is the true primary. The ~75,000 total is an estimate; the 85%/10%/5% attribution is the commission's finding from documented cases, not an exhaustive count."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Amnesty International, 'El Salvador massacre: a 30-year fight for justice' (2011) and 'El Salvador: No justice 20 years on from UN Truth Commission' (2013) — ~75,000 dead and ~7,000 disappeared in the 1980–1992 war, the great majority killed by government forces and death squads, with persistent impunity under a 1993 amnesty law",
+          "supports": "summary",
+          "url": "https://www.amnesty.org/en/latest/news/2013/03/el-salvador-no-justice-years-un-truth-commission/",
+          "caveat": "Human-rights advocacy organisation and interested party; its figures track the UN Truth Commission's findings rather than independent counts."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

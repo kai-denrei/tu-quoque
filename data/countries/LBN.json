@@ -1,0 +1,186 @@
+{
+  "iso": "LBN",
+  "name": "Lebanon",
+  "note": "Built from scratch on 2026-06-19 with live web research (WebSearch/WebFetch). Lebanon is a case where the SAME communal landscape produces both ledgers, which is the dual-lens point in its sharpest form. VICTIM side: the strongest-documented mass deaths done TO the territory's people predate the modern state — the Great Famine of Mount Lebanon (1915–1918), which under Ottoman rule killed on the order of a third to a half of Mount Lebanon's population, and the 1860 massacres in which Druze fighters slaughtered Maronite and other Christians across the mountain. PERPETRATOR side: the modern Lebanese state had no national army doing mass atrocity abroad, so its perpetrator record is the work of its OWN sectarian militias during the 1975–1990 civil war — above all the Christian Phalange/Lebanese Forces at Sabra and Shatila (1982) and Karantina (1976). A NOTE ON ASYMMETRY AND SHARED AGENCY: the 1860 and civil-war events are intra-Lebanese and reciprocal — Druze killed Christians in 1860 (and Christians killed Druze and Muslims elsewhere); Christian militias massacred Palestinians and Muslims at Karantina and Sabra-Shatila while Palestinian and leftist forces massacred Christians at Damour two days after Karantina. Lebanon's people thus appear on both sides of the same wars, which is precisely why a single-victim or single-perpetrator framing falsifies the record. The 1860 VICTIM entry is scoped to the Mount Lebanon (Lebanese-soil) Christian dead, with the parallel Damascus killings and the Druze/Muslim losses flagged in prose rather than misfiled. Tolls are carried as sourced ranges: the famine (≈80,000–200,000, with a 250,000 outlier), 1860 (≈10,000–12,000 on the mountain within a disputed 20,000–25,000 total), Sabra-Shatila (≈700–3,500), Karantina (≈600–1,500). No figure, source, author or URL here was invented; where scholarship diverges the dispute is shown.",
+  "events": [
+    {
+      "id": "lbn-1",
+      "country": "LBN",
+      "role": "victim",
+      "title": "The Great Famine of Mount Lebanon",
+      "era": "1915–1918",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "A man-made famine driven mainly by a deliberate Ottoman land blockade and military requisitioning of food directed at a population the authorities distrusted — the starvation was a consequence of state policy compounded by an Allied naval blockade and a locust plague, so it reads as politically driven mass death (POL) rather than a purely natural demographic collapse.",
+      "agent": "The Ottoman Fourth Army under Jamal (Cemal) Pasha, whose land blockade and requisitions cut Mount Lebanon off from food, compounded by the Allied (British–French) naval blockade and the 1915 locust plague",
+      "toll": {
+        "low": 80000,
+        "high": 200000,
+        "unit": "deaths",
+        "display": "~80,000 to ~200,000 deaths (roughly a third to a half of Mount Lebanon's population; American Red Cross estimate as high as ~250,000)",
+        "disputed": true,
+        "note": "AUDIT QUARANTINE (2026-06-19): the low anchor (80,000) is weaker than presented. The cited press source (The National) gives a total estimate of 100,000–200,000 and carries 80,000 only as an interim May-1916 count from a Gibran letter (\"Already 80,000 have succumbed\"); Wikipedia likewise treats 80,000 as Gibran's interim wartime figure, not a final famine low. The 80,000 number is real and sourced, but as a contemporary partial count, not a scholarly low-end total — a defensible scholarly low is closer to 100,000. The high end (~200,000, about one-third) is well-sourced (Wikipedia, Middle East Monitor). Figures are estimates, not a census count: Ottoman-era census evasion and the absence of death registration make precise totals impossible. Estimates run from ~80,000 (interim) / ~100,000 (scholarly low) to more than 200,000 — roughly 20–50% of Mount Lebanon's ~1914 population of around 400,000 — with a commonly cited figure of ~200,000 (about one-third) and an American Red Cross estimate as high as ~250,000. This is a death-and-demographic-collapse figure for Mount Lebanon; emigration removed roughly another third of the population. Per capita, it is often described as the highest mortality of any bounded territory in the First World War."
+      },
+      "received_lens": "memorial",
+      "summary": "During the First World War, Ottoman commander Jamal Pasha barred grain from neighbouring Syria from reaching Mount Lebanon and his army requisitioned food for the war effort, while an Allied naval blockade sealed the coast and a 1915 locust swarm stripped the fields. The result was starvation on a scale that killed somewhere between a third and a half of the mountain's people; survivors described eating animals and, in places, accounts of cannibalism.",
+      "relevance": "The deadliest event ever to befall Lebanon's people was a starvation engineered by the empire that ruled them — a reminder that the same Lebanese communities later named as perpetrators of civil-war massacres were, a generation earlier, left to die en masse by their own state.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Great Famine of Mount Lebanon\" — Wikipedia (1915–1918; ~200,000 deaths, ~50% population decline from ~400,000 to ~200,000; causes: Allied blockade, Jamal Pasha's Ottoman land blockade and requisitions, 1915 locust plague; highest per-capita WWI fatality rate)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Great_Famine_of_Mount_Lebanon",
+          "caveat": "Tertiary aggregator; the casualty figures it carries are historians' estimates rather than a verified count, given the absence of reliable Ottoman-era population and death records."
+        },
+        {
+          "kind": "press",
+          "cite": "The National (Abu Dhabi), \"Lebanon's dark days of hunger: The Great Famine of 1915–18\" (Rym Ghazal, 2015) — gives a total range of \"100,000 to 200,000 deaths in Mount Lebanon alone\" and a wider ~500,000 regional figure; the 80,000 number it carries is quoted from a Kahlil Gibran letter of May 1916 (\"Already 80,000 have succumbed\") as an interim wartime count, NOT as a scholarly low-end famine total",
+          "supports": "toll.low",
+          "url": "https://www.thenationalnews.com/world/lebanons-dark-days-of-hunger-the-great-famine-of-1915-18-1.70379",
+          "caveat": "AUDIT (2026-06-19): source-claim mismatch. The article's own total estimate is 100,000–200,000, not 80,000–200,000; its 80,000 figure is an interim May-1916 count from a Gibran letter, so the JSON's 80,000 low anchor rests on a contemporary partial count rather than a scholarly low total. State-aligned UAE outlet. Verified to exist (author Rym Ghazal); retained as a real source but downgraded — it does not support 80,000 as a famine-wide low. Wikipedia carries the same 80,000 figure only as Gibran's interim count."
+        },
+        {
+          "kind": "press",
+          "cite": "Middle East Monitor, \"Remembering the Great Famine of Mount Lebanon (1914–1918)\" — ~200,000 deaths (a third of the region's population), another third forced to emigrate, highest per-capita WWI mortality; emphasises the role of Jamal Pasha's blockade alongside the Allied blockade and locusts",
+          "supports": "toll.high",
+          "url": "https://www.middleeastmonitor.com/20211113-remembering-the-great-famine-of-mount-lebanon-1914-1918/",
+          "caveat": "Advocacy-leaning outlet with a pro-Arab editorial stance (author Omar Ahmed); used for the ~200,000 (one-third) figure and the causal framing, consistent with the academic estimates carried by the other sources. AUDIT (2026-06-19): verified to exist and to support ~200,000 + one-third-emigration + highest-per-capita-WWI-mortality + Jamal Pasha blockade framing."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "lbn-2",
+      "country": "LBN",
+      "role": "victim",
+      "title": "The 1860 Massacres of Christians in Mount Lebanon",
+      "era": "1860",
+      "era_band": "pre-colonial",
+      "tier": "EXT",
+      "tier_reasoning": "Organised killing aimed at the Christian population of the mountain as such — village after village stormed and its inhabitants slaughtered, with hundreds of villages and churches destroyed and whole towns depopulated — making this targeted mass killing of a community (EXT) rather than ordinary combat losses; it was reciprocal communal violence, but on the mountain the dead were overwhelmingly Christian.",
+      "agent": "Druze clans and fighters (notably the Jumblatt, Abu Nakad, Imad and al-Atrash families), with the complicity or passivity of local Ottoman authorities",
+      "toll": {
+        "low": 10000,
+        "high": 12000,
+        "unit": "deaths",
+        "display": "~10,000–12,000 Christians killed in Mount Lebanon (within a disputed overall 1860 total of ~20,000–25,000 including the separate Damascus killings)",
+        "disputed": true,
+        "note": "AUDIT QUARANTINE (2026-06-19): the high-anchor source (GlobalSecurity.org) does NOT support the claim attached to it. The JSON cited it for \"~20,000 Christians killed\" plus \"over a hundred thousand left homeless\" and large-scale village/church destruction; the page actually states only \"the massacre of the eleven thousand Christians in Syria in 1860\" and contains none of the 100,000-homeless or village/church-count figures. The 10,000–12,000 Mount Lebanon toll is itself well-supported (Wikipedia's own summary: ~12,000 killed in Mount Lebanon, ~10,000 of them Christians), and the combined ~20,000–25,000 with Damascus is real (Wikipedia: ~12,000 Mount Lebanon + ~12,000 Damascus ≈ 24,000) — but it is NOT sourced by GlobalSecurity, so the high anchor needs a correct source. Scoped to Mount Lebanon, where roughly 10,000–12,000 Christians (Maronite and Greek Orthodox) were killed and about 380 villages and 560 churches destroyed; key massacres at Hasbaya (~1,000), Rashaya, and Deir al-Qamar (~1,200–2,200), the last of which fell from ~10,000 inhabitants to ~400 by October 1860. A separate, contemporaneous wave of killing in Damascus in July 1860 killed thousands more Christians; some sources give a combined 1860 total of ~20,000–25,000 dead. Figures are disputed and rest on 19th-century European, Christian and Druze narratives that diverge; Druze and Muslim communities also suffered losses in the wider conflict."
+      },
+      "received_lens": "memorial",
+      "summary": "In the summer of 1860 a long-building conflict on Mount Lebanon erupted into massacre: Druze fighters stormed Christian towns and villages across the mountain — Hasbaya, Rashaya, Zahleh, Deir al-Qamar — killing roughly ten to twelve thousand Maronite and Orthodox Christians, burning hundreds of villages and churches, and leaving more than a hundred thousand homeless. The bloodshed spread to Damascus, where thousands more Christians were killed, and prompted a French military intervention.",
+      "relevance": "Within Lebanon's own communal map, the Druze of 1860 are perpetrators and the Christians victims — the mirror image of 1976–1982, when Christian militias would do the massacring; the atlas carries both rather than freezing either community in a single role.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"1860 civil conflict in Mount Lebanon and Damascus\" — Wikipedia (27 May–11 July 1860; ~10,000–12,000 Christians killed in Mount Lebanon, ~380 villages and ~560 churches destroyed; Hasbaya ~1,000, Deir al-Qamar ~1,200–2,200; Druze clans as perpetrators with Ottoman complicity; Damascus killings July 1860; disputed totals up to ~20,000–25,000)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/1860_civil_conflict_in_Mount_Lebanon_and_Damascus",
+          "caveat": "Tertiary aggregator; the figures derive from divergent 19th-century European, Christian and Druze accounts and are explicitly disputed, so the low/high range should be read as contested rather than settled. AUDIT (2026-06-19): verified — Wikipedia's casualty summary gives ~12,000 killed in Mount Lebanon (~10,000 Christians) plus ~12,000 in Damascus, corroborating both the 10,000–12,000 mountain range and the ~24,000 combined total; this source (not GlobalSecurity) is the proper anchor for the high end."
+        },
+        {
+          "kind": "reference",
+          "cite": "GlobalSecurity.org, \"Maronite Syrian Massacre 1860\" — page exists but states \"the massacre of the eleven thousand Christians in Syria in 1860\"; it does NOT give ~20,000 killed, nor the ~100,000-homeless or village/church-destruction figures previously attributed to it here",
+          "supports": "toll.high",
+          "url": "https://www.globalsecurity.org/military/world/war/syria-1860.htm",
+          "caveat": "AUDIT (2026-06-19) — SOURCE-CLAIM MISMATCH / QUARANTINED. Verified to exist, but it supports only ~11,000 Christian dead, not the ~20,000 high anchor or the 100,000-homeless/destruction details the original cite claimed. It therefore does NOT substantiate the high end of the toll. The 10,000–12,000 Mount Lebanon range and the ~20,000–25,000 combined-with-Damascus figure are corroborated by Wikipedia's own casualty summary, which should be the high anchor; this GlobalSecurity citation must be replaced or re-scoped before the event can be marked VERIFIED. No source was invented to fill the gap."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "\"The 1860 massacres in Mount Lebanon: An Examination of the Christian, Druze and European narratives on those events\" (academic paper, Academia.edu) — analyses how Christian, Druze and European sources diverge on responsibility and casualty figures for the 1860 events",
+          "supports": "tier",
+          "url": "https://www.academia.edu/34618861/The_1860_massacres_in_Mount_Lebanon_An_Examination_of_the_Christian_Druzes_and_European_narratives_on_those_events",
+          "caveat": "Self-hosted academic paper (Academia.edu); cited from its title and subject for the point that the narratives and figures are contested, not as a single authoritative casualty count. AUDIT (2026-06-19): the paper exists (confirmed via search — exact title match, examines how European reports framed the events and how Christian/Druze/European narratives diverge on responsibility); WebFetch returned HTTP 403 (access restriction, not non-existence), so existence and subject are verified by search snippet, supporting the 'tier'/contested-narratives claim."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "lbn-3",
+      "country": "LBN",
+      "role": "perpetrator",
+      "title": "The Sabra and Shatila Massacre",
+      "era": "1982",
+      "era_band": "contemporary",
+      "tier": "EXT",
+      "tier_reasoning": "A militia entered two crowded refugee districts and over roughly 40 hours systematically killed unarmed civilians — mostly women, children and the elderly — targeting them as Palestinians and Shia Muslims rather than as combatants, which is the deliberate mass killing of a defined group (EXT).",
+      "agent": "The Lebanese Forces (Christian Phalangist) militia, commanded by Elie Hobeika, with the South Lebanon Army; the camps were sealed and lit by the Israeli army, which the Kahan Commission found bore indirect responsibility",
+      "toll": {
+        "low": 700,
+        "high": 3500,
+        "unit": "deaths",
+        "display": "~700–800 (Israeli intelligence) to ~3,000–3,500 (al-Hout / Kapeliouk); ~1,300 named victims documented; Palestinian Red Crescent >2,000",
+        "disputed": true,
+        "note": "Estimates diverge sharply by source. Israeli intelligence put the dead at ~700–800; a Lebanese army prosecutor counted ~460; historian Bayan Nuwayhed al-Hout documented at least ~1,300 named victims and estimated up to ~3,500 total; the Palestinian Red Crescent estimated more than 2,000; journalist Robert Fisk reported ~1,700; Amnon Kapeliouk estimated ~3,000–3,500. Victims were overwhelmingly Palestinian refugees and Lebanese Shia civilians."
+      },
+      "received_lens": "contested",
+      "summary": "Days after the assassination of Christian president-elect Bashir Gemayel, the Israeli army — then occupying West Beirut — let the allied Lebanese Forces militia into the Sabra and Shatila Palestinian refugee camps and sealed the exits, firing flares to light the area at night. Over some 40 hours the militiamen killed hundreds to thousands of unarmed civilians, mostly women, children and the elderly. Israel's own Kahan Commission found it bore indirect responsibility and named Defence Minister Ariel Sharon as personally responsible.",
+      "relevance": "Lebanon's most internationally infamous atrocity was committed by a Lebanese militia, not a foreign army — the people who were starved in 1915 and massacred in 1860 here appear, through their own sectarian forces, as the perpetrators against another stateless population.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Sabra and Shatila massacre\" — Wikipedia (16–18 Sept 1982; Lebanese Forces militia under Elie Hobeika with SLA; Israeli army sealed and illuminated the camps; toll estimates: Israeli intelligence 700–800, al-Hout ≥1,300 named / up to 3,500, Palestinian Red Crescent >2,000, Fisk ~1,700, Kapeliouk 3,000–3,500; Kahan Commission found indirect Israeli responsibility, named Sharon)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Sabra_and_Shatila_massacre",
+          "caveat": "Tertiary aggregator; it compiles a wide range of partisan and official estimates that differ by a factor of several, so both toll endpoints are carried as a disputed range. AUDIT (2026-06-19): verified — page exists and carries the full estimate spread (Israeli intelligence 700–800, al-Hout, Palestinian Red Crescent >2,000, Fisk, Kapeliouk 3,000–3,500), Lebanese Forces under Hobeika as perpetrators, Israeli sealing/illumination, and the Kahan Commission's indirect-responsibility finding naming Sharon."
+        },
+        {
+          "kind": "press",
+          "cite": "Institute for Middle East Understanding (IMEU), \"Explainer: The Sabra & Shatila Massacre\" — Phalange/Kataeb-linked militia entered the camps with Israeli facilitation and killed between ~762 and ~3,500 mostly Palestinian and Lebanese Shia civilians over ~16–18 Sept 1982",
+          "supports": "toll.high",
+          "url": "https://imeu.org/resources/resources/explainer-the-sabra-shatila-massacre/113",
+          "caveat": "Pro-Palestinian advocacy organisation; used for the perpetrator attribution and the high-end (~3,500) figure, which is consistent with al-Hout's and Kapeliouk's independent estimates. AUDIT (2026-06-19): verified — explainer exists (10 Sept 2024), opens with \"a massacre of up to 3,500 Palestinian refugees,\" cites ~150 Phalangist fighters sent in with Israeli facilitation, victims mostly women/children/elderly; supports the high anchor and perpetrator attribution."
+        },
+        {
+          "kind": "press",
+          "cite": "Jewish Virtual Library, \"First Lebanon War: Massacres at Sabra & Shatila\" — carries the Israeli/official lower-range framing of the toll and the Kahan Commission's finding of indirect Israeli responsibility, with the killing carried out by the Christian Phalangist militia",
+          "supports": "toll.low",
+          "url": "https://jewishvirtuallibrary.org/massacres-at-sabra-and-shatila",
+          "caveat": "Pro-Israel reference site (American–Israeli Cooperative Enterprise); tends toward the lower (Israeli-intelligence) end of the toll, so it is used specifically to anchor the disputed low estimate, balanced against the higher Palestinian and scholarly figures. AUDIT (2026-06-19): verified — page exists, gives \"460 (Lebanese police) to 700–800 (Israeli intelligence),\" names the Christian Phalangist militia as responsible, and confirms the Kahan Commission's indirect-responsibility finding; properly anchors the low end."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "lbn-4",
+      "country": "LBN",
+      "role": "perpetrator",
+      "title": "The Karantina Massacre",
+      "era": "1976",
+      "era_band": "contemporary",
+      "tier": "EXT",
+      "tier_reasoning": "Christian militias overran a poor mixed district and killed its largely Palestinian and Muslim inhabitants as a community — men and boys rounded up and shot, the slum then burned and bulldozed — targeted mass killing of a defined population (EXT) rather than combat between armed forces.",
+      "agent": "The Lebanese Front's Christian militias — chiefly the Kataeb (Phalangist) Regulatory Forces, the Tigers Militia and the Guardians of the Cedars",
+      "toll": {
+        "low": 600,
+        "high": 1500,
+        "unit": "deaths",
+        "display": "~600 to ~1,500 killed (mostly Palestinian, Kurdish, Syrian and Lebanese Muslim residents)",
+        "disputed": true,
+        "note": "Official and historical estimates range from about 600 to about 1,500 dead (per the International Center for Transitional Justice and historian William Harris). Karantina was a poor East Beirut shantytown of Palestinians, Kurds, Syrians, Armenians and Lebanese Muslims under PLO/Lebanese National Movement control. The massacre is paired in the record with the Damour massacre two days later (20 Jan 1976), in which Palestinian and leftist forces killed ~150–582 Christian civilians in retaliation — the two are usually cited together as a single cycle of reprisal."
+      },
+      "received_lens": "contested",
+      "summary": "On 18 January 1976, early in the civil war, Christian Lebanese Front militias overran the Karantina slum in East Beirut — a poor district of Palestinians, Kurds and Lebanese Muslims held by the PLO and the leftist Lebanese National Movement. They killed hundreds of residents, rounding up and shooting men and boys, before burning and bulldozing the shantytown. Two days later Palestinian and leftist forces answered with a massacre of Christians at Damour.",
+      "relevance": "Karantina shows the perpetrator role rotating within Lebanon itself: a Christian militia massacres a Muslim and Palestinian slum, and within 48 hours Palestinian and leftist fighters massacre Christians — neither side a pure victim, which is exactly why both belong in the atlas.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Karantina massacre\" — Wikipedia (18 Jan 1976; Lebanese Front militias — Kataeb/Phalangist KRF, Tigers, Guardians of the Cedars and others; victims Palestinians, Kurds, Syrians, Armenians, Lebanese Muslims; ~600–1,500 killed per ICTJ and William Harris; district burned and bulldozed; Damour reprisal two days later)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Karantina_massacre",
+          "caveat": "Tertiary aggregator; the 600–1,500 range is sourced there to the ICTJ and historian William Harris but remains an estimate from a chaotic early-war episode with no full count. AUDIT (2026-06-19): verified — page exists, gives ~600–1,500 cited to ICTJ and William Harris (\"The New Face of Lebanon\"), names Lebanese Front Christian militias (Kataeb/KRF, Tigers, Guardians of the Cedars, al-Tanzim), victims as Palestinians/Kurds/Armenians/Syrians/Lebanese Muslims, and the Damour reprisal. (The 'burned/bulldozed' razing of the slum is widely documented though not surfaced in this fetch.)"
+        },
+        {
+          "kind": "press",
+          "cite": "The Jerusalem Post, \"On This Day: 1,500 Palestinians slain in Karantina massacre 46 years ago\" — reports the high-end ~1,500 figure for those killed when Christian militias overran the largely Palestinian Muslim Karantina district of East Beirut",
+          "supports": "toll.high",
+          "url": "https://www.jpost.com/middle-east/article-692823",
+          "caveat": "Mainstream Israeli outlet; used for the high-end (~1,500) figure, which sits at the top of the disputed range and should be read against the ~600 low estimate. AUDIT (2026-06-19): verified — article exists with the exact title \"On This Day: 1,500 Palestinians slain in Karantina massacre 46 years ago\" and reports ~1,500 killed when Christian Lebanese forces overran the largely Palestinian Muslim district on 18 Jan 1976; properly anchors the high end."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

@@ -1,0 +1,172 @@
+{
+  "iso": "FIN",
+  "name": "Finland",
+  "note": "Two ledgers held together. As victim, Finland's deepest scars are demographic: the Great Famine of 1695–1697 killed roughly a quarter to a third of the population of then-Swedish Finland — one of the worst famines in European history relative to population — and the Finnish Famine of 1866–1868, the last great famine in Northern Europe, killed about 150,000 in excess of normal mortality while autonomous Finland's own finance minister delayed grain credit to protect the new currency. Both are scored STR: the proximate killer was failed harvests and epidemic disease, with human policy aggravating rather than designing the death. As perpetrator, Finland's record is overwhelmingly internal and wartime rather than colonial. In 1918 the victorious Whites of the Finnish Civil War carried out a White Terror of summary executions and ran prison camps in which some 12,000–14,000 captured Reds — fellow Finns — died of hunger, disease and shooting. During the Continuation War of 1941–1944 the Finnish military administration interned roughly a quarter of the ethnic-Russian civilian population of occupied East Karelia in concentration camps, where several thousand died of malnutrition; one Finnish historian has called the system a tool for what would now be called ethnic cleansing. Finland never held overseas colonies, so the perpetrator ledger is domestic and regional, not imperial — that asymmetry is stated, not balanced with invented events. Tiers tag the act, never the nation, and there is no ranking.",
+  "events": [
+    {
+      "id": "fin-1",
+      "country": "FIN",
+      "role": "victim",
+      "title": "The Great Famine of 1695–1697",
+      "era": "1695–1697",
+      "era_band": "pre-colonial",
+      "tier": "STR",
+      "tier_reasoning": "A demographic collapse driven by repeated harvest failure during the Little Ice Age and the epidemic disease that followed starvation, not by deliberate killing of a group — structural mass death, so STR.",
+      "agent": "No human author of the deaths; Finland was then a part of the Kingdom of Sweden, and the catastrophe was driven by extreme cold and crop failure, with the early-modern Swedish state lacking the means to relieve a famine on this scale",
+      "toll": {
+        "display": "~125,000–150,000 deaths (about one-quarter to one-third of the population)",
+        "disputed": true,
+        "low": 125000,
+        "high": 150000,
+        "unit": "deaths",
+        "note": "Standard estimates hold that roughly a quarter to a third of the population of then-Swedish Finland died, on the order of 150,000 out of about 500,000 people. This is a population-loss / mortality figure across the famine years, not a count of murders. AUDIT 2026-06-19: the prior low bound of 100,000 was unsourced and inconsistent with its own stated basis — a quarter of the ~500,000 population cited by the Wikipedia source is 125,000, not 100,000 — so the low has been corrected to 125,000 (the conservative quarter-of-population reading); the high of ~150,000 is the one-third reading and is directly sourced. Estimates rest on parish death registers and demographic reconstruction, which carry uncertainty for the period."
+      },
+      "received_lens": "memorial",
+      "summary": "In the 1690s, the coldest decade of the Little Ice Age in northern Europe, successive summers were too cold and wet for grain to ripen and early frosts destroyed what little grew. Across then-Swedish Finland harvests collapsed, and starvation was followed by epidemic disease that killed the weakened. By the time it ended, on the order of a quarter to a third of the population — about 150,000 people — had died, making it Finland's worst demographic catastrophe.",
+      "relevance": "The same Finland that buried a third of its people in a famine it could not prevent would, two centuries later, run camps in which captured fellow Finns and occupied Russian civilians starved — the victim of structural death also a maker of it.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Great Famine of 1695–1697,' Wikipedia (famine across the present-day Finland, Estonia and Baltic provinces then belonging to the Kingdom of Sweden; killed roughly a third of Finland's population, about 150,000 of ~500,000, during the lowest point of the Little Ice Age)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Great_Famine_of_1695%E2%80%931697",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Lappalainen, Mirkka, 'Death and Disease During the Great Finnish Famine 1695–1697,' Scandinavian Journal of History 39:4 (2014) (peer-reviewed study of mortality and epidemic disease during the famine, based on parish records)",
+          "supports": "summary",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/03468755.2014.937740",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "fin-2",
+      "country": "FIN",
+      "role": "victim",
+      "title": "The Finnish Famine of 1866–1868 (suuret nälkävuodet, 'the great hunger years')",
+      "era": "1866–1868",
+      "era_band": "modern",
+      "tier": "STR",
+      "tier_reasoning": "Mass death from crop failure and ensuing disease, aggravated by a fiscal decision to delay relief but not designed to kill any group — structural famine mortality, so STR.",
+      "agent": "Driven by catastrophic harvest failure in the autonomous Grand Duchy of Finland (then under Russian rule); aggravated by finance minister Johan Vilhelm Snellman's reluctance to borrow for grain imports, lest it weaken the newly introduced Finnish markka",
+      "toll": {
+        "display": "~150,000 excess deaths (about 8.5% of the population; ~270,000 total deaths over the famine years)",
+        "disputed": false,
+        "low": 150000,
+        "high": 150000,
+        "unit": "deaths",
+        "note": "About 270,000 people died over the three famine years, of which roughly 150,000 were in excess of normal mortality and attributed to the famine — about 8.5% of the entire population, and up to 20% in the hardest-hit eastern and northern regions. The 150,000 figure is the standard excess-death estimate; the dispute is over apportioning blame, not over the order of magnitude."
+      },
+      "received_lens": "memorial",
+      "summary": "An extremely cold, wet 1866 rotted the potato and root crops; a freezing May 1867 — the coldest on Helsinki's record — and early September frosts cut the harvest roughly in half. Hunger and the typhus and dysentery that followed killed about 150,000 people beyond normal mortality, some 8.5% of Finland's population. Finance minister J.V. Snellman delayed borrowing for grain imports to protect the young Finnish currency, so relief arrived late; this remains the last great famine in Northern Europe.",
+      "relevance": "Finland's defining national memory of mass death — a people starving while their own government weighed currency stability against grain — sits in the same ledger as the camps Finland later ran, where starvation was again the killer but the captives were prisoners of the Finnish state.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Finnish famine of 1866–1868,' Wikipedia (270,000 deaths over three years, ~150,000 in excess of normal mortality; ~8.5% of the population, up to 20% in hardest-hit areas; rainy 1866 and frosts of 1867; finance minister J.V. Snellman reluctant to borrow for imports to protect the markka)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Finnish_famine_of_1866%E2%80%931868",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Voutilainen, M., 'Income inequality and famine mortality: Evidence from the Finnish famine of the 1860s,' The Economic History Review (2022) (peer-reviewed analysis of famine mortality and its socioeconomic distribution)",
+          "supports": "summary",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/ehr.13095",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "fin-3",
+      "country": "FIN",
+      "role": "perpetrator",
+      "title": "The White Terror and prison camps of the Finnish Civil War",
+      "era": "1918",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "Summary execution of identified political enemies (the defeated Reds) plus mass death of prisoners through deliberate neglect in camps run by the victors — political mass killing, so POL.",
+      "agent": "The victorious White side of the Finnish Civil War — the White Army under C.G.E. Mannerheim and the Senate government, whose courts-martial and prison camps (from September 1918 the State Correctional Office) held and killed captured Reds",
+      "toll": {
+        "display": "~10,000 executed in the White Terror plus ~12,000–14,000 dead in the prison camps",
+        "disputed": true,
+        "low": 19000,
+        "high": 24000,
+        "unit": "deaths",
+        "note": "Historians put the White Terror's summary executions at roughly 7,000–10,000, and deaths among the ~80,000 imprisoned Reds at about 12,000–14,000 from hunger, disease (Spanish flu, dysentery) and shooting — mortality reached 34% at the Tammisaari camp. The combined range here (~19,000–24,000) covers both; the overall Civil War death toll across both sides was about 38,000. The dispute is over exact counts, not over the fact of the terror or the camp deaths."
+      },
+      "received_lens": "contested",
+      "summary": "After the Whites won the 1918 civil war, they shot captured Reds in lawless field courts-martial — roughly 7,000 to 10,000 in the White Terror, at a peak of some 200 a day in late April and early May — and packed about 80,000 prisoners and their families into more than sixty camps. There, deliberate under-feeding, disease and shooting killed some 12,000 to 14,000; the Tammisaari camp alone lost about a third of its inmates. The dead were overwhelmingly fellow Finns.",
+      "relevance": "The nation whose central memory is its own famine starved its own defeated countrymen in camps within living memory of that hunger — Finland as perpetrator against Finland, the victim and the maker of mass death the same people.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Finnish Civil War,' Wikipedia (about 38,000 deaths; ~9,000 Reds executed and ~6,200 killed in combat; about 12,500 Red prisoners died of malnutrition and disease in camps plus ~600 after release; White Terror executions exceeding combat deaths on the Red side)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Finnish_Civil_War",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "'Finnish Civil War prison camps,' Wikipedia (camps run by the White Army and from September 1918 the State Correctional Office; ~80,000 imprisoned across 60+ camps including 4,700 women and 1,500 children; 12,000–14,000 deaths from malnutrition, disease and execution; 34% mortality at Tammisaari)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Finnish_Civil_War_prison_camps",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "fin-4",
+      "country": "FIN",
+      "role": "perpetrator",
+      "title": "The East Karelian concentration camps of the Finnish occupation",
+      "era": "1941–1944",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "Forced internment of an ethnically defined civilian population (ethnic Russians) by an occupying state, with thousands dying of deliberate under-provisioning — politically and ethnically targeted mass death, so POL.",
+      "agent": "The Finnish military administration of occupied East Karelia during the Continuation War, under Commander-in-Chief C.G.E. Mannerheim, which interned ethnic-Russian civilians while privileging the Finnic population",
+      "toll": {
+        "display": "~4,000–7,000 deaths among interned civilians and POWs (Finnish records: 4,361)",
+        "disputed": true,
+        "low": 4000,
+        "high": 7000,
+        "unit": "deaths",
+        "note": "Finnish records give 4,361 deaths among interned civilians and POWs, most from hunger in spring–summer 1942; earlier estimates ranged 4,000–7,000. About 24,000 ethnic Russians — roughly 30% of the remaining Russian population, mainly children and the elderly — were interned, and the Petrozavodsk camps saw about 18% mortality. Russia's Prosecutor General's Office has alleged far higher figures (over 8,000 civilians and 18,000 Soviet POWs killed) and gas chambers; Finnish historians dispute these as unsupported, so the higher Russian claims are not adopted here. AUDIT QUARANTINE 2026-06-19: the toll figures (4,000–7,000; Finnish records 4,361; ~24,000 interned; ~18% Petrozavodsk mortality) are all confirmed against the Wikipedia source. However, the Yle press source originally attached to the summary was MISATTRIBUTED: the Yle article (yle.fi/a/3-11315786) reports the Russian probe but does NOT quote Oula Silvennoinen — it quotes National Archives director Jussi Nuorteva (who said it could NOT be regarded as ethnic cleansing) and historian Antti Laine. The genuine Silvennoinen 'tool for preparing what would now be called ethnic cleansing' characterisation traces to Silvennoinen (2011), 'Limits of Intentionality,' History of Warfare 69:386 (Brill), now cited separately. The source attribution as originally recorded did not support the claim attached to it, so this event is held UNVERIFIED pending the corrected citation being accepted; the underlying facts are sound."
+      },
+      "received_lens": "contested",
+      "summary": "After Finnish forces occupied Soviet East Karelia in 1941, the Finnish military administration interned roughly 24,000 ethnic-Russian civilians — about a third of the remaining Russian population, mostly children and the elderly — in concentration camps centred on Petrozavodsk, while treating the kindred Finnic Karelians as future fellow citizens. Deliberate under-feeding and disease killed about 4,000 to 7,000; in the spring and summer of 1942 some 3,500 died of malnutrition. Finnish historian Oula Silvennoinen has called the system a tool for what would now be called ethnic cleansing.",
+      "relevance": "A country that remembers itself through famine and through Russian imperial rule here became the occupier, sorting an occupied population by ethnicity and starving the wrong-ethnicity civilians behind wire — Finland as victim of empire and as agent of ethnic internment in the same century.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'East Karelian concentration camps,' Wikipedia (run by the Finnish military administration in occupied East Karelia from 24 Oct 1941; ~24,000 ethnic Russians interned, ~30% of the remaining Russian population; Finnish records of 4,361 deaths, earlier estimates 4,000–7,000, ~3,500 dead of malnutrition in spring–summer 1942; ~18% mortality at Petrozavodsk; Russian claims of higher tolls disputed)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/East_Karelian_concentration_camps",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "'Russia launches \"genocide\" probe into Karelian WW2 camps,' Yle (Finnish public broadcaster), 21 April 2020 (Finnish-run camps for ethnic-Russian civilians in occupied Karelia; reports the Russian Investigative Committee probe; quotes National Archives director Jussi Nuorteva that the ethnic segregation could not be regarded as ethnic cleansing, and historian Antti Laine; used only for the framing of the dispute and competing death-toll claims)",
+          "supports": "summary",
+          "url": "https://yle.fi/a/3-11315786",
+          "caveat": "AUDIT 2026-06-19: this article does NOT quote Oula Silvennoinen — the prior citation falsely attributed the 'ethnic cleansing' characterisation to it; corrected to describe what the article actually says (Nuorteva, Laine, and the Russian probe). Used only for the framing of the dispute, not for the higher Russian figures or the Silvennoinen quote."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Silvennoinen, Oula, 'Limits of Intentionality: Soviet Prisoners-of-War and Civilian Internees in Finnish Custody,' History of Warfare vol. 69 (2011), p. 386, Brill (the Finnish historian's characterisation of the camps as 'a tool for preparing what would nowadays be called ethnic cleansing')",
+          "supports": "summary",
+          "url": "https://brill.com/display/title/20557",
+          "caveat": "Source for the Silvennoinen characterisation only, added in audit after it was found misattributed to the Yle article. The Brill URL points to the volume; the page citation (386) is per the Wikipedia East Karelian concentration camps reference and was not independently page-verified."
+        }
+      ],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

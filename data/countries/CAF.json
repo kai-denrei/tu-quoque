@@ -1,0 +1,204 @@
+{
+  "iso": "CAF",
+  "name": "Central African Republic",
+  "note": "The Central African Republic's ledgers are sharply asymmetric in who held the gun, and the asymmetry is itself the point. The deepest victim wounds were inflicted from outside or above: France, which ran the colony of Ubangi-Shari through concession companies that worked the population to death for rubber and ivory in a regime explicitly compared to the Congo Free State, and which then crushed the Kongo-Wara rebellion of 1928-1931 with village razings, deportations, and the 'war of the caves.' Both of those tolls are genuinely unknowable — the Ubangi-Shari population's losses under the concessions were never counted, and the Kongo-Wara figure rests on a weakly sourced '10,000+' estimate — so both are kept on the victim ledger with the numbers shown as floors or as null rather than invented. The perpetrator ledger is real but narrower and turns inward: the country's own ruler Jean-Bédel Bokassa personally took part in beating schoolchildren to death at Ngaragba prison in 1979, and during the 2013-2014 civil war Central African armed groups — the mostly Christian anti-balaka — carried out what a 2014 UN Commission of Inquiry called ethnic cleansing of the country's Muslim minority, while the mostly Muslim Séléka had committed mass atrocities on its march to power. That civil war sits on both ledgers: Central Africans of every faith were its victims, and Central African militias were its perpetrators, which is exactly the dual lens this atlas insists on. Nothing was inflated to balance the columns; where the record is thin or the count is missing, that is stated rather than filled.",
+  "events": [
+    {
+      "id": "caf-1",
+      "country": "CAF",
+      "role": "victim",
+      "title": "The concession-company terror in Ubangi-Shari",
+      "era": "c. 1899–1930s",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "A regime of forced rubber and ivory extraction whose violence, overwork, and accompanying disease drove a demographic collapse rather than a single deliberate campaign to destroy a defined people; tiered STR for the structural, system-driven mass death, with the deliberate killings (executions, mutilations) noted within it.",
+      "agent": "France — the colonial administration and the private concession companies it chartered (the Compagnie des Sultanats du Haut-Oubangui and others), whose European managers and armed African guards imposed rubber and ivory quotas by terror; here the peoples of Ubangi-Shari are the victims of a foreign colonial power",
+      "toll": {
+        "low": 1500,
+        "high": null,
+        "unit": "deaths",
+        "display": "unknown; 1,500 murders recorded on the Mpoko concession alone (1903-1905); region-wide toll never counted",
+        "disputed": true,
+        "note": "AUDIT (2026-06-19): toll.low is a genuine figure but was MISATTRIBUTED. The administration's report of 1,500 murders on the Mpoko concession (1903-1905) and the detail of 40 European managers + 400 armed African guards shooting on sight any African not collecting rubber is documented verbatim in the scholarly reference 'France in Tropical Africa' (encyclopedia.com) and in the Wikipedia 'Ubangi-Shari' article, NOT in the Wikipedia 'French Equatorial Africa' article to which the JSON source originally pointed (that page carries only the Gide account and the Hochschild estimate). The figure itself stands; the citation was corrected. The total number of dead under the French concession system in Ubangi-Shari is, per the scholarship, unknown and was never counted. For French Equatorial Africa as a whole, Adam Hochschild estimates the population of the French Congo and Gabon fell by roughly half (confirmed on the FEA Wikipedia page) — comparable to his estimate for the Congo Free State — but that figure spans far more than Ubangi-Shari and mixes killing with disease (sleeping sickness preyed on exhausted, undernourished labourers), so it is not transferable as a CAR death count. The high is therefore left null rather than guessed. Single-number floor, region-wide total unknowable: status UNVERIFIED."
+      },
+      "received_lens": "suppressed",
+      "summary": "From around 1899, France handed most of Ubangi-Shari to private concession companies that held monopoly rights to extract rubber and ivory and exacted the labour by force. Managers and armed guards punished failure to meet quotas with floggings, mutilations, hostage-taking, and killing; on the Mpoko concession alone the administration recorded 1,500 murders between 1903 and 1905. André Gide's 1927 Voyage au Congo brought the system to French public attention, describing dismemberments, executions, and villagers bound to beams and made to march until they dropped. The region-wide death toll was never counted.",
+      "relevance": "The Central African peoples open the atlas as victims of a European power, which is the standard frame — but the same country's later record shows Central Africans killing Central Africans, which the single colonial-victim lens erases.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Ubangi-Shari' — states that the colony had a concession system similar to the Congo Free State, that similar atrocities were committed there, that André Gide documented mutilations, dismemberments, executions and the burning of children, and that the number of victims under the concession system remains unknown",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Ubangi-Shari",
+          "caveat": "Tertiary aggregator; used for the qualitative account and the explicit statement that the toll is unknown, not for any specific number."
+        },
+        {
+          "kind": "reference",
+          "cite": "'France in Tropical Africa' (encyclopedia.com scholarly reference), corroborated by Wikipedia 'Ubangi-Shari' — records that on the Mpoko concession 40 European managers and 400 armed African guards shot on sight any African not collecting rubber, and that between 1903 and 1905 the administration reported 1,500 murders. (Citation corrected on audit 2026-06-19: this Mpoko figure does NOT appear on the Wikipedia 'French Equatorial Africa' page originally cited; that page carries only Gide's account and Hochschild's half-population-decline estimate for French Congo/Gabon.)",
+          "supports": "toll.low",
+          "url": "https://www.encyclopedia.com/international/encyclopedias-almanacs-transcripts-and-maps/france-tropical-africa",
+          "caveat": "Scholarly reference compendium; the 1,500 Mpoko figure is a contemporary administrative report and a documented floor for one concession only, not the region-wide total (which is unknown). Hochschild's half-population-decline figure is for the wider French Congo/Gabon, blends violence with disease, and is not used as a CAR count."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "caf-2",
+      "country": "CAF",
+      "role": "victim",
+      "title": "French repression of the Kongo-Wara rebellion ('war of the hoe handle')",
+      "era": "1928–1931",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "Counter-insurgency repression of a colonial uprising — village razings, mass deportations to labour camps, summary executions and the 1931 'war of the caves' — carried out by a colonial power against rebelling subjects; tiered WAR as armed-conflict atrocity rather than EXT, since the documented intent was to break a revolt and deter resistance, not to destroy the Gbaya as a people.",
+      "agent": "France — the colonial military, reinforced with Senegalese tirailleurs under the Ubangi-Shari administration (Governor Auguste Lamblin), which suppressed the Gbaya-led rising by razing villages, deporting populations to controlled zones, imposing collective fines, and smoking or sealing rebels into the caves where they had taken refuge; the Gbaya and neighbouring peoples are the victims",
+      "toll": {
+        "low": null,
+        "high": 10000,
+        "unit": "deaths",
+        "display": "estimated 10,000+ (figure weakly sourced)",
+        "disputed": true,
+        "note": "AUDIT (2026-06-19): the '10,000+' toll was confirmed to appear ONLY in the Wikipedia infobox, with no inline in-text citation, and is correctly carried as a weak estimate. CORRECTION: the claim that 'France deliberately concealed its scale' overstates the sources. The Wikipedia article and Britannica say the rebellion was 'relegated to relative obscurity amongst the public in France' / went largely unnoticed and unreported — i.e. obscurity and limited media coverage, NOT documented deliberate state concealment. Wording softened accordingly. Over 350,000 adherents (incl. ~60,000 warriors) are confirmed; Karnou killed 11 December 1928 and the 1931 'war of the caves' both confirmed. A genuine scholarly monograph exists (Raphaël Nzabakomada-Yakoma, 1944-1985, 'L'Afrique centrale insurgée: la guerre du Kongo-Wara 1928-1931', L'Harmattan 1986, from his Paris thesis) but its specific casualty figure was not confirmed in this research. The low is left null and the 10,000 high carried only as a weakly attributed estimate; status UNVERIFIED."
+      },
+      "received_lens": "suppressed",
+      "summary": "In 1928 the Gbaya prophet Karnou (Barka Ngainoumbey) led a rising across western Ubangi-Shari against forced labour, railway conscription, and the concession companies — the largest anti-colonial rebellion in interwar Africa, drawing in over 350,000 people from the Gbaya, Pana, Karre, and Lakka. France crushed it over three years with village burnings, mass deportations to labour camps, and summary executions, killing Karnou in December 1928 and finishing the revolt with the 1931 'war of the caves,' in which rebels sheltering underground were sealed in or killed. The rising drew little attention in France and was relegated to relative obscurity there, and no reliable death toll was ever established.",
+      "relevance": "A second victim entry in which the killer is a European empire — the colonial frame the world expects of the Central African Republic — making the inward-facing perpetrator ledger all the more important to set beside it.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Kongo-Wara rebellion' — describes the 1928-1931 Gbaya-led rising as a large interwar anti-colonial rebellion, gives a casualties figure of '10,000+', records over 350,000 adherents (incl. ~60,000 warriors), the killing of Karnou on 11 December 1928, and the French repression including the 1931 'war of the caves'; notes the rebellion was relegated to relative obscurity among the French public",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Kongo-Wara_rebellion",
+          "caveat": "Tertiary aggregator; the '10,000+' toll appears ONLY in the infobox with no in-text citation (verified on audit) and must be treated as a weakly sourced estimate, not an established count. The page attributes the rebellion's low profile in France to limited media coverage / obscurity, not to documented deliberate concealment."
+        },
+        {
+          "kind": "reference",
+          "cite": "Encyclopaedia Britannica, 'Central African Republic — The colonial era' — records the Kongo-Wara (1928-31) rebellion as a widespread but unsuccessful anti-colonial uprising in the western and south-western parts of the colony, and that after its suppression leaders were imprisoned and executed and populations were forcibly relocated to supervised, colonially designated villages",
+          "supports": "summary",
+          "url": "https://www.britannica.com/place/Central-African-Republic/The-colonial-era",
+          "caveat": "AUDIT (2026-06-19): Britannica was reachable only via search (direct fetch 403). It corroborates the rebellion, the executions of leaders, and the forced relocations, but does NOT state the rising was 'carefully hidden from the French public' (that wording, now softened to 'relative obscurity', is not supported by this source). It supplies no independent death toll."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "caf-3",
+      "country": "CAF",
+      "role": "victim",
+      "title": "Central African civilians in the 2013–2014 civil war",
+      "era": "2013–2014",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Mass killing of civilians of all faiths by armed groups during an internal armed conflict — sectarian massacres, reprisals, and the destruction of villages — tiered WAR for atrocity within war; the specifically eliminationist component (anti-balaka ethnic cleansing of Muslims) is tiered EXT separately on the perpetrator ledger.",
+      "agent": "Both warring sides: the mostly Muslim Séléka rebel alliance, which committed mass atrocities marching on Bangui in March 2013 and after seizing power, and the mostly Christian anti-balaka militias, which killed Muslim civilians and carried out reprisals; here Central Africans of every faith are the victims, killed by Central African armed groups",
+      "toll": {
+        "low": 3000,
+        "high": 6000,
+        "unit": "deaths",
+        "display": "~3,000-6,000 killed (Jan 2013-Dec 2014, conservative UN estimate)",
+        "disputed": true,
+        "note": "A 2014 UN Commission of Inquiry gave a conservative estimate of 3,000-6,000 people killed between January 2013 and December 2014; it stressed this was a floor, as many deaths in remote areas went unrecorded. Discrete episodes are documented within it — around 1,000 dead in Bangui alone in the December 2013 clashes (per Amnesty International). Displacement was far larger: about 554,800 internally displaced and roughly 360,000 refugees by mid-May 2014, most of them Muslim."
+      },
+      "received_lens": "contested",
+      "summary": "After the Séléka coalition overthrew President François Bozizé in March 2013, its largely Muslim fighters committed widespread atrocities against civilians; when the Séléka was pushed from power, largely Christian anti-balaka militias retaliated with massacres of Muslim civilians and the destruction of mosques. A 2014 UN Commission of Inquiry estimated 3,000-6,000 people killed between January 2013 and December 2014 — a deliberately conservative figure — with about 1,000 dead in Bangui alone in December 2013 and over 900,000 people driven from their homes.",
+      "relevance": "This war is the atlas's dual lens in a single event: Central Africans of all faiths were its victims, and Central African militias its perpetrators — so it sits on both of this country's ledgers at once.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "United States Holocaust Memorial Museum, 'Political and Ethnic Violence in Central African Republic' — cites the 2014 UN Commission of Inquiry's conservative estimate of 3,000-6,000 killed between January 2013 and December 2014, attributes mass atrocities to the Séléka and reprisal killings and ethnic cleansing to the anti-balaka, and gives the May 2014 displacement figures (554,800 IDPs; 359,834 refugees, mostly Muslim)",
+          "supports": "toll.high",
+          "url": "https://www.ushmm.org/genocide-prevention/countries/central-african-republic/political-and-ethnic-violence",
+          "caveat": "An atrocity-prevention institution; reliable but the toll is explicitly a conservative estimate from the UN inquiry, not a verified count."
+        },
+        {
+          "kind": "press",
+          "cite": "Amnesty International, 'Q&A: The Central African Republic's human rights crisis' (April 2014) — documents Séléka atrocities on the march to and seizure of Bangui, the anti-balaka campaign against Muslim civilians, that about 1,000 people died in Bangui in the December 2013 clashes, and the forced exodus of tens of thousands of Muslims",
+          "supports": "summary",
+          "url": "https://www.amnesty.org/en/latest/news/2014/04/qa-central-african-republic-s-human-rights-crisis/",
+          "caveat": "Human-rights advocacy organization writing during the crisis to mobilize a response; figures are field estimates."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "caf-4",
+      "country": "CAF",
+      "role": "perpetrator",
+      "title": "The Ngaragba Prison massacre of schoolchildren under Bokassa",
+      "era": "1979",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "A state killing of detained children and students in reprisal for protest against the regime — a political mass killing of the ruler's own civilian opponents rather than an attempt to destroy an ethnic group or a wartime act — tiered POL, with the head of state's personal participation an aggravating feature.",
+      "agent": "Emperor Jean-Bédel Bokassa and his security forces — after schoolchildren protested a compulsory uniform sold by a company tied to the imperial family, police rounded up children and students, jailed them at Ngaragba prison in Bangui, and killed them; Bokassa himself is reported to have beaten several to death with his cane and ordered the guards to continue. The Central African state kills its own children",
+      "toll": {
+        "low": null,
+        "high": 100,
+        "unit": "deaths",
+        "display": "~100 children and students killed (April 1979)",
+        "disputed": true,
+        "note": "Accounts converge on approximately 100 children and students killed at Ngaragba prison over the nights of mid-to-late April 1979, following a larger number shot in the streets during the preceding protests. Amnesty International's contemporaneous account (which helped trigger France's withdrawal of support for Bokassa) put the figure at close to 100, with victims described as aged roughly 8 to 16. No precise verified count exists, so the low is left null; the ~100 figure is carried as the consensus high."
+      },
+      "received_lens": "memorial",
+      "summary": "In January 1979 Bokassa ordered all students to wear a costly uniform produced by a firm linked to one of his wives; protests spread and police shot demonstrators in the streets. In mid-to-late April security forces rounded up schoolchildren and students and held them at Ngaragba prison in Bangui, where roughly 100 were beaten and bayoneted to death and buried in a mass grave — Bokassa himself reported to have clubbed several boys to death and told the guards to carry on. International revulsion at the killing of children helped prompt France to depose him in September 1979.",
+      "relevance": "Here the Central African state is unambiguously the perpetrator against its own people — and against children — the inward-facing counterpart to the colonial victimhood that dominates the country's earlier history.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, '1979 Ngaragba Prison massacre' — records that roughly 100 students were killed at Ngaragba prison in Bangui in April 1979 after protests against a compulsory school uniform, that Bokassa personally participated in the killings (beating boys to death with his cane and ordering guards to continue), and cites contemporary reporting in The New York Times, The Guardian and The Washington Post",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/1979_Ngaragba_Prison_massacre",
+          "caveat": "Tertiary aggregator; the ~100 figure and the detail of Bokassa's personal role derive from contemporaneous Western press and later histories rather than a forensic count."
+        },
+        {
+          "kind": "reference",
+          "cite": "Encyclopaedia Britannica, 'Jean-Bédel Bokassa' — records that following substantiation of international charges that Bokassa was involved in a massacre of more than 50 schoolchildren by his imperial guard, French paratroops carried out a coup against him in September 1979, reinstating Dacko, after which Bokassa went into exile",
+          "supports": "summary",
+          "url": "https://www.britannica.com/biography/Jean-Bedel-Bokassa",
+          "caveat": "AUDIT (2026-06-19): reachable only via search (direct fetch 403). NOTE: Britannica DOES give a toll — 'more than 50 schoolchildren' — which is LOWER than the ~100 high carried here from the dedicated Wikipedia article and Amnesty; the original caveat's claim that Britannica supplies no toll was inaccurate and is corrected. The 50+/~100 spread justifies the disputed flag. Britannica attributes the killings to Bokassa's 'imperial guard' and does not, in the searchable text, confirm the compulsory-uniform trigger or Bokassa's personal hands-on participation (those rest on the Wikipedia article and contemporaneous press)."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "caf-5",
+      "country": "CAF",
+      "role": "perpetrator",
+      "title": "Anti-balaka ethnic cleansing of Muslims (2013–2014)",
+      "era": "2013–2014",
+      "era_band": "contemporary",
+      "tier": "EXT",
+      "tier_reasoning": "A 2014 UN Commission of Inquiry concluded that anti-balaka abuses amounted to ethnic cleansing of the country's Muslim community — a campaign whose stated aim, in the militias' own words, was to rid the country of Muslims; tiered EXT for that eliminationist intent against a defined group, distinct from the broader wartime killing on the victim ledger.",
+      "agent": "The largely Christian anti-balaka militias of the Central African Republic, which after the Séléka was driven from power in early 2014 massacred Muslim civilians, looted and burned Muslim homes, shops, and mosques, and attacked road convoys of fleeing Muslims — driving most of the country's Muslim minority out; here a Central African armed movement is the perpetrator against fellow Central Africans",
+      "toll": {
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "display": "many hundreds to thousands killed; ~tens of thousands of Muslims expelled (within the war's overall 3,000-6,000 toll)",
+        "disputed": true,
+        "note": "Deaths from the anti-balaka campaign against Muslims are folded into the war's overall 3,000-6,000 toll (caf-3) and were not separately and reliably counted, so both ends are left null. What is firmly documented is the displacement: Amnesty International recorded the forced exodus of tens of thousands of Muslims to Chad, Cameroon and the DRC, with about 50,000 flown out of Bangui's military airport and tens of thousands more fleeing overland; the UN inquiry found the abuses amounted to ethnic cleansing. The killing was real and large (Amnesty documented 'many hundreds' of Muslim civilians killed, sometimes in large-scale massacres) but no clean death count attributable to this campaign exists."
+      },
+      "received_lens": "contested",
+      "summary": "After the mostly Muslim Séléka was forced from power in early 2014, the mostly Christian anti-balaka turned on Central African Muslims — killing hundreds in massacres, looting and burning Muslim quarters, destroying mosques, and ambushing convoys of refugees — with the stated goal, in their own words, of ridding the country of Muslims. Tens of thousands fled to Chad, Cameroon, and the DRC, and a 2014 UN Commission of Inquiry concluded the abuses amounted to ethnic cleansing of the country's Muslim community.",
+      "relevance": "The same 2013-2014 war that makes Central Africans victims on this country's other ledger here makes a Central African movement the perpetrator of ethnic cleansing — the dual lens collapsed into a single conflict.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "Amnesty International, 'Central African Republic: Ethnic cleansing and sectarian killings' (February 2014) — documents the anti-balaka killing of Muslim civilians in large-scale massacres, the looting and burning of Muslim homes and mosques, attacks on fleeing convoys, the stated goal of ridding the country of Muslims, and the forced exodus of tens of thousands of Muslims amounting to ethnic cleansing",
+          "supports": "summary",
+          "url": "https://www.amnesty.org/en/latest/news/2014/02/central-african-republic-ethnic-cleansing-sectarian-violence/",
+          "caveat": "Human-rights advocacy organization writing during the crisis to mobilize action; 'ethnic cleansing' is its and the UN's characterization, and its casualty references are field estimates rather than a verified count."
+        },
+        {
+          "kind": "reference",
+          "cite": "United States Holocaust Memorial Museum, 'Political and Ethnic Violence in Central African Republic' — records that a 2014 UN Commission of Inquiry concluded abuses by the anti-balaka amounted to ethnic cleansing of the country's Muslim community, that the displaced were overwhelmingly Muslim, and gives the May 2014 displacement figures",
+          "supports": "tier",
+          "url": "https://www.ushmm.org/genocide-prevention/countries/central-african-republic/political-and-ethnic-violence",
+          "caveat": "An atrocity-prevention institution; relays the UN inquiry's ethnic-cleansing finding rather than a separate death count for the campaign."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

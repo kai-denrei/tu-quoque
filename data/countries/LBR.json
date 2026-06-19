@@ -1,0 +1,251 @@
+{
+  "iso": "LBR",
+  "name": "Liberia",
+  "note": "Liberia is one of the cleanest illustrations of the dual lens, because the line between victim-people and perpetrator-state runs straight through the country's own founding. Liberia was settled from 1822 by free and freed African Americans under the American Colonization Society, descendants of the enslaved who, having escaped one racial caste order, built another on top of the indigenous majority. The result is a single set of events that read one way from below and the opposite way from above. The deepest convergence is the forced-labour scandal of the 1920s: the Americo-Liberian state, run by descendants of American slaves, was found by a 1930 League of Nations inquiry (the Christy Commission) to have coerced and shipped indigenous Liberians into near-slave labour on the Spanish plantation island of Fernando Po and on Liberian soil — so the same episode sits on BOTH ledgers, indigenous Liberians as victims and the settler-descended state as perpetrator. The largest death event by far is the chained civil wars of 1989-2003, which killed an estimated 150,000-250,000 people, about a tenth of the population; that catastrophe was set up by the 1980 coup and the Doe regime's ethnic counterinsurgency against the Gio and Mano, and was carried forward by Charles Taylor's NPFL and the factions that fought it — all of them Liberian forces killing Liberian civilians, which is why the war supplies both the victim total and several perpetrator entries. No figure here was inflated to balance the ledgers: the Fernando Po scandal has no defensible death count and its toll is left null; the civil-war total is given as the widely cited 150,000-250,000 range with the dispute shown; and the Lutheran Church massacre is given as a range because contemporary US estimates ran far below the commonly cited ~600.",
+  "events": [
+    {
+      "id": "lbr-1",
+      "country": "LBR",
+      "role": "victim",
+      "title": "The Fernando Po forced-labour scandal: indigenous Liberians coerced into near-slavery",
+      "era": "c.1920s–1930",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "A coercive labour and extraction regime that worked indigenous Liberians under compulsion 'scarcely distinguishable from slave raiding' rather than an attempt to destroy a defined people; tiered STR for systemic coerced labour and the deaths it caused, not EXT.",
+      "agent": "The Americo-Liberian state — President Charles D. B. King's government, Vice-President Allen N. Yancy, district commissioners and county superintendents, using the Liberian Frontier Force to recruit indigenous men under compulsion for shipment to the Spanish plantation island of Fernando Po and for forced labour inside Liberia",
+      "toll": {
+        "display": "uncounted; thousands coerced, no defensible death total exists",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "No defensible death toll exists and none is invented here. The 1930 League of Nations Commission of Inquiry (the Christy Commission) drew on more than 260 depositions and found that labourers were recruited 'under conditions of criminal compulsion scarcely distinguishable from slave raiding and slave trading' for shipment to Fernando Po, and that forced labour was also impressed for private and government use inside Liberia (including, by some accounts, on the Firestone plantations). The scale is documented in thousands coerced over the decade, but mortality among those shipped and worked is not quantified in the available record; the toll is therefore left null and the event marked UNVERIFIED.",
+        "caveat": null
+      },
+      "received_lens": "suppressed",
+      "summary": "Through the 1920s the Liberian government coerced indigenous men into labour gangs, using the Frontier Force, and shipped many to Spanish-run cocoa plantations on Fernando Po under conditions a 1930 League of Nations inquiry called barely distinguishable from slave trading. The same indigenous population was also forced into unpaid labour at home. The number who died in the camps and crossings was never counted.",
+      "relevance": "The victims here — the indigenous majority — were enslaved in effect by a state run by the descendants of American slaves, so this very event reappears on Liberia's perpetrator ledger.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "League of Nations / Christy Commission, 'International Commission of Inquiry into the Existence of Slavery and Forced Labour in the Republic of Liberia' (1930) — found recruitment for Fernando Po 'under conditions of criminal compulsion scarcely distinguishable from slave raiding and slave trading'; established the direct participation of Vice-President Yancy and other officials",
+          "supports": "summary",
+          "url": null,
+          "caveat": "Primary commission report cited via secondary descriptions; the original document supplies the 'scarcely distinguishable from slave raiding' finding and the official-complicity conclusions but no overall death toll."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Persecution against Indigenous Liberians' — Americo-Liberian settler domination of the indigenous majority through political, economic and social exclusion and coercive labour practices, citing the 1930-31 International Commission report",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Persecution_against_Indigenous_Liberians",
+          "caveat": "Tertiary aggregator; used for the structure of settler domination and coerced labour, not for any death figure (which it does not supply)."
+        },
+        {
+          "kind": "reference",
+          "cite": "Liberia Past and Present, 'The 1930 Forced Labour Scandal' — Christy Report findings that officials misused office to recruit with the aid of the Liberian Frontier Force and that labour was forcibly impressed for private use; King and Yancy resigned",
+          "supports": "summary",
+          "url": "https://liberiapastandpresent.org/ForcedLabourScandal.htm",
+          "caveat": "Independent history website; corroborates the Christy findings and the King/Yancy resignations but provides no mortality figure."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "lbr-2",
+      "country": "LBR",
+      "role": "victim",
+      "title": "The Liberian civil wars",
+      "era": "1989–2003",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Fourteen years of armed conflict across two wars in which every faction killed civilians on ethnic and political lines — organized armed violence with massive civilian targeting, so WAR, with individual atrocities inside it (e.g. the Lutheran Church massacre) shading toward POL.",
+      "agent": "All sides — Samuel Doe's Krahn-led Armed Forces of Liberia (AFL), Charles Taylor's National Patriotic Front of Liberia (NPFL), Prince Johnson's breakaway INPFL, ULIMO and its factions, and in the second war LURD and MODEL — Liberian forces killing Liberian civilians, with West African (ECOMOG) intervention",
+      "toll": {
+        "display": "~150,000–250,000 killed",
+        "disputed": true,
+        "low": 150000,
+        "high": 250000,
+        "unit": "deaths",
+        "note": "The widely cited consensus is that the chained conflicts of 1989-2003 killed roughly 150,000 to 250,000 people in a country of about 2.1-3 million, and displaced a large share of the population (about a million into neighbouring countries). The Center for Justice and Accountability states '150,000 to 250,000' and that 'over half the country's population' was displaced; the Liberian Truth and Reconciliation Commission and many press accounts cite 'over 250,000.' These are estimates, not a census of the dead — record-keeping collapsed during the war — so the figure is shown as a range with the dispute noted, low set to the conservative 150,000 and high to the 250,000 commonly used by the TRC and others. Audit 2026-06: the toll low/high (150,000 / 250,000) and the displacement figure are confirmed verbatim on the CJA Liberia page; an earlier 'roughly a third displaced' phrasing was corrected to match the source ('over half').",
+        "caveat": null
+      },
+      "received_lens": "memorial",
+      "summary": "From Charles Taylor's December 1989 invasion through the second war that drove him out in 2003, Liberia was consumed by fourteen years of fighting in which rival factions overran towns, executed civilians by ethnicity and politics, and forced thousands of children — some as young as eight — to fight, often drugged. Roughly 150,000-250,000 Liberians died and about a third of the population was displaced. No single faction's hands were clean.",
+      "relevance": "Liberians were the mass victims of these wars — but the armies that killed them were also Liberian, which is why the same conflict supplies entries on this country's perpetrator ledger.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Center for Justice and Accountability, 'Liberia' country page — 'estimated deaths of 150,000 to 250,000 men, women and children' across 1989-2003, with 'over half the country's population' displaced",
+          "supports": "toll.low",
+          "url": "https://cja.org/where-we-work/liberia/",
+          "caveat": "Verified 2026-06: the '150,000 to 250,000' toll and the 'over half the country's population' displacement wording were both confirmed live on the CJA page."
+        },
+        {
+          "kind": "primary",
+          "cite": "Final Report of the Truth and Reconciliation Commission of Liberia (2009) — concluded that all warring factions committed gross human rights violations, named 98 perpetrators, and is associated with the 'over 250,000 deaths' figure for 1989-2003",
+          "supports": "toll.high",
+          "url": "https://hmcwordpress.humanities.mcmaster.ca/Truthcommissions/wp-content/uploads/2018/10/Liberia.TRC_.Report-FULL.pdf",
+          "caveat": "Official truth-commission report; authoritative on responsibility and the upper-end toll, though the death total is itself an estimate."
+        },
+        {
+          "kind": "reference",
+          "cite": "World Without Genocide (Mitchell Hamline School of Law), 'Liberian Civil War' — child soldiers (some as young as eight, drugged and forced to commit atrocities), NPFL brutality, and the Gio/Mano-Krahn ethnic dimension",
+          "supports": "summary",
+          "url": "https://worldwithoutgenocide.org/genocides-and-conflicts/liberian-civil-war",
+          "caveat": "Advocacy/educational source; used for the well-documented character of the war (child soldiers, ethnic targeting), not for a specific aggregate toll."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "lbr-3",
+      "country": "LBR",
+      "role": "perpetrator",
+      "title": "Selling its own citizens: the Americo-Liberian state's forced-labour system",
+      "era": "c.1920s–1930",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The state's systematic coercion of indigenous citizens into near-slave labour — a coercive extraction regime, tiered STR — rather than an effort to destroy a defined group (EXT).",
+      "agent": "The Americo-Liberian ruling elite and True Whig Party state — President Charles D. B. King, Vice-President Allen N. Yancy and other officials, who used the Liberian Frontier Force to recruit indigenous men under compulsion and authorise their shipment as labour to Fernando Po, profiting from the trade",
+      "toll": {
+        "display": "uncounted; thousands coerced, no defensible death total exists",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "Same event as lbr-1 viewed from the perpetrator side; the toll is identically unrecoverable and left null. The 1930 Christy Commission, drawing on more than 260 depositions, established 'direct criminal participation in the shipment of forced labour to the Spanish colony of Fernando Po' against Vice-President Yancy, several district commissioners and county superintendents, and other officials. President King and Vice-President Yancy both resigned in late 1930 as a result. The number of deaths caused by the coerced labour is not quantified in the available record; event marked UNVERIFIED.",
+        "caveat": null
+      },
+      "received_lens": "suppressed",
+      "summary": "A 1930 League of Nations inquiry found that Liberia's settler-descended government had been coercing indigenous men into labour gangs and shipping them to Spanish plantations on Fernando Po under conditions barely distinguishable from slave trading, with the Frontier Force doing the recruiting and the Vice-President personally profiting. President King and Vice-President Yancy resigned rather than face the findings.",
+      "relevance": "A state founded by the descendants of American slaves was caught enslaving its own indigenous majority — the dual lens at its sharpest, the same act that makes those victims also makes this state a perpetrator.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "League of Nations / Christy Commission, 'International Commission of Inquiry into the Existence of Slavery and Forced Labour in the Republic of Liberia' (1930) — established 'direct criminal participation in the shipment of forced labour to the Spanish colony of Fernando Po' against Vice-President Yancy and other officials, leading to the King and Yancy resignations",
+          "supports": "summary",
+          "url": null,
+          "caveat": "Primary commission report cited via secondary descriptions; supplies the finding of official complicity and the recruitment-by-compulsion conclusion but no death toll."
+        },
+        {
+          "kind": "reference",
+          "cite": "EBSCO Research Starters, 'Liberia Is Accused of Selling Its Own Citizens into Slavery' — summarises the Christy Commission's finding that the Liberian political elite bought indigenous people for domestic slavery and authorised shipment of forced labour to Fernando Po, and the resulting resignations of King and Yancy",
+          "supports": "summary",
+          "url": "https://www.ebsco.com/research-starters/law/liberia-accused-selling-its-own-citizens-slavery",
+          "caveat": "Tertiary reference work; used for its summary of the commission findings and political fallout, not for any death figure."
+        },
+        {
+          "kind": "reference",
+          "cite": "Liberia Past and Present, 'The 1930 Forced Labour Scandal' — President King, Vice-President Yancy and Postmaster-General Ross accused of orchestrating forced labour; Christy Report confirmed officials misused office to recruit with the Frontier Force",
+          "supports": "summary",
+          "url": "https://liberiapastandpresent.org/ForcedLabourScandal.htm",
+          "caveat": "Independent history website; corroborates the named officials and the Frontier Force role but provides no mortality figure."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "lbr-4",
+      "country": "LBR",
+      "role": "perpetrator",
+      "title": "The Doe regime's anti-Gio/Mano counterinsurgency and the St. Peter's Lutheran Church massacre",
+      "era": "1985–1990",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "State killing of civilians selected by ethnicity (Gio and Mano) as collective punishment for an attempted coup and for supporting the rebellion — deliberate identity-based mass killing by the state, so POL, with the church massacre an atrocity within that pattern.",
+      "agent": "The state under Samuel K. Doe — the Krahn-dominated Armed Forces of Liberia (AFL), which after the 1985 Quiwonkpa coup attempt launched reprisals against Gio and Mano civilians in Nimba County and Monrovia, and on 29 July 1990 massacred displaced Gio and Mano civilians sheltering in St. Peter's Lutheran Church in Monrovia",
+      "toll": {
+        "display": "~3,000 in the 1985–86 Nimba reprisals; ~600 at the Lutheran Church (US estimates 200–300)",
+        "disputed": true,
+        "low": 600,
+        "high": 3000,
+        "unit": "deaths",
+        "note": "Two linked episodes of Doe-regime killing of Gio and Mano civilians. After Thomas Quiwonkpa's failed November 1985 coup, Doe's AFL launched reprisals in Nimba County and Monrovia; press and reference accounts estimate on the order of 3,000 Gio and Mano killed, a slaughter widely credited with helping ignite the 1989 war. The St. Peter's Lutheran Church massacre of 29 July 1990: about 30 AFL soldiers killed civilians sheltering in the church compound; the commonly cited toll is ~600, though the US government initially estimated 200-300 and some accounts cite up to 2,000 present. The low (600) is the standard church-massacre figure; the high (3,000) is the Nimba reprisals estimate. These are estimates of two specific atrocities, not a full tally of Doe-era killing; figures disputed, so the event is marked UNVERIFIED. Audit 2026-06: the ~600 / US 200-300 / ~30-soldiers / Gio-Mano-victims facts for the church massacre were confirmed verbatim on the cited Wikipedia page and independently via CJA's Jane W. v. Thomas litigation. The high end (~3,000) is a QUARANTINE flag: the cited Wikipedia '1985 Liberian coup attempt' page states only that Doe's forces 'massacred thousands of civilians in retaliation' — it does NOT give the specific figure 3,000. The precise 3,000 is therefore a single-number estimate not pinned to its cited source; 'thousands' is what the source supports. Toll.high retained at 3000 as the commonly cited press/HR estimate but flagged as not source-pinned at that precision; event stays UNVERIFIED.",
+        "caveat": null
+      },
+      "received_lens": "contested",
+      "summary": "After an ethnic Gio officer's coup failed in November 1985, Doe's Krahn-led army took revenge on the Gio and Mano of Nimba County and the capital, killing on the order of 3,000 civilians in a purge that helped detonate the civil war. Five years later, on 29 July 1990, about thirty AFL soldiers stormed St. Peter's Lutheran Church in Monrovia, where displaced Gio and Mano civilians were sheltering, and shot and hacked roughly 600 of them to death.",
+      "relevance": "Before the war's factions are blamed for Liberia's dead, the state itself was massacring its own citizens by ethnicity — the perpetrator pattern that the civil-war victim total grew out of.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Monrovia Church massacre' — ~600 killed at St. Peter's Lutheran Church on 29 July 1990 by ~30 AFL soldiers loyal to Doe (Krahn), most victims Gio and Mano; US government initially estimated 200-300",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Monrovia_Church_massacre",
+          "caveat": "Tertiary aggregator; the ~600 figure and the US 200-300 estimate are each attributed, and the massacre is independently documented by CJA's Jane W. v. Thomas litigation."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Center for Justice and Accountability, 'The Lutheran Church Massacre / Jane W et al. v. Thomas' — documents the 29 July 1990 massacre of displaced civilians at St. Peter's Lutheran Church by AFL soldiers under Doe, the basis of the US civil judgment against Moses Thomas",
+          "supports": "summary",
+          "url": "https://cja.org/what-we-do/litigation/jane-v-thomas/",
+          "caveat": "Litigation NGO; party to the case, used for the documented facts of the massacre and its perpetrators rather than for an independent toll."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, '1985 Liberian coup attempt' — after Quiwonkpa's failed November 1985 coup, Doe's Krahn-dominated AFL launched reprisals against Gio and Mano in Nimba County and Monrovia, 'massacred thousands of civilians in retaliation', fuelling the later civil war",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/1985_Liberian_coup_attempt",
+          "caveat": "Verified 2026-06 that this page exists and supports 'massacred thousands of civilians in retaliation'. QUARANTINE: the page does NOT state the specific figure 3,000 used as toll.high — it says only 'thousands'. The precise 3,000 is a wider press/HR estimate not pinned to this cited source; treat toll.high as order-of-magnitude ('thousands'), not a source-exact number."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "lbr-5",
+      "country": "LBR",
+      "role": "perpetrator",
+      "title": "Charles Taylor's NPFL: the largest share of civil-war atrocities",
+      "era": "1989–1997",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "A rebel army that fought a war while systematically killing and terrorising civilians, conscripting children and committing town massacres — organized armed violence with deliberate civilian targeting, so WAR, with the named massacres within it shading toward POL.",
+      "agent": "The National Patriotic Front of Liberia (NPFL) under Charles Taylor — its fighters, many of them children forcibly conscripted and drugged, who looted, raped, executed civilians by ethnicity, and carried out town massacres across Liberia from 1989 and through Taylor's 1997-2003 presidency",
+      "toll": {
+        "display": "no separate verified faction total; hundreds in named massacres, within the wider war's 150,000–250,000",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "No defensible NPFL-specific death total exists separate from the overall civil-war toll and none is invented here. The Liberian Truth and Reconciliation Commission found the NPFL responsible for the largest percentage of abuses in the conflict (about 40% of reported violations, more than three times the next faction); documented NPFL massacres include over 300 civilians killed at Bakedu in Lofa County (12 July 1990), the rounding-up and killing of inhabitants of Prafar Town (1 August 1990, Sinoe County, ~50 killed), and the gang-rape and massacre of worshippers at the 'Never-Die Church' in Karnplay, Gbehlay-Geh District, Nimba County. The NPFL also pioneered the mass use of drugged child soldiers. Because no aggregate figure attributable solely to the NPFL is sourceable, the toll is left null and the event marked UNVERIFIED; the killings fall within the wider war's 150,000-250,000 (lbr-2). Audit 2026-06 QUARANTINE/CORRECTION: an earlier citation attributed the Bakedu/Prafar/Karnplay massacres to the International Justice Monitor article of 25 Jan 2010 ('Prosecutors Question Charles...'). That article is REAL but does NOT name those three massacres — it covers NPFL crimes generally (widespread/systematic attacks on civilians, ethnic targeting of Krahn/Mandingo, child soldiers, killing of five American nuns). The three named massacres are in fact documented in Liberian TRC public-hearing press releases (trcliberia.cc.gatech.edu), not in that IJMonitor piece; the citation has been corrected to reflect what each source actually supports.",
+        "caveat": null
+      },
+      "received_lens": "contested",
+      "summary": "Charles Taylor's NPFL invaded in December 1989 and quickly became infamous for looting, mass rape, ethnic executions and town massacres — over 300 killed at Bakedu, the inhabitants of Prafar Town rounded up and shot, churchgoers slaughtered at Karnplay — while conscripting thousands of children and drugging them to fight. Liberia's Truth and Reconciliation Commission later found the NPFL committed the largest single share of the war's abuses.",
+      "relevance": "The faction whose victims swell Liberia's victim ledger was itself Liberian-led, killing Liberians — the war's largest perpetrator and largest victim share belong to the same nation.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "Final Report of the Truth and Reconciliation Commission of Liberia (2009) — found that all warring factions committed gross human rights violations and that the NPFL committed the largest percentage of abuses; recommended prosecution of faction heads including Charles Taylor",
+          "supports": "summary",
+          "url": "https://hmcwordpress.humanities.mcmaster.ca/Truthcommissions/wp-content/uploads/2018/10/Liberia.TRC_.Report-FULL.pdf",
+          "caveat": "Official truth-commission report; authoritative on relative responsibility, though it does not assign a discrete NPFL-only death total."
+        },
+        {
+          "kind": "press",
+          "cite": "International Justice Monitor, 'Prosecutors Question Charles About Crimes Committed By His NPFL Rebels in Liberia' (25 Jan 2010) — prosecution cross-examination putting to Taylor that NPFL attacks on civilians were 'widespread and systematic' (burning of villages, ethnic targeting of Krahn and Mandingo, child-soldier use, killing of five American nuns)",
+          "supports": "summary",
+          "url": "https://www.ijmonitor.org/2010/01/prosecutors-question-charles-about-crimes-committed-by-his-npfl-rebels-in-liberia/",
+          "caveat": "Verified 2026-06 that this article exists and supports the general NPFL-crimes claim. CORRECTION: it does NOT name the Bakedu, Prafar Town or Karnplay massacres (an earlier version of this cite wrongly attributed them here). Those specific massacres are documented separately in Liberian TRC public-hearing press releases (e.g. trcliberia.cc.gatech.edu press_releases 154 for Bakedu); use this IJMonitor source only for the systematic-civilian-targeting characterisation."
+        },
+        {
+          "kind": "primary",
+          "cite": "Truth and Reconciliation Commission of Liberia, public-hearing press release (Bakedu massacre) — survivor Sekou Jabateh testified that on 12 July 1990 NPFL fighters assembled the inhabitants of Bakedu, Lofa County, under the palaver hut, extorted money, then opened fire, killing over 300 civilians; TRC hearings also recorded the Prafar Town (1 Aug 1990, Sinoe County) and 'Never-Die Church' Karnplay (Nimba County) massacres",
+          "supports": "summary",
+          "url": "https://trcliberia.cc.gatech.edu/press_releases/154.html",
+          "caveat": "Verified 2026-06 that this TRC press release exists and documents the Bakedu massacre (300+) in the terms summarised; it does not state Prafar Town or Karnplay, which appear in separate TRC hearing records. Truth-commission hearing testimony, not an independent forensic count."
+        },
+        {
+          "kind": "reference",
+          "cite": "World Without Genocide (Mitchell Hamline School of Law), 'Liberian Civil War' — the NPFL 'quickly became infamous for brutality, looting, and child soldier use'; thousands of children forcibly conscripted, drugged and made to commit atrocities",
+          "supports": "summary",
+          "url": "https://worldwithoutgenocide.org/genocides-and-conflicts/liberian-civil-war",
+          "caveat": "Advocacy/educational source; used for the documented character of NPFL conduct, not for a faction-specific death figure."
+        }
+      ],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}
