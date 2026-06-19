@@ -15,6 +15,8 @@ export function closeOverlay() {
   const h = host();
   if (h.hidden) return;
   h.hidden = true;
-  card().innerHTML = '';
+  const c = card();
+  c.innerHTML = '';
+  c.classList.remove('ledger-modal');
   document.body.style.overflow = '';
 }

@@ -1,7 +1,7 @@
 // app.js — bootstrap, hash router, overlay wiring, About/Method.
 import { world, countryIndex } from './data.js';
 import { createMap } from './map.js';
-import { renderCountry, emptyPanel } from './atlas.js';
+import { openLedger } from './atlas.js';
 import { openCalibrate } from './calibrate.js';
 import { mountLearn } from './geography.js';
 import { renderCompare } from './compare.js';
@@ -17,27 +17,22 @@ async function mountMap(container, arg) {
   const [worldData, idx] = await Promise.all([world(), countryIndex()]);
   const hasSet = new Set(idx.countries.map((c) => c.iso));
 
-  const atlas = el('div', 'atlas');
-  const mapCol = el('div', 'map-col');
+  const view = el('div', 'map-view');
 
   const toolbar = el('div', 'map-toolbar');
   const calBtn = el('button', 'btn btn--accent');
   calBtn.type = 'button'; calBtn.textContent = 'Calibrate yourself';
   calBtn.onclick = () => openCalibrate();
-  toolbar.append(calBtn, el('span', 'toolbar-hint', 'Tap a glowing country — each appears on both hands.'));
-
-  const panel = el('aside', 'panel');
-  panel.id = 'panel';
-  panel.innerHTML = emptyPanel();
+  toolbar.append(calBtn, el('span', 'toolbar-hint', 'Tap a glowing country — its full ledger opens.'));
 
   const select = (iso, name) => {
     map.setSelected(iso);
-    renderCountry(panel, iso, name);
-    history.replaceState(null, '', `#/map/${iso}`); // shareable, no remount
+    openLedger(iso, name);                        // full-screen 2-column ledger
+    history.replaceState(null, '', `#/map/${iso}`); // shareable
   };
   const map = createMap(worldData, { hasSet, onSelect: (iso, name) => { if (hasSet.has(iso)) select(iso, name); } });
 
-  // keyboard-accessible entry to the (few) lit countries — the map paths are mouse/touch only
+  // keyboard-accessible entry to the lit countries — the map paths are mouse/touch only
   const list = el('div', 'geo-fact');
   list.append(el('span', null, 'ledgers&nbsp;·&nbsp;'));
   idx.countries.forEach((c) => {
@@ -47,11 +42,10 @@ async function mountMap(container, arg) {
     list.append(b);
   });
 
-  mapCol.append(toolbar, map.el, list);
-  atlas.append(mapCol, panel);
-  container.append(atlas);
+  view.append(toolbar, map.el, list);
+  container.append(view);
 
-  // deep-link: #/map/<ISO> opens that country's ledgers directly
+  // deep-link: #/map/<ISO> opens that country's ledger directly
   if (arg && hasSet.has(arg)) {
     const c = idx.countries.find((x) => x.iso === arg);
     select(arg, c ? c.name : arg);
@@ -111,8 +105,13 @@ async function route() {
 
 /* ---------- init ---------- */
 function init() {
-  document.addEventListener('click', (e) => { if (e.target.closest('[data-close]')) closeOverlay(); });
-  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeOverlay(); });
+  // close any overlay; if it was a deep-linked country ledger, drop the ISO from the hash
+  const dismiss = () => {
+    closeOverlay();
+    if (/^#\/map\/.+/.test(location.hash)) history.replaceState(null, '', '#/map');
+  };
+  document.addEventListener('click', (e) => { if (e.target.closest('[data-close]')) dismiss(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') dismiss(); });
   document.getElementById('infoBtn').onclick = openInfo;
 
   window.addEventListener('hashchange', route);

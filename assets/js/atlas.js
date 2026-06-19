@@ -1,17 +1,11 @@
-// atlas.js — the dual-ledger country panel (the signature).
+// atlas.js — the dual-ledger as a full-screen two-column modal (the signature).
 import { country, tiers } from './data.js';
+import { openOverlay } from './overlay.js';
 
 let TIERS = null;
 
 const esc = (s) => String(s ?? '').replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
 const fmt = (n) => (n == null ? null : Number(n).toLocaleString('en-US'));
-
-export function emptyPanel() {
-  return `<div class="panel-empty">
-    <span class="glyph">◖◗</span>
-    Select a glowing country.<br>Each is shown twice — what was done to it,<br>and what was done in its name.
-  </div>`;
-}
 
 function tollLine(toll = {}) {
   let val = esc(toll.display || '');
@@ -54,33 +48,37 @@ function eventCard(ev) {
   </div>`;
 }
 
-export async function renderCountry(panel, iso, name) {
+export async function openLedger(iso, name) {
   if (!TIERS) TIERS = await tiers();
+  const card = openOverlay();
+  card.classList.add('ledger-modal');
   let c;
   try {
     c = await country(iso);
   } catch (e) {
-    panel.innerHTML = `<div class="panel-empty">No ledger file for ${esc(name || iso)} yet.</div>`;
+    card.innerHTML = `<button class="ov-close" data-close>esc</button>
+      <div class="ledger-head"><h2 id="ovTitle">${esc(name || iso)}</h2><p class="note">No ledger file for this country yet.</p></div>`;
     return;
   }
   const vic = c.events.filter((e) => e.role === 'victim');
   const perp = c.events.filter((e) => e.role === 'perpetrator');
-  panel.innerHTML = `
-    <div class="panel-head">
-      <h2>${esc(c.name || name)}</h2>
+  card.innerHTML = `
+    <button class="ov-close" data-close>esc</button>
+    <div class="ledger-head">
+      <h2 id="ovTitle">${esc(c.name || name)}</h2>
       <div class="sub">${esc(c.iso)} · ${c.events.length} entries · both ledgers · <span class="status-badge status-${esc(c.status)}">${esc(c.status)}</span></div>
       ${c.note ? `<p class="note">${esc(c.note)}</p>` : ''}
     </div>
-    <div class="hands">
-      <section class="hand hand--victim">
-        <div class="hand-label"><span>Done to them</span><span class="n">${vic.length}</span></div>
-        ${vic.map(eventCard).join('') || '<p class="why">No victim entry yet in this seed set.</p>'}
+    <div class="ledger-cols">
+      <section class="ledger-col ledger-col--victim">
+        <div class="ledger-col-head"><span>Done to them</span><span class="n">${vic.length}</span></div>
+        ${vic.map(eventCard).join('') || '<p class="why">No victim entry yet.</p>'}
       </section>
-      <section class="hand hand--perp">
-        <div class="hand-label"><span>In their name</span><span class="n">${perp.length}</span></div>
-        ${perp.map(eventCard).join('') || '<p class="why">No perpetrator entry yet in this seed set.</p>'}
+      <div class="ledger-spine" aria-hidden="true"></div>
+      <section class="ledger-col ledger-col--perp">
+        <div class="ledger-col-head"><span>In their name</span><span class="n">${perp.length}</span></div>
+        ${perp.map(eventCard).join('') || '<p class="why">No perpetrator entry yet.</p>'}
       </section>
     </div>
-    <div class="panel-foot">Intent tiers classify the act, not the nation. There is no country score.</div>`;
-  panel.scrollTop = 0;
+    <div class="ledger-foot">Intent tiers classify the act, not the nation. There is no country score.</div>`;
 }

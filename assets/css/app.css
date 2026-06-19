@@ -127,6 +127,41 @@
 
 .panel-foot { padding: .9rem 1.3rem 1.2rem; font-family: var(--mono); font-size: 10px; color: var(--fainter); line-height: 1.6; border-top: 1px solid var(--line-soft); }
 
+/* ============ full-screen dual-ledger modal (click a country) ============ */
+.map-view { width: 100%; }
+.overlay-card.ledger-modal {
+  max-width: min(1280px, 96vw); width: 96vw; height: 90dvh;
+  padding: 0; overflow: hidden; display: flex; flex-direction: column;
+}
+.ledger-modal .ov-close { position: absolute; top: .6rem; right: .6rem; z-index: 3; float: none; background: var(--panel-2); }
+.ledger-head { flex-shrink: 0; padding: 1.1rem 1.4rem .8rem; border-bottom: 1px solid var(--line); }
+.ledger-head h2 { font-family: var(--display); font-weight: 600; font-size: var(--step-2); line-height: 1; }
+.ledger-head .sub { font-family: var(--mono); font-size: var(--step--1); color: var(--faint); margin-top: .35rem; letter-spacing: .03em; overflow-wrap: anywhere; }
+.ledger-head .note { color: var(--dim); font-size: var(--step--1); margin-top: .5rem; max-width: 92ch; }
+.ledger-cols { flex: 1; display: grid; grid-template-columns: 1fr 1px 1fr; min-height: 0; }
+.ledger-col { overflow-y: auto; padding: 1.1rem 1.4rem 1.6rem; min-width: 0; }
+.ledger-col--victim { background: linear-gradient(180deg, rgba(77,182,172,.05), transparent 140px); }
+.ledger-col--perp   { background: linear-gradient(180deg, rgba(217,164,65,.05), transparent 140px); }
+.ledger-col--victim .event { border-left-color: var(--teal-dim); }
+.ledger-col--perp .event   { border-left-color: var(--amber-dim); }
+.ledger-spine { background: var(--line); }
+.ledger-col-head {
+  position: sticky; top: 0; z-index: 1; margin: -1.1rem -1.4rem 1rem; padding: .7rem 1.4rem;
+  background: var(--panel-2); border-bottom: 1px solid var(--line-soft);
+  display: flex; align-items: center; justify-content: space-between;
+  font-family: var(--mono); font-size: var(--step--1); letter-spacing: .1em; text-transform: uppercase;
+}
+.ledger-col--victim .ledger-col-head { color: var(--teal); }
+.ledger-col--perp .ledger-col-head   { color: var(--amber); }
+.ledger-col-head .n { color: var(--faint); border: 1px solid var(--line); border-radius: 999px; padding: 0 .55em; }
+.ledger-foot { flex-shrink: 0; padding: .7rem 1.4rem; border-top: 1px solid var(--line-soft); font-family: var(--mono); font-size: 10px; color: var(--fainter); }
+@media (max-width: 760px) {
+  .overlay-card.ledger-modal { width: 100vw; max-width: 100vw; height: 92dvh; }
+  .ledger-cols { grid-template-columns: 1fr; grid-auto-rows: min-content; overflow-y: auto; }
+  .ledger-col { overflow-y: visible; }
+  .ledger-spine { height: 1px; }
+}
+
 /* ============ CALIBRATE / GEO QUIZ (shared quiz shell) ============ */
 .quiz { font-family: var(--prose); }
 .quiz h2 { font-family: var(--display); font-weight: 600; font-size: var(--step-2); }
