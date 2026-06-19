@@ -1,0 +1,140 @@
+{
+  "iso": "ISL",
+  "name": "Iceland",
+  "note": "Built from scratch through web research. Iceland is a deliberately asymmetric entry, and the asymmetry is real rather than a research gap. For almost all of its history Iceland was a small, poor, non-imperial society — a stateless commonwealth, then a tributary of Norway and a colony of Denmark — with no standing army, no navy, and no overseas possessions, so the 'In their name' ledger is genuinely thin. The 'Done to them' ledger is the better-documented side and turns mostly on two events: the Móðuharðindin ('Mist Hardships'), the famine and disease catastrophe that followed the 1783 Laki fissure eruption and killed roughly a fifth of the population (a STR/demographic-collapse event driven by a natural disaster, included because the mass death is central to the country's history, not because anyone deliberately killed Icelanders); and the 1627 Tyrkjaránið ('Turkish Abductions'), when Barbary corsairs killed dozens of Icelanders and carried nearly 400 into North African slavery. The clearest perpetrator record is at the very beginning: the 9th-10th-century Norse settlers who colonised Iceland brought enslaved Gaelic (Irish and Scottish) people with them — ancient-DNA work (Ebenesersdóttir et al., Science 2018) finds the founding population was roughly 57% Norse and 43% Gaelic, the Gaelic component largely enslaved women — making Iceland's founders both colonists and slaveholders. A second perpetrator-adjacent record, the Sturlungaöld (1220-1264) civil war among Icelandic chieftains, is internal strife with small absolute death counts (the bloodiest single battle, Haugsnes 1246, killed about 110 men) and is noted here rather than given its own event slot. No event, toll, or source has been invented to balance the ledgers. The settlement-era enslavement has no death figure — its harm is the enslavement itself, and the toll is recorded as null with that caveat; the Laki and 1627 tolls are given as sourced ranges with the dispute shown.",
+  "events": [
+    {
+      "id": "isl-1",
+      "country": "ISL",
+      "role": "victim",
+      "title": "The Móðuharðindin ('Mist Hardships') after the Laki eruption",
+      "era": "1783-1786",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The mass death came from famine and disease after the 1783 Laki fissure eruption poisoned the land and killed most of the livestock — a demographic collapse driven by a natural catastrophe (worsened by the limits of Danish colonial relief), not a deliberate campaign to kill Icelanders, which is the STR reading.",
+      "agent": "No human perpetrator: the Laki (Lakagígar) fissure eruption of 1783-84 and the famine and disease it caused; relief from the Danish colonial authorities was slow and inadequate but the deaths were not deliberately inflicted",
+      "toll": {
+        "display": "~9,000-11,000 deaths (roughly 20-25% of the population)",
+        "disputed": true,
+        "low": 9000,
+        "high": 11000,
+        "unit": "deaths",
+        "note": "Iceland's population fell from roughly 48,900-49,600 at the end of 1783 to about 38,400-40,400 by 1786, a net loss of around 9,200-10,600 people. Scholarly work (Demarée & Ogilvie and the 2024 NHESS study) counts roughly 11,000 deaths in the two peak mortality years 1784-85 against a normal annual mortality of about 1,500, i.e. roughly 8,000 'excess' deaths, about one-sixth of the pre-crisis population; the commonly cited round figure is 'more than 9,000 dead'. The low/high bracket the ~9,000 net/excess-based figure against the ~11,000 peak-years death count. Deaths were overwhelmingly from famine (after ~three-quarters of livestock died, partly from fluorine poisoning/skeletal fluorosis) and contagious disease (landfarsótt); a 1785 smallpox epidemic of perhaps ~1,500 deaths overlapped and may have been causally separate. Direct deaths from the volcanic haze itself were probably small."
+      },
+      "received_lens": "memorial",
+      "summary": "When the Laki fissure tore open in southern Iceland in June 1783, eight months of lava and a sulphurous haze poisoned the pastures and killed about three-quarters of the island's livestock. In the famine and disease that followed — the Móðuharðindin, or 'Mist Hardships' — roughly 9,000 to 11,000 people starved or sickened to death, about a fifth to a quarter of all Icelanders, while relief from the Danish crown arrived slowly.",
+      "relevance": "Iceland's defining mass-death event was a natural catastrophe its colonial rulers were too distant and too slow to relieve — the victim ledger of a people who, at their own founding centuries earlier, had themselves arrived as slave-owning colonists.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Wieners, C. E. & Hálfdanarson, G., 'More poison than words can describe: what did people die of after the 1783 Laki eruption in Iceland?', Natural Hazards and Earth System Sciences (NHESS) 24, 2971-2994, 2024 (population ~49,609 to ~40,381; ~11,000 deaths in 1784-85, ~8,000 excess; famine and disease the main causes, fluorosis/air pollution minor)",
+          "supports": "toll.high",
+          "url": "https://nhess.copernicus.org/articles/24/2971/2024/",
+          "caveat": "AUDIT 2026-06-19: original cite mis-attributed authorship to 'Þórðardóttir et al.'; corrected to the actual authors Wieners, C. E. & Hálfdanarson, G. (NHESS 24:2971-2994, 2024), confirmed via the journal page and Copernicus metadata. All factual claims (population fall, ~11,000 / ~8,000 excess deaths, famine+disease primary, fluorosis/air-pollution weak) verified against the article."
+        },
+        {
+          "kind": "reference",
+          "cite": "History of Iceland — Wikipedia ('Floods, ash, and fumes killed 9,000 people and 80% of the livestock. The ensuing starvation killed a quarter of Iceland's population')",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/History_of_Iceland",
+          "caveat": "Tertiary aggregator; cited for the commonly quoted '~9,000 dead / a quarter of the population' figure, which is consistent with but rounder than the scholarly excess-mortality estimate."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "isl-2",
+      "country": "ISL",
+      "role": "victim",
+      "title": "The Tyrkjaránið ('Turkish Abductions')",
+      "era": "1627",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "Barbary corsairs raided Icelandic coastal settlements, killed those who resisted and seized hundreds of people for the North African slave markets — a violent slave raid by an external force on a near-defenceless population, the WAR/raid reading rather than a campaign to exterminate Icelanders as a group.",
+      "agent": "Barbary corsairs: a fleet from Salé (Morocco) under the Dutch-born renegade Murat Reis (Jan Janszoon), and a second fleet from Algiers (then under Ottoman suzerainty), raiding in the summer of 1627",
+      "toll": {
+        "display": "~40-50 Icelanders killed; ~300-400 captured into North African slavery",
+        "disputed": true,
+        "low": 40,
+        "high": 400,
+        "unit": "deaths",
+        "note": "Two figures are bundled here: roughly 40-50 people were killed in the raids (about 34 on the Westman Islands/Vestmannaeyjar plus several on the mainland and at Grindavík), and close to 400 — sources commonly say 'almost 300' to 'close to 400', with the Vestmannaeyjar raid alone taking about 234-242 — were captured and shipped to Algiers and Salé to be sold. The low value (40-50) is the number killed; the high value (400) is the number abducted, the far larger and defining harm. The two numbers measure different things and the unit field is 'deaths' only for schema consistency; the captives were enslaved, not killed, though many died in captivity and only about 50 were eventually ransomed (9-18 years later)."
+      },
+      "received_lens": "memorial",
+      "summary": "In the summer of 1627 Barbary corsair fleets from Salé and Algiers raided Iceland's south and east coasts and the Westman Islands, killing around forty to fifty people and seizing close to four hundred — men, women and children — to be sold in the slave markets of North Africa. Only about fifty were ever ransomed home, years later; the rest died in captivity or never returned.",
+      "relevance": "The Tyrkjaránið is the great trauma of Iceland's victim memory — Icelanders carried off into slavery — yet the island's own Norse founders had arrived centuries earlier carrying enslaved Gaels: the captor and the captive in one national story.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Turkish Abductions — Wikipedia (~50 killed and close to 400 captured; raids by corsairs from Salé under Murat Reis and from Algiers; Vestmannaeyjar raid took 234 and killed 34; ~50 later ransomed)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Turkish_Abductions",
+          "caveat": "Tertiary aggregator; cited for the ~50-killed / ~400-captured figures and the identification of the raiders. Captive totals across sources range from 'almost 300' to 'close to 400'."
+        },
+        {
+          "kind": "reference",
+          "cite": "History of Iceland — Wikipedia ('a Barbary pirate fleet that abducted almost 300 Icelanders into slavery')",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/History_of_Iceland",
+          "caveat": "Tertiary aggregator; gives the lower 'almost 300' abduction figure, bracketing the higher 'close to 400' count and corroborating the event."
+        },
+        {
+          "kind": "primary",
+          "cite": "Ólafur Egilsson, 'The Travels of Reverend Ólafur Egilsson' (Reisubók Séra Ólafs Egilssonar), c.1628 — first-hand captivity account by an Icelandic minister taken at Vestmannaeyjar in 1627, modern English translation",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/%C3%93lafur_Egilsson",
+          "caveat": "A contemporary captive's own narrative — invaluable as eyewitness testimony but a single victim's account, not a casualty census; cited to support the summary, not the toll."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "isl-3",
+      "country": "ISL",
+      "role": "perpetrator",
+      "title": "Norse settlers' enslavement of Gaelic captives",
+      "era": "c.870-1100",
+      "era_band": "pre-colonial",
+      "tier": "STR",
+      "tier_reasoning": "The Norse men who colonised Iceland brought and held enslaved Gaelic (Irish and Scottish) people — overwhelmingly women — as thralls, a sustained system of chattel slavery rather than a single massacre; tiered STR as structural, group-based bondage, with no reliable death toll, the harm being the enslavement itself.",
+      "agent": "The Norse (Norwegian/Scandinavian) men who settled Iceland from c.870, who brought enslaved Gaelic women and men taken in raids on Ireland and Scotland or bought through the Viking slave trade (e.g. the Dublin market)",
+      "toll": {
+        "display": "No death toll — a system of enslavement; the Gaelic-descended (largely enslaved) share of the founding population was roughly 43%",
+        "disputed": false,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "UNIT CAVEAT: there is no meaningful death toll for this event — the harm is the enslavement itself, not a massacre, and no count of how many enslaved Gaels were brought to Iceland survives ('thousands' is the usual scholarly phrasing). Ancient-DNA analysis of early Icelandic genomes (Ebenesersdóttir et al., Science 2018) finds the founding population was about 57% Norse and 43% Gaelic, the Gaelic component being mainly women, many of them enslaved; modern Icelanders are ~70% Norse, a shift the authors link to the lower reproductive success of the enslaved Gaelic settlers. Slavery is recorded in the early law (the Grágás / 'Gray Goose' laws) and faded out by the late 12th-13th century. Toll left null per the no-invented-numbers rule."
+      },
+      "received_lens": "contested",
+      "summary": "The Norse men who colonised Iceland from the 870s did not arrive alone: they brought enslaved Gaelic people — mostly women, taken in raids on Ireland and Scotland or bought through the Viking slave trade — to labour as thralls. Ancient DNA shows the founding population was close to half Gaelic, that component largely enslaved; over the following centuries their descendants' share of the gene pool shrank, a marker historians read as the lower survival and reproduction of the unfree.",
+      "relevance": "Iceland is remembered as a nation of free farmers and saga-tellers, but its founders were colonists and slaveholders — the perpetrator ledger of a people who would themselves, eight centuries later, be carried off into slavery in the Tyrkjaránið.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "S. S. Ebenesersdóttir et al., 'Ancient genomes from Iceland reveal the making of a human population', Science 360:6432, 2018 (founding population ~57% Norse / ~43% Gaelic ancestry; Gaelic settlers mainly women, many enslaved; shift toward Norse ancestry over ~1,100 years)",
+          "supports": "summary",
+          "url": "https://www.science.org/doi/10.1126/science.aar2625",
+          "caveat": "AUDIT 2026-06-19 (re-verified): the Science article page still returns HTTP 403, but the paper's existence, authorship (S. Sunna Ebenesersdóttir et al., Science 360:6432, p.1028), the 57%-at-settlement-to-70%-today ancestry shift and the 'Gaelic settlers, many taken to Iceland as slaves' framing are confirmed via the PubMed/Science abstract (PMID 29853688) and The Irish Times coverage, all attributing them to this exact paper. Genetic ancestry proportions, not a count of enslaved people."
+        },
+        {
+          "kind": "press",
+          "cite": "The Irish Times, 'DNA study reveals fate of Irish women taken by Vikings as slaves to Iceland', 2018 (Ebenesersdóttir/deCODE study: founders roughly even Norse/Gaelic; 'thousands of slaves — mostly women — taken by Norse Vikings from Ireland and Scotland'; Norse share rose from 57% at settlement to ~70% today)",
+          "supports": "summary",
+          "url": "https://www.irishtimes.com/news/science/dna-study-reveals-fate-of-irish-women-taken-by-vikings-as-slaves-to-iceland-1.3521206",
+          "caveat": "Press report, but reporting on a named peer-reviewed Science study and quoting its figures; cited for the enslavement framing and the 57%-to-70% genetic shift."
+        },
+        {
+          "kind": "reference",
+          "cite": "Slavery in Iceland (Thrall) — Wikipedia (thralls in Iceland drawn partly from war captives and the Viking/Dublin slave trade; slavery permitted under the Grágás laws and effectively gone by the late 12th-13th century)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Slavery_in_Iceland",
+          "caveat": "Tertiary aggregator; cited for the legal status and timeline of Icelandic slavery, not for any numerical toll."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

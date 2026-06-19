@@ -1,0 +1,172 @@
+{
+  "iso": "GRL",
+  "name": "Greenland",
+  "note": "Built from scratch. Greenland's atlas entry is deeply asymmetric, and the asymmetry is real, not an artefact of thin research. The victim ledger is heavy and well documented: the Kalaallit (Greenlandic Inuit) suffered repeated demographic catastrophe from introduced disease after Danish colonisation began in 1721 (the 1733–35 smallpox epidemic; the 1919–21 influenza pandemic), and in the 20th century were the targets of deliberate Danish state assimilation and population-control programmes — the 1953 Thule/Pituffik forced relocation, the 1951 'Little Danes' child-removal experiment, and above all the 'spiral campaign' (coil campaign) in which Danish doctors fitted thousands of Inuit women and girls with IUDs without consent. A deliberate framing choice runs through the whole entry: in every one of these events the principal AGENT was the Danish state (and, at Thule, also the United States military), not the Greenlandic people — so they are recorded with Denmark/Danish authorities named plainly as the perpetrator, not as authorless tragedies. The PERPETRATOR ledger is near-empty, and honestly so. Greenland has never had its own state army, never colonised another people, and has no documented record of mass atrocity committed by Greenlandic forces or elites. The single candidate is medieval: Icelandic annals report Inuit (Thule-culture) raids on the dying Norse Eastern Settlement in the 14th century, but these are small-scale, recorded only by the Norse side, archaeologically uncorroborated, and predate any Greenlandic polity. It is included as the one perpetrator-side entry marked UNVERIFIED rather than left blank, so the dual-lens principle is visible — but it is NOT inflated to balance the ledgers, and no event, toll or source has been invented to manufacture symmetry. Tolls follow the rules: disease-driven collapse is tiered STR; deliberate group-targeting policy is POL; where no defensible number exists the figure is null with a note. The spiral campaign's harm is reproductive coercion, not deaths, and is flagged as such.",
+  "events": [
+    {
+      "id": "grl-1",
+      "country": "GRL",
+      "role": "victim",
+      "title": "The 1733–35 smallpox epidemic at Godthåb (Nuuk)",
+      "era": "1733–1735",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "An introduced virus, brought by a returning Greenlander who had been taken to Denmark, swept the Inuit population around the new Danish-Norwegian colony and killed most of them — a disease-driven demographic collapse with no intent to exterminate, which is the STR (structural mass death) reading rather than EXT.",
+      "agent": "Smallpox introduced through Danish-Norwegian colonisation under Hans Egede's mission — the disease arrived via a Greenlandic convert who had been taken to Denmark and returned infected",
+      "toll": {
+        "display": "most of the local Inuit population killed; no reliable absolute count (hundreds to low thousands)",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "No reliable absolute death count exists for the 1733–35 smallpox epidemic, so the figures are left null (honest null, not a quarantine). Contemporary and reference accounts agree it killed most of the Inuit population in the district around Godthåb (modern Nuuk); Hans Egede recorded that only about twenty baptised converts survived. The virus is generally attributed to a young Greenlander (often named Carl) who had been taken to Denmark in 1731 and returned in 1733 carrying the infection, which then spread through a population with no prior immunity. Because the baseline regional Inuit population of the 1730s is itself poorly quantified, no defensible numeric range can be given — the harm is best stated qualitatively as the near-destruction of the local population. AUDIT (2026-06-19): both cited sources verified real and on-claim; the colonial vector, 1733 timing, Carl's role and Gertrud Egede's 1735 death are confirmed on the Hans Egede Wikipedia page, and the '~twenty baptised survivors' detail — though not on that exact page — is corroborated by multiple independent accounts tracing to Egede's own report. Verified."
+      },
+      "received_lens": "memorial",
+      "summary": "Danish-Norwegian colonisation of Greenland began in 1721 with Hans Egede's mission near present-day Nuuk. In 1733 a young Greenlander who had been taken to Denmark returned carrying smallpox; with no prior exposure to the virus, the surrounding Inuit population had no immunity, and over the next two years the epidemic killed most of them — Egede recorded only about twenty of his converts left alive. It was the first of the colonial-era disease catastrophes that repeatedly cut down Greenland's people.",
+      "relevance": "Greenland appears here purely as victim — a people devastated by a disease that colonisation carried to them — the kind of demographic collapse that elsewhere in the atlas is the worst harm a colonising state inflicts, here with no Greenlandic perpetrator counterpart.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Hans Egede — Wikipedia (1733–34 smallpox epidemic at Godthåb killed most of the local Inuit; introduced via a returning Greenlander who had been taken to Denmark; Egede's wife Gertrud died of it in 1735)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Hans_Egede",
+          "caveat": "Tertiary aggregator; confirms the epidemic, its colonial vector and its severity but gives no absolute death toll, which is why the numeric figures are null."
+        },
+        {
+          "kind": "reference",
+          "cite": "Britannica, 'Greenland: History' — Danish colonisation from 1721 under Egede and the epidemic devastation of the Inuit in the colonial period",
+          "supports": "summary",
+          "url": "https://www.britannica.com/place/Greenland/History",
+          "caveat": "Tertiary reference; corroborates the colonial chronology and the disease impact in general terms rather than with a count."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "grl-2",
+      "country": "GRL",
+      "role": "victim",
+      "title": "The 1919–21 influenza pandemic in Greenland",
+      "era": "1919–1921",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The global influenza pandemic reached colonial Greenland and killed an estimated 5.2% of the population — a mass death from introduced epidemic disease with no intent to destroy a group, the STR (structural mass death) reading.",
+      "agent": "The 1918–21 influenza pandemic, reaching Danish-administered Greenland via ship traffic in 1919",
+      "toll": {
+        "display": "~697 excess deaths (≈5.2% of the population; range 0.1–11% across districts)",
+        "disputed": false,
+        "low": 637,
+        "high": 756,
+        "unit": "deaths",
+        "note": "A 2024 peer-reviewed reconstruction in the International Journal of Circumpolar Health estimated about 697 excess deaths (95% confidence interval 637–756) in Greenland from the 1919–21 influenza pandemic — roughly 5.2% of a population of about 13,459 (1911 census). Mortality varied sharply by district, from under 0.1% to about 11%, hitting Uummannaq and Ilulissat hardest. The pandemic arrived about a year late, in summer 1919, because winter ice and shipping interruptions delayed it. The same study estimated the earlier 1889–92 pandemic killed about 422 people (≈3.5%). The low/high here are the confidence-interval bounds on the excess-death estimate, not a scholarly dispute over what happened. AUDIT (2026-06-19): study verified real (Ingholt, Simonsen, Mamelund, Noahsen & van Wijhe, IJCH 83, 2024) — note the lead author is Ingholt et al., not 'Niegowska et al.' as the cite labels both source entries; the citation byline is therefore CORRECTED. PMC full text confirms 697 (95% CI 637–756), 5.2%, 0.1–11% district range, 13,459 (1911 census) and the 422-death 1889–92 figure; PubMed abstract confirms 5.2% and 0.1–11%. SINGLE-SOURCE FLAG: toll.low and toll.high are both the 95% CI bounds from this one peer-reviewed study (the two source entries are the same paper via two mirrors), which is appropriate here because they are statistical bounds on a single best estimate, not two independent claims; disputed:false is honest. Verified."
+      },
+      "received_lens": "memorial",
+      "summary": "The 1918 influenza pandemic reached Greenland in the summer of 1919, delayed roughly a year by the ice and the interruption of shipping. It killed an estimated 697 people — about one in twenty Greenlanders — with some districts in the north losing more than a tenth of their population. It was the deadliest single epidemic to strike the colony in the modern era.",
+      "relevance": "Another instance of Greenland as pure victim of introduced mass death in the colonial period, with no perpetrator-side counterpart in its own ledger.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Ingholt, Simonsen, Mamelund, Noahsen & van Wijhe, 'The 1919–21 influenza pandemic in Greenland', International Journal of Circumpolar Health 83 (2024) — ~697 excess deaths (95% CI 637–756), ≈5.2% of population, district range 0.1–11%; 1889–92 pandemic ~422 deaths (≈3.5%) [byline corrected from 'Niegowska et al.' on audit 2026-06-19]",
+          "supports": "toll.low",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10919313",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Ingholt et al. (2024), same study (PubMed mirror) — population context (1911 census ~13,459), 1919 arrival delayed by shipping, hardest-hit districts Uummannaq and Ilulissat [byline corrected from 'Niegowska et al.' on audit 2026-06-19]",
+          "supports": "toll.high",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38446074/",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "grl-3",
+      "country": "GRL",
+      "role": "victim",
+      "title": "Danish assimilation and population control: the spiral campaign, the 'Little Danes' experiment, and the Thule relocation",
+      "era": "1951–1991",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "A cluster of deliberate Danish state policies that targeted the Greenlandic Inuit as a group — forcibly controlling their reproduction (IUDs without consent), removing their children to be Danicised, and uprooting an entire community for a foreign air base — sustained coercive harm by state policy rather than mass killing, so it is tiered POL (atrocity by state policy), not EXT or STR.",
+      "agent": "The Danish state — Danish doctors and health authorities (the spiral campaign), the Danish government and Red Cross (the 1951 child-removal experiment), and Danish authorities acting at the request of the United States military (the 1953 Thule relocation)",
+      "toll": {
+        "display": "≈4,500 women and girls fitted with IUDs without consent; 22 children removed; 116 people (27 families) forcibly relocated — not a death toll",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "UNIT CAVEAT: this entry has no death toll — its harm is reproductive coercion, child removal and forced displacement, not killing, so the numeric fields are null. SPIRAL CAMPAIGN: from the mid-1960s (often dated 1966) into the 1970s, and in some cases into the 1990s, Danish doctors fitted intrauterine devices in thousands of Greenlandic Inuit women and girls — some as young as 12–14 — frequently without consent and sometimes without their or their parents' knowledge, to suppress the birth rate. A widely cited figure is about 4,500 women and girls between 1966 and 1970, roughly half the women of childbearing age. The scale surfaced through the 2022 podcast 'Spiralkampagnen'; a Danish-Greenlandic investigation reported in September 2025, and Danish PM Mette Frederiksen and Greenlandic PM Jens-Frederik Nielsen formally apologised; 143 women had sued the Danish state by 2024. 'LITTLE DANES' EXPERIMENT: in 1951 Danish authorities took 22 Inuit children, aged about 5–9, to Denmark to be raised as 'little Danes'; most were not orphans, six were adopted away, and the sixteen returned were placed in Danish-speaking institutions and largely never reunited with their families. Denmark apologised in 2020/2022. THULE RELOCATION: in May 1953, at the United States' request to expand Thule Air Base, Danish authorities forced 116 Inughuit (27 families) from Uummannaq to Qaanaaq ~130 km north on a few days' notice; they lived in tents through the polar winter until houses were built. The Danish High Court found the relocation unlawful and awarded limited compensation; the Supreme Court (2003) denied the right of return; the European Court of Human Rights declared the case inadmissible (2006). AUDIT (2026-06-19): all four sources verified real and on-claim. Spiral campaign — Wikipedia and Danish PM Frederiksen's apology (BBC + wire press) confirm 'half of the 9,000 childbearing-age women' (≈4,500) given IUDs c.1966–70, the 2022 'Spiralkampagnen' podcast, the March 2024 lawsuit by 143 women and the September 2025 report; minor age discrepancy noted (Wikipedia 'as young as 12', BBC/press 'as young as 13') — the entry's '12' is supported by Wikipedia, both retained as honest. 'Little Danes' — Wikipedia confirms 22 children (1951), most not orphans (only six were), 6 adopted, 16 returned to a Danish-speaking institution, Denmark's 2020 apology and Frederiksen's 2022 in-person apology with compensation. Thule — the '116 people / 27 families' figure is verified in the Nunatsiaq News 'Taissumani: May 25, 1953' article (the Pituffik Wikipedia page confirms 27 houses/families, 130 km, US request, tents May–Nov 1953, 2003 Supreme Court denial of return and 2006 ECHR inadmissibility but does NOT itself state the 116 headcount, which is why both sources are cited); minor distance discrepancy noted (Nunatsiaq 150 km vs Wikipedia 130 km), entry's ~130 km is within the sourced range. Verified."
+      },
+      "received_lens": "flagellated",
+      "summary": "Over four decades Denmark ran a series of deliberate programmes against the Greenlandic Inuit as a people: in 1951 it took 22 small children to be raised as Danes, severing most from their families for life; in 1953, at the United States' request, it forced an entire Inughuit community from their land at Thule into the polar winter to make room for an air base; and from the 1960s Danish doctors fitted IUDs in thousands of Inuit women and girls — some only 12 — without their consent, to drive down the birth rate. Denmark has since apologised for all three.",
+      "relevance": "These are Greenland's defining modern atrocities, and in every one the hand on the lever was the Danish state, not the Greenlandic people — the clearest illustration that Greenland's ledger is heavily weighted toward victimhood, with the perpetrator's name being someone else's.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Forced contraception of women in Greenland (the 'spiral case') — Wikipedia (~4,500 women and girls fitted with IUDs c.1966–1970, some as young as 12; campaign into the 1970s and cases into the 2000s; Danish doctors/government; 2022 'Spiralkampagnen' podcast; 2024 lawsuit by 143 women; 2024/2025 apologies and September 2025 report)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Forced_contraception_of_women_in_Greenland",
+          "caveat": "Tertiary aggregator summarising Danish-Greenlandic reporting and the official investigation; the 4,500 figure is the most widely cited estimate for 1966–70 and is corroborated by international press, but the full multi-decade total is still being established by the joint investigation."
+        },
+        {
+          "kind": "press",
+          "cite": "BBC News, 'Denmark apologises to Greenland's forced contraception victims' (2025) — Danish PM Mette Frederiksen's apology; ~4,500 women and girls; some as young as 12; campaign aimed at curbing the birth rate",
+          "supports": "summary",
+          "url": "https://www.bbc.com/news/articles/c5yelp5466no",
+          "caveat": "Press report; figures consistent with the official investigation and other outlets, but journalistic rather than archival."
+        },
+        {
+          "kind": "reference",
+          "cite": "Little Danes experiment — Wikipedia (22 Greenlandic children taken to Denmark in 1951 to be raised as Danes; most not orphans; 6 adopted, 16 returned to Danish-speaking institutions; Danish apology 2020/2022)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Little_Danes_experiment",
+          "caveat": "Tertiary aggregator; the figure of 22 children is well documented and corroborated by CNN, BBC and the Danish government's apology."
+        },
+        {
+          "kind": "reference",
+          "cite": "Pituffik / Thule relocation — Wikipedia and Nunatsiaq News ('Taissumani: May 25, 1953 — The expulsion of the Inughuit') (116 people / 27 families relocated to Qaanaaq at US request via Danish authorities; tents through the polar winter to November 1953; 2003 Danish Supreme Court denied right of return; 428 represented in the case)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Pituffik",
+          "caveat": "Tertiary aggregator plus a regional Arctic news source; the 116 people / 27 families figure is consistent across both. The Wikipedia page did not confirm a 1999 Danish PM apology, so that detail is omitted; court outcomes (2003 Supreme Court, ECHR inadmissibility) are as stated there."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "grl-4",
+      "country": "GRL",
+      "role": "perpetrator",
+      "title": "Thule (Inuit) raids on the Norse Eastern Settlement",
+      "era": "c.1379",
+      "era_band": "pre-colonial",
+      "tier": "WAR",
+      "tier_reasoning": "Medieval Icelandic annals record Inuit raiding parties killing Norse settlers in Greenland's dying Eastern Settlement — small-scale lethal raiding between two peoples competing for the same Arctic coast, an act of war rather than an organised campaign to exterminate a group; included because it is the only candidate for Greenlandic Inuit as perpetrators, and it is tiered for the act, not the people.",
+      "agent": "Thule-culture Inuit raiding parties in southern Greenland (recorded only in the Norse/Icelandic sources)",
+      "toll": {
+        "display": "18 Norse Greenlanders reported killed and 3 captured in the 1379 raid (uncorroborated)",
+        "disputed": true,
+        "low": null,
+        "high": 18,
+        "unit": "deaths",
+        "note": "The only specific figure comes from the Icelandic Annals, which report that in 1379 'Skrælings' (Inuit) attacked the Norse, killing 18 men and capturing two boys and a woman. This is recorded solely by the Norse side, centuries after the Norse settled Greenland and during the slow collapse of their colony; there is no archaeological corroboration of massacres, destroyed Norse property, or takeover of Norse sites, and Inuit oral tradition does not clearly confirm it. The low is left null because even the existence and scale of organised Inuit raiding is uncertain; the high reflects the single annalistic figure. The Norse colony's disappearance is overwhelmingly attributed by modern scholarship to climate cooling, drought, the collapse of the walrus-ivory trade, and out-migration rather than to Inuit attack. AUDIT (2026-06-19) — QUARANTINE: the cited Archaeology Magazine feature is verified real and on-point — it reports the 1379 Icelandic-Annals raid (18 Greenlanders killed, two boys and a woman captured) AND quotes archaeologist Robert McGhee that there is 'no physical evidence of massacres, the destruction of Norse property, or the takeover and reuse of Norse shelters by the Inuit', and frames climate/economic collapse as the cause. The SOURCE passes; the underlying CLAIM does not. The toll.high of 18 rests on a single one-sided Norse annalistic entry with zero archaeological corroboration and no clear Inuit-tradition confirmation, and predates any Greenlandic polity. This is the genuine quarantine case in the GRL ledger: status remains UNVERIFIED not because the citation is fake but because the event itself cannot be independently corroborated. Single-source, single-number, one-sided — correctly flagged disputed."
+      },
+      "received_lens": "contested",
+      "summary": "As the Norse colony in southern Greenland declined in the 14th century, Icelandic annals record that Inuit attacked the settlers in 1379, killing eighteen and taking captives. The account survives only in the Norse sources and has no clear support in the archaeological record or in Inuit tradition, and historians treat Inuit raiding as at most a minor factor — far behind climate and economic collapse — in the Norse disappearance.",
+      "relevance": "This is the single entry where Greenland's people appear as perpetrators rather than victims, and even it is thin, one-sided and unverified — the honest measure of how asymmetric Greenland's atlas is, recorded rather than inflated to manufacture balance.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Archaeology Magazine, 'The Fate of Greenland's Vikings' and related scholarship — Icelandic Annals report an Inuit raid in 1379 killing 18 Norse and taking captives; no archaeological evidence of massacres or site takeover; conflict treated as ambiguous and minor relative to climate/economic causes",
+          "supports": "toll.high",
+          "url": "https://archive.archaeology.org/online/features/greenland/",
+          "caveat": "The 1379 figure derives entirely from the Norse-side Icelandic Annals and is uncorroborated archaeologically; cited to document the claim, not to verify it. The source itself stresses how little physical evidence supports Norse-Inuit warfare."
+        }
+      ],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

@@ -1,5 +1,5 @@
 {
-  "count": 147,
+  "count": 165,
   "countries": [
     {
       "iso": "AFG",
@@ -92,6 +92,12 @@
       "status": "VERIFIED"
     },
     {
+      "iso": "BHS",
+      "name": "Bahamas",
+      "events": 3,
+      "status": "UNVERIFIED"
+    },
+    {
       "iso": "BIH",
       "name": "Bosnia and Herzegovina",
       "events": 5,
@@ -104,6 +110,12 @@
       "status": "UNVERIFIED"
     },
     {
+      "iso": "BLZ",
+      "name": "Belize",
+      "events": 4,
+      "status": "VERIFIED"
+    },
+    {
       "iso": "BOL",
       "name": "Bolivia",
       "events": 3,
@@ -114,6 +126,18 @@
       "name": "Brazil",
       "events": 5,
       "status": "UNVERIFIED"
+    },
+    {
+      "iso": "BRN",
+      "name": "Brunei",
+      "events": 2,
+      "status": "UNVERIFIED"
+    },
+    {
+      "iso": "BTN",
+      "name": "Bhutan",
+      "events": 2,
+      "status": "VERIFIED"
     },
     {
       "iso": "BWA",
@@ -194,6 +218,12 @@
       "status": "VERIFIED"
     },
     {
+      "iso": "CYP",
+      "name": "Cyprus",
+      "events": 3,
+      "status": "VERIFIED"
+    },
+    {
       "iso": "CZE",
       "name": "Czechia",
       "events": 3,
@@ -202,6 +232,12 @@
     {
       "iso": "DEU",
       "name": "Germany",
+      "events": 4,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "DJI",
+      "name": "Djibouti",
       "events": 4,
       "status": "VERIFIED"
     },
@@ -266,6 +302,12 @@
       "status": "UNVERIFIED"
     },
     {
+      "iso": "FJI",
+      "name": "Fiji",
+      "events": 2,
+      "status": "VERIFIED"
+    },
+    {
       "iso": "GAB",
       "name": "Gabon",
       "events": 2,
@@ -320,10 +362,22 @@
       "status": "UNVERIFIED"
     },
     {
+      "iso": "GRL",
+      "name": "Greenland",
+      "events": 4,
+      "status": "UNVERIFIED"
+    },
+    {
       "iso": "GTM",
       "name": "Guatemala",
       "events": 3,
       "status": "VERIFIED"
+    },
+    {
+      "iso": "GUY",
+      "name": "Guyana",
+      "events": 4,
+      "status": "UNVERIFIED"
     },
     {
       "iso": "HND",
@@ -378,6 +432,12 @@
       "name": "Iraq",
       "events": 4,
       "status": "UNVERIFIED"
+    },
+    {
+      "iso": "ISL",
+      "name": "Iceland",
+      "events": 3,
+      "status": "VERIFIED"
     },
     {
       "iso": "ITA",
@@ -482,6 +542,12 @@
       "status": "VERIFIED"
     },
     {
+      "iso": "LUX",
+      "name": "Luxembourg",
+      "events": 4,
+      "status": "VERIFIED"
+    },
+    {
       "iso": "LVA",
       "name": "Latvia",
       "events": 3,
@@ -530,6 +596,12 @@
       "status": "VERIFIED"
     },
     {
+      "iso": "MNE",
+      "name": "Montenegro",
+      "events": 4,
+      "status": "VERIFIED"
+    },
+    {
       "iso": "MNG",
       "name": "Mongolia",
       "events": 4,
@@ -564,6 +636,12 @@
       "name": "Namibia",
       "events": 3,
       "status": "VERIFIED"
+    },
+    {
+      "iso": "NCL",
+      "name": "New Caledonia",
+      "events": 3,
+      "status": "UNVERIFIED"
     },
     {
       "iso": "NER",
@@ -710,6 +788,12 @@
       "status": "UNVERIFIED"
     },
     {
+      "iso": "SLB",
+      "name": "Solomon Islands",
+      "events": 3,
+      "status": "UNVERIFIED"
+    },
+    {
       "iso": "SLE",
       "name": "Sierra Leone",
       "events": 4,
@@ -740,6 +824,12 @@
       "status": "VERIFIED"
     },
     {
+      "iso": "SUR",
+      "name": "Suriname",
+      "events": 4,
+      "status": "UNVERIFIED"
+    },
+    {
       "iso": "SVK",
       "name": "Slovakia",
       "events": 4,
@@ -755,6 +845,12 @@
       "iso": "SWE",
       "name": "Sweden",
       "events": 5,
+      "status": "UNVERIFIED"
+    },
+    {
+      "iso": "SWZ",
+      "name": "Eswatini",
+      "events": 4,
       "status": "UNVERIFIED"
     },
     {
@@ -797,6 +893,12 @@
       "iso": "TLS",
       "name": "Timor-Leste",
       "events": 5,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "TTO",
+      "name": "Trinidad and Tobago",
+      "events": 4,
       "status": "VERIFIED"
     },
     {
@@ -857,6 +959,12 @@
       "iso": "VNM",
       "name": "Vietnam",
       "events": 4,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "VUT",
+      "name": "Vanuatu",
+      "events": 2,
       "status": "VERIFIED"
     },
     {

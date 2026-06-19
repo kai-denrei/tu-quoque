@@ -1,0 +1,140 @@
+{
+  "iso": "CYP",
+  "name": "Cyprus",
+  "note": "Built from scratch 2026-06-19 via live web research. Cyprus is one of the clearest dual-lens cases in the atlas: the same intercommunal conflict produced atrocities running in both directions, and the same people appear as both victim and perpetrator depending on the decade and the village. The victim ledger carries the 1974 Turkish invasion and occupation, in which the Turkish Armed Forces killed several thousand Greek Cypriots, drove ~140,000-190,000 from their homes, and left over 1,500 Greek Cypriots missing (figures and findings anchored in the European Commission of Human Rights' 1976 Cyprus v. Turkey report). The perpetrator ledger carries Greek Cypriot violence against Turkish Cypriots: the 1963-64 intercommunal violence ('Bloody Christmas' and its aftermath), in which Greek Cypriot irregulars and police killed hundreds of Turkish Cypriots and forced tens of thousands into enclaves, and the August 1974 massacres at Tochni and Maratha/Santalaris/Aloda, in which EOKA-B killed roughly 200 Turkish Cypriot civilians during the invasion. The asymmetry runs the other way from most files: by total deaths and displacement the Greek Cypriot community suffered more in 1974, but Turkish Cypriots suffered proportionally heavier losses in 1963-64 and were the targets of the worst single-village massacres. Every figure here is politically charged. Turkish-state and TRNC sources frame 1963-64 as a 'genocidal' campaign and emphasize Turkish Cypriot martyrdom; Greek Cypriot official historiography historically minimized those killings and frames 1974 as the defining catastrophe; both sides have politicized the missing-persons numbers. Figures below use UN, ICMP/CMP, the European Commission of Human Rights, and scholarly ranges over partisan state claims, with divergence shown. The 1974 invasion entry (cyp-1) is the victim mirror of Turkey's perpetrator ledger; the 1963-64 and Tochni/Maratha entries (cyp-2, cyp-3) are the perpetrator mirror of the Turkish Cypriot community's victim grievance.",
+  "events": [
+    {
+      "id": "cyp-1",
+      "country": "CYP",
+      "role": "victim",
+      "title": "The Turkish Invasion and Occupation of 1974",
+      "era": "1974",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Turkey invaded Cyprus in two phases in July-August 1974, and its armed forces killed thousands of Greek Cypriot soldiers and civilians, displaced ~140,000-190,000, and left over 1,500 missing — large-scale lethal violence and ethnic expulsion carried out in the course of an armed invasion, which is WAR; the killings and atrocities were grave but did not amount to a campaign to annihilate the Greek Cypriot people as such (not EXT).",
+      "agent": "Turkey (the Turkish Armed Forces), invading in two phases under cover of the Greek-junta-backed coup against President Makarios",
+      "toll": {
+        "display": "~4,500-6,000 deaths (Greek Cypriot and Greek, military and civilian)",
+        "disputed": true,
+        "low": 4500,
+        "high": 6000,
+        "unit": "deaths",
+        "note": "Estimates of Greek Cypriot and Greek deaths in the 1974 invasion run roughly 4,500-6,000, combining military and civilian; documented sub-figures include 309 Cyprus military dead and 105 Greek military dead, with thousands of mainly civilian deaths beyond that. The low (~4,500 battle deaths, Clodfelter / Country Study) and high (~6,000) ends are both sourced. Separately, the UN-backed Committee on Missing Persons / ICMP records 1,510 Greek Cypriots still listed as missing from the 1960s and 1974 (the original 1974 list of missing was ~1,619, mostly Greek Cypriots); ~140,000-190,000 Greek Cypriots were displaced or prevented from returning to homes in the occupied north. Disputed and incomplete: exact military/civilian splits remain uncertain."
+      },
+      "received_lens": "memorial",
+      "summary": "On 20 July 1974, days after the Greek junta engineered a coup in Nicosia, Turkey landed troops near Kyrenia and, in a second offensive in mid-August, seized the northern third of the island; the Turkish Armed Forces bombarded towns, killed Greek Cypriot soldiers and civilians, and drove some 140,000-190,000 Greek Cypriots south as refugees, while over 1,500 Greek Cypriots vanished into mass graves or captivity and remain missing. The European Commission of Human Rights' 1976 report on Cyprus v. Turkey held Turkey responsible for killings, systematic rape, and the prevention of refugees' return.",
+      "relevance": "The defining national catastrophe of the Greek Cypriot community and the foundation of Cyprus's identity as a partitioned, occupied victim state — the exact victim mirror of Turkey's perpetrator ledger, and the half of the island's story that Greek Cypriot memory keeps while it tends to forget 1963.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Turkish invasion of Cyprus\" — Wikipedia (two phases 20 July and 14-16 August 1974; Greek Cypriot/Greek deaths ~4,500-6,000 incl. 309 Cyprus and 105 Greece military dead; 140,000-160,000 Greek Cypriot refugees; ~1,000-1,100+ missing)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Turkish_invasion_of_Cyprus",
+          "caveat": "Tertiary aggregator on a politically charged event; casualty ranges cross-checked against the article's cited sources (Clodfelter, US Library of Congress Country Study). Greek Cypriot and Turkish narratives diverge sharply on framing and on the 1974 vs 1963-64 balance of blame."
+        },
+        {
+          "kind": "primary",
+          "cite": "European Commission of Human Rights, Report on Cyprus v. Turkey (adopted 10 July 1976; leaked 1977, declassified 1979) — found Turkey responsible for killings, systematic rape constituting inhuman treatment, and prevention of ~190,000 displaced Greek Cypriots from returning home",
+          "supports": "summary",
+          "url": "http://www.hri.org/Cyprus/Cyprus_Problem/hr/hr_9.htm",
+          "caveat": "Hosted on the Hellenic Resources Network (a Greek-side aggregator); the document is the genuine European Commission of Human Rights report, but the host is partisan. Turkey rejected the report's findings. AUDIT 2026-06-19: hri.org host was unreachable (repeated timeouts) at audit time, but the document's authenticity and substance are independently corroborated — Council of Europe HUDOC lists 'Cyprus v. Turkey, Report Nos. 6780/74; 6950/75, ECommHR, 10 July 1976' (matching the adoption date), and lawpluralism.unimib.it, Columbia Global Freedom of Expression, and the ICRC casebook confirm findings of large-scale killings of Greek Cypriot civilians (Art. 2), rape as inhuman treatment (Art. 3), and prevention of displaced Greek Cypriots' return (Art. 8). NOTE: the 1976 report itself anchored '~170,000' displaced; the '~190,000' figure here is on the high end of the contested range (later proceedings established 211,000) — sourced but slightly elevated relative to the 1976 document."
+        },
+        {
+          "kind": "reference",
+          "cite": "International Commission on Missing Persons / Committee on Missing Persons in Cyprus — 2,002 people reported missing from the 1960s and 1974, of whom 1,510 are Greek Cypriots and 492 Turkish Cypriots",
+          "supports": "toll.low",
+          "url": "https://icmp.int/the-missing/where-are-the-missing/cyprus/",
+          "caveat": "AUDIT 2026-06-19: ICMP page verified verbatim — 2,002 reported missing (1,510 Greek Cypriots, 492 Turkish Cypriots) from the 1960s and 1974. This source authoritatively anchors the missing-persons figure cited in the summary/toll.note, not the death-toll low (~4,500 deaths). The death-toll low is separately anchored by Clodfelter / US Library of Congress Country Study via the Wikipedia source above (confirmed at audit), so the toll is not single-sourced."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cyp-2",
+      "country": "CYP",
+      "role": "perpetrator",
+      "title": "The 1963-64 Intercommunal Violence ('Bloody Christmas')",
+      "era": "1963-1964",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "After the collapse of the power-sharing constitution, Greek Cypriot irregulars, paramilitaries, and police attacked Turkish Cypriot neighborhoods and villages, killing hundreds and driving tens of thousands into armed enclaves — organized, ethnically targeted killing and expulsion of a minority community for political ends (consolidating Greek Cypriot control and the goal of enosis), which is POL rather than incidental armed-conflict WAR.",
+      "agent": "Greek Cypriot armed irregulars and paramilitaries (groups associated with figures such as Nikos Sampson), together with Greek Cypriot police and government-aligned fighters",
+      "toll": {
+        "display": "~364 Turkish Cypriots and ~174 Greek Cypriots killed",
+        "disputed": true,
+        "low": 174,
+        "high": 364,
+        "unit": "deaths",
+        "note": "Official records put the 1963-64 dead at 364 Turkish Cypriots and 174 Greek Cypriots; this perpetrator entry concerns the Turkish Cypriot deaths (~364) caused by Greek Cypriot forces, with the Greek Cypriot dead (~174) shown for context. Roughly 209 Turkish Cypriots and 41 Greek Cypriots from this period remain among the missing. As few as 567 deaths were confirmed for 21 Dec 1963-10 Aug 1964, and the true figure was likely higher. Some 25,000-30,000 Turkish Cypriots (around a quarter of the community) were driven from ~100+ villages into enclaves. Heavily contested: Turkish-state and TRNC sources frame the killings as a 'genocidal' campaign and cite higher counts; Greek Cypriot historiography long minimized them. The low (174, contextual Greek Cypriot dead) and high (364, Turkish Cypriot dead) are both sourced."
+      },
+      "received_lens": "denied",
+      "summary": "On the night of 20-21 December 1963, after the bicommunal constitution broke down, a police stop in Nicosia turned lethal and triggered island-wide fighting in which Greek Cypriot irregulars and police attacked Turkish Cypriot quarters and villages; over the following weeks they killed hundreds of Turkish Cypriots — including the notorious killing of the wife and children of a Turkish officer in the Kumsal district and the execution of prisoners at Ayios Vasilios — and forced some 25,000-30,000 Turkish Cypriots from their homes into armed enclaves, a displacement that froze into the island's de facto partition.",
+      "relevance": "The half of the story Greek Cypriot national memory tends to suppress: a decade before Greek Cypriots became the victims of 1974, Greek Cypriot fighters were the authors of the killing and ethnic enclosure of the island's Turkish minority — the perpetrator mirror of the Turkish Cypriot community's foundational grievance.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Bloody Christmas (1963)\" — Wikipedia (violence from 20-21 Dec 1963; Greek Cypriot paramilitaries/police and Turkish Resistance Organisation; 364 Turkish Cypriots and 174 Greek Cypriots killed over the crisis; ~25,000 Turkish Cypriots displaced into enclaves; scholarly critique of both partisan narratives)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Bloody_Christmas_(1963)",
+          "caveat": "Tertiary aggregator on a fiercely contested event. The article itself notes scholars (Kizilyurek, Demetriou) critiquing Greek Cypriot minimization and Turkish maximalism; figures attributed to their sources. Some specific incidents (e.g. the Nicosia hospital deaths) are disputed between the communities."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Civilian casualties and displacements during the Cyprus conflict\" — Wikipedia (1963-64: 364 Turkish Cypriots and 174 Greek Cypriots killed; 209 Turkish Cypriots and 41 Greeks missing; ~25,000 Turkish Cypriots driven into enclaves)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Civilian_casualties_and_displacements_during_the_Cyprus_conflict",
+          "caveat": "Tertiary aggregator; figures consistent with the UN reporting cited within. Politicized topic; numbers cross-checked against the Bloody Christmas article and UN-derived counts."
+        },
+        {
+          "kind": "reference",
+          "cite": "International Commission on Missing Persons / Committee on Missing Persons in Cyprus — 492 Turkish Cypriots among the missing from the 1960s and 1974, evidencing lethal violence against the Turkish Cypriot community",
+          "supports": "toll.note",
+          "url": "https://icmp.int/the-missing/where-are-the-missing/cyprus/",
+          "caveat": "AUDIT 2026-06-19: verified — 492 Turkish Cypriots among the missing, corroborating lethal violence against the Turkish Cypriot community. Both the toll.high (364 Turkish Cypriots killed) and toll.low (174 Greek Cypriots, contextual) are independently confirmed on both Wikipedia sources, attributed to official records / Pierre Oberling. Toll is double-anchored."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cyp-3",
+      "country": "CYP",
+      "role": "perpetrator",
+      "title": "The Tochni and Maratha-Santalaris-Aloda Massacres",
+      "era": "1974",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "On a single day during the Turkish invasion, EOKA-B fighters rounded up and shot or beat to death roughly 200 unarmed Turkish Cypriot civilians from specific villages — the deliberate massacre of an identified ethnic civilian group as retaliation and ethnic cleansing, which is POL (targeted killing of a group) rather than incidental battlefield WAR.",
+      "agent": "EOKA-B, the Greek Cypriot ultranationalist paramilitary organization, with Greek Cypriot National Guard involvement",
+      "toll": {
+        "display": "~210 Turkish Cypriot civilians killed",
+        "disputed": false,
+        "low": 200,
+        "high": 210,
+        "unit": "deaths",
+        "note": "The two massacres on 14 August 1974 together killed roughly 200-210 Turkish Cypriot civilians: 84 from Tochni and nearby Zygi (men and boys aged 13-74, executed at Palodia), and 126 at Maratha, Santalaris and Aloda (victims aged from 16 days to 95, killed with machine guns and blunt tools, bodies later exhumed from mass graves). These village-level counts are well documented and not seriously disputed; low (~200) and high (~210) reflect the rounding of the two component tolls. Men of fighting age had been arrested by EOKA-B at the start of the invasion on 20 July and held before being killed."
+      },
+      "received_lens": "suppressed",
+      "summary": "On 14 August 1974, as Turkey's second offensive rolled across Cyprus, EOKA-B fighters massacred Turkish Cypriot civilians in two clusters of villages on the same day: at Tochni and Zygi they bused away and shot 84 men and boys aged 13 to 74 at Palodia, leaving one survivor; at Maratha, Santalaris and Aloda they killed 126 villagers ranging from infants to the very old and buried them in mass graves later found by Turkish troops. Most of the men had been detained by EOKA-B since the invasion began on 20 July.",
+      "relevance": "The Greek Cypriot atrocity committed in the very weeks Greek Cypriots were themselves being killed and expelled — proof that 1974 was not a one-sided victimization, and the perpetrator counterpart to the Turkish Cypriot dead that the southern republic's memorial culture has largely set aside.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Maratha, Santalaris and Aloda massacre\" — Wikipedia (14 Aug 1974; perpetrator EOKA-B; 126 unarmed Turkish Cypriots killed, victims aged 16 days to 95; men arrested by EOKA-B on 20 July; AP described decomposed remains in mass graves)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Maratha,_Santalaris_and_Aloda_massacre",
+          "caveat": "Tertiary aggregator; the village tolls are corroborated by Associated Press reporting cited in the article and are not seriously contested between the communities."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Tochni massacre\" — Wikipedia (14 Aug 1974; perpetrators Greek Cypriot EOKA-B; 84 Turkish Cypriots from Tochni and Zygi, men and boys aged 13-74, executed at Palodia; one survivor, Suat Hussein Kafadar)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Tochni_massacre",
+          "caveat": "Tertiary aggregator; the account rests on survivor testimony and exhumations and is not seriously disputed. AUDIT 2026-06-19: verified — 84 victims (78 from Tochni, 6 from Zygi), executed at Palodia, sole survivor Suat Hussein Kafadar, EOKA-B perpetrators, 14 Aug 1974. Maratha/Santalaris/Aloda toll (126, ages 16 days-95, AP-corroborated mass graves) also confirmed. Both component tolls double-anchored; the 200-210 aggregate is sound. Minor: the article anchors the victim age low at 13 (minor boys); the file's '13-74' upper bound (74) was not surfaced verbatim at audit but is not load-bearing for the toll."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

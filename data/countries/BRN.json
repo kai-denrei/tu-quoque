@@ -1,0 +1,94 @@
+{
+  "iso": "BRN",
+  "name": "Brunei",
+  "note": "Both ledgers for Brunei are real but thinly quantified, and that scarcity of numbers is the defining feature of the entry. As victim, the best-documented case is the Japanese occupation of 1941–1945: Imperial Japanese forces executed Bruneians (notably Malays accused of being 'British agents'), imposed forced labour, and presided over famine and disease that broke the population, after which the Allied bombing of June 1945 flattened Brunei Town. No reliable Brunei-specific civilian death count for the occupation has ever been compiled — the surviving record is oral and qualitative — so the toll is left null with that caveat rather than guessed. As perpetrator, the clearest case is structural and pre-colonial: for centuries the Brunei sultanate raided and enslaved the non-Muslim indigenous peoples of Borneo (Bidayuh, Dayak, Murut, Bisaya and others) and extracted human beings as tribute from chiefs who could not pay its taxes, an institution not formally abolished until 1928. Again no aggregate figure for the number enslaved or killed survives, so the toll is null. Two events that might seem to belong here are deliberately excluded: the Sandakan–Ranau death marches of 1945 (~2,400 Allied POWs killed) happened in North Borneo / Sabah, not Brunei, and were inflicted on prisoners brought from Singapore, not on Bruneians; and the 1962 Brunei Revolt was suppressed chiefly by British and Commonwealth forces (around 40 rebels killed) against an anti-government rebel movement, so it is neither a clean Brunei-state-perpetrator nor a clean Bruneian-victim event. The 1846 British bombardment of Brunei Town was a coercive imperial attack but produced almost no recorded deaths and is noted only as context. Nothing has been invented to balance the two ledgers.",
+  "events": [
+    {
+      "id": "brn-1",
+      "country": "BRN",
+      "role": "victim",
+      "title": "The Japanese occupation of Brunei",
+      "era": "1941–1945",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Brunei was conquered and held under a brutal wartime military occupation in which the occupier executed suspected opponents, used forced labour, and let famine and disease spread, with the territory finally devastated by Allied liberation bombing; this is occupation-era atrocity and combat destruction rather than a programme to destroy the Bruneian people as such, so it is classed WAR.",
+      "agent": "The Imperial Japanese Army and the Kempeitai military police (1941–1945 occupation); the final destruction of Brunei Town came from Allied — chiefly Australian 9th Division and Allied air — bombardment during the June 1945 liberation",
+      "toll": {
+        "display": "no reliable Brunei-specific civilian death toll exists",
+        "disputed": false,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "No credible aggregate count of Bruneian civilian deaths during the 1941–1945 occupation has been established; the surviving record is overwhelmingly oral and qualitative — accounts of Malays executed at the killing ground as accused 'British agents', forced labour, floggings and imprisonment of those who defied the occupiers, and a famine-and-disease collapse so severe that people were reported wearing tree bark for clothing. The Allied liberation in June 1945 then destroyed Brunei Town almost entirely (the mosque was levelled and reportedly only a Chinese temple was left standing) and rendered thousands homeless, but a clean civilian death figure for that bombardment is likewise unrecorded. Allied military losses in the wider Brunei Bay landings are documented (on the order of 100-plus killed), but that is a combatant figure, not a measure of the Bruneian civilian toll. Status UNVERIFIED on the toll for that reason; the qualitative atrocity pattern is well attested."
+      },
+      "received_lens": "memorial",
+      "summary": "Eight days after Pearl Harbor, in December 1941, Imperial Japanese forces invaded Brunei and overran it within roughly a week against negligible defence. For more than three years the occupiers ran the sultanate as a wartime fief: the Kempeitai tortured and executed people deemed hostile — including Malays accused of being British agents — while forced labour, a worthless 'banana' currency, and the collapse of food and medicine supplies drove the population into famine and epidemic disease. When the Allies came to liberate Brunei in June 1945, the pre-landing bombardment flattened Brunei Town itself, so that the people emerged from occupation into a ruined capital.",
+      "relevance": "Brunei as victim: a small sultanate that fought no part in the war it was conquered for, ground between an occupier's brutality and a liberator's bombs — the receiving end against which its own much older record as a slaving power must be read.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Japanese occupation of British Borneo', Wikipedia — the December 1941 invasion of Brunei, the Kempeitai's policing role with 'virtually unlimited power' and routine torture, the abusive treatment of the local population, and the destruction of Brunei's shop quarter and government buildings (British Military Administration report) during liberation",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Japanese_occupation_of_British_Borneo",
+          "caveat": "Tertiary encyclopaedia; documents the atrocity pattern and the destruction but provides no Brunei-specific civilian death toll, which does not exist in the literature."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Frank Dhont, Janet E. Marles & Maslin Jukim, 'Memories of World War II: Oral History of Brunei Darussalam (Dec. 1941–June 1945)', Institute of Asian Studies Working Paper No. 25, Universiti Brunei Darussalam (Gadong, 2016) — first-person oral testimony of Kempeitai torture, forced labour (the 120-mile oil pipeline and airfields), widespread starvation, people pounding the bark of the Tamaran tree into cloth as clothing ran out, indiscriminate torture of those reported by spies, and the Allied bombing that destroyed houses across Brunei Town",
+          "supports": "summary",
+          "url": "https://ias.ubd.edu.bn/wp-content/uploads/2020/12/working_paper_series_25.pdf",
+          "caveat": "Peer-reviewed oral-history working paper (verified: real authors and IAS series entry; full text confirmed on audit). Its testimony directly substantiates the qualitative atrocity pattern in the summary but is explicitly oral history and offers no Brunei-specific civilian death toll."
+        },
+        {
+          "kind": "press",
+          "cite": "'When the Imperial Japanese forces Invaded Brunei in WW2', The Brunei Standard (amotimes.wordpress.com, 2014) — three-year occupation, forced cultural assimilation and 'banana' currency, punishment/flogging/imprisonment of those who defied the occupiers, famine and disease, and the 10 June 1945 Australian-led landings at Labuan and Brunei Bay",
+          "supports": "summary",
+          "url": "https://amotimes.wordpress.com/2014/05/03/when-the-imperial-japanese-forces-invaded-brunei-in-ww2/",
+          "caveat": "Popular Bruneian-history blog drawing on family oral accounts; useful for texture and corroboration, not authoritative for numbers."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "brn-2",
+      "country": "BRN",
+      "role": "perpetrator",
+      "title": "The sultanate's slave-raiding and human-tribute system",
+      "era": "c. 1700s–1928",
+      "era_band": "pre-colonial",
+      "tier": "STR",
+      "tier_reasoning": "For centuries the Brunei sultanate institutionalised the enslavement of non-Muslim indigenous peoples through raiding, purchase, war-capture and the extraction of humans as tribute from chiefs who could not pay tax — a durable system of coerced bondage and demographic predation rather than a single bounded massacre, so it is classed STR (structural).",
+      "agent": "The Sultanate of Brunei — its sultans, nobles (pengiran) and their raiding parties and tax-and-tribute agents — preying on the non-Muslim indigenous peoples of Borneo (Bidayuh, Dayak, Murut, Bisaya and others), often in concert with allied Iranun and Balangingi sea-raiders",
+      "toll": {
+        "display": "no aggregate figure for the number enslaved or killed survives",
+        "disputed": false,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "This is a centuries-long institution, not a single event, and no reliable aggregate exists for how many people Brunei enslaved or killed in raids and tribute-taking; the toll is therefore left null. What is documented is the mechanism: non-Muslim captives were bought from pirates and merchants, seized in slave raids carried out by Bruneians themselves, and handed over as human tribute by indigenous chiefs who failed to pay the sultanate's taxes — with the enslaved used as domestic servants, agricultural labourers, craftspeople and harem concubines. Slavery declined through the nineteenth century as British suppression of piracy and, later, oil-and-rubber wage economies undercut it, and it was formally abolished by law in 1928. Because the human cost is real but unquantified, the event is entered as STR with a null toll rather than a fabricated number."
+      },
+      "received_lens": "suppressed",
+      "summary": "From at least the eighteenth century until its legal abolition in 1928, the Brunei sultanate ran on the bondage of Borneo's non-Muslim peoples. Its nobles bought captives from pirates, mounted their own slave raids on inland and coastal villages, and demanded human beings as tribute from indigenous chiefs who could not meet Brunei's tax exactions; the enslaved served Bruneian households, fields and harems. The trade made Brunei a regional market for slaves until British naval pressure on piracy from the 1840s and the later cash economy of oil and rubber slowly eroded an institution that had underpinned the sultanate's wealth and power for generations.",
+      "relevance": "Brunei as perpetrator: the same sultanate later devastated by a foreign occupier had for centuries built its prosperity on enslaving and extracting tribute from the indigenous peoples around it — the dual-lens hinge that keeps the wartime victim from being the whole story.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Slavery in Brunei', Wikipedia — slaves acquired by purchase from pirates/merchants, by Bruneian slave raids, and by human tribute from subjugated non-Muslim chiefs who failed to pay taxes; the pursuit/enslavement of indigenous peoples such as the Bidayuh; the use of the enslaved as servants, labourers, craftspeople and concubines; and the 1928 legal abolition",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Slavery_in_Brunei",
+          "caveat": "Tertiary encyclopaedia; establishes the mechanism and timeframe but offers no aggregate count of those enslaved or killed."
+        },
+        {
+          "kind": "reference",
+          "cite": "1911 Encyclopaedia Britannica, 'Brunei' (Wikisource) — early-nineteenth-century Brunei as 'a resort for pirates and a market for the slave trade', suppressed from the 1840s by British naval action under Captain (later Admiral) Keppel and others",
+          "supports": "summary",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Brunei",
+          "caveat": "Early-twentieth-century imperial reference work; reflects a British colonial-era framing of Brunei's piracy and slave trade and the British role in suppressing them, and should be read with that bias in mind."
+        }
+      ],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

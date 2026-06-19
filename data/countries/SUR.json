@@ -1,0 +1,181 @@
+{
+  "iso": "SUR",
+  "name": "Suriname",
+  "note": "Suriname's dual ledger is sharply asymmetric in time but not in weight. The 'done to them' (victim) side is overwhelmingly colonial: the Dutch built one of the harshest plantation-slavery regimes in the Americas on the backs of roughly 200,000-250,000 enslaved Africans, working them to death faster than they could be born so that the colony depended on continuous fresh imports just to hold its labor force steady — a structural mass-death catastrophe (STR), not a declared program of annihilation. Behind it, dimmer in the record, sits the demographic collapse of the indigenous Arawak (Lokono) and Carib (Kali'na) peoples after European contact, driven by disease, violence, and displacement; the population numbers are too thin to count, so that event is entered with null tolls and flagged UNVERIFIED. The 'in their name' (perpetrator) side is modern and self-inflicted: the military regime of Desi Bouterse, which seized power in 1980, tortured and shot fifteen prominent critics at Fort Zeelandia in the December Murders of 1982, and during the Interior War sent the national army into the Maroon village of Moiwana in 1986 to kill roughly thirty-nine people, mostly women and children. The perpetrator events are the better-counted and judicially adjudicated (a 2019 military-court conviction of Bouterse for December 1982; a 2005 Inter-American Court judgment on Moiwana); the colonial victim catastrophe is the larger but least precisely countable. The agent of the slavery event is the Dutch colonial state, while the victims are the African and Afro-Surinamese population that became the country's people — the dual lens holding both facts open at once. No event was invented to balance the two sides; the indigenous-collapse entry is included because it is real even though its toll cannot be sourced, and is honestly marked unverified rather than padded with a fabricated number.",
+  "events": [
+    {
+      "id": "sur-1",
+      "country": "SUR",
+      "role": "victim",
+      "title": "Atlantic slavery on the Suriname plantations",
+      "era": "1650s-1863",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "A plantation-slavery regime that consumed enslaved lives through overwork, disease, malnutrition, and violent discipline faster than births could replace them is a structural mass-death catastrophe (STR) — death as a byproduct of forced extraction, not a declared program to exterminate a defined group (EXT).",
+      "agent": "the Dutch colonial state and the planter class of Suriname, who from the mid-seventeenth century imported enslaved Africans by the hundreds of thousands to grow sugar, coffee, and cotton, and who worked them under a discipline so lethal that the colony depended on continuous fresh shipments through the Dutch West India Company and private traders simply to keep its labor force from shrinking",
+      "toll": {
+        "display": "roughly 200,000-250,000 enslaved Africans disembarked over two centuries; deaths uncountable, but mortality so exceeded births that the enslaved population fell from about 60,000 in the early 1770s to about 36,000 at abolition in 1863 despite continued imports",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "low_alt": 200000,
+        "high_alt": 250000,
+        "note": "The figure ~213,000 enslaved Africans transported to Suriname (with broader estimates of ~250,000 disembarked across the Dutch Guianas) describes captives delivered, not deaths. A direct death count for the system is not recoverable, so death-count low/high are null; the 200,000-250,000 range in low_alt/high_alt is the number of people enslaved, recorded to show scale, not as a death toll. (Scholarly aggregates for the Suriname trade range roughly 213,000-300,000+ depending on date span and whether Suriname alone or the Dutch Guianas are counted; the 200,000-250,000 band is a conservative subset.) The lethality is instead documented demographically: the enslaved population declined from roughly 60,000 in the early 1770s to roughly 36,000 by emancipation in 1863 even though slave ships kept arriving, because deaths persistently outpaced births. This 'natural decrease' is the measurable fingerprint of the regime's deadliness. Disputed flag is set because the import totals vary by source and the death toll itself is unquantifiable. Audit (2026-06-19): the demographic-decline figures (60,000->36,000, natural decrease) are corroborated by multiple independent sources; the precise crude mortality/birth-rate per-1,000 figures formerly stated here could not be independently verified and were removed."
+      },
+      "received_lens": "memorial",
+      "summary": "From the mid-1600s the Dutch turned Suriname into a plantation colony worked by enslaved Africans, and ran it with a brutality that contemporaries and later historians rated among the worst in the Americas. Overwork on the sugar and coffee estates, tropical disease, poor food, and savage punishment killed enslaved people faster than children were born, so the colony had to keep importing captives just to stand still: even as ships kept landing, the enslaved population fell from about 60,000 in the 1770s to about 36,000 when the Dutch finally abolished slavery in 1863. Resistance was constant, and thousands escaped into the rainforest to found the Maroon communities that survive today.",
+      "relevance": "Here Suriname's people are the victims of an extracting empire — the Africans whose forced labor built the colony and whose descendants became the nation; the same state and society would, a century after emancipation, turn its own army on those descendants at Moiwana, placing the country on both sides of its ledger.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Humphrey E. Lamur, 'Changes in fertility and mortality around the abolition of slavery in Suriname,' The History of the Family, Vol. 16, No. 3 (2011), pp. 231-242 (hosted on ScienceDirect, ISSN 1081-602X) — documents the demographic pattern of excess mortality over fertility among the enslaved and freedmen of the Suriname sugar estates in the decades around emancipation (study windows 1851-1863 and 1864-1873)",
+          "supports": "toll.note",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1081602X1100025X",
+          "caveat": "Audit (2026-06-19): the original cite mis-named the journal as 'Explorations in Economic History'; the article is in fact in 'The History of the Family' (Vol. 16 No. 3, 2011) — the same ScienceDirect URL, ISSN 1081-602X. Journal name corrected. The specific crude-mortality (~36.2/1,000) and crude-birth-rate (~29.7/1,000) figures previously attributed to this article for 1850-1862 could not be independently confirmed from accessible abstracts and were removed from the cite; the load-bearing fact (deaths persistently outpaced births among the enslaved) is corroborated by multiple sources and stands."
+        },
+        {
+          "kind": "reference",
+          "cite": "Slave Voyages / Trans-Atlantic Slave Trade Database (slavevoyages.org) and corroborating overviews — estimate that some 213,000 people were brought to Suriname in the Atlantic slave trade, with wider figures around 250,000 disembarked in the Dutch Guianas",
+          "supports": "toll.high",
+          "url": "https://www.slavevoyages.org/voyage/all-voyages",
+          "caveat": "The database counts captives embarked/disembarked, i.e. people enslaved, not deaths; cited for the scale of the trade into Suriname, not as a death toll. Specific Suriname totals require querying the database by destination; the ~213,000 figure is the commonly cited aggregate from the database and its summaries."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Suriname,' Encyclopaedia Britannica (History) — Dutch plantation slavery, the 10:1 enslaved-to-European ratio, escape into the interior and formation of Maroon communities, and abolition of slavery in 1863 followed by ten years of compulsory contract labor",
+          "supports": "summary",
+          "url": "https://www.britannica.com/place/Suriname/History",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "sur-2",
+      "country": "SUR",
+      "role": "victim",
+      "title": "Demographic collapse of Suriname's indigenous peoples after European contact",
+      "era": "17th-18th c.",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "Population collapse driven principally by introduced epidemic disease, compounded by colonial violence, enslavement, and displacement, is a structural demographic catastrophe (STR) rather than a documented program of deliberate extermination (EXT).",
+      "agent": "European colonizers — successively English and then Dutch — whose settlement, plantation expansion, enslavement, and warfare, together with the Old World diseases they carried, broke apart the Arawak (Lokono) and Carib (Kali'na) societies that inhabited the coast and interior before contact",
+      "toll": {
+        "display": "uncountable; pre-contact indigenous numbers are unknown, but the descendant population is today only a few percent of Suriname",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "No reliable pre-contact population figure for Suriname's indigenous peoples exists, and no death count can be sourced; both low and high are null. What is documented is the outcome: the indigenous peoples (Kali'na/Carib, Lokono/Arawak, and interior groups such as the Trio and Wayana) numbered about 20,344, or roughly 3.8 percent of the population, in the 2012 census — descendants of the original inhabitants reduced to a small minority. Because no toll can be verified, this event is marked UNVERIFIED. Audit (2026-06-19): both cited sources (Wikipedia 'Indigenous peoples in Suriname'/Minority Rights Group, and the IWGIA Suriname profile) are real and support their attached claims — the IWGIA 2012-census figures (~20,344 indigenous people, ~3.8% of a population of 541,638; peoples Kaliña/Carib, Lokono/Arawak, Trio, Wayana) were independently confirmed. The UNVERIFIED status is retained not because the sources fail but because no death toll exists to verify (null/null by necessity, not by source failure)."
+      },
+      "received_lens": "suppressed",
+      "summary": "Before Europeans arrived, the coast and forests of what is now Suriname were home to Arawak and Carib peoples. After contact, introduced epidemics for which they had no immunity, combined with colonial warfare, enslavement, and the seizure of land for plantations, broke these societies apart; their numbers fell so far that their descendants are today only a few percent of Suriname's population. The collapse is real but poorly documented, overshadowed in the colonial record by the African slave trade that replaced indigenous labor.",
+      "relevance": "This is the older, fainter victim layer beneath Suriname's history — the first peoples ground down by colonization before the African enslaved population was imported, a catastrophe so under-recorded it can be named but not counted, which is itself part of how the dual lens reckons with what the archive chose to ignore.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Indigenous peoples in Suriname,' Wikipedia, and Minority Rights Group, 'Indigenous Peoples in Suriname' — pre-colonial Arawak and Carib habitation, post-contact decline through disease and colonization, and present status as a small minority of the population",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Indigenous_peoples_in_Suriname",
+          "caveat": "Tertiary/advocacy sources; used for the qualitative fact of post-contact collapse and present minority status, not for any death toll, which is not recoverable."
+        },
+        {
+          "kind": "reference",
+          "cite": "International Work Group for Indigenous Affairs (IWGIA), Suriname country profile, citing the 2012 census — indigenous peoples number about 20,344, roughly 3.8 percent of a population of 541,638; principal peoples are Kali'na (Carib), Lokono (Arawak), Trio, and Wayana",
+          "supports": "toll.note",
+          "url": "https://iwgia.org/en/suriname.html",
+          "caveat": "Advocacy organization; cited for the census-based present population share, which is documentary, not for any historical death count."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "sur-3",
+      "country": "SUR",
+      "role": "perpetrator",
+      "title": "The December Murders at Fort Zeelandia",
+      "era": "1982",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "The targeted seizure, torture, and execution of named political critics by a military regime to silence opposition is political mass violence (POL) — repression of dissent by the state, not warfare (WAR) or the destruction of an ethnic group (EXT).",
+      "agent": "the military regime of Desi Bouterse, whose soldiers arrested fifteen prominent critics in the early hours of 7-8 December 1982, brought them to Bouterse's headquarters at Fort Zeelandia in Paramaribo, and tortured and shot them dead",
+      "toll": {
+        "display": "15 killed",
+        "disputed": false,
+        "low": 15,
+        "high": 15,
+        "unit": "deaths",
+        "note": "The figure of fifteen victims is firmly established and individually named (including lawyers, journalists, a labor leader, a university teacher, and businessmen). Bouterse initially claimed on television on 10 December 1982 that the men had been 'shot while trying to escape,' a claim discredited by forensic and eyewitness evidence. A Surinamese military court convicted Bouterse of the killings in November 2019 and sentenced him to twenty years; the conviction was upheld in 2021 and again by the Court of Justice in 2023."
+      },
+      "received_lens": "contested",
+      "summary": "On the nights of 7 and 8 December 1982, soldiers of Suriname's military regime arrested fifteen of its most prominent critics — lawyers, journalists, a trade-union leader, a professor, businessmen — and took them to Fort Zeelandia, the old fort that served as strongman Desi Bouterse's headquarters. There they were interrogated, tortured, and shot dead. The regime announced they had been killed trying to escape; nobody believed it. It took nearly four decades, but in 2019 a Surinamese military court convicted Bouterse of ordering the murders and sentenced him to twenty years.",
+      "relevance": "This is Suriname as perpetrator against its own people — a military regime executing the citizens who criticized it, the modern self-inflicted wound that sits opposite the colonial slavery the country suffered, and a rare case where a state eventually convicted its own former dictator for it.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'December murders,' Wikipedia — murders of fifteen named critics of the military regime on 7-9 December 1982 at Fort Zeelandia; Bouterse's 'shot while escaping' claim of 10 December 1982; 2019 military-court conviction and 20-year sentence, upheld 2021 and 2023",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/December_murders",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "Amnesty International, 'Suriname: Families of Bouterse's victims seek justice 30 years on' (2012) — account of the fifteen victims, the killings at Fort Zeelandia, and the long fight for accountability",
+          "supports": "summary",
+          "url": "https://www.amnesty.org/en/latest/news/2012/12/suriname-families-bouterse-s-victims-seek-justice-years/",
+          "caveat": "Human-rights advocacy organization; cited for the well-corroborated facts of the case, which are also established by the Surinamese courts. Audit (2026-06-19): amnesty.org returned HTTP 403 to automated fetch and the exact page URL could not be directly confirmed; the facts it is cited for (15 victims, Fort Zeelandia, decades-long fight for justice) are independently corroborated by Wikipedia, the ICJ, and contemporaneous news reporting, so the claim stands even though this specific URL was not directly verifiable."
+        },
+        {
+          "kind": "press",
+          "cite": "International Commission of Jurists, 'Suriname: Ex-president's conviction upheld, ending 41 years of impunity' (2023) — reports the Court of Justice upholding the court-martial verdict against Bouterse for the December 1982 murders and the 20-year sentence",
+          "supports": "tier",
+          "url": "https://www.icj.org/suriname-ex-presidents-conviction-upheld-ending-41-years-of-impunity/",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "sur-4",
+      "country": "SUR",
+      "role": "perpetrator",
+      "title": "The Moiwana massacre",
+      "era": "1986",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "The army's deliberate killing of unarmed villagers — overwhelmingly women and children — as collective punishment in a counter-insurgency campaign is political mass violence against civilians (POL); it was not a declared program to destroy the Maroon people as such (EXT), though it targeted an ethnic community.",
+      "agent": "the Suriname National Army under the command of Desi Bouterse, which on 29 November 1986 sent a unit of roughly seventy soldiers into the N'djuka Maroon village of Moiwana — Jungle Commando leader Ronnie Brunswijk's home village — sealed off its exits, and shot the inhabitants for hours before burning the houses",
+      "toll": {
+        "display": "at least 39 killed, mostly women and children",
+        "disputed": false,
+        "low": 39,
+        "high": 39,
+        "unit": "deaths",
+        "note": "The Inter-American Court of Human Rights, in 'Moiwana Community v. Suriname' (Series C No. 124, judgment of 15 June 2005), found that approximately thirty-nine people were killed, the majority of them women and children. The figure 'at least 39' is the consistently cited count; the true number may be slightly higher because of survivors who fled and the destruction of the village. The Court held Suriname responsible. President Ronald Venetiaan formally apologized in 2006 and the state paid compensation to survivors and relatives."
+      },
+      "received_lens": "memorial",
+      "summary": "On 29 November 1986, during the Interior War between the army and Ronnie Brunswijk's Maroon Jungle Commando, the Suriname National Army marched a unit into the village of Moiwana — Brunswijk's home community. The soldiers blocked both ends of the village and shot the people they found, most of them women and children, for some four hours, then burned the houses. At least thirty-nine were killed; survivors fled across the border into French Guiana, where they lived for years in refugee camps. In 2005 the Inter-American Court of Human Rights ruled Suriname responsible, and the government later apologized and paid reparations.",
+      "relevance": "Here the independent Suriname state is the perpetrator against its own Maroon citizens — the descendants of the Africans who escaped the slavery the country once suffered — and the case became a landmark Inter-American human-rights judgment, the perpetrator side of a nation that is also a victim in its colonial past.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "Inter-American Court of Human Rights, 'Case of the Moiwana Community v. Suriname,' Series C No. 124, Judgment of 15 June 2005 — finds approximately 39 killed, mostly women and children, on 29 November 1986; Suriname's state responsibility; ordered reparations",
+          "supports": "toll.low",
+          "url": "https://www.corteidh.or.cr/docs/casos/articulos/seriec_124_ing.pdf",
+          "caveat": "Audit (2026-06-19): the corteidh.or.cr seriec_124 PDF is confirmed via independent search to be the Moiwana Community v. Suriname judgment (Series C No. 124, 15 June 2005); an automated fetch of the PDF returned garbled/conflated metadata (it mislabeled the file with another Suriname case), but the substantive finding it is cited for is corroborated: ~39 killed and 'the majority of those killed were women, children and elderly persons.' URL and case identity verified by search."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Moiwana massacre,' Wikipedia — Suriname National Army attack of 29 November 1986 during the Interior War; at least 39 killed, mostly women and children; unit of ~70 soldiers, village exits sealed, houses burned; displacement to French Guiana; 2005 IACtHR ruling and reparations",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Moiwana_massacre",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

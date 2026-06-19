@@ -1,0 +1,101 @@
+{
+  "iso": "FJI",
+  "name": "Fiji",
+  "note": "Built from scratch. The victim ledger's centrepiece is the 1875 measles epidemic, the deepest single mass death in Fijian history: a catastrophic demographic collapse (STR) that killed roughly a fifth to a quarter of the indigenous population in five months and gutted the chiefly class. The perpetrator ledger records the chronic inter-chiefdom warfare of the early-to-mid 19th century, above all the Bau–Rewa wars waged by the war-chief Cakobau of Bau, in which Fijian chiefdoms killed each other in large numbers and ritually consumed the slain — Fijian-on-Fijian atrocity, plainly authored. A deliberate framing choice drives a real asymmetry here: the two largest engines of mass suffering on Fijian soil after cession — the 'blackbirding' Pacific labour trade that brought tens of thousands of Melanesian Islanders to Fiji's plantations, and the Indian indenture (girmit) system of 1879–1916, both lethal — were run by the BRITISH colonial state and European planters, NOT by a Fijian state (Fiji had no sovereign state in the modern sense until 1970). Those records therefore belong in the British/colonial perpetrator ledger, not Fiji's, and are noted here only to explain why Fiji's own perpetrator ledger is thin and pre-modern rather than colonial. The modern coups (1987, 2000) produced ethnic intimidation of Indo-Fijians and a handful of deaths but no mass-atrocity death toll, so they are summarised in this note rather than given an event. Tolls are left as sourced ranges where scholarship diverges (the measles toll is genuinely contested down to whether the epidemic was as devastating as the standard figure holds); where no defensible aggregate exists (total Bau-war deaths) the figure is null with a note. No event, toll, or source has been invented to balance the two sides.",
+  "events": [
+    {
+      "id": "fji-1",
+      "country": "FJI",
+      "role": "victim",
+      "title": "The 1875 measles epidemic",
+      "era": "1875",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "An introduced virus carried home from Sydney tore through a population with no prior exposure and no immunity, killing roughly a fifth to a quarter of indigenous Fijians in months — disease-driven demographic collapse (STR), worsened by the colonial authorities' failure to quarantine, not a deliberate campaign to destroy a people. STR confirmed on re-derivation: no perpetrator intent to exterminate, so not EXT.",
+      "agent": "Measles introduced from Sydney via the returning party of paramount chief Cakobau aboard HMS Dido, spread at a mass gathering of chiefs and left unchecked by the new British colonial administration, which did not impose quarantine",
+      "toll": {
+        "display": "~30,000–40,000 deaths (about one-fifth to one-quarter of an estimated ~150,000 indigenous population)",
+        "disputed": true,
+        "low": 30000,
+        "high": 40000,
+        "unit": "deaths",
+        "note": "The standard figure, traceable to the demographer Norma McArthur (Island Populations of the Pacific, 1967, consulted directly), is roughly 40,000 dead over February to June 1875 — which McArthur herself computes as about 27 per cent (about one-QUARTER, not one-third) of an estimated pre-epidemic indigenous population of ~150,000. Other scholarly summaries give the proportion as one-fifth to one-fourth, which against the same population base yields a lower bound near 30,000; the low/high here bracket those. The toll is genuinely contested: both the death count and the baseline population are estimates made by 19th-century European observers, McArthur's own island-by-island data give an average loss under 19 per cent (she suggests ~20 per cent may be truer than the 25–27 per cent customarily quoted), and a modern reassessment ('Was there a devastating measles epidemic in Fiji in 1875?', using later census data) questions whether the epidemic was as uniformly devastating as the canonical figure implies. What is not disputed is that almost all of Fiji's 69 high chiefs died, decapitating the indigenous leadership at the moment of British annexation. This is a death count, not a population-decline-over-time estimate. AUDIT NOTE (2026-06-19): the previous 'up to one-third' framing was not supported by any source examined — McArthur, JMVH, and the Fiji Times all put the ceiling at ~one-quarter (~27%); corrected. All three sources verified, McArthur to primary text."
+      },
+      "received_lens": "memorial",
+      "summary": "In January 1875, weeks after Fiji's cession to Britain, paramount chief Cakobau and his party returned from Sydney aboard HMS Dido carrying measles (his son Ratu Timothe and a servant were the first cases); no quarantine was imposed. A grand assembly of high chiefs at Levuka then carried the virus to every part of the islands, and from February to June it killed an estimated 30,000 to 40,000 people — roughly a fifth to a quarter of the indigenous population — including almost all of the 69 high chiefs. The labour shortage it left behind helped push the colony toward importing indentured Indian workers.",
+      "relevance": "The deepest mass death in Fijian history was a disease the Fijians neither chose nor could resist — a people as victim — yet the same era's chiefly wars (recorded in the other ledger) show those same chiefdoms as killers of one another.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Journal of Military and Veterans' Health, 'Pacific Island Societies Destabilised by Infectious Diseases' — 1875 Fiji measles killed an estimated one-fifth to one-fourth of the population, Feb–Jun 1875, after Cakobau contracted measles in Sydney and a mass chiefly assembly dispersed it; all or nearly all of 69 chiefs died",
+          "supports": "toll.low",
+          "url": "https://jmvh.org/article/pacific-island-societies-destabilised-by-infectious-diseases/",
+          "caveat": "Peer-reviewed but a synthesis article; the one-fifth-to-one-fourth proportion is the lower end of the scholarly range and is used here for the low bound."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Norma McArthur, Island Populations of the Pacific (1967), Fiji chapter (consulted directly) — quoting the 1893 Commission report: 'The people were estimated at that time to number about 150,000, and it is recorded, probably with fair exactitude, that 40,000 died from measles during the epidemic.' McArthur notes 40,000 of ~150,000 is ~27 per cent (about one-quarter), and that her own island-by-island data give an average loss of under 19 per cent, suggesting ~20 per cent may be truer than the 25–27 per cent customarily quoted",
+          "supports": "toll.high",
+          "url": "https://openresearch-repository.anu.edu.au/server/api/core/bitstreams/ee5b2b2b-ce9a-4de4-9f2d-0a6ab1007c7a/content",
+          "caveat": "Foundational demographic study; the full text was obtained directly (ANU Open Research repository, verified title page 'Island Populations of the Pacific / Norma McArthur'). The ~40,000 figure derives from the 1893 Commission and rests on 19th-century European estimates of both deaths and baseline population, so it is an estimate, not a count. Note this is about one-QUARTER (~27%) of 150,000, not one-third — McArthur explicitly ties 40,000 to ~27 per cent and her own data point lower (~20%); the higher 'one-third' framing sometimes seen in popular sources is not supported by McArthur."
+        },
+        {
+          "kind": "press",
+          "cite": "The Fiji Times, 'Discovering Fiji | Bureiwai and the shadow of the measles epidemic' — narrative of the epidemic's arrival via the Dido and its toll on chiefs and communities",
+          "supports": "summary",
+          "url": "https://www.fijitimes.com.fj/discovering-fiji-bureiwai-and-the-shadow-of-the-measles-epidemic/",
+          "caveat": "Newspaper history feature, national-Fijian framing; used for narrative corroboration, not for the disputed numbers."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "fji-2",
+      "country": "FJI",
+      "role": "perpetrator",
+      "title": "The Bau–Rewa wars and Cakobau's wars of conquest",
+      "era": "1843–1855",
+      "era_band": "pre-colonial",
+      "tier": "WAR",
+      "tier_reasoning": "Fijian chiefdoms led by the war-chief Cakobau of Bau fought a prolonged hegemonic war against Rewa and rival confederations, repeatedly storming and burning towns and killing and ritually cannibalising the slain — large-scale armed conflict between Fijian polities (WAR), not a single-target campaign to exterminate a distinct people. WAR confirmed on re-derivation: hegemonic inter-polity conflict, not EXT (no intent to destroy a defined group as such) and not STR (combat deaths, not disease/famine).",
+      "agent": "Cakobau (Vunivalu, war-chief of Bau) and the warriors of the Bau confederation, together with allied chiefdoms and, from 1855, Tongan forces under Taufa'ahau and Ma'afu",
+      "toll": {
+        "display": "hundreds to ~2,000 killed at the decisive 1855 Battle of Kaba alone; total deaths across the 1843–1855 war unquantified",
+        "disputed": true,
+        "low": 200,
+        "high": 2000,
+        "unit": "deaths",
+        "note": "No reliable aggregate death toll exists for the Bau–Rewa war as a whole; the conflict ran from 1843 to 1855 across Viti Levu and surrounding islands with repeated raids, sieges and the burning of towns. The single best-documented engagement is the decisive Battle of Kaba in April 1855, where Cakobau's Bau–Tongan alliance overran the Rewa-held promontory: accounts of the defeated side's dead range from about 200 killed (with about 200 captured) to as high as roughly 2,000 killed in the broader assault, with the alliance itself sustaining heavy casualties. The low/high bracket those divergent Kaba figures; they are a single battle, not the war's total, which remains unverified. Ritual cannibalism of slain enemies was a documented practice of this warfare, recorded by resident Wesleyan missionaries, though no body count for it can be established. AUDIT NOTE (2026-06-19): low (~200 killed/~200 captured) verified in BOTH the Battle of Kaba article (narrative) and the Fiji Times 'Kaba wars' feature; high (~2,000 killed) appears ONLY in the Wikipedia infobox with no in-text citation and is therefore weakly sourced — retained solely as the upper bracket, flagged. The war's aggregate toll is genuinely null (no source supplies one), not an omission."
+      },
+      "received_lens": "contested",
+      "summary": "From 1843 to 1855 Cakobau, war-chief of the island of Bau, fought a long war for supremacy against the rival confederation of Rewa and his traditional enemies, raiding and burning towns across eastern Viti Levu; the slain were, by the custom of the era's warfare, ritually consumed. After a crushing defeat at Kaba in 1853, Cakobau converted to Christianity and called in Tongan forces, who helped him storm Kaba in 1855 in the war's decisive battle — hundreds to as many as a couple of thousand killed — cementing his claim as paramount chief of Fiji.",
+      "relevance": "The same chiefdoms devastated as victims by measles in 1875 were, a generation earlier, the perpetrators of relentless war and ritual killing against one another — Fiji as killer of its own, not only as the killed.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Battle of Kaba — Wikipedia (1855; Cakobau's Bau–Tongan alliance vs Rewa/Bau rebels under Ratu Mara; casualty figures ranging from ~200 killed and ~200 captured to ~2,000 killed in the assault; ended the Bau–Rewa war)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Kaba",
+          "caveat": "Tertiary aggregator with internally divergent casualty figures (the higher 2,000 figure is poorly sourced); used to bracket the single battle's toll, not as a verified count, and the article's own numbers are inconsistent."
+        },
+        {
+          "kind": "reference",
+          "cite": "Fiji during the time of Cakobau — Wikipedia; History of Fiji — 1843–1855 Bau–Rewa war, inter-tribal warfare and Tongan intervention; Cakobau's consolidation of Fiji",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Fiji_during_the_time_of_Cakobau",
+          "caveat": "Tertiary aggregator; corroborates the era's inter-tribal warfare, Tanoa/Cakobau of Bau, Tongan involvement (Ma'afu from 1848), and Cakobau's 1850s–1860s consolidation, but does NOT use the exact label 'Bau–Rewa war 1843–1855' and does not name the Battle of Kaba; gives no aggregate death toll. Used only for broad chronology, not for casualty numbers or the Kaba detail (which are sourced to the Battle of Kaba article and the Fiji Times feature)."
+        },
+        {
+          "kind": "press",
+          "cite": "The Fiji Times, 'FEATURE | The Kaba wars' / 'FEATURE | The open conflict with Rewa' — Fijian-press histories of the Bau–Rewa war, the Kaba sieges of 1853 and 1855, and the burning of towns",
+          "supports": "summary",
+          "url": "https://www.fijitimes.com.fj/feature-the-kaba-wars/",
+          "caveat": "Newspaper history features with a national-Fijian framing; used for narrative corroboration of the campaign and the 200 killed/200 captured Kaba figure."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

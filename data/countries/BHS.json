@@ -1,0 +1,134 @@
+{
+  "iso": "BHS",
+  "name": "Bahamas",
+  "note": "The Bahamas's ledger is deeply asymmetric, and that asymmetry is the whole point of the entry rather than a research gap. The victim side is heavy: the islands hold one of the earliest and most total destructions of a people in the post-Columbian Americas — the Lucayans, the indigenous inhabitants Columbus met in 1492, who were enslaved en masse and carried off to die in Spanish mines and pearl fisheries until within roughly thirty years almost none remained — followed by nearly two centuries in which the population that became today's Afro-Bahamian majority was held in chattel slavery on Bahamian soil. Crucially, BOTH of those atrocities were committed by OTHER powers: the Lucayan destruction by the Spanish, the African slavery by British colonists and American Loyalist planters under the British Crown. The Bahamas did not become a self-governing state until majority rule in 1967 and full independence in 1973, so for most of the period covered by its victim ledger there was no 'Bahamian state' to act as a perpetrator. On the perpetrator side, the modern independent Bahamas has no documented mass-killing atrocity; the strongest real, externally adjudicated case of state wrongdoing is its arbitrary detention and unlawful deportation of Cuban and Haitian asylum-seekers, found in violation of the American Declaration by the Inter-American Commission on Human Rights — serious rights abuse, but not a mass-death event, and it is carried here with a null death toll. No event, toll, or source has been invented to make the two sides match.",
+  "events": [
+    {
+      "id": "bhs-1",
+      "country": "BHS",
+      "role": "victim",
+      "title": "Destruction of the Lucayans",
+      "era": "1492–c.1520",
+      "era_band": "colonial",
+      "tier": "EXT",
+      "tier_reasoning": "The deliberate, systematic carrying-off of an entire indigenous people into slavery, emptying the archipelago of its inhabitants within a generation, is the destruction of a people as such — EXT — even though the deaths occurred mostly off-island in Spanish mines and pearl fisheries rather than in mass killings on the spot.",
+      "agent": "Spanish slavers and colonial authorities operating out of Hispaniola, beginning with Columbus's expeditions",
+      "toll": {
+        "display": "~20,000–40,000 (entire population destroyed)",
+        "disputed": true,
+        "low": 20000,
+        "high": 40000,
+        "unit": "deaths",
+        "note": "This is a population DESTROYED, not a counted body-count. Estimates of the Lucayan population at contact in 1492 range from roughly 20,000 to 40,000; the contemporary chronicler Peter Martyr d'Anghiera reported that some 40,000 Lucayans were removed from the islands in the early 1500s, and that upper figure is essentially the whole nation. By 1513 Ponce de León reported the islands all but emptied, finding only a single elderly woman; an attempt to round up the remainder in 1520 reportedly found only eleven people. There is no census, so every figure is an extrapolation, and scholars disagree on the contact population; the destruction itself — near-total within about three decades — is not disputed. QUARANTINE (audit 2026-06-19): the high end (40,000) is independently double-sourced (Pateman 2022 reporting Peter Martyr; Wikipedia). The low end (20,000) is a genuine, widely-attested scholarly contact-population estimate, BUT the source pinned to it here (Smithsonian) actually states ~40,000, not 20,000 — so the low bound currently has NO citation that states the figure. Event held UNVERIFIED pending a source that explicitly supports the 20,000 lower bound; tier and high end are sound."
+      },
+      "received_lens": "memorial",
+      "summary": "When Columbus made his first American landfall in 1492 it was on a Lucayan island, among a people he immediately appraised as good servants; within a few years the Spanish were raiding the archipelago to feed labor to the dying mines and pearl beds of Hispaniola and the Venezuelan coast, and they kept at it until the islands were empty — by 1513 a Spanish expedition could find scarcely a living Lucayan, and the people ceased to exist as a nation.",
+      "relevance": "The Bahamas opens the European conquest of the Americas as the very first victim — a whole people erased before the islands were ever a colony of their own — making it a pure 'done to them' case where the perpetrator was an outside empire, not anyone Bahamian.",
+      "status_note": "UNVERIFIED (audit 2026-06-19): sources, authorship, EXT tier and toll.high (40,000) all verify cleanly; the only defect is that toll.low (20,000) is pinned to a source (Smithsonian) that states ~40,000, not 20,000 — the low bound has no citation that states it. Fix: add a source that explicitly gives the ~20,000 contact-population lower estimate (e.g. Granberry & Vescelius, or Craton & Saunders), then restore VERIFIED.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Forbes-Pateman, Yardumian, Vilar, Simms, Pateman & Keegan, 'A population history of indigenous Bahamian islanders: Insights from ancient DNA', American Journal of Biological Anthropology (2022) — reports the mass enslavement and deportation of the Lucayans, Peter Martyr's ~40,000-removed figure, and Ponce de León's 1513 report that the natives were effectively extinct except for one elderly woman",
+          "supports": "toll.high",
+          "url": "https://anth.umd.edu/sites/anth.umd.edu/files/pubs/Pateman2022.pdf",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Lucayan people' — population ~40,000 at contact; Spanish may have carried away as many as 40,000 by 1513; only eleven Lucayans found in the whole Bahamas when the Spanish came to traffic the remainder in 1520",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Lucayan_people",
+          "caveat": "Tertiary aggregator; used for the timeline and the high-end figures, which trace back to contemporary chroniclers and to Granberry, Keegan and Craton & Saunders cited in the scholarly literature."
+        },
+        {
+          "kind": "press",
+          "cite": "Smithsonian Magazine, 'How Archaeologists Are Unearthing the Secrets of the Bahamas' First Inhabitants' — estimates ~40,000 Lucayans in 1492 and ~40,000 enslaved, driven to near-extinction by 1530",
+          "supports": "summary",
+          "url": "https://www.smithsonianmag.com/history/how-archaeologists-are-unearthing-the-secrets-of-the-bahamas-first-inhabitants-180983548/",
+          "caveat": "Popular-science magazine. AUDIT 2026-06-19: this article states ~40,000 Lucayans in 1492 and ~40,000 enslaved, driven to near-extinction by 1530 — it does NOT state a 20,000 lower bound. It was previously mislabelled as supporting toll.low; corrected to supports='summary' (it corroborates the near-total-destruction narrative and the high figure, not the low end). The 20,000 low bound remains uncited and is the reason this event is UNVERIFIED."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "bhs-2",
+      "country": "BHS",
+      "role": "victim",
+      "title": "Chattel slavery in the colonial Bahamas",
+      "era": "c.1648–1838",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "A long-running system of legal chattel bondage — coerced, hereditary, lethal labor imposed on an enslaved population for nearly two centuries — is structural mass atrocity (STR) rather than a single killing event; there is no discrete death-count, so the harm is measured in the size of the enslaved population.",
+      "agent": "British colonists and, after the American Revolution, American Loyalist planters, under the authority of the British Crown",
+      "toll": {
+        "display": "10,000+ enslaved Africans imported; ~10,087 enslaved at emancipation (1834)",
+        "disputed": false,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "No discrete death toll for Bahamian slavery is sourceable, so the death fields are left null rather than guessed. The harm is documented instead as the size of the enslaved population: over 10,000 enslaved West and Central Africans were brought to the Bahamas before the slave trade was abolished in 1807 (about 9,560 imported directly from Africa 1788–1807), and the 1834 emancipation compensation records cover 10,087 enslaved people across 1,057 awards. A further ~7,000 'Liberated Africans' — people freed by the Royal Navy from intercepted slave ships — were resettled in the islands across the 19th century. Slavery was abolished on 1 August 1834, with full emancipation following the apprenticeship period in 1838."
+      },
+      "received_lens": "memorial",
+      "summary": "From the first enslaved Africans brought by the Eleutheran Adventurers around the 1640s through the Loyalist plantation boom after 1783, the Bahamas ran on enslaved labor — cotton, then salt-raking and domestic work — held under British colonial law; by abolition in 1834 roughly ten thousand people were registered as enslaved, and their descendants form the Afro-Bahamian majority today.",
+      "relevance": "The very population that is now the Bahamian nation was, for nearly two centuries, the enslaved property of the colonizing power — a second 'done to them' on the same islands, again at the hands of an outside empire rather than a Bahamian state.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Afro-Bahamians' — 9,560 people brought directly from Africa to the Bahamas 1788–1807; ~7,000 Liberated Africans resettled across the 19th century; slavery abolished 1 August 1834",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Afro-Bahamian",
+          "caveat": "Tertiary aggregator; import figures trace to the Trans-Atlantic Slave Trade Database, used here for the order of magnitude of people enslaved."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "'Slave-owners' Compensation: The Bahamas Colony', International Journal of Bahamian Studies — 1,057 awardees compensated for 10,087 enslaved people in the Bahamas under the 1834 Slavery Abolition Act, drawn from the triennial slave registers of 1822–1834",
+          "supports": "toll.high",
+          "url": "https://journals.sfu.ca/cob/index.php/files/article/view/343",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "bhs-3",
+      "country": "BHS",
+      "role": "perpetrator",
+      "title": "Arbitrary detention and unlawful deportation of Cuban and Haitian asylum-seekers",
+      "era": "1990s–present",
+      "era_band": "contemporary",
+      "tier": "STR",
+      "tier_reasoning": "A sustained state practice of arbitrary, punitive detention in inhumane conditions and summary deportation without due process or asylum review is a structural rights-abuse (STR); it is not a mass-killing event, and no death toll is attributed to the state, so the tier marks systemic coercion rather than EXT or POL.",
+      "agent": "The Commonwealth of the Bahamas (immigration authorities and the Carmichael Road Detention Centre)",
+      "toll": {
+        "display": "no death toll attributed to the state; ~330 named victims in the IACHR case; thousands deported",
+        "disputed": false,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "This is a rights-abuse case, not a mass-death event, so the death fields are null — inventing a body-count to fill the perpetrator ledger would violate the atlas's first law. The Inter-American Commission on Human Rights merits report (Case 12.071, published 2021/2022) found the Bahamas violated the rights of roughly 200 Cuban and 130 Haitian asylum-seekers detained at and deported from the Carmichael Road Detention Centre, citing arbitrary indefinite detention, inhumane and overcrowded conditions, denial of consular access, and deportation without individual asylum assessment. Separately, an IACHR observation noted on the order of 13,000 deportations of irregular migrants, notably Haitians, in under four years. Deaths of migrants at sea (e.g., 17 Haitians drowned on 24 July 2022 when their vessel sank) are deaths in the migration route, not killings by the Bahamian state, and are excluded from the toll."
+      },
+      "received_lens": "contested",
+      "summary": "The independent Bahamas has no mass-killing in its record, but its treatment of irregular migrants is its clearest documented state wrongdoing: the Inter-American Commission on Human Rights found that the Bahamas held Cuban and Haitian asylum-seekers in arbitrary, punitive, overcrowded detention at the Carmichael Road centre and deported them — Haitians especially — without due process or a real chance to claim protection, a practice rights bodies say continues.",
+      "relevance": "It would be dishonest to leave the perpetrator ledger empty merely to seem balanced and equally dishonest to inflate a rights-abuse case into a massacre; this entry holds the line — a real, adjudicated state abuse, carried at its true (non-lethal) weight, against the far heavier victim side.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "CEJIL press release, 'IACHR issues Merits Report in the case Cuban and Haitian nationals detained at and deported from the Carmichael Road Detention Center vs. Commonwealth of the Bahamas' — ~200 Cuban and ~130 Haitian victims; findings of arbitrary detention, inhumane conditions, denial of consular contact, and deportation without asylum review",
+          "supports": "summary",
+          "url": "https://cejil.org/en/press-releases/iachr-issues-merits-report-in-the-case-cuban-and-haitian-nationals-detained-at-and-deported-from-the-carmichael-road-detention-center-vs-commonwealth-of-the-bahamas/",
+          "caveat": "CEJIL was the petitioners' counsel in the case, so its account is that of an advocate; the underlying merits report is the IACHR's own (Case 12.071, OAS), an independent inter-state human-rights body."
+        },
+        {
+          "kind": "reference",
+          "cite": "Global Detention Project, 'Bahamas Immigration Detention Profile' — Carmichael Road Detention Centre overcrowding (133 detainees in a men's section with 70 beds, 2014 UN Special Rapporteur visit), detentions over 12 months, and an IACHR observation of ~13,000 deportations of irregular migrants in under four years",
+          "supports": "toll.high",
+          "url": "https://www.globaldetentionproject.org/countries/americas/bahamas",
+          "caveat": "Migration-rights research NGO; figures are drawn from UN Special Rapporteur and IACHR observations it compiles rather than from its own fieldwork."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

@@ -1,0 +1,186 @@
+{
+  "iso": "SWZ",
+  "name": "Eswatini",
+  "note": "Eswatini's two ledgers are real but asymmetric in their documentation, and the asymmetry is itself the honest finding. The victim ledger is dominated not by a single colonial slaughter but by two very different catastrophes. The first is the Mfecane upheaval of the early nineteenth century: the Ngwane (proto-Swazi) under Sobhuza I were attacked by the Ndwandwe of Zwide and later raided by the Zulu, and were forced to migrate north into the highlands of central Eswatini — but they survived, absorbed refugees and built a kingdom, and no Swazi-specific death toll exists in the scholarship. The traditional region-wide Mfecane figure of 1-2 million is itself heavily contested (Julian Cobbing's revisionism, Elizabeth Eldredge's qualifications) and cannot be apportioned to the Swazi, so that toll is left null and the event marked UNVERIFIED for its death metric. British colonial rule, by contrast, was coercive — two-thirds of the land partitioned to settlers (1907-1909), forced labour migration, the tax revolt of 1903-1907 — but it was dispossession and bondage, not mass killing, so it is not given a death toll or a separate ledger entry; inventing one would be a fabrication. The genuine modern mass-death event done to the Swazi people is the HIV/AIDS epidemic: a disease-driven demographic collapse that gave Eswatini the world's highest HIV prevalence and roughly halved life expectancy, a structural catastrophe (STR) whose agent is the virus rather than a killer, with the state's early delay and stigma a documented aggravating factor, not the cause of the deaths. The perpetrator ledger is also real: in the nineteenth century Swazi impis under Mswati II raided neighbouring peoples (Pedi, Pulana, Lobedu and others) across the Transvaal and toward Delagoa Bay for cattle and captives — predatory slave-and-plunder raiding with no surviving casualty count — and in the present the absolute monarchy's own security forces, the army (UEDF) and police (REPS), shot dead pro-democracy protesters in June 2021, the best-documented atrocity in either ledger, followed by the 2023 assassination of human rights lawyer Thulani Maseko. The same dynastic state that was a victim of the Mfecane became a slave-raiding power, and the monarchy that survived colonialism now kills its own citizens.",
+  "events": [
+    {
+      "id": "swz-1",
+      "country": "SWZ",
+      "role": "victim",
+      "title": "Mfecane attacks and the flight of the Ngwane under Sobhuza I",
+      "era": "c.1817–1839",
+      "era_band": "pre-colonial",
+      "tier": "WAR",
+      "tier_reasoning": "Conquest-raiding and forced migration of the proto-Swazi by other African polities — armed predation and displacement rather than a campaign to exterminate a defined people, so WAR; the harm came through raids, flight and absorption.",
+      "agent": "The Ndwandwe kingdom under Zwide, and later the Zulu Kingdom",
+      "toll": {
+        "display": "no Swazi-specific death count (region-wide Mfecane toll of 1–2 million is contested and not apportionable)",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "No death count specific to the Ngwane/Swazi exists in the scholarship. The traditional region-wide Mfecane toll of 1–2 million is itself heavily contested — Julian Cobbing argued the Zulu-centred 'Black-on-Black destruction' narrative was distorted, and Elizabeth Eldredge, while rejecting his Portuguese-slaving thesis, agreed the Shaka-centred explanation is unreliable — and that figure spans the whole of southern and central Africa, not the Swazi alone, so it cannot be apportioned here. What is documented is qualitative: the Ngwane under Sobhuza I were attacked by Zwide's Ndwandwe around 1817–1820, driven north of the Phongolo and Usutu rivers, and raided again by the Zulu (notably a joint attack in 1836), yet they survived and consolidated. Toll left null; event marked UNVERIFIED for the death metric, while the displacement itself is well attested. AUDIT: both sources re-verified (Britannica 'Sobhuza I' via search — c.1820 Ndwandwe/Zwide attack, migration north of the Usutu, founding of the conquest state that became Swaziland; Wikipedia 'Mfecane' direct — 1836 joint Zulu/British attack, 1–2 million toll explicitly 'controversial', Cobbing and Eldredge both present). The null toll is correct and not an artefact of missing research; status remains UNVERIFIED because no Swazi-apportionable death count exists, not because any source failed."
+      },
+      "received_lens": "memorial",
+      "summary": "In the upheavals of the early nineteenth century the Ngwane people of the Dlamini clan, ruled by Sobhuza I, were attacked by the expanding Ndwandwe kingdom of Zwide around 1817–1820 and pushed north of the Phongolo and Usutu rivers into the mountainous highlands of what is now central Eswatini; raided again by the Zulu, including a joint attack in 1836, they nonetheless absorbed refugees, used marriage alliances, and built the kingdom that became the Swazi nation.",
+      "relevance": "The founding trauma done to the Swazi was inflicted by other African kingdoms during the Mfecane — and the state they built to survive it would, within a generation, become a raiding power that did the same to its neighbours.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Britannica, 'Sobhuza I' — c.1820 the Ngwane were attacked by Zwide's Ndwandwe and migrated north of the Usutu River, attacked on several more occasions; founded the modern Swazi kingdom",
+          "supports": "summary",
+          "url": "https://www.britannica.com/biography/Sobhuza-I",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Mfecane' — Sobhuza's people fled earlier turmoil before consolidating; Swazi Kingdom weathered a joint Zulu/British attack in 1836; traditional death toll of 1–2 million described as controversial; Cobbing revisionism and Eldredge's qualification",
+          "supports": "tier",
+          "url": "https://en.wikipedia.org/wiki/Mfecane",
+          "caveat": "Tertiary aggregator; the 1–2 million figure is region-wide and explicitly contested, and cannot be apportioned to the Swazi — cited to show why a Swazi-specific toll is left null."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "swz-2",
+      "country": "SWZ",
+      "role": "victim",
+      "title": "The HIV/AIDS epidemic and demographic collapse",
+      "era": "c.1990s–2010s",
+      "era_band": "contemporary",
+      "tier": "STR",
+      "tier_reasoning": "A disease-driven demographic catastrophe that roughly halved national life expectancy — structural mass death whose agent is the virus rather than a deliberate killer, so STR; early state delay and stigma worsened it but did not cause the deaths.",
+      "agent": "HIV/AIDS as a disease, with the Eswatini state's early delay and stigma a documented aggravating factor (not the cause of death)",
+      "toll": {
+        "display": "~7,000 AIDS deaths per year at the late-2000s peak; tens of thousands cumulative over the epidemic",
+        "disputed": false,
+        "low": 2400,
+        "high": 7000,
+        "unit": "deaths",
+        "note": "Figures are annual AIDS-death estimates, not a single-event count: ~2,400 deaths in 1995 (early epidemic, confirmed directly by UNAIDS) rising to an estimated ~7,000 deaths in 2009 near the peak, on a population of roughly 1.2 million — about 0.6% of the entire population dying of AIDS each year at the height. The cumulative toll across the epidemic runs into the tens of thousands but is not given a single audited total here. The demographic impact is the clearest metric: national life expectancy fell from about 60–61 years around 1997–2000 to roughly 32 years in 2009 (UNAIDS/WHO-derived), one of the steepest peacetime collapses on record. low=annual deaths early in the epidemic (1995, UNAIDS); high=estimated annual deaths at the late-2000s peak (2009, WHO/UNAIDS-derived via Wikipedia). AUDIT NOTE: the previously cited WHO (2002) '64% of all deaths from HIV/AIDS' statistic rested solely on a U.S. Embassy page that now returns a technical error and could not be independently re-verified; that specific WHO figure has been removed from this note pending a verifiable source."
+      },
+      "received_lens": "suppressed",
+      "summary": "From the 1990s into the 2010s HIV/AIDS tore through Eswatini, which came to have the highest adult HIV prevalence in the world (over 27%); annual AIDS deaths rose from around 2,400 in 1995 to roughly 7,000 by 2009 — about 0.6% of the population each year — and national life expectancy collapsed from about sixty years to roughly thirty-two within a decade. King Mswati III declared HIV/AIDS a national disaster only in 1999, after years in which delay and stigma let the epidemic entrench itself.",
+      "relevance": "The largest mass death in Eswatini's modern history was caused by a virus, not an army — a structural catastrophe that killed more Swazi than any massacre, even as the state that governs them turned its guns on protesters rather than reckoning with how late it answered the dying.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'HIV/AIDS in Eswatini' — highest adult HIV prevalence in the world (27.2%, 2016); ~7,000 AIDS deaths in 2009 (~0.6% of population/year); life expectancy fell from 61 (2000) to 32 (2009); King Mswati III declared a national disaster Feb 1999",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/HIV/AIDS_in_Eswatini",
+          "caveat": "Tertiary aggregator compiling UNAIDS/WHO figures; the 2009 annual-death and life-expectancy figures derive from those agencies, not from a single audited national vital-registration count."
+        },
+        {
+          "kind": "reference",
+          "cite": "UNAIDS feature story, 'How communities led in the HIV response, saving lives in Eswatini at the peak of a crippling AIDS epidemic' (25 Apr 2024) — 'In 1995, when there was no antiretroviral treatment for people living with HIV, 73 000 people were living with HIV' and '2400 people died of AIDS that year'; references the peak of the epidemic in 2015 (one in three adults living with HIV)",
+          "supports": "toll.low",
+          "url": "https://www.unaids.org/en/resources/presscentre/featurestories/2024/april/20240425_eswatini",
+          "caveat": "Primary UN agency (UNAIDS) source; directly states the 1995 figures of ~73,000 people living with HIV and ~2,400 AIDS deaths. Added in audit to replace the U.S. Embassy 'Synopsis of the epidemiology of HIV and AIDS in Swaziland' citation (https://sz.usembassy.gov/synopsis-of-the-epidemiology-of-hiv-and-aids-in-swaziland/), whose page now returns a 'Technical Difficulties' error and could not be re-verified; the 1995 toll.low figures it carried are confirmed here against UNAIDS. The WHO (2002) '64% of all deaths from HIV/AIDS' claim that the dead embassy page also carried could not be independently re-verified and is not relied upon."
+        },
+        {
+          "kind": "reference",
+          "cite": "UNAIDS estimates via Trading Economics, 'Swaziland – AIDS Estimated Deaths' — annual AIDS-death series (e.g. ~2,900 in 2024), declining from the late-2000s peak as antiretroviral coverage expanded",
+          "supports": "toll.high",
+          "url": "https://tradingeconomics.com/swaziland/aids-estimated-deaths-unaids-estimates-wb-data.html",
+          "caveat": "Data aggregator republishing UNAIDS/World Bank estimates; page confirms ~2,900 AIDS deaths in 2024 but the full historical series and exact peak-year value were not directly visible, so the ~7,000 peak rests on the WHO/UNAIDS-derived 2009 figure (independently confirmed via the 'HIV/AIDS in Eswatini' source)."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "swz-3",
+      "country": "SWZ",
+      "role": "perpetrator",
+      "title": "Swazi impi raids for cattle and captives under Mswati II",
+      "era": "c.1840–1868",
+      "era_band": "pre-colonial",
+      "tier": "STR",
+      "tier_reasoning": "Repeated predatory raids on neighbouring peoples to seize cattle and human captives — a sustained system of plunder and slave-taking rather than a single massacre or an extermination campaign, so STR; the harm was bondage, killing and dispossession across many raids.",
+      "agent": "Swazi armies (impis) under King Mswati II",
+      "toll": {
+        "display": "no surviving count of dead or captives taken across the raids",
+        "disputed": false,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "The raids were real and repeated, but no casualty or captive figure survives in the sources consulted, so the toll is left null rather than estimated. The harm metric was cattle and people seized: Swazi impis raided the Pedi, Pulana, Lobedu and other peoples of the north-eastern Transvaal and ranged toward the Delagoa Bay area of present-day Mozambique and as far as southern Zimbabwe, the campaigns against Sesotho-speaking groups characterised in the record as raids for cattle and captives — including for slaves. The one documented set-piece outcome, the Battle of Moholoholo (December 1864), was a Swazi defeat in which the raiding force under Mswati's brother Zimase was annihilated by the MaPulana, so it does not supply a perpetrator death count for the victims of the raids. AUDIT: all three sources re-verified directly (Wikipedia 'Mswati II' — Bapedi, Baphalaborwa, Lobedu, Venda, Great Zimbabwe, Mozambique; goal 'plunder in the form of cattle and captives'; Encyclopaedia Africana 'Mswati II' — Pulana/Lobedu/Pedi, Delagoa Bay, southern Zimbabwe, 'enlarge Swazi wealth and territory'; Wikipedia 'Battle of Moholoholo' — Dec 1864, Zimase brother of Mswati II, returning from the Zoutpansberg, annihilated by the MaPulana). Status remains UNVERIFIED because no casualty/captive count survives, not because any source failed."
+      },
+      "received_lens": "triumphal",
+      "summary": "Under King Mswati II (r. c.1840–1868), reorganised on Zulu lines into age-regiment impis, Swazi armies raided far beyond the kingdom — against the Pedi, Pulana, Lobedu and others across the north-eastern Transvaal, toward Delagoa Bay in present-day Mozambique and as far as southern Zimbabwe — seizing cattle and taking captives, with raids on Sesotho-speaking peoples recorded as plunder-and-slave raiding rather than incorporation.",
+      "relevance": "Within a generation of being raided and driven north during the Mfecane, the Swazi kingdom became a raiding power itself — the victims of one upheaval turning predator on their neighbours, the dual lens in a single dynasty.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Mswati II' — Swazi armies attacked the Bapedi, Baphalaborwa, Lobedu, Venda, the Maseko/Mbayi and the Gaza kingdom; raids ranged toward Great Zimbabwe and the Mozambique plains; initial goal 'plunder in the form of cattle and captives'",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Mswati_II",
+          "caveat": "Tertiary aggregator; lists the peoples raided and the cattle-and-captive purpose but gives no casualty or captive figures."
+        },
+        {
+          "kind": "reference",
+          "cite": "Encyclopaedia Africana, 'Mswati II' — raids on the Pulana, Lobedu and Pedi in the north-eastern Transvaal and the Delagoa Bay area of present-day Mozambique, raiding as far as southern Zimbabwe to enlarge Swazi wealth and territory",
+          "supports": "summary",
+          "url": "https://encyclopaediaafricana.com/mswati-ii/",
+          "caveat": "Public reference encyclopaedia; corroborates the targets and predatory purpose of the raids but supplies no numbers."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Battle of Moholoholo' — December 1864, a Swazi raiding force under Mswati II's brother Zimase attacked MaPulana settlements near the Blyde River while returning from the Zoutpansberg and was annihilated by MaPulana chiefs",
+          "supports": "tier",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Moholoholo",
+          "caveat": "Tertiary aggregator drawing on MaPulana oral-historical accounts; documents one raid's outcome (a Swazi defeat) and thus the raiding pattern, not a death count for the raids' victims."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "swz-4",
+      "country": "SWZ",
+      "role": "perpetrator",
+      "title": "The June 2021 killing of pro-democracy protesters",
+      "era": "2021",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "State security forces of an absolute monarchy used live ammunition to kill unarmed citizens demanding political reform — lethal political repression of a domestic population, so POL.",
+      "agent": "Eswatini's security forces — the army (Umbutfo Eswatini Defence Force) and the Royal Eswatini Police Service — under King Mswati III",
+      "toll": {
+        "display": "46 dead (official commission) to 80–100+ (civil-society estimates), disputed",
+        "disputed": true,
+        "low": 46,
+        "high": 100,
+        "unit": "deaths",
+        "note": "Figures are sharply contested. The government initially acknowledged far fewer; the Eswatini Commission on Human Rights and Public Administration reported in October 2021 that 46 people were killed (2 of them children) with 245 gunshot injuries. Amnesty International documented more than 70 protesters killed, and civil-society and opposition groups (including PUDEMO) put the real toll at over 100 and use figures of 'more than 80'. No member of the security forces has been held accountable. low=official human-rights-commission count (46); high=civil-society estimate (100+)."
+      },
+      "received_lens": "denied",
+      "summary": "In June 2021, after pro-democracy protests swept Eswatini, King Mswati III's security forces — the army (UEDF) deployed alongside the Royal Eswatini Police Service — fired live ammunition, rubber bullets and teargas on protesters and bystanders; the official human-rights commission counted 46 dead and 245 gunshot wounded, while Amnesty International documented over 70 killed and opposition groups put the toll above 100. The government denied responsibility, blaming 'mercenaries', and no officer has been prosecuted; in January 2023 human rights lawyer Thulani Maseko was assassinated at home, hours after the king warned pro-democracy campaigners.",
+      "relevance": "Africa's last absolute monarchy, a kingdom that survived the Mfecane and colonial rule, turned its guns on its own unarmed citizens — the same Swazi state that appears as a victim elsewhere in this atlas killing the people it claims to embody.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "Human Rights Watch, 'Eswatini: No Justice for June 2021 Security Force Violence' (30 Oct 2025) — Eswatini Commission on Human Rights reported 46 killed (2 children) and 245 gunshot injuries; civil society estimates over 100; UEDF and REPS responsible; zero accountability",
+          "supports": "toll.low",
+          "url": "https://www.hrw.org/news/2025/10/30/eswatini-no-justice-for-june-2021-security-force-violence",
+          "caveat": "International human-rights NGO; advocacy organisation, but the 46/245 figures it reports are the official Eswatini commission's own numbers."
+        },
+        {
+          "kind": "press",
+          "cite": "Amnesty International, 'Eswatini: Dozens killed, tortured, abducted as pro-democracy protests intensify' (July 2021) — documented more than 70 protesters killed after the government ban on protests from 25 June 2021; security forces fired live ammunition",
+          "supports": "toll.high",
+          "url": "https://www.amnesty.org/en/latest/press-release/2021/07/eswatini-dozens-killed-tortured-abducted-as-pro-democracy-protests-intensify/",
+          "caveat": "International human-rights NGO; an advocacy source, used here for its documented '70+' figure that sits between the official count and the higher civil-society estimates."
+        },
+        {
+          "kind": "press",
+          "cite": "Daily Maverick, 'The Eswatini massacre one year on – lest we forget' (1 July 2022) — 'more than 80' protesters killed on/around 29 June 2021; government blamed 'mercenaries'; no condolences or accountability a year on",
+          "supports": "summary",
+          "url": "https://www.dailymaverick.co.za/article/2022-07-01-the-eswatini-massacre-one-year-on-lest-we-forget/",
+          "caveat": "South African investigative outlet sympathetic to the pro-democracy movement; the 'more than 80' figure reflects activist/civil-society counts rather than an official tally."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

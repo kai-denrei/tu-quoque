@@ -1,0 +1,179 @@
+{
+  "iso": "GUY",
+  "name": "Guyana",
+  "note": "Built from scratch 2026-06-19 via live web research. Guyana's atrocity record is heavily weighted toward victimhood inflicted by outside colonial powers, and the file reflects that asymmetry honestly rather than manufacturing a balance. The victim ledger carries the two deepest catastrophes: the demographic destruction of the Amerindian peoples under Dutch and British colonization (slave-raiding, enslavement, export to the islands, and disease), and the killing regime of Atlantic plantation slavery in Demerara-Berbice, whose single most concrete atrocity is the British colonial army's suppression of the 1823 Demerara rebellion. The perpetrator ledger is genuinely thin, and this is not a research gap: Guyana is a small state independent only since 1966, with no record of large-scale state mass-killing campaigns. Its two real perpetrator-side atrocities are both domestic and political — the Guyanese-on-Guyanese ethnic violence of 1962-1964 (the Wismar massacre of Indo-Guyanese and the Son Chapman bombing of Afro-Guyanese, two faces of one inter-ethnic bloodletting that left at least ~110 dead in 1964), and the 1980 state-organized assassination of historian Walter Rodney by the Forbes Burnham regime. IMPORTANT EXCLUSION: the 1978 Jonestown deaths (~909-918) occurred on Guyanese soil but the victims were overwhelmingly American members of the Peoples Temple killed by Jim Jones and his lieutenants, with only a handful of Guyanese among the dead; it belongs to the United States' ledger as both victim and perpetrator, not Guyana's, and is excluded here deliberately. Recurring caveats: pre-colonial and early-colonial Amerindian death tolls in Guiana are not quantifiable from the available record (figures left null); slavery-era natural-decrease mortality is well attested qualitatively but not given a clean aggregate death count in the sources consulted; and the 1962-1964 violence remains politically charged in Guyana, with Indo- and Afro-Guyanese narratives each foregrounding the massacre committed against their own community.",
+  "events": [
+    {
+      "id": "guy-1",
+      "country": "GUY",
+      "role": "victim",
+      "title": "Destruction of the Amerindian Peoples under Dutch and British Colonization",
+      "era": "c.1600-1850",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The collapse of Guiana's indigenous Amerindian population came chiefly through disease, displacement, and a slave-raiding economy in which Dutch-armed Carib and Akawaio militias captured and sold other Amerindians — a structural demographic catastrophe driven by introduced pathogens and colonial labor systems rather than a single deliberate extermination campaign, which is STR.",
+      "agent": "Dutch and (later) British colonial authorities, working through and arming Carib and Akawaio militias who raided, enslaved, and traded other Amerindian peoples; introduced epidemic disease",
+      "toll": {
+        "display": "unquantified (severe demographic decline; no reliable death count)",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "QUARANTINE (audit 2026-06-19): event left UNVERIFIED. The Dutch-supported Amerindian slave-raiding economy is genuinely documented — the Tipití article ('Amerindians in the Eighteenth Century Plantation System of the Guianas', Trinity digital commons) confirms Caribs, Akawaios and Manoas functioned as slavers for the Dutch in the 18th century and cites Whitehead (1988), so the tier-supporting source verifies and tier STR stands. BUT the first source (Wikipedia 'Indigenous peoples in Guyana') was checked directly and does not actually carry the disease/enslavement/export/decline claims attributed to it, so the summary's documentary footing is partly unsupported. No reliable death toll or pre-contact population baseline exists for the Amerindian peoples of Guiana specifically in any source consulted; the qualitative collapse (introduced disease, enslavement, coastal Carib decline by the 19th century) is real but unquantified, so the toll is left null rather than invented. No figure was fabricated."
+      },
+      "received_lens": "suppressed",
+      "summary": "From the seventeenth century onward, European colonization shattered the Amerindian peoples of Guiana: the Dutch armed Carib and Akawaio militias to capture and sell other Amerindians and to hunt escaped plantation slaves, captives were enslaved and shipped to islands such as Barbados, and introduced epidemics swept communities that had no immunity, so that by the nineteenth century coastal indigenous groups such as the Caribs had collapsed and the survivors were folded into a colonial order that treated their lands as available for the taking.",
+      "relevance": "The foundational victimhood of Guyana — the first peoples of the land destroyed by the same colonial powers whose plantation economy would later import the enslaved Africans and indentured Indians who make up most of modern Guyana, establishing the deepest 'done to them' layer beneath every later catastrophe.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Indigenous peoples in Guyana\" — Wikipedia / Minority Rights Group (Amerindians decimated by disease and persecution from the 15th century onward; enslaved and transported to Caribbean islands; coastal Carib/Kalihna population sharply declined by the 19th century)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Indigenous_peoples_in_Guyana",
+          "caveat": "AUDIT 2026-06-19: the cited Wikipedia page was checked directly and does NOT carry the specific claims attributed to it (decimation by disease/persecution from the 15th c., enslavement-and-export to Caribbean islands, 19th-c. coastal Carib/Kalihna decline); that content belongs to Minority Rights Group material, not this Wikipedia article, which is thin on colonial-era demography. The qualitative collapse is real and attested elsewhere, but this specific source does not support the summary as cited. No Guiana-specific death toll exists in any source consulted, which is why the toll is null. Source-integrity flag; event quarantined UNVERIFIED."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Neil L. Whitehead and related Amerindian-slaving scholarship (summarized via Tipití: Journal of the Society for the Anthropology of Lowland South America) — Dutch-supported Carib and Akawaio militias enslaved other Amerindians and hunted escaped slaves in the Guiana borderlands, 17th-19th centuries",
+          "supports": "tier",
+          "url": "https://digitalcommons.trinity.edu/cgi/viewcontent.cgi?article=1220&context=tipiti",
+          "caveat": null
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "guy-2",
+      "country": "GUY",
+      "role": "victim",
+      "title": "Plantation Slavery and the Suppression of the 1823 Demerara Rebellion",
+      "era": "c.1750-1834 (rebellion 1823)",
+      "era_band": "colonial",
+      "tier": "POL",
+      "tier_reasoning": "When some 12,000 enslaved Africans rose against the sugar plantations of Demerara in 1823, British colonial troops and militia shot down the rebels and then executed dozens more by court-martial, with bodies displayed as deterrents — the deliberate, organized lethal punishment of an enslaved population by the colonial state, which is POL; the broader slow-killing mortality of the slavery regime itself is STR and is captured in the toll note.",
+      "agent": "British colonial forces — the 21st Regiment of Foot, the 1st West India Regiment, and colonial militia under Governor John Murray and Lt-Col. Leahy — suppressing the rising; the plantation slavery system more broadly",
+      "toll": {
+        "display": "~250-500+ enslaved people killed in the 1823 suppression (plus mass slavery-era mortality, unquantified)",
+        "disputed": true,
+        "low": 250,
+        "high": 500,
+        "unit": "deaths",
+        "note": "For the 1823 rebellion itself, estimates of those killed in the fighting and immediate suppression range from about 200 to 500 men and women, with at least ~100 more summarily executed during the counter-insurgency and a further 27 hanged after court-martial (45 death sentences handed down, of which roughly 19-27 were carried out). The low (~250) reflects the firmer 'over 200 killed plus dozens executed' accounts; the high (~500) the upper combat estimate plus executions; disputed. Separately and not included in this number, the Demerara-Berbice slavery regime itself was lethal on a far larger scale: of an enslaved population around 75,000 in Demerara-Essequibo in 1823, mortality was so high that natural increase could not be sustained even after the 1807 slave-trade ban, with the British Caribbean enslaved population falling from ~776,000 (1807) to ~665,000 (1834); the available sources do not isolate a clean Guiana death count for this slow killing, so it is described qualitatively rather than added to the toll."
+      },
+      "received_lens": "memorial",
+      "summary": "On the sugar plantations of Demerara, enslaved Africans were worked to death in a regime so lethal it depended on constant new imports; in August 1823 roughly twelve thousand of them, led by men such as Quamina and Jack Gladstone, rose largely peacefully to demand freedom, and British colonial troops and militia answered by firing into the crowds at Bachelor's Adventure, killing hundreds, then executed dozens more and hung their bodies in chains along the roads as a warning to the rest.",
+      "relevance": "The atrocity at the heart of colonial Guyana — the violent maintenance of plantation slavery by the British state — and a direct mirror of Britain's perpetrator ledger; the 1823 martyrs are commemorated in Guyana today, the 'done to them' that built the colony's wealth.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Demerara rebellion of 1823\" — Wikipedia (~12,000 enslaved people from 37+ plantations rose; 21st Foot, 1st West India Regiment and militia under Gov. John Murray suppressed it; 200-500 killed in the fighting, ~100+ summarily executed, 45 death sentences with 27 executed; bodies displayed in chains)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Demerara_rebellion_of_1823",
+          "caveat": "Tertiary aggregator; toll range and perpetrating units cross-checked against the Encyclopedia.com 'Demerara Revolt' entry."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Demerara Revolt\" — Encyclopedia.com (~12,000 slaves from 37 plantations; Lt-Col. Leahy's troops fired on 3,000+ rebels at Bachelor's Adventure; over 200 slaves killed and dozens executed; Rev. John Smith died in prison awaiting hanging)",
+          "supports": "toll.low",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/demerara-revolt",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "BlackPast.org / contemporary scholarship on the Demerara rebellion and British Caribbean slavery (enslaved population of ~75,000 in Demerara-Essequibo in 1823; very high plantation mortality; British Caribbean enslaved population fell from ~776,105 in 1807 to ~664,970 in 1834)",
+          "supports": "summary",
+          "url": "https://blackpast.org/global-african-history/demerara-rebellion-1823/",
+          "caveat": "AUDIT 2026-06-19: BlackPast page bot-blocked WebFetch (HTTP 403) but its content was confirmed via search and independently corroborated — Demerara-Essequibo enslaved population ~75,000 of ~80,000 total, >650,000 enslaved in the British Caribbean in 1823, and the 200-500 suppression toll all reproduce across BlackPast, Encyclopedia.com and Wikipedia. The specific 776,105 (1807)/664,970 (1834) British-Caribbean figures are standard abolition-era totals and consistent with the >650,000 (1823) figure, used as context only, not as a Guiana structural-killing death count."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "guy-3",
+      "country": "GUY",
+      "role": "perpetrator",
+      "title": "The 1962-1964 Inter-Ethnic Violence (Wismar Massacre and Son Chapman Bombing)",
+      "era": "1962-1964",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "In the run-up to independence, Guyanese killed Guyanese along ethnic and party lines — Afro-Guyanese mobs drove out and killed Indo-Guyanese at Wismar, and a bomb attributed to the rival camp blew up the Son Chapman launch carrying Afro-Guyanese passengers — politically driven, ethnically targeted communal killing, which is POL.",
+      "agent": "Guyanese partisans of the rival ethnic-political camps — Afro-Guyanese crowds (linked to Forbes Burnham's PNC) at Wismar; perpetrators on the Indo-Guyanese/PPP-aligned side blamed for the Son Chapman bombing — amid CIA-funded destabilization of the Jagan government",
+      "toll": {
+        "display": "~160-176 killed in the 1964 disturbances (Wismar ~5 killed and ~3,400 expelled; Son Chapman 43 killed)",
+        "disputed": true,
+        "low": 160,
+        "high": 176,
+        "unit": "deaths",
+        "note": "AUDIT 2026-06-19 — CORRECTED. The original toll.low of '110, per Pulitzer Center' was a mis-citation: the Pulitzer Center / Foreign Policy piece actually states the 1964 ethnic violence claimed 'nearly 200 lives', not 110, and the '110' figure could not be traced to it or to any reachable source. The firmly attested 1964 toll is '176 killed and 920 injured' for the GAWU-strike ethnic riots (widely reproduced; corroborated by Wikipedia's 'Freedom House bombing' article, which independently records 'at least 160 fatalities' by late July 1964 excluding Son Chapman). Low set to 160 (Freedom House bombing, late-July running total), high to 176 (full-year riot total); both ends now have a real source. Within this, the two best-documented atrocities: the Wismar massacre (20-26 May 1964) — Wikipedia's 'List of massacres in Guyana' records 5 killed, with arson, rapes, ~200 houses destroyed and ~3,000-3,400 Indo-Guyanese driven out (the exact number killed remains contested); and the Son Chapman bombing (6 July 1964), in which the river launch was blown up near Hurudaia on the Demerara, killing 43 Afro-Guyanese passengers including two children (some accounts say 36). QUARANTINE: the original note's attribution of the Wismar figures to 'a researcher (S. Pasha, 2020)' is removed — no such researcher could be verified, the cited Kaieteur article does not mention any 'Pasha', and the genuine scholarship on Wismar is by Dr. Yog Mahadeo and Prof. Baytoram Ramharack. That fabricated/unverifiable attribution is why the event is marked UNVERIFIED. Disputed; the overall toll and the Wismar death count in particular are politically contested in Guyana."
+      },
+      "received_lens": "contested",
+      "summary": "As British Guiana approached independence, the contest between Cheddi Jagan's mostly Indo-Guyanese PPP and Forbes Burnham's mostly Afro-Guyanese PNC — inflamed by CIA-funded strikes and destabilization — turned into communal slaughter: in May 1964 Afro-Guyanese crowds at Wismar attacked their Indian neighbours with arson, rape, and killing and drove some three thousand of them out, and that July a bomb sank the Son Chapman launch, killing forty-three Afro-Guyanese, in a year of tit-for-tat violence that left at least a hundred and ten Guyanese dead.",
+      "relevance": "Guyana's clearest perpetrator entry and a true dual-lens case: the same population that was enslaved and colonized turned on itself, with each of the country's two main peoples both author and victim of an atrocity (Wismar against Indians, Son Chapman against Africans) in a single bloodstained year.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"List of massacres in Guyana\" — Wikipedia (Wismar Massacre, 26 May 1964, ethnic violence between Afro- and Indo-Guyanese; Son Chapman bombing, 6 July 1964, 43 killed by a bomb placed on a Demerara River launch)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/List_of_massacres_in_Guyana",
+          "caveat": "AUDIT 2026-06-19: page verified directly — Wismar Massacre listed as 26 May 1964, 5 deaths; Son Chapman bombing 6 July 1964, 43 deaths. Note this source supports the Wismar/Son Chapman event tolls, NOT the country-wide toll.high (176), which is sourced from the 1964 GAWU-strike riot total / Freedom House bombing article instead."
+        },
+        {
+          "kind": "press",
+          "cite": "Pulitzer Center / Foreign Policy, \"Guyana: CIA Meddling, Race Riots and a Phantom Death Squad\" (Jul 2015) — the 1964 ethnic violence claimed 'nearly 200 lives' and made thousands refugees; ~$2.08 million in US covert-action spending in Guyana 1962-1968; CIA and AFL-CIO accused of inciting racially charged strikes and riots. Plus: the 1964 GAWU-strike ethnic riots, '176 killed and 920 injured', the firmly attested full-year figure (corroborated by Wikipedia 'Freedom House bombing': at least ~160 fatalities by late July 1964 excluding Son Chapman)",
+          "supports": "toll.high",
+          "url": "https://pulitzercenter.org/stories/guyana-cia-meddling-race-riots-and-phantom-death-squad",
+          "caveat": "AUDIT 2026-06-19 — CORRECTED CITATION. This source was previously cited as supporting 'toll.low = 110'; that was inaccurate — the article says 'nearly 200', not 110. The Pulitzer URL bot-blocks WebFetch (HTTP 403) but the story is confirmed to exist (search + the mirrored Foreign Policy original, also 403 to WebFetch but indexed). Re-tagged to toll.high. Notes the foreign (CIA/AFL-CIO) role in fomenting the violence, which complicates but does not erase Guyanese agency in the killings."
+        },
+        {
+          "kind": "press",
+          "cite": "Kaieteur News, \"Wismar 1964 was a blot on the nation\" (7 Aug 2022) and related Guyanese-press / India Empire coverage of the Wismar massacre and Son Chapman bombing (Wismar 20-26 May 1964: a number of Indians murdered, scores beaten, women and girls raped, 200+ houses/businesses destroyed, ~3,400 Indians expelled; Son Chapman 6 July 1964: 36-43 Africans dead including two children)",
+          "supports": "summary",
+          "url": "https://kaieteurnewsonline.com/2022/08/07/wismar-1964-was-a-blot-on-the-nation/",
+          "caveat": "AUDIT 2026-06-19 — CORRECTED. The Kaieteur article was verified directly and supports the arson/rape/expulsion narrative (200+ properties, ~3,400 Indians driven out), but it does NOT cite any researcher 'S. Pasha (2020)' — that attribution was removed as unverifiable/fabricated (genuine Wismar scholars are Dr. Yog Mahadeo and Prof. Baytoram Ramharack). The article gives Son Chapman as 36 dead while the Wikipedia massacres list and other Guyanese press give 43; both spans noted. Guyanese press, written within a society where the two ethnic communities contest these events; treated as contested. Perpetrators of the Son Chapman bombing were never conclusively identified at the inquest."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "guy-4",
+      "country": "GUY",
+      "role": "perpetrator",
+      "title": "The State Assassination of Walter Rodney",
+      "era": "1980",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "The Guyanese state, under Prime Minister Forbes Burnham, organized the killing of opposition historian and Working People's Alliance leader Walter Rodney by bomb — a deliberate, targeted political murder carried out by the state, which is POL; the toll is a single life but the act is paradigmatic state political killing.",
+      "agent": "The government of Prime Minister Forbes Burnham, acting through Guyana Defence Force sergeant Gregory Smith, who supplied Rodney the bomb that killed him",
+      "toll": {
+        "display": "1 killed (Walter Rodney)",
+        "disputed": false,
+        "low": 1,
+        "high": 1,
+        "unit": "deaths",
+        "note": "One death: Dr. Walter Rodney, killed on 13 June 1980 when a walkie-talkie given to him by GDF sergeant Gregory Smith exploded. A 2014-2016 Guyanese Commission of Inquiry concluded it was a state-organized assassination carried out with the knowledge of Prime Minister Forbes Burnham; in 2021 the National Assembly formally accepted the findings and Rodney's death certificate was changed from 'misadventure' to 'assassination.' Not disputed as to the single fatality; the COI findings represent the official Guyanese conclusion."
+      },
+      "received_lens": "memorial",
+      "summary": "On 13 June 1980 Walter Rodney — the historian of African underdevelopment and leader of the multiracial Working People's Alliance, the man Forbes Burnham's regime feared most — was killed when a device handed to him by a Guyana Defence Force sergeant exploded; a national Commission of Inquiry decades later found that the Guyanese state had organized his murder with Burnham's knowledge, and Guyana's parliament formally accepted that finding in 2021.",
+      "relevance": "The post-independence Guyanese state turned on its own most celebrated intellectual — the dual-lens sting that a country defined by being colonized and enslaved produced a government that assassinated the very scholar who wrote the history of that oppression.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "National Security Archive, \"The Walter Rodney Murder Mystery in Guyana 40 Years Later\" (June 2020) — 2016 Commission of Inquiry found a 'State organized assassination' with the knowledge of PM Forbes Burnham, physically carried out by GDF sergeant Gregory Smith acting as an agent of the state",
+          "supports": "summary",
+          "url": "https://nsarchive.gwu.edu/briefing-book/human-rights/2020-06-13/the-walter-rodney-murder-mystery-in-guyana-40-years-later",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Walter Rodney Commission of Inquiry Report (2016), as reported by the National Security Archive and Guyanese sources, and National Assembly Resolution No. 23 of 2021 accepting the findings and reclassifying the death as 'assassination'",
+          "supports": "tier",
+          "url": "https://nsarchive.gwu.edu/briefing-book/human-rights/2020-06-13/the-walter-rodney-murder-mystery-in-guyana-40-years-later",
+          "caveat": "AUDIT 2026-06-19: verified directly against the National Security Archive briefing — the 2016 COI found 'a State organized assassination with the knowledge of Prime Minister Burnham' and that 'Gregory Smith was responsible ... acting as an agent of the State'; National Assembly Resolution No. 23 (Aug 2021) adopted the findings. Same documentary basis as the summary source; the COI is a Guyanese state body and its conclusion is the official national finding."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

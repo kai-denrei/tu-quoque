@@ -1,0 +1,147 @@
+{
+  "iso": "SLB",
+  "name": "Solomon Islands",
+  "note": "Built from scratch. The ledgers are deliberately asymmetric in agency, and the asymmetry is real, not a research gap. The victim ledger rests on one dominant, well-documented event: the 19th- and early-20th-century 'blackbirding' labour trade, in which European recruiters and ships' crews — serving the sugar and cotton plantations of Queensland and Fiji — lured, coerced and kidnapped tens of thousands of Solomon Islanders, with a heavy death rate among those taken. The perpetrator ledger is filled by the country's own modern history: the 1998–2003 'Tensions,' an internal ethnic conflict on Guadalcanal in which Solomon Islander militias (the Guadalcanal-side Isatabu Freedom Movement and the Malaita Eagle Force) killed, tortured, raped and forcibly displaced other Solomon Islanders, and the Weather Coast killings led by Harold Keke's Guadalcanal Liberation Front. So the dual lens here is unusually clean: a people who were, in the colonial period, victims of an externally-driven trade in human beings became, in their own independent state, the authors of atrocity against one another along island and ethnic lines. The Japanese occupation and the 1942–43 Guadalcanal campaign devastated the islands physically, but reliable Solomon Islander civilian death counts for WWII could not be isolated from the military casualty record, so it is not given its own event rather than carry an invented toll. Tolls are sourced ranges where scholarship diverges; blackbirding's headline figure counts people TAKEN, not a clean death count, and that distinction is kept explicit.",
+  "events": [
+    {
+      "id": "slb-1",
+      "country": "SLB",
+      "role": "victim",
+      "title": "The blackbirding labour trade",
+      "era": "1870–1911",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "European recruiters and ships' crews moved tens of thousands of Solomon Islanders by deception, coercion and outright kidnapping into indentured plantation labour, where a large share died of disease and harsh conditions — a system whose mass death came from forced labour and exposure rather than a campaign to exterminate the islanders as a people, so it is tiered STR (structural/coercion-driven mass death) with the kidnapping and violence kept explicit.",
+      "agent": "European labour recruiters, ships' captains and crews ('blackbirders') serving the sugar and cotton plantations of Queensland (Australia) and Fiji",
+      "toll": {
+        "display": "~30,000 Solomon Islanders taken 1870–1910 (conservative contract analysis: ~16,000 individuals); of ~55,000–65,000 Melanesians taken to Queensland, ~15,000 (about a third) died",
+        "disputed": true,
+        "low": 15000,
+        "high": 30000,
+        "unit": "deaths",
+        "note": "UNIT CAVEAT: the headline figure counts PEOPLE TAKEN, not a clean Solomon-Islander death count. Britannica states about 30,000 labourers were recruited from the Solomon Islands between 1870 and 1910 for plantations in Queensland and Fiji; a more conservative scholarly reconstruction of the indenture records (ASSI/PJ) finds about 24,865 contracts and probably around 16,000 individual Solomon Islanders, with Malaitans dominant (≈9,186 Queensland contracts to 1903; ≈5,149 Fiji contracts to 1911). A separate, well-documented figure is mortality: of roughly 55,000–65,000 Pacific Islanders (overwhelmingly Melanesian, including Solomon Islanders) taken to Queensland between 1863 and 1904, about 15,000 — roughly a third — died there from disease and plantation conditions. The low (15,000) reflects that Queensland-wide Melanesian death count; the high (30,000) reflects the upper estimate of Solomon Islanders taken. A precise Solomon-Islander-only death count is not separable in the record, so this is a sourced bracket, not a single verified killing total. AUDIT (2026-06-19): both ends of the bracket re-confirmed against live sources — high (30,000 taken) corroborated by Britannica's history-of-Solomon-Islands page; low (15,000 deaths / ~30%) re-fetched from the Blackbirding Wikipedia article. The ASSI/PJ publisher and Clive Moore's authorship were verified genuine. Minor: the display's '55,000–65,000 to Queensland' upper bound sits slightly above the current source figure of 62,500; immaterial to the toll bracket."
+      },
+      "received_lens": "suppressed",
+      "summary": "From around 1870 into the early 1900s, European recruiters and ships' crews working for the sugar and cotton plantations of Queensland and Fiji lured, tricked and kidnapped tens of thousands of Solomon Islanders into indentured labour — a practice called blackbirding. People were seized from beaches and harbours, packed into ships' holds, and worked on distant plantations where about a third of the wider Melanesian intake died of disease and overwork. For a century the trade was remembered in Australia, where it survived at all, as 'recruitment' rather than the coerced traffic in people it largely was.",
+      "relevance": "In the colonial era the Solomon Islands were a source pool for a coerced trade in human beings driven from outside — the victim side of a people who, in their own independent state, would later become the perpetrators of atrocity against one another.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Encyclopaedia Britannica, 'Solomon Islands: History' — about 30,000 labourers recruited from the Solomon Islands between 1870 and 1910 for plantations in Fiji and Queensland under the practice known as blackbirding",
+          "supports": "toll.high",
+          "url": "https://www.britannica.com/place/history-of-Solomon-Islands",
+          "caveat": "Tertiary reference work; gives the upper 'people taken' estimate, not a death count. Accessed via search summary (page 403s to direct WebFetch); the ~30,000-recruited-1870–1910 figure was re-confirmed in audit (2026-06-19) against the Britannica history-of-Solomon-Islands page and is consistent with the scholarly record. URL corrected in audit to the live history-of-Solomon-Islands path."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Australian South Sea Islanders / Pacific Journeys, 'Solomon Islanders in Queensland (and Fiji), 1870–1906/1911' — ~24,865 contracts and probably ~16,000 individual Solomon Islanders; Malaitans dominant (≈9,186 Queensland, ≈5,149 Fiji contracts)",
+          "supports": "toll.high",
+          "url": "https://www.assipj.com.au/southsea/wp-content/uploads/docs/13_solomon_islands_labourers_in_qld.pdf",
+          "caveat": "Scholarly reconstruction from indenture records (ASSI-PJ, work associated with Emeritus Prof. Clive Moore, Univ. of Queensland), giving the more conservative individual-count and the contract breakdown; some individuals were re-indentured, so contracts exceed people. Audit (2026-06-19): the publishing body (Australian South Sea Islanders – Port Jackson) and Moore's authorship were independently verified real, and the corroborating ASSI figure (Solomon Islands ≈18,000 / just over one-quarter of the 1863–1904 ASSI intake; 62,475 Qld contracts overall) was confirmed; the specific Solomon-only 24,865-contracts / ~16,000-individuals figure lives in this PDF, which is a binary scan not extractable via WebFetch, so it could not be re-read verbatim in audit — source is genuine and consistent, but the exact internal number rests on the un-refetchable PDF."
+        },
+        {
+          "kind": "reference",
+          "cite": "Blackbirding — Wikipedia (≈55,000–65,000 Pacific Islanders, overwhelmingly Melanesian incl. Solomon Islanders, taken to Queensland 1863–1904; about 15,000 — ~30% — died; trade relied on coercion, deception and kidnapping)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Blackbirding",
+          "caveat": "Tertiary aggregator; the ~15,000 deaths is a Queensland-wide Melanesian figure (not Solomon-Islander-only) and is used here for the documented mortality of the intake, not as a Solomon-specific killing count. Audit (2026-06-19): re-fetched and confirmed — ~55,000–62,500 Pacific Islanders taken to Queensland 1863–1904, ~15,000 (~30%) died, coercion/deception/kidnapping explicit. The display's '55,000–65,000' upper bound runs slightly above the current article's 62,500; the load-bearing 15,000/~30% mortality figure is exact."
+        },
+        {
+          "kind": "press",
+          "cite": "RNZ News, 'Blackbirding: legacy of anger in Solomon Islands' (2019) — thousands of Solomon Islanders kidnapped and contracted to Australia; people seized from harbours and beaches; lasting trauma",
+          "supports": "summary",
+          "url": "https://www.rnz.co.nz/international/pacific-news/396351/blackbirding-legacy-of-anger-in-solomon-islands",
+          "caveat": "Press report quoting Solomon Islander scholar David Gegeo (Solomon Islands National University); corroborates the kidnapping/coercion character of the trade (young men seized, harbours 'cursed' after kidnappings, retaliatory killings) rather than supplying an independent toll. Audit (2026-06-19): article and Gegeo attribution re-fetched and confirmed real."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "slb-2",
+      "country": "SLB",
+      "role": "perpetrator",
+      "title": "The Tensions — ethnic conflict on Guadalcanal",
+      "era": "1998–2003",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Solomon Islander militias on both sides — the Guadalcanal-based Isatabu Freedom Movement and the Malaita Eagle Force — fought over land, jobs and political power on Guadalcanal, killing, torturing and raping civilians and forcibly evicting tens of thousands by ethnicity; tiered POL as organised internal political/ethnic violence well short of a campaign to exterminate a whole people.",
+      "agent": "Solomon Islander militias — the Isatabu Freedom Movement (Guadalcanal) and the Malaita Eagle Force — together with police elements drawn into the conflict",
+      "toll": {
+        "display": "over 100 killed (TRC documented; narratives cite ~200); ~20,000 displaced",
+        "disputed": true,
+        "low": 100,
+        "high": 200,
+        "unit": "deaths",
+        "note": "The Solomon Islands Truth and Reconciliation Commission, which collected 2,362 statements and held over 100 hearings, found that over 100 people were killed and more than 20,000 internally displaced; the wider TRC narrative and many summaries put the toll at 'over 200' once a fuller victim list is counted. The low (100) is the figure attached to the documented displacement statistic; the high (200) reflects the broader killed-count cited around the TRC's victim register. Beyond the dead, the conflict produced documented torture, rape and sexual abuse — undercounted, the Commission noted, because cultural taboo suppressed reporting — and the forced eviction of roughly 15,000–20,000 Malaitans from Guadalcanal. The dispute is one of documentation completeness, not of two rival scholarly estimates. AUDIT (2026-06-19): both ends re-confirmed — low (over 100 killed, 20,000+ displaced) verified against the TRC Wikipedia entry and the IFM/MEF displacement figures on GlobalSecurity ('nearly 23,000 fled,' 'up to 20,000 Malaitans repatriated'); high (200 killed) corroborated by multiple independent summaries (Participedia, USIP) which state the conflict 'killed over 200.' Tier POL independently re-derived and confirmed: organised internal ethnic/political violence, not extermination."
+      },
+      "received_lens": "contested",
+      "summary": "Between 1998 and 2003, long-running grievances over Malaitan settlement on Guadalcanal — land, jobs and political power — erupted into armed conflict. The Guadalcanal-side Isatabu Freedom Movement drove some 20,000 Malaitans from their homes by terror and checkpoints; the Malaita Eagle Force armed in response, seized weapons and forced a coup; both sides, and police drawn in with them, killed, tortured and raped. The state nearly collapsed before an Australian-led regional force intervened in 2003.",
+      "relevance": "Independent Solomon Islands turned its violence inward: islanders who shared a small nation killed and expelled one another along ethnic and island lines — the perpetrator face of a people who had themselves been trafficked in the colonial era.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "Solomon Islands Truth and Reconciliation Commission, Final Report (Vol. 1, 2012) — over 100 killed and 20,000+ displaced; 2,362 statements; documented killings, torture, rape and forced displacement by IFM and MEF militants and police",
+          "supports": "toll.low",
+          "url": "https://truthcommissions.humanities.mcmaster.ca/wp-content/uploads/2021/02/Solomon-Islands-Truth-and-Reconciliation-Commission_TRC_Final-Report_Vol1.pdf",
+          "caveat": "Official truth-commission report (the authoritative primary source); URL updated in audit (2026-06-19) to the live McMaster Truth Commissions archive copy of Vol. 1 (the earlier pacificpolicy.org link timed out). The PDF is a binary scan not text-extractable via WebFetch, so the figures were verified independently rather than re-read verbatim: the TRC Wikipedia entry confirms 'over 100 killed' and '20,000+ displaced,' and multiple independent summaries (Participedia, USIP) state the conflict 'killed over 200.' The 'over 100' and 'over 200' figures reflect documentation completeness, not rival estimates."
+        },
+        {
+          "kind": "reference",
+          "cite": "Truth and Reconciliation Commission (Solomon Islands) — Wikipedia (over 100 killed, 20,000+ internally displaced, 1997/1998–2003; victims could name groups but not individuals)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Truth_and_Reconciliation_Commission_(Solomon_Islands)",
+          "caveat": "Tertiary aggregator summarising the TRC Final Report; used to corroborate the 100-killed / 20,000-displaced figures. Audit (2026-06-19): re-fetched and confirmed — 'killed over 100 people' and 'more than 20,000 internal refugees nationwide.'"
+        },
+        {
+          "kind": "reference",
+          "cite": "GlobalSecurity.org / FAS, 'Malaita Eagles Force / Isatabu Freedom Movement' and Freedom House 'Freedom in the World 2003 — Solomon Islands' — IFM violence from Jan 1999 drove 15,000–20,000 Malaitans from Guadalcanal; numerous reports of torture and mistreatment by both militias and police",
+          "supports": "summary",
+          "url": "https://www.globalsecurity.org/military/world/para/solomons.htm",
+          "caveat": "Aggregator/defence reference reproducing contemporary reporting and Freedom House assessments; corroborates the displacement scale and the bilateral pattern of abuse. Audit (2026-06-19): re-fetched and confirmed for the IFM/MEF displacement claim — 'nearly 23,000 persons fled Guadalcanal' in 1999 and 'up to 20,000 Malaitan settlers... repatriated to Malaita by the Red Cross.' (This page covers the IFM/MEF conflict generally; it does NOT mention Harold Keke by name — see the slb-3 quarantine note where this same URL had been over-attributed.)"
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "slb-3",
+      "country": "SLB",
+      "role": "perpetrator",
+      "title": "The Weather Coast killings — Harold Keke and the Guadalcanal Liberation Front",
+      "era": "2002–2003",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Solomon Islander militia leader Harold Keke and his Guadalcanal Liberation Front murdered scores of people along Guadalcanal's Weather Coast — including a cabinet minister who was a Catholic priest and seven members of the (Anglican) Melanesian Brotherhood — in a campaign of assassination, abduction and terror against perceived enemies and informers; tiered POL as targeted political/terror killing rather than mass extermination. Tier independently re-derived in audit (2026-06-19): targeted assassination/terror of perceived enemies, well short of a campaign to exterminate a people — POL is correct, EXT would be wrong.",
+      "agent": "Harold Keke and his Guadalcanal Liberation Front (formerly Guadalcanal Revolutionary Army) militia, based on the Weather Coast of southern Guadalcanal",
+      "toll": {
+        "display": "50+ murders attributed to Keke, incl. cabinet minister/priest Augustine Geve and seven Melanesian Brotherhood members (2003)",
+        "disputed": true,
+        "low": 50,
+        "high": null,
+        "unit": "deaths",
+        "note": "QUARANTINE (audit 2026-06-19): event marked UNVERIFIED on two grounds — (1) a factual error in the record, now corrected: Father Augustine Geve was a CATHOLIC priest and politician (MP for South Guadalcanal, Minister for Youth, Women & Sports), NOT 'Anglican' as the record originally stated; the Anglican order in this event is the Melanesian Brotherhood, whose seven members were killed — the two were conflated. (2) source over-attribution: the GlobalSecurity.org citation below was attached to the claim about 'Keke's Weather Coast militants... campaign of killing and terror,' but on re-fetch that page does NOT mention Harold Keke at all (it covers the IFM/MEF conflict generally); it does not support the specific Keke claim it was cited for. The substantive killings ARE independently corroborated and are not in doubt: Keke personally implicated in 50+ murders (Wikipedia, re-fetched); convicted March 2005 of murdering cabinet minister and Catholic priest Augustine Geve (with co-accused Ronnie Cawa and Francis Lela) and sentenced to life imprisonment; and seven Melanesian Brotherhood members killed on the Weather Coast in April 2003 — Brother Nathaniel Sado tortured and killed first as a suspected government spy, then six more brothers who went to investigate killed on 24–25 April 2003 (multiple Anglican sources, re-fetched). The '50+' is a floor (Keke's personally implicated count); a precise total for all GLF killings is not established, so the high end is left null rather than invented. The toll and POL tier survive audit; the event is UNVERIFIED only because of the corrected denomination error and the one misattributed source."
+      },
+      "received_lens": "contested",
+      "summary": "On the remote Weather Coast of southern Guadalcanal, militia leader Harold Keke — who had refused the 2000 peace deal — ran a campaign of murder, abduction and arson against rivals, suspected informers and outsiders. His men killed cabinet minister and Catholic priest Augustine Geve in 2002 and, in 2003, tortured and killed a Melanesian Brotherhood member sent to mediate, then killed six more brothers who came to find him. Keke surrendered to the Australian-led intervention force in 2003 and was convicted of murder.",
+      "relevance": "The cruellest violence of the Tensions was Solomon Islander against Solomon Islander — a local warlord killing his own countrymen, including clergy who came in peace — underscoring that this small nation's worst atrocities in its independent era were self-inflicted.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Harold Keke — Wikipedia (implicated in 50+ murders on the Weather Coast; convicted 2005 of murdering cabinet minister/priest Augustine Geve, life sentence; GLF killed seven Melanesian Brotherhood members in 2003)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Harold_Keke",
+          "caveat": "Tertiary aggregator; the '50+' is the count of murders Keke was personally implicated in, not a verified total for all GLF killings, hence the null high end. Audit (2026-06-19): re-fetched and confirmed — 'personally implicated in more than 50 murders'; convicted 2005 of the Augustine Geve murder, life sentence; seven Melanesian Brotherhood members killed April 2003, Brother Nathaniel beaten to death as an accused government spy. Note the page uses 'Guadalcanal Revolutionary Army (GRA)'; the GLF name (used later for the same Keke faction) is corroborated in the broader literature and the seven-martyrs Anglican sources."
+        },
+        {
+          "kind": "reference",
+          "cite": "GlobalSecurity.org / FAS, 'Malaita Eagles Force / Isatabu Freedom Movement' — IFM/MEF conflict on Guadalcanal, several hundred fighters, weapons looted from police armouries and WWII dumps",
+          "supports": "summary",
+          "url": "https://www.globalsecurity.org/military/world/para/solomons.htm",
+          "caveat": "MISATTRIBUTED SOURCE (audit 2026-06-19): this citation had been attached to a Keke-specific 'campaign of killing and terror' claim, but on re-fetch the page does NOT mention Harold Keke or the Weather Coast killings at all — it covers the IFM/MEF conflict generally. Retained only as weak background to the wider militia conflict; it does NOT independently support this Weather Coast event. The substantive Keke/Geve/Melanesian-Brotherhood claims rest on the Harold Keke Wikipedia source and independent Anglican reporting (re-fetched), not on this page. One of the two grounds for the event's UNVERIFIED status."
+        }
+      ],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

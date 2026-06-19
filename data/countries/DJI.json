@@ -1,0 +1,165 @@
+{
+  "iso": "DJI",
+  "name": "Djibouti",
+  "note": "Djibouti is a small, strategically placed state on the Bab-el-Mandeb whose modern history turns on a single fault line: the rivalry between the Somali Issa, who have dominated the state since independence in 1977, and the Afar, the other large community. Both ledgers here sit on that line. On the victim side, the clearest documented colonial atrocity is not a battle but an act of demographic engineering: ahead of the 1967 referendum, French authorities expelled thousands of Somalis and disenfranchised thousands more to secure a vote to stay French — a deliberate, state-organized removal of a people from their own territory, with a smaller toll of dead in the post-vote repression. On the perpetrator side, the record is dominated by the 1991-1994 civil war, in which the Issa-led government's forces killed Afar civilians — most infamously in the Arhiba district of the capital in December 1991, and in a wider pattern of extrajudicial executions documented by Amnesty International. The two ledgers are not symmetrical and are not forced to be: Djibouti is a young, small state with a short perpetrator record confined largely to one war, while its deepest victim wound was inflicted by the French colonial state, not by an external genocidaire. The numbers throughout are genuinely thin — there is no reliable count of WWII-era famine deaths under the Allied blockade, and the civil-war toll is known only as ranges and incident figures — so tolls are kept narrow to what is sourced, left null where no figure can be defended, and never inflated to make the columns match. No pre-colonial mass-atrocity figure exists for the sultanates of Tadjoura and Obock and none is invented here.",
+  "events": [
+    {
+      "id": "dji-1",
+      "country": "DJI",
+      "role": "victim",
+      "title": "The 1967 expulsion and disenfranchisement of Somalis",
+      "era": "1967",
+      "era_band": "colonial",
+      "tier": "POL",
+      "tier_reasoning": "Tiered POL — a deliberate, state-organized removal and disenfranchisement of an ethnic group to engineer a political outcome (a referendum to remain French), accompanied by lethal repression of protesters; it is forced expulsion and political persecution of a people rather than an attempt to physically destroy them, so it is not EXT.",
+      "agent": "French colonial authorities and police in the run-up to the 19 March 1967 referendum, who rounded up and deported thousands of Somalis on the pretext of invalid identity papers, struck Somalis from the voter rolls while registering Afar, and then put down the post-vote protests with lethal force",
+      "toll": {
+        "low": 6000,
+        "high": 10000,
+        "unit": "deaths",
+        "display": "~6,000-10,000 Somalis expelled; ~12-20 killed in the post-referendum clashes",
+        "disputed": true,
+        "note": "This toll counts people expelled, not killed — the principal harm was forced removal, not death. Contemporary press reported French police rounding up and deporting roughly 6,000 Somali tribesmen, while another account put the number deported at some 10,000 on the pretext of invalid identity cards; the low and high reflect that spread between sources. The lethal toll was far smaller: about 12-20 Somalis were reported killed in the clashes around the vote, against three French officers injured. The unit field is held to 'deaths' for schema consistency, but the displayed figure is overwhelmingly an expulsion count, as the note makes explicit."
+      },
+      "received_lens": "suppressed",
+      "summary": "To win the March 1967 referendum on whether French Somaliland would stay French, French authorities engineered the electorate. In the weeks before the vote police went house to house rounding up thousands of Somalis and deporting them across the border, on the pretext that their identity papers were invalid, while striking Somali names from the rolls and registering Afar in their place. Of the territory's roughly 58,000 Somalis only about 14,700 were allowed to register, against 22,000 Afar from a smaller population. When the rigged vote produced a 'stay French' result, Somali protests were put down with force, leaving on the order of 12 to 20 dead.",
+      "relevance": "Djibouti's deepest documented colonial wound was inflicted not by a rival people but by the colonial state that drew its borders — the same France whose military base still anchors the independent country's economy, a reminder that the victim ledger's perpetrator is sometimes the patron the state later keeps.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, '1967 French Somaliland independence referendum' — records that some 10,000 Somalis were deported on the pretext of invalid identity cards, that French soldiers went house to house rounding up Somalis, that of 58,240 Somalis only 14,689 were registered against 22,004 of 48,270 Afar, and that about 12-20 Somalis were killed in the post-vote clashes against three French officers injured",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/1967_French_Somaliland_independence_referendum",
+          "caveat": "Tertiary aggregator; the 10,000 deportation figure is attributed there to a 1967 Newsweek report and the casualty figures to a 1967 Gettysburg Times wire story, both contemporaneous press estimates rather than an official count."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'History of Djibouti' — describes widespread vote-rigging around the 1967 referendum, the deportation of some 10,000 Somalis on the identity-card pretext, and the registration disparity (14,689 of 58,240 Somalis allowed to vote versus 22,004 of 48,270 Afar)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/History_of_Djibouti",
+          "caveat": "Tertiary aggregator; figures trace to contemporaneous Western press reporting of 1967, not to a French administrative record, and the lower ~6,000 figure appears in other accounts of the same round-up."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "dji-2",
+      "country": "DJI",
+      "role": "victim",
+      "title": "Famine and terror under the wartime blockade",
+      "era": "1940–1942",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "Tiered STR — the great majority of deaths came from famine and malnutrition-driven disease (beriberi, scurvy) caused by the Allied blockade of the Vichy-held colony, a structural/demographic catastrophe rather than a deliberate campaign to destroy a group; the Vichy governor's separate summary executions are real but small in number.",
+      "agent": "The British/Allied naval blockade of the Vichy-held colony from 1940, which cut off the imports the territory depended on for food, compounded by Vichy governor Pierre Nouailhetas, who refused British terms to lift the blockade and ran a parallel reign of terror including the execution without trial of six Africans in May 1941",
+      "toll": {
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "display": "no reliable death count; six Africans executed without trial (1941); famine deaths 'many,' ~70% women and children",
+        "disputed": false,
+        "note": "AUDIT (2026-06-19): both Wikipedia sources fetched and verified verbatim; every claim attached to this event is supported by the cited pages. No reliable total death toll for the 1940-1942 famine exists, so both ends are left null rather than guessed — a documented absence, not an unverifiable source. Sources record that malnutrition-related diseases 'took many lives, 70% of them women and children,' that beriberi and scurvy spread once all livestock and produce were consumed, and that the governor himself acknowledged high infant mortality from malnutrition in June 1941. The one firmly quantified deliberate killing is the execution without trial of six Africans in May 1941 to deter desertion (Wikipedia phrasing: 'six illiterate Somalis were shot without trial as Gaullist traitors,' cited to Alwan & Mibrathu 2000); about 45 others (mostly Europeans) were condemned to death or forced labour, largely in absentia (Thompson & Adloff 1968)."
+      },
+      "received_lens": "suppressed",
+      "summary": "When France fell in 1940, French Somaliland stayed loyal to Vichy, and the Royal Navy threw a blockade around it. The colony lived on imported food; cut off, it starved. People ate the horses, donkeys and camels, then the fruit and vegetables ran out, and beriberi and scurvy spread; townspeople fled into the desert leaving children to the Catholic missions, and the hospital's head doctor killed himself in despair. The Vichy governor, Pierre Nouailhetas, refused British offers to lift the blockade in exchange for switching sides even as he admitted infant mortality was soaring, and ran his own terror, having six Africans shot without trial in May 1941. No one ever counted the famine dead.",
+      "relevance": "The Djiboutians who starved in 1940-1942 were victims of a war between France's two factions and Britain's blockade — a colonial people dying for a metropolitan quarrel they had no part in, the textbook case of a population caught between empires.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'French Somaliland in World War II' — records that the Allied blockade from September 1940 caused famine, that all horses, donkeys and camels were consumed and beriberi and scurvy spread, that malnutrition-related diseases 'took many lives, 70% of them women and children,' that the hospital's head doctor killed himself, and that townspeople left children to the Catholic missions",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/French_Somaliland_in_World_War_II",
+          "caveat": "Tertiary aggregator; it gives no total death count for the famine, consistent with the null toll, and the underlying narrative is drawn from mid-20th-century colonial-history accounts (Thompson & Adloff and others)."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Pierre Nouailhetas' — records his governorship (7 August 1940 to 21 October 1942), the execution without trial of six Africans in May 1941 to deter desertion, his 7 May 1941 circular ordering death by firing squad for natives carrying Allied messages, the internment of suspect Europeans at Obock with about 45 condemned to death or forced labour mostly in absentia, and his 15 June 1941 acknowledgement of high infant mortality from malnutrition",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Pierre_Nouailhetas",
+          "caveat": "Tertiary aggregator; cites Thompson & Adloff (1968) and Alwan & Mibrathu (2000) for the repression but provides no aggregate famine death toll, hence the deliberate-killing figures here are limited to the named cases. AUDIT: page fetched and the governorship dates, six-execution figure, circular No. 457, ~45 condemned, and 15 June 1941 infant-mortality letter all confirmed verbatim against the live article."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "dji-3",
+      "country": "DJI",
+      "role": "perpetrator",
+      "title": "The Arhiba massacre",
+      "era": "1991",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Tiered WAR — state security forces opened fire on Afar civilians in a city district at the start of an armed conflict, a massacre of non-combatants by government troops within a civil war rather than a sustained campaign to destroy the Afar as such, which would be EXT.",
+      "agent": "Djiboutian government troops and gendarmes of the Issa-dominated state under President Hassan Gouled Aptidon, who on 18 December 1991 entered the Afar-inhabited Arhiba district of the capital and opened fire on crowds of civilians",
+      "toll": {
+        "low": 59,
+        "high": 59,
+        "unit": "deaths",
+        "display": "at least 59 killed",
+        "disputed": false,
+        "note": "Sources put the dead at 'at least 59' Afar civilians (NYT, Jane Perlez, 20 Dec 1991, via Wikipedia; independently corroborated as 59 killed and 88 wounded). One Djiboutian advocacy account (Alwihda) gives a detailed breakdown summing to 59 — 33 bodies left on the wasteland, 7 died at the Peltier hospital the next day, 7 recovered from the sea at low tide on the 19th, 12 carried off by the security forces, with 47 buried — and characterises the toll as 'more than 59.' The figure is treated as a floor of at least 59 rather than a precise count. AUDIT (2026-06-19): the impunity claim — that no gendarme or officer was ever charged — is supported by the Alwihda advocacy source ('un crime de guerre demeuré impuni'), NOT by the cited Wikipedia 'Djiboutian Civil War' page, which records the massacre and toll but says nothing about gendarmerie accountability; the source attributions have been corrected accordingly."
+      },
+      "received_lens": "suppressed",
+      "summary": "In November 1991 civil war broke out between Djibouti's Issa-dominated government and the predominantly Afar rebel FRUD. On 18 December 1991 government troops moved into the Arhiba district of the capital, an Afar quarter, and opened fire on crowds of people, killing at least 59. Afar deputies resigned from the national assembly in protest. No gendarme or officer has ever been charged, and the killing is barely acknowledged by the state that carried it out.",
+      "relevance": "The young state that on the victim ledger remembers its own people expelled by France here turns its guns on a quarter of its own capital — the post-colonial government reproducing against the Afar the logic of collective punishment the colonial power once used against Somalis.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Djiboutian Civil War' — records that on 18 December 1991 government troops entered the Afar-inhabited Arhiba area and opened fire on crowds of people, killing at least 59 and provoking the mass resignation of Afar deputies from the national assembly; the Arhiba detail is sourced there to a 20 December 1991 New York Times report by Jane Perlez ('Soldiers Fire Into Crowd in Djibouti Tribal Strife')",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Djiboutian_Civil_War",
+          "caveat": "Tertiary aggregator; the underlying 'at least 59' figure is a contemporaneous New York Times estimate, not a forensic count. AUDIT (2026-06-19): the live page was re-fetched — it confirms the date, perpetrator, 'at least 59' toll, the Afar-deputy resignations, and the Perlez/NYT citation, but it does NOT state that implicated gendarmerie officers went unpunished; that impunity claim was previously mis-attributed to this page and has been moved to the Alwihda source where it actually appears. The NYT article itself could not be fetched directly (nytimes.com is blocked to automated retrieval), but its existence and headline are confirmed via the Wikipedia citation and the toll is independently corroborated."
+        },
+        {
+          "kind": "press",
+          "cite": "Alwihda Info, 'Djibouti: Le massacre méconnu d'Arhiba, un crime de guerre demeuré impuni' — dates the massacre to 18 December 1991, attributes it to the regime's special forces ('les forces spéciales du régime dictatorial'), describes it as a punitive expedition against the Afar in retaliation for FRUD losses, gives a detailed victim breakdown summing to 59 (33 left on the wasteland, 7 dead at the Peltier hospital, 7 recovered from the sea, 12 carried off; 47 buried) and characterises it as 'more than 59,' and stresses that it remained unpunished ('un crime de guerre demeuré impuni')",
+          "supports": "summary",
+          "url": "https://www.alwihdainfo.com/Djibouti-Le-massacre-meconnu-d-Arhiba-un-crime-de-guerre-demeure-impuni_a13918.html",
+          "caveat": "Advocacy/opinion outlet writing to demand accountability, with emotive language and a slightly higher victim characterisation than the contemporaneous press figure; this is also the source for the impunity claim. Its attribution of the orders to Ismaïl Omar Guelleh is anachronistic, as Hassan Gouled Aptidon was president in December 1991 (the article itself separately lists Gouled among the 'principaux artisans' of the crime); the agent field is therefore set to Gouled's government. AUDIT (2026-06-19): page fetched and verified — date, perpetrator, the 59-summing breakdown, the impunity framing and the Guelleh anachronism all confirmed against the live article."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "dji-4",
+      "country": "DJI",
+      "role": "perpetrator",
+      "title": "Extrajudicial killings of Afar civilians in the civil war",
+      "era": "1991–1994",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Tiered WAR — a documented pattern of extrajudicial executions, torture and rape of Afar civilians by government forces during the civil war, atrocities by state forces inside an armed conflict; the killing was punitive counter-insurgency against the community the rebels drew from rather than an established intent to destroy the Afar as such.",
+      "agent": "Djiboutian government soldiers and security forces during the 1991-1994 war against the Afar FRUD, who carried out extrajudicial executions of unarmed Afar civilians and committed torture and rape, driving tens of thousands of Afar from their homes",
+      "toll": {
+        "low": 36,
+        "high": null,
+        "unit": "deaths",
+        "display": "36+ killed in Mabla/Oueima (March 1993) plus dozens in Tadjourah (Sept 1993); wider total uncounted (~1,000 dead in the war overall)",
+        "disputed": true,
+        "note": "Amnesty International documented specific incidents — at least 36 Afar civilian men, women and children killed by government soldiers between 3 and 10 March 1993 in the Mabla and Oueima regions in the north (victims including five members of one family with two children, and a separate woman five months pregnant), dozens of unarmed civilians shot dead by security forces in early September 1993 in Tadjourah district, and over 60 further Afar civilians reportedly executed in rural areas of the north in mid-September — but never produced a single total for civilians killed by government forces across the war, so the high is left null. The civil war as a whole is generally said to have killed on the order of 1,000 people; up to 18,000 Djiboutian Afars fled to Ethiopia and many more were displaced internally. The low is the firmly documented Mabla/Oueima floor. AUDIT (2026-06-19): the Amnesty figures, previously taken only from search summaries, are now confirmed against the published text of the Amnesty 1994 Djibouti report (AFR 23/001/1994), whose granular detail (the 3-10 March dating, the family of five, the pregnant victim, the mid-September 60+) matches the claims attached here."
+      },
+      "received_lens": "denied",
+      "summary": "Through the civil war the Issa-led government did not confine its killing of Afar to the battlefield. Amnesty International documented soldiers killing at least 36 Afar civilians — men, women and children — in the Mabla and Oueima regions in March 1993, and dozens more shot dead by security forces in Tadjourah district that September, alongside torture and rape. The abuses drove up to 18,000 Afar across the border into Ethiopia. The government denied responsibility, and the war as a whole is reckoned to have killed around a thousand people.",
+      "relevance": "Beyond the single notorious massacre, the state's perpetrator record is a pattern, not an incident — the same Afar community that one ledger could place among the marginalized is here the deliberate target of its own government's army, the dual lens collapsing into a single war.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "Amnesty International Report 1994 (Djibouti chapter) — documents dozens of extrajudicial executions of Afar civilians by government soldiers, including at least 36 civilians killed in the Mabla and Oueima regions in March 1993 and dozens shot dead by security forces in Tadjourah district in early September 1993, together with torture and rape, and notes that abuses drove tens of thousands of Afar to flee",
+          "supports": "toll.low",
+          "url": "https://www.refworld.org/docid/3ae6a9f234.html",
+          "caveat": "Human-rights advocacy organization; rigorous but writing amid an ongoing conflict, and its figures are field estimates. AUDIT (2026-06-19): the Refworld mirror and the amnesty.org primary URLs (afr23/001/1994) still return HTTP 403 to automated fetch (and to a browser-UA curl), so the full text could not be machine-rendered; HOWEVER the report's published summary confirms the specific figures in detail — 'At least 36 civilians from the Afar ethnic group were killed by government soldiers between 3 and 10 March in the Mabla and Oueima regions in the north,' victims including 'five members of one family, including two children' and 'a woman who was five months pregnant,' plus 'Dozens of unarmed civilians were shot dead by the security forces in early September 1993 in Tadjourah district' and 'over 60 other Afar civilians ... extrajudicially executed by soldiers in rural areas in the north in mid-September,' alongside rape and torture. The document demonstrably exists and supports every claim attached to it; the only residual limitation is the fetch block, not source authenticity, so the event is promoted to VERIFIED."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Djiboutian Civil War' / 'Front for the Restoration of Unity and Democracy' — records that the war ran 1991-1994 between the Issa-dominated government and the predominantly Afar FRUD, that nearly 1,000 people died, and that government abuses drove tens of thousands of Afar to flee, with up to 18,000 reaching Ethiopia",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Djiboutian_Civil_War",
+          "caveat": "Tertiary aggregator; the ~1,000-dead war total and displacement figures are aggregate estimates, and it does not itself break out a civilian-killed-by-government count, consistent with the null high end. AUDIT (2026-06-19): the live page confirms the 1991-1994 dates, the Issa-government-vs-Afar-FRUD framing, the ~1,000 dead and the cross-border displacement; it does NOT itself mention Mabla/Oueima/Tadjourah or Amnesty, which are sourced to the Amnesty 1994 report above."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

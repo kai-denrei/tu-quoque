@@ -1,0 +1,154 @@
+{
+  "iso": "NCL",
+  "name": "New Caledonia",
+  "note": "Built from scratch. New Caledonia (Kanaky) has never been a sovereign state — annexed by France in 1853, run as a settler-and-penal colony, and to this day a French overseas territory — so its ledgers carry a deliberate, real asymmetry that mirrors Fiji's. The victim ledger holds the two deepest mass-death events on Caledonian soil: the demographic collapse of the indigenous Kanak from roughly 60,000 at colonisation to about 27,000 by 1921 (STR — introduced disease compounded by dispossession, reservations and the forced-labour indigénat), and the bloody French suppression of the 1878 Kanak revolt led by the chief Ataï. The agent in both is the FRENCH state and its settlers, not a Caledonian state — but the suffering was Kanak, so these belong here. The perpetrator ledger is genuinely thin and that is not an oversight: the colony's largest engines of death — the conquest itself, the penal-colony regime, the indigénat, and the 1917 repression — were authored by metropolitan France and belong in France's ledger, not New Caledonia's. The one well-documented mass killing committed by New Caledonia's OWN society against its own people is the 1984 Hienghène (Wan'yaat) massacre, in which Caldoche (European-settler) farmers ambushed and shot dead ten Kanak independence activists and were then acquitted by a Nouméa court — settler-on-Kanak atrocity, judicially excused within the territory. Pre-colonial inter-tribal Kanak warfare and ritual cannibalism are real but have no defensible death toll and are recorded only as a null-toll UNVERIFIED note rather than fabricated into a number. The 1988 Ouvéa cave assault (19 Kanak and 4 gendarmes dead) was a French military operation against Kanak hostage-takers and belongs in France's ledger; it is summarised here for context, not given an event. No event, toll, or source has been invented to balance the two sides.",
+  "events": [
+    {
+      "id": "ncl-1",
+      "country": "NCL",
+      "role": "victim",
+      "title": "The collapse of the Kanak population under French colonisation",
+      "era": "1853–1921",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "Introduced epidemic disease tore through a population with no prior exposure, compounded by land dispossession, confinement to barren reservations and the forced-labour indigénat — a structural, disease-driven demographic collapse (STR), not a deliberate campaign to exterminate the Kanak as a people.",
+      "agent": "The French colonial state and settlers, who introduced smallpox, measles and other epidemics, dispossessed Kanak of their land, confined them to reservations on poor ground, and from 1887 imposed the forced-labour indigénat regime that worsened mortality",
+      "toll": {
+        "display": "indigenous population fell from roughly 60,000 at colonisation to about 27,000–27,100 by 1921 (a decline of roughly 30,000+)",
+        "disputed": true,
+        "low": 27000,
+        "high": 33000,
+        "unit": "deaths",
+        "note": "AUDIT (2026-06-19): all three sources for this event were independently verified and SUPPORT their attached claims — en.wikipedia.org/wiki/New_Caledonia confirms 'declined from around 60,000 in 1878 to 27,100 in 1921, and their numbers did not increase again until the 1930s' with smallpox/measles and confinement to reservations as causes; en.wikipedia.org/wiki/1878_Kanak_revolt confirms the census series '42,519 (1887)… 27,768 (1901)'; iwgia.org confirms the 1887–1946 Code de l'indigénat with reservations and restricted movement. The event remains UNVERIFIED NOT because any source is fake but because the toll is a population-DECLINE figure, not a clean death count. The implied net loss (~30,000+) conflates excess deaths from epidemics, the killings and deportations of the 1878 and 1917 revolts, depressed birth rates, alcohol, and dispossession; it is not a tally of bodies and cannot be cleanly attributed as 'deaths'. The low/high bracket the size of the net decline conservatively (the gap between the ~60,000 baseline and the ~27,000 low point, against the narrower 1887–1901 census drop), and it is flagged disputed because both the contact-era baseline (estimates range from ~42,000 up to ~70,000 or more) and the attribution of the loss are genuinely uncertain. Quarantined as a sourced-but-unattributable demographic-collapse figure, not a verified death toll."
+      },
+      "received_lens": "memorial",
+      "summary": "After France annexed New Caledonia in 1853 and built a settler-and-penal colony on Kanak land, introduced diseases the islanders had never met — smallpox, measles, influenza — swept through them, while the survivors were pushed off fertile land onto barren reservations and, from 1887, bound by the forced-labour indigénat code. The indigenous population fell from roughly 60,000 to a low of about 27,000 by 1921 before slowly recovering. It was the deepest sustained mass death in Caledonian history, and a population that did not begin to grow again until the 1930s.",
+      "relevance": "The Kanak appear here at their most defenceless — a people hollowed out by germs, dispossession and colonial law they did not choose — yet pre-colonial Kanak society had its own record of inter-tribal killing, and a Caledonian settler society would later commit the massacre recorded in the other ledger.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "New Caledonia — Wikipedia: Kanak population ~60,000 at colonisation falling to a low of 27,100 in 1921 (not increasing again until the 1930s), driven by introduced smallpox and measles and by exclusion from the economy and confinement to reservations",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/New_Caledonia",
+          "caveat": "Tertiary aggregator; the 60,000 baseline and 27,100 low point are widely repeated estimates resting on colonial-era censuses and reconstructions, not exact counts."
+        },
+        {
+          "kind": "reference",
+          "cite": "1878 Kanak revolt — Wikipedia: Melanesian population recorded at 42,519 in 1887 falling to 27,768 by 1901; pre-revolt population estimated at 40,000–45,000 in 1877",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/1878_Kanak_revolt",
+          "caveat": "Tertiary aggregator citing colonial census figures; the 1887–1901 drop is the best-documented stretch and anchors the conservative low bound, but the censuses themselves are imperfect."
+        },
+        {
+          "kind": "reference",
+          "cite": "IWGIA, 'Kanaky / New Caledonia' country profile — the 1887 Code de l'indigénat established reservations, restricted Kanak movement, imposed forced labour and a 1900 tax compelling work off the reservations, in force until 1946",
+          "supports": "summary",
+          "url": "https://iwgia.org/en/kanaky-new-caledonia",
+          "caveat": "Advocacy organisation for indigenous rights; cited for the documented structure of the indigénat regime, not for population numbers."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "ncl-2",
+      "country": "NCL",
+      "role": "victim",
+      "title": "French suppression of the 1878 Kanak revolt (Ataï's war)",
+      "era": "1878",
+      "era_band": "colonial",
+      "tier": "POL",
+      "tier_reasoning": "France crushed an anti-colonial uprising with deliberately punitive force — mass killing of insurgents and non-combatants, summary executions of chiefs, the decapitation of Ataï and the deportation of whole communities — state violence to break a subject people's resistance (POL), bleeding into open warfare (WAR) given the months of guerrilla fighting.",
+      "agent": "The French colonial army and administration under commander Henri Rivière, with armed settlers and Kanak auxiliaries from rival tribes, who suppressed the revolt led by the high chief Ataï of La Foa",
+      "toll": {
+        "display": "about 1,200 dead overall — roughly 200 Europeans and 800–1,600 Kanak killed — plus 1,000–1,500 Kanak deported",
+        "disputed": true,
+        "low": 800,
+        "high": 1600,
+        "unit": "deaths",
+        "note": "AUDIT (2026-06-19): toll.low corrected from 600 to 800. The lowest documented figure for Kanak KILLED is 800 (en.wikipedia.org and fr.wikipedia.org both give the range as 800–1,600 Kanak dead; total operation ~1,200 incl. ~200 Europeans). The 600 figure that circulates refers to the deportees sent to the Isle of Pines (one of the deportation destinations), not to the dead, and was previously misattributed. The MR Online source originally cited as supporting a 600 low does NOT state 600 — it states 'almost 5% of Melanesians were killed (around 2,000 people)', i.e. an upper-end figure; its citation has been corrected to reflect what it actually says. Figures are for Kanak dead, the focus of this victim event. A further 1,000–1,500 Kanak were deported to the Isle of Pines, Lifou, Bélep, Tahiti and Obock. The low/high bracket the divergent documented Kanak death estimates (800–1,600); the wide range reflects genuinely poor colonial record-keeping of indigenous casualties. The European toll (~200) is more firmly attested than the Kanak toll. Event marked UNVERIFIED at audit because the original toll.low source was misattributed; with the low corrected to the sourced 800 and the MR Online cite fixed, the toll range is now sourced at both ends, but the wide Kanak range remains genuinely unsettled."
+      },
+      "received_lens": "memorial",
+      "summary": "Driven off their land onto reservations and barred from free movement, the central Kanak tribes rose in June 1878 under the high chief Ataï of La Foa, killing around 200 settlers and gendarmes in the colony's bloodiest anti-colonial revolt. France answered with months of punitive war: commander Henri Rivière's troops, aided by armed settlers and Kanak auxiliaries from rival tribes, killed somewhere between 600 and 1,600 Kanak, executed chiefs without trial, and deported a thousand or more survivors. Ataï was betrayed and beheaded, and his head shipped to Paris as a trophy — not returned to New Caledonia until 2014.",
+      "relevance": "Ataï's revolt is the Kanak as victims of a colonial reprisal of staggering disproportion — yet the very fact that rival Kanak tribes fought alongside the French to hunt him down points back to the pre-colonial inter-Kanak warfare noted in the other ledger.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "1878 Kanak revolt — Wikipedia: total operation ~1,200 deaths including ~200 Europeans and 800–1,600 Kanaks; 1,000–1,500 Kanak deported; repression led by commander Henri Rivière after Gally-Passebosc's death; Ataï decapitated",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/1878_Kanak_revolt",
+          "caveat": "Tertiary aggregator with an internally wide Kanak casualty range (800–1,600), reflecting the underlying uncertainty in colonial records rather than a settled figure."
+        },
+        {
+          "kind": "press",
+          "cite": "Artnet News, 'France Returns New Caledonian Rebel Chief's Skull' — Ataï led the 1878 revolt, was decapitated and his head sent to Paris, where it remained until its 2014 return; the revolt killed ~200 colonists and a far larger number of Kanak",
+          "supports": "summary",
+          "url": "https://news.artnet.com/art-world/france-returns-new-caldonian-rebel-chiefs-skull-89168",
+          "caveat": "Art-press feature focused on the repatriation of the skull; reliable on the narrative of Ataï's death and the trophy head, less so on precise casualty counts."
+        },
+        {
+          "kind": "reference",
+          "cite": "Grande révolte kanak de 1878 — Wikipédia (FR): 'environ 1 200 morts, soit 200 européens et 800 à 1 600 kanaks'; '1000 à 1500 Kanaks sont déportés dans les îles proches' (Île des Pins ~600, Bélep ~200, Lifou, then Tahiti and Obock) — anchors the documented lower bound of 800 Kanak killed",
+          "supports": "toll.low",
+          "url": "https://fr.wikipedia.org/wiki/Grande_r%C3%A9volte_kanak_de_1878",
+          "caveat": "Tertiary aggregator; corroborates the English Wikipedia 800–1,600 Kanak range. The 800 low is itself a colonial-record reconstruction, not a body count. Note: the 600 sometimes seen is the Isle-of-Pines DEPORTEE count, not the dead."
+        },
+        {
+          "kind": "press",
+          "cite": "MR Online / Black Agenda Report, 'New Caledonia: Kanak revolt against French colonialism' — 1878 revolt under Ataï in response to land dispossession; ~200 gendarmes and colonists killed; 'almost 5% of Melanesians were killed (around 2,000 people)'",
+          "supports": "toll.high",
+          "url": "https://mronline.org/2024/05/24/new-caledonia/",
+          "caveat": "Explicitly anti-colonial left political outlet sympathetic to Kanak independence. AUDIT (2026-06-19): this source does NOT support a 600 low — verified it states ~2,000 Kanak killed (5% of the population), an UPPER-end figure; the original citation misattributed a 600 figure and 1,500-exiled detail to it. Cite and 'supports' corrected to match the article; the pro-Kanak bias toward emphasising colonial violence is noted."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "ncl-3",
+      "country": "NCL",
+      "role": "perpetrator",
+      "title": "The Hienghène (Wan'yaat) massacre of Kanak activists",
+      "era": "1984",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "Armed members of New Caledonia's European-settler (Caldoche) society ambushed and shot dead ten unarmed Kanak independence activists for their politics — a targeted political killing (POL) by one part of the territory's own population against another — not an act of war or genocide.",
+      "agent": "Caldoche (European-settler) farmers of the Hienghène valley, members of the Lapetite and Mitride families, anti-independence loyalists who ambushed the Kanak activists",
+      "toll": {
+        "display": "10 Kanak independence activists killed (plus 5 wounded)",
+        "disputed": false,
+        "low": 10,
+        "high": 10,
+        "unit": "deaths",
+        "note": "The death toll is firmly established and not contested: ten Kanak men killed in the 5 December 1984 ambush at Wan'yaat, near Hienghène, with five wounded and three unhurt survivors out of a group returning from an FLNKS independence-coalition meeting. Among the dead were two brothers of the independence leader Jean-Marie Tjibaou, Louis 'Loulou' and Tarcisse Tjibaou."
+      },
+      "received_lens": "contested",
+      "summary": "On 5 December 1984, a group of Kanak independence activists was driving home to the village of Tiendanite after a meeting of the pro-independence FLNKS when European-settler farmers — members of the Lapetite and Mitride families, opposed to Kanak independence — ambushed them at Wan'yaat near Hienghène and shot ten of them dead, two of them brothers of the independence leader Jean-Marie Tjibaou. In 1987 a Nouméa court acquitted the accused settlers on the grounds of legitimate self-defence, prompting Tjibaou's bitter remark that in New Caledonia one could 'gun down Kanak people like dogs' with no justice.",
+      "relevance": "Here the people of New Caledonia appear as perpetrators against their own — the territory's settler society killing Kanak for their politics and then being excused by the territory's courts — the necessary counter to the Kanak-as-victim events in the other ledger.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "Inside Story, 'Thirty years on, a spirit of reconciliation in New Caledonia' — the December 1984 Wan'yaat/Hienghène ambush killed ten Kanak (five wounded, three survivors) returning from an FLNKS meeting; perpetrators were members of the Lapetite and Mitride settler families; two of the dead were brothers of Jean-Marie Tjibaou",
+          "supports": "toll.high",
+          "url": "https://insidestory.org.au/thirty-years-on-a-spirit-of-reconciliation-in-new-caledonia/",
+          "caveat": "Australian current-affairs outlet; reliable on the toll and identities, written from a reconciliation-sympathetic perspective."
+        },
+        {
+          "kind": "press",
+          "cite": "The Washington Post, 'Killing of 10 Natives Roils Caledonia Talks' (7 December 1984) — contemporaneous report of ten Melanesians shot dead near Hienghène by anti-independence European settlers amid the independence crisis",
+          "supports": "toll.low",
+          "url": "https://www.washingtonpost.com/archive/politics/1984/12/07/killing-of-10-natives-roils-caledonia-talks/9ce56c90-989d-4eda-bd42-3fca971628f9/",
+          "caveat": "Contemporaneous major-newspaper report; corroborates the toll of ten at the time of the killing, before the trial."
+        },
+        {
+          "kind": "press",
+          "cite": "présencekanak.com, 'L'embuscade du 5 décembre 1984 à Wan'Yaat, dans la vallée de Hyehen (Hienghène)' — names the seven accused (Maurice Mitride, Robert Sineimené, Raoul Lapetite and his four sons Jacques, Jean-Claude, Jess and José) and states they were acquitted on grounds of 'légitime défense préventive' and never convicted ('Par deux fois, la justice française va les innocenter')",
+          "supports": "summary",
+          "url": "https://presencekanak.com/2022/07/20/wanyaat-le-5-decembre-1984/",
+          "caveat": "Kanak-perspective history site sympathetic to independence; corroborated on the acquittal verdict and self-defence grounds by Encyclopædia Universalis ('29 octobre 1987 — Acquittement des auteurs de la fusillade de Hienghène') and France Télévisions. AUDIT (2026-06-19): this citation REPLACES a fabricated Red Pepper citation — the Red Pepper 'Kanaky Rising' timeline was verified to mention only 'French settlers kill ten Kanaks in the Hienghène massacre of December 1984' and contains NO reference to the seven accused, the 29 October 1987 acquittal, or self-defence grounds; those details were falsely attributed to it."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

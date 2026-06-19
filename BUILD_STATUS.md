@@ -106,8 +106,10 @@ batches (5h window was at 53% when starting), most-populous first. Script (reusa
 - ☑ **Batch 3** `wf_4c87dede-f48` (AGO POL UZB MYS PER GHA SAU MOZ CIV NPL CMR VEN AUS PRK NER) · ☑ **Batch 4** `wf_c97c958a-93e` (MLI SYR BFA LKA MWI ZMB KAZ CHL TCD ROU SOM GTM SEN ECU NLD).
 - ☑ **Batch 5** (ZWE…PRT) · ☑ **Batch 6** `wf_d50b5794-1f3` (SWE ARE GRC TJK PNG AZE HUN TGO BLR AUT CHE SLE LAO TKM LBY) · ☑ **Batch 7** `wf_8edd014d-9a0` (KGZ PRY NIC SRB BGR SLV COG DNK LBN FIN LBR SVK IRL NZL CAF).
 - **PROGRESS: 117 / 165 done (batches 1–7). 48 remaining.** 443 events, 1,185 sources, 0 invalid. Status: 53 VERIFIED, 64 UNVERIFIED.
-- ☑ Batches 8 (CRI…LTU) + 9 (JAM…EST) done. **PROGRESS: 147 / 165. 18 remaining (final batch queued in the script).** 546 events, 1,442 sources. 70 VERIFIED, 77 UNVERIFIED.
-- ⏳ FINAL batch (18: TTO CYP SWZ DJI FJI GUY SLB BTN LUX SUR MNE BRN BLZ BHS ISL VUT NCL GRL) launches when 5h ≤ ~50% (now 79%, cooldown). Then 165/165 = COMPLETE.
+- ✅ **CAMPAIGN COMPLETE: 165 / 165 countries researched.** 605 events, 1,587 sources, 0 invalid JSON.
+      Country status: 80 VERIFIED, 85 UNVERIFIED. Event status: 480 VERIFIED, 125 UNVERIFIED (held, not fabricated — law 6).
+      Note: VUT (Vanuatu) is victim-only — no documented perpetrator atrocity; correctly not invented (one-sided ledger flagged).
+- ⏳ Only Pages deploy remains blocked (account Actions still disabled). Auto-retry continues; deploys all 165 the moment Actions returns.
 - ⚠️ **GitHub Pages BLOCKED:** account-level "Actions has been disabled for this user" (kai-denrei) — breaks both legacy + Actions Pages builders → 404. Repo is correctly configured (build_type=workflow, .nojekyll, .github/workflows/pages.yml) and WILL auto-deploy once Actions is re-enabled on the account (operator action / GitHub support). Site works locally (localhost:8848) + content is in the public repo. Awaiting operator decision (re-enable Actions vs alternative host).
 - ☐ Batches 2…N: after each, regenerate `data/countries/index.json`, validate JSON, `node build/bump-version.mjs`, check 5h budget before the next. RESUME a stuck batch via resumeFromRunId.
 - NEXT-BATCH RECIPE: `node -e` over data/geo/reference.json minus existing data/countries/*.json, sort by population,

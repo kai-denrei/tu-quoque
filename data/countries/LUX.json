@@ -1,0 +1,158 @@
+{
+  "iso": "LUX",
+  "name": "Luxembourg",
+  "note": "Luxembourg's ledger is strongly asymmetric, and the asymmetry is real rather than a research gap. As a small, landlocked Grand Duchy with no army of conquest and no colonies of its own, Luxembourg's victim side is heavy and well documented: in the Second World War it was annexed outright by Nazi Germany, its men conscripted into the Wehrmacht and killed at the front, its Jewish community destroyed, and its strikers shot. Its perpetrator side exists but is overwhelmingly one of COMPLICITY rather than direct mass killing. The clearest perpetrator act is committed by Luxembourg's own administrative commission during the occupation — Luxembourgish officials who, as the 2015 Artuso report documented, helped identify, dispossess and bar the return of Jews 'with diligence, even zeal'. The country's other perpetrator strand is financial: from the colonial era through apartheid, Luxembourg-domiciled banks helped finance the Belgian Congo and apartheid South Africa, a facilitation role with no death toll cleanly attributable to Luxembourg. Both perpetrator entries carry null or non-isolable tolls precisely because Luxembourg's hand was an enabling one; inventing a Luxembourg-specific body count to 'balance' the genocide done TO its people would be a falsification, and the atlas refuses it.",
+  "events": [
+    {
+      "id": "lux-1",
+      "country": "LUX",
+      "role": "victim",
+      "title": "The Holocaust in Luxembourg",
+      "era": "1940–1945",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "The systematic identification, dispossession, deportation and murder of Luxembourg's Jews — the deliberate destruction of a people, so EXT.",
+      "agent": "Nazi Germany (Gustav Simon's civil administration and the SS), with the complicity of Luxembourg's administrative commission",
+      "toll": {
+        "display": "~1,000–2,500 murdered",
+        "disputed": true,
+        "low": 1000,
+        "high": 2500,
+        "unit": "deaths",
+        "note": "Of a pre-war Jewish population of roughly 3,500 (more than 1,000 of them refugees who had already fled Germany), about 2,500 escaped to unoccupied France before deportations began; some 800 trapped at the Fuenfbrunnen transit camp were deported in eight transports from October 1941 to April 1943 to Lodz, Theresienstadt and Auschwitz, and only about 36 deportees survived. The 1,000–2,500 range reflects that many Luxembourg Jews were caught and murdered after they had fled abroad (especially from Vichy France), so the total killed exceeds the ~800 deported directly from Luxembourg; USHMM and the standard histories both give the 1,000–2,500 spread."
+      },
+      "received_lens": "memorial",
+      "summary": "After Germany annexed Luxembourg in 1942 it extended the Nuremberg race laws, herded the remaining Jews into the Fuenfbrunnen transit camp, and deported them in eight transports to Lodz, Theresienstadt and Auschwitz; of roughly 3,500 pre-war Jews, most had fled in time, but those caught were nearly all murdered, with only about 36 deportees surviving.",
+      "relevance": "Luxembourg appears here as victim of genocide on its own soil — while the same occupation produced Luxembourgish officials who, in a separate entry, sit in the perpetrator ledger for helping carry it out.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "USHMM Holocaust Encyclopedia, 'Luxembourg' — over 3,500 pre-war Jews; ~2,500 emigrated Aug 1940–Oct 1941; ~800 held at Fuenfbrunnen; 674 deported Oct 1941–Apr 1943 in eight transports; only 36 survived; total murdered estimated 1,000–2,500",
+          "supports": "toll.high",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/luxembourg",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'The Holocaust in Luxembourg' — ~3,500 pre-war population, ~2,500 fled, ~800 interned at Fuenfbrunnen, only 36 deportees believed to have survived, ~1,000–2,500 murdered",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/The_Holocaust_in_Luxembourg",
+          "caveat": "Tertiary aggregator; figures cross-checked against the USHMM Holocaust Encyclopedia, which carries the same range."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "lux-2",
+      "country": "LUX",
+      "role": "victim",
+      "title": "Nazi annexation, forced conscription and the 1942 general strike",
+      "era": "1940–1945",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Forced Germanization of an annexed population — conscription into a foreign army, execution of strikers, mass resettlement and deportation — atrocity aimed at coercing and erasing a national population under occupation, embedded in the war, so WAR rather than EXT.",
+      "agent": "Nazi Germany under Gauleiter Gustav Simon",
+      "toll": {
+        "display": "~2,800 conscripts killed/missing; 21 strikers executed; thousands resettled",
+        "disputed": false,
+        "low": 2800,
+        "high": 2800,
+        "unit": "deaths",
+        "note": "The ~2,800 figure is Luxembourgish conscripts killed or missing in action after being forced into the Wehrmacht (about 12,000 were conscripted, of whom more than 3,500 deserted and over 1,100 fled abroad). On top of this, 21 participants in the August–September 1942 general strike against conscription were executed; some 2,000 people were arrested, around 290 schoolchildren and other young workers were sent to re-education camps, and several thousand Luxembourgers were forcibly resettled to Germany, Poland and elsewhere, many of whom never returned. The headline number counts only the conscript war dead, which is the cleanly quantified figure; the strike-execution and resettlement deaths are documented but not given as a single isolable total."
+      },
+      "received_lens": "memorial",
+      "summary": "Nazi Germany annexed Luxembourg in 1942, banned French, conscripted some 12,000 young men into the Wehrmacht (more than 2,800 of whom were killed or went missing at the front), and when the population answered conscription with a general strike in August 1942 it executed 21 strikers, jailed thousands, and forcibly resettled families to the east.",
+      "relevance": "A small nation experiencing attempted national erasure — its people drafted to die in the uniform of the power occupying them — which makes its officials' simultaneous complicity in the Holocaust the sharper dual-lens case.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Liberation Route Europe, 'Forced conscription in Luxembourg' — ~12,000 conscripted into the Wehrmacht; >3,500 deserted; >2,800 killed or missing in action; >1,100 fled abroad",
+          "supports": "toll.low",
+          "url": "https://www.liberationroute.com/en/stories/369/forced-conscription-in-luxembourg",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, '1942 Luxembourgish general strike' — 21 strikers executed (20 by Standgericht at Hinzert, plus one decapitated at Cologne); ~2,000 arrested; ~290 schoolchildren and young workers deported to re-education camps; families forcibly resettled",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/1942_Luxembourgish_general_strike",
+          "caveat": "Tertiary aggregator; execution and arrest figures cross-checked against the Liberation Route Europe account and the Global Nonviolent Action Database entry on the strike."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "lux-3",
+      "country": "LUX",
+      "role": "perpetrator",
+      "title": "The administrative commission's complicity in the Holocaust",
+      "era": "1940–1942",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "Luxembourgish officials knowingly serviced a genocidal program — compiling lists, expelling Jews from professions and schools, expropriating property and barring refugees' return — actions integral to the deliberate destruction of a people, so the act is tiered EXT even though the killing itself was carried out by Germany.",
+      "agent": "Luxembourg's administrative commission and senior officials (the wartime replacement administration)",
+      "toll": {
+        "display": "no death toll cleanly attributable to Luxembourg officials (deaths counted in lux-1)",
+        "disputed": false,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "This is a complicity entry. The deaths produced are those already counted in the Holocaust-in-Luxembourg event (lux-1, ~1,000–2,500); the harm specific to the administrative commission — identifying Jews by Nazi criteria, expelling them from public life, organizing the theft of their property, and ordering that Jews who had fled could not return — cannot be isolated as a separate body count without double-counting. The historian Vincent Artuso's 2015 official report documented the commission's role; a toll is deliberately left null rather than invented."
+      },
+      "received_lens": "contested",
+      "summary": "During the occupation Luxembourg's own administrative commission collaborated in the persecution of Jews — the 2015 Artuso report found officials identified people as Jewish by German criteria, drove them from professions and schools, organized the seizure of their property, and ordered that Jews who had fled the country could not return — work the report says they often performed 'with diligence, even zeal'.",
+      "relevance": "The exact-same occupation that makes Luxembourg a genocide victim also made some of its officials genocide collaborators — the clearest single-event dual lens in the atlas, victim and perpetrator inside one administration.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Vincent Artuso, La « question juive » au Luxembourg (1933–1941): L'État luxembourgeois face aux persécutions antisémites nazies (official report, 2015) — concluded the administration collaborated 'as long as invited by the occupier and often carried out its mission with diligence, even zeal'",
+          "supports": "summary",
+          "url": "https://gouvernement.lu/dam-assets/fr/actualites/articles/2015/02-fevrier/10-bettel-artuso/rapport.pdf",
+          "caveat": "Government-commissioned report; cited for its documented findings on official conduct, which prompted the state's own 2015 apology."
+        },
+        {
+          "kind": "press",
+          "cite": "World Jewish Congress, 'Luxembourg says sorry to Jews for World War II government collaboration' (2015) — administrative commission compiled lists (incl. ~280 Jewish children), barred returning Jews, and aided deportations; PM Bettel's apology",
+          "supports": "summary",
+          "url": "https://www.worldjewishcongress.org/en/news/legislature-of-luxembourg-set-to-say-sorry-to-jews-for-world-war-ii-collaboration-with-nazi-occupiers-6-2-2015",
+          "caveat": "Advocacy organization reporting on the Artuso report and the parliamentary apology; used for the official acknowledgement, with the underlying findings drawn from the Artuso report itself."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "lux-4",
+      "country": "LUX",
+      "role": "perpetrator",
+      "title": "Financing the Belgian Congo and apartheid South Africa",
+      "era": "1922–1980s",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "Structural/economic complicity — Luxembourg-domiciled banks financed extraction in the Belgian Congo and sanctions-busting for apartheid South Africa, enabling lethal regimes through financial facilitation rather than directly killing, so STR.",
+      "agent": "Luxembourg-domiciled banks (Banque générale du Luxembourg, Banque Lambert-Luxembourg, Kredietbank Luxembourg) and Luxembourgers granted Belgian colonial status",
+      "toll": {
+        "display": "no death toll attributable to Luxembourg (financial facilitation)",
+        "disputed": false,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "This is a facilitation entry with no death toll cleanly attributable to Luxembourg. Under the 1921–22 economic union, Luxembourgers gained the same colonial-administrator rights as Belgians in the Congo (around 600 Luxembourgers were installed in the colony by 1957). From the 1950s to the 1980s, Luxembourg-based banks financed Congolese mining and infrastructure and later channelled hundreds of millions of dollars to apartheid South African state enterprises, including sanctions-busting structures — racism inscribed into financial practice, in the cited scholarship's phrase, but enabling rather than carrying out the violence; assigning a body count to Luxembourg here would be fabrication."
+      },
+      "received_lens": "suppressed",
+      "summary": "Luxembourg never held a colony, but under its economic union with Belgium its citizens served as colonial administrators in the Congo and, from the 1950s into the 1980s, Luxembourg-domiciled banks financed Congolese resource extraction and acted as a discreet financial hub for apartheid South Africa — including structures that helped evade UN sanctions.",
+      "relevance": "The complicity of a 'neutral' small state — Luxembourg profited from and lubricated the machinery of colonial and apartheid violence without ever firing a shot, the quiet form of perpetration the dual lens exists to surface.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Financing white rule: How Luxembourg became a banker for the Belgian Congo and Apartheid South Africa, Finance and Society (Cambridge, 2024) — documents BgL/SgB, Banque Lambert and KBL financing Congolese mining/infrastructure and apartheid-era loans (e.g. KBL ~$625M to South African state enterprises 1967–75)",
+          "supports": "summary",
+          "url": "https://www.cambridge.org/core/journals/finance-and-society/article/financing-white-rule-how-luxembourg-became-a-banker-for-the-belgian-congo-and-apartheid-south-africa/BB6F049EC1502E79BFD5C280B8238A95",
+          "caveat": "Peer-reviewed scholarship; it explicitly frames Luxembourg's role as financial facilitation rather than direct perpetration, which is why this entry's toll is null."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

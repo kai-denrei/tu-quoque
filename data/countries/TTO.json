@@ -1,0 +1,172 @@
+{
+  "iso": "TTO",
+  "name": "Trinidad and Tobago",
+  "note": "Trinidad and Tobago's ledgers are sharply asymmetric, and the asymmetry is the honest finding rather than a gap to be filled. The victim side is dense and well documented: the islands' Amerindian peoples were all but extinguished under three centuries of Spanish colonial rule, and the African population that replaced them was imported in chains and worked to a demographic deficit so severe the enslaved population shrank even after the trade was banned. Those are the real catastrophes done to the people of these islands, but they were inflicted by EUROPEAN colonial powers — Spain, then Britain — not by any indigenous or independent Trinidadian state, a point the dual lens must keep honest. The perpetrator side is genuinely thin. The independent state (1962- ) has fought no war, conquered no neighbour, and committed no mass killing of any group, so there is no atrocity of the colonial-perpetrator type to record. The one defensible state-perpetrator entry is a sustained, lower-intensity pattern: extrajudicial killings and deaths in police custody, committed with near-total impunity, documented by Amnesty International and successive US State Department and UN reports. It is included because it is real and state-attributable, but it is a structural pattern of unlawful killings by a security force, not a mass atrocity, and the file says so rather than reaching for a colonial-era event that belongs to the empires, or inflating a toll to balance the columns. The 1990 Jamaat al Muslimeen coup attempt (24 dead) is deliberately NOT placed in the perpetrator ledger: it was an armed insurgent group attacking the state, not the state attacking a people. To assign it to the state would be to fabricate the agency.",
+  "events": [
+    {
+      "id": "tto-1",
+      "country": "TTO",
+      "role": "victim",
+      "title": "Destruction of the Amerindian peoples of Trinidad under Spanish rule",
+      "era": "1498–c.1800",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "A demographic collapse driven mainly by introduced disease compounded by warfare, enslavement and the forced-labour encomienda — structural destruction of a population over three centuries rather than a single exterminatory campaign, so STR; the deaths came from epidemics, overwork and dislocation more than from deliberate slaughter.",
+      "agent": "Spanish colonial authorities, encomenderos and missionaries on Trinidad",
+      "toll": {
+        "display": "~40,000 (1592) collapsing to ~1,082 by 1797 — population decline, not a counted death toll",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "This is a population-decline figure, not a death count, and is recorded as such. Trinidad's National Library (NALIS) gives roughly 40,000 Amerindians at Spanish settlement in 1592 falling to about 4,000 by 1634 — a ~90% collapse in 42 years — and the 1797 British capitulation census recorded only 1,082 Amerindians remaining. How many of the missing tens of thousands died versus fled to the mainland or were absorbed cannot be disaggregated from the sources, so an absolute death toll is left null while the collapse itself is well attested. The dominant cause across the Caribbean was introduced epidemic disease (smallpox, measles), to which warfare, enslavement and encomienda labour were added. AUDIT 2026-06-19: all three sources independently verified — NALIS confirms 40,000/1592→4,000/1634 and the encomienda/Arena/Arima narrative verbatim; the 1797 census figure of 1,082 Amerindians among 17,643 inhabitants is double-sourced (New World Encyclopedia + Caribbean History Archives census transcript); the ~90% Caribbean disease-collapse figure tiering this STR is confirmed on the Wikipedia 'Influx of disease in the Caribbean' page. No source failed falsification; the high-end toll is honestly null (evidentiary gap), not a source defect."
+      },
+      "received_lens": "memorial",
+      "summary": "When Columbus claimed Trinidad for Spain in 1498 the island held on the order of 40,000 Arawak- and Carib-speaking people; under three centuries of Spanish rule — epidemic disease, slave raids, and the encomienda system that bound Amerindians to forced labour for Spanish settlers and missions — that population was reduced to about 4,000 by 1634 and barely a thousand by the time Britain took the island in 1797. The First Peoples of Trinidad were effectively destroyed as a distinct society, surviving today mainly in the small Santa Rosa Carib Community at Arima.",
+      "relevance": "The first and largest catastrophe done to the people of these islands was inflicted by a European empire on the indigenous inhabitants — a collapse so total that the population later treated as 'Trinidadian' is itself the descendant of those the same colonial order brought in to replace the dead.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "NALIS (National Library and Information System of Trinidad and Tobago), 'First Peoples' — ~40,000 Amerindians in 1592 falling to ~4,000 by 1634; encomienda forced labour; the 1699 Arena rebellion; relocation to Arima in 1785",
+          "supports": "toll.high",
+          "url": "https://www.nalis.gov.tt/resources/tt-content-guide/first-peoples/",
+          "caveat": "Official Trinidad and Tobago government library source; gives the 1592 and 1634 population figures and the encomienda/decline narrative but no absolute death count."
+        },
+        {
+          "kind": "reference",
+          "cite": "New World Encyclopedia, 'Trinidad and Tobago' — Arawak and Carib peoples 'largely wiped out by the Spanish colonizers who enslaved and attempted to Christianize them'; 1777 census ~2,000 Arawaks; 1797 census recorded 1,082 Amerindians among 17,643 inhabitants; no Amerindians counted by 1960",
+          "supports": "toll.low",
+          "url": "https://www.newworldencyclopedia.org/entry/Trinidad_and_Tobago",
+          "caveat": "Tertiary encyclopaedia; corroborates the 1797 census figure of 1,082 and the long-run extinction but does not quantify deaths versus flight or absorption."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Influx of disease in the Caribbean' / 'Taíno genocide' — across the Caribbean introduced epidemics killed up to ~90% of the indigenous population within roughly half a century of contact",
+          "supports": "tier",
+          "url": "https://en.wikipedia.org/wiki/Influx_of_disease_in_the_Caribbean",
+          "caveat": "Tertiary aggregator; the ~90% figure is Caribbean-wide context for why disease-driven collapse is tiered STR, not a Trinidad-specific count."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "tto-2",
+      "country": "TTO",
+      "role": "victim",
+      "title": "The Arena Massacre and Spanish reprisal",
+      "era": "1699–1700",
+      "era_band": "colonial",
+      "tier": "POL",
+      "tier_reasoning": "A colonial state's lethal suppression of an indigenous revolt — mass executions of captured rebels and the public killing of identified leaders to crush resistance to forced labour and conversion, so POL; the deaths were a punitive reprisal, not a battlefield of equals.",
+      "agent": "Spanish colonial forces under the Trinidad authorities (reprisal for the killing of Governor José de León y Echales)",
+      "toll": {
+        "display": "several hundred Amerindians killed; 61 captured rebels shot and 22 leaders hanged",
+        "disputed": true,
+        "low": 83,
+        "high": null,
+        "unit": "deaths",
+        "note": "The low end (83) is the firm, documented count of Amerindians killed in the reprisal itself: 84 rebels were captured at Cocal, of whom 61 were executed by firing squad, and on 14 January 1700 a further 22 identified ringleaders were hanged and dismembered at San José de Oruña — 83 named executions. Sources additionally describe 'several hundred Amerindians' dead overall, including many who drowned diving into the sea rather than be taken and those killed in the fighting, so the true total is higher but is not given a precise figure; the high end is therefore left null and the toll flagged disputed. Spanish dead in the initial uprising included the missionary priests and Governor José de León y Echales and all but one of his party. AUDIT 2026-06-19: the Wikipedia 'Arena Massacre' source verified verbatim — 1 Dec 1699 uprising; priests + Governor de León y Echales + all but one of his party killed; 84 captured, 61 shot; 22 ringleaders hanged 14 Jan 1700 at San José de Oruña; 'several hundred Amerindians' overall. NALIS corroborates the revolt and the killing of the priests and governor. Tier POL (punitive colonial-state reprisal) re-derived and confirmed."
+      },
+      "received_lens": "memorial",
+      "summary": "On 1 December 1699 Amerindians bound to forced labour at the San Francisco de los Arenales mission in eastern Trinidad rose up, killed the priests, and ambushed and killed the Spanish governor José de León y Echales and his party as they came to visit. Spanish forces hunted the rebels to the coast, where many drowned trying to escape; 84 were captured at Cocal, 61 were shot, and in January 1700 twenty-two named ringleaders were hanged and their bodies dismembered and displayed — several hundred Amerindians dead in all, in one of the bloodiest acts of the island's colonial conquest.",
+      "relevance": "The one moment the dying First Peoples struck back at their colonisers was answered with mass executions — a reprisal that compressed the slower demographic destruction of tto-1 into a single documented atrocity.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Arena Massacre' — 1 Dec 1699 uprising at San Francisco de los Arenales; priests and Governor José de León y Echales killed; 84 rebels captured at Cocal, 61 shot; 22 ringleaders hanged and dismembered at San José de Oruña on 14 Jan 1700; 'several hundred Amerindians' died",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Arena_Massacre",
+          "caveat": "Tertiary aggregator; the precise execution counts (61 shot, 22 hanged) are specific and consistent with the NALIS account, but the 'several hundred' overall figure is imprecise."
+        },
+        {
+          "kind": "reference",
+          "cite": "NALIS, 'First Peoples' — the Arena mission Amerindians rebelled against encomienda forced labour, killing the priests and the Spanish governor before fleeing to the Nariva swamp; the rebels were tracked down and arrested",
+          "supports": "summary",
+          "url": "https://www.nalis.gov.tt/resources/tt-content-guide/first-peoples/",
+          "caveat": "Official Trinidad and Tobago government library source; confirms the revolt, the killing of the priests and governor, and the pursuit, but does not itself give the execution counts."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "tto-3",
+      "country": "TTO",
+      "role": "victim",
+      "title": "African slavery in Trinidad and Tobago",
+      "era": "c.1770–1838",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "Chattel slavery as a system: tens of thousands trafficked in chains and worked under conditions so lethal that the enslaved population fell through excess deaths even after imports stopped — structural mass death built into an economic order, so STR.",
+      "agent": "Spanish and then British colonial planters and authorities running the plantation slave economy",
+      "toll": {
+        "display": "~1,400 died on the Middle Passage to Tobago alone; thousands more from plantation mortality (no full death count)",
+        "disputed": true,
+        "low": 1414,
+        "high": null,
+        "unit": "deaths",
+        "note": "A complete death toll for slavery on the two islands does not exist and is left null at the high end. The firm low-end figure of 1,414 is Middle-Passage mortality on the Tobago route alone: per the Transatlantic Slave Trade Database, 15,101 African captives were forced onto vessels bound for Tobago between 1771 and 1808 and 13,687 survived the crossing — a shortfall of 1,414 who died at sea. This excludes deaths on Trinidad-bound voyages and, far larger, deaths on the plantations themselves: Trinidad's enslaved population reached roughly 20,000 by 1807, yet between 1807 and 1834 the overall enslaved population DECLINED through excess mortality despite continued intercolonial imports, which scholars read as direct evidence of the system's lethality. The plantation death toll is real but unquantified in the sources consulted, so only the documented Middle-Passage figure anchors the low end. AUDIT 2026-06-19: Enslaved.org verified verbatim (15,101 embarked, 13,687 survived → 1,414 deaths; 3,093 enslaved vs 238 white men on Tobago by 1770), and its underlying Slave Voyages / Transatlantic Slave Trade Database is real. The UWI 'Emancipation in Trinidad' lecture PDF returns HTTP 403 to direct fetch, but its key figures (~20,000 enslaved; population decline 1807–1834 through excess mortality) are corroborated by the search-engine extract of that same document; source stands as supporting the summary, not the toll number. High-end toll honestly null."
+      },
+      "received_lens": "memorial",
+      "summary": "From the 1770s onward Trinidad and Tobago were turned into plantation slave economies: more than 15,000 African captives were shipped to Tobago alone (over 1,400 dying on the crossing), and Trinidad's enslaved population grew to about 20,000 by 1807 through trafficking under Spanish and then British rule. Conditions were lethal enough that between 1807 and 1834 the enslaved population actually shrank — deaths outran births — until slavery was abolished in stages between 1834 and 1838.",
+      "relevance": "The labour force that built the colony was imported in chains to replace the Amerindians the same colonial order had destroyed — a second mass death visited on the islands' people by Europe, and the foundation of the society that exists today.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Enslaved.org (Matrix, Michigan State University), drawing on the Transatlantic Slave Trade Database — 15,101 African captives shipped toward Tobago 1771–1808, 13,687 surviving the Middle Passage; ~3,093 enslaved vs 238 white men on Tobago by Oct 1770",
+          "supports": "toll.low",
+          "url": "https://enslaved.org/fullStory/16-23-126818/",
+          "caveat": "Scholarly digital-history aggregation of voyage data; the 15,101 / 13,687 figures cover Tobago only and the 1,414 Middle-Passage death figure is the difference between them, not a stated total."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "University of the West Indies (St Augustine), 'Emancipation in Trinidad' lecture, 2007 — Trinidad's enslaved population reached ~20,000 by 1807; high mortality and low birth rates caused the enslaved population to decline between 1807 and 1834, cited as evidence of the system's brutality; ~6,000 more imported intercolonially 1808–1825",
+          "supports": "summary",
+          "url": "https://sta.uwi.edu/resources/speeches/2007/EMANC_LECT.pdf",
+          "caveat": "Academic lecture hosted by UWI; the PDF could not be machine-read directly, so its figures (~20,000 by 1807; population decline 1807–34) are taken from the search-engine extract of the same document and from the corroborating Britannica/Enslaved.org accounts, not from a clean full-text read."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "tto-4",
+      "country": "TTO",
+      "role": "perpetrator",
+      "title": "Police extrajudicial killings and deaths in custody",
+      "era": "c.2000–present",
+      "era_band": "contemporary",
+      "tier": "STR",
+      "tier_reasoning": "A sustained pattern of unlawful killings by a state security force, committed with near-total impunity — institutional violence by the police over decades rather than a discrete massacre, so STR; it is the only state-attributable killing pattern in the independent country's record.",
+      "agent": "The Trinidad and Tobago Police Service (and successive governments that failed to prosecute)",
+      "toll": {
+        "display": "tens killed per multi-year period (e.g. 54 over ~5 years to 2006); rising again after 2020",
+        "disputed": true,
+        "low": 54,
+        "high": null,
+        "unit": "deaths",
+        "note": "This is a running pattern, not a single event, so there is no fixed total and the high end is left null. The documented low-end anchor comes from Amnesty International's 2006 report: 54 people reported killed by police over a five-year period, and 35 dead from police shootings or in custody between 2003 and 2005; by December 2010 a US State Department report recorded 41 people having died in custody or at police hands that year. Reporting indicates summary executions by police rose again sharply after 2020. The defining feature is impunity: as of March 2006 only a single officer (Constable Dave Burnett) had ever been convicted of murdering a civilian on duty. AUDIT 2026-06-19: Amnesty AMR 49/001/2006 verified — '54 people have been reported killed by the police during a five-year period'; PC Dave Burnett the first and only officer ever convicted of murdering a civilian on duty (22 Mar 2006, victim Kevin Cato). The Refworld mirror returns HTTP 403 but the report's canonical amnesty.org URL (AMR49/001/2006) exists and the figures are confirmed by search. US State Dept 2010 verified: 41 persons died as of 17 Dec while in police custody or at the hands of law enforcement. Post-2020 rise and the 2 Jul 2022 'shot from behind' autopsy finding confirmed in the US State Dept 2022 report and the UN Human Rights Committee's Oct 2023 review of TTO (which expressly raised 'summary executions by the police'). Tier STR (sustained institutional killing pattern, not a discrete massacre; disease is not the driver but the structural-pattern test governs) re-derived and confirmed — correctly STR, not EXT/POL."
+      },
+      "received_lens": "contested",
+      "summary": "Over the past two decades the Trinidad and Tobago Police Service has carried out a steady stream of unlawful killings — people shot dead in disputed circumstances and deaths in custody — that Amnesty International, the US State Department and the UN Human Rights Committee have repeatedly flagged: 54 reported killed over roughly five years to 2006, dozens more since, with autopsies in some 2022 cases showing men shot from behind. Almost none of these killings have produced a conviction; the impunity is the through-line.",
+      "relevance": "The one place the independent Trinidadian state — not a colonial empire or an insurgent group — appears as a killer of its own, the dual lens's reminder that even a small post-colonial democracy with no war record still has blood on the perpetrator side of the ledger.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Amnesty International, 'Trinidad and Tobago: End Police Immunity for Unlawful Killings and Deaths in Custody' (AMR 49/001/2006) — 54 people reported killed by police over a five-year period; 35 dead from police shootings/custody 2003–2005; only one officer (Constable Dave Burnett) ever convicted, in March 2006",
+          "supports": "toll.low",
+          "url": "https://www.refworld.org/reference/countryrep/amnesty/2006/en/38476",
+          "caveat": "Human-rights advocacy organisation; figures cited via the Refworld (UNHCR) mirror of the report after the amnesty.org page returned HTTP 403. Amnesty is partisan toward the victims but is the standard cited source for these figures."
+        },
+        {
+          "kind": "press",
+          "cite": "US Department of State, Country Reports on Human Rights Practices — Trinidad and Tobago (2010) recorded 41 deaths in custody or at police hands that year; later reports (2022, 2023) cite credible reports of unlawful/arbitrary killings by police and a sharp rise in summary executions since 2020, with autopsies showing some victims shot from behind",
+          "supports": "summary",
+          "url": "https://2009-2017.state.gov/j/drl/rls/hrrpt/2010/wha/154521.htm",
+          "caveat": "US government human-rights reporting on a foreign state; broadly reliable for the documented incidents but reflects a foreign-policy actor's framing, and the post-2020 'sharp rise' characterisation is qualitative."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

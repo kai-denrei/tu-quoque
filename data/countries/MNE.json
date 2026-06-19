@@ -1,0 +1,172 @@
+{
+  "iso": "MNE",
+  "name": "Montenegro",
+  "note": "Montenegro is one of the cleaner illustrations of the atlas's dual lens: a small mountain people celebrated in its own memory as the Balkan nation that never surrendered to the Ottomans, and yet the author of at least two well-documented anti-Muslim atrocities. The perpetrator ledger carries the events Montenegrin national memory has been slowest to face — the 1912–13 Plav–Gusinje massacres and forced conversions committed by the Kingdom of Montenegro's own military administration after annexing those districts, and the January–February 1943 Chetnik 'cleansing' of Muslims in the Sandžak and southeastern Bosnia commanded by the Montenegrin officer Pavle Đurišić, in which roughly ten thousand Muslim civilians were killed. The victim ledger is dominated not by a single sharp massacre but by catastrophe of scale: Montenegro suffered proportionally among the heaviest losses of any First World War combatant, and in the Second World War its Orthodox population was massacred by Axis-allied SS divisions (the Andrijevica and Velika killings of 1944). A complication worth naming: the 1944 SS victims and many WWI dead are recorded ethnically as Serbs, and Montenegrin/Serb identity in this region is intertwined and contested — the atlas treats them as Montenegro's people in the territorial sense without resolving that identity dispute. Where scholarship diverges (the Plav–Gusinje toll ranges from ~800 to ~8,000; the WWI total loss from ~10% to ~16% of the population) the dispute is shown rather than averaged away, and no figure has been invented to balance the two columns.",
+  "events": [
+    {
+      "id": "mne-1",
+      "country": "MNE",
+      "role": "victim",
+      "title": "First World War: Conquest, Occupation, and Demographic Collapse",
+      "era": "1914–1918",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Mass death of a small nation through combat mobilization, Austro-Hungarian invasion and occupation, internment, and war-driven hunger and disease — catastrophic war losses rather than a deliberate campaign to destroy the Montenegrin people as such.",
+      "agent": "Austria-Hungary, which invaded and occupied the Kingdom of Montenegro from January 1916, alongside the attritional cost of Montenegro's own mobilization and the wartime collapse of food and order",
+      "toll": {
+        "display": "~20,000 to ~39,000 dead (≈10–16% of the population)",
+        "disputed": true,
+        "low": 20000,
+        "high": 39000,
+        "unit": "deaths",
+        "note": "Standard figures hold that Montenegro lost about 20,000 soldiers — roughly 40% of those mobilized and about 10% of the total population — while other estimates run as high as ~39,000 dead, about 16% of the population, when war-driven civilian deaths from internment, hunger, and disease are included. This places Montenegro among the most severely affected per-capita combatants of the war. The figures mix military and civilian losses and are not precisely reconciled; the range here spans the conservative soldier-focused count to the higher total-loss estimate."
+      },
+      "received_lens": "memorial",
+      "summary": "Tiny Montenegro entered the First World War alongside Serbia and was crushed: after covering the Serbian retreat at Mojkovac, the kingdom capitulated in January 1916 and was occupied by Austria-Hungary, whose garrison of over forty thousand troops requisitioned a country that could barely feed itself and interned thousands. Between battlefield losses and the hunger and disease of occupation, Montenegro lost on the order of a tenth to a sixth of its entire population — and emerged from the war absorbed into the new Yugoslav kingdom, its monarchy abolished.",
+      "relevance": "This is the heaviest blow ever dealt to Montenegro's people, and it sits on the victim ledger directly across from the kingdom's own conduct in the same decade — the same Montenegrin state that was being bled white by Austria-Hungary had, a year earlier, been massacring and forcibly converting Muslims in Plav and Gusinje.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Austro-Hungarian occupation of Montenegro' — occupation Jan 1916–Nov 1918; garrison of 40,000+; losses given as ~20,000 (10% of population) or as high as ~39,000 (16%), among the war's most severe per-capita",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Austro-Hungarian_occupation_of_Montenegro",
+          "caveat": "Tertiary aggregator relaying both a conservative and a higher loss estimate; the figures blend military and civilian deaths and are not precisely sourced to one demographic study. Adversarial audit 2026-06-19: source re-fetched live and falsification attempted — page confirms verbatim '20,000 soldiers... 40% of all mobilized... 10% of the total population' and 'figures even speak of 39,000 dead and a 16% total losses, making Montenegro the most severely affected participant', plus the 40,000+ garrison. Both toll ends (low and high) independently sourced here; claim survives falsification."
+        },
+        {
+          "kind": "reference",
+          "cite": "1914-1918-Online, International Encyclopedia of the First World War, regional/handbook entries on Montenegro — Austro-Hungarian occupation, internment, requisition, and famine after the 1916 capitulation",
+          "supports": "summary",
+          "url": "https://encyclopedia.1914-1918-online.net/article/montenegro/",
+          "caveat": "Scholarly reference encyclopedia used for the occupation narrative; consulted via search summary rather than full text, so used to corroborate the course of events rather than a specific casualty number. Adversarial audit 2026-06-19: 1914-1918-Online and its Montenegro article are confirmed real (the encyclopedia exists, is peer-edited, and carries a Montenegro entry); attached only to 'summary', not to a toll figure, so the indirect access is non-load-bearing. Survives falsification at the level of the claim it supports."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "mne-2",
+      "country": "MNE",
+      "role": "victim",
+      "title": "SS Massacres of Montenegro's Orthodox Population: Andrijevica and Velika",
+      "era": "1944",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Axis-allied SS divisions summarily killed Orthodox civilians — women, children, and the elderly — in reprisal during anti-partisan sweeps, collective punishment of a captive civilian population rather than an attempt to destroy a group in its entirety.",
+      "agent": "The 21st Waffen Mountain Division of the SS 'Skanderbeg' (Muslim Albanian recruits under German command) and the 7th SS Volunteer Mountain Division 'Prinz Eugen', in German-occupied eastern Montenegro (Andrijevica and the settlement of Velika near Plav)",
+      "toll": {
+        "display": "~830–950 killed (≈400+ at Andrijevica, ~428–550 at Velika)",
+        "disputed": true,
+        "low": 828,
+        "high": 950,
+        "unit": "deaths",
+        "note": "Accounts attribute more than 400 Orthodox civilians summarily executed at Andrijevica in June 1944 to the SS Skanderbeg Division, and the killing of between 428 (historian Nenad Antonijević's documented minimum) and about 550 Serb villagers at Velika on 28 July 1944 by the Skanderbeg and Prinz Eugen divisions together. The combined toll across the two events is roughly 830 to 950. The victims were overwhelmingly women, children, and the elderly; the Velika figure is the disputed element, the Andrijevica '400+' less precisely fixed."
+      },
+      "received_lens": "memorial",
+      "summary": "In the summer of 1944, as German forces fought the partisans across eastern Montenegro, two Waffen-SS divisions turned on the Orthodox civilian population. In June the Albanian-recruited Skanderbeg Division summarily shot more than four hundred civilians at Andrijevica; on 28 July it joined the Prinz Eugen Division in the settlement of Velika near Plav, where in roughly two hours of slaughter they killed several hundred villagers — about half the settlement — most of them women, children, and the old.",
+      "relevance": "These are the same massacres that appear on Albania's perpetrator ledger as the work of the SS Skanderbeg Division; seen from Montenegro they are an entry on the victim ledger — one valley, two columns, depending on who is doing the looking.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Velika massacre' — 28 July 1944; SS Prinz Eugen and SS Skanderbeg killed between 428 (Nenad Antonijević) and ~550 Serb civilians at Velika, Plav, in reprisal after Operation Draufgänger; roughly half the settlement",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Velika_massacre",
+          "caveat": "Tertiary aggregator; the 428 documented minimum is attributed to historian Nenad Antonijević and the ~550 to other accounts. Adversarial audit 2026-06-19: re-fetched live — page confirms '28 July 1944', 'at least 428 victims, primarily women, children and the elderly' (Antonijević), 'around 550' (other historians), Serb civilian victims, joint authorship by SS Prinz Eugen + SS Skanderbeg, and 'roughly half of Velika's population'. Supports toll.low; high end carried by the companion Skanderbeg source. Survives falsification."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, '21st Waffen Mountain Division of the SS Skanderbeg' — division summarily executed 400+ Orthodox civilians at Andrijevica (June 1944) and, with Prinz Eugen, ~550 Serb villagers at Velika (28 July 1944); 'better known for committing atrocities against Serbs' than for combat",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/21st_Waffen_Mountain_Division_of_the_SS_Skanderbeg",
+          "caveat": "Tertiary aggregator; relays the documented massacre figures, used here for the Andrijevica count and the joint authorship of the Velika killing. Adversarial audit 2026-06-19: re-fetched live — page confirms 'summarily executed more than 400 Orthodox Christian civilians' at Andrijevica (June 1944) and 'around 550 Serb villagers... Velika' with Prinz Eugen, plus Paul Mojzes's line that the division was 'better known for committing atrocities against Serbs than... the German war effort'. Supports toll.high (Andrijevica + Velika upper). Survives falsification."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "mne-3",
+      "country": "MNE",
+      "role": "perpetrator",
+      "title": "Plav–Gusinje Massacres and Forced Conversions",
+      "era": "1912–1913",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "The Montenegrin state killed and forcibly converted a captured Muslim population to consolidate annexed territory and reshape it religiously — destruction and coerced absorption of a group below the threshold of total extermination.",
+      "agent": "The Kingdom of Montenegro's military administration of the newly annexed Plav and Gusinje districts — much of it manned by the Vasojevići tribe, under Brigadier Avro Cemović and battalion commander Vukota Pantović, with church backing from Montenegro's Minister of Church Affairs and the Serbian Orthodox hierarchy",
+      "toll": {
+        "display": "~800 to ~8,000 killed (sharply disputed); ~12,000 forcibly converted",
+        "disputed": true,
+        "low": 800,
+        "high": 8000,
+        "unit": "deaths",
+        "note": "Estimates of the dead diverge widely and are politically charged. Conservative accounts give roughly 800 executed (those who refused conversion, killed at Plav and Gusinje by early 1913); Bosniak commemorative bodies give more than 1,800 killed; the high estimate of about 8,000 is from Mark Krasniqi of the Academy of Sciences of Kosovo. A contemporary report by Djordje Šekularac, head Orthodox priest of the military administration, counted about 12,000 forced conversions, most of which were reversed when religious freedom was restored in spring 1913. The killing range here spans the conservative execution count to the highest scholarly estimate; there is no consensus."
+      },
+      "received_lens": "suppressed",
+      "summary": "When Montenegro seized the Muslim-majority districts of Plav and Gusinje from the Ottomans in the First Balkan War, its military administration set about reshaping them: a December 1912 decree drove a campaign of forced conversion to Orthodoxy, and those who refused were killed — somewhere between several hundred and several thousand Albanians and Bosniaks, with about twelve thousand coerced into baptism. The killings and conversions only stopped after Austria-Hungary intervened diplomatically in the spring of 1913, after which most of the converts reverted.",
+      "relevance": "This is the foundational entry on Montenegro's perpetrator ledger and the one its own historiography has most often omitted — proof that the small Christian mountain nation lionized for resisting Muslim empire also, the moment it gained territory, killed and forcibly baptized Muslim civilians.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Plav–Gusinje massacres (1912–1913)' — Kingdom of Montenegro military administration (Vasojevići tribe, Brig. Avro Cemović); ~800 executions / 1,800+ (Bosniak orgs) / up to 8,000 (Mark Krasniqi) killed; ~12,000 forced conversions; stopped by Austro-Hungarian pressure April 1913",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Plav%E2%80%93Gusinje_massacres_(1912%E2%80%931913)",
+          "caveat": "Tertiary aggregator drawing on a contested Albanian–Bosniak–Montenegrin historiographical dispute; the page itself carries a reliability flag ('Some of this article's listed sources may not be reliable'). The ~8,000 high (Krasniqi, Academy of Sciences of Kosovo) and the ~800/1,800 lows are relayed as a contested span, not a settled figure. Adversarial audit 2026-06-19: re-fetched live — page confirms Brig. Avro Cemović and Vukota Pantović as named perpetrators, the Vasojevići battalion, the '800 who refused... executed by February 1913', 1,800+ (Bosniak orgs), 'up to 8,000 (Mark Krasniqi, Academy of Sciences of Kosovo)', the ~12,000 forced conversions documented by head Orthodox priest Djordje Šekularac, and the April 1913 Austro-Hungarian intervention. Both toll ends sourced; reliability flag is disclosed and the contested span is shown rather than averaged. Survives falsification at the claim level."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Massacres of Albanians in the Balkan Wars' — Serbian and Montenegrin forces killed and expelled Albanian civilians across newly conquered territory in 1912–13 to alter the ethnic make-up; figures contested",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Massacres_of_Albanians_in_the_Balkan_Wars",
+          "caveat": "Tertiary aggregator relaying figures that mostly aggregate Serbian and Montenegrin actions together; used here only to corroborate the broader pattern and Montenegrin participation, not for the Plav–Gusinje-specific toll. Adversarial audit 2026-06-19: page exists and is real; attached only to 'summary' (the broader Balkan-Wars pattern of Montenegrin/Serbian killing and expulsion of Albanians), deliberately not to a specific toll number, so it is non-load-bearing for any contested figure. Survives falsification at the claim level."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "mne-4",
+      "country": "MNE",
+      "role": "perpetrator",
+      "title": "Chetnik 'Cleansing' of Muslims in the Sandžak and Bosnia",
+      "era": "1943",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "Montenegrin Chetnik forces carried out ordered village-by-village killing of a Muslim civilian population — including the deliberate slaughter of women, children, and the elderly — in pursuit of an explicit directive to clear the region of Muslims for an ethnically homogeneous Greater Serbia, an attempt to destroy the group in those districts.",
+      "agent": "Montenegrin Chetnik forces under Pavle Đurišić, acting on Draža Mihailović's December 1941 directive to cleanse the Sandžak of its Muslim population, in the Bijelo Polje and Pljevlja districts of the Sandžak (incl. Bukovica) and the Čajniče and Foča districts of southeastern Bosnia",
+      "toll": {
+        "display": "~9,000 to ~10,000 Muslim civilians killed (Jan–Feb 1943)",
+        "disputed": true,
+        "low": 9000,
+        "high": 10000,
+        "unit": "deaths",
+        "note": "In a report to Mihailović dated 13 February 1943 Đurišić stated his forces had killed about 1,200 Muslim combatants and roughly 8,000 'other victims — women, old people, and children'; his earlier January report claimed 33 burned villages, ~400 fighters, and about 1,000 women and children killed around Bijelo Polje. Combining his own figures yields roughly 9,000 civilians killed across the two operations. Historian Jozo Tomasevich (The Chetniks, 1975) gives an overall estimate of about 10,000 Muslims killed in the Sandžak and Foča cleansing actions, of whom around 9,000 were old people, women, and children. The ~500+ killed at Bukovica (4–7 Feb 1943) fall within this total. The range spans Đurišić's combined self-reported civilian count to Tomasevich's overall figure."
+      },
+      "received_lens": "denied",
+      "summary": "In January and February 1943, Montenegrin Chetniks under Pavle Đurišić moved through the Muslim villages of the Sandžak and southeastern Bosnia carrying out a campaign Đurišić himself described, in writing to Draža Mihailović, as cleansing: burning scores of villages and killing not just fighters but, by his own count, some eight to nine thousand women, children, and old people. The killings — including more than five hundred at Bukovica — served the stated Chetnik aim of an ethnically homogeneous Greater Serbia.",
+      "relevance": "This is the heaviest atrocity Montenegrin forces ever committed, and it mirrors mne-3 across thirty years: the same Muslim population of the Montenegrin–Sandžak borderland targeted again, and it sits on the perpetrator ledger directly opposite the SS massacres of Montenegro's own Orthodox civilians (mne-2) committed by Axis units in the very same war.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Jozo Tomasevich, 'The Chetniks: War and Revolution in Yugoslavia, 1941–1945' (Stanford University Press, 1975) — Montenegrin Chetnik 'cleansing actions' in the Sandžak and Foča killed an estimated ~10,000 Muslims, of whom ~9,000 were old people, women, and children; framed as pursuit of an ethnically homogeneous Greater Serbia",
+          "supports": "toll.high",
+          "url": null,
+          "caveat": "The standard scholarly authority on the Chetniks; cited here via secondary relays of its figures (Wikipedia and search summaries) rather than direct page access — the ~10,000 total and ~9,000-civilian breakdown are consistently attributed to Tomasevich pp. ~258–259. Adversarial audit 2026-06-19: book and author confirmed real and canonical (Jozo Tomasevich, 'The Chetniks: War and Revolution in Yugoslavia, 1941–1945', Stanford UP, 1975); the ~10,000-total figure is corroborated independently across the Pavle Đurišić Wikipedia article and a third-party Balkan-history site. Full text not directly accessed — flagged with url:null. This is the ONE source in the file resting on indirect access; the high toll end therefore carries a residual sourcing caveat, but the figure survives falsification across multiple independent relays and the order of magnitude is solid."
+        },
+        {
+          "kind": "primary",
+          "cite": "Pavle Đurišić, report to Draža Mihailović, 13 February 1943 — ~1,200 Muslim fighters and ~8,000 'other victims: women, old people, and children' killed in the Čajniče, Foča, and Pljevlja operations; plus his January report of ~1,000 women and children killed and 33 villages burned around Bijelo Polje",
+          "supports": "toll.low",
+          "url": "https://commons.wikimedia.org/wiki/File:Pavle_%C4%90uri%C5%A1i%C4%87_13_February_1943_Muslim_massacre_report.jpg",
+          "caveat": "A perpetrator's own self-reported boast of the killing, accessed as a scanned document via Wikimedia Commons and through scholarly relay; the figures are the killer's own and may undercount or overstate, but they establish both intent and order of magnitude. Adversarial audit 2026-06-19: Commons file confirmed live and real — described as 'A briefing to Draža Mihailović by Pavle Đurišić dated 13 February 1943, reporting that Chetniks killed about 1,200 Muslim fighters and about 8,000 old people, women, and children; Chetnik losses... 22 killed and 32 wounded', public domain, digitized 2006. The Đurišić Wikipedia article independently confirms the same figures plus the verbatim line 'complete annihilation of the Muslim population was undertaken, regardless of sex and age' — direct documentary support for the EXT tier (genocidal intent). Supports toll.low. Survives falsification."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Bukovica massacre' — 4–7 Feb 1943; Đurišić's Chetniks killed 500+ civilians (incomplete list of 576, 443 under age 18) at Bukovica, part of the wider 1943 cleansing campaign; cites Mihailović's 20 Dec 1941 directive to cleanse the Sandžak of Muslims",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Bukovica_massacre",
+          "caveat": "Tertiary aggregator; relays the documented Bukovica toll and the directive, used to corroborate the campaign and one of its component massacres rather than the overall figure. Adversarial audit 2026-06-19: re-fetched live — page confirms '4–7 February 1943', Đurišić's Chetniks, 'more than 576 civilians' with '443... children under the age of 18' (and a companion '~500 civilians' figure), 1,171 houses burned, and the Mihailović cleansing order. Attached to 'summary' (corroborates the campaign and one component massacre, not the overall toll). Survives falsification."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

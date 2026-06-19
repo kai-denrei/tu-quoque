@@ -1,0 +1,101 @@
+{
+  "iso": "VUT",
+  "name": "Vanuatu",
+  "note": "Built from scratch. The two ledgers are deeply asymmetric, and the asymmetry is real rather than a research gap. The victim ledger is the heavy, well-documented side: after sustained European contact from the 1820s-1830s, the islands of the New Hebrides (today Vanuatu) suffered one of the most severe demographic collapses recorded anywhere in the Pacific — introduced epidemic disease (dysentery, influenza, measles, whooping cough) to which the population had no immunity, compounded by the Pacific labour trade ('blackbirding'), in which tens of thousands of ni-Vanuatu were taken — often by deception or force — to plantations in Queensland and Fiji, where they died at extreme rates. The single island of Aneityum is the best-studied case (Spriggs, McArthur, Shanks) and is used here as the documented archetype of the wider collapse. The PERPETRATOR ledger is genuinely thin and is left EMPTY rather than filled with an invented event. Pre-colonial Vanuatu was not a state but a mosaic of small chiefdoms and language groups; endemic intertribal warfare and ritual cannibalism existed (e.g. on Malekula into the 20th century), but this was small-scale raiding by stateless societies with no sourceable mass-death toll and no ruling elite or state as agent — it does not meet the perpetrator-ledger threshold of a major atrocity committed by a state, its forces, or ruling elites. Since independence in 1980 the Republic of Vanuatu has no documented mass atrocity: the only candidate, the 1980 Coconut War (the new government's suppression, with Papua New Guinean troops, of Jimmy Stevens's secessionist 'Vemerana' rebellion on Espiritu Santo), killed only a handful of people — Stevens's son was shot at a roadblock and Stevens surrendered — and was a state response to an armed secession, not a mass killing; US State Department human-rights reporting across recent decades records no government extrajudicial killings or disappearances. No perpetrator event is fabricated to balance the ledgers. Tolls for the victim events are population-decline figures, which are inherently estimates: sourced low and high ends are given, the disease-versus-killing mechanisms are kept explicit, and where a defensible number does not exist it is left null with a note.",
+  "events": [
+    {
+      "id": "vut-1",
+      "country": "VUT",
+      "role": "victim",
+      "title": "Post-contact demographic collapse of the New Hebrides (Aneityum and beyond)",
+      "era": "c.1830-1930",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The mass death was driven overwhelmingly by introduced epidemic disease against a population with no acquired immunity, compounded by social disruption from traders, missionaries and the labour trade — a demographic-collapse (STR) mechanism, not a deliberate campaign to destroy the people; the killing that did occur (escalating gun warfare after traders introduced rifles) is noted but kept separable from the disease toll.",
+      "agent": "European sandalwood traders, missionaries, planters and labour recruiters whose contact introduced epidemic diseases (dysentery, influenza, measles, whooping cough) and social upheaval across the New Hebrides; no single deliberate killer",
+      "toll": {
+        "display": "Aneityum alone: from ~3,800-20,000 at contact down to under 200 by 1930 (>96% loss); the wider archipelago lost the large majority of its population",
+        "disputed": true,
+        "low": 3600,
+        "high": 19800,
+        "unit": "deaths",
+        "note": "The toll is a population-DECLINE estimate, not a counted death toll. Aneityum is the best-documented island and is used as the archetype. Spriggs modelled a contact population around 1830 on the basis of the island's intensive irrigated-taro agriculture; a first informed European estimate in 1854 put it at about 3,800, and earlier/higher contact estimates range up to 9,000-20,000; by 1930 fewer than 200 people remained, a decline a 2025 peer-reviewed modelling study put at over 96 per cent. The low/high here bracket the most conservative (~3,800 down to <200, i.e. ~3,600 lost) against the higher contact estimate (~20,000 down to <200, i.e. ~19,800 lost) for Aneityum alone; the figure is NOT a whole-archipelago death count, which is not reliably quantified. The wider New Hebrides experienced comparably severe decline through the same period from epidemic disease (especially dysentery and influenza) plus reduced fertility and the drain of the labour trade. A widely repeated claim that the islands fell from '1 million in 1800 to 45,000 in 1935' is not supported by demographic scholarship and is treated as unreliable; it is excluded from the numeric range. AUDIT (2026-06-19): all three sources verified real and supporting their attached claims — Shanks et al. (2025, Journal of Pacific History), Spriggs (2007, in Kirch & Rallu eds., 'The Growth and Collapse of Pacific Island Societies', U. Hawai'i Press, pp. 278-305) with McArthur, and Shanks (2016, AJTMH). The 2025 modelling paper independently estimates a pre-contact Aneityum population of about 5,500 — below the JSON low-end contact figure (~3,800) used as the conservative anchor — so the low/high bracket (3,600/19,800) is conservative on the low side and tops out at the cited 9,000-20,000 contact range (Spriggs / Wikipedia-Aneityum). Tier independently re-derived as STR (disease-driven demographic collapse, not deliberate extermination), matching the assigned tier."
+      },
+      "received_lens": "memorial",
+      "summary": "After sustained European contact from the 1820s-1830s — sandalwood traders, then missionaries and planters — epidemics of dysentery, influenza, measles and whooping cough swept the New Hebrides, killing people who had no immunity to them, while traders' rifles fed escalating local warfare. On Aneityum, the best-studied island, a population estimated in the thousands at contact fell to under 200 by 1930. The collapse across the archipelago was among the steepest recorded in the Pacific.",
+      "relevance": "Vanuatu's people were nearly erased by forces that arrived with the outside world — disease and disruption — making them victims of a contact catastrophe they did not author; the country's own ledger of atrocities committed in its name is, by contrast, near-empty.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Shanks et al., 'Modelling of Epidemics Suggests Over 96 per cent Population Loss on Aneityum, Vanuatu, Following European Contact', Journal of Pacific History (2025) — models fertility/mortality from epidemics, supporting historical accounts of >96% decline",
+          "supports": "toll.high",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/00223344.2025.2553514",
+          "caveat": "Peer-reviewed modelling study; the >96% figure is a modelled estimate consistent with the documentary record, not a counted toll. Full text was paywalled (HTTP 403) at time of research; figures taken from the open abstract/title and corroborating secondary summaries."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Matthew Spriggs, 'Population in a Vegetable Kingdom: Aneityum Island (Vanuatu) at European Contact in 1830' — archaeological reconstruction of contact-era population from the island's intensive agricultural system; with Norma McArthur's depopulation studies (1967-81)",
+          "supports": "toll.low",
+          "url": "https://www.researchgate.net/publication/282577498_Population_in_a_Vegetable_Kingdom_Aneityum_Island_Vanuatu_at_European_Contact_in_1830",
+          "caveat": "Scholarly reconstruction; contact-population figures are estimates with a wide range. McArthur (1967-81) and Spriggs are the standard demographic authorities for Aneityum's decline."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "G. Dennis Shanks, 'Lethality of First Contact Dysentery Epidemics on Pacific Islands', American Journal of Tropical Medicine and Hygiene (2016) — bacillary dysentery as a leading cause of catastrophic early-contact island epidemics, citing depopulation of the New Hebrides",
+          "supports": "summary",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27185765/",
+          "caveat": "Peer-reviewed; abstract identifies Shigella dysentery as a principal lethal agent and references New Hebrides depopulation (Buxton 1926), but specific island percentages were not in the visible abstract."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "vut-2",
+      "country": "VUT",
+      "role": "victim",
+      "title": "The Pacific labour trade ('blackbirding') of ni-Vanuatu",
+      "era": "1863-1904",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "Ni-Vanuatu were taken — often by deception, coercion or outright kidnapping — to plantations in Queensland and Fiji, where they died at extreme rates from disease and harsh conditions; the mass death was structural (exploitative labour, exposure, epidemics in a captive population) rather than a deliberate program of extermination, hence STR, with the coercive recruitment and the killings during 'recruiting' noted.",
+      "agent": "British/Australian and Fijian plantation owners and the ship captains and 'recruiters' (blackbirders) who carried ni-Vanuatu off, with colonial governments that licensed and inadequately policed the trade",
+      "toll": {
+        "display": "~14,600+ recorded Islander deaths in Queensland (≈30% of those taken there) plus deaths in Fiji and during recruitment; the New Hebrides were a principal source",
+        "disputed": true,
+        "low": 14564,
+        "high": 15000,
+        "unit": "deaths",
+        "note": "Over 62,000 indenture contracts (about 50,000 individuals after re-enlistments) brought Pacific Islanders to Queensland between 1863 and 1904; the New Hebrides (with the Torres and Banks groups) were among the largest sources, supplying on the order of 30,000 of the Queensland total, and ni-Vanuatu also went to Fiji (about 23,000 Islanders overall) and to New Caledonia and Samoa. Per Prof. Clive Moore's analysis of Queensland government records, in excess of 14,564 Islander labourers died in Queensland between 1868 and 1906 (plus ~100 in 1863-67) — roughly a 30% death rate, the highest of any immigrant group in colonial Australia; first-year mortality ran at about 81 per 1,000, peaking at 14.7% in 1884. These figures are for ALL Queensland Islanders, not ni-Vanuatu alone; the ni-Vanuatu share is a large but not separately tallied fraction, so the low/high are deliberately narrow around the documented Queensland total and do not attempt a precise ni-Vanuatu-specific or all-destinations toll. Deaths during 'recruiting' raids and in transit, and deaths in Fiji, are additional and not fully counted. AUDIT (2026-06-19): both toll ends are sourced — toll.low (>14,564 Queensland Islander deaths 1868-1906) by Clive Moore via the Queensland State Archives blog (live, fetched successfully), toll.high/contract framing (>62,000 contracts; first-year mortality 81/1000) by the National Museum of Australia (page 403s on direct fetch but figures confirmed via search). The summary source was CORRECTED: the original Encyclopedia.com citation did not actually contain the 30,400 New Hebrides figure attached to it (its 'half the population in three years' line is about Easter Island/Tuvalu under Peruvian recruiting), so it was replaced with the verified Mortensen (2000) PacLII article that does carry the 30,400 figure — see that source's caveat. Tier independently re-derived as STR (structural mass death from coerced indentured labour, disease and harsh conditions, not deliberate extermination), matching the assigned tier."
+      },
+      "received_lens": "memorial",
+      "summary": "Between the 1860s and 1900s, labour ships worked the New Hebrides, carrying off tens of thousands of ni-Vanuatu — some lured by promises, many deceived or seized by force — to cut cane on plantations in Queensland and Fiji. At the height of the trade more than half the adult men of some islands were away. In Queensland alone government records show more than 14,000 Islander deaths, about a third of all those taken there, the worst death rate of any group brought to colonial Australia.",
+      "relevance": "A people stripped of its labouring men and buried by the thousand on foreign plantations is a victim of a trade run by others for others' profit — Vanuatu appears here purely as the wronged party, with no comparable record of atrocity committed in its own name.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Clive Moore, 'Australian South Sea Islanders' (Queensland State Archives, 2013), as cited in the Queensland State Archives blog — government records show >14,564 Islander deaths in Queensland 1868-1906 (plus ~100 in 1863-67); ~30% death rate; >62,000 contracts / ~50,000 individuals 1863-1904",
+          "supports": "toll.low",
+          "url": "https://blogs.archives.qld.gov.au/2016/05/27/australian-south-sea-islanders-in-queensland/",
+          "caveat": "Government-archive analysis by the leading historian of the trade; the death figure is for all Queensland Islanders, not ni-Vanuatu specifically. Government-source framing."
+        },
+        {
+          "kind": "reference",
+          "cite": "National Museum of Australia, 'Islander labourers' — >62,000 contracts to Queensland 1863-1904; first-year death rate 81 per 1,000; recruitment by deception and force; sources including the New Hebrides",
+          "supports": "toll.high",
+          "url": "https://www.nma.gov.au/defining-moments/resources/islander-labourers",
+          "caveat": "Australian government institution; authoritative overview but national in framing. Full page returned HTTP 403 at research time; figures corroborated via search summary and the Queensland Archives source."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "R. Mortensen, 'Slaving in Australian Courts: Blackbirding Cases, 1869-71', Journal of South Pacific Law vol. 4 (2000) — states that the New Hebrides, Torres and Banks Groups (that became Vanuatu) officially provided about 30,400 registered workers to Queensland; examines NSW/Queensland prosecutions for blackbirding (kidnapping) in Melanesian waters",
+          "supports": "summary",
+          "url": "https://www.paclii.org/journals/fJSPL/vol04/7.shtml",
+          "caveat": "AUDIT CORRECTION (2026-06-19): the original citation for this claim was Encyclopedia.com 'Blackbird Labor Trade', which on inspection does NOT contain the 30,400 New Hebrides-to-Queensland figure, and whose 'some islands lost more than half their population in three years' line refers to Easter Island (Rapa Nui) and Nukulaelae (Tuvalu) under Peruvian/Chilean recruiting, NOT the New Hebrides/Queensland trade — a misattribution. The 30,400 registered-workers figure is genuine and was traced to this Mortensen (2000) PacLII article (peer-reviewed legal-history journal), which now replaces the Encyclopedia.com cite. PacLII page returned HTTP 403 on direct fetch; the 30,400 figure and article identity (R. Mortensen, JSPL vol. 4, 2000) were confirmed via search-engine extraction of the page text and corroborating bibliographic records."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

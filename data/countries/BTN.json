@@ -1,0 +1,94 @@
+{
+  "iso": "BTN",
+  "name": "Bhutan",
+  "note": "The two ledgers here are markedly asymmetric, and that asymmetry is itself the finding. As perpetrator, the record is clear and well documented: between 1988 and the mid-1990s the Bhutanese state expelled roughly one-sixth of its own population — the Lhotshampa, ethnic Nepalis of the south — in one of the largest per-capita ethnic-cleansing campaigns of the late twentieth century, leaving over 100,000 stateless in camps in Nepal. As victim, Bhutan's history of being on the receiving end of mass atrocity is genuinely thin: the small, mountainous, never-colonised Buddhist kingdom fought few external wars, and the best-documented case — the 1864–65 Duar War against British India — was a territorial conquest with a modest battlefield toll (roughly 100–200 Bhutanese casualties), not a mass-death event. Earlier Tibetan and Tibetan-Mongol invasions of the seventeenth century are recorded but carry no sourceable death tolls, so they are not entered as events. The perpetrator ledger is therefore the heavier one, and no victim event has been invented to balance it. The Lhotshampa toll is given as a displacement count (people expelled), not a death count: no reliable figure exists for deaths during the campaign, though Amnesty International documented mass torture, rape and arbitrary detention, and that caveat is carried in the toll note.",
+  "events": [
+    {
+      "id": "btn-1",
+      "country": "BTN",
+      "role": "perpetrator",
+      "title": "The expulsion of the Lhotshampa",
+      "era": "1988–1996",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "The Bhutanese state stripped citizenship from and forcibly drove out an ethnolinguistic minority — the southern ethnic Nepalis — to engineer the country's demographic and cultural makeup; the deliberate expulsion of a group along ethnic and national lines, with documented torture and rape but no established mass-killing programme, places the act at POL (Human Rights Watch and others call it ethnic cleansing).",
+      "agent": "The Bhutanese government under King Jigme Singye Wangchuck and the Royal Bhutan Army / state security forces, acting on the 1985 Citizenship Act, the 1988 southern census and the 'One Nation, One People' (Driglam Namzha) policy",
+      "toll": {
+        "display": "~100,000–108,000 people expelled / made stateless (a displacement count, not a death toll)",
+        "disputed": false,
+        "low": 100000,
+        "high": 108000,
+        "unit": "deaths",
+        "note": "This figure counts PEOPLE EXPELLED AND MADE STATELESS, not deaths — there is no reliable death count for the campaign, so the toll is expressed as displacement and 'unit' should be read accordingly. Over 100,000 Lhotshampa, about one-sixth of Bhutan's population, were forced out and into UNHCR camps in southeastern Nepal; Human Rights Watch cites ~108,000 in the camps, and by end-1992 there were already more than 80,000. The campaign was accompanied by documented mass human-rights violations rather than mass killing: Amnesty International reported several thousand southern Bhutanese imprisoned and more than 2,000 tortured, and credible refugee and human-rights accounts describe security forces raping ethnic Nepali women in 1991–92, with some reported to have died as a result. Abuses peaked in the eighteen months after the September 1990 disturbances and declined significantly from mid-1992. No verified count of deaths during expulsion or in the camps exists; status is UNVERIFIED on the death question, though the displacement figure is well corroborated."
+      },
+      "received_lens": "denied",
+      "summary": "From 1988 the Bhutanese government, fearing that the growing ethnic-Nepali population of the south threatened the kingdom's Buddhist Drukpa identity, used a recategorising census, the 1985 Citizenship Act and a mandatory dress-and-culture code to reclassify the Lhotshampa as illegal immigrants. After protests in 1990, security forces raided southern villages, detained and tortured activists, and forced families to sign 'voluntary migration' forms renouncing their homes before driving them out. By the mid-1990s more than 100,000 had been expelled into camps in Nepal, where many remained stateless for two decades until third-country resettlement began in 2007.",
+      "relevance": "The dual-lens hinge for Bhutan: a small kingdom branded internationally as the gentle home of 'Gross National Happiness' carried out one of the era's largest per-capita ethnic expulsions against its own citizens, an act the state still largely denies.",
+      "status": "VERIFIED",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "Human Rights Watch, 'Bhutan's ethnic cleansing' (1 February 2008) — characterises the expulsion as ethnic cleansing, cites ~108,000 stateless Bhutanese in Nepal's camps, the discriminatory citizenship laws stripping one-sixth of the population, and forced renunciation of homes by security forces",
+          "supports": "summary",
+          "url": "https://www.hrw.org/news/2008/02/01/bhutans-ethnic-cleansing",
+          "caveat": "Human-rights advocacy organisation; authoritative on the framing and the camp population figure, but writes from a victim-advocacy standpoint."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Ethnic cleansing of Lhotshampa in Bhutan' and 'Lhotshampa', Wikipedia — the 1988 census reclassification, the 1989 Driglam Namzha dress mandate and removal of Nepali as a language of instruction, the 1988–1993 peak of expulsions, the 'over 100,000' / ~85,544 (2010) camp figures, and the ~one-sixth-to-35% population share",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Ethnic_cleansing_of_Lhotshampa_in_Bhutan",
+          "caveat": "Tertiary encyclopaedia; used for the policy chronology and the displacement range, not as the authority for any single number."
+        },
+        {
+          "kind": "report",
+          "cite": "Amnesty International, 'Bhutan: Human Rights Violations Against the Nepali-speaking Population in the South' (AI Index ASA 14/004/1992) and 'Bhutan: Forcible Exile' (ASA 14/004/1994) — documents, since late 1990, arbitrary arrest and detention without charge, ill-treatment and torture including rape, deaths in custody, and arrests of prisoners of conscience; several thousand southern Bhutanese imprisoned and more than 2,000 tortured, with arbitrary arrests, torture and rape escalating in 1991 and driving the exodus",
+          "supports": "tier",
+          "url": "https://www.amnesty.org/en/documents/asa14/004/1992/en/",
+          "caveat": "Audit (2026-06-19): the original citation attributed the '>2,000 tortured / several thousand imprisoned' figures to The Record (Nepal) article 'Bhutan's shame', but on verification that 2022 article (by Prasansha Rimal) does NOT carry those specific numbers — it relays AI's framing only. The figures trace to Amnesty International's own 1992/1994 reports, which are confirmed to exist and to document the torture/rape/detention pattern; the citation is re-pointed to the AI primary source. Human-rights organisation writing from a victim standpoint; cited for the documented torture/rape pattern that anchors the POL classification, not for a death count, which remains unestablished."
+        }
+      ]
+    },
+    {
+      "id": "btn-2",
+      "country": "BTN",
+      "role": "victim",
+      "title": "The Duar War and British annexation of the Duars",
+      "era": "1864–1865",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "British India invaded Bhutan, defeated it in open warfare and annexed roughly a fifth of its territory under the Treaty of Sinchula; this is a conventional war of imperial conquest with a modest battlefield toll, not a campaign of group destruction or demographic collapse, so it is classed WAR.",
+      "agent": "The British Empire / British Indian Army (punitive expedition under Sir Henry Tombs), invading Bhutan after the failure of Ashley Eden's 1863 mission",
+      "toll": {
+        "display": "~100–200 Bhutanese killed and wounded (battlefield casualties)",
+        "disputed": false,
+        "low": 100,
+        "high": 200,
+        "unit": "deaths",
+        "note": "Standard accounts give Bhutanese casualties of roughly 100–200 (killed and wounded combined; no clean killed-only breakdown is recorded) against British losses of about 40 killed and 100–150 wounded. This was a small five-month war, and the figure is a battlefield casualty count, not a civilian or mass-death toll. The far larger consequence was territorial and political: Bhutan lost about a fifth of its land — the Assam and Bengal Duars and the Dewangiri tract — in return for an annual subsidy, ceding the fertile lowlands that had underpinned its economy."
+      },
+      "received_lens": "memorial",
+      "summary": "After Britain's 1863 mission to Bhutan collapsed in mutual insult, British India declared war in November 1864 and sent columns into the southern foothills to seize the Duars — the fertile passes prized for tea cultivation and trade. The Bhutanese resisted, briefly retaking the post at Dewangiri, but a punitive expedition under Henry Tombs broke them, and the Treaty of Sinchula in November 1865 stripped Bhutan of about a fifth of its territory in exchange for a cash subsidy. The battlefield dead were few, but the kingdom permanently lost its richest lowlands to empire.",
+      "relevance": "Bhutan as victim of imperial conquest rather than of mass slaughter: the clearest case of an external power doing violence to the Bhutanese state, set against the much heavier perpetrator ledger of the Lhotshampa expulsion a century later.",
+      "status": "VERIFIED",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Duar War', Wikipedia — the 1864–65 timeframe, the British invasion and four-column advance, Bhutanese casualties of ~100–200 against ~40 British killed and 100–150 wounded, the Treaty of Sinchula, and the loss of about a fifth of Bhutan's territory including the Duars and Dewangiri",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Duar_War",
+          "caveat": "Audit (2026-06-19): verified to state both ends of the casualty range — '100 to 200' Bhutanese against '40 killed in action and 100 to 150 wounded' British — so it anchors both toll.low and toll.high. Tertiary encyclopaedia; casualty figures for this small nineteenth-century war are approximate and drawn from British military accounts (corroborated by onwar.com, which carries the same 100–200 / 40 figures)."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Duar War', FIBIwiki (Families in British India Society) — the course of the 1864–65 campaign (Britain's 12 November 1864 declaration, four-column advance into the southern foothills) and the Treaty of Sinchula (11 November 1865): cession of the Assam and Bengal Duars and the 83 km² Dewangiri tract for a 50,000-rupee annual subsidy",
+          "supports": "summary",
+          "url": "https://wiki.fibis.org/w/Duar_War",
+          "caveat": "Audit (2026-06-19): the original citation claimed this page gives 'British and Bhutanese casualty figures' and pointed it at toll.high — on verification the FIBIwiki page carries NO casualty numbers, so it cannot support the toll. Re-pointed to 'summary', which it does corroborate (campaign chronology + Treaty terms). Genealogical/military reference compiled from British colonial records."
+        }
+      ]
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

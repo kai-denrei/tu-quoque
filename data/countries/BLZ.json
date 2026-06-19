@@ -1,0 +1,165 @@
+{
+  "iso": "BLZ",
+  "name": "Belize",
+  "note": "Belize's ledger is structurally lopsided, and the reason is historical rather than a research gap: there was no sovereign Belizean state until independence in 1981, so for the entire span in which mass atrocity occurred on this soil the ruling power was first Spain and then Britain. The victim ledger is therefore where the documented mass-death sits — the Spanish-era demographic collapse and forced removal of the Maya, the British colony's African slavery, and the British colonial military campaigns that burned out the Maya villages of the north. The perpetrator side is genuinely thin. The closest thing to a LOCAL ruling elite committing atrocity is the British settler-loggers (the 'Baymen') who built the timber colony on enslaved African labour — a settler class ancestral to part of today's population — so the slavery event sits in BOTH ledgers: the enslaved Africans (and their descendants) are victims, while the Baymen master class are the named perpetrators. Independent Belize (post-1981), a small parliamentary democracy, has no documented mass-atrocity event; the human-rights record names police killings and prison conditions, not mass violence, so nothing post-independence is entered as a perpetrator event. We do not invent a Belizean state crime to balance the ledger. Several tolls are left null: for the Maya demographic collapse no Belize-specific counted figure exists, and the burned-village campaigns of 1867 left no recorded death count.",
+  "events": [
+    {
+      "id": "blz-1",
+      "country": "BLZ",
+      "role": "victim",
+      "title": "The Maya Collapse and the Removal of Tipu",
+      "era": "1500s–1707",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The bulk of the death was disease-driven demographic collapse following Spanish contact — smallpox, measles, yellow fever and malaria against populations with no immunity — which is structural mass death rather than a deliberate extermination; the 1707 forced removal of the surviving Tipu Maya was a coercive act of conquest but its lethality was indirect (dispersal, disease, the end of a people in place), so the event as a whole is tiered STR.",
+      "agent": "The Spanish crown and its missionaries and encomenderos, who carried the diseases, imposed the reducción/encomienda system, and in 1707 forcibly resettled the last independent Maya of Tipu",
+      "toll": {
+        "display": "no Belize-specific counted toll; regional decline estimated at roughly one-third to ninety percent",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "There is no reliable counted death toll for the Maya of what is now Belize. Scholarly estimates of disease-driven decline across the Maya/Mesoamerican world range from about a third of the population to as high as ~90% over the first century of contact (Lovell documents a >90% regional fall, ~260,000 to ~16,000, in the Guatemala Cuchumatán highlands between 1520 and 1683), but these are regional figures and largely population DECLINE (death plus collapsed birth rate and flight), not Belize-specific body counts. Concrete local numbers that do exist are settlement-scale: Tipu reached more than 1,000 people in the 1640s; some 300 Maya families (eight reducción settlements) were gathered there during the rebellions; in 1707 the surviving inhabitants — hundreds to low thousands — were marched out to Lake Petén Itzá in Guatemala. Tolls left null because no sourceable Belize death count exists; the null is an honest absence of data, not an unverified source. AUDIT 2026-06-19: all three sources verified to exist and support their attached claims (chronology, settlement figures, regional decline magnitude); the regional/non-Belize nature of the Lovell figure is correctly caveated."
+      },
+      "received_lens": "suppressed",
+      "summary": "Old World disease arrived ahead of and alongside the Spanish and gutted the Maya population of the territory across the sixteenth and seventeenth centuries; the Spanish then forced the survivors into mission-and-tribute reducciones, provoking the 1638 Tipu rebellion that briefly restored Maya self-rule, until Spanish soldiers retook the area in the 1690s and in 1707 marched the last free Maya of Tipu out of the country to Lake Petén Itzá, ending Maya independence in Belize.",
+      "relevance": "The founding atrocity of Belize's victim ledger was committed by a colonial power that never even fully governed the place — the Maya are Belize's people, and their destruction by Spain is 'done to them' with no Belizean state yet in existence to answer for anything.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'History of Belize (1506–1862)' — Spanish incursions from 1527, disease devastation of the indigenous population, Tipu's autonomy 1638–1696, and the 1707 forced resettlement of Tipu's inhabitants to Lago Petén Itzá",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/History_of_Belize_(1506-1862)",
+          "caveat": "Tertiary aggregator; used for the event chronology and the 1707 removal, not for any death count, which it does not provide."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Tipu rebellion' / '1638 Tipu rebellion' — ~300 Maya families, eight reducción settlements resettled at Tipu, the 1638 revolt against encomienda and reducción, and the collapse of Spanish control until the 1690s",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Tipu_rebellion",
+          "caveat": "Tertiary aggregator; the settlement-scale population figures (300 families, >1,000 at Tipu) come from this and the linked colonial accounts, not from a verified census."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "W. George Lovell and related Mesoamerican demographic scholarship — estimates that disease killed roughly a third to over half of Maya highland populations within a generation of contact, with regional figures cited as high as ~90%",
+          "supports": "toll.high",
+          "url": "https://storicamente.org/lovell_smallpox_cuchumatan_highlands_of_guatemala",
+          "caveat": "These are regional (Guatemala highlands / Mesoamerica) figures for population decline, NOT Belize-specific death counts; carried only to bound the scale of the collapse, which is why the numeric toll fields are left null. AUDIT 2026-06-19: verified — Lovell (Storicamente, 2021) documents a >90% regional fall (~260,000 to ~16,000, 1520–1683) in the Cuchumatán highlands; supports toll.high as a regional bound only."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "blz-2",
+      "country": "BLZ",
+      "role": "victim",
+      "title": "Slavery in the Bay Settlement",
+      "era": "c.1720s–1838",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "Chattel slavery as a sustained system of coerced labour, family separation, brutal punishment and lethal forest-camp conditions — structural mass suffering and death embedded in an economic order rather than a single massacre or a campaign of extermination, so STR.",
+      "agent": "The British settler-loggers ('Baymen') of the Bay of Honduras settlement, who imported and held the enslaved Africans, under the British crown",
+      "toll": {
+        "display": "~3,000 enslaved at a time (≈3/4 of the population) in the late 1700s; no aggregate death count",
+        "disputed": false,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "No aggregate death toll exists for slavery in the settlement. The documented figure is a standing enslaved population of around 3,000 in the second half of the eighteenth century, roughly three-quarters of the total population, drawn principally from the Bight of Biafra, the Congo basin and Angola. Mortality was real — isolated mahogany-cutting camps, harsh punishment, contemporary reports of 'extreme inhumanity' — but it was not tallied, so deaths are left null rather than guessed."
+      },
+      "received_lens": "memorial",
+      "summary": "From the early eighteenth century the British timber settlers of the Bay of Honduras imported enslaved Africans to cut logwood and mahogany, holding around 3,000 people — about three-quarters of the population — in scattered forest camps under conditions a contemporary report called 'horrible barbarity'; the enslaved revolted in 1765, 1768, 1773 and 1820 before Britain's abolition took full effect in 1838.",
+      "relevance": "This is the one event that sits in BOTH of Belize's ledgers — the enslaved Africans and their Creole descendants are the victims, while the Baymen master class, the nearest thing the territory had to a local ruling elite, are the named perpetrators.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Slavery in Belize' — Baymen importing enslaved Africans from the early 18th century; ~3,000 enslaved (≈3/4 of population) in the late 1700s; revolts of 1765, 1768, 1773 and 1820; emancipation completed 1838",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Slavery_in_Belize",
+          "caveat": "Tertiary aggregator; the ~3,000 standing-population figure is well attested but is a count of the enslaved, not a death toll. AUDIT 2026-06-19: verified — the article gives the ~3,000 / three-quarters figure, the Biafra/Congo/Angola origins, the 1765/1768/1773/1820 revolts and the 'extreme inhumanity' report. The 'toll.low' tag is nominal: low is null because this is a standing-population count, not a death count."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'History of Belize (1506–1862)' — a 1724 missionary account of British slave-importing from Jamaica and Bermuda, the ~3,000 / three-quarters figure, the 1820 revolt led by Will and Sharper, and the 1833/1838 abolition",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/History_of_Belize_(1506-1862)",
+          "caveat": "Tertiary aggregator; corroborates the slavery chronology and population share. AUDIT 2026-06-19: verified — confirms the 1724 missionary account, the ~3,000 / three-quarters figure, the 1820 Will-and-Sharper revolt, and the 1833/1838 abolition."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "blz-3",
+      "country": "BLZ",
+      "role": "victim",
+      "title": "The British War on the Northern Maya",
+      "era": "1866–1872",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "A colonial counter-insurgency: British forces fought the Icaiche and San Pedro Maya over land and tribute, burning a string of villages in 1867 and killing Maya combatants in 1872 — atrocity embedded in armed conflict and aimed at breaking Maya resistance and presence in the north, not at exterminating a people, so WAR.",
+      "agent": "British colonial authorities of British Honduras and the West India Regiment",
+      "toll": {
+        "display": "30–50 Maya killed at Orange Walk (1872); seven villages burned (1867), no recorded death count",
+        "disputed": false,
+        "low": 30,
+        "high": 50,
+        "unit": "deaths",
+        "note": "The 30–50 figure is the Maya dead at the Battle of Orange Walk on 1 September 1872, where ~150–180 Icaiche under Marcus Canul attacked a 39-man West India Regiment detachment; Canul was fatally wounded. The British also lost 2 dead and 14 severely wounded. The 1867 British punitive expedition burned seven Maya villages — Cerro, Chunbalche, Naranjal, San José, San Pedro, Santa Cruz and Santa Teresa — but left no recorded death or displacement count, so only the Orange Walk combat toll is numeric here."
+      },
+      "received_lens": "contested",
+      "summary": "When the Icaiche Maya leader Marcus Canul resisted British demands for land rent — routing a British detachment at San Pedro Yalbac in December 1866 — the British colonial government answered in 1867 by burning seven Maya villages in the north with Congreve rockets, and in 1872 fought off Canul's assault on Orange Walk, killing 30 to 50 of his men and mortally wounding Canul himself.",
+      "relevance": "In Belize the Maya are again the victims and the colonial state the perpetrator — and the same Caste War that drove these clashes is itself 'done to them' for the Maya across the border in Mexico's ledger.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Battle of Orange Walk' — 1 Sept 1872, ~150–180 Icaiche Maya under Marcus Canul vs 39 West India Regiment; 30–50 Maya killed (Canul mortally wounded), 2 British dead, 14 wounded; the 1866 Battle of San Pedro Yalbac and the 1867 Congreve-rocket counter-offensive that burned seven named villages",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Orange_Walk",
+          "caveat": "Tertiary aggregator; the casualty range (30–50) is as reported there and is a combat estimate, not an exact count. AUDIT 2026-06-19: verified — the article gives '30 to 50 men killed', 2 British killed / 14 severely wounded, Canul mortally wounded, the 150–180 Icaiche force vs a 39-man West India Regiment detachment, the 1866 San Pedro Yalbac rout, and all seven 1867 burned villages by name. Both ends of the 30–50 toll are sourced as a single range from this reference."
+        },
+        {
+          "kind": "press",
+          "cite": "Belize Hub, 'The Battle of Orange Walk' / belize-travel-blog (Chaa Creek), 'Marcus Canul' — Belizean popular-history accounts of the 1866 raid, the 1867 village burnings and the 1872 battle",
+          "supports": "summary",
+          "url": "https://www.belizehub.com/battle-of-orange-walk/",
+          "caveat": "Belizean popular-history / tourism site presenting Canul sympathetically (resistance framing); used for narrative corroboration of dates and place-names, not for figures. AUDIT 2026-06-19: verified — page exists and corroborates the 1866 raid, the 1867 Congreve-rocket burning of all seven named villages, and the 1872 battle; bias toward Canul-as-resistance-figure is disclosed."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "blz-4",
+      "country": "BLZ",
+      "role": "perpetrator",
+      "title": "Slavery in the Bay Settlement (the masters' side)",
+      "era": "c.1720s–1838",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "Viewed from the perpetrator side, the same system of chattel slavery — coerced labour, family separation, brutal punishment and lethal camp conditions imposed for profit by a local master class — is structural atrocity in service of an economic order, so STR.",
+      "agent": "The British settler-loggers ('Baymen'), the local timber-owning master class who held the enslaved Africans",
+      "toll": {
+        "display": "~3,000 enslaved held at a time (≈3/4 of the population), late 1700s; no aggregate death count",
+        "disputed": false,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "Same underlying event as blz-2, entered from the perpetrator side. The documented figure is a standing enslaved population of about 3,000 — roughly three-quarters of the total population — in the late eighteenth century; no aggregate death toll was recorded, so deaths are null. This is the one local ruling elite the territory had before the colonial state proper, which is why it is the sole perpetrator entry."
+      },
+      "received_lens": "contested",
+      "summary": "The Baymen — the British logging settlers who governed the Bay of Honduras settlement before it became a formal colony — built their timber economy on enslaved African labour, holding around three-quarters of the population in bondage and meeting the revolts of 1765–1820 with force, until Britain's emancipation took full effect in 1838.",
+      "relevance": "The only entry in Belize's perpetrator ledger, and deliberately the same event as blz-2 seen from the other side: a settler class that was both victim-adjacent (a small colony repeatedly overrun and exploited) and itself the owner of enslaved people — the dual lens inside one society.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Slavery in Belize' — Baymen as the importing and owning class; ~3,000 enslaved (≈3/4 of population); a contemporary report of 'extreme inhumanity'; revolts of 1765, 1768, 1773, 1820",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Slavery_in_Belize",
+          "caveat": "Tertiary aggregator; names the Baymen as the slaveholding class and gives the population share, but records no death toll. AUDIT 2026-06-19: verified — confirms the Baymen as the importing/owning class, the ~3,000 / three-quarters figure, the 'extreme inhumanity' report and the 1765–1820 revolts. Single-source perpetrator entry, but the source is verified and the nulls are an honest absence of any recorded death tally."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}
