@@ -1,0 +1,179 @@
+{
+  "iso": "TKM",
+  "name": "Turkmenistan",
+  "note": "Both ledgers are populated and roughly symmetric in weight. On the victim side, the Turkmen suffered the Russian Empire's storming of Geok Tepe in 1881 — the founding trauma of the modern national narrative, now state-commemorated — and the Soviet dismantling of nomadic society through collectivization, the Basmachi suppression, and the 1937-38 Great Terror. On the perpetrator side, before the Russian conquest Turkmen tribes (above all the Teke and Yomut) were the principal slave-raiders of Central Asia, seizing tens of thousands of Persians and Russians for the Khivan and Bukharan markets; in the present, the post-Soviet Turkmen state under Saparmurat Niyazov built one of the world's most closed dictatorships and ran a documented system of enforced disappearances. Soviet-era death tolls specific to the Turkmen SSR are poorly quantified in the available scholarship (population-decline rather than precise death-counts), so those figures are given as nulls or ranges with caveats rather than invented precision.",
+  "events": [
+    {
+      "id": "tkm-1",
+      "country": "TKM",
+      "role": "victim",
+      "title": "The Storming of Geok Tepe",
+      "era": "1880-1881",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "A military assault and pursuit by an invading imperial army that turned into the mass slaughter of a fleeing population, but framed within a colonial conquest campaign rather than a program to exterminate the Turkmen as a people.",
+      "agent": "Russian Imperial forces under General Mikhail Skobelev (with Aleksey Kuropatkin)",
+      "toll": {
+        "low": 14500,
+        "high": 20000,
+        "unit": "deaths",
+        "display": "~14,500-20,000 Turkmen dead",
+        "disputed": true,
+        "note": "Skobelev's own report counted ~6,500 bodies inside the fortress plus ~8,000 killed in the pursuit (~14,500); other estimates run to 15,000 or even 20,000. About 5,000 women and children were spared and ~600 Persian slaves freed. AUDIT 2026-06-19: both ends of the range are independently sourced -- low (~14,500) from Skobelev's official report figures (6,500 + 8,000), high (15,000-20,000) from scholarly estimates and Skobelev's own 'nearly 20,000' boast; all figures confirmed verbatim against Wikipedia and search."
+      },
+      "received_lens": "memorial",
+      "summary": "In January 1881 a Russian army besieged the Teke Turkmen fortress of Geok Tepe, tunneled under the wall, and detonated a mine. Russian troops poured through the breach, killed the men inside, then ran down and slaughtered thousands of civilians fleeing across the desert. The defeat ended organized Turkmen resistance and made the region part of the Russian Empire.",
+      "relevance": "The same Turkmen tribes that built Central Asia's slave economy were, within a generation, themselves cut down by the thousands by an empire that justified the killing as a lesson in pacification.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, \"Battle of Geok Tepe\" (citing Skobelev's report and scholarly estimates)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Geok_Tepe",
+          "caveat": "Tertiary encyclopedia aggregating contested casualty estimates; the high end derives in part from Skobelev's own boastful claims."
+        },
+        {
+          "kind": "press",
+          "cite": "RFE/RL, \"Geok-Tepe Massacre: Forgetting To Remember In Turkmenistan\" (2015)",
+          "supports": "summary",
+          "url": "https://www.rferl.org/a/qishloq-ovozi-turkmenistan-geok-tepe-massacre-memory-day/26789027.html",
+          "caveat": "News/analysis piece; page returned HTTP 403 on direct fetch and was used via search summary and corroborating sources."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, \"Halk Hakydasy Memorial Complex\" (Ashgabat state memorial to the Geok Tepe dead, opened 2014)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Halk_Hakydasy_Memorial_Complex",
+          "caveat": "Tertiary source; documents state commemoration, not casualty figures."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "tkm-2",
+      "country": "TKM",
+      "role": "victim",
+      "title": "Soviet Collectivization, Basmachi Suppression, and the Great Terror in the Turkmen SSR",
+      "era": "1929-1938",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "A state campaign of forced sedentarization, dekulakization, and political purge that killed and displaced large numbers of Turkmen and destroyed their nomadic society and clergy, driven by political-economic transformation and terror rather than outright extermination.",
+      "agent": "The Soviet state under Joseph Stalin (OGPU/NKVD and Communist Party authorities)",
+      "toll": {
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "display": "tens of thousands killed or driven into exile (no reliable Turkmen-specific death count)",
+        "disputed": true,
+        "note": "Sources describe 'large numbers' of Turkmen killed resisting collectivization and mass flight to Iran and Afghanistan, but do not give a verified Turkmen SSR death toll; the figure is unquantified. Of 441 mosques in 1911, only five survived by 1941, marking the scale of the assault on religious life. AUDIT 2026-06-19 QUARANTINE: all three sources verified real and support the framing (Facts and Details confirms 'death of large numbers', flight to Iran/Afghanistan, and the 441->5 mosque figure verbatim; Aytakov's 28 Oct 1938 execution confirmed; the Hlevnjuk/Cahiers du Monde russe article is confirmed real on Persee). Status remains UNVERIFIED solely because NO numeric death toll is sourced on EITHER end (low=null, high=null) -- honest gap, not fabricated. Tier POL re-derived as correct (political-economic terror campaign, not EXT/group-extermination, not STR/structural)."
+      },
+      "received_lens": "suppressed",
+      "summary": "From the late 1920s Moscow confiscated tribal lands, forced nomadic Turkmen onto cotton collectives, and crushed the armed Basmachi resistance that fought into the mid-1930s. Religious institutions were nearly wiped out, the Turkmen political leadership was purged, and figures such as republic head Nedirbay Aytakov were shot in the 1937-38 Great Terror; many Turkmen fled across the borders rather than submit.",
+      "relevance": "Having lost their independence to one empire at Geok Tepe, the Turkmen had their entire way of life dismantled by its successor state, which then erased much of the documentary record of how many died.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Facts and Details, \"Turkmenistan Under Russia and the Soviet Union\" (summarizing collectivization, Basmachi deaths, and anti-religious repression)",
+          "supports": "summary",
+          "url": "https://factsanddetails.com/central-asia/Turkmenistan/sub8_7a/entry-4802.html",
+          "caveat": "Compilation site aggregating secondary sources; gives qualitative scale ('large numbers') rather than verified death counts."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, \"Nedirbay Aytakov\" (chairman of the Turkmen Central Executive Committee, executed in the Great Purge)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Nedirbay_Aytakov",
+          "caveat": "Tertiary biographical source."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "O. Hlevnjuk (Khlevniuk), trans. O. Bobrinskoy, \"Les mecanismes de la 'Grande Terreur' des annees 1937-1938 au Turkmenistan,\" Cahiers du Monde russe 39 (1-2), 1998, pp. 197-207",
+          "supports": "tier",
+          "url": "https://www.persee.fr/doc/cmr_1252-6576_1998_num_39_1_2519",
+          "caveat": "AUDIT 2026-06-19: article confirmed real and openly hosted on Persee (URL added); original cite had wrong page range (was '197-209', corrected to 197-207 per the journal record) and omitted translator O. Bobrinskoy. Supports the existence and framing of the Great Terror in Turkmenistan, not a specific toll; the article body was not read in full."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "tkm-3",
+      "country": "TKM",
+      "role": "perpetrator",
+      "title": "Turkmen Slave Raids on Persia and Russia (the Alaman)",
+      "era": "c. 1700-1873",
+      "era_band": "pre-colonial",
+      "tier": "STR",
+      "tier_reasoning": "A sustained, predatory raiding system that captured and trafficked tens of thousands into bondage and killed those who resisted, as a structural feature of tribal economy rather than a single organized massacre.",
+      "agent": "Turkmen tribes, principally the Teke and Yomut, raiding to supply the Khivan and Bukharan slave markets",
+      "toll": {
+        "low": null,
+        "high": 1000000,
+        "unit": "deaths",
+        "display": "tens of thousands enslaved per generation; on the order of ~1 million Persians taken into Central Asian bondage over the first half of the 19th c.",
+        "disputed": true,
+        "note": "These are primarily captives, not deaths: ~29,300 Persian slaves were found in Khiva alone at the 1873 Russian conquest; an estimated ~1 million Persians (plus unknown Russians, ~200 Russians/year by 1830) were enslaved across the khanates in the early 19th century. Death counts from the raids themselves are not separately quantified, so the 'unit' here strains the schema -- the harm is mass enslavement and the killing incidental to it. AUDIT 2026-06-19: every figure (29,300 at 1873; ~1 million in first half of 19th c.; 200 Russians/yr by 1830; Teke/Yomut alaman raids) confirmed verbatim against Wikipedia 'Khivan slave trade'; Facts and Details corroborates. high=1,000,000 is sourced (captives, disclosed); low=null is honest -- raid death counts genuinely unquantified. Tier STR re-derived as correct (multi-generational structural raiding system, not a single massacre)."
+      },
+      "received_lens": "denied",
+      "summary": "For generations before the Russian conquest, Turkmen tribes ran the raiding parties (alaman) that fed Central Asia's slave trade, seizing Persian pilgrims and farmers and Russian and German settlers and selling them into the markets of Khiva and Bukhara. The Teke and Yomut were the most feared raiders; their captives were worked, sold, and held in bondage until tsarist Russia suppressed the trade in 1873.",
+      "relevance": "The people whose massacre at Geok Tepe became their national wound were, a generation earlier, the region's foremost slavers — the dual lens in a single century.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, \"Khivan slave trade\" (Turkmen alaman raids; ~29,300 Persian slaves in Khiva at 1873; ~1 million Persians enslaved in early 19th c.)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Khivan_slave_trade",
+          "caveat": "Tertiary source; the ~1 million figure is a scholarly estimate over decades and counts captives, not deaths."
+        },
+        {
+          "kind": "reference",
+          "cite": "Facts and Details, \"Rival Khanates, Cruelty and Slavery in Central Asia\" and \"Turkmen and the People of Turkmenistan\"",
+          "supports": "summary",
+          "url": "https://factsanddetails.com/central-asia/Central_Asian_Topics/sub8_8c/entry-4512.html",
+          "caveat": "Compilation of secondary/colonial-era accounts; some underlying travelogues were hostile European observers, so tone should be read critically."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "tkm-4",
+      "country": "TKM",
+      "role": "perpetrator",
+      "title": "Enforced Disappearances under the Niyazov and Berdimuhamedow Regimes",
+      "era": "2002-present",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "A targeted state campaign of enforced disappearance, incommunicado imprisonment, and deaths in custody aimed at political opponents and their families, smaller in scale than mass killing but a deliberate political crime.",
+      "agent": "The Turkmen state, under President Saparmurat Niyazov (and continued under Gurbanguly Berdimuhamedow)",
+      "toll": {
+        "low": 29,
+        "high": 162,
+        "unit": "deaths",
+        "display": "162 documented enforced disappearances; at least 29 confirmed dead in custody",
+        "disputed": false,
+        "note": "The 162 figure is total documented disappearance cases since 2002 (the Prove They Are Alive 2021 report), not 162 deaths; 29 of those are confirmed to have died in custody, with the true death toll likely higher given prison conditions and state secrecy. The 'unit' label overstates: most of the 162 are disappeared/imprisoned, not killed. AUDIT 2026-06-19: both ends confirmed against the primary report at the cited URL (162 cases since 2002; 29 died in custody) -- exact verbatim match. Single-source toll (both low and high from the same Prove They Are Alive 2021 documentation), flagged here, but the source is rigorous primary advocacy documentation that explicitly calls itself a floor. Tier POL re-derived as correct (targeted political-repression crime, not EXT/STR)."
+      },
+      "received_lens": "denied",
+      "summary": "After a November 2002 attack on Niyazov's motorcade, the regime arrested officials, opposition figures, and their relatives, convicted dozens in show trials, and made them vanish into the prison system, where some were tortured into staged confessions. Independent monitors have since documented 162 enforced disappearances, at least 29 of whom have died in custody, in one of the world's most closed police states.",
+      "relevance": "The independent Turkmen state, born from the trauma of foreign conquest, became a perpetrator against its own citizens, disappearing them as thoroughly as any empire ever did.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "Prove They Are Alive! campaign, \"List of the Disappeared in Turkmenistan's Prisons\" 2021 report (162 documented cases, 29 died in custody, disappearances 2002-2018)",
+          "supports": "toll.low",
+          "url": "https://provetheyarealive.org/disappeared_list_2021/",
+          "caveat": "Advocacy coalition (rights NGOs); figures are their verified case documentation, which they note is a floor given state secrecy."
+        },
+        {
+          "kind": "press",
+          "cite": "Eurasianet / OMCT reporting on the November 2002 motorcade attack and ensuing 2003 show trials and disappearances",
+          "supports": "summary",
+          "url": "https://eurasianet.org/turkmen-president-nizayov-survives-assassination-attempts",
+          "caveat": "Press and rights-NGO accounts; the regime's own narrative of the attack is disputed, including exile claims it was staged as a pretext. AUDIT 2026-06-19: URL returned HTTP 403 on direct fetch but appears verbatim in search indexing and is corroborated by parallel reporting (RFE/RL, CACI, Eurasianet anniversary piece) on the 25 Nov 2002 motorcade attack, mass detention of relatives, and torture-marred show trials."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

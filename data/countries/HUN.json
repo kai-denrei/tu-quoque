@@ -1,0 +1,172 @@
+{
+  "iso": "HUN",
+  "name": "Hungary",
+  "note": "Hungary's ledgers are bound together by a single catastrophe seen from two sides. The country's deepest victim memory is medieval — the Mongol storm of 1241–42 that may have killed a quarter to a half of the population — and twentieth-century, in the murder of more than half a million Hungarian Jews, who were Hungarian citizens before they were Nazi targets. But that same Holocaust is also Hungary's heaviest perpetrator entry: it was the Hungarian gendarmerie, acting for the Sztójay government, that ghettoised and loaded nearly 440,000 of its own Jews onto trains to Auschwitz in eight weeks of 1944, and the home-grown Arrow Cross that later shot Jews into the Danube. Hungarian forces had already massacred Serbs, Jews and Roma at Novi Sad in 1942. The dual lens here is not two separate stories but one event read honestly from both ends — the murdered were Hungary's people, and so were many of those who handed them over. Tiers tag the act, not the nation.",
+  "events": [
+    {
+      "id": "hun-1",
+      "country": "HUN",
+      "role": "victim",
+      "title": "The Mongol Invasion (Battle of Mohi & the Devastation)",
+      "era": "1241–42",
+      "era_band": "pre-colonial",
+      "tier": "WAR",
+      "tier_reasoning": "A conquering army shattered the Hungarian field force at Mohi and then killed and enslaved across the countryside, with famine following the destruction — mass death in the course of conquest rather than a programme to exterminate the Hungarians as a people.",
+      "agent": "The Mongol army of the Golden Horde, under Batu Khan with Subutai as field commander",
+      "toll": {
+        "display": "~200,000 to ~1 million dead (roughly 20–50% of a ~2 million population)",
+        "disputed": true,
+        "low": 200000,
+        "high": 1000000,
+        "unit": "deaths",
+        "note": "Figures are population-decline estimates, not a death count — no contemporary census exists. Hungarian historiography splits between two schools: György Györffy, reading abandoned villages in land charters, argued about half the kingdom's ~2 million people died in the invasion and the ensuing famine; Stephen Pow's archaeological and settlement work argues the destruction was severe but partial, closer to 20–25% overall, with far heavier losses (50–80%) on the Great Hungarian Plain and in Transylvania than in Transdanubia. The low end (~200,000) reflects the lower percentage applied to the ~2 million figure; the high end (~1 million) the ~50% reading. Deaths conflate battle, massacre, enslavement and post-invasion famine."
+      },
+      "received_lens": "memorial",
+      "summary": "In April 1241 the Mongols destroyed the Hungarian army at the Sajó River near Mohi, then spread across the kingdom, killing and enslaving across the Great Hungarian Plain and Transylvania. Settlements were burned, those who resisted were killed outright, and famine followed the wrecked harvests. When the Mongols withdrew in 1242, contemporary chronicles described a depopulated land; modern scholars estimate somewhere between a fifth and a half of the population had died.",
+      "relevance": "The founding catastrophe of Hungarian victim memory — proof that the people who would later run the trains of 1944 had themselves been on the receiving end of conquest and mass death seven centuries earlier.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Laszlovszky, Pow, Romhányi, Ferenczi & Pinke, 'Contextualizing the Mongol Invasion of Hungary in 1241–42: Short- and Long-Term Perspectives', Hungarian Historical Review 7:3 (2018), pp. 419–450 (via Medievalists.net summary) — argues destruction was unevenly distributed and concentrated in the Great Hungarian Plain, i.e. severe but partial, contra Györffy's ~50%",
+          "supports": "toll.low",
+          "url": "https://www.medievalists.net/2019/08/contextualizing-the-mongol-invasion-of-hungary-in-1241-42-short-and-long-term-perspectives/",
+          "caveat": "The Medievalists.net summary confirms the article's 'uneven, Plain-concentrated' thesis but states no overall percentage; the ~20–25% national reading in the toll.note rests on the full article and on Engel's ~15–20% estimate (~20% in Transdanubia), not on the summary page itself."
+        },
+        {
+          "kind": "reference",
+          "cite": "New World Encyclopedia, 'Mongol invasion of Europe' — 'A devastating Mongol invasion killed half of Hungary's population'; Batu Khan nominal commander, Subutai field commander; Battle of Mohi (11 April 1241)",
+          "supports": "toll.high",
+          "url": "https://www.newworldencyclopedia.org/entry/Mongol_invasion_of_Europe",
+          "caveat": "Tertiary encyclopedia; the 'half the population' figure is the high (Györffy) end of a live scholarly dispute, not a settled count."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "hun-2",
+      "country": "HUN",
+      "role": "victim",
+      "title": "The Murder of Hungarian Jewry",
+      "era": "1941–45",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "Hungary's Jews were singled out and destroyed as a group — deported to extermination and shot at home — the defining case of deliberate annihilation of a people, here Hungary's own citizens.",
+      "agent": "Nazi Germany (SS, Eichmann's Sonderkommando) together with the Hungarian state — the Sztójay government, the Royal Hungarian Gendarmerie, and the Arrow Cross",
+      "toll": {
+        "display": "~564,000 Hungarian Jews killed (1941–45)",
+        "disputed": false,
+        "low": 550000,
+        "high": 569000,
+        "unit": "deaths",
+        "note": "Randolph Braham, the leading historian of the Hungarian Holocaust, put the dead at just over 564,000 between 1941 and 1945. The USHMM gives approximately 550,000 killed out of about 825,000 Jews under Hungarian control. The bulk died at Auschwitz-Birkenau, where roughly 320,000–330,000 of the ~437,000 deported in May–July 1944 were gassed on arrival; earlier deaths include the ~16,000–23,000 murdered at Kamianets-Podilskyi in 1941 and forced-labour and Arrow Cross killings. The range reflects different counting boundaries, not doubt about the genocide."
+      },
+      "received_lens": "memorial",
+      "summary": "Of roughly 825,000 Jews under Hungarian control, more than 550,000 were murdered. After Germany occupied Hungary in March 1944, the Hungarian gendarmerie ghettoised the provincial Jews and, between 15 May and 9 July, deported about 437,000 of them to Auschwitz in 147 trains; the SS gassed most on arrival. When the Arrow Cross seized power that October, its members shot Jews into the Danube in Budapest and drove others on death marches. These were Hungarian citizens, killed as Jews.",
+      "relevance": "The largest mass killing of Hungarians in the nation's history was the killing of Hungarian Jews — and it is the same event that fills the perpetrator ledger, because the hands that loaded the trains were largely Hungarian.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Randolph Braham, via 'The Holocaust in Hungary' — 'just over 564,000 Hungarian Jews died between 1941 and 1945'",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/The_Holocaust_in_Hungary",
+          "caveat": "Tertiary aggregator relaying the figure of Braham, the field's leading authority; the underlying source is Braham's scholarship, not Wikipedia."
+        },
+        {
+          "kind": "reference",
+          "cite": "USHMM Holocaust Encyclopedia, 'The Holocaust in Hungary' — ~550,000 of ~825,000 Jews under Hungarian control killed; ~437,000 deported May–July 1944",
+          "supports": "toll.low",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/the-holocaust-in-hungary",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "hun-3",
+      "country": "HUN",
+      "role": "perpetrator",
+      "title": "Deportation of Hungarian Jews to Auschwitz",
+      "era": "1944",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "The Hungarian state ghettoised and deported its Jewish citizens to a death camp in the knowledge they would be killed, and home-grown fascists shot thousands more — Hungarian participation in the deliberate destruction of a group.",
+      "agent": "The Hungarian state — the Sztójay government, the Royal Hungarian Gendarmerie under László Ferenczy, Interior officials László Endre and László Baky, and later the Arrow Cross under Ferenc Szálasi",
+      "toll": {
+        "display": "~437,000 deported (~320,000–330,000 gassed on arrival); tens of thousands more killed by the Arrow Cross",
+        "disputed": false,
+        "low": 320000,
+        "high": 437000,
+        "unit": "deaths",
+        "note": "Hungarian gendarmerie records (Ferenczy) counted 434,351 deported by 9 July 1944 in 147 trains; the German plenipotentiary Veesenmayer reported 437,402. Of these, roughly 320,000–330,000 — over 75% — were gassed at Auschwitz immediately on arrival; about 100,000 were selected for labour, many of whom also died. The Arrow Cross then killed tens of thousands more in Budapest from October 1944, shooting Jews into the Danube and on death marches. The low figure counts those gassed on arrival; the high counts all deported by the Hungarian authorities."
+      },
+      "received_lens": "contested",
+      "summary": "After Germany occupied Hungary in March 1944, the Hungarian government did the on-the-ground work of the deportations itself. The Royal Hungarian Gendarmerie ghettoised the provincial Jews, guarded the transit camps, and forced about 437,000 people onto freight trains to Auschwitz between mid-May and early July — a pace that astonished even the SS. Hungarian officials Endre and Baky organised it; Eichmann's small German team supervised. When the Arrow Cross took power that autumn, it added its own massacres in Budapest.",
+      "relevance": "The hardest fact for Hungarian memory: the destruction of Hungarian Jewry was not simply done to Hungary by Germans — it was carried out by Hungary's own police and government against Hungary's own citizens, which is why the event sits on both ledgers at once.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "USHMM Holocaust Encyclopedia, 'Deportation of Hungarian Jews' — Hungarian gendarmerie, under German guidance, deported ~440,000 Jews 15 May–9 July 1944; most gassed at Auschwitz on arrival",
+          "supports": "toll.high",
+          "url": "https://encyclopedia.ushmm.org/content/en/timeline-event/holocaust/1942-1945/deportation-of-hungarian-jews",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "'The Holocaust in Hungary' (relaying Ferenczy's gendarmerie count and Veesenmayer's report) — 434,351–437,402 deported in 147 trains by 9 July 1944; Endre and Baky orchestrated, gendarmerie gave 'enthusiastic help'",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/The_Holocaust_in_Hungary",
+          "caveat": "Tertiary aggregator; the deportation tallies trace to the Hungarian gendarmerie's own records (Ferenczy) and the German plenipotentiary Veesenmayer's reports."
+        },
+        {
+          "kind": "press",
+          "cite": "Auschwitz-Birkenau Memorial and Museum, 'Deportations of Hungarian Jews to Auschwitz' — ~325,000–330,000 (>75% of deportees) killed in gas chambers on arrival",
+          "supports": "toll.low",
+          "url": "https://www.auschwitz.org/en/museum/news/deportations-of-hungarian-jews-to-auschwitz-new-online-lesson,1089.html",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "hun-4",
+      "country": "HUN",
+      "role": "perpetrator",
+      "title": "The Novi Sad Raid & Bačka Reprisals",
+      "era": "1942",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Hungarian occupation forces, hunting partisans, instead rounded up and shot thousands of Serb, Jewish and Roma civilians in occupied Yugoslavia — mass killing of civilians in the conduct of an occupation.",
+      "agent": "The Royal Hungarian Army and gendarmerie in occupied Bačka, under General Ferenc Feketehalmy-Czeydner, ordered by Chief of Staff Ferenc Szombathelyi",
+      "toll": {
+        "display": "~3,000–4,000 civilians killed across the Bačka raids (~1,300 in Novi Sad city)",
+        "disputed": true,
+        "low": 3000,
+        "high": 4116,
+        "unit": "deaths",
+        "note": "Estimates for the January 1942 Bačka raids cluster around 3,000–4,000 dead. The Serbian historian Zvonimir Golubović's widely accepted count is 3,809 (2,578 Serbs, 1,068 Jews, 64 Roma, plus smaller groups); Hungary's own wartime interior minister Keresztes-Fischer cited 3,755; R. J. Rummel gave 3,200; the Holocaust scholar Leni Yahil put it at 4,116. Within this, the Novi Sad city massacre of 21–23 January accounted for roughly 1,300, including about 800 Jews and 500 Serbs shot at the Danube. The range reflects differing scholarly counts, not doubt that the massacre occurred."
+      },
+      "received_lens": "contested",
+      "summary": "In January 1942, on the pretext of crushing a small partisan group, the Royal Hungarian Army and gendarmerie sealed off Novi Sad and the surrounding Bačka region of occupied Yugoslavia. Over several days in deep cold, soldiers dragged Serbs, Jews and Roma from their homes and shot them, in Novi Sad lining victims up at the frozen Danube and pushing the bodies into the river. Across the region some 3,000–4,000 civilians were killed. Hungary itself tried the commanders in 1943, but they escaped to Germany before sentencing.",
+      "relevance": "Two years before the deportations, Hungarian uniforms were already massacring civilians abroad — a perpetrator entry that long predates and is distinct from the German occupation, undercutting any claim that Hungary's crimes were only ever someone else's doing.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Novi Sad raid' — Golubović 3,809 (2,578 Serbs, 1,068 Jews, 64 Roma); Keresztes-Fischer 3,755; Rummel 3,200; Yahil 4,116; carried out by Royal Hungarian Army under Feketehalmy-Czeydner, ordered by Szombathelyi",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Novi_Sad_raid",
+          "caveat": "Tertiary aggregator collating the published figures of Golubović, Rummel, Yahil and the Hungarian wartime interior ministry; toll spread reflects genuine scholarly variation."
+        },
+        {
+          "kind": "reference",
+          "cite": "Yad Vashem, 'Hungarian policemen and soldiers standing over murdered Jews in Novi Sad, January 1942' — Hungarian constabulary marched Jews and Serbs to the Danube at ~-25°C and shot them, pushing the bodies into the river",
+          "supports": "summary",
+          "url": "https://www.yadvashem.org/holocaust/this-month/january/1942-3.html",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

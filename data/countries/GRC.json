@@ -1,0 +1,150 @@
+{
+  "iso": "GRC",
+  "name": "Greece",
+  "note": "Researched 2026-06-19 from scratch (no prior seed). Both ledgers are populated, but they are asymmetric in weight, and that asymmetry is itself the dual-lens point. Greek national memory is built around victimhood — the genocide of the Anatolian and Pontic Greeks at Ottoman and Kemalist hands (1914–1923) and the mass starvation of the Axis occupation (1941–1944) — and that suffering is real and large. But the same war that ended in the Smyrna catastrophe began with a Greek invasion of Anatolia, and during that occupation and especially the 1922 retreat the Hellenic Army and Greek-led irregulars massacred Muslim civilians and burned western Anatolian towns in a documented scorched-earth campaign that an Inter-Allied Commission called a systematic plan of destruction. That perpetrator record is far smaller in scale than what was done to Greeks, and it sits inside the same conflict — but it is real, contemporary observers (Toynbee, the Gehri/Red Cross commission, US and French representatives) documented it, and an honest ledger records it rather than letting the victim story stand alone. Tolls on the genocide and the famine diverge across an order of magnitude and are nationally and internationally contested (Turkey denies the genocide label); low and high ends are separately sourced. The Greek Civil War (1946–1949), with atrocities by both the Greek state and the communist insurgency, is a further candidate for a future internal-perpetrator entry not included here.",
+  "events": [
+    {
+      "id": "grc-1",
+      "country": "GRC",
+      "role": "victim",
+      "title": "The Greek genocide (Anatolian and Pontic Greeks)",
+      "era": "1914–1923",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "A campaign of massacre, death marches, forced deportation and forced conversion aimed at destroying the Ottoman Empire's Greek Orthodox Christian population as such, so EXT; the targeting was on the basis of group identity, not military conduct.",
+      "agent": "The Ottoman Empire under the Committee of Union and Progress (the Three Pashas — Talat, Enver, Djemal) and then the Kemalist Turkish National Movement under Mustafa Kemal Atatürk",
+      "toll": {
+        "display": "~300,000–1,000,000 deaths (Pontic region alone ~300,000–360,000)",
+        "disputed": true,
+        "low": 300000,
+        "high": 1000000,
+        "unit": "deaths",
+        "note": "Estimates diverge by more than threefold and are politically charged. Rudolph Rummel's democide figure is about 347,000 Ottoman Greeks killed (84,000 in 1914–18, 264,000 in 1919–22) — verified on the Greek genocide reference page. Academic estimates for the whole 1914–1922 period span roughly 289,000–750,000 (the 289,000 floor is the bottom of the cited academic range, not — as an earlier draft of this record stated — Adam Jones's figure; Jones in fact suggests 750,000). The Pontic Greek community alone is commonly estimated at 300,000–360,000 dead (~353,000 per the Pontic reference page). The Greek government with the Ecumenical Patriarchate, and some researchers (e.g. Thea Halo, ~1.2 million), claim up to about 1,000,000+. The lower bound here (300,000) is the conservative scholarly floor for the whole Greek-Ottoman population; the upper (1,000,000) is the maximal national/Patriarchate claim, verified on both the reference page and the Genocide Watch overview. AUDIT NOTE: the previously cited 'Erik Sjöberg cautious 300,000–700,000 range' could not be confirmed as Sjöberg's own death-toll estimate — his work ('The Making of the Greek Genocide', 2017) is about contested memory, not a casualty figure — so that attribution has been removed; the toll bounds do not depend on it. No civil registration survived to give an exact count, and Turkey disputes both the figures and the genocide label."
+      },
+      "received_lens": "contested",
+      "summary": "From 1914, the Young Turk regime targeted the Ottoman Empire's Greek Orthodox population — on the Aegean coast and above all in Pontus on the Black Sea — with deportations, death marches into the Anatolian interior, labour battalions, massacres and forced conversion; after a brief pause the Kemalist movement continued the killing through 1923. Hundreds of thousands died, and the survivors were uprooted in the population exchange that ended the Greek presence in Anatolia after nearly three millennia.",
+      "relevance": "This is the core of Greek victim memory and is recognised as genocide by several states and the International Association of Genocide Scholars — yet the conflict's other half, the Greek invasion and occupation of Anatolia, is where Greece itself acted as perpetrator (grc-3).",
+      "_audit": "VERIFIED 2026-06-19. All three sources exist and support their claims (Greek genocide, Pontic Greek genocide, Genocide Watch — last carries an appropriate advocacy-bias caveat). Toll bounds independently sourced: low (300k) = Pontic floor + Rummel 347k; high (1,000,000) = Greek-govt/Patriarchate claim, confirmed on both the reference page and Genocide Watch. Tier EXT independently re-derived and upheld: targeting of a religious/ethnic group as such via death marches, massacres and forced conversion is extermination (EXT), not deprivation (STR) or military conduct (WAR). Two cite-level accuracy fixes applied: 289,000 was mis-tied to Adam Jones (it is the academic-range floor; Jones=750,000), and an unconfirmable Sjöberg 300k–700k range was removed. Neither affects the toll bounds.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Greek genocide overview — perpetrators (CUP / Three Pashas, then Kemalist forces); academic death-toll range ~289,000–750,000 (289,000 = range floor; ~347,000 = Rummel; 750,000 = Adam Jones; ~1,200,000 = Thea Halo), with the Greek government/Patriarchate claiming ~1,000,000; IAGS 2007 recognition; Turkish denial. Source verified 2026-06-19; figures and attributions confirmed against the live page (correcting an earlier draft that wrongly tied 289,000 to Adam Jones)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Greek_genocide",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Pontic Greek genocide overview — ~353,000 Pontic Greeks killed and ~1.5 million expelled 1914–1923; perpetration by the Ottoman state, Young Turks and Turkish National Movement; death marches, massacres, deportations",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Pontic_Greek_genocide",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "Genocide Watch, 'The Greek Genocide of 1914–1923' — overview of phases under the Young Turks and Kemalists, methods, and the broad ~1–1.5 million victim range cited by advocacy and Greek sources",
+          "supports": "summary",
+          "url": "https://www.genocidewatch.com/single-post/2020/09/15/the-greek-genocide-of-1914-1923",
+          "caveat": "Genocide Watch is an advocacy organisation that campaigns for recognition; it tends toward the higher end of the toll range and frames the events firmly as genocide."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "grc-2",
+      "country": "GRC",
+      "role": "victim",
+      "title": "The Great Famine of the Axis occupation",
+      "era": "1941–1944",
+      "era_band": "modern",
+      "tier": "STR",
+      "tier_reasoning": "Mass death from starvation and hunger-related disease caused by occupation plunder, blockade and economic collapse rather than a program to exterminate a group; demographic catastrophe driven by deprivation, so STR.",
+      "agent": "The German, Italian and Bulgarian occupation forces, who plundered food and requisitioned harvests; compounded by the British naval blockade that cut off imports and by the collaborationist government's failure to feed the population",
+      "toll": {
+        "display": "~70,000 (Nazi-era claim) to ~300,000 deaths; commonly cited ~250,000–300,000",
+        "disputed": true,
+        "low": 70000,
+        "high": 300000,
+        "unit": "deaths",
+        "note": "There are no accurate counts because civil registration broke down during the occupation. The Nazi regime claimed about 70,000 famine deaths at the time — the low end here, treated with suspicion as an occupier's self-serving figure. This 70,000 low bound is sourced to the Great Famine (Greece) reference page (\"Nazi claim at the time: ~70,000\"), verified 2026-06-19. Commonly cited scholarly and reference estimates run ~250,000–300,000 deaths over the occupation (roughly 5% of the population), with about 150,000 in the catastrophic first year and mortality peaking in the winter of 1941–42, when Athens recorded on the order of 300 deaths a day per German army records and far higher per Red Cross estimates. Violetta Hionidou's monograph is the standard study. QUARANTINE / AUDIT 2026-06-19: an earlier draft cited the PMC mortality article (Rachiotis et al.) as giving \"~91,000 excess deaths in a Jan. 1944–July 1945 window\" to illustrate the lower methodological bound. On falsification this is WRONG: the PMC article exists and is on-topic for occupied Greece, but it does NOT contain that figure — the ~91,000 / Jan.1944–July.1945 statistic comes from a study of the NETHERLANDS hunger winter (1944–45), not Greece, and was cross-contaminated into this record. The misattributed claim has been struck; the PMC citation is retained only as general topical support (it documents that malnutrition/famine drove 40–70% of winter 1941–42 deaths, e.g. 1,314 of 3,096 Athens deaths in Jan. 1942), and the genuine low bound rests on the Nazi-claim figure above. This citation defect is why the event is marked UNVERIFIED pending a clean low-bound scholarly source."
+      },
+      "received_lens": "memorial",
+      "summary": "When the Axis overran Greece in 1941, German and Italian forces stripped the country of food and the Bulgarians sealed off the grain-rich north, while a British naval blockade cut imports; prices of bread rose roughly ninety-fold and people starved to death in the streets of Athens and Piraeus through the winter of 1941–42. Somewhere around a quarter of a million Greeks died of hunger and hunger-related disease before relief shipments were allowed through.",
+      "relevance": "The famine anchors Greece's memory of itself as a brutalised occupied nation — the same victim register as the genocide — and stands opposite the country's own perpetrator record in Anatolia two decades earlier (grc-3).",
+      "_audit": "UNVERIFIED 2026-06-19. Cause of the flag: the toll.low (70,000) was supported by a citation whose attached statistic was FALSE — the PMC article (Rachiotis et al.) does not contain the '~91,000 excess deaths, Jan.1944–July.1945' figure; that statistic is from a Netherlands hunger-winter study and was cross-contaminated into this record. The PMC source itself is real and on-topic and has been repointed to support the summary only; the genuine 70,000 low bound is now sourced to the Great Famine (Greece) reference page (verified). The toll.high (300,000) source verifies, and the Hionidou H-Net review (Dimitriadou, H-German 2007) is real and verifies the standard-study attribution. Tier STR independently re-derived and UPHELD: this is mass death from starvation and hunger-related disease caused by plunder/blockade/economic collapse — a deprivation-driven demographic catastrophe (STR), explicitly NOT an extermination program (so not EXT). Remaining defect keeping it UNVERIFIED: the low bound now rests on a single occupier-self-serving number (70,000) plus the high-end reference; a clean independent SCHOLARLY source for the low methodological bound is still wanted.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Great Famine (Greece) overview — ~300,000 deaths during the 1941–44 occupation (~150,000 in 1941); Nazi-claimed ~70,000; causes given as Axis plunder/requisitions, the British naval blockade, Bulgarian grain restrictions and economic collapse; bread price up ~90x; Athens ~300 deaths/day (Red Cross up to ~400, peaks ~1,000) winter 1941–42. Verified 2026-06-19: this page supports BOTH the toll.low (Nazi-claimed ~70,000) and toll.high (~300,000) bounds",
+          "supports": "toll.high; toll.low",
+          "url": "https://en.wikipedia.org/wiki/Great_Famine_(Greece)",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Violetta Hionidou, Famine and Death in Occupied Greece, 1941–1944 (Cambridge UP, 2006) — first comprehensive study; estimates on the order of 250,000–300,000 famine deaths (~5% of the population); reviewed and summarised via H-Net and review essays",
+          "supports": "summary",
+          "url": "https://networks.h-net.org/node/35008/reviews/44999/dimitriadou-hionidou-famine-and-death-occupied-greece-1941-1944",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Rachiotis, Papagiannis, Dardavesis & Behrakis, 'Mortality and morbidity from infectious and non-communicable diseases in Greece during Axis/Nazi military occupation (1941–1944)' (PMC8929728) — documents that malnutrition/famine accounted for 40–70% of deaths in winter 1941–42 (e.g. 1,314 of 3,096 Athens deaths in Jan. 1942, 42.5%). Source verified to exist and be on-topic 2026-06-19. NOTE: this article does NOT support the previously attached '~91,000 excess deaths, Jan.1944–July.1945' claim, which on verification belongs to a Netherlands famine study and was struck; this citation now supports only the general famine-mortality picture, NOT either numeric toll bound",
+          "supports": "summary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8929728/",
+          "caveat": "Misattribution found and quarantined during audit: the 91,000/1944–45 figure formerly tied to this source was a cross-contaminated Netherlands statistic and has been removed. The genuine toll.low (70,000) is sourced to the Great Famine (Greece) reference page instead."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "grc-3",
+      "country": "GRC",
+      "role": "perpetrator",
+      "title": "Massacres and scorched-earth in occupied Anatolia (Yalova, Manisa and the 1922 retreat)",
+      "era": "1919–1922",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Mass killing and systematic destruction of civilian settlements during an invasion and occupation, targeting Muslim communities for their location and ethnicity rather than as a declared program to exterminate the Turkish people, so WAR.",
+      "agent": "The Hellenic (Greek) Army of occupation, together with Greek, Armenian and Circassian irregular bands operating under Greek direction; the 1922 town burnings were ordered as a scorched-earth policy by the retreating Greek command",
+      "toll": {
+        "display": "low thousands–~10,000+ Muslim civilians killed across the campaign (single events: Manisa ~hundreds–4,355; Menemen ~1,000; Yalova ~300+ killed, 27 villages burned)",
+        "disputed": true,
+        "low": 1000,
+        "high": 10000,
+        "unit": "deaths",
+        "note": "No reliable aggregate count exists and figures are politicised on both sides. Documented components: the Menemen massacre (16–17 June 1919) — Turkish sources and a June-18 delegation claim ~1,000 killed, but the October 1919 Inter-Allied Commission REJECTED 1,000 as exaggerated and found ~100–200 killed (a French officer's day-after count: 200 dead, 200 wounded); the Commission held the Greeks solely responsible. (AUDIT 2026-06-19: an earlier draft stated Menemen ~1,000 as if a settled figure; corrected here to show it is the contested high claim, with the Commission's lower finding the more conservative basis for the ~1,000 aggregate low bound.) The Yalova Peninsula massacres (1920–21): the Inter-Allied Commission under Maurice Gehri (Geneva Red Cross), May 1921, found 'a systematic plan of destruction of Turkish villages and extinction of the Moslem population' — 27 villages burned, only ~1,500 of 7,000 Muslims remaining, Toynbee counting ~300 directly killed April–July 1921; Ottoman archives claim 5,500–9,100 deaths (contested, survivors suggest many fled rather than were killed). The September 1922 scorched-earth retreat: the Hellenic Army burned Manisa (90% destroyed; US Vice-Consul Park 'well into thousands', Turkish sources 4,355: 855 shot + 3,500 burned), Alaşehir (~3,000 claimed) and Salihli. The low bound (~1,000) reflects firmly documented direct killings (Menemen ~100–200 + Toynbee's Yalova ~300 + other documented killings); the high (~10,000+) aggregates the contested town-burning tolls. Turkish-state figures (e.g. Justin McCarthy's) run higher and are criticised by many scholars as biased toward Turkey; Greek accounts minimise. The Smyrna catastrophe deaths (~30,000 Greeks and Armenians) were inflicted by Turkish forces and belong to Turkey's perpetrator ledger, not here."
+      },
+      "received_lens": "denied",
+      "summary": "After landing at Smyrna in May 1919, the Greek army occupied western Anatolia and, with allied irregular bands, killed Muslim civilians and burned villages — the Menemen massacre within weeks of landing, and the Yalova Peninsula campaign that an Inter-Allied Commission under the Red Cross's Maurice Gehri called a systematic plan of destruction of Turkish villages. When the army was routed in 1922 it retreated under a deliberate scorched-earth policy, burning Manisa, Alaşehir and other towns as it fell back to the sea.",
+      "relevance": "The catastrophe Greeks remember as pure victimhood — the burning of Smyrna and the end of Greek Anatolia — was the endpoint of a war Greece started by invading, during which Greek forces were themselves documented perpetrators against Muslim civilians; the same conflict fills both a Greek victim entry and this perpetrator one.",
+      "_audit": "VERIFIED 2026-06-19. All three sources exist and support their claims: the Yalova Peninsula massacres page (Gehri/Red Cross 'systematic plan of destruction', 27 villages, 1,500 of 7,000, Toynbee ~300 — all confirmed), the Fire of Manisa page (90% burned Sept 5–8 1922, Park 'well into thousands', Turkish 4,355, Alaşehir+Salihli — all confirmed), and the List of massacres during the Greco-Turkish War page (confirmed to catalogue Greek-perpetrated Menemen/Yalova/Manisa/Alaşehir, to flag McCarthy as Turkey-biased, and to attribute Smyrna-area killings to Turkish forces). Both toll bounds sourced. Tier WAR independently re-derived and UPHELD: mass killing and systematic destruction of civilian settlements during an invasion/occupation, targeting Muslim communities by location/ethnicity but not as a declared program to exterminate the Turkish people as such — WAR, not EXT. One framing fix applied: Menemen ~1,000 was the contested high claim that the Inter-Allied Commission explicitly rejected (it found ~100–200); the note now records both and bases the conservative low bound on the Commission finding. No fabricated sources.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Yalova Peninsula massacres overview — Inter-Allied Commission (May 1921, headed by Maurice Gehri of the Red Cross) found 'a systematic plan of destruction of Turkish villages and extinction of the Muslim population'; 27 villages burned; ~1,500 of 7,000 Muslims remaining; Toynbee's ~300 killed; perpetrators 'undisciplined parts of the Hellenic Army' and Greek/Armenian/Circassian bands under Greek direction",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Yalova_Peninsula_massacres",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Fire of Manisa overview — 5–8 Sept. 1922, retreating Hellenic Army deliberately burned ~90% of the town (US Vice-Consul Park: 10,300 houses etc.; deaths 'well into thousands'; Turkish sources 4,355); part of the systematic scorched-earth retreat that also burned Alaşehir and Salihli",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Fire_of_Manisa",
+          "caveat": "House/casualty counts come variously from US and French observers and from Turkish sources; the higher death figures are Turkish-state estimates and are contested."
+        },
+        {
+          "kind": "reference",
+          "cite": "List of massacres during the Greco-Turkish War (1919–1922) — catalogues Greek-perpetrated incidents including Menemen (~1,000), Yalova, Manisa, Alaşehir; notes that some attributed tolls (e.g. via Justin McCarthy) face scholarly criticism as biased toward Turkey, and that the İzmit/Smyrna mass killings were Turkish-perpetrated",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/List_of_massacres_during_the_Greco-Turkish_War_(1919%E2%80%931922)",
+          "caveat": "A massacre-list compilation drawing on partisan national historiographies on both sides; individual entries vary in reliability and several tolls are disputed."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

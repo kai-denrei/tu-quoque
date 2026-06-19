@@ -1,0 +1,172 @@
+{
+  "iso": "BLR",
+  "name": "Belarus",
+  "note": "Belarus's ledger is one of the atlas's most lopsided, and the asymmetry is historical fact rather than a research gap. The land that is now Belarus was, for the whole modern atrocity era, never a sovereign actor: it was the Byelorussian SSR inside the Soviet Union, then a theatre of German occupation in 1941–1944, then Soviet again until 1991. So almost everything 'done to them' was done by outside states — the Soviet NKVD at Kurapaty, then the German occupier — and the country sits among the very worst-hit places on earth: roughly a quarter of its prewar population died in the Second World War, more than 600 villages were wiped out with their inhabitants, and the centuries-old Belarusian Jewish world was almost entirely destroyed. The 'in their name' side is genuinely thin because there was no Belarusian state to act in. The one real perpetrator entry is the participation of Belarusian collaborators — the Auxiliary Police and Schuma battalions — in the German extermination and anti-partisan terror, a smaller, locally-staffed share of a German-led machine, not an independent Belarusian campaign. The post-1991 Lukashenka regime is the first genuinely Belarusian state, and it has tortured, jailed and disappeared its own citizens (thousands beaten in the 2020 crackdown, a documented dozen-plus protest-linked deaths, ~1,500 political prisoners), but that repression — real and ongoing — sits below the mass-death scale of this atlas's tiers, so it is recorded here in the note rather than inflated into a fabricated toll.",
+  "events": [
+    {
+      "id": "blr-1",
+      "country": "BLR",
+      "role": "victim",
+      "title": "The German Occupation and Destruction of Belarus",
+      "era": "1941–1944",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "A deliberate occupation regime that killed through mass shooting of civilians, scorched-earth 'anti-partisan' village destruction, starvation of prisoners of war and a hunger policy — organised lethal violence against a population to subjugate and exploit it, so POL rather than EXT (the genocide of the Jews is carried as its own EXT event).",
+      "agent": "Nazi Germany — Wehrmacht, SS, Order Police and anti-partisan units under the occupation administration, with Baltic, Ukrainian and local Belarusian auxiliaries",
+      "toll": {
+        "display": "~1.6 million murdered; ~2.2–2.3 million total war dead",
+        "disputed": true,
+        "low": 1600000,
+        "high": 2300000,
+        "unit": "deaths",
+        "note": "The lower figure (~1.6–1.7M) is a scholarly breakdown of those murdered by the occupier within Belarus — roughly 700,000 Soviet POWs, 500,000–550,000 Jews, ~345,000 in anti-partisan 'pacification', and ~100,000 others. The higher figures (~2.2M counted by the Soviet Extraordinary State Commission — ChGK figure 2,219,316 civilians and POWs; ~2.29M in Erlikman's death-by-country reckoning, ~25.3% of a ~9.05M prewar population) fold in combat dead and broader war losses; the exact total is still disputed and official Belarusian commemoration uses 'more than two million'. Belarus's population fell from ~9.2M in 1941 to ~6.3M by late 1944. AUDIT (2026-06-19): both toll ends independently confirmed — toll.low breakdown verified on the National Memorial page, toll.high verified via the WWII-casualties tabulation (Erlikman 2.29M / 25.3%) and the ChGK 2,219,316 figure. Citation-fit caveat: the summary's '629 villages annihilated / 5,454 burned' are genuine, widely-published Belarusian commemoration figures (Smithsonian-confirmed) but vary in the cited tertiary pages, which carry 627 totally destroyed / 5,295 destroyed total; the Khatyn massacre fact (149 killed, ~70–75 children) IS supported by the cited Khatyn page."
+      },
+      "received_lens": "memorial",
+      "summary": "Under German occupation Belarus became one of the deadliest places on earth: the occupier shot civilians en masse, starved Soviet prisoners in camps, and waged 'anti-partisan' campaigns that razed villages with their people inside — at Khatyn on 22 March 1943 the inhabitants were herded into a barn and burned alive. The inhabitants of 629 villages were murdered outright and over 5,400 more villages were burned, while a quarter of the prewar population died.",
+      "relevance": "Belarus appears here almost purely as victim — a land with no state of its own, ground between the Soviet and German war machines — which is exactly why its perpetrator ledger is so thin.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Breakdown of those murdered in occupied Belarus (~1.6–1.7M: ~700k POWs, ~500–550k Jews, ~345k anti-partisan victims, ~100k others), as reported in the Belarus WWII casualty literature",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/National_Memorial_of_the_Republic_of_Belarus",
+          "caveat": "Tertiary aggregator; the component figures derive from scholarship on the occupation rather than a single counted census. Audit (2026-06-19): page verified to carry the exact 1.6–1.7M breakdown (700k POWs, 500–550k Jews, 345k anti-partisan, 100k others)."
+        },
+        {
+          "kind": "reference",
+          "cite": "World War II casualties by country — Belarus ~2.29M deaths (Erlikman), ~25.3% of a ~9.05M prewar population; Soviet Extraordinary State Commission (ChGK) counted 2,219,316",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/World_War_II_casualties",
+          "caveat": "The ~2.2M Soviet commission figure (ChGK 2,219,316) was compiled by the occupied/victor state and is widely treated as an upper, partly population-loss-based estimate (some researchers now argue it is undervalued, citing ~3M); cross-checked against an independent death-by-country tabulation (Erlikman 2.29M / 25.3%). Audit (2026-06-19): both the WWII-casualties tabulation and the ChGK 2,219,316 figure independently verified."
+        },
+        {
+          "kind": "reference",
+          "cite": "Khatyn massacre and the scale of village destruction — 149 killed at Khatyn (75 children), 629 villages annihilated with their inhabitants, 5,454 more burned",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Khatyn_massacre",
+          "caveat": "Tertiary aggregator; Khatyn was also instrumentalised by Soviet and later Lukashenka-era memory politics, so it is used here for the documented event facts, not the surrounding 'genocide of the Belarusian people' framing. Audit note: this page supports the Khatyn figures (149 killed, ~70–75 children) and the scale of destruction (it states 5,295 settlements burned); the specific '629 annihilated / 5,454 burned' pair is the standard Belarusian commemoration set (Smithsonian-confirmed) and is verifiable, though the cited page itself uses the 5,295 / 627 numbers."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "blr-2",
+      "country": "BLR",
+      "role": "victim",
+      "title": "The Holocaust in Belarus",
+      "era": "1941–1943",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "The systematic mass murder of the Jews of Belarus through ghetto liquidations and shooting operations — the deliberate destruction of a people as such, so EXT.",
+      "agent": "Nazi Germany — Einsatzgruppen, SD, Order Police battalions and the Dirlewanger Brigade, with Baltic, Ukrainian and Belarusian auxiliary participation",
+      "toll": {
+        "display": "~500,000–800,000 Belarusian Jews murdered",
+        "disputed": true,
+        "low": 500000,
+        "high": 800000,
+        "unit": "deaths",
+        "note": "Estimates of the share of Belarusian Jewry murdered run from ~500,000–550,000 (about 80%) to ~800,000 (about 90%). The dispute turns partly on shifting borders and on whether refugees and Jews from elsewhere killed on Belarusian soil are counted; in either reckoning the great majority of the prewar Jewish community was destroyed. The Trostenets killing site near Minsk alone is associated with very large numbers (Soviet-era ChGK estimate of ~206,500, including non-Jews and deportees from elsewhere; Belarus's Prosecutor General now claims ≥546,000 for the wider complex). AUDIT (2026-06-19): both toll ends (500–550k/80% low, 800k/90% high) confirmed on the cited Holocaust-in-Belarus page; the Trostenets ~206,500 ChGK figure independently verified."
+      },
+      "received_lens": "memorial",
+      "summary": "From the first days of occupation in summer 1941 German killing squads shot the Jews of Belarus, beginning with men and the intelligentsia and widening to whole communities; ghettos in Minsk, Babruysk, Hrodna and dozens of towns were liquidated in 1941–1943, the victims marched to pits and shot, with local police identifying and rounding up neighbours who could not have been found otherwise.",
+      "relevance": "The destruction of one of Europe's oldest Jewish heartlands sits in Belarus's victim ledger — while the local auxiliaries who helped carry it out appear, separately, in its perpetrator ledger.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "The Holocaust in Belarus — lower estimate ~500,000–550,000 Jews murdered (~80% of the community)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/The_Holocaust_in_Belarus",
+          "caveat": "Tertiary aggregator; figures vary with interwar/postwar border definitions, noted in the toll."
+        },
+        {
+          "kind": "reference",
+          "cite": "The Holocaust in Belarus — higher estimate ~800,000 Jews murdered (~90% of the community)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/The_Holocaust_in_Belarus",
+          "caveat": "Tertiary aggregator; the high end folds in larger border definitions and Jews from elsewhere killed on Belarusian territory. Audit (2026-06-19): the cited page verified to carry both the ~800,000/90% high and the ~500–550k/80% low explicitly."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "blr-3",
+      "country": "BLR",
+      "role": "victim",
+      "title": "Kurapaty and the Stalinist Terror in Soviet Belarus",
+      "era": "1937–1941",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "Mass execution of citizens for fabricated political crimes during the Great Terror — killing aimed at perceived political enemies of the state rather than at the destruction of an ethnic group, so POL.",
+      "agent": "The Soviet NKVD (Belarus was then the Byelorussian SSR, so the perpetrating state was the USSR, not a Belarusian government)",
+      "toll": {
+        "display": "~7,000 to 250,000 buried at Kurapaty (count contested, archives sealed)",
+        "disputed": true,
+        "low": 7000,
+        "high": 250000,
+        "unit": "deaths",
+        "note": "Kurapaty is one site near Minsk, not the whole Belarusian terror. Estimates of its dead range from ~7,000 (a Belarusian prosecutor's low figure, Bozhelko) through ~30,000 (the 1989 government commission / prosecutor Tarnaŭski minimum) and ~100,000 up to ~102,000–250,000 (Pazniak and others). The exact number is unknown because the relevant KGB/NKVD archives in Belarus remain closed to researchers — so the count is genuinely unverifiable, not merely contested. QUARANTINE (audit 2026-06-19): the SOURCES are sound — both the Kurapaty reference page and the Sciences Po / Alexandra Goujon scholarly study were confirmed to exist and to survey this exact 7k→30k→250k range, NKVD perpetrator, 1937–1941, sealed archives. Event remains UNVERIFIED solely because the underlying toll is epistemically unknowable while the archives stay shut (not a source failure)."
+      },
+      "received_lens": "contested",
+      "summary": "In the forest at Kurapaty on the edge of Minsk the Soviet NKVD shot people in the back of the head and buried them in pits through the years of Stalin's Great Terror; when the mass graves were uncovered in 1988 the discovery helped ignite Belarus's national revival, but the regime has since let the count stay murky and the archives stay shut.",
+      "relevance": "A reminder that the worst killing of Belarusians before the German invasion was done by the Soviet state Belarus was part of — perpetrator and victim collapse into the same political space.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Kurapaty — low official figure ~7,000 (prosecutor Bozhelko); minimum ~30,000 from the 1988–1995 investigation",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Kurapaty",
+          "caveat": "Tertiary aggregator; the lowest figures come from Belarusian state prosecutors and are contested by independent researchers as understatements. Audit (2026-06-19): page verified to carry the 7,000 (Bozhelko) low, 30,000 (Tarnaŭski / 1989 commission) minimum, and 102,000–250,000 (Pazniak) high, NKVD perpetrator, 1937–1941, archives classified."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Sciences Po Mass Violence and Resistance — 'Kurapaty (1937–1941): NKVD Mass Killings in Soviet Belarus', survey of estimates up to ~250,000",
+          "supports": "toll.high",
+          "url": "https://www.sciencespo.fr/mass-violence-war-massacre-resistance/en/document/kurapaty-1937-1941-nkvd-mass-killings-soviet-belarus",
+          "caveat": "The very highest figures (~102,000–250,000, Pazniak) are activist/national-movement estimates made when the site was a political symbol; the true count is unverifiable while NKVD archives stay sealed. Audit (2026-06-19): document confirmed to exist — 'Kurapaty (1937–1941): NKVD Mass Killings in Soviet Belarus' by Alexandra Goujon, surveying the 7k→30k→250k range."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "blr-4",
+      "country": "BLR",
+      "role": "perpetrator",
+      "title": "Belarusian Collaborator Participation in the Occupation Terror",
+      "era": "1941–1944",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "Belarusian auxiliary units took active part in the deliberate destruction of the Jews and in 'pacification' massacres of civilians — participation in extermination, so EXT for the act, even though the campaign was German-led and the Belarusian share a minority of it.",
+      "agent": "Belarusian collaborators — the Belarusian Auxiliary Police (Ordnungsdienst / Schutzmannschaften) and Schuma battalions, under German command",
+      "toll": {
+        "display": "no separable Belarusian-attributed death toll established",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "There is no defensible figure for deaths caused specifically by Belarusian collaborators, because they acted inside German-led operations alongside Baltic, Ukrainian and SS units, and standard reference accounts give no aggregate attributable to Belarusian auxiliaries alone. They are documented as identifying Jews their German overseers could not, leading victims to execution pits, taking part in ghetto liquidations from the February–March 1942 second wave, and joining anti-partisan 'pacifications' such as Operation Cottbus (May 1943, with battalions 46/47/49/51) alongside the Dirlewanger Brigade. Attributing a number to 'Belarus' here would be an invention; the toll is therefore left null. AUDIT (2026-06-19): the operational claims and the no-separable-toll finding are confirmed on the cited Belarusian Auxiliary Police page (formed July 1941, ~30,000 by 1943, role escalating in the 1942 ghetto-liquidation wave, Operation Cottbus). Event remains UNVERIFIED because there is no toll (low/high both null) to confirm — honest absence of a Belarusian-attributable number, not a fabrication or a source failure."
+      },
+      "received_lens": "suppressed",
+      "summary": "From 1941 the German occupier raised a Belarusian Auxiliary Police, roughly 30,000-strong by 1943, whose local knowledge made it indispensable to the killing: its men pointed out and rounded up Jewish neighbours, marched them to the pits and shot, helped liquidate ghettos, and joined 'anti-partisan' operations that burned villages with their inhabitants. It was a junior, locally-staffed part of a German machine — but a willing and lethal one.",
+      "relevance": "Belarus's one real perpetrator entry: the same population overwhelmingly a victim also furnished collaborators to the extermination it suffered — the dual lens inside a single occupied society.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Belarusian Auxiliary Police — formed July 1941, ~30,000 by 1943; role in identifying Jews, ghetto liquidations (1942 on) and Operation Cottbus (1943) with the Dirlewanger Brigade",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Belarusian_Auxiliary_Police",
+          "caveat": "Tertiary aggregator; gives operational detail but no aggregate casualty figure attributable to Belarusian units alone. Audit (2026-06-19): page verified — formation July 1941 (von Schenckendorf order of 7 July), ~30,000 by 1943, decisive local role in identifying Jews and in the Feb–Mar 1942 ghetto-liquidation wave, Operation Cottbus (20 May 1943) with battalions 46/47/49/51 and Dirlewanger; no Belarusian-only toll given."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Per O. Rudling and others on local collaboration in occupied Belarus (e.g. studies of Schutzmannschaft battalions) document Belarusian auxiliaries as backup to German-led extermination, not an independent campaign",
+          "supports": "tier",
+          "url": "https://en.wikipedia.org/wiki/Schutzmannschaft_Battalion_118",
+          "caveat": "The most infamous unit at Khatyn (Battalion 118) was majority-Ukrainian, not Belarusian; this entry covers Belarusian auxiliaries specifically, whose share of the killing was real but secondary to German, Baltic and Ukrainian forces. Audit (2026-06-19): Battalion 118 page confirmed — core Ukrainian nationalists from Bukovina plus Soviet POWs and Kyiv-region volunteers, carried out the 22 March 1943 Khatyn massacre; the caveat correctly keeps Khatyn OUT of the Belarusian perpetrator ledger."
+        }
+      ],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

@@ -1,0 +1,147 @@
+{
+  "iso": "ARE",
+  "name": "United Arab Emirates",
+  "note": "Built from scratch on 2026-06-19 with live web research (WebSearch/WebFetch). The two ledgers are deliberately asymmetric, and the asymmetry is itself the point. VICTIM side: the UAE federation only dates to 1971, so the strongest documented mass-violence done TO the territory's people predates the state — the British Persian Gulf campaign of 1819, which sacked Qawasim Ras al-Khaimah (ancestors of today's Sharjah and RAK ruling families) and imposed the treaty system that made the 'Trucial States'. PERPETRATOR side: the UAE's two best-documented atrocity records are both from the war in Yemen — as co-leader (with Saudi Arabia) of the coalition whose air war and blockade drove a mass-casualty humanitarian catastrophe, and as the operator of a network of secret detention sites in southern Yemen where torture, sexual abuse and deaths in custody were documented. A NOTE ON A DELIBERATE OMISSION: the 19th-century Gulf slave trade ran through this coast and the Qawasim were prominent slave traders, but in that trade the Emiratis' ancestors were the perpetrators/buyers and the enslaved East Africans the victims — so it does not belong in this country's VICTIM ledger; it is flagged here for honesty rather than misfiled. Tolls: the 1819 Qawasim death range (400–1,000) is a reported, not census-verified, figure; the Yemen air-war and total-war tolls are coalition-wide (Saudi-led, UAE co-led) and are carried as such with explicit shared-responsibility caveats rather than fabricating a UAE-only body count; the secret-prison deaths-in-custody figure rests on a single contested coalition-sourced report and is carried as null in the toll with the claim described in prose. No figure, source, author or URL here was invented.",
+  "events": [
+    {
+      "id": "are-1",
+      "country": "ARE",
+      "role": "victim",
+      "title": "British Persian Gulf Campaign and the Sacking of Ras al-Khaimah",
+      "era": "1819–1820",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "A state military expedition (an imperial punitive campaign) destroyed a town and its fleet and killed hundreds of fighters and townspeople in close-quarters combat and bombardment — armed-conflict killing, not a campaign to exterminate a people, so WAR rather than EXT.",
+      "agent": "The British (East India Company / Royal Navy) expeditionary force under Major-General Sir William Keir Grant",
+      "toll": {
+        "low": 400,
+        "high": 1000,
+        "unit": "deaths",
+        "display": "~400 to ~1,000 Qawasim casualties (reported; killed and wounded combined); British losses minimal (about 5 killed/wounded at Ras al-Khaimah)",
+        "disputed": true,
+        "note": "AUDIT (2026-06-19): the cited Wikipedia article states the figure as '400 to 1000 casualties reportedly suffered by the Al Qasimi' — i.e. killed AND wounded combined, not deaths alone; the display has been corrected from 'killed' to 'casualties' to match the source. This low/high range is effectively a single reported colonial-source range rather than independently sourced low and high endpoints, hence disputed:true. The Qawasim casualty range of roughly 400–1,000 at Ras al-Khaimah is a REPORTED figure traceable to British colonial sources (notably J.G. Lorimer's Gazetteer of the Persian Gulf, 1915) rather than a verified count, and the contemporary local Qawasim perspective is poorly documented. British losses at Ras al-Khaimah were minimal (about 5 killed/wounded); at the related Dhayah Fort assault British losses were one officer and three men killed and sixteen wounded, with about 400 defenders surrendering of whom only ~177 were identified as fighting men. The campaign also burned or razed fortifications and vessels along the coast (Rams, Umm al-Quwain, Ajman, Sharjah, Abu Hail, Dubai, and ships sheltering at Bahrain and at Lengeh)."
+      },
+      "received_lens": "memorial",
+      "summary": "In late 1819 a British expedition sailed from Bombay and stormed Ras al-Khaimah, the seat of the Qawasim maritime confederation, breaking its defences, capturing or burning its fleet and sacking the town; hundreds of Qawasim were killed. Britain then imposed the General Maritime Treaty of 1820 on the coast's rulers, the legal foundation of the 'Trucial States' it would dominate for the next 151 years.",
+      "relevance": "The founding wound of the territory that became the UAE — an imperial power crushing the Qawasim under the banner of suppressing 'piracy' — sits in the same atlas as the war the independent Emirati state would later wage in Yemen, refusing the comfort of a people who are only ever victims.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Persian Gulf campaign of 1819\" — Wikipedia (dates 3 Nov – 22 Dec 1819; commander Maj.-Gen. Sir William Keir Grant; Qawasim ~400–1,000 casualties at Ras al-Khaimah; British losses minimal; towns/ships attacked)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Persian_Gulf_campaign_of_1819",
+          "caveat": "Tertiary aggregator; the casualty figures it carries are British colonial-era estimates (Lorimer's Gazetteer of the Persian Gulf, 1915; United Service Magazine) described as reported, not independently verified, and the 'piracy' framing for the campaign is contested by historians."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"History of Ras Al Khaimah\" — Wikipedia (1809 and 1819 British attacks; Qawasim defeat and British occupation; General (Maritime) Treaty of 1820 and the 151-year British supremacy; explicit note that British 'piracy' accusations against the Qawasim are disputed by historians)",
+          "supports": "tier",
+          "url": "https://en.wikipedia.org/wiki/History_of_Ras_Al_Khaimah",
+          "caveat": "Tertiary aggregator; it states the 1809 bombardment killed 'an unknown number of fighters and civilians' without a precise toll, and notes the disputed nature of the 'piracy' pretext."
+        },
+        {
+          "kind": "press",
+          "cite": "Anna Zacharias / The National (Abu Dhabi), \"RAK's sacking still reverberates\" — Emirati press treatment of the Qawasim sacking and the disputed piracy narrative",
+          "supports": "summary",
+          "url": "https://www.thenationalnews.com/uae/rak-s-sacking-still-reverberates-1.560191",
+          "caveat": "AUDIT (2026-06-19): author corrected from 'Matthew MacLean' (unverifiable for this piece) to Anna Zacharias, the actual byline; the second title ('How the British exploited piracy...') was removed as not confirmed at this URL. NOTE: the article's primary commemorative focus is the 1809 sacking, with 1819 treated as later destruction — it supports the disputed-'piracy' historiography and memorial framing but is not a clean 1819-specific source. UAE state-aligned outlet (The National is Abu Dhabi-owned); used for the local memorial framing and the historiographical dispute over 'piracy', not for casualty counts."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "are-2",
+      "country": "ARE",
+      "role": "perpetrator",
+      "title": "UAE Co-Leadership of the Coalition Air War and Blockade in Yemen",
+      "era": "2015–2022",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "A state party to an armed conflict conducted an air campaign that repeatedly struck markets, weddings, homes, hospitals and other civilian targets — attacks human-rights monitors assess as likely violations of the laws of war — making this WAR; the much larger indirect death toll from the accompanying blockade-driven famine and disease shades toward STR but the carried event is anchored on the conduct of the war itself.",
+      "agent": "The United Arab Emirates, as co-leader (with Saudi Arabia) of the military coalition intervening in Yemen, and UAE-backed Yemeni forces",
+      "toll": {
+        "low": 8983,
+        "high": 19200,
+        "unit": "deaths",
+        "display": "~8,983 civilians killed directly by coalition airstrikes; up to ~19,200 civilians killed or maimed by airstrikes; total war deaths ~377,000 (UNDP, 2021, direct + indirect)",
+        "disputed": true,
+        "note": "Responsibility here is SHARED and coalition-wide: the coalition was led by Saudi Arabia with the UAE as co-leader, and the UAE specifically led/anchored the 2018 Hodeidah offensive and ground operations in the south — no clean UAE-only civilian death count exists, so a fabricated one is deliberately avoided. The Yemen Data Project (via CAAT) records roughly 8,983 civilians killed directly by coalition airstrikes (carried as the low) and up to ~19,200 civilians killed or maimed by airstrikes (the high, which combines killed and wounded). Separately, the UN Development Programme estimated in 2021 that the total war death toll would reach ~377,000 by end-2021, of which about 60% were indirect deaths from hunger and preventable disease driven by the conflict and blockade. These figures count the whole conflict and the whole coalition, not the UAE alone."
+      },
+      "received_lens": "contested",
+      "summary": "From 2015 the UAE was the second power, after Saudi Arabia, in the coalition that intervened in Yemen against the Houthis; it led the bloody 2018 Hodeidah offensive and ran ground and naval operations in the south. The coalition's years-long air campaign repeatedly hit markets, weddings, homes and hospitals — strikes monitors deemed likely war crimes — while the blockade it enforced helped tip Yemen into famine, contributing to a death toll the UN put near 377,000.",
+      "relevance": "The same federation founded out of the wreckage of the 1819 imperial assault on its coast became, by 2015, a wealthy state co-directing an air war and blockade that killed Yemeni civilians on a mass scale — victim of empire in one century, wielder of overwhelming force in the next.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Campaign Against Arms Trade (CAAT), \"The war on Yemen's civilians\" (citing the Yemen Data Project: ~25,054 air raids 2015–2022 by the Saudi-UAE-led coalition; 8,983 civilian deaths from direct coalition airstrike targeting; air raids on markets and weddings). The >19,200 killed-or-maimed figure (incl. over 2,300 children) is Yemen Data Project data as carried by the Global Centre for the Responsibility to Protect.",
+          "supports": "toll.low",
+          "url": "https://caat.org.uk/data/countries/saudi-arabia/the-war-on-yemens-civilians/",
+          "caveat": "AUDIT (2026-06-19): re-fetch confirms the 8,983 direct-airstrike civilian-death figure (toll.low) on the CAAT page. However the ~19,200 killed-or-maimed figure (toll.high) is NOT on this CAAT page; it was independently verified as Yemen Data Project data via the Global Centre for the Responsibility to Protect (globalr2p.org/countries/yemen) and is correctly cross-referenced there. CAAT is an anti-arms-trade advocacy group; its civilian-casualty figures are sourced to the independent Yemen Data Project monitoring database, but CAAT's framing is explicitly campaigning. The ~19,200 'high' combines killed and maimed, not deaths alone (flagged in the toll note)."
+        },
+        {
+          "kind": "reference",
+          "cite": "International Center for Transitional Justice / UNDP, \"Yemen War Deaths Will Reach 377,000 by End of the Year\" (UNDP 2021 report: ~377,000 total deaths by end-2021, ~40% direct from combat/air raids and ~60% indirect from hunger and disease; nearly 70% of the dead children under five)",
+          "supports": "toll.high",
+          "url": "https://www.ictj.org/latest-news/yemen-war-deaths-will-reach-377000-end-year-un",
+          "caveat": "AUDIT (2026-06-19): ICTJ page confirmed live and confirms the 377,000 end-2021 UNDP projection (direct + indirect). The page itself does not break out the 40/60 split or the under-five share, but the underlying UNDP report ('Assessing the Impact of War in Yemen', undp.org) and contemporaneous coverage (Al Jazeera, France24, Middle East Eye, Nov 2021) confirm ~60% indirect (hunger/disease) and ~70% of the dead being children under five. The 377,000 is a UNDP MODELLED projection of total war mortality (direct + indirect) attributable to the conflict as a whole, not a verified body count and not UAE-specific; carried as context for the war's scale, with the air-war count (~8,983) as the disaggregated lower anchor."
+        },
+        {
+          "kind": "press",
+          "cite": "Human Rights Watch, \"Yemen: Latest Round of Saudi-UAE-Led Attacks Targets Civilians\" (Apr 2022) and HRW World Report 2019 chapter on Yemen (~90 apparently unlawful coalition airstrikes documented since 2015 hitting homes, markets, hospitals, schools and mosques, some potentially war crimes)",
+          "supports": "summary",
+          "url": "https://www.hrw.org/news/2022/04/18/yemen-latest-round-saudi-uae-led-attacks-targets-civilians",
+          "caveat": "HRW documents the coalition collectively and notes it could not always disaggregate which strikes were Saudi versus Emirati; used for the war-crimes assessment and pattern of civilian targeting, not for a UAE-only toll."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "are-3",
+      "country": "ARE",
+      "role": "perpetrator",
+      "title": "UAE-Run Secret Prison Network and Torture in Southern Yemen",
+      "era": "2016–2019",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "A state security apparatus carried out enforced disappearances, arbitrary detention and systematic torture (including sexual abuse) of people it deemed political or security threats outside any legal process — deliberate state repression of perceived enemies, which is POL.",
+      "agent": "The United Arab Emirates' military and intelligence forces and UAE-backed Yemeni security units (e.g. the Security Belt and Hadhrami/Shabwani Elite forces)",
+      "toll": {
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "display": "scale not reliably quantified: at least 18 (AP) to 27 (later reports) secret detention sites; hundreds detained and forcibly disappeared; ~49 alleged deaths in custody (single contested report)",
+        "disputed": true,
+        "note": "No verified death toll exists, so the figure is left null. The Associated Press (June 2018) documented at least 18 secret UAE-run or UAE-backed detention sites across southern Yemen; later reporting put the number as high as 27, including sites in Aden, Lahij, Dhale, Hadhramaut, on Socotra and Mayyun (Perim) Island, and a facility at the UAE base in Eritrea. Hundreds of men were rounded up; detainees and witnesses described electrocution, beatings, sexual abuse and rape. One report sourced to Yemeni military figures within the coalition alleged more than 49 deaths in custody and five burial sites — a single, contested claim not independently corroborated, which is why it is described in prose but not carried as a numeric toll."
+      },
+      "received_lens": "denied",
+      "summary": "As the UAE took the lead in security in southern Yemen, its forces and the Yemeni units it armed ran a network of at least eighteen secret prisons. Men suspected of links to al-Qaeda or of opposing the UAE's local proxies were swept up and disappeared; former detainees described torture by electrocution, beatings and sexual abuse, including rape. The UAE denied running the sites or any role in the abuse.",
+      "relevance": "Beyond the air war, the UAE built its own apparatus of disappearance and torture on Yemeni soil — a clandestine carceral system that mirrors, in miniature, the secret-prison practices for which other powers in this atlas are condemned.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "Associated Press investigation (Maggie Michael, June 2018), as reported by Al Jazeera, \"Yemeni prisoners say UAE officers sexually torture them\" — network of at least 18 secret prisons run by the UAE and UAE-backed forces across southern Yemen; sexual torture, electrocution and beatings of detainees",
+          "supports": "summary",
+          "url": "https://www.aljazeera.com/amp/news/2018/6/20/yemeni-prisoners-say-uae-officers-sexually-torture-them-ap",
+          "caveat": "Reporting relayed via Al Jazeera (Qatar state-funded — Qatar was in a bitter dispute/blockade with the UAE at the time, a clear conflict of interest); the underlying source is the Associated Press investigation, but the Qatari relay's framing should be weighed accordingly."
+        },
+        {
+          "kind": "press",
+          "cite": "Al Jazeera, \"Report: Mass torture in network of UAE-run prisons in south Yemen\" (Aug 2018) — up to 27 detention sites (Aden, Hadhramaut, Socotra, Mayyun Island, plus a UAE base in Eritrea); alleged >49 deaths in custody and five gravesites; report obtained from Yemeni military figures within the Saudi-UAE coalition",
+          "supports": "summary",
+          "url": "https://www.aljazeera.com/news/2018/8/12/report-mass-torture-in-network-of-uae-run-prisons-in-south-yemen",
+          "caveat": "Al Jazeera is Qatar state-funded and was reporting during the Qatar–UAE rift; the 27-prison count and the 49-deaths/5-gravesites claim come from coalition-internal Yemeni military sources and are NOT independently verified — carried as an allegation in prose, not as a numeric toll."
+        },
+        {
+          "kind": "reference",
+          "cite": "Amnesty International, \"Timeline: UAE's role in southern Yemen's secret prisons\" (2018) and \"Yemen: Urgent investigation needed into UAE torture network and possible U.S. role\" — documentation of arbitrary detention, enforced disappearance and torture in UAE-run/backed facilities and calls for an international probe",
+          "supports": "tier",
+          "url": "https://www.amnesty.org/en/latest/news/2018/07/timeline-uaes-role-in-southern-yemens-secret-prisons/",
+          "caveat": "Amnesty is a human-rights advocacy organisation; the page was not directly machine-fetchable in research (HTTP 403) and is cited from its title and Amnesty's corroborating press release plus the AP/HRW reporting it is consistent with, not from full-text extraction."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

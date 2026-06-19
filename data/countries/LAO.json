@@ -1,0 +1,108 @@
+{
+  "iso": "LAO",
+  "name": "Laos",
+  "note": "Laos sits at the intersection of two atrocities a generation apart. As victim, its people endured the most intensive aerial bombardment in history — the US 'Secret War' of 1964–1973 dropped more ordnance on a nominally neutral, largely rural country than fell in all of the Second World War, and unexploded cluster bombs keep killing Lao civilians half a century on. As perpetrator, the victorious Pathet Lao state and its Vietnamese ally turned on the Hmong who had fought for the CIA-backed Royal Lao Government: reprisal killings, 'seminar' (re-education) camps, and a counter-insurgency in the highlands that drove hundreds of thousands into exile and is described by some bodies as approaching genocide. The ledgers are asymmetric in evidence quality, not in moral weight: the bombing is exhaustively documented down to the tonnage, while the toll of the anti-Hmong campaign is murky — figures run from roughly 10,000 to over 100,000 across a closed, unmonitored conflict — so that event is marked UNVERIFIED. The widely cited 'yellow rain' chemical-weapons allegation is deliberately NOT carried as a confirmed event: the scholarly consensus is sceptical and no physical evidence survived scrutiny, so it appears only as a contested caveat, not a counted atrocity. No toll or source here has been invented to balance the two sides.",
+  "events": [
+    {
+      "id": "lao-1",
+      "country": "LAO",
+      "role": "victim",
+      "title": "The US 'Secret War' bombing of Laos",
+      "era": "1964–1973",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "A sustained aerial bombardment that killed civilians on a mass scale as a method of war — interdicting the Ho Chi Minh Trail and attacking Pathet Lao zones — rather than a deliberate attempt to destroy the Lao as a people, which places the act at WAR rather than EXT.",
+      "agent": "The United States — the US Air Force, Navy and a CIA-run covert programme — bombing Laos to cut the Ho Chi Minh Trail and back the Royal Lao Government against the Pathet Lao and North Vietnamese forces",
+      "toll": {
+        "display": "~200,000 war-era dead (civilian and military, disputed); 20,000+ more from unexploded ordnance since 1973",
+        "disputed": true,
+        "low": 20000,
+        "high": 200000,
+        "unit": "deaths",
+        "note": "There is no agreed death count for the bombing alone. The figure most often cited — roughly 200,000 killed by the end of the war in 1975, about one-tenth of the population — covers both civilians and military and the whole Laotian conflict, not bombing in isolation; the Laotian Civil War as a whole is also given a much narrower combat-death band of ~20,000–62,000, with tens of thousands more civilians uncounted. Separately and more firmly documented: an estimated 30% of the ordnance failed to detonate, and unexploded cluster munitions ('bombies') have killed or maimed over 20,000 people since the bombing stopped, a toll that continues today. The displayed range therefore spans the firmly documented post-war UXO low to the widely cited (but mixed civilian-plus-military, whole-war) high; the bombing's own civilian death toll falls somewhere inside and is not precisely knowable. Scale is better attested than the body count: over 2 million tons of ordnance across some 580,000 bombing sorties, the equivalent of a planeload every eight minutes for nine years. Audit (2026-06-19): both toll ends independently verified at source — the 200,000 war-era high in History.com ('By 1975, one-tenth of the population of Laos, or 200,000 civilians and members of the military, were dead'), the 20,000–62,000 combat-death low and the Lao-government 2017 UXO data (29,522 deaths, 21,048 injuries) in the Laotian Civil War article. Range is dual-sourced; high and low rest on distinct sources."
+      },
+      "received_lens": "memorial",
+      "summary": "Between 1964 and 1973 the United States flew some 580,000 bombing runs over Laos, dropping more than two million tons of ordnance on a country it was not officially at war with — the equivalent of a planeload of bombs every eight minutes, around the clock, for nine years. The aim was to sever the Ho Chi Minh Trail and grind down the Pathet Lao, but the bombs fell across villages and farmland, killing civilians and emptying whole districts. Roughly a third of the cluster munitions never exploded, and the buried 'bombies' have gone on killing Lao farmers and children for fifty years.",
+      "relevance": "The defining wound in the Lao victim ledger — a superpower's covert bombardment of a small, mostly rural nation — sits directly beside the perpetrator ledger, where the war's victors then hunted the Hmong who had fought on the American side of that same secret war.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Legacies of War — the figures of over 2 million tons of ordnance across ~580,000 bombing sorties ('a planeload every 8 minutes, 24 hours a day, for 9 years') and over 270 million cluster munitions dropped with a ~30% dud rate",
+          "supports": "summary",
+          "url": "https://www.legaciesofwar.org/",
+          "caveat": "An advocacy organisation campaigning for UXO clearance and survivor aid; reliable and widely cited for the tonnage, sortie count and dud rate, but not a neutral statistical body and does not isolate a bombing-only death toll. Audit (2026-06-19): the homepage states the tonnage, sortie count, planeload phrasing and 30% dud rate verbatim, but does NOT carry a cumulative '20,000+ killed/injured by UXO' figure — that figure (real and well-attested) is sourced here to History.com instead, and the cite was trimmed to match what this page actually supports."
+        },
+        {
+          "kind": "press",
+          "cite": "History.com, 'Why Laos Has Been Bombed More Than Any Other Country' — the ~200,000 war-era dead (~one-tenth of the population, civilian and military), ~750,000 displaced, the 30% dud rate, ~80 million unexploded bombs, and 20,000+ killed or maimed by UXO since",
+          "supports": "toll.high",
+          "url": "https://www.history.com/articles/laos-most-bombed-country-vietnam-war",
+          "caveat": "General-audience history outlet; the 200,000 figure mixes civilian and military deaths over the whole war and is an estimate, not a verified count — used for the disputed high end of the range, not as a bombing-specific body count."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Laotian Civil War', Wikipedia — combat-death estimates of roughly 20,000–62,000, plus Lao government UXO data (29,522 deaths and 21,048 injuries from explosive ordnance during and since the war as of 2017)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Laotian_Civil_War",
+          "caveat": "Tertiary encyclopaedia aggregating divergent estimates; the narrower 20,000–62,000 band is combat deaths and does not capture uncounted civilian bombing deaths, so it anchors the firmly documented low rather than the full toll."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "lao-2",
+      "country": "LAO",
+      "role": "perpetrator",
+      "title": "Persecution of the Hmong after the communist takeover",
+      "era": "1975–present (most intense 1975–1990s)",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "The Pathet Lao state and its Vietnamese ally killed, imprisoned and drove out Hmong communities as political enemies and collaborators with the defeated Royal Lao Government and the CIA; the targeting of an ethnic group for collective reprisal and political elimination places the act at POL, though some bodies describe the highland campaign in genocidal terms.",
+      "agent": "The Pathet Lao and the Lao People's Democratic Republic, fighting alongside the People's Army of Vietnam, against Hmong communities — especially those tied to the former CIA-backed 'Secret Army' of Vang Pao",
+      "toll": {
+        "display": "~10,000 to 100,000+ Hmong killed (deeply disputed and unverified)",
+        "disputed": true,
+        "low": 10000,
+        "high": 100000,
+        "unit": "deaths",
+        "note": "No reliable count exists for a conflict fought in closed highlands without independent monitoring, and the figures cited are not consistently sourced. Journalist Roger Warner reported over 10,000 Hmong killed by the new regime in 1975 alone; advocacy and Hmong-diaspora sources commonly state 'at least 100,000 Hmong civilians' killed by the Pathet Lao during and after the war, and some give ~17,000 Secret Army members plus ~50,000 civilians killed in successive campaigns. These figures overlap, conflict, and mix categories (battle deaths, massacre, starvation, deaths during flight). Separately, more than 300,000 Laotian refugees — mostly Hmong — fled to Thailand, around 130,000 of them resettling in the United States, and tens of thousands of former-government and Hmong men were held without charge in 'seminar' (re-education) camps, some for over a decade. Because the body count rests on partisan or singly-sourced estimates with no independent verification, the event status is UNVERIFIED; the displayed range spans the documented 1975 low to the advocacy high. Audit quarantine (2026-06-19): all four attached sources were checked and are real and support their specific claims — Warner's >10,000 (1975) via Facts and Details (toll.low), World Without Genocide's 'at least 100,000 Hmong civilians' (toll.high), the Hin Heup massacre (29 May 1975, ~10,000-strong column, 14 killed, 100+ wounded) for the summary, and Amnesty ASA 26/003/2007 for the persecution pattern (tier). Each toll end is independently sourced, but the two ends differ by an order of magnitude, mix incompatible categories, and rest on partisan/single-reporter estimates from a closed, unmonitored highland conflict, so the toll itself cannot be confirmed and the event remains UNVERIFIED on toll grounds, not on source-integrity grounds."
+      },
+      "received_lens": "denied",
+      "summary": "After the Pathet Lao seized power in December 1975, the new state and its Vietnamese ally turned on the Hmong who had fought for the CIA-backed government during the secret war. As Hmong families fled toward Vientiane, Pathet Lao troops opened fire on a column at the Hin Heup bridge on 29 May 1975, killing fourteen and wounding more than a hundred. Former soldiers and officials were sent to 'seminar' camps of forced labour, indoctrination and starvation, while a counter-insurgency in the highlands killed civilians and drove over 300,000 Lao, most of them Hmong, into Thai refugee camps; small bands of Hmong remained hunted in the jungle for decades.",
+      "relevance": "The mirror of the victim ledger: the people who survived America's bombing then became hunters, and the Hmong allies the CIA recruited into that same secret war were left to be killed, jailed or exiled by the state that won it.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "Roger Warner (The Nation), cited via Facts and Details, 'Hmong Insurgency in Laos' — over 10,000 Hmong killed by the communist regime in 1975; plus refugee figures (300,000+ to Thailand, ~130,000 to the US) and the ~17,000 still in the jungle as of 2004",
+          "supports": "toll.low",
+          "url": "https://factsanddetails.com/southeast-asia/Laos/sub5_3d/entry-2976.html",
+          "caveat": "A compilation site quoting a journalist's estimate; the 10,000 figure is a contemporaneous reporter's estimate for 1975, not an audited count, and anchors the documented low end."
+        },
+        {
+          "kind": "reference",
+          "cite": "World Without Genocide (Mitchell Hamline School of Law), 'Laos' — 'at least 100,000 Hmong civilians have been killed by the Pathet Lao during the war and after', re-education camps with forced labour and starvation, and the post-1975 refugee crisis",
+          "supports": "toll.high",
+          "url": "https://worldwithoutgenocide.org/genocides-and-conflicts/laos",
+          "caveat": "A human-rights advocacy and education project; the 100,000 figure is an advocacy estimate without a stated methodology and represents the high, contested end of the range, not a verified count."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Hin Heup massacre', Wikipedia — Pathet Lao forces opened fire on a column of roughly 10,000 fleeing Hmong at the Hin Heup bridge on 29 May 1975, killing 14 and wounding over 100",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Hin_Heup_massacre",
+          "caveat": "Tertiary encyclopaedia documenting a single incident; cited as the one concretely dated and quantified event within a broader campaign whose overall toll is not independently established."
+        },
+        {
+          "kind": "press",
+          "cite": "Amnesty International, 'Lao People's Democratic Republic: Hiding in the jungle - Hmong under threat' (ASA 26/003/2007, published 23 March 2007) — documents the long post-1975 detention of Hmong and former-government figures in re-education camps and the continued military pressure on Hmong groups in hiding",
+          "supports": "tier",
+          "url": "https://www.amnesty.org/en/documents/asa26/003/2007/en/",
+          "caveat": "Human-rights advocacy report focused on documenting abuses; authoritative on the pattern of detention and persecution but not a source for an overall death toll. Audit (2026-06-19): document confirmed real (Amnesty index ASA 26/003/2007, 23 March 2007, also held on Refworld and the UW Hmong Studies collection); URL switched from the PDF mirror, which returned HTTP 403 to the fetcher, to the canonical Amnesty document page."
+        }
+      ],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

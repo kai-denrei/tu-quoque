@@ -1,0 +1,140 @@
+{
+  "iso": "PNG",
+  "name": "Papua New Guinea",
+  "note": "Built from scratch. Papua New Guinea's two ledgers are asymmetric in a particular way, and the asymmetry is left honest rather than balanced with invented events. The VICTIM ledger is dominated by harms inflicted by OUTSIDE powers before and during the colonial era — the brutal Japanese occupation of 1942–45 and, before independence, the German colonial regime of forced plantation labour, poll tax and punitive military expeditions (1884–1914) and the subsequent Australian administration. Both victim events are real and well-attested as systems of violence, but neither has a defensible aggregate death count: wartime indigenous mortality was never systematically counted, and colonial labour deaths were recorded only in fragments. Those events therefore carry null or disputed tolls with the sourced partial figures kept explicit, and are marked UNVERIFIED on the aggregate rather than given an invented number. The PERPETRATOR ledger, by contrast, has one dominant and unusually well-documented case: the Bougainville conflict of 1988–1998, in which the independent PNG state and its Defence Force fought a secessionist war on Bougainville and imposed a years-long blockade — including of medicine — that, together with extrajudicial killings, disappearances and village burnings documented by Amnesty International, drove most of the conflict's 12,000–20,000 deaths through preventable disease and deprivation rather than combat. That is the dual-lens point: a young nation whose own people had been ruled, worked and brutalised by foreign powers became, within a generation of independence, the author of a mass-atrocity blockade against a part of its own population. No event, toll or source here has been fabricated to make the two sides symmetrical.",
+  "events": [
+    {
+      "id": "png-1",
+      "country": "PNG",
+      "role": "victim",
+      "title": "The Japanese occupation of New Guinea",
+      "era": "1942–1945",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Imperial Japanese forces occupying New Guinea requisitioned villagers' food at gunpoint, conscripted and worked indigenous people as forced labour, and killed those who resisted or stood in the way — deliberate wartime atrocity and predation against an occupied civilian population, not a campaign to exterminate New Guineans as a people.",
+      "agent": "Imperial Japanese Army and Navy occupation forces in the Territory of New Guinea and Papua",
+      "toll": {
+        "display": "no defensible aggregate count; in some areas ~1 in 4 villagers died; ≥2,024 indigenous ANGAU carriers/labourers died on the Allied side",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "The total number of indigenous New Guineans who died as a direct or indirect result of the war and the Japanese occupation was never systematically counted and no reliable aggregate figure exists, so the low and high are left null rather than invented. What IS documented: the National WWII Museum records that in some parts of the island as many as one in four village people died from starvation, disease, military action or murder during the war, with Japanese troops frequently seizing all the food in a village and leaving the inhabitants to starve. Separately, on the Allied side, a peer-reviewed survey of casualties (Journal of Military and Veterans' Health) records at least 2,024 indigenous carriers and labourers of the Australia New Guinea Administrative Unit (ANGAU) dead, mainly from malaria and dysentery, an estimated ~5% mortality among the more than 35,000 men involved — men who were largely forcibly recruited. These figures bound parts of the toll but do not sum to a whole-territory death count; the event is marked UNVERIFIED on the aggregate. Audit (2026-06-19): all three sources verified as real and supporting their attached claims (National WWII Museum 'one in four', ~37,000 forced labourers, food seizure; JMVH peer-reviewed ≥2,024 ANGAU dead at ~5% of 35,000+; Wikipedia occupation pattern). The UNVERIFIED status reflects only the absence of any sourceable aggregate civilian death count, not a source failure."
+      },
+      "received_lens": "memorial",
+      "summary": "When Imperial Japan seized the Territory of New Guinea in 1942, its forces lived off the villages they occupied — taking food at gunpoint, conscripting men as carriers and labourers, and killing those who resisted — while Allied forces under the Australian administration forcibly recruited tens of thousands of New Guineans to carry supplies and wounded across the mountains. Caught between two armies, indigenous communities suffered starvation, disease and killing on a scale that was never properly counted; in some districts roughly a quarter of villagers died.",
+      "relevance": "Before it was a state at all, the land that became Papua New Guinea was a battlefield where its people were used and brutalised by foreign armies — the same people whose own future government would later impose a lethal blockade on Bougainville.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "National WWII Museum (New Orleans), 'Angels and Victims: The People of New Guinea in World War II' — in some parts of the island one in four villagers died of starvation, disease, military action or murder; Japanese troops requisitioned village food and left inhabitants to starve; ~37,000 New Guineans working as forced labour at any time",
+          "supports": "summary",
+          "url": "https://www.nationalww2museum.org/war/articles/people-of-papua-new-guinea",
+          "caveat": "Museum article; the 'one in four' figure is described as applying to some parts of the island only and is not an aggregate territory-wide rate. Used for the documented partial mortality and pattern of predation, not a total count."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Journal of Military and Veterans' Health, 'Casualties in the Australian Military and Indigenous Para-Military Units in Papua New Guinea during the Second World War' — at least 2,024 ANGAU indigenous carriers/labourers dead (mainly malaria, dysentery), ~5% mortality among 35,000+ involved; records described as incomplete",
+          "supports": "toll.low",
+          "url": "https://jmvh.org/article/casualties-in-the-australian-military-and-indigenous-paramilitary-units-in-papua-new-guinea-during-world-war-ii/",
+          "caveat": "Peer-reviewed but explicitly notes incomplete records and 'fragmentary' data for units lost at Rabaul and on the Kokoda Track; the 2,024 figure is a documented minimum for ANGAU labourers only, not the civilian war toll."
+        },
+        {
+          "kind": "reference",
+          "cite": "Japanese occupation of New Guinea — Wikipedia (occupation 1942–1945; extreme brutality toward New Guineans, food seizure, killings, forced labour at airfields and Rabaul)",
+          "supports": "tier",
+          "url": "https://en.wikipedia.org/wiki/Japanese_occupation_of_New_Guinea",
+          "caveat": "Tertiary aggregator; provides the occupation chronology and the documented pattern of abuse but no aggregate indigenous casualty figure."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "png-2",
+      "country": "PNG",
+      "role": "victim",
+      "title": "German colonial forced labour and punitive expeditions",
+      "era": "1884–1914",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "German colonial authorities and plantation companies coerced indigenous people into indentured plantation labour through poll taxes and compulsory-labour laws, and sent military expeditions to subdue villages that resisted — a structural regime of exploitation and dispossession whose deaths came overwhelmingly from labour conditions, disease and scattered punitive violence rather than from a single campaign of mass killing.",
+      "agent": "Imperial Germany (the German New Guinea Company and the German colonial administration) and the plantation companies of Kaiser-Wilhelmsland and the Bismarck Archipelago",
+      "toll": {
+        "display": "no reliable aggregate death count; contemporary accounts describe very high plantation-labour mortality",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "There is no reliable systematic count of deaths from the German colonial labour regime in New Guinea, so the low and high are left null rather than invented. The documented structure is clear: from 1884 Germany ruled the territory through a chartered company and then a colonial administration that imposed a poll tax and a requirement of weeks of compulsory labour per person, driving men onto copra plantations under indenture; military expeditions were sent from 1899 to 1914 to bring resisting areas under control, and the Sokehs rebellion of labourers was put down in 1911 by a force of four warships and several hundred troops. Secondary summaries cite very high plantation-labour death rates (on the order of 15% or more per contract period), but these figures are not anchored in a reliable, citable primary tally, so no number is asserted here; the event is marked UNVERIFIED on the toll. Audit (2026-06-19): both sources verified as real and supporting their attached claims — Wikipedia 'German New Guinea' confirms the four-weeks-compulsory-labour requirement, the poll tax, the 1899–1914 military expeditions and the Sokehs suppression by 4 warships + 745 troops; Encyclopedia.com confirms the Gazelle Peninsula Tolai copra-plantation economy and German 'wars of pacification' / land appropriation. Neither source carries an aggregate death figure, so the UNVERIFIED status reflects the absence of a sourceable toll, not a source failure."
+      },
+      "received_lens": "suppressed",
+      "summary": "From 1884 until the First World War, Imperial Germany governed northeastern New Guinea and the Bismarck Archipelago first through a chartered trading company and then as a colony, financing copra plantations by taxing and conscripting the indigenous population into indentured labour and sending punitive military expeditions against villages that resisted. Forced recruitment, harsh plantation conditions and disease killed an unknown but substantial number of labourers; the 1911 Sokehs rebellion against the system was crushed by warships and troops.",
+      "relevance": "The colonial dispossession and forced labour visited on New Guineans by a European empire is part of why independence mattered — and a measure against which the new state's own later conduct on Bougainville must be read.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "German New Guinea — Wikipedia (1884–1914; poll tax and compulsory-labour requirements; military expeditions 1899–1914 to take direct control; Sokehs rebellion of labourers suppressed in 1911 by 4 warships and 745 troops)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/German_New_Guinea",
+          "caveat": "Tertiary aggregator; documents the compulsory-labour and poll-tax system, the punitive expeditions and the Sokehs suppression, but provides no aggregate indigenous death figure for the colonial period."
+        },
+        {
+          "kind": "reference",
+          "cite": "Bismarck Archipelago — Encyclopedia.com / German colonial history of the Gazelle Peninsula copra plantations among the Tolai from the 1870s; forced mobilisation of native labour for plantations 1899–1914",
+          "supports": "tier",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/bismarck-archipelago",
+          "caveat": "Tertiary reference; used for the plantation-economy and forced-labour context, not for any death toll, which it does not quantify."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "png-3",
+      "country": "PNG",
+      "role": "perpetrator",
+      "title": "The Bougainville conflict and blockade",
+      "era": "1988–1998",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "The independent Papua New Guinea state and its Defence Force fought a secessionist insurgency on Bougainville and imposed a years-long sea and air blockade — including of medical supplies — alongside documented extrajudicial killings, disappearances and village burnings, so most deaths came from blockade-driven disease and starvation and from security-force abuses in an internal armed conflict, tiered WAR; the deliberate cut-off of medicine to a civilian population pushes toward the high end of that tier.",
+      "agent": "the Government of Papua New Guinea and the Papua New Guinea Defence Force (PNGDF), with government-backed Resistance Force militias",
+      "toll": {
+        "display": "~1,000–2,000 combat deaths; ~12,000–20,000 total deaths (most from blockade-driven disease and starvation) from a pre-war population of ~160,000",
+        "disputed": true,
+        "low": 1000,
+        "high": 20000,
+        "unit": "deaths",
+        "note": "Estimates diverge sharply by what is counted. Combat deaths are put at roughly 1,000–2,000. The far larger figure — around 12,000 to 20,000 dead from a pre-war Bougainville population of about 160,000, with 15,000–20,000 the most widely accepted locally — includes the much greater number who died of preventable disease, malnutrition and lack of medical care under the PNG blockade. A peer-reviewed synthesis (International Journal of Mental Health Systems, 2016) records that incomplete data from just 18 of 23 health centres counted 2,023 deaths from normally preventable diseases in January 1990–July 1991 alone, and that more than half the population was displaced (about 67,300 internally displaced into 'care centres'). The low here is the conservative combat-death floor; the high is the upper end of total-mortality estimates. The dispute is over scope (combat vs. all conflict-attributable deaths), not authorship of the blockade, which the PNG government imposed."
+      },
+      "received_lens": "contested",
+      "summary": "After landowner grievances over the giant Panguna copper mine erupted into rebellion in 1988, the Papua New Guinea Defence Force fought the Bougainville Revolutionary Army across nearly a decade of war, and the PNG government threw a sea and air blockade around the island from 1990 that cut off food, fuel and medicine. With hospitals starved of drugs, most of the dead were civilians who died of malaria, other preventable disease and malnutrition; Amnesty International also documented extrajudicial executions, disappearances and the burning of villages by the security forces and allied militias. Of roughly 160,000 Bougainvilleans, an estimated 12,000 to 20,000 died.",
+      "relevance": "A nation whose own people had been ruled and brutalised by foreign empires turned, within a generation of independence, to blockading and bombing a part of its own population — putting Papua New Guinea squarely in the perpetrator ledger.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "International Journal of Mental Health Systems (2016), 'The mental health and psychosocial impact of the Bougainville Crisis: a synthesis of available information' — estimated 12,000–20,000 deaths from a pre-war population of ~160,000; 2,023 preventable-disease deaths from 18 of 23 health centres Jan 1990–Jul 1991; ~67,300 internally displaced; PNG blockade of medical supplies May 1990–Sep 1994",
+          "supports": "toll.high",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4776395/",
+          "caveat": "Peer-reviewed synthesis of secondary estimates; the death figures are described as estimates and the preventable-disease count is from incomplete (18 of 23) health-centre records, i.e. a partial documented minimum for that period."
+        },
+        {
+          "kind": "reference",
+          "cite": "Bougainville conflict — Wikipedia (1 Dec 1988–20 Apr 1998; Australian assessment 15,000–20,000 could have died, more conservative estimates 1,000–2,000 combat deaths; PNGDF blockade and village burnings; root cause the Panguna mine)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Bougainville_conflict",
+          "caveat": "Tertiary aggregator; cited for the conservative combat-death floor, the conflict dates and the dispute over the total figure. The high estimate it reports originates with the Australian government."
+        },
+        {
+          "kind": "primary",
+          "cite": "Amnesty International, 'Papua New Guinea — Bougainville: the forgotten human rights tragedy' (ASA 34/01/1997) — documented at least 62 extrajudicial executions and at least 13 disappearances by the PNGDF or government-backed Resistance Force since November 1993, plus widespread village destruction; journalists and monitors barred from the island",
+          "supports": "summary",
+          "url": "https://www.amnesty.org/en/documents/asa34/001/1997/en/",
+          "caveat": "Human-rights NGO report (bias: advocacy organisation; figures are documented minimums, not a comprehensive toll). The amnesty.org URL, its hosted PDF, and the Refworld mirror all return HTTP 403 to automated fetching, but the document's existence and its exact figures (≥62 extrajudicial executions and ≥13 'disappearances' by the PNGDF or government-backed Resistance Force since November 1993; 44 killed/'disappeared' in 1996 alone) were confirmed verbatim via search indexing of the Amnesty document and cross-checked against an Internet Archive mirror (archive.org/details/PapuaNewGuineaBougainvilleThe_201306), a Refworld mirror, and a Policy Commons listing, plus US State Department human-rights reporting for 1996–1997. Audit (2026-06-19): source verified real and supporting the attached summary claim."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

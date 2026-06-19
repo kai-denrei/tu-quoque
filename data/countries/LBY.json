@@ -1,0 +1,139 @@
+{
+  "iso": "LBY",
+  "name": "Libya",
+  "note": "Built from scratch 2026-06-19 with live web research. Both ledgers are populated. Victim side: the Italian fascist genocide in Cyrenaica (1929-1934), in which roughly half the rural eastern population was forced into 16 concentration camps and died of starvation, disease, execution and death-marches — a deliberate campaign to break a society, tiered EXT. Perpetrator side: the Gaddafi regime's own atrocities against Libyans — the 1996 Abu Salim prison massacre (~1,200-1,270 prisoners shot in a single operation) and the 2011 crackdown in which Gaddafi's forces opened fire on unarmed protesters. The colonial toll is genuinely contested: scholarly estimates of camp deaths run ~40,000-80,000 (named figures from De Grand, Baldinetti, Ahmida, Del Boca and Pappe), against Gaddafi's politically inflated 750,000 claim which is unsupported by evidence and is NOT used here. The Abu Salim toll of ~1,270 rests on a single survivor's meal-count reconstruction (HRW could not independently verify it) and is shown with that caveat. The 2011 protester killings are real and state-perpetrated, but the death count cannot be cleanly separated from the wider civil war and NATO-era fighting, so that toll's high end is left null and the event is marked UNVERIFIED. Libya's Chad interventions (1978-1987) were considered for the perpetrator side but produced no clean, well-documented civilian-atrocity death toll, so they are not asserted as an event. No figure or source here was invented. ADVERSARIAL AUDIT 2026-06-19: every source re-checked against the live web. Two source-integrity defects found and corrected: (1) lby-1 attributed the ~50,000 camp-death figure to 'Emilio Gentile' — unverifiable; the figure is Baldinetti (2013), now corrected (the figure itself stands, all toll endpoints remain independently sourced). (2) lby-3 cited the Al Jazeera 18 Feb 2011 article for the ~200 toll.low floor, but that article carries only ~84/'scores'; the ~200 figure is from the RIA Novosti wire of 20 Feb 2011 — citation re-pointed. lby-1 and lby-2 verified VERIFIED; lby-3 remains UNVERIFIED (toll not separable from the wider civil war, plus the corrected-but-soft early floor). Country status therefore UNVERIFIED. No source was invented; the one fabricated attribution (Gentile) was excised, not replaced with an invention.",
+  "events": [
+    {
+      "id": "lby-1",
+      "country": "LBY",
+      "role": "victim",
+      "title": "Italian Genocide in Cyrenaica (the Concentration Camps)",
+      "era": "1929–1934",
+      "era_band": "colonial",
+      "tier": "EXT",
+      "tier_reasoning": "Italian forces deliberately uprooted nearly half the rural eastern population and confined them behind barbed wire to die of starvation, disease and execution while crushing the Senussi resistance — a campaign aimed at destroying a society, which scholars widely term genocide, hence EXT rather than mere war mortality.",
+      "agent": "The Italian colonial state under Mussolini — generals Pietro Badoglio and Rodolfo Graziani, who ordered the deportations, camps and executions",
+      "toll": {
+        "low": 40000,
+        "high": 80000,
+        "unit": "deaths",
+        "display": "~40,000 to ~80,000 deaths in the camps (Cyrenaica population fell from ~225,000 to ~142,000, 1929–1934)",
+        "disputed": true,
+        "note": "Estimates of deaths in the 16 concentration camps and the deportations/executions that fed them run roughly 40,000–80,000. Named scholarly figures (per the Wikipedia 'Libyan genocide (1929–1934)' article): De Grand (2004) ~40,000; Duggan (2008) 'more than 40,000'; Baldinetti (2013) ~50,000; Ahmida (2020) and Del Boca (2011) 40,000–70,000; Shillington (2018) 100,000 (Mack Smith 1976 gives a lower ~20,000). Ali Abdullatif Ahmida (Genocide in Libya: Shar, 2020) documents that over 110,000 rural eastern Libyans were interned and that only ~40,000 were left alive by 1934; Ilan Pappe states Italian forces killed roughly half the Bedouin population through killing, disease and starvation (the Wikipedia article phrases this as the Bedouin population 'reduced by half, with around 100,000 dead or in exile'). The population of Cyrenaica is generally given as falling from ~225,000 (1929) to ~142,000 (1934), a decline of ~83,000, of which a large share was death (the rest deportation/exile). The low end (~40,000) is the conservative camp-death floor; the high end (~80,000) tracks the upper scholarly camp/decline figures. NOT used: Muammar Gaddafi's later claim of ~750,000 dead, which historians regard as unsupported by evidence — it is excluded rather than counted. Disputed; endpoints independently sourced. AUDIT 2026-06-19: a prior draft attributed the ~50,000 figure to 'Emilio Gentile' — that attribution could NOT be verified (no source attributes a ~50,000 Libyan camp-death figure to Gentile; the ~50,000 figure belongs to Baldinetti 2013) and has been corrected; the figure itself stands. Verified 2026-06-19 against the Wikipedia 'Libyan genocide (1929–1934)' article (De Grand 40,000; Baldinetti 50,000; Ahmida/Del Boca 40,000–70,000; Pappe/Bedouin 'reduced by half, ~100,000 dead or in exile'; 225,000→142,000; Gaddafi 750,000 'without evidence') and the documented summary of Ahmida's book (110,000 interned → ~40,000 alive by 1934).",
+        "low_source_note": "Conservative camp-death anchor (~40,000): De Grand (2004) ~40,000, with ~40,000 as the survivor floor implied by Ahmida (110,000 interned → ~40,000 alive). [AUDIT: prior 'Emilio Gentile ~50,000' attribution removed as unverifiable; the comparable ~50,000 anchor is Baldinetti 2013.]",
+        "high_source_note": "Upper scholarly camp/decline figures (~70,000–80,000): the Ahmida/Del Boca 40,000–70,000 camp-death range plus the ~83,000 Cyrenaica population decline."
+      },
+      "received_lens": "suppressed",
+      "summary": "To crush Omar al-Mukhtar's Senussi resistance, Italy under Mussolini forced nearly half of eastern Libya's people — over 100,000 — on death-marches into 16 concentration camps ringed by barbed wire, where tens of thousands died of starvation, disease and execution between 1929 and 1934. Mukhtar himself was hanged before 20,000 internees at Soluq camp in 1931. The episode was buried for decades in Italian and European memory.",
+      "relevance": "Libya's foundational national wound — a European fascist genocide against its people — sits in the same atlas as the killings Libya's own ruler later visited on Libyans, refusing the comfort of a people who are only ever victims.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Ali Abdullatif Ahmida, Genocide in Libya: Shar, a Hidden Colonial History (Routledge, 2020) — over 110,000 rural eastern Libyans interned in 16 camps (1929); by 1934 only ~40,000 left alive amid execution, starvation and disease; cites ~60,000–70,000 deaths and frames the episode as genocide",
+          "supports": "toll.high",
+          "url": "https://www.routledge.com/Genocide-in-Libya-Shar-a-Hidden-Colonial-History/Ahmida/p/book/9780367468897",
+          "caveat": "Ahmida writes from within a genocide-recovery framing and relies substantially on Libyan survivor oral testimony; his figures are scholarly estimates, not a complete documentary count, since Italian camp records were largely destroyed. Verified 2026-06-19 via the Routledge listing and multiple summaries of the book."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Libyan genocide (1929–1934)\" — Wikipedia (De Grand 2004 ~40,000; Baldinetti 2013 ~50,000; Ahmida 2020 / Del Boca 2011 40,000–70,000; Pappe: Bedouin population 'reduced by half, ~100,000 dead or in exile'; Cyrenaica 225,000→142,000; Gaddafi's unsupported 750,000 claim; Badoglio/Graziani under Mussolini)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Libyan_genocide_(1929%E2%80%931934)",
+          "caveat": "Tertiary aggregator; individual figures are attributed to named scholars (De Grand, Baldinetti, Ahmida, Del Boca, Pappe) but the population-baseline variance is large and Italian records were destroyed. Verified 2026-06-19: the article carries De Grand's ~40,000, Baldinetti's ~50,000, the Ahmida/Del Boca 40,000–70,000 range, Pappe's 'Bedouin population reduced by half (~100,000 dead or in exile)', the 225,000→142,000 decline, and the note that Gaddafi's 750,000 is 'without evidence'. AUDIT 2026-06-19: a prior version of this cite credited '~50,000' to Emilio Gentile — corrected to Baldinetti 2013, the actual source of that figure in this article."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Omar al-Mukhtar\" — Wikipedia (Senussi resistance leader captured 1931 and hanged 16 September 1931 at Soluch/Suluq concentration camp before assembled internees)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Omar_al-Mukhtar",
+          "caveat": "Tertiary aggregator; used only for the narrative detail of Mukhtar's capture and public execution, not for a death count. Verified 2026-06-19: captured 11 Sept 1931, hanged 16 Sept 1931 at Soluch/Suluq camp before assembled internees (~20,000, corroborated by camp population records of 20,123)."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "lby-2",
+      "country": "LBY",
+      "role": "perpetrator",
+      "title": "Abu Salim Prison Massacre",
+      "era": "1996",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Libyan security forces extrajudicially executed roughly 1,200–1,270 prisoners — many of them political detainees and Islamist opponents — in a single planned operation after a riot, a mass killing of a politically defined captive group, which is POL.",
+      "agent": "The Gaddafi regime's security forces (a special unit firing from rooftops); intelligence chief Abdullah Senussi negotiated the standoff and is widely suspected of involvement",
+      "toll": {
+        "low": 1200,
+        "high": 1270,
+        "unit": "deaths",
+        "display": "~1,200 to ~1,270 prisoners killed",
+        "disputed": true,
+        "note": "On 28–29 June 1996, after prisoners protested cut rations and seized guards, Libyan security forces rounded inmates into courtyards and shot them from rooftops with heavy weapons and Kalashnikovs. Human Rights Watch reports ~1,200 (its 2006 reporting) to 1,270 (the widely cited figure) killed. The 1,270 number originates with a single survivor, kitchen worker Hussein al-Shafa'i, who reconstructed it by counting the meals he prepared before versus after the killings — he did not witness the executions, and HRW could not independently verify the count. The regime denied any incident for eight years; Gaddafi publicly acknowledged the killings on 18 April 2004. After his 2011 fall the NTC announced finding a mass grave, but CNN journalists who visited reported finding what appeared to be animal bones, so physical confirmation of the grave remains incomplete. Disputed on count, not on the fact of a mass killing. AUDIT 2026-06-19: both cited HRW pages confirmed to exist with the stated titles/dates — 'Libya: June 1996 Killings at Abu Salim Prison' (27 June 2006), which gives 'around 1,200' from al-Shafa'i's meal-count and states HRW 'could not verify his claims', and 'Libya: Abu Salim Prison Massacre Remembered' (27 June 2012), which gives 'more than 1,200'. The 1,270 figure is the widely cited HRW estimate carried by the Wikipedia article. Both endpoints sourced; the single-survivor basis for the precise count is disclosed and is the reason this remains a soft (disputed) count, not a soft fact. Verified 2026-06-19 against HRW's 2006 and 2012 reporting, Abdullah Senussi's documented role in the standoff negotiation, and the Wikipedia 'Abu Salim Prison massacre' article.",
+        "low_source_note": "Human Rights Watch's ~1,200 figure (its 2006 reporting on the killings).",
+        "high_source_note": "The widely cited 1,270, derived by survivor Hussein al-Shafa'i from prison meal counts and reported by HRW with the caveat that it could not be independently verified."
+      },
+      "received_lens": "denied",
+      "summary": "In June 1996, after prisoners at Tripoli's Abu Salim prison protested over rations and seized two guards, Gaddafi's security forces herded inmates into the courtyards and gunned them down from the rooftops — an estimated 1,200 to 1,270 men killed in a few hours. The regime denied it for eight years before Gaddafi admitted the killings in 2004; the 2011 detention of a lawyer for the victims' families helped ignite the uprising that overthrew him.",
+      "relevance": "The same Libyan state whose people had been victims of a colonial genocide turned mass killing on its own citizens — the colonial wound and the regime's own slaughter share one ledger.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, \"Libya: June 1996 Killings at Abu Salim Prison\" (27 June 2006) and \"Libya: Abu Salim Prison Massacre Remembered\" (27 June 2012) — ~1,200/1,270 prisoners killed by security forces firing from rooftops; figure derived from survivor Hussein al-Shafa'i's meal counts; HRW could not independently verify it",
+          "supports": "toll.high",
+          "url": "https://www.hrw.org/news/2006/06/27/libya-june-1996-killings-abu-salim-prison",
+          "caveat": "Advocacy organisation; HRW itself states the 1,270 figure rests on one survivor's reconstruction (meal counting) and could not be independently verified, and that physical confirmation of the death toll is incomplete. Verified 2026-06-19: the HRW release exists with this title/date and cites ~1,200 killed and al-Shafa'i's method."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Abu Salim Prison massacre\" — Wikipedia (massacre 28–29 June 1996; HRW estimate 1,270; al-Shafa'i meal-count derivation; eight-year denial; Gaddafi's 18 April 2004 acknowledgment; Abdullah Senussi's role; 2011 mass-grave claim and CNN's animal-bones finding; Fathi Terbil's 2011 arrest sparking the uprising)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Abu_Salim_Prison_massacre",
+          "caveat": "Tertiary aggregator; the count depends on a single survivor and physical confirmation is contested. Verified 2026-06-19: the article carries the 1,270 HRW figure, the meal-count caveat, the 18 April 2004 acknowledgment, the Senussi suspicion, the CNN/animal-bones note, and Fathi Terbil's 15 Feb 2011 arrest sparking the uprising."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "lby-3",
+      "country": "LBY",
+      "role": "perpetrator",
+      "title": "Gaddafi's Crackdown on the 2011 Uprising",
+      "era": "2011",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Gaddafi's forces shot unarmed pro-democracy protesters in Benghazi, Bayda and other cities in February 2011 — lethal state repression of a political movement — which is POL; the killing then merged into an armed civil war (WAR), which is why a clean toll cannot be isolated.",
+      "agent": "Muammar Gaddafi's security forces and army units, including the 32nd 'Khamis' Brigade commanded by his son Khamis Gaddafi, plus hired snipers/mercenaries",
+      "toll": {
+        "low": 200,
+        "high": null,
+        "unit": "deaths",
+        "display": "hundreds of protesters killed in the first weeks (cannot be cleanly separated from the wider 2011 war)",
+        "disputed": true,
+        "note": "When peaceful protests began on 15–17 February 2011, Gaddafi's forces opened fire on demonstrators in Benghazi, Bayda, Ajdabiya and Derna; press reporting at the time put early deaths in the low hundreds (e.g. 'up to 200' within the first days), and hundreds were killed before the uprising became an armed insurgency. The 32nd Brigade under Khamis Gaddafi was reported sweeping into Bayda and Benghazi on 17–18 February. The problem for a toll is that this state repression rapidly became a full civil war (with NATO intervention from 19 March), and the often-cited ~2,000+ 'dead by early March' and the larger total-war figures blend protester killings, combatants and civil-war casualties on all sides. No defensible figure isolates only the civilians killed by Gaddafi's forces in the crackdown, so toll.low is set at the conservative early-protest floor (~200) and toll.high is left null. QUARANTINE — status UNVERIFIED: the fact of state forces firing on unarmed protesters is well documented, but the death count cannot be cleanly separated from the wider war. AUDIT 2026-06-19: SOURCE-INTEGRITY DEFECT — the ~200 floor was originally cited to the Al Jazeera article of 18 Feb 2011, but that article ('Protests death toll rises in Libya', confirmed to exist) reports only 'scores' killed (HRW 'at least 24'; ~84 over three days; 70 bodies at one Benghazi hospital) — it does NOT carry the '~200' figure. The 'up to 200 dead' figure actually originates with a RIA Novosti wire of 20 Feb 2011 ('Libyan protests leave up to 200 people dead'). The cited URL therefore did NOT support the specific toll.low number attached to it; the number itself is real and contemporaneously sourced, but to the 20 Feb RIA wire, not the 18 Feb Al Jazeera piece. The toll.low citation has been re-pointed accordingly. This misattribution, on top of the toll being inseparable from the wider war, keeps the event UNVERIFIED. Verified 2026-06-19 against the Al Jazeera 18 Feb 2011 article, the RIA Novosti 20 Feb 2011 wire, HRW's 17–18 Feb 2011 releases, and the Britannica 'Libya Revolt of 2011' overview.",
+        "low_source_note": "Contemporaneous wire reporting of the first days ('up to 200 dead', RIA Novosti, 20 Feb 2011) as state forces fired on protesters — a conservative floor. [AUDIT: previously mis-cited to the Al Jazeera 18 Feb 2011 article, which carries only ~84/'scores', not 200; re-pointed to the RIA wire that actually carries the 200 figure.]",
+        "high_source_note": "No defensible upper bound can be separated from the wider civil-war and NATO-era casualties; left null."
+      },
+      "received_lens": "contested",
+      "summary": "In February 2011, when Libyans took to the streets demanding Gaddafi's removal, his security forces and army — including the brigade led by his son Khamis — opened fire on unarmed demonstrators in Benghazi, Bayda and other eastern cities, killing hundreds in the first weeks. The shootings hardened the protests into an armed rebellion and triggered the international intervention that ended his rule.",
+      "relevance": "The last act of the Gaddafi state was to fire on its own people in the street — closing the loop on a country that began the century as victims of foreign mass violence and ended that chapter as victims of their own government.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Libya Revolt of 2011\" — Encyclopaedia Britannica (peaceful Feb 2011 protests met with lethal force by Gaddafi's security forces; escalation to civil war; UN no-fly zone and NATO airstrikes from 17–19 March)",
+          "supports": "summary",
+          "url": "https://www.britannica.com/event/Libya-Revolt-of-2011",
+          "caveat": "Reference overview; gives the sequence and the fact of lethal repression but not an isolated protester death count. Verified 2026-06-19: the Britannica page 'Libya Revolt of 2011' exists (direct WebFetch returned HTTP 403 anti-bot, but the page and its content — peaceful Feb 2011 Benghazi protests met with violent repression killing 'dozens' in days, NATO no-fly-zone strikes from 19 March, NATO command from 27 March — were confirmed via search of britannica.com)."
+        },
+        {
+          "kind": "press",
+          "cite": "Al Jazeera, \"Protests death toll rises in Libya\" (18 Feb 2011) — Libyan security forces and snipers firing on demonstrators in Benghazi, Bayda and elsewhere ('scores' killed; HRW 'at least 24'; ~84 over three days). The ~200 floor for toll.low comes NOT from this article but from RIA Novosti, \"Libyan protests leave up to 200 people dead\" (20 Feb 2011)",
+          "supports": "summary",
+          "url": "https://www.aljazeera.com/news/2011/2/18/protests-death-toll-rises-in-libya",
+          "caveat": "Real-time press during a chaotic, information-restricted crackdown; early figures were provisional and could not be independently confirmed, and later counts blend protester deaths with civil-war casualties. AUDIT 2026-06-19: this URL was previously cited as supporting toll.low (~200), but it tops out at ~84/'scores' — it does NOT carry the 200 figure, so its 'supports' has been corrected from 'toll.low' to 'summary'. The ~200 figure traces to the RIA Novosti wire of 20 Feb 2011 (confirmed to exist via globalsecurity.org mirror). Verified 2026-06-19: the Al Jazeera article exists and records Gaddafi forces firing on protesters with scores killed by 18 Feb; the RIA wire of 20 Feb records 'up to 200'."
+        }
+      ],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

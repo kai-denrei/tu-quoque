@@ -1,0 +1,165 @@
+{
+  "iso": "TJK",
+  "name": "Tajikistan",
+  "note": "Built from scratch 2026-06-19 via live web research. Both ledgers are populated, and Tajikistan is an unusually clean dual-lens case because the central catastrophe — the 1992–1997 civil war — splits along the same fault line on both sides. Victim ledger: the early-Soviet reconquest of Eastern Bukhara and crushing of the Basmachi (mass flight in the 1920s), and the civil war as suffered by the population as a whole (tens of thousands dead, ~1.2 million displaced). Perpetrator ledger is the state and ruling Kulobi elite acting against their own minority co-nationals: the 1992–93 Popular Front 'ethnic cleansing' of Pamiris and Garmis (themselves Tajik sub-groups), and the May 2022 government crackdown in Gorno-Badakhshan. The civil-war toll is genuinely contested — a later demographic study put deaths near 23,500 while contemporary and high-end estimates run to 150,000 — so the range below shows that spread rather than picking a side. The Pamiri/Garmi figures rest mainly on Human Rights Watch / Helsinki Watch and Memorial documentation; Tajikistan's government has never accounted for these killings and does not commemorate them, so the perpetrator record is suppressed rather than denied outright. No event, toll, or source here was invented to balance the ledgers.",
+  "events": [
+    {
+      "id": "tjk-1",
+      "country": "TJK",
+      "role": "victim",
+      "title": "Soviet Reconquest of Eastern Bukhara and Crushing of the Basmachi",
+      "era": "1920–1925",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "The Red Army's reconquest of Eastern Bukhara (today's Tajikistan) crushed the Basmachi insurgency and the wider Muslim population that sustained it through village destruction, requisitions, and reprisal, driving a mass exodus — lethal political-military subjugation of a region and its people, which is POL rather than EXT (the goal was to break resistance and impose Soviet rule, not to annihilate Tajiks as such) and not a disease-driven demographic collapse (STR).",
+      "agent": "The Soviet Red Army and Bolshevik civil authorities reconquering Eastern Bukhara",
+      "toll": {
+        "display": "~200,000 displaced; death count unknown",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "No reliable direct death count exists for the Basmachi suppression in the Tajik lands. The best-documented measure is displacement: the Library of Congress Country Study records that as many as 200,000 people, combatants and noncombatants, fled Eastern Bukhara in the first half of the 1920s, many to Afghanistan, with only a fraction returning. The headline toll is therefore reported as a displacement figure, not a death figure; the deaths from fighting, reprisal, and the attendant famine are real but not separately quantified in the sources consulted, so death low/high are null. AUDIT 2026-06-19: LoC ~200,000 figure verified by direct fetch; the broader '200,000–480,000' 1917–1921 range previously cited could not be corroborated (the Basmachi Wikipedia page shows 200,000 for Tajik lands, not 480,000), so that upper bound was struck. Toll.low/high null is correct and disclosed, not a quarantine."
+      },
+      "received_lens": "suppressed",
+      "summary": "After the 1920 fall of the Emir of Bukhara, the Red Army spent the early 1920s reconquering Eastern Bukhara and grinding down the Basmachi insurgency that the local Muslim population had risen to support, using superior firepower alongside village destruction and food requisitions; by the mid-1920s organized resistance had collapsed and as many as 200,000 people had fled the region, many across the border into Afghanistan.",
+      "relevance": "The founding wound of Soviet Tajikistan — the Tajiks as victims of an outside imperial power — set against the later ledger in which the independent Tajik state would turn the same kind of regional, identity-marked violence against its own minorities.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Library of Congress Country Studies, \"Tajikistan — The Basmachi\" (organized guerrilla activity largely ended by 1925; as many as 200,000 people, including noncombatants, fled Eastern Bukhara in the first half of the 1920s, a fraction later returning)",
+          "supports": "summary",
+          "url": "https://countrystudies.us/tajikistan/7.htm",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Basmachi movement\" / regional history surveys via web search aggregation (1917–1921 revolutionary-period flight commonly cited at 200,000–480,000, many to Afghanistan; Red Army reconquest of Eastern Bukhara with civil authorities and irregular troops)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Basmachi_movement",
+          "caveat": "Tertiary aggregator covering all of Central Asia, not Tajikistan alone. AUDIT 2026-06-19: page fetched and confirms a '200,000 people had fled Tajik lands' figure, but the 480,000 upper bound asserted in this cite was NOT corroborated on the page — treat the high end as the LoC-anchored ~200,000 displacement figure, not a verified 480,000. This supports a DISPLACEMENT figure only; there is no death low/high (both null), so toll.low/high remain unsourced by design, not by oversight."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "tjk-2",
+      "country": "TJK",
+      "role": "victim",
+      "title": "The Tajik Civil War",
+      "era": "1992–1997",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "A five-year armed conflict between the post-Soviet government and the United Tajik Opposition that killed tens of thousands and displaced over a million — primarily a war between organized armed factions, hence WAR; the deliberate ethnic-regional reprisal killings within it are carved out as a separate perpetrator event (tjk-4) to keep the act-level tier honest.",
+      "agent": "Combatants on all sides — Popular Front / government forces, the United Tajik Opposition, and outside backers (Russian and Uzbek forces) — fighting across Tajikistan",
+      "toll": {
+        "display": "~23,500–150,000 deaths; ~1.2 million displaced",
+        "disputed": true,
+        "low": 23500,
+        "high": 150000,
+        "unit": "deaths",
+        "note": "Death estimates diverge sharply. A later demographic study put the total at about 23,500 (with roughly 20,000 of those in 1992 alone), while contemporary and widely repeated figures run from 50,000 (cited for May–December 1992) up to 65,000–150,000 over the whole war, around 1–2% of the population. The lower 23,500 figure is a retrospective recount; the higher figures are contemporary and journalistic. Roughly 1.2 million people — about a fifth of the population — were displaced, with somewhere between 500,000 and one million becoming refugees and about 60,000–100,000 fleeing into Afghanistan. Low and high are sourced; disputed."
+      },
+      "received_lens": "memorial",
+      "summary": "When Tajikistan's Soviet-era ruling structure fractured after independence, a regionally and ideologically polarized struggle erupted in 1992 between the Kulobi-led government bloc and an opposition coalition of Islamists, democrats, and the Garmi and Pamiri regions; the worst killing came in the south in 1992, and although a 1997 peace accord ended the war, it left tens of thousands dead and over a million people uprooted.",
+      "relevance": "Tajikistan's defining modern trauma, suffered by the whole society — and the same conflict whose internal reprisal killings put the Tajik state into the perpetrator ledger, the dual lens collapsed into a single war.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Tajikistani Civil War\" — Wikipedia (5 May 1992 – 27 June 1997; death range cited ~20,000–150,000; ~1.2 million internally displaced or refugees; ethnic-regional reprisals by Regari-Kulobi militias against Pamiris and Garmis described by HRW as ethnic cleansing)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Tajikistani_Civil_War",
+          "caveat": "Tertiary aggregator; the wide death range reflects genuine scholarly and contemporary disagreement, not a single confident number. AUDIT 2026-06-19: fetched and verified — page gives 20,000–150,000 killed, ~1.2 million refugees, dates 5 May 1992–27 June 1997, and attributes the Pamiri/Garmi ethnic-cleansing characterization to Human Rights Watch."
+        },
+        {
+          "kind": "reference",
+          "cite": "Facts and Details, \"Tajikistan Civil War\" (early estimates ~100,000, later research revised to 23,500 total with ~20,000 in 1992; broader range 65,000–150,000, ~1–2% of population; ~1.2 million displaced, 500,000–1,000,000 refugees, ~100,000 to Afghanistan; Popular Front under Sangak Safarov conducted 'ethnic cleansing' against Garm and Kurgan-Tyube populations)",
+          "supports": "toll.low",
+          "url": "https://factsanddetails.com/central-asia/Tajikistan/sub8_6a/entry-4858.html",
+          "caveat": "Secondary compilation drawing on multiple sources; supports the contested low (23,500) and the displacement figures. AUDIT 2026-06-19: fetched and verified — page gives the 23,500 recount (~20,000 in 1992), the 65,000–150,000 range, the 100,000 early guesstimate, 1.2M displaced, 500k–1M refugees, ~100k to Afghanistan, and Safarov's ethnic-cleansing campaign against Garm/Kurgan-Tyube populations."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "tjk-3",
+      "country": "TJK",
+      "role": "perpetrator",
+      "title": "Popular Front Ethnic Cleansing of Pamiris and Garmis",
+      "era": "1992–1993",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Pro-government Popular Front forces systematically killed, 'disappeared,' and expelled civilians identified as Pamiri or Garmi — including by checking the region of birth stamped in their passports — and burned their villages, the textbook profile of POL (ethnically and regionally targeted mass killing and forced displacement of a population); the localized, war-bound character and the documented death count keep it below EXT.",
+      "agent": "The Popular Front of Tajikistan and allied pro-government Kulobi militias (under warlords including Sangak Safarov), the force on which the Rahmon government built its army",
+      "toll": {
+        "display": ">300 summarily executed plus hundreds 'disappeared'; tens of thousands expelled",
+        "disputed": true,
+        "low": 300,
+        "high": null,
+        "unit": "deaths",
+        "note": "Human Rights Watch / Helsinki Watch documented that after pro-government forces entered Dushanbe in December 1992 they carried out a campaign of summary executions and 'disappearances' of people of Pamiri and Garmi origin, killing more than 300 and 'disappearing' hundreds of others; many more were killed in scorched-earth sweeps through Qurghonteppa (Kurgan-Tyube) and Garm, and tens of thousands were driven from their homes, with much of the Pamiri and Garmi population expelled into Afghanistan. The '>300' is a documented floor for the Dushanbe-area executions specifically, not a total for the wider campaign, which has no firm upper count; the high bound is therefore null. Low is sourced."
+      },
+      "received_lens": "suppressed",
+      "summary": "As the government bloc took the upper hand in late 1992, Popular Front fighters and Kulobi militias swept through Dushanbe and the southern valleys hunting people from the Pamir and Garm regions — pulling them off buses, checking passports for their place of birth, and shooting or 'disappearing' those marked as the wrong kind of Tajik, while burning villages and driving the survivors toward Afghanistan; Human Rights Watch called it ethnic cleansing.",
+      "relevance": "The mirror inside the mirror: the state Tajikistan built out of the Popular Front turned the same regional, identity-marked violence on its own Pamiri and Garmi co-nationals that the Tajiks had once suffered from Soviet rule — the perpetrator counterpart to the civil war in the victim ledger.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch / Helsinki Watch, \"Human Rights in Tajikistan: In the Wake of Civil War\" (1993) — documents Popular Front summary executions and 'disappearances' of Pamiris and Garmis after pro-government forces entered Dushanbe, with passport-based targeting and village burning",
+          "supports": "summary",
+          "url": "https://www.hrw.org/reports/Tajik93D.pdf",
+          "caveat": "Primary HRW/Helsinki Watch + Memorial field report. AUDIT 2026-06-19: PDF downloaded and read directly via pdftotext (4 pp. front matter + body; ISBN 1-56432-119-3, LoC Card Catalogue 93-80983, published Dec 1993). Confirmed firsthand: a chapter 'Summary Executions and other Violence by pro-Government Paramilitary Groups' (Dushanbe, Subulak), a chapter 'Disappearances and Informal Prisons,' the Pamiri/Garmi/Kulobi regional fault line, region-of-origin targeting, and the systematic looting and burning of villages believed to support the opposition. The earlier caveat about the PDF not rendering is now superseded — the report exists and supports the summary claim. The headline '>300 killed / hundreds disappeared' is HRW's own figure, restated with attribution in the Wikipedia source below."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"Popular Front of Tajikistan\" — Wikipedia, citing Human Rights Watch (after entering Dushanbe in December 1992 the Popular Front conducted summary executions and 'disappearances' of Pamiri and Garmi people, killing more than 300 and 'disappearing' hundreds; founded by Sangak Safarov and Safarali Kenjayev; backed by the Russian 201st division and Uzbek forces)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Popular_Front_of_Tajikistan",
+          "caveat": "Tertiary aggregator restating the HRW figure; the '>300' is the documented Dushanbe-area floor, not a campaign total. AUDIT 2026-06-19: fetched and verified — page confirms Safarov & Kenjayev as founders (June 1992), the HRW-attributed 'more than 300' killed plus disappearances of Pamiris and Garmis after the Front entered Dushanbe, airport/bus checkpoint targeting, and backing by the Russian 201st Motor Rifle Division and the Uzbek army."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "tjk-4",
+      "country": "TJK",
+      "role": "perpetrator",
+      "title": "The Gorno-Badakhshan (Pamir) Crackdown",
+      "era": "2022",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Government security forces met protests in the Pamiri-majority Gorno-Badakhshan region with lethal force, killing demonstrators and bystanders and arbitrarily detaining and torturing hundreds in an 'anti-terrorism' operation against a minority population — lethal political repression of a community, the core of POL; the scale (dozens killed) keeps it below EXT and WAR.",
+      "agent": "The Tajik government and security forces under President Emomali Rahmon",
+      "toll": {
+        "display": "~24–50 killed; 200+ detained",
+        "disputed": true,
+        "low": 24,
+        "high": 50,
+        "unit": "deaths",
+        "note": "Counts diverge by source. Human Rights Watch reported police killed up to 40 people over a couple of days following the 16 May 2022 protests and arbitrarily detained and tortured more than 200; some independent reporting put the confirmed civilian dead lower, at about 24 (some killed in the crackdown, some in alleged retaliatory killings), while local activists said more than 50 were killed and several hundred detained. Tajikistan officially framed the operation as counter-terrorism. Low (independent ~24) and high (activist ~50, bracketing the HRW 'up to 40') are sourced; disputed."
+      },
+      "received_lens": "denied",
+      "summary": "When residents of Khorog protested in May 2022 against years of harassment of the Pamiri minority, Tajik security forces dispersed them with rubber bullets, stun grenades, and live fire, then launched an 'anti-terrorism' sweep across Gorno-Badakhshan that killed dozens, detained and tortured more than two hundred, and was followed by long prison terms for journalists and activists — with the government denying wrongdoing and no one held to account.",
+      "relevance": "The thread from 1992 made contemporary: three decades after the Popular Front's killings, the same state still treats the Pamiris of Gorno-Badakhshan as an enemy population to be subdued — a living perpetrator entry rather than a closed historical one.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, \"No Justice for Crackdown in Tajikistan's Autonomous Region Two Years On\" (2024) — police killed up to 40 people over a couple of days after the 16 May 2022 Khorog protests; over 200 arbitrarily detained and tortured; no accountability; activists and a journalist given long sentences",
+          "supports": "toll.high",
+          "url": "https://www.hrw.org/news/2024/05/15/no-justice-crackdown-tajikistans-autonomous-region-two-years",
+          "caveat": "AUDIT 2026-06-19: fetched and verified — page states police 'reportedly killed up to 40 people,' arbitrarily detained and tortured more than 200, names the May 16 2022 Khorog protests, the 'anti-terrorism operation' framing, the absence of accountability, and the long sentences (journalist Mamadshoeva 21 yrs, defender Kholiqnazarov 16 yrs)."
+        },
+        {
+          "kind": "press",
+          "cite": "Reporting aggregated via web search (Minority Rights Group, Amnesty International, Eurasianet, RFE/RL): May 2022 GBAO crackdown variously put at ~24 civilians killed (independent), up to ~40 (HRW), or 50+ with several hundred arrested (local activists); 205 activists arbitrarily detained",
+          "supports": "toll.low",
+          "url": "https://www.amnesty.org/en/latest/news/2024/09/tajikistan-pamiri-minority-facing-systemic-discrimination-in-overlooked-human-rights-crisis/",
+          "caveat": "The lower ~24 figure comes from independent monitors operating under severe access restrictions in a region the government sealed off; counts could not be independently verified on the ground, so the death range is a floor-to-ceiling of competing estimates, not a settled total. AUDIT 2026-06-19: this exact Amnesty news URL 403'd on direct fetch, but the underlying Amnesty Sept 2024 report ('Tajikistan: Reprisals against Pamiri Minority', EUR 60/8413/2024) is real and reachable via official mirrors (eurasia.amnesty.org PDF, ecoi.net doc #2114932, JURIST coverage) and confirms ~40 Pamiri deaths and 205 arbitrary detentions following the May 2022 demonstrations — consistent with the HRW 'up to 40' and the 24–50 bracket used here."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

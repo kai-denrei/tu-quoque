@@ -1,0 +1,211 @@
+{
+  "iso": "AZE",
+  "name": "Azerbaijan",
+  "note": "Built from scratch 2026-06-19 via live web research. Azerbaijan's record sits inside the Armenian-Azerbaijani conflict and the Soviet collapse, and almost every event here is mirrored by an Azerbaijani-vs-Armenian or Soviet-vs-Azerbaijani counter-claim, so tolls are heavily contested and politicized on both sides. Both ledgers are populated and roughly balanced. Victim side: the March Days of 1918 (Bolshevik-Dashnak killings of Azerbaijanis), Black January 1990 (Soviet Army crackdown in Baku), and the Khojaly massacre of 1992. Perpetrator side: the September Days of 1918 (Ottoman Army of Islam and Azerbaijani allies massacring Baku's Armenians) and the 2023 expulsion of Nagorno-Karabakh's Armenians. A recurring caveat: the Azerbaijani state labels the 1918 and 1992 killings 'genocide' and inflates the tolls far above scholarly estimates, while the Armenian side minimizes or denies the same events — figures below use scholarly/HRW ranges over state claims, with the divergence shown. September Days is a JOINT atrocity led by the Ottoman Army of Islam with local Azerbaijani forces; it is included because Azerbaijani fighters were co-perpetrators and it founds the modern Azerbaijani-Armenian cycle of reprisal.",
+  "events": [
+    {
+      "id": "aze-1",
+      "country": "AZE",
+      "role": "victim",
+      "title": "The March Days Massacre in Baku",
+      "era": "1918",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "Bolshevik and Dashnak forces turned a political clash with the Azerbaijani Musavat party into communal killing of Muslim/Azerbaijani civilians in Baku and surrounding districts — politically and ethnically targeted mass killing of a population, which is POL rather than EXT (the aim was to crush a rival party and community in the city, not to annihilate Azerbaijanis as such everywhere).",
+      "agent": "Baku Soviet Bolshevik forces under Stepan Shahumyan, allied with Armenian Revolutionary Federation (Dashnak) militia",
+      "toll": {
+        "display": "~3,000–12,000 deaths",
+        "disputed": true,
+        "low": 3000,
+        "high": 12000,
+        "unit": "deaths",
+        "note": "Scholarly estimates range from a conservative ~3,000 total deaths (both communities) to roughly 10,000–12,000 Azerbaijanis/Muslims killed, per the Wikipedia 'March Days' summary of the historiography. The Azerbaijani state, by a 1998 presidential decree, classifies the events as 'genocide' and cites far higher figures (commonly ~12,000 in Baku and tens of thousands across the wider region, with some state sources claiming up to 50,000); these maximalist regional totals are state commemorative claims, not scholarly consensus, and are excluded from the headline range. Low and high are sourced; disputed."
+      },
+      "received_lens": "memorial",
+      "summary": "During a March 1918 power struggle between the Bolshevik-led Baku Soviet and the Azerbaijani Musavat party, Bolshevik troops and allied Armenian Dashnak militia turned their guns on the city's Muslim quarters, looting, burning, and killing Azerbaijani civilians over several days, with further killings in Shamakhi, Quba, and nearby districts.",
+      "relevance": "Azerbaijan's foundational victim memory — and the event its own historiography uses to explain (though not to excuse) the reprisal killing of Baku's Armenians six months later, making the dual lens explicit within a single year.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"March Days\" — Wikipedia (30 March–2 April 1918; perpetrators Baku Soviet Bolsheviks under Shahumyan with Dashnak forces; scholarly death range ~3,000 to ~12,000; notes Azerbaijan's 1998 'genocide' decree)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/March_Days",
+          "caveat": "Tertiary aggregator on a heavily politicized event; figures cross-checked against the article's cited historiography. Both Azerbaijani and Armenian national narratives dispute the framing and the numbers."
+        },
+        {
+          "kind": "press",
+          "cite": "Anadolu Agency, \"March 31: 'Bloody massacre' day of Azerbaijanis\"",
+          "supports": "summary",
+          "url": "https://www.aa.com.tr/en/asia-pacific/march-31-bloody-massacre-day-of-azerbaijanis/1786880",
+          "caveat": "Turkish state news agency presenting the Azerbaijani national/'genocide' framing; cites the high-end and maximalist regional tolls (used here only for narrative, not for the headline figure). Treat numbers as partisan."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "aze-2",
+      "country": "AZE",
+      "role": "victim",
+      "title": "Black January (Soviet Crackdown in Baku)",
+      "era": "1990",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "The Soviet Army stormed Baku to crush the pro-independence Popular Front movement, killing civilians in the streets and in their homes — lethal state repression of a political movement, the core of POL; it was a targeted political crackdown, not an attempt to destroy a people (EXT) or a disease-driven demographic collapse (STR).",
+      "agent": "Soviet Army, ordered by Mikhail Gorbachev's government (Defence Minister Dmitry Yazov)",
+      "toll": {
+        "display": "~131–170 civilians killed",
+        "disputed": true,
+        "low": 131,
+        "high": 170,
+        "unit": "deaths",
+        "note": "Reported death tolls cluster at 131–170 killed with 700–800 wounded; the official Azerbaijani figure is 147 civilians killed, ~800 injured, and five missing, per the Wikipedia 'Black January' summary. The range reflects differing counts of those who died of wounds afterward rather than a deep dispute over the event itself. Low and high are sourced; disputed."
+      },
+      "received_lens": "memorial",
+      "summary": "On the night of 19–20 January 1990, more than 26,000 Soviet troops entered Baku under a hastily declared state of emergency and opened fire to break the Popular Front independence movement, killing well over a hundred civilians — including bystanders shot in cars and apartments — in what Azerbaijan now commemorates as Black January.",
+      "relevance": "The pivot that turned Soviet Azerbaijan toward independence: a clear case of Azerbaijanis as victims of a Moscow-directed atrocity, sitting in the same ledger-year era as their own conflict over Karabakh.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Black January\" — Wikipedia (Soviet crackdown 19–20 January 1990; 26,000+ troops; official Azerbaijani toll 147 killed; reported range 131–170 dead, 700–800 wounded)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Black_January",
+          "caveat": "Tertiary aggregator; figures cross-checked against the article and contemporary reporting."
+        },
+        {
+          "kind": "press",
+          "cite": "Radio Free Europe/Radio Liberty, \"Azerbaijanis Mark 30th Anniversary Of Bloody 'Black January' Crackdown\" (2020)",
+          "supports": "summary",
+          "url": "https://www.rferl.org/a/azerbaijanis-mark-30th-anniversary-of-bloody-black-january-crackdown/30383248.html",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "aze-3",
+      "country": "AZE",
+      "role": "victim",
+      "title": "The Khojaly Massacre",
+      "era": "1992",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "During the First Nagorno-Karabakh War, Armenian forces killed Azerbaijani civilians fleeing the captured town of Khojaly — the deliberate mass killing of a fleeing ethnic civilian population, which is POL (targeted killing of a group in the course of a war and territorial conquest) rather than a battlefield-toll WAR classification or a full EXT campaign.",
+      "agent": "Armenian (Karabakh) armed forces, with participation by personnel of the Russian/CIS 366th Motor Rifle Regiment",
+      "toll": {
+        "display": "~200–613 civilians killed",
+        "disputed": true,
+        "low": 200,
+        "high": 613,
+        "unit": "deaths",
+        "note": "Human Rights Watch documented at least 200 killed and stated as many as 500–1,000 may have died, noting no exact count was possible because Armenian forces controlled the ground afterward; the official Azerbaijani figure is 613 civilians, including 106 women and 63 children. The Memorial Human Rights Center documented gross violations without issuing a single total. The low (HRW floor) and high (Azerbaijani official) ends are independently sourced; disputed. Azerbaijan officially calls it the 'Khojaly genocide,' a framing not adopted by HRW or Memorial."
+      },
+      "received_lens": "memorial",
+      "summary": "On 26 February 1992, as Armenian forces (joined by elements of the Russian 366th regiment) took the town of Khojaly in Nagorno-Karabakh, they killed Azerbaijani civilians attempting to flee toward safety — the single deadliest massacre of the First Nagorno-Karabakh War, with women, children, and the elderly among the dead.",
+      "relevance": "Azerbaijan's central wartime grievance and a fixture of its commemoration; it stands directly opposite Azerbaijan's own later conduct toward Karabakh's Armenians in the perpetrator ledger.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Khojaly massacre\" — Wikipedia (26 Feb 1992; Armenian forces and the 366th regiment; HRW 'at least 200,' up to 500–1,000; Azerbaijani official 613)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Khojaly_massacre",
+          "caveat": "Tertiary aggregator on a contested event; HRW and Azerbaijani-official figures cross-checked. Armenian denialism and Azerbaijani 'genocide' framing both noted; numbers attributed to their sources."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, reporting on Khojaly (cited via the Wikipedia article): at least 200 civilians killed, possibly 500–1,000; direct responsibility placed on Karabakh Armenian forces",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Khojaly_massacre",
+          "caveat": "HRW figure accessed through the Wikipedia citation rather than the primary HRW report; the floor of 'at least 200' is the conservative, non-partisan low bound."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "aze-4",
+      "country": "AZE",
+      "role": "perpetrator",
+      "title": "The September Days Massacre of Baku's Armenians",
+      "era": "1918",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "When Ottoman and Azerbaijani forces took Baku they massacred the city's Armenian civilians in days of killing explicitly cast as reprisal for the March Days — large-scale, ethnically targeted killing of a population in a captured city, which is POL rather than EXT (a localized reprisal massacre on conquest, not a campaign to destroy Armenians everywhere).",
+      "agent": "Ottoman Army of Islam (under Nuri Pasha, part of Enver Pasha's command) together with local Azerbaijani forces",
+      "toll": {
+        "display": "~9,000–30,000 deaths",
+        "disputed": true,
+        "low": 8988,
+        "high": 30000,
+        "unit": "deaths",
+        "note": "Estimates range widely: an Armenian National Council commission documented 8,988 victims (the conservative low), most scholarly accounts cite roughly 10,000–20,000 killed, and the Armenian Genocide Museum records up to ~29,000–30,000, per the Wikipedia 'September Days' summary. The wide spread reflects chaotic wartime conditions and partisan counting. Low and high are sourced; disputed."
+      },
+      "received_lens": "contested",
+      "summary": "On taking Baku in mid-September 1918, the Ottoman Army of Islam and allied Azerbaijani forces unleashed several days of killing against the city's Armenian residents and refugees — looting and massacre that Ottoman commanders permitted despite German appeals for restraint, carried out as openly avowed revenge for the March Days.",
+      "relevance": "Azerbaijan's co-perpetrator entry: the same 1918 violence the country memorializes as a crime against Azerbaijanis (March Days) had a mirror image in which Azerbaijani fighters helped slaughter Baku's Armenians — the dual lens inside a single city in a single year.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"September Days\" — Wikipedia (Sept 1918; Ottoman Army of Islam under Nuri Pasha with Azerbaijani allies; Armenian National Council commission 8,988 victims; scholarly 10,000–20,000; up to ~30,000)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/September_Days",
+          "caveat": "Tertiary aggregator on a politicized event; figures cross-checked against the cited commission and museum counts. Counterpart event to the March Days; numbers contested by both national narratives."
+        },
+        {
+          "kind": "reference",
+          "cite": "Armenian Genocide Museum-Institute, \"Massacres of Baku Armenians in September 1918\"",
+          "supports": "toll.high",
+          "url": "https://genocide-museum.am/eng/baku1918.php",
+          "caveat": "Armenian state-affiliated institution; supports the high (~29,000–30,000) end and reflects the Armenian national framing, so treated as the maximalist bound, not neutral ground."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "aze-5",
+      "country": "AZE",
+      "role": "perpetrator",
+      "title": "Expulsion of Nagorno-Karabakh's Armenians",
+      "era": "2023",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "After a nine-month blockade and a one-day military offensive, the Azerbaijani state's actions drove out essentially the entire ethnic Armenian population of Nagorno-Karabakh — forced displacement of an ethnic group from a territory, the textbook definition of POL (ethnic cleansing); the relatively low direct death count keeps it from EXT, though several scholars have argued it crosses into genocide.",
+      "agent": "Azerbaijani state and armed forces under President Ilham Aliyev",
+      "toll": {
+        "display": "~288 deaths; ~100,600 forcibly displaced",
+        "disputed": true,
+        "low": 70,
+        "high": 288,
+        "unit": "deaths",
+        "note": "Roughly 288 deaths are associated with the exodus and offensive, of which about 218 died in the 25 September Berkadzor fuel-depot explosion during the panicked flight and about 70 civilians died en route to Armenia from exhaustion, malnutrition, and lack of medicine, per the Wikipedia 'Expulsion of Nagorno-Karabakh Armenians' summary. The defining harm here is not the death count but the forced displacement of over 100,600 ethnic Armenians (about 99% of the population) between 24 September and 3 October 2023. Death low/high are sourced; the displacement figure is the central, less-disputed measure of the atrocity."
+      },
+      "received_lens": "denied",
+      "summary": "After blockading the Lachin corridor for nine months and starving Nagorno-Karabakh of food, fuel, and medicine, Azerbaijan launched a one-day military offensive on 19 September 2023; within two weeks virtually the entire ethnic Armenian population — over 100,000 people — had fled to Armenia, and Azerbaijan moved to erase Armenian churches, cemeteries, and settlements from the territory.",
+      "relevance": "Azerbaijan's clearest modern perpetrator entry, and the mirror of Khojaly in its own victim ledger — the state that commemorates Khojaly carried out the mass expulsion of the very population it once accused of that massacre.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Expulsion of Nagorno-Karabakh Armenians\" — Wikipedia (Sept 2023 offensive; ~100,617 displaced, ~99% of population; ~288 deaths incl. ~218 in the Berkadzor depot explosion and ~70 en route; nine-month Lachin blockade)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Expulsion_of_Nagorno-Karabakh_Armenians",
+          "caveat": "Tertiary aggregator; displacement and death figures cross-checked against Freedom House and press reporting. Azerbaijan denies the 'ethnic cleansing' characterization."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Freedom House, \"New Report: Azerbaijani Regime Ethnically Cleansed Nagorno-Karabakh According to International Fact-Finding Mission\"",
+          "supports": "summary",
+          "url": "https://freedomhouse.org/article/new-report-azerbaijani-regime-ethnically-cleansed-nagorno-karabakh-according-international",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "Eurasianet, \"Freedom House report: Azerbaijan engaged in 'ethnic cleansing' of Karabakh Armenians\"",
+          "supports": "summary",
+          "url": "https://eurasianet.org/freedom-house-report-azerbaijan-engaged-in-ethnic-cleansing-of-karabakh-armenians",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

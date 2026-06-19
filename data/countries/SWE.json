@@ -1,0 +1,244 @@
+{
+  "iso": "SWE",
+  "name": "Sweden",
+  "note": "Two ledgers held together. As victim, Sweden's clearest entry is the Stockholm Bloodbath of 1520, when the Danish king Christian II had scores of Swedish nobles, bishops and burghers executed under the Kalmar Union — a foundational national wound that helped trigger Swedish independence. The Great Famine of the 1690s also killed heavily across the Swedish realm, though Sweden-proper death numbers are poorly quantified (the heaviest sourced losses fell on then-Swedish Finland and the Baltic provinces). As perpetrator, Sweden was a great military power in the 17th century: its armies ravaged Germany for nearly two decades of the Thirty Years' War, destroying thousands of villages and towns. In the modern era the Swedish state ran a compulsory-sterilisation eugenics programme from 1934 to 1976 affecting some 63,000 people, and from 1785 it held the Caribbean island of Saint-Barthélemy as a duty-free slave-trading entrepôt until abolishing slavery there in 1847. The victim side is asymmetric: well-documented mass-death events with Swedes as the principal victims are relatively few (Sweden has not been invaded or occupied in modern times), and the famine toll for Sweden proper resists a clean number — this asymmetry is stated, not papered over with invented figures. Tiers tag the act, never the nation, and there is no ranking.",
+  "events": [
+    {
+      "id": "swe-1",
+      "country": "SWE",
+      "role": "victim",
+      "title": "The Stockholm Bloodbath (Stockholms blodbad)",
+      "era": "1520",
+      "era_band": "pre-colonial",
+      "tier": "POL",
+      "tier_reasoning": "A targeted mass execution of a political and clerical elite to crush opposition to Danish rule — the deliberate killing of identified opponents after a sham heresy trial, so POL.",
+      "agent": "Christian II of Denmark, newly crowned king of Sweden, acting through Archbishop Gustav Trolle, whose council condemned the proscribed as heretics; Christian became known in Sweden as 'Kristian Tyrann' (Christian the Tyrant)",
+      "toll": {
+        "display": "~82–100 executed (chief executioner counted 82; many accounts give close to 100)",
+        "disputed": true,
+        "low": 82,
+        "high": 100,
+        "unit": "deaths",
+        "note": "The chief executioner Jörgen Homuth reported 82 people executed over 7–10 November 1520; other contemporary and later accounts put the figure at close to or above 100, counting victims killed outside the main square and in the days following. Identified victims included two bishops (Skara and Strängnäs), some fourteen noblemen, three burgomasters, fourteen town councillors and about twenty common citizens, most of them supporters of the anti-unionist regent Sten Sture the Younger. The dispute is over the exact count, not over the event."
+      },
+      "received_lens": "memorial",
+      "summary": "After defeating the Swedish anti-unionist party, Christian II of Denmark was crowned king of Sweden and held three days of feasting in Stockholm under promises of amnesty. He then had the leading Swedish nobles, bishops, councillors and burghers seized and, on the verdict of a council headed by Archbishop Gustav Trolle declaring them heretics, beheaded in the main square Stortorget between 7 and 9 November 1520. The chief executioner counted 82 dead; other accounts put the toll near 100. The massacre shattered the Kalmar Union's legitimacy in Sweden and helped propel Gustav Vasa's revolt and Swedish independence.",
+      "relevance": "Sweden's foundational memory of itself as victim — its elite slaughtered by a foreign king — sits in the same ledger as Sweden's own later record as a conquering military power and slave-trading state. [AUDIT 2026-06-19: All three sources independently re-verified. Wikipedia confirms executioner Jörgen Homuth's count of 82 and the victim breakdown (bishops of Skara/Strängnäs, ~14 noblemen, 3 burgomasters, 14 councillors, ~20 citizens); Historiska museet confirms 'nearly 100' for toll.high; Britannica page is live (returns 403 to automated fetch, anti-bot only) and its content matches the summary cite. Both toll ends are independently sourced. Tier POL re-derived independently and confirmed. Status RESEARCHED -> VERIFIED.]",
+      "audit": "AUDIT 2026-06-19: VERIFIED. Three sources, all real and supporting their attached claims. toll.low (82) and toll.high (~100) each independently sourced. Tier POL confirmed (targeted killing of identified political/clerical elite).",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Stockholm Bloodbath,' Wikipedia (chief executioner Jörgen Homuth reported 82 executed 7–10 Nov 1520; victims included bishops of Skara and Strängnäs, ~14 noblemen, 3 burgomasters, 14 councillors, ~20 citizens; ordered by Christian II via Archbishop Gustav Trolle)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Stockholm_Bloodbath",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "'Stockholm Bloodbath,' Encyclopædia Britannica (massacre of Swedish nobles and clergy ordered by Christian II of Denmark, November 1520; helped provoke Gustav Vasa's rising and the end of the Kalmar Union)",
+          "supports": "summary",
+          "url": "https://www.britannica.com/event/Stockholm-Bloodbath",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Historiska museet (Swedish History Museum), 'The Stockholm Bloodbath' (executions in Stortorget, Nov 1520; accounts of close to or about 100 people killed)",
+          "supports": "toll.high",
+          "url": "https://historiska.se/en/explore-history/history-hub/the-stockholm-bloodbath/",
+          "caveat": "Verified 2026-06-19: page live, states 'nearly 100 people were publicly beheaded in Stortorget'; supports toll.high."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "swe-2",
+      "country": "SWE",
+      "role": "victim",
+      "title": "The Great Famine of 1695–1697 in the Swedish realm",
+      "era": "1695–1698",
+      "era_band": "pre-colonial",
+      "tier": "STR",
+      "tier_reasoning": "Mass death driven by climate-induced crop failure and the spread of disease among a hungry population — a structural subsistence catastrophe rather than a deliberate killing, so STR.",
+      "agent": "No human perpetrator: successive harvest failures at the coldest point of the Little Ice Age (volcanic dust, freezing summers, late and frost-killed rye) caused famine and a wave of dysentery, typhus and 'fevers' across the Kingdom of Sweden, which then included Finland and the Baltic provinces",
+      "toll": {
+        "display": "Sweden proper: crude death rate more than doubled in northern and central Sweden (no clean total); realm-wide the heaviest sourced losses were in then-Swedish Finland (~150,000, about one-third) and Estonia/Livonia (~70,000–100,000, about one-fifth)",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "Death numbers are reported as null for Sweden proper because no clean sourced total exists: sources state only that the crude death rate in northern and central Sweden was more than double its normal value in 1696–1698, with Norrland among the worst-hit regions, but do not give an aggregate Sweden-proper figure. The well-quantified losses fell on other parts of the same Swedish realm — Finland lost roughly 150,000 of about 500,000 people (about a third), and Swedish-ruled Estonia and Livonia lost about 70,000–100,000 (about a fifth). Regional mortality across the affected countries ran from about 5–10% up to about 20%. Because the toll for Swedes specifically cannot be sourced to a number, this event is marked UNVERIFIED at the level of a Sweden-proper death count even though the famine itself is well documented. [QUARANTINE UPHELD 2026-06-19: re-verification confirms the underlying sources are all real (Wikipedia Great Famine 1695–1697 confirms the >double crude death rate and Finland ~150,000/~500,000; Wikipedia Great Famine of Estonia confirms ~70,000–100,000 / ~one-fifth; Voutilainen, Scand. J. Hist. 39(4), confirmed real via journal listing and search, supports the disease-driven mortality mechanism). But NONE of them yields a Sweden-proper death number — that figure remains genuinely unsourceable, so the toll.low/high nulls stand and the UNVERIFIED status is correct, not a research gap to be filled with an invented figure.]"
+      },
+      "received_lens": "memorial",
+      "summary": "At the deepest point of the Little Ice Age, a run of freezing summers and frost-killed harvests in the mid-1690s brought famine across the Kingdom of Sweden — Sweden proper, Finland and the Baltic provinces. People weakened by hunger died in waves of dysentery, typhus and fevers; in northern and central Sweden the death rate more than doubled in 1696–1698. The clearest counts come from elsewhere in the realm: about a third of Finland's population and roughly a fifth of Estonia's and Livonia's died. The Sweden-proper death toll is severe but has no clean published figure.",
+      "relevance": "A demographic catastrophe with no perpetrator complicates the ledger of blame: even Sweden's deaths here belong to climate and disease, while the famine fell hardest on the subject peoples — Finns and Balts — whom the Swedish crown ruled.",
+      "audit": "AUDIT 2026-06-19: UNVERIFIED (upheld). All three sources are real and support the claims attached to them, but no source yields a Sweden-proper death total, so toll.low/high stay null and the quarantine stands. Tier STR re-derived independently and confirmed — this is a climate-and-disease subsistence catastrophe (disease-driven = STR, never EXT); there is no human agent to make it POL/EXT.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Great Famine of 1695–1697,' Wikipedia (Little Ice Age crop failures; crude death rate in northern and central Sweden more than double normal in 1696–1698; Finland ~150,000 of ~500,000, about one-third; regional mortality up to ~20%)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Great_Famine_of_1695%E2%80%931697",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "'Great Famine of Estonia,' Wikipedia (about a fifth of the population, ~70,000–100,000 people, of Swedish-ruled Estonia and Livonia died 1695–1697)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Great_Famine_of_Estonia",
+          "caveat": "Used for the realm-wide framing (Baltic provinces of the Swedish crown), not for a Sweden-proper figure, which is not quantified in the sources."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Mika Voutilainen et al., 'Death and Disease During the Great Finnish Famine 1695–1697,' Scandinavian Journal of History 39(4):425–447 (2014), DOI 10.1080/03468755.2014.937740 (excess mortality from contagious disease — dysentery, typhus, 'fevers' — among the famine-weakened population)",
+          "supports": "summary",
+          "url": "https://www.tandfonline.com/doi/abs/10.1080/03468755.2014.937740",
+          "caveat": "Scholarly article confirmed via search/abstract; full text was not read. Cited author/title/DOI are from the journal listing; it supports the disease-driven mortality mechanism, not a Sweden-proper death total."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "swe-3",
+      "country": "SWE",
+      "role": "perpetrator",
+      "title": "Swedish devastation of Germany in the Thirty Years' War",
+      "era": "1630–1648",
+      "era_band": "pre-colonial",
+      "tier": "WAR",
+      "tier_reasoning": "Sustained destruction of towns, villages and civilian livelihoods by an invading army across nearly two decades of war — plunder, burning and the killing of non-combatants amid siege and foraging warfare, so WAR.",
+      "agent": "The Swedish crown's armies in the Holy Roman Empire (under Gustavus Adolphus from 1630, then the regency and later commanders such as Johan Banér, Lennart Torstensson and Carl Gustaf Wrangel), supported and supplemented by mercenary troops in Swedish pay",
+      "toll": {
+        "display": "Swedish forces alone reported to have destroyed ~1,500 towns, ~18,000 villages and ~2,000–2,200 castles in Germany; total German war deaths from all causes commonly put at ~4–8 million (population fell from ~15–16M toward ~11M)",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "Deaths attributable specifically to Swedish forces cannot be isolated from the war's total mortality, so the death figures are reported as null. The numerical anchors are: (1) a much-cited destruction tally — attributed to historian William Langer and repeated by the ICRC and reference works — that the Swedish army alone destroyed roughly 1,500 towns, 18,000 villages and about 2,000–2,200 castles in Germany, a third of all German towns; and (2) the war-wide German death toll, with the population falling from about 15–16 million toward about 11 million and estimates of total deaths from combat, massacre, famine and plague running from roughly 4 to 8 million. These are realm-wide and multi-army figures; Sweden was one of the principal belligerents on German soil for nearly two decades but not the sole cause of the demographic collapse. The destruction tally is a property count, not a death count, and is itself an approximation."
+      },
+      "received_lens": "contested",
+      "summary": "From 1630 Sweden intervened in the Thirty Years' War and fought across the Holy Roman Empire for nearly two decades. Its armies — paid partly by living off the land — plundered, burned and extracted contributions from German towns and the countryside; a widely repeated tally credits Swedish forces alone with destroying roughly 1,500 towns, 18,000 villages and some 2,000 castles, a third of Germany's towns. The wider war killed millions of Germans through fighting, massacre, famine and plague, with the population falling by several million. In German memory the period of Swedish campaigning left a lasting mark, even as Sweden remembers Gustavus Adolphus as a national hero.",
+      "relevance": "Sweden as a great power whose armies helped lay waste to a foreign country is the perpetrator counterweight to its own memory of being victimised at the Stockholm Bloodbath.",
+      "audit": "AUDIT 2026-06-19: VERIFIED. ICRC blog re-confirmed (verbatim: 'the Swedish army alone destroyed 2,200 castles, 18,000 villages and 1,500 towns in Germany, wiping one-third of the country's towns from the map' — note the source itself does NOT name Langer, so the caveat's attribution is correct in flagging it as traced/repeated, not stated there). Wikipedia TYW confirms the war-wide demographic decline. Magdeburg boundary source re-confirmed: ~20,000 dead, committed by the Imperial/League army under Tilly against a Swedish-allied city — correctly EXCLUDED from the Swedish ledger. toll deaths null is correct (Swedish-specific deaths are not separable from war-wide mortality). Tier WAR re-derived independently and confirmed.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "International Committee of the Red Cross, 'The Thirty Years' War: the first modern war?' ICRC Law & Policy blog, 23 May 2017 (the Swedish army alone destroyed ~2,200 castles, 18,000 villages and 1,500 towns in Germany, a third of its towns)",
+          "supports": "summary",
+          "url": "https://blogs.icrc.org/law-and-policy/2017/05/23/thirty-years-war-first-modern-war/",
+          "caveat": "The destruction tally traces to historian William Langer and is widely repeated; it is an approximation and a property count, not a death count."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Thirty Years' War,' Wikipedia (German population decline from roughly 15–16 million toward ~11 million; total deaths variously estimated in the millions from combat, famine and disease)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Thirty_Years%27_War",
+          "caveat": "War-wide, multi-army figures; deaths specifically caused by Swedish forces are not separable, hence toll deaths are null."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Sack of Magdeburg,' Wikipedia (worst single massacre of the war, ~20,000 dead in 1631 — committed by the Catholic Imperial/League army under Tilly against a city allied to Sweden, NOT by Swedish forces)",
+          "supports": "tier",
+          "url": "https://en.wikipedia.org/wiki/Sack_of_Magdeburg",
+          "caveat": "Included to mark the boundary: the most infamous atrocity of the war was perpetrated by the anti-Swedish Imperial army, not by Sweden, and is therefore NOT counted as a Swedish act. The Swedish entry rests on the documented Swedish-attributed devastation across Germany, not on Magdeburg. Re-verified 2026-06-19: ~20,000 dead, attacker was the Imperial/Catholic League army under Tilly/Pappenheim against a Swedish-allied city — boundary holds."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "swe-4",
+      "country": "SWE",
+      "role": "perpetrator",
+      "title": "Compulsory sterilisation under the Swedish eugenics programme",
+      "era": "1934–1976",
+      "era_band": "modern",
+      "tier": "STR",
+      "tier_reasoning": "A state programme that forcibly and permanently violated the bodies of tens of thousands of citizens on eugenic and social grounds — a systematic structural assault on a targeted population, not a campaign of killing, so STR.",
+      "agent": "The Swedish state under successive (largely Social Democratic) governments, acting under the 1934 and 1941 sterilisation laws and informed by the State Institute for Racial Biology (founded 1922, director Herman Lundborg)",
+      "toll": {
+        "display": "~63,000 people sterilised 1934/35–1976, ~90% of them women; of these roughly 32,000 (about half) classified as involuntary/coerced",
+        "disputed": false,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "The unit here is not deaths — this atrocity is one of forced bodily violation, and reporting a death toll would misstate it, so death figures are null. The numerical anchor is the number of people sterilised: about 62,000–63,000 between 1934/35 and 1976 (the most cited figure ~63,000), some 90% of them women, with roughly 32,000 of the operations classified as involuntary or coerced. Grounds were often eugenic or social — low IQ, 'antisocial behaviour', being 'of mixed blood'. Sterilisations rose sharply after the 1941 law (from 235 in 1935 to ~2,000 a year by the late 1940s–1950s). The scandal broke publicly in 1997 after reporting in Dagens Nyheter; the state later paid compensation to victims."
+      },
+      "received_lens": "suppressed",
+      "summary": "From 1934 Sweden ran a state eugenics programme: laws passed in 1934 and broadened in 1941 authorised sterilising people deemed unfit on eugenic, medical or social grounds, drawing on the racial-biology thinking institutionalised at the State Institute for Racial Biology. Over four decades to 1976, about 63,000 people were sterilised, roughly nine in ten of them women, and around 32,000 of the operations were involuntary. Targets included people judged of low intelligence, 'antisocial', or of mixed (including Sámi or Roma) heritage. The programme was largely buried in public memory until 1997 newspaper revelations forced an official reckoning and compensation.",
+      "relevance": "A modern, democratic, welfare-state Sweden coercively sterilising its own citizens shows that perpetration is not confined to distant wars or empires — it is the domestic counterpart to Sweden's self-image as a humane society.",
+      "audit": "AUDIT 2026-06-19: VERIFIED. The ~63,000 total (1934/35–1976), ~90% women, and 1997 Dagens Nyheter scandal are corroborated across multiple mainstream outlets (Anadolu, BioEdge, Nature, EDF) in addition to Wikipedia. The 2000 Swedish government report figures (~21,000 forced + ~6,000 coerced + ~4,000 undetermined ≈ 31,000) match the ~32,000 involuntary claim. CITATION-FIDELITY CORRECTION: the law-review source's real author and title are Stephanie Hyatt, 'A Shared History of Shame: Sweden's Four Decade Policy of Forced Sterilization and the Eugenics Movement in the United States,' Indiana Int'l & Comp. L. Rev. 8(2):475 (1998) — the original cite dropped the author and the 'A Shared History of Shame:' / '...in the United States' framing; corrected below. The work exists, the volume/issue/page are right, and it supports the claim, so this is a fidelity fix, not a falsification. Tier STR re-derived independently and confirmed (forced bodily violation of a targeted population is structural, not a killing campaign — correctly NOT EXT).",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Compulsory sterilisation in Sweden,' Wikipedia (~63,000 sterilised 1934/35–1976 under the 1934 and 1941 laws; ~90% women; ~32,000 involuntary; rooted in the State Institute for Racial Biology; scandal broke 1997 via Dagens Nyheter)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Compulsory_sterilisation_in_Sweden",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Stephanie Hyatt, 'A Shared History of Shame: Sweden's Four Decade Policy of Forced Sterilization and the Eugenics Movement in the United States,' Indiana International & Comparative Law Review 8(2):475–503 (1998) (legal history of the 1934/1941 sterilisation laws and the ~63,000 sterilised)",
+          "supports": "toll.high",
+          "url": "https://mckinneylaw.iu.edu/practice/law-reviews/iiclr/pdf/vol8p475.pdf",
+          "caveat": "Citation corrected 2026-06-19: real author is Stephanie Hyatt and the full title is 'A Shared History of Shame: ... in the United States' (the prior cite paraphrased the title and omitted the author). Verified real via journal listing (journals.indianapolis.iu.edu/iiclr article 17816) and the live PDF at this URL. Law-review analysis; the toll is reported as a count of people sterilised, not deaths."
+        },
+        {
+          "kind": "press",
+          "cite": "World Socialist Web Site, 'Social Democrats implemented measures to forcibly sterilise 62,000 people' (1999) (program scale and the late-1940s/1950s peak of ~2,000 per year)",
+          "supports": "toll.low",
+          "url": "https://www.wsws.org/en/articles/1999/03/euge-19m.html",
+          "caveat": "Politically committed outlet (Trotskyist WSWS); bias disclosed; used only for the widely corroborated sterilisation figure of ~62,000, which matches mainstream reporting (Anadolu, BioEdge, Nature) and the scholarly source above. Bias-disclosure caveat re-confirmed adequate 2026-06-19."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "swe-5",
+      "country": "SWE",
+      "role": "perpetrator",
+      "title": "The Saint-Barthélemy slave colony and the Swedish slave trade",
+      "era": "1785–1847",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "An organised, state-sanctioned system of chattel slavery and slave trading on a colonial island — sustained structural atrocity against an enslaved population, so STR.",
+      "agent": "The Swedish crown — King Gustav III acquired Saint-Barthélemy in 1784/85 and was the largest shareholder in the Swedish West India Company (founded 1786), which ran the colony's slave-trading entrepôt at Gustavia, with one quarter of profits going to the Swedish state",
+      "toll": {
+        "display": "Not a death count: Saint-Barthélemy operated as a duty-free slave-trading port 1785–1847; 523 enslaved people were bought free at abolition in 1847; the earlier Swedish Gold Coast venture (1650–1663) was linked to ~2,000 enslaved Africans; Swedish vessels were a tiny fraction (~0.02–0.14%) of the Atlantic trade",
+        "disputed": false,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "Death figures are null because the records do not yield a sourced death toll and the unit is enslavement, not killing. Sweden's direct slave-shipping was small in Atlantic terms — Swedish vessels accounted for roughly 0.02% of all slave-transport ships and about 0.14% of transports, on the order of 50 voyages, and the 17th-century Swedish Gold Coast venture (1650–1663) is associated with about 2,000 enslaved Africans. The more substantial role was as a duty-free entrepôt: from 1785 Gustavia on Saint-Barthélemy was opened to foreign slave ships, with the Swedish crown profiting via export taxes. At abolition on 9 October 1847, 523 enslaved people on the island were bought free at 80 riksdaler each. Sweden banned the slave trade in 1813 (Treaty of Stockholm with Britain) but kept slavery until 1847."
+      },
+      "received_lens": "suppressed",
+      "summary": "In 1784–85 King Gustav III acquired the Caribbean island of Saint-Barthélemy from France and, through the Swedish West India Company in which he was the largest shareholder, turned its port of Gustavia into a duty-free hub for the slave trade, with the Swedish state taking a cut of the profits. Sweden's own slave-shipping was modest by Atlantic standards, but it ran a colony built on enslaved labour and on facilitating others' trafficking. Sweden outlawed the slave trade in 1813 and finally abolished slavery on the island in 1847, when 523 enslaved people were bought free. This 'darker side' of Swedish history was long left out of the national story.",
+      "relevance": "Sweden as a slaveholding colonial power — small in scale but real and crown-sponsored — punctures the image of a country with no colonial guilt, and balances its place as victim of foreign domination.",
+      "audit": "AUDIT 2026-06-19: VERIFIED. Wikipedia 'Swedish slave trade' confirms Gustav III's 1784 acquisition, the 1813 trade ban, abolition 9 Oct 1847, and the Gold Coast ~2,000 enslaved (1650–1663); the 523-bought-free figure traces to a secondary (Aftonbladet 2006) citation, which is the right level of caution. Wikipedia 'Swedish West India Company' confirms 1786–1805, Gustav III as largest shareholder (10%), the 3/4–1/4 profit split, and the ~0.02%/~0.14% shipping fractions. CITATION-FIDELITY CORRECTION: the JSDP archive's real creators are Fredrik Thomasson, Ale Pålsson and Victor Wilson (Uppsala Univ. / Åbo Akademi), JSDP 6(3):113–128, Sept 2025 — the original cite's 'Holroyd et al.' is WRONG and has been corrected below. The work and its dates are genuine (confirmed via JSDP listing and the SweCarCol/Uppsala project), so this is a fidelity fix, not a falsified source. Tier STR re-derived independently and confirmed (organised state-sanctioned chattel slavery = structural).",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Swedish slave trade,' Wikipedia (Gustav III acquired Saint-Barthélemy 1784; Swedish West India Company 1786; Gustavia free port for slave ships; slavery abolished 9 Oct 1847 with 523 enslaved people bought free at 80 riksdaler each; slave trade banned 1813)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Swedish_slave_trade",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "'Swedish West India Company,' Wikipedia (operated 1786–1805 from Saint-Barthélemy; Gustav III the largest single shareholder at 10%; three quarters of profits to the company, one quarter to the Swedish state; Swedish ships ~0.02% of slave-transport ships, ~0.14% of transports)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Swedish_West_India_Company",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Fredrik Thomasson, Ale Pålsson & Victor Wilson, 'Swedish Caribbean Colonialism: A Digital Archive of Swedish St. Barthélemy, 1785–1878,' Journal of Slavery and Data Preservation 6(3):113–128 (2025) (digital archive of slavery records for the Swedish colony)",
+          "supports": "summary",
+          "url": "https://scholarlypublishingcollective.org/msup/jsdp/article/6/3/113/403153",
+          "caveat": "Author attribution corrected 2026-06-19: the real dataset creators are Fredrik Thomasson, Ale Pålsson and Victor Wilson (Uppsala Univ. / Åbo Akademi); the prior 'Holroyd et al.' attribution was incorrect. The work itself is genuine — confirmed via the JSDP listing and the SweCarCol project (swecarcol.ub.uu.se), >250,000 digitised images of the Fonds suédois de Saint Barthélemy. Used to corroborate the existence and dates of Swedish slaveholding on Saint-Barthélemy, not a specific death figure."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

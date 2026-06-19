@@ -1,0 +1,172 @@
+{
+  "iso": "SLE",
+  "name": "Sierra Leone",
+  "note": "Sierra Leone's two ledgers are both anchored in the same eleven-year civil war (1991-2002), and the dual lens turns unusually literal there: the war was overwhelmingly an intra-Sierra-Leonean catastrophe in which Sierra Leoneans were both the victims and the perpetrators, often in the same villages. The victim ledger reaches back further — the territory around the Sierra Leone River held Bunce Island, the largest British slave castle on West Africa's 'Rice Coast,' through which tens of thousands of Africans were trafficked to the Americas (the best scholarly estimate, from historian Joseph Opala, is on the order of 30,000, with some popular sources citing ~50,000); the 1898 Hut Tax War, in which Britain crushed the Temne and Mende risings against colonial taxation; and the civil war itself, whose roughly 50,000-70,000 dead and signature limb-amputation terror were inflicted overwhelmingly on civilians, principally by the rebel Revolutionary United Front (RUF) and the Armed Forces Revolutionary Council (AFRC). The perpetrator ledger holds the other side of that same war: the Sierra Leone Army and the NPRC military junta carried out extrajudicial executions of suspected rebels and 'sobel' (soldier-by-day, rebel-by-night) predation on civilians, while the state-allied Civil Defence Forces / Kamajor militia committed summary killings, looting and cruel treatment for which the Special Court for Sierra Leone convicted CDF leaders Moinina Fofana and Allieu Kondewa of war crimes and crimes against humanity. The Truth and Reconciliation Commission's statistical record attributes the clear majority of documented violations to the RUF (~59%), with the AFRC, the Sierra Leone Army and the CDF each accounting for a smaller but real share — so the perpetrator ledger is genuinely lighter than the victim ledger, and that asymmetry is left standing rather than padded. No toll was invented to balance the columns; pre-colonial slave-raiding and warfare among Sierra Leonean polities is real but unquantified, and no figure is fabricated for it.",
+  "events": [
+    {
+      "id": "sle-1",
+      "country": "SLE",
+      "role": "victim",
+      "title": "Bunce Island and the Atlantic slave trade on the Rice Coast",
+      "era": "c.1670–1808",
+      "era_band": "pre-colonial",
+      "tier": "STR",
+      "tier_reasoning": "A sustained, commercialized system of mass enslavement and forced deportation operated by foreign traders that extracted human beings from the region for over a century; tiered STR as a structural engine of mass death and dispossession rather than a single war, political purge, or campaign to destroy a defined people.",
+      "agent": "English and British slave-trading companies operating Bunce Island in the Sierra Leone River — successively the Royal African Company, the London firm Grant, Sargent & Oswald (Richard Oswald), and Oswald's nephews John & Alexander Anderson — who bought captives from coastal middlemen and shipped them chiefly to the rice plantations of South Carolina and Georgia",
+      "toll": {
+        "low": 30000,
+        "high": 50000,
+        "unit": "deaths",
+        "display": "~30,000–50,000 Africans trafficked through Bunce Island (persons enslaved, not solely deaths)",
+        "disputed": true,
+        "note": "Unit caveat is essential: this figure counts people trafficked/enslaved through Bunce Island, not a death count — an unknown but large fraction died in the barracoons, the Middle Passage and on arrival, but no clean death total exists. The lower bound (~30,000 over c.1670-1807) reflects the estimate associated with historian Joseph Opala's research, the leading scholarly authority on Bunce Island; the upper bound (~50,000 from the African Rice Coast) appears in popular and heritage sources. One documented sub-figure: the firm Grant, Oswald & Co. exported over 12,500 Africans from Bunce Island between 1749 and 1773. The wider Sierra Leone region's total slave exports are not cleanly aggregated in the sources consulted; Bunce Island is used here as the best-documented node, and the disputed flag marks the 30k/50k divergence. AUDIT QUARANTINE (2026-06-19): event retained as UNVERIFIED. Joseph Opala confirmed as a real historian (the recognized Bunce Island / Sierra Leone-Gullah authority), and the ~30,000 (1670-1807) figure is widely attributed to his 30 years of research and corroborated across multiple secondary sources; the ~50,000 upper bound is corroborated in heritage/press sources (Face2Face Africa, TalkAfricana, CNN-derived summaries). BUT (a) the 30k figure was reached via secondary summaries, not traced to an Opala primary publication, and (b) the unit is enslaved-persons, not deaths, so the toll cannot be treated as a death count. These two open issues, not a source-existence failure, are why this stays UNVERIFIED."
+      },
+      "received_lens": "memorial",
+      "summary": "From roughly 1670 to abolition in 1807-08, Bunce Island in the Sierra Leone River served as the largest British slave castle on West Africa's 'Rice Coast.' Successive English and British firms — ending with Richard Oswald's and the Anderson brothers' operation — bought captives from coastal traders and shipped them across the Atlantic, with many sold to the rice planters of South Carolina and Georgia who prized Sierra Leoneans' rice-growing skill. Estimates of those trafficked through the island run from about 30,000 to 50,000.",
+      "relevance": "This is the deepest stratum of Sierra Leone as victim — the territory's people sold off the continent by a foreign commercial system — and it long predates and underlies the modern state whose own forces appear on the perpetrator ledger.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Royal Historical Society blog (Historical Transactions), 'Bloody Bunce: A Legacy of the Transatlantic Slave Trade in Sierra Leone' (29 Oct 2019) — traces the island's operators (Royal African Company; Grant, Sargent & Oswald / Richard Oswald; John & Alexander Anderson), the ~2,000 captives a year shipped, and the South Carolina/Georgia rice-plantation destination (Henry Laurens connection)",
+          "supports": "summary",
+          "url": "https://blog.royalhistsoc.org/2019/10/29/bunce-island-legacy/",
+          "caveat": "AUDIT (2026-06-19): Verified the page exists (actual title 'Bloody Bunce: A Legacy of the Transatlantic Slave Trade in Sierra Leone') and confirms the three operators, the ~2,000-captives/year rate and the Carolina/Georgia rice-plantation destination. CORRECTED: the prior cite wrongly attributed the 'over-12,500 exported by Grant, Oswald & Co. 1749-1773' figure to this blog — that figure is NOT in the RHS post; it is sourced separately (Understanding Slavery Initiative, understandingslavery.com; University of Edinburgh 'Managing Imperial Legacies' blog) and is verified there. Scholarly society blog, not peer-reviewed; gives no single lifetime total, so it supports the operators/period/rate but not the 30k/50k totals."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Understanding Slavery Initiative, 'Bunce Island, Sierra Leone' (understandingslavery.com) — states that between 1749 and 1773 Grant, Oswald & Co exported over 12,500 Africans from Bunce Island; corroborated by the University of Edinburgh 'Managing Imperial Legacies' blog post on Richard Oswald and Bunce Island",
+          "supports": "summary",
+          "url": "https://understandingslavery.com/artefact/bunce-island-sierra-leone/",
+          "caveat": "AUDIT (2026-06-19): added to carry the >12,500 (1749-1773) sub-figure that was previously misattributed to the RHS blog; figure verified directly on this page. Heritage/education resource; gives no lifetime total."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia / heritage and press summaries of Bunce Island (incl. Face2Face Africa and CNN, 'Slave trade ghost town,' 16 May 2013) — describe Bunce Island as the largest British slave castle on the Rice Coast, operating c.1670-1808, with figures ranging from ~30,000 (associated with Joseph Opala's research) to ~50,000 enslaved Africans shipped, chiefly to South Carolina and Georgia",
+          "supports": "toll.high",
+          "url": "https://www.cnn.com/2013/05/16/world/africa/bunce-island-slavery-west-africa/index.html",
+          "caveat": "AUDIT (2026-06-19): the CNN URL is genuine but returns HTTP 451 (geo-blocked) on direct fetch; the article's existence and content were confirmed via its reproduction at visitsierraleone.org (which names Joseph Opala as director of the Bunce Island Coalition and describes the Carolina/Georgia rice-plantation destination) and the ~50,000 'African Rice Coast' upper bound is independently corroborated (Face2Face Africa, TalkAfricana, Tripfreakz). Tertiary/press sources; the ~50,000 upper bound is a round popular figure and the ~30,000 lower bound should be traced directly to Joseph Opala's published scholarship for definitive use. Both are persons-trafficked estimates, not death counts."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "sle-2",
+      "country": "SLE",
+      "role": "victim",
+      "title": "The Hut Tax War of 1898",
+      "era": "1898",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "An organized colonial military campaign to suppress two armed risings against a new tax, ending in the defeat of the Temne and Mende and the execution of captured rebels; tiered WAR for the scale of organized armed violence to enforce subjugation rather than the destruction of a defined people.",
+      "agent": "The British colonial administration of the Sierra Leone Protectorate under Governor Frederic Cardew — which imposed a tax on dwellings ('hut tax'), then deployed colonial troops (the West India Regiment and Frontier Police) to crush the Temne rising led by Bai Bureh in the north and the Mende rising in the south, and afterward executed scores of captured fighters",
+      "toll": {
+        "low": 96,
+        "high": null,
+        "unit": "deaths",
+        "display": "~96 rebels executed; total war dead undocumented",
+        "disputed": false,
+        "note": "The one firm figure in the sources consulted is the roughly 96 rebels executed following the suppression of the risings. The total number killed in the fighting on both sides — Temne and Mende combatants, the several hundred Krio/colonial settlers and missionaries reported killed in the southern Mende rising, and colonial troops — is not aggregated into a single war total, so the high end is left null rather than guessed. This is a documented floor, not the war's full toll. AUDIT (2026-06-19): the ~96 executed figure is verified exactly ('ninety-six rebels'); Governor Frederic Cardew, the Bai Bureh-led Temne rising and the Mende rising are all confirmed. Note for transparency that the Wikipedia source does carry component sub-figures (the Mende rising caused ~300-500 deaths of 'outsiders' incl. Europeans/Creoles; British forces lost ~67 killed + ~90 African porters) — these are component counts, not a single aggregated war total, so leaving toll.high null remains defensible; the ~96 floor is the firmest single quantified figure."
+      },
+      "received_lens": "memorial",
+      "summary": "In 1898 Britain's new tax on huts in the Sierra Leone Protectorate triggered two armed risings: a northern Temne resistance led by the warrior-strategist Bai Bureh and a southern rising among the Mende. British colonial forces defeated both over the course of the year; Bai Bureh was eventually captured and exiled, and the colonial authorities executed roughly 96 captured rebels. Bai Bureh later became a Sierra Leonean national hero of anti-colonial resistance.",
+      "relevance": "The Hut Tax War is the colonial wound on the victim ledger — Sierra Leoneans crushed by an imperial state for refusing its taxation — and its hero Bai Bureh is now a national symbol, a sharp contrast to the self-inflicted violence of the civil-war perpetrator ledger.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Hut Tax War of 1898' — describes Governor Cardew's hut tax, the northern Temne rising under Bai Bureh and the southern Mende rising, the British military suppression, and the ~96 rebels executed afterward",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Hut_Tax_War_of_1898",
+          "caveat": "AUDIT (2026-06-19): source verified — page exists and confirms Gov. Cardew, the hut tax (10s / 5s), the Bai Bureh-led northern Temne rising, the southern Mende rising and the exact 'ninety-six rebels' executed; cross-confirmed by Face2Face Africa and DCM Medals. Tertiary aggregator; the characterization of Bai Bureh's role (which late-20th-century scholarship has revised, arguing he was unfairly cast as the prime instigator) should be confirmed against scholarly sources for definitive use, but the load-bearing toll figure (~96) is sound."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "sle-3",
+      "country": "SLE",
+      "role": "victim",
+      "title": "Civilians in the Sierra Leone Civil War",
+      "era": "1991–2002",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "A protracted armed conflict in which civilians were the principal targets of mass killing, mutilation and sexual violence; tiered WAR as large-scale organized armed violence rather than a campaign aimed at exterminating a defined ethnic or national group.",
+      "agent": "Primarily the rebel Revolutionary United Front (RUF) under Foday Sankoh and its allied Armed Forces Revolutionary Council (AFRC) — who terrorized civilians with mass killings, the signature hacking-off of hands and arms, and systematic rape; the January 1999 assault on Freetown ('Operation No Living Thing') was the most concentrated atrocity",
+      "toll": {
+        "low": 50000,
+        "high": 70000,
+        "unit": "deaths",
+        "display": "~50,000–70,000 dead over the war",
+        "disputed": true,
+        "note": "The commonly cited range for total war dead is ~50,000-70,000 (Wikipedia and reference works), though some press and overview sources state figures up to ~200,000 — a higher, less-supported claim that conflates death with displacement (about 2-2.5 million were displaced). Within the war, the January 1999 Freetown assault alone killed a commonly cited ~6,000-7,000 people, mostly civilians; Human Rights Watch documented several hundred killed and maimed by amputation in that assault and estimated war-wide sexual-violence victims in the hundreds of thousands. Toll low/high set to the best-supported ~50,000-70,000; the higher ~200,000 claim is flagged as disputed and unreconciled rather than adopted."
+      },
+      "received_lens": "memorial",
+      "summary": "Between 1991 and 2002, war engulfed Sierra Leone after the RUF, backed by Charles Taylor's Liberia, invaded from the east. The defining horror was deliberate terror against civilians: the RUF and AFRC carried out mass killings, systematic rape, and the amputation of hands, arms and other limbs with machetes, often forcing victims to choose 'long sleeve or short sleeve.' The January 1999 attack on Freetown killed thousands in weeks. Estimates of total dead run from about 50,000 to 70,000, with roughly two million displaced.",
+      "relevance": "This is the victim face of the war that also fills Sierra Leone's perpetrator ledger — the same conflict, the same villages — making the dual lens unavoidably literal: Sierra Leoneans were both the maimed and the maimers.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Sierra Leone Civil War' — gives a death toll of ~50,000-70,000 and ~2.5 million displaced over 1991-2002, attributes the majority of atrocities (mass killing, amputation, ~93% of sexual assaults) to the RUF with AFRC participation, and describes the January 1999 Freetown assault",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Sierra_Leone_Civil_War",
+          "caveat": "AUDIT (2026-06-19): verified — confirms 'over 50,000' to 'up to 70,000' dead, ~2.5M displaced, the PHR-sourced ~93% RUF share of sexual assaults, and the Jan 1999 'Operation No Living Thing' Freetown assault (HRW-estimated >7,000 killed, at least half civilians). Tertiary aggregator; corroborated against the TRC and HRW reporting (below)."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, 'Shocking War Crimes in Sierra Leone' (24 June 1999) — documents the January 1999 RUF/AFRC assault on Freetown as the most intensive period of abuse of the war: entire families executed, a mosque massacre of 66 on 22 Jan, several hundred killed and maimed by amputation (26 double arm amputations), systematic rape and abduction, ~51,000 left homeless; notes over 50,000 dead war-wide at that point",
+          "supports": "summary",
+          "url": "https://www.hrw.org/news/1999/06/24/shocking-war-crimes-sierra-leone",
+          "caveat": "AUDIT (2026-06-19): document verified at the cited URL (dated 24 June 1999); every attached figure confirmed verbatim — 'twenty-six civilians' double arm amputations, mosque massacre of 'sixty-six' on 22 Jan, '51,000 civilians homeless', 'over 50,000 dead' war-wide, and 'over 180 summary executions' by govt/ECOMOG forces. HRW is a human-rights advocacy organization (bias disclosed); its field documentation is corroborated by the TRC record."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "sle-4",
+      "country": "SLE",
+      "role": "perpetrator",
+      "title": "State forces and state-allied militia atrocities in the civil war",
+      "era": "1991–2002",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Killings, summary executions, looting and cruel treatment of civilians and captives by the state's own army, military junta and state-allied militia during an armed conflict; tiered WAR as organized armed violence by official and quasi-official forces, judged war crimes and crimes against humanity by an international court.",
+      "agent": "The Sierra Leone Army (SLA) and the NPRC military junta (which seized power in 1992) — which carried out extrajudicial executions of suspected rebels and 'sobel' (soldier-by-day, rebel-by-night) predation on civilians — together with the state-allied Civil Defence Forces / Kamajor militia under leaders including Sam Hinga Norman, Moinina Fofana and Allieu Kondewa, who committed summary killings, looting and cruel treatment of suspected RUF collaborators",
+      "toll": {
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "display": "no separate state-forces death count; ~13–15% of TRC-documented violations attributed to SLA + CDF combined",
+        "disputed": true,
+        "note": "No clean death count exists for atrocities committed specifically by Sierra Leonean state forces and state-allied militia, so the toll is left null rather than invented. The proportional record is firmer: the Truth and Reconciliation Commission's statistical report documented 40,242 violations, attributing the majority (~59%) to the RUF, ~9.8% to the AFRC, ~6.8% to the Sierra Leone Army (2,724 violations) and ~6% to the CDF (2,419 violations) — so SLA and CDF together account for roughly 5,000+ documented violations (~13%). Documented sub-figures include the NPRC junta's December 1992 execution of 26 alleged coup plotters without trial, and over 180 summary executions of RUF prisoners and suspected collaborators by government forces and ECOMOG during the January 1999 Freetown fighting (HRW). These are violation counts and discrete killings, not an aggregate state-forces death toll."
+      },
+      "received_lens": "contested",
+      "summary": "Sierra Leone's own war was not one-sided. The Sierra Leone Army and the NPRC junta that ruled from 1992 carried out extrajudicial executions of suspected rebels — including 26 alleged plotters shot without trial in December 1992 — while undisciplined and 'sobel' soldiers preyed on the civilians they were meant to protect. The state-allied Kamajor militia (CDF), formed to fight the RUF, itself committed summary killings, looting and torture of suspected collaborators; the Special Court for Sierra Leone convicted CDF leaders Moinina Fofana and Allieu Kondewa, raising their sentences on appeal in 2008 to 15 and 20 years for war crimes and crimes against humanity.",
+      "relevance": "This is the perpetrator face of the same war: the Sierra Leonean state and the militias fighting in its name killed and tortured Sierra Leonean civilians too — the dual lens collapsing into a single conflict where victim and perpetrator share a nationality and a battlefield.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Sierra Leone Truth and Reconciliation Commission, Appendix 1 Statistical Report (analysis associated with the Benetech/HRDAG data) — documents 40,242 violations against 14,995 victims, attributing ~59% to the RUF, ~9.8% to the AFRC, ~6.8% (2,724) to the Sierra Leone Army and ~6% (2,419) to the CDF",
+          "supports": "toll.high",
+          "url": "https://www.sierraleonetrc.org/index.php/appendices/item/appendix-1-statistical-report",
+          "caveat": "AUDIT (2026-06-19): verified — the Statistical Appendix (Benetech/HRDAG, 5 Oct 2004) exists and confirms 40,242 violations against 14,995 victims, with RUF 23,823 (59.2%), AFRC 3,950 (~9.8%), Sierra Leone Army 2,724 (6.8%) and CDF 2,419 (6%) — all matched exactly. The TRC/HRDAG counts are documented violations from the statement-taking database, not a complete or proportionally exhaustive death census; they establish that state and state-allied forces committed a real minority share, not their absolute toll."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Residual Special Court for Sierra Leone / case record, Prosecutor v. Moinina Fofana & Allieu Kondewa (CDF case) — the two CDF/Kamajor leaders were convicted in 2007 of crimes including murder and cruel treatment; on appeal in May 2008 the Appeals Chamber entered crimes-against-humanity convictions (Counts 1 & 3, murder and inhumane acts) and raised sentences to 15 years (Fofana) and 20 years (Kondewa); co-accused Sam Hinga Norman died in 2007 before judgment",
+          "supports": "summary",
+          "url": "https://rscsl.org/the-scsl/cases/cdf-the-prosecutor-vs-sam-hinga-norman-moinina-fofana-and-allieu-kondewa/",
+          "caveat": "AUDIT (2026-06-19): verified directly at the cited RSCSL page and via the 28 May 2008 Appeal Judgment (SCSL-04-14-A) — confirms Norman 'died on 22 February 2007, before the delivery of the Trial Judgement' (proceedings terminated 21 May 2007) and that 'The Appeals Chamber sentenced Fofana 15 years and Kondewa to 20 years', with crimes-against-humanity convictions (Counts 1 & 3) entered on appeal. Court/institutional source (kind corrected from 'press' to 'scholarly' to reflect the primary court record)."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Watch, 'Shocking War Crimes in Sierra Leone' (24 June 1999) and US State Department 1997 Human Rights Report — document NPRC-era extrajudicial executions (including 26 in December 1992), the 'sobel' phenomenon of soldiers turning to predation, and over 180 summary executions of RUF prisoners and suspected collaborators by government/ECOMOG forces during the January 1999 Freetown fighting",
+          "supports": "summary",
+          "url": "https://www.hrw.org/news/1999/06/24/shocking-war-crimes-sierra-leone",
+          "caveat": "AUDIT (2026-06-19): the HRW document is verified at the cited URL and confirms 'over 180 summary executions of Revolutionary United Front (RUF) rebels and suspected collaborators' by government/ECOMOG forces during the Jan 1999 Freetown fighting. HRW is an advocacy NGO and the State Department report a government source (both biases disclosed); cited for documented discrete killings by state forces, not an aggregate toll. The 26-execution (Dec 1992 NPRC) figure is relayed from the US State Department 1997 Human Rights Report and was not independently re-fetched in this audit — flagged as the one sub-figure here resting on a single relayed government source."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

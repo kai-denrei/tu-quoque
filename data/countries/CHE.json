@@ -1,0 +1,126 @@
+{
+  "iso": "CHE",
+  "name": "Switzerland",
+  "note": "Built from scratch. Switzerland is a deliberately asymmetric entry, and the asymmetry is real, not a research gap: the country was never colonized, held no overseas empire, and — through armed neutrality — was largely spared the mass killing that swept its neighbours in the 19th and 20th centuries, so the 'Done to them' ledger is genuinely thin. The clearest victim event is the 1798 Nidwalden massacre, when the invading French Revolutionary army killed resisting civilians during the imposition of the Helvetic Republic — atrocity by an external power on Swiss soil. The 'In their name' ledger is the heavier and far better-documented side, but its victims were overwhelmingly people ON Swiss soil at the hands of Swiss authorities and ruling elites: the early-modern witch trials, among the most intense per head in Europe, and the 20th-century forced removal of Yenish ('Children of the Open Road') children, which the Swiss Federal Council itself recognized in 2025 as a crime against humanity. Closely related and equally real perpetrator records — the Reformation-era drowning of Anabaptists and the Verdingkinder ('contract children') indenture system — are noted in sources but not given separate event slots to keep to the most significant cases. No event, toll, or source has been invented to balance the two ledgers. Witch-trial deaths are a contested range (documented executions vs. higher estimates) and are sourced at both ends; the Yenish figure is a count of children removed, not a death toll, and the unit caveat says so.",
+  "events": [
+    {
+      "id": "che-1",
+      "country": "CHE",
+      "role": "victim",
+      "title": "The Nidwalden massacre under French invasion",
+      "era": "1798",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "The French Revolutionary army crushed the Nidwalden canton's armed resistance to the Helvetic constitution and then killed civilians — women and children among them — in the captured villages: a wartime massacre by an occupying army, not a campaign to exterminate the Swiss as a people.",
+      "agent": "The French Revolutionary army (forces under General Balthasar Alexis Henri Schauenburg) occupying Switzerland for the Helvetic Republic",
+      "toll": {
+        "display": "~300–435 Nidwaldeners killed, including roughly 100+ women and children",
+        "disputed": true,
+        "low": 300,
+        "high": 435,
+        "unit": "deaths",
+        "note": "Accounts of 9 September 1798 distinguish the fighting from the massacre that followed: roughly 100 Nidwaldeners and about 100 French soldiers died in the combat, and more than 300 Nidwalden civilians were then massacred in the captured villages. A higher commonly cited figure puts the total Nidwalden dead at 435, including 118 women and 25 children — about 5% of the canton's population. The low/high bracket the 'more than 300 civilians massacred' figure against the 435 total-dead figure; sources for the latter do not always separate combatant from civilian deaths, hence the dispute flag."
+      },
+      "received_lens": "memorial",
+      "summary": "When the rural canton of Nidwalden refused to swear to the new French-imposed Helvetic constitution in 1798, the French Revolutionary army stormed it on 9 September, broke the local resistance, and then killed civilians — including women and children — in the captured villages around Stans. Around 300 to 435 Nidwaldeners died, roughly one in twenty of the canton's people, in what local memory still calls the Day of Terror.",
+      "relevance": "Here Switzerland is the victim — of an invading power massacring its civilians — while its own authorities, in other centuries, were the ones burning accused witches and seizing minority children: the same country in both ledgers.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "French invasion of Switzerland — Wikipedia (Nidwalden uprising, Sept 1798, quashed by Schauenburg; ~100 killed on both sides plus ~300 civilians massacred)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/French_invasion_of_Switzerland",
+          "caveat": "Tertiary aggregator; cited for the '~300 civilians massacred' figure and the chronology. Does not break the civilian dead down by age or sex."
+        },
+        {
+          "kind": "reference",
+          "cite": "Schreckenstage von Nidwalden — Wikipedia (DE) (infobox: 435 dead = 292 men + 118 women + 25 children; the fighting plus the subsequent massacres of 9 Sept 1798; ~5% of the canton, ~400 victims in the main text)",
+          "supports": "toll.high",
+          "url": "https://de.wikipedia.org/wiki/Schreckenstage_von_Nidwalden",
+          "caveat": "AUDIT 2026-06-19: the original toll.high citation (The Swiss Spectator) was checked and does NOT contain the 435/118/25 figures — that article gives only '~100 Nidwaldeners + ~100 French + >300 in the subsequent massacre', i.e. the same low-end bracket as the EN-Wikipedia source. The 435 total (292 men, 118 women, 25 children) is real and is re-cited here to the DE-Wikipedia infobox, which carries it. Tertiary aggregator; figures presented as combined fighting-plus-massacre deaths, not civilians alone, hence the disputed flag on the low/high split."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "che-2",
+      "country": "CHE",
+      "role": "perpetrator",
+      "title": "The Swiss witch trials",
+      "era": "1429–1782",
+      "era_band": "pre-colonial",
+      "tier": "POL",
+      "tier_reasoning": "Swiss cantonal and communal authorities tried, tortured and executed thousands of people — overwhelmingly women — as witches, under colour of law: a sustained, state-sanctioned campaign of judicial killing against a category of people, which is the POL (atrocity by authority/policy) reading rather than EXT, since the target was an alleged crime rather than a fixed ethnic or religious group.",
+      "agent": "Swiss cantonal and communal courts and authorities (notably in Valais, Vaud, Fribourg, Bern, Geneva and the French-speaking cantons)",
+      "toll": {
+        "display": "~5,400–6,000 executed (of perhaps 10,000 tried), c.70–80% women",
+        "disputed": true,
+        "low": 5400,
+        "high": 6000,
+        "unit": "deaths",
+        "note": "The territory of modern Switzerland saw some of Europe's earliest and most intense witch persecution: one of the first systematic European witch-hunts began in Valais in 1428, and Europe's last legal witch execution was that of Anna Göldi in Glarus in 1782. Historian Kathrin Utz-Tremp estimates roughly 6,000 people were executed for witchcraft in Switzerland between the 15th and 18th centuries; older scholarship by Guido Bader documented 8,888 accusations across the Swiss states with 5,417 executed. The figure of '10,000' that circulates refers to trials, not deaths. The low/high bracket Bader's documented executions against Utz-Tremp's estimate. Between 70% and 80% of those put to death were women, and in roughly 60% of cases the accused were executed."
+      },
+      "received_lens": "contested",
+      "summary": "From the early 1400s into the 1780s, Swiss cantonal and town courts hunted, tortured and put to death thousands of people accused of witchcraft — the great majority of them women — at rates among the highest per head anywhere in Europe, beginning with one of the continent's first organized witch-hunts in Valais and ending with Anna Göldi, the last person legally executed for witchcraft in Europe, in 1782. Roughly five to six thousand died.",
+      "relevance": "A country now synonymous with order, law and human rights ran, for three and a half centuries, one of Europe's deadliest judicial campaigns against its own people — mostly women — accused of an imaginary crime.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "SWI swissinfo.ch, 'No one tortured witches like the Swiss' (historian Kathrin Utz-Tremp: ~6,000 executed in Switzerland, 15th–18th c.; 70–80% women; ~60% of accused executed; first systematic hunt in Valais 1428; Anna Göldi 1782)",
+          "supports": "toll.high",
+          "url": "https://www.swissinfo.ch/eng/culture/no-one-tortured-witches-like-the-swiss/32908",
+          "caveat": "Swiss public-broadcaster outlet, but the figures are attributed to named academic historian Utz-Tremp; cited for the ~6,000 estimate and the demographic and chronological detail."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Guido Bader, 'Die Hexenprozesse in der Schweiz' (1945) — 8,888 documented accusations, 5,417 executed across the Swiss states (WorldCat OCLC 631826862)",
+          "supports": "toll.low",
+          "url": "https://www.worldcat.org/title/hexenprozesse-in-der-schweiz/oclc/631826862",
+          "caveat": "AUDIT 2026-06-19: the work, its author, and the 8,888-accusations / 5,417-executed figures were independently confirmed (the 1945 dissertation 'Die Hexenprozesse in der Schweiz' is a recognized reference in the scholarly Swiss witch-persecution bibliography, e.g. historicum.net). Original text reached via bibliographic record + secondary summaries rather than the full 1945 monograph; URL upgraded from null to the verifiable WorldCat record. Cited only for the documented-executions floor (~5,400), consistent with but lower than modern (Utz-Tremp ~6,000) estimates."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "che-3",
+      "country": "CHE",
+      "role": "perpetrator",
+      "title": "The Yenish 'Children of the Open Road' forced removals",
+      "era": "1926–1973",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "Swiss authorities and the Pro Juventute foundation systematically seized children from Yenish and Sinti/Manouche families and placed them in homes and foster care to break up the travelling minority and assimilate it — a sustained state-backed program of coercive group destruction by removal (with guardianship, institutionalisation and some forced sterilisation), tiered POL; an official 2024 review found the genocidal act but not genocidal intent, classifying it as a crime against humanity.",
+      "agent": "The Pro Juventute foundation's 'Hilfswerk Kinder der Landstrasse' (Children of the Open Road relief agency), acting with Swiss cantonal and federal authorities",
+      "toll": {
+        "display": "~590–600 Yenish children removed; up to ~2,000 Traveller children overall (a removal count, not a death toll)",
+        "disputed": false,
+        "low": 590,
+        "high": 2000,
+        "unit": "deaths",
+        "note": "UNIT CAVEAT: this is a count of CHILDREN FORCIBLY REMOVED, not deaths — the harm was the removal itself (severing children from family, culture and the travelling way of life), with victims also placed under guardianship, institutionalised, banned from marrying and in some cases forcibly sterilised; there is no death toll for this event. From 1926 to 1973 the Pro Juventute programme took roughly 590–600 children directly from Yenish families; the Swiss government estimates around 2,000 Traveller children in total were removed when the affected Sinti/Manouche communities are included. The low/high reflect the Yenish-only figure versus the broader Traveller total. The 'unit: deaths' field is kept for schema consistency; the display and note make clear it counts removals."
+      },
+      "received_lens": "flagellated",
+      "summary": "From 1926 to 1973 the Swiss Pro Juventute foundation, backed by cantonal and federal authorities, ran the 'Children of the Open Road' programme — taking around 600 children from Yenish families (and, counting the wider Traveller minorities, perhaps 2,000) and placing them in homes and with foster families to stamp out the travelling way of life. Many were put under guardianship, institutionalised, barred from marrying, and some were forcibly sterilised. In 2025 the Swiss Federal Council formally recognised the programme as a crime against humanity.",
+      "relevance": "A wealthy modern democracy spent half a century deliberately breaking up an ethnic minority by seizing its children — a state crime its own government has now labelled a crime against humanity, even as Switzerland presents itself as a humanitarian standard-bearer.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Kinder der Landstrasse — Wikipedia (~590 Yenish children forcibly removed 1926–1973 by Pro Juventute; recognized as a crime against humanity by the Swiss government in Feb 2025; 2024 Federal Office of Culture review found the act but not genocidal intent)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Kinder_der_Landstrasse",
+          "caveat": "Tertiary aggregator; cited for the ~590 Yenish figure, the 1926–1973 span, and the 2024/2025 recognition. The crime-against-humanity classification is the government's own finding."
+        },
+        {
+          "kind": "press",
+          "cite": "SWI swissinfo.ch, 'How Switzerland, Scotland and Norway seized children from itinerant families' (Pro Juventute removed ~600 Yenish children to 1972; government estimate ~2,000 Traveller children overall including Sinti/Manouche; some forcibly sterilised)",
+          "supports": "toll.high",
+          "url": "https://www.swissinfo.ch/eng/history/how-switzerland-scotland-and-norway-seized-children-from-itinerant-families/89310763",
+          "caveat": "Swiss public-broadcaster outlet; cited for the ~2,000 broader-Traveller figure attributed to the Swiss government and the detail on guardianship and sterilisation."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

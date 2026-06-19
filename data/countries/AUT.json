@@ -1,0 +1,172 @@
+{
+  "iso": "AUT",
+  "name": "Austria",
+  "note": "Austria is the textbook case of a nation that spent decades insisting it was the Nazis' 'first victim' while its people were, per head, among the regime's most enthusiastic perpetrators. Both halves of that sentence are true, which is exactly why the dual ledger fits. On the victim side, the Holocaust destroyed Austria's old and brilliant Jewish community — roughly two-thirds of those who could not flee were murdered — and the Nazi 'euthanasia' apparatus gassed some 30,000 disabled people and worn-out camp prisoners on Austrian soil at Schloss Hartheim. On the perpetrator side, after the 1938 Anschluss Austria was legally part of the German Reich, so its crimes braid into Germany's — but historians (Bukey, Hitler's Austria) document that Austrians, ~8% of the Reich's population, supplied ~14% of the SS and ~40% of the staff of the killing operations, and that the Holocaust's chief organisers were disproportionately Austrian: Hitler himself, Eichmann, Kaltenbrunner, Globocnik, Brunner. Operation Reinhard, the gassing of ~1.5 million Jews, was run by the Austrian Odilo Globocnik, so it is entered here as the sharpest Austrian perpetrator event even though the victims were overwhelmingly Polish Jews. A generation earlier the Austro-Hungarian army had already shown the pattern in occupied Serbia in 1914. The point worth keeping: the 'first victim' myth was a postwar political shield, dismantled only from the 1980s (the Waldheim affair, Chancellor Vranitzky's 1991 admission of co-responsibility); the record holds Austria as both victim and perpetrator within the same dozen years.",
+  "events": [
+    {
+      "id": "aut-1",
+      "country": "AUT",
+      "role": "victim",
+      "title": "The Holocaust of Austria's Jews",
+      "era": "1938–1945",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "The deliberate destruction of Austria's Jews as a people — round-ups, expropriation, forced emigration, then systematic deportation to ghettos and killing centres — is annihilation of a group as such, so EXT.",
+      "agent": "Nazi German state after the 1938 Anschluss, including the Vienna Central Office for Jewish Emigration run by the Austrian Adolf Eichmann, with broad participation by Austrian officials and civilians",
+      "toll": {
+        "display": "~65,000–66,000 Austrian Jews murdered",
+        "disputed": false,
+        "low": 65000,
+        "high": 66000,
+        "unit": "deaths",
+        "note": "Austria had roughly 192,000–206,000 Jews in 1938 (the higher figure includes refugees from Germany). About 126,000–135,000 emigrated before emigration was banned in late 1941; some 35,000 were deported from Vienna to ghettos in the occupied east (Łódź, Riga, Minsk, Maly Trostinets), where many were shot by the Einsatzgruppen, and over 15,000 to Theresienstadt and onward to Auschwitz. The EHRI Portal gives 'around 66,000 Austrian Jews perished'; ~65,000 is the commonly cited figure. The community was not 'collapsed' by disease — it was hunted, hence the narrow, undisputed range and the EXT tier."
+      },
+      "received_lens": "memorial",
+      "summary": "Within days of the March 1938 Anschluss, Austrians turned on their Jewish neighbours with a ferocity that shocked even German observers — public humiliations, looting, the November 1938 pogrom. Eichmann's Vienna office then stripped Jews of property and forced tens of thousands to flee; those who could not were deported from 1941 to ghettos and killing sites in the occupied east, where most were shot or gassed. Of an old community of nearly 200,000, roughly 65,000 were murdered.",
+      "relevance": "Austria's victim ledger and its perpetrator ledger occupy the same years and the same streets: the city whose mobs cheered the Anschluss was also home to the Jews that the Anschluss doomed, and Eichmann ran the machinery from Vienna.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "EHRI Portal (European Holocaust Research Infrastructure), country page 'Austria' — ~206,000 Jews in 1938, ~130,000 fled before Sept 1939, 'around 66,000 Austrian Jews perished in the Holocaust'",
+          "supports": "toll.high",
+          "url": "https://portal.ehri-project.eu/countries/at",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "USHMM Holocaust Encyclopedia, 'Austria' — ~192,000 Jews in 1938, population fell to ~57,000 by Dec 1939 via emigration, ~35,000 deported from Vienna to eastern ghettos, over 15,000 to Theresienstadt, ~7,000 remaining by Nov 1942",
+          "supports": "summary",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/austria",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "aut-2",
+      "country": "AUT",
+      "role": "victim",
+      "title": "The Nazi 'euthanasia' murders at Schloss Hartheim",
+      "era": "1940–1944",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "The systematic gassing of disabled people for who they were (Aktion T4) and of worn-out concentration-camp prisoners (Aktion 14f13) is the deliberate destruction of defined groups, so EXT — not a structural by-product.",
+      "agent": "Nazi German 'euthanasia' apparatus (Aktion T4 and Aktion 14f13) operating the killing centre at Schloss Hartheim near Linz, in the Austrian region (Reichsgau Oberdonau)",
+      "toll": {
+        "display": "~30,000 killed (18,269 by August 1941 under T4 alone)",
+        "disputed": false,
+        "low": 18269,
+        "high": 30000,
+        "unit": "deaths",
+        "note": "The official memorial (Lern- und Gedenkort Schloss Hartheim) states around 30,000 people were murdered at Hartheim between 1940 and 1944. The contemporaneous internal T4 statistic ('Hartheim Statistics') recorded 18,269 killed at Hartheim by the August 1941 halt of the open T4 programme; killing then continued under Aktion 14f13 (concentration-camp prisoners from Mauthausen, Dachau, Ravensbrück) and of forced labourers, bringing the total to ~30,000. The low end here is the documented 1941 T4 count, the high end the memorial's full-period total."
+      },
+      "received_lens": "suppressed",
+      "summary": "From 1940 the Nazi state ran one of its six 'euthanasia' gassing centres at Schloss Hartheim, a Renaissance castle near Linz. Carbon-monoxide gas killed disabled and psychiatric patients shipped in from care homes, and from 1941 also concentration-camp prisoners deemed unfit for work and Eastern forced labourers. About 30,000 people were murdered there, their bodies burned and their relatives sent falsified causes of death.",
+      "relevance": "A killing centre on Austrian soil whose victims were largely Austrians and others within the Reich — and a long-suppressed history (the site was reused as housing after the war and only became a memorial in 2003), mirroring the country's wider postwar reluctance to look squarely at what happened in its name and on its ground.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "Lern- und Gedenkort Schloss Hartheim (official memorial), 'Euthanasia Centre 1940–1944' — around 30,000 people murdered; victims of Aktion T4, Aktion 14f13, and Eastern forced labourers",
+          "supports": "toll.high",
+          "url": "https://www.schloss-hartheim.at/en/memorial-exhibition/historic-site/euthanasia-centre-1940-1944",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Hartheim killing centre' — internal T4 'Hartheim Statistics' recorded 18,269 killed by August 1941; killing under T4 from May 1940, then continued under 14f13 to 1944",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Hartheim_killing_centre",
+          "caveat": "Tertiary aggregator; the 18,269 figure traces to the captured contemporaneous T4 'Hartheim Statistics' document, the 30,000 total to the official memorial."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "aut-3",
+      "country": "AUT",
+      "role": "perpetrator",
+      "title": "Operation Reinhard, directed by the Austrian Odilo Globocnik",
+      "era": "1941–1943",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "The purpose-built gassing of Polish and other Jews at Belzec, Sobibor, and Treblinka was the deliberate extermination of a people, the defining EXT case; it is entered on Austria's ledger because the operation was run by an Austrian and Austrians were heavily overrepresented in the killing machinery.",
+      "agent": "SS General Odilo Globocnik (Austrian, born Trieste in Austria-Hungary) and his Operation Reinhard staff — part of a Nazi killing apparatus in which Austrians were sharply overrepresented",
+      "toll": {
+        "display": "~1.5–1.7 million Jews murdered",
+        "disputed": false,
+        "low": 1500000,
+        "high": 1700000,
+        "unit": "deaths",
+        "note": "The USHMM gives ~1.5 million killed in the three Operation Reinhard camps (Belzec at least 434,508; Sobibor at least 167,000; Treblinka ~925,000) and ~1.7 million counting related mass shootings. The Belzec figure rests on the contemporaneous Höfle Telegram. Victims were overwhelmingly Polish Jews, plus Jews from across occupied Europe — so this is an Austrian-led atrocity against others, attributed to Austria's perpetrator ledger via Globocnik's command and the documented Austrian overrepresentation in the killing operations, not because the dead were Austrian."
+      },
+      "received_lens": "denied",
+      "summary": "Operation Reinhard — the gassing of Poland's Jews at Belzec, Sobibor, and Treblinka — was directed from late 1941 to 1943 by Odilo Globocnik, an Austrian SS officer, as part of a Nazi machinery in which Austrians, about 8% of the Reich's people, made up roughly 14% of the SS and 40% of the staff of the killing operations. Eichmann scheduled the transports, Kaltenbrunner ran the security police, Brunner cleared the ghettos — all Austrians. In under two years the operation murdered some 1.5 million people.",
+      "relevance": "The hardest entry to place and the most important: an atrocity whose victims were not Austrian at all, but whose organisers were disproportionately so. It is the concrete refutation of the postwar 'first victim' myth — Austria did not merely suffer Nazism, it staffed its worst machinery out of proportion to its size.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "USHMM Holocaust Encyclopedia, 'Operation Reinhard (Einsatz Reinhard)' — ~1.7 million Jews murdered (~1.5M in the three camps: Belzec ≥434,508, Sobibor ≥167,000, Treblinka ~925,000); Globocnik directed it autumn 1941–late summer 1943",
+          "supports": "toll.high",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/operation-reinhard-einsatz-reinhard",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Odilo Globocnik' — Austrian Nazi born in Trieste (then Austria-Hungary), Chief of Operation Reinhard, complicit in the extermination of more than 1.5 million Jews",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Odilo_Globocnik",
+          "caveat": "Tertiary aggregator; used for Globocnik's nationality and command role, both well established in the scholarly literature."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Evan Burr Bukey, Hitler's Austria: Popular Sentiment in the Nazi Era, 1938–1945 (Univ. of North Carolina Press, 2000) — Austrians ~8% of the Reich's population yet ~14% of the SS and ~40% of the staff of the Nazi killing operations",
+          "supports": "summary",
+          "url": "https://uncpress.org/9780807853634/hitlers-austria/",
+          "caveat": "The 8% / 14% / 40% figures are widely cited from Bukey and the Simon Wiesenthal Center; precise per-camp staffing proportions vary by source. URL is the publisher's catalogue page, not the page-level citation."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "aut-4",
+      "country": "AUT",
+      "role": "perpetrator",
+      "title": "Austro-Hungarian atrocities in occupied Serbia",
+      "era": "1914",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "The mass execution of Serbian civilians as collective reprisal during the 1914 invasion was a wartime campaign of terror against an enemy population, not a project to exterminate the Serbs as a people, so WAR.",
+      "agent": "The Austro-Hungarian army (k.u.k. Armee) invading and briefly occupying Serbia in 1914 under high-command orders",
+      "toll": {
+        "display": "~3,500–4,000 Serb civilians killed in 1914 (the broader 1914–18 occupation toll is far higher)",
+        "disputed": true,
+        "low": 3500,
+        "high": 4000,
+        "unit": "deaths",
+        "note": "Alan Kramer (Dynamic of Destruction, 2007) and others give ~3,500–4,000 Serb civilians killed in executions and random violence during the 1914 invasion and short occupation — including roughly 200 at Šabac, where some 80 prisoners were shot in a churchyard on 17 August 1914. The figure refers to the 1914 campaign specifically; estimates for the whole 1914–18 occupation of Serbia (executions, internment, disease, the great retreat) run far higher but are a separate, broader accounting and are not given a single agreed number here."
+      },
+      "received_lens": "suppressed",
+      "summary": "When Austria-Hungary invaded Serbia in 1914 — the war it had started over the Sarajevo assassination — its army treated the civilian population as the enemy. Convinced that francs-tireurs lurked everywhere, units shot hostages, burned villages, and executed prisoners; at Šabac about 80 people were gunned down in a churchyard and buried in a mass grave. Some 3,500–4,000 Serb civilians were killed in the first weeks before the invasion was thrown back.",
+      "relevance": "A generation before the Anschluss, the Austrian state's own army had already run a campaign of civilian reprisal killing — establishing Austria in the perpetrator ledger independent of the Nazi years, when 'Austria' was not yet a German province but the senior partner in an empire.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Serbian campaign (1914)' — 'between 3,500 and 4,000 Serb civilians were killed in executions and acts of random violence,' attributed to Alan Kramer (2007/2008)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Serbian_campaign_(1914)",
+          "caveat": "Tertiary aggregator; the 3,500–4,000 figure traces to historian Alan Kramer's Dynamic of Destruction (Oxford, 2007)."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Der Erste Weltkrieg / habsburger.net (Austrian National Library / Welt der Habsburger), 'The war crimes of the Habsburg army' — ~200 civilians killed at Šabac including ~80 shot in a churchyard on 17 Aug 1914; reprisals 'arranged and planned at the highest level'",
+          "supports": "summary",
+          "url": "https://ww1.habsburger.net/en/chapters/war-crimes-habsburg-army-between-soldateska-and-court-martial",
+          "caveat": "Page returned HTTP 403 on direct fetch but its content was retrieved via search and an earlier fetch; it is an Austrian institutional history resource, here used for the Šabac specifics."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

@@ -1,0 +1,179 @@
+{
+  "iso": "TGO",
+  "name": "Togo",
+  "note": "Togo's two ledgers are real on both sides, but they sit in different eras and rest on very different evidence. The victim column runs through the colonial period: German rule (1884-1914) turned the colony into a forced-labour state — corvee gangs were marched across the country to build the railways, roads and the Lome wharf under conditions contemporaries said caused 'a high rate of mortality,' enforced by the lash, while the Konkomba, Kabye and others were conquered by machine gun — and French rule that followed produced the Pya-Hodo massacre of 1957, when colonial troops fired on a protesting crowd. The perpetrator column is post-independence and domestic: from the 1967 coup that brought Gnassingbe Eyadema to power, the Togolese state — its army (FAT), gendarmerie, police and ruling-party (RPT) militias, drawn heavily from Eyadema's Kabye kin — killed its own citizens in waves around contested elections, with the heaviest documented bloodshed in 1998 (Amnesty's 'Reign/Rule of Terror,' hundreds extrajudicially executed, bodies found on the beaches of Togo and Benin) and 2005 (the UN put the dead at 400-500, the Togolese League of Human Rights at some 790-800 when Eyadema's son Faure seized power). Two honesty notes. First, the German-colonial victim event carries NO death toll: the mortality from forced labour was real and remarked on at the time but was never counted, so the toll is left null and that event is marked UNVERIFIED rather than given an invented number. Second, the regime's total death count across nearly four decades is sometimes loosely described as 'tens of thousands,' but that figure traces to non-rigorous sources, so the perpetrator events here are pinned to the two best-documented episodes (1998 and 2005) rather than to that uncountable aggregate. Nothing was invented to balance the columns.",
+  "events": [
+    {
+      "id": "tgo-1",
+      "country": "TGO",
+      "role": "victim",
+      "title": "German forced-labour rule in Togoland",
+      "era": "1884–1914",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "Death came mainly as a by-product of a coercive economic system — forced corvee labour, harsh taxation and punitive expeditions — rather than from an intent to destroy a defined group, so STR (structural) rather than EXT; the conquest battles against the Konkomba and Kabye add a war dimension but the dominant killer was the labour regime, and no group was marked for extermination.",
+      "agent": "The German Empire and its colonial administration in Togoland, which imposed a poll tax to force men into wage labour, conscripted villagers into corvee gangs marched across the colony to build railways, roads and the Lome wharf, expropriated land for cotton, and used flogging and punitive military expeditions — including the machine-gun conquest of the Konkomba and Kabye — to enforce compliance",
+      "toll": {
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "display": "uncounted (forced-labour and conquest mortality; never quantified)",
+        "disputed": false,
+        "note": "No death toll for German Togoland exists. Contemporary accounts (reproduced in colonial-era surveys) describe corvee labourers being 'transported from one part of the country to another' and forced to work on roads and railways 'under conditions which caused a high rate of mortality,' alongside punishment 'without inquiry' and 'abuse of the lash,' with people fleeing across the colony's borders to escape — i.e. high but unmeasured mortality. The conquest of the north (the Germans fought the Konkomba 1896–1901 and the Kabye c.1900, ultimately prevailing with machine guns) added an uncounted number of war dead. Because there is no sourceable figure for either the labour or the conquest deaths, the toll is left null by design rather than estimated, and this event is marked UNVERIFIED. Togo is sometimes called Germany's 'model colony,' a label scholars (e.g. Dennis Laumann's historiography) treat with scepticism precisely because it obscured this coercion."
+      },
+      "received_lens": "suppressed",
+      "summary": "For thirty years Germany ran Togoland as a labour colony: a head tax pushed men into wage work, and those who could not pay were conscripted into gangs marched far from home to lay the railways to Aneho, Kpalime and Blitta, build the Lome wharf and cut roads — work that contemporaries said killed at a high rate, enforced by the whip and by punitive expeditions that used machine guns to break the resistance of the Konkomba and Kabye in the north. The dead were never counted, and the colony was nonetheless marketed to Europe as a 'model colony.'",
+      "relevance": "The forced labour and conquest that put Togo's peoples on the victim ledger were imposed by an outside empire — the same Kabye north that the Germans subdued by force later supplied the kin-based army that the independent Togolese state would turn against its own citizens, so the violence done to Togolese under colonialism foreshadows the violence done in their name after it.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "GlobalSecurity.org, '1884-1919 German Togoland' — the German poll tax (6s./head), corvee labour gangs 'transported from one part of the country to another' to build roads and railways 'under conditions which caused a high rate of mortality,' land expropriation for cotton, 'abuse of the lash' and punishment 'without inquiry,' and the three railway lines (Aneho, Kpalime, Blitta) and Lome wharf (1904)",
+          "supports": "summary",
+          "url": "https://www.globalsecurity.org/military/world/africa/to-history-2.htm",
+          "caveat": "Tertiary aggregator reproducing colonial-era source material (the 'high rate of mortality,' 'abuse of the lash' and corvee descriptions read as a paraphrase of an early-20th-century British/League survey of the German record, written by a rival power and therefore partly polemical); used here for the qualitative description of the labour regime, not for any number — no death toll is given on the page or used in this record."
+        },
+        {
+          "kind": "press",
+          "cite": "Dwayne Wong (Omowale), 'From Slavery to Dictatorship: A History of Togo's Struggle for Freedom' (Medium) — German rule forced Togolese to labour 'for little or no pay,' used floggings to coerce forced labour, fought the Konkomba (1897–1898) and the Kabye (1900), and faced the 1911 Ewe uprising against harsh labour conditions",
+          "supports": "summary",
+          "url": "https://dwomowale.medium.com/from-slavery-to-dictatorship-a-history-of-togos-struggle-for-freedom-db471669b560",
+          "caveat": "Self-published essay by a non-academic writer, not peer-reviewed; used only for uncontroversial, widely corroborated facts (forced labour, flogging, the named conquest campaigns and the 1911 Ewe uprising) that match the reference and scholarly sources, and for NO toll figure."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Dennis Laumann, 'A Historiography of German Togoland, or The Rise and Fall of a \"Model Colony\"' (History in Africa, Cambridge Core) — the critical scholarship on the 'model colony' myth and the coercive reality of German rule in Togoland",
+          "supports": "tier",
+          "url": "https://www.cambridge.org/core/journals/history-in-africa/article/abs/historiography-of-german-togoland-or-the-rise-and-fall-of-a-model-colony/E9C35F0CA7CC012CB656E163F4DF9F25",
+          "caveat": "Abstract/landing page only (full text paywalled); cited for the existence and direction of the historiographical critique of the 'model colony' framing, not for a specific death figure, which the abstract does not provide."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "tgo-2",
+      "country": "TGO",
+      "role": "victim",
+      "title": "The Pya-Hodo massacre",
+      "era": "1957",
+      "era_band": "colonial",
+      "tier": "POL",
+      "tier_reasoning": "Colonial security forces opened fire on an unarmed political crowd, killing protesters — a state killing of civilians for political ends (anti-colonial protest), so POL; the toll is small but the act is a deliberate massacre of demonstrators, not battlefield death.",
+      "agent": "The French colonial army in Togoland, which opened fire on a crowd at the Hoda market in Pya, Kozah Prefecture, during a United Nations visiting mission, as residents protested colonial administration and the arrest of the nationalist Bouyo Moukpe",
+      "toll": {
+        "low": 20,
+        "high": 20,
+        "unit": "deaths",
+        "display": "~20 killed; several dozen wounded",
+        "disputed": false,
+        "note": "The figure is consistently reported as 20 killed with 'a few dozen' wounded on 21 June 1957, when French colonial troops fired on protesters at the Hoda market in Pya during a UN visiting mission led by Charles T. O. King. The toll is small and not seriously disputed in the available sources, so low and high are set equal at 20; the wounded count is approximate ('several dozen')."
+      },
+      "received_lens": "memorial",
+      "summary": "On 21 June 1957, as a United Nations mission toured French Togoland to assess the path to independence, residents of Pya in the Kabye north protested colonial rule and the arrest of the nationalist Bouyo Moukpe; French colonial soldiers opened fire on the crowd at the Hoda market, killing about twenty people and wounding several dozen. The mission described the situation as 'tense, bitter and deadly,' and the killings fed into the UN-supervised process that led to elections in 1958 and independence in 1960.",
+      "relevance": "Pya-Hodo is the colonial bookend on Togo's victim ledger — a foreign army shooting Togolese demonstrators — and it happened in the Kabye heartland that, within a decade of independence, would furnish the soldiers of a state that shot its own protesting citizens, so the same region appears as victim of colonial force and as the recruiting ground for post-colonial force.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Pya-Hodo Massacre' — 21 June 1957, French colonial army fired on a crowd at the Hoda market in Kozah Prefecture during a UN delegation visit led by Charles T. O. King, killing 20 and wounding several dozen, amid protest over colonial administration and the arrest of nationalist Bouyo Moukpe",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Pya-Hodo_Massacre",
+          "caveat": "Tertiary aggregator; the article is short and the 20-dead figure rests on it and its underlying French-language sources. No higher or competing death figure surfaced in research, so the toll is treated as undisputed at ~20 rather than as a range; corroborated in outline by the French scholarly call-for-papers marking the massacre's anniversary (Calenda)."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Calenda (academic events portal), 'Le massacre de Pya-Hodo en pays kabiye (Nord-Togo)' — academic call for papers commemorating the Pya-Hodo massacre in the Kabye country of northern Togo",
+          "supports": "summary",
+          "url": "https://calenda.org/391606",
+          "caveat": "An academic events listing, not a study with its own casualty count; cited to confirm the massacre is a documented, scholarly-recognised event in northern Togo, not to supply or revise the toll."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "tgo-3",
+      "country": "TGO",
+      "role": "perpetrator",
+      "title": "The 1998 'Reign of Terror' election killings",
+      "era": "1998",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "State security forces extrajudicially executed political opponents and protesters around a disputed presidential election and disposed of the bodies at sea — deliberate political killing of civilians by the state, so POL; the targeting was by political affiliation, not the destruction of an ethnic or national group, so not EXT.",
+      "agent": "The Togolese state under President Gnassingbe Eyadema — its armed forces (FAT) and paramilitary gendarmerie/police — which, after Eyadema was declared winner of the June 1998 election (on returns from only 35 of 617 polling stations), shot demonstrators and carried out extrajudicial executions of opposition figures, with bodies reportedly dumped at sea and washed up on beaches in Togo and neighbouring Benin",
+      "toll": {
+        "low": 100,
+        "high": 500,
+        "unit": "deaths",
+        "display": "hundreds extrajudicially executed (exact toll uncountable; ~hundreds)",
+        "disputed": true,
+        "note": "Amnesty International's May 1999 report 'Togo: Rule of Terror' (AFR 57/01/99), based on a delegation visit in late 1998, found that 'hundreds' of people were extrajudicially executed by the security forces during and after the June 1998 presidential election, with corpses — some handcuffed, some in military uniform — washing up on the beaches of Togo and Benin for days, reportedly dropped from aircraft and helicopters over the sea. No precise count exists: the bodies were deliberately disposed of, the government 'vigorously disputed' the report and threatened to sue Amnesty, and a later joint UN/OAU inquiry was constrained. The range is therefore set conservatively from ~100 (a defensible floor for 'hundreds') to ~500, and flagged disputed; the true figure is genuinely unrecoverable. The phrasing in some sources is 'Reign of Terror' and in others 'Rule of Terror' — the same Amnesty report."
+      },
+      "received_lens": "denied",
+      "summary": "When Gnassingbe Eyadema was proclaimed re-elected in June 1998 — on results from only 35 of 617 polling stations — his security forces dispersed protests and, according to Amnesty International's investigation, extrajudicially executed hundreds of people, including opposition activists and even soldiers. For days afterward, corpses, some handcuffed, some in uniform, washed up on the beaches of Togo and Benin, reportedly dumped at sea from planes and helicopters. The government denied everything and threatened to sue Amnesty.",
+      "relevance": "This is the Togolese state killing in its own name — the same country whose people were forced-laboured and shot at under colonial rule now had its own army drowning its citizens — and the elaborate disposal of the bodies is why the received lens is denial rather than memorial: an atrocity the perpetrating state refused even to acknowledge.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Amnesty International, 'Togo: Rule of Terror' (AFR 57/01/99, May 1999), based on a delegation visit to Togo in late 1998 — hundreds extrajudicially executed by the security forces around the June 1998 presidential election, a documented policy of extrajudicial executions, 'disappearances,' torture and deaths in custody",
+          "supports": "toll.high",
+          "url": "https://www.amnesty.org/en/documents/afr57/001/1999/en/",
+          "caveat": "Amnesty is a human-rights advocacy organisation, not a neutral court of record, and the Togolese government rejected the report; but Amnesty's methodology (a delegation interviewing witnesses, Togolese and Beninese fishermen and coastal farmers) is rigorous and the findings were corroborated by independent reporting and the US State Department. The PDF returns HTTP 403 to automated fetch; the load-bearing claims (the 'hundreds' executed, the June 1998 election on 35/617 stations, the security-forces attribution) are confirmed via Amnesty's own catalogue listing and multiple secondary reports. Exact figure deliberately not pinned — 'hundreds' only."
+        },
+        {
+          "kind": "reference",
+          "cite": "US Department of State, 'Togo' (1998 Country Reports on Human Rights Practices) — security forces killed hundreds during/after the June 1998 election campaign, including opposition members and soldiers; corpses, some handcuffed, washed up on Togolese and Beninese beaches",
+          "supports": "toll.low",
+          "url": "https://1997-2001.state.gov/global/human_rights/1998_hrp_report/togo.html",
+          "caveat": "A foreign-government report (US State Dept), useful as independent corroboration of Amnesty rather than a primary count; it likewise gives 'hundreds' and the bodies-on-beaches detail, not a precise number, so the low bound (~100) is the atlas's conservative reading of 'hundreds,' not a figure stated verbatim."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "tgo-4",
+      "country": "TGO",
+      "role": "perpetrator",
+      "title": "The 2005 post-election violence",
+      "era": "2005",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "After a contested presidential election the state's army, gendarmerie, police and ruling-party militias killed hundreds of opposition supporters in a house-by-house campaign — deliberate political killing of civilians by the state, so POL; targeting was by political affiliation, not group-extermination, so not EXT.",
+      "agent": "The Togolese state under Faure Gnassingbe — the army (FAT), gendarmerie and national police, backed by militias of the ruling Rally of the Togolese People (RPT) — which, after the army installed Faure as president on his father Eyadema's death and he was declared winner of the 24 April 2005 election, used disproportionate force against protesters and conducted a house-by-house campaign of killings in opposition neighbourhoods",
+      "toll": {
+        "low": 400,
+        "high": 800,
+        "unit": "deaths",
+        "display": "~400–500 (UN) to ~790–800 (Togolese League of Human Rights)",
+        "disputed": true,
+        "note": "The toll is genuinely disputed and the dispute is the substance. The official Interior Ministry figure was 69. Western diplomats early on said 'more than 100.' The Togolese League of Human Rights (LTDH) reported on 13 May 2005 that 790 people had been killed and 4,345 wounded between 28 March (start of voter-register updating) and 5 May (day after Faure's swearing-in). A UN High Commissioner for Human Rights (OHCHR) investigation, reported in September 2005, concluded that 'between 400 and 500' people had died and thousands were wounded, with High Commissioner Louise Arbour citing 'the massive nature and gravity' of the violations. The low bound (400) is the UN floor; the high bound (~800) is the LTDH count, set as a range rather than a point because the two credible investigations diverge by roughly a factor of two."
+      },
+      "received_lens": "contested",
+      "summary": "When Eyadema died in February 2005 the army installed his son Faure Gnassingbe in power, and after an election the opposition called rigged on 24 April, the security forces and ruling-party militias turned on the opposition: they fired on crowds, then went house to house through opposition neighbourhoods, killing people in their homes and shooting those who fled. The UN's investigators counted 400 to 500 dead; the Togolese League of Human Rights counted some 790, with over 4,000 wounded. The UN put the main blame on the government's forces while noting opposition activists also committed abuses.",
+      "relevance": "Half a century after French troops shot protesters at Pya-Hodo, the independent Togolese state shot its own protesters in far greater numbers to keep one family in power — the clearest entry on Togo's 'in their name' ledger, and a near-mirror of the colonial killing on its victim ledger, now with Togolese hands on the trigger.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "IRIN / The New Humanitarian, 'UN report says at least 400 people died in political violence' (26 Sept 2005) — a UN High Commissioner for Human Rights (OHCHR) investigation concluded 400–500 died, blaming the security and armed forces for disproportionate force and a strategy of repression, while noting opposition abuses; Louise Arbour cited the 'massive nature and gravity' of the violations",
+          "supports": "toll.low",
+          "url": "https://www.thenewhumanitarian.org/news/2005/09/26/un-report-says-least-400-people-died-political-violence",
+          "caveat": "Reputable humanitarian news service (then IRIN) reporting the UN/OHCHR finding; the page returns HTTP 403 to automated fetch, but the 400–500 figure, the OHCHR/Arbour attribution and the government-blame finding are corroborated by VOA's contemporaneous report and the ReliefWeb summary of the same UN report. The UN itself noted opposition activists also committed abuses, captured in the 'contested' lens."
+        },
+        {
+          "kind": "press",
+          "cite": "IRIN / The New Humanitarian, 'Human rights group says 790 killed in election violence' (13 May 2005) — the Togolese League of Human Rights (LTDH) reported 790 killed and 4,345 wounded between 28 March and 5 May 2005, attributing the violence to the Togolese Armed Forces (FAT), gendarmerie, national police and RPT-backed militias",
+          "supports": "toll.high",
+          "url": "https://www.thenewhumanitarian.org/news/2005/05/13/human-rights-group-says-790-killed-election-violence",
+          "caveat": "The 790/4,345 figure is the LTDH's own count, a Togolese human-rights NGO opposed to the regime, and is roughly double the UN's; it is presented here as the high end of a disputed range, not as settled fact. Corroborated as the LTDH's reported figure by the ReliefWeb syndication of the same report and by the World Socialist Web Site's contemporaneous coverage; the FAT/gendarmerie/police/RPT-militia attribution is from the LTDH report as quoted."
+        },
+        {
+          "kind": "press",
+          "cite": "Voice of America, 'UN Accuses Government of Togo of Human Rights Abuse' (26 Sept 2005) — UN investigators blamed the security and armed forces for disproportionate force and a strategy of repression against opposition activists, with the main blame on the government, while also noting opposition abuses; 400–500 dead",
+          "supports": "summary",
+          "url": "https://www.voanews.com/a/a-13-2005-09-26-voa7/295744.html",
+          "caveat": "US government-funded broadcaster; used as independent corroboration of the UN report's attribution and 400–500 figure (the page returns HTTP 403 to automated fetch but the content is confirmed via search synthesis and matches the IRIN report). Not relied on for any figure not also in the UN/OHCHR finding."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}
