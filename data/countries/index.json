@@ -1,5 +1,5 @@
 {
-  "count": 132,
+  "count": 147,
   "countries": [
     {
       "iso": "AFG",
@@ -12,6 +12,12 @@
       "name": "Angola",
       "events": 5,
       "status": "UNVERIFIED"
+    },
+    {
+      "iso": "ALB",
+      "name": "Albania",
+      "events": 5,
+      "status": "VERIFIED"
     },
     {
       "iso": "ARE",
@@ -107,6 +113,12 @@
       "iso": "BRA",
       "name": "Brazil",
       "events": 5,
+      "status": "UNVERIFIED"
+    },
+    {
+      "iso": "BWA",
+      "name": "Botswana",
+      "events": 3,
       "status": "UNVERIFIED"
     },
     {
@@ -236,6 +248,12 @@
       "status": "UNVERIFIED"
     },
     {
+      "iso": "EST",
+      "name": "Estonia",
+      "events": 3,
+      "status": "VERIFIED"
+    },
+    {
       "iso": "ETH",
       "name": "Ethiopia",
       "events": 4,
@@ -245,6 +263,12 @@
       "iso": "FIN",
       "name": "Finland",
       "events": 4,
+      "status": "UNVERIFIED"
+    },
+    {
+      "iso": "GAB",
+      "name": "Gabon",
+      "events": 2,
       "status": "UNVERIFIED"
     },
     {
@@ -270,6 +294,24 @@
       "name": "Guinea",
       "events": 4,
       "status": "VERIFIED"
+    },
+    {
+      "iso": "GMB",
+      "name": "Gambia",
+      "events": 3,
+      "status": "UNVERIFIED"
+    },
+    {
+      "iso": "GNB",
+      "name": "Guinea-Bissau",
+      "events": 4,
+      "status": "UNVERIFIED"
+    },
+    {
+      "iso": "GNQ",
+      "name": "Equatorial Guinea",
+      "events": 3,
+      "status": "UNVERIFIED"
     },
     {
       "iso": "GRC",
@@ -342,6 +384,12 @@
       "name": "Italy",
       "events": 4,
       "status": "VERIFIED"
+    },
+    {
+      "iso": "JAM",
+      "name": "Jamaica",
+      "events": 4,
+      "status": "UNVERIFIED"
     },
     {
       "iso": "JOR",
@@ -422,14 +470,32 @@
       "status": "UNVERIFIED"
     },
     {
+      "iso": "LSO",
+      "name": "Lesotho",
+      "events": 3,
+      "status": "VERIFIED"
+    },
+    {
       "iso": "LTU",
       "name": "Lithuania",
       "events": 3,
       "status": "VERIFIED"
     },
     {
+      "iso": "LVA",
+      "name": "Latvia",
+      "events": 3,
+      "status": "VERIFIED"
+    },
+    {
       "iso": "MAR",
       "name": "Morocco",
+      "events": 4,
+      "status": "UNVERIFIED"
+    },
+    {
+      "iso": "MDA",
+      "name": "Moldova",
       "events": 4,
       "status": "UNVERIFIED"
     },
@@ -443,6 +509,12 @@
       "iso": "MEX",
       "name": "Mexico",
       "events": 4,
+      "status": "VERIFIED"
+    },
+    {
+      "iso": "MKD",
+      "name": "North Macedonia",
+      "events": 3,
       "status": "VERIFIED"
     },
     {
@@ -596,6 +668,12 @@
       "status": "UNVERIFIED"
     },
     {
+      "iso": "QAT",
+      "name": "Qatar",
+      "events": 3,
+      "status": "VERIFIED"
+    },
+    {
       "iso": "ROU",
       "name": "Romania",
       "events": 5,
@@ -668,6 +746,12 @@
       "status": "UNVERIFIED"
     },
     {
+      "iso": "SVN",
+      "name": "Slovenia",
+      "events": 4,
+      "status": "UNVERIFIED"
+    },
+    {
       "iso": "SWE",
       "name": "Sweden",
       "events": 5,
@@ -708,6 +792,12 @@
       "name": "Turkmenistan",
       "events": 4,
       "status": "UNVERIFIED"
+    },
+    {
+      "iso": "TLS",
+      "name": "Timor-Leste",
+      "events": 5,
+      "status": "VERIFIED"
     },
     {
       "iso": "TUN",

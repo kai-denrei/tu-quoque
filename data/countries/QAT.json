@@ -1,0 +1,133 @@
+{
+  "iso": "QAT",
+  "name": "Qatar",
+  "note": "Built from scratch on 2026-06-19 with live web research (WebSearch/WebFetch). The two ledgers are deliberately asymmetric and the asymmetry is itself the point. VICTIM side ('Done to them'): the modern Qatari state dates only to the mid-20th century, so the strongest mass-violence done TO the peninsula's people predates the independent state — the 1867 Bahraini–Abu Dhabi attack that, by a British record, 'temporarily blotted out of existence' the towns of Doha (Al Bida) and Al Wakrah, the heaviest documented killing in Qatari history (qat-1, WAR); alongside it sits the 1920s–1930s collapse of the pearl economy, which drove starvation, debt and depopulation across the peninsula (qat-2, STR) — a welfare catastrophe with no death count, carried with a null toll rather than a fabricated one. PERPETRATOR side ('In their name'): Qatar is a small, wealthy state and its perpetrator record is genuinely thin compared with larger powers in this atlas. Its single best-documented atrocity record is structural and contemporary: the Kafala labour regime under which migrant workers — overwhelmingly South Asian — died in large numbers building the infrastructure and stadiums for the 2022 World Cup, with their deaths systematically left uninvestigated and uncertified (qat-3, STR/POL). A NOTE ON A DELIBERATE OMISSION: Qatar has been widely accused of funnelling money and arms to armed groups in Syria (incl. the Nusra Front) and Libya, but those claims are contested, diffuse, actively denied, and carry no clean state-attributable death toll — so no event was fabricated around them; the accusation is flagged here for honesty rather than misfiled with an invented number. Tolls: the 1867 figure (~1,000 killed, ~60 ships) is a reported colonial-era figure, not a census-verified count; the pearl-collapse toll is left null because the record documents starvation and depopulation but no death count; the migrant-worker figures are CONTESTED across a wide range and are carried with both the low official admission and the high Guardian/Amnesty figures, with explicit caveats that most are not certified as work-related. No figure, source, author or URL here was invented.",
+  "events": [
+    {
+      "id": "qat-1",
+      "country": "QAT",
+      "role": "victim",
+      "title": "Bahraini–Abu Dhabi Destruction of Doha and Al Wakrah",
+      "era": "1867–1868",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "A combined naval and land expedition by two neighbouring rulers sacked two towns, razed their houses, destroyed a fleet and killed roughly a thousand people in close-quarters fighting and bombardment — armed-conflict killing and town-destruction, not a campaign to exterminate the Qatari people, so WAR rather than EXT.",
+      "agent": "The rulers of Bahrain (the Al Khalifa, with Ali bin Khalifa leading) and their ally the ruler of Abu Dhabi (Sheikh Zayed bin Khalifa Al Nahyan), whose combined forces attacked the Qatari coast",
+      "toll": {
+        "low": null,
+        "high": 1000,
+        "unit": "deaths",
+        "display": "~1,000 killed and ~60 ships destroyed in the 1868 fighting (reported colonial-era figure); the 1867 sacking left Doha and Al Wakrah 'temporarily blotted out of existence', houses dismantled and inhabitants deported",
+        "disputed": true,
+        "note": "The ~1,000 killed and ~60 ships destroyed figure is a REPORTED colonial-era figure for the violent 1868 phase of the fighting, traceable to British Gulf records (the standard reference being J.G. Lorimer's Gazetteer of the Persian Gulf, 1915, the source that underpins most casualty figures for this episode) rather than an independently verified count — hence disputed:true and a null low. The October 1867 assault itself involved roughly 2,000 attacking troops and is recorded by a British official as having 'temporarily blotted out of existence' the towns of Doha (Al Bida) and Al Wakrah, with houses dismantled and inhabitants deported (Qatari accounts call this the 'Second Destruction of Doha'); the ~1,000 deaths figure is generally attached to the subsequent 1868 naval clash. No separate, reliable count exists for civilians killed in the initial sacking, so a fabricated low is deliberately avoided."
+      },
+      "received_lens": "memorial",
+      "summary": "In 1867 the ruler of Bahrain, joined by Abu Dhabi, sent a combined fleet and roughly two thousand men against the Qatari coast; they sacked Doha (Al Bida) and Al Wakrah, dismantling the houses and deporting the inhabitants — a British record said the two towns were 'temporarily blotted out of existence'. In the violent fighting that followed into 1868, contemporary accounts put the dead at around a thousand and the ships destroyed at about sixty. British mediation then recognised the Al Thani as the peninsula's rulers, a step toward Qatar's emergence as a distinct polity.",
+      "relevance": "The founding wound of modern Qatar — its principal towns razed and its people killed and deported by neighbouring Gulf rulers — sits in the same atlas as the migrant-worker death regime the wealthy Qatari state would later run, refusing the comfort of a people who are only ever victims.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"Qatari–Bahraini War\" — Wikipedia (Oct 1867: Bahrain sends Ali bin Khalifa with ~500 men and 24 boats plus 200 more, Abu Dhabi contributes ~2,000 troops in 70 boats; combined sacking of Doha/Al Bida and Al Wakrah; 1868 attack ~1,000 killed and ~60 ships destroyed; British record that the towns were 'temporarily blotted out of existence')",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Qatari%E2%80%93Bahraini_War",
+          "caveat": "Tertiary aggregator; the ~1,000-killed / ~60-ships figure and the 'blotted out of existence' quote are British colonial-era records (ultimately tracing to Lorimer's Gazetteer of the Persian Gulf, 1915) described as reported, not independently verified, and the local Qatari perspective on the period is sparsely documented."
+        },
+        {
+          "kind": "reference",
+          "cite": "\"History of Qatar\" — Wikipedia (1867 attack on Al Bida/Doha and Al Wakrah by Bahrain and Abu Dhabi; the British 'blotted out of existence' record; ~1,000 killed and ~60 ships in the 1868 fighting; the British-mediated 1868 settlement recognising the Al Thani)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/History_of_Qatar",
+          "caveat": "Tertiary aggregator carrying the same British colonial-era casualty figures (Lorimer 1915 lineage); reported rather than census-verified."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "qat-2",
+      "country": "QAT",
+      "role": "victim",
+      "title": "Pearl-Trade Collapse: Starvation and Depopulation of the Peninsula",
+      "era": "1920s–1930s",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "An economic shock — the collapse of the natural-pearl market under Japanese cultured pearls and the Great Depression — drove a population almost wholly dependent on pearling into debt, hunger and emigration; this is structural mass suffering and demographic collapse (STR), not a deliberate campaign of killing.",
+      "agent": "No single perpetrator: the cultured-pearl revolution (pioneered in Japan), the global Great Depression, and the British-administered Gulf order that left the pearling economy unmodernised and the peninsula's people without an alternative livelihood",
+      "toll": {
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "display": "no death count exists; demographic-collapse marker: Doha's population fell from roughly 27,000 to about 16,000 during the 1930s, with documented starvation, debt and mass emigration (population decline, NOT a verified death toll)",
+        "disputed": true,
+        "note": "This is a STR (structural) demographic-collapse event, and the figure given is a POPULATION-DECLINE marker, not a death count — the two must not be conflated. With around 95% of Qatari men dependent on pearling, the collapse of the natural-pearl market from the mid-1920s and the Great Depression destroyed the peninsula's sole income; contemporary and historical accounts describe people burdened by debt, families left behind while men sought work in Saudi Arabia, villages emptied, and Qataris 'reduced to starvation' and surviving on brackish water. Doha's population is reported to have fallen from roughly 27,000 to about 16,000 over the 1930s. No source provides a count of deaths from starvation or hardship, so the numeric toll is left null rather than invented; the population fall reflects emigration as well as deaths and cannot be read as a death toll. AUDIT (2026-06-19): both sources re-verified — Wikipedia 'History of Qatar' and the Origins of Doha (UCL/QNRF) public-history project both exist and support the structural-collapse narrative (debt, loss of sole income, emigration to Saudi Arabia's eastern province, decaying houses per Political Agent Sir John Wilton, 1949); the Origins of Doha source was confirmed to contain NO death or starvation statistics, so the null/null toll is the SOURCED, correct value, not a missing or fabricated one. Tier independently re-derived as STR (economic/famine-driven structural collapse, NOT a killing campaign) before reading the assigned tier — assigned STR confirmed correct. Status raised RESEARCHED→VERIFIED: the event is fully sourced; the null toll is the verified truth, not a verification failure."
+      },
+      "received_lens": "memorial",
+      "summary": "From the mid-1920s the Gulf's natural-pearl trade collapsed as Japan's cultured pearls flooded the market and the Great Depression killed off demand; in Qatar, where almost the entire male population dived for pearls, this was ruin. Families fell into debt, men left to find work in Saudi Arabia, whole villages emptied, and accounts describe Qataris reduced to starvation and brackish water. Doha's population is reported to have fallen by roughly a third over the 1930s before oil money arrived.",
+      "relevance": "Before the gas wealth, Qatar's people endured a structural catastrophe of hunger and depopulation — a reminder that the same nation later condemned for working migrants to death once watched its own population starve and scatter.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "\"History of Qatar\" / \"Mesaimeer\" and related Wikipedia coverage of the pearl-trade collapse (Japanese cultured pearls from ~1925; Great Depression; ~95% of Qatari men in pearling; Doha population falling from ~27,000 to ~16,000 in the 1930s; widespread poverty and malnutrition)",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/History_of_Qatar",
+          "caveat": "Tertiary aggregator; the 27,000-to-16,000 Doha figure and the 95%-of-men-in-pearling figure are widely repeated estimates for the interwar Gulf rather than precise censuses, and the population fall reflects emigration as well as mortality, so it is not a death toll."
+        },
+        {
+          "kind": "reference",
+          "cite": "Origins of Doha and Qatar Project (UCL / Qatar National Research Fund), \"Doha 1916–1971: From a British Protectorate to Independence\" — the collapse of the pearl trade after 1925, debt, loss of sole income, emigration to Saudi Arabia's eastern province, decaying/abandoned houses (Political Agent Sir John Wilton, 1949)",
+          "supports": "summary",
+          "url": "https://originsofdoha.wordpress.com/history-of-doha/doha-1916-1971-from-a-british-protectorate-to-independence/",
+          "caveat": "A scholarly public-history project; it documents debt, emigration and decay in detail but explicitly does NOT give starvation-death statistics or precise population-decline figures, which is why the toll here is null."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "qat-3",
+      "country": "QAT",
+      "role": "perpetrator",
+      "title": "Migrant-Worker Deaths Under the Kafala System and the 2022 World Cup Build",
+      "era": "2010–2022",
+      "era_band": "contemporary",
+      "tier": "STR",
+      "tier_reasoning": "A state-run labour regime (Kafala) bound migrant workers to employers and exposed them to extreme heat and dangerous conditions, with deaths systematically left uninvestigated and uncertified — structural mass death produced by a system of exploitation and neglect (STR), with a deliberate state failure to investigate that also carries POL coloring; it is not a campaign to exterminate a group, so not EXT.",
+      "agent": "The State of Qatar — its government, Kafala labour-sponsorship system, the Supreme Committee for Delivery and Legacy, and the construction contractors operating under its authority",
+      "toll": {
+        "low": 37,
+        "high": 6500,
+        "unit": "deaths",
+        "display": "Qatar's narrowest official count: 3 work-related + 37 non-work-related stadium deaths; World Cup chief's later admission: 400–500 deaths on World Cup-related projects; Guardian investigation: 6,500+ migrant-worker deaths (5 South Asian countries, 2010–2020, all causes)",
+        "disputed": true,
+        "note": "HEAVILY CONTESTED across two orders of magnitude, and the figures count DIFFERENT things — they must not be flattened together. (1) Qatar's narrowest official figure is 3 work-related plus 37 non-work-related deaths on the World Cup STADIUMS specifically — the low here is carried as 37 to mark that official non-work tally, though even the 3 'work-related' is the strict floor. (2) Hassan al-Thawadi, secretary-general of Qatar's Supreme Committee, admitted in late 2022 that 400–500 migrant workers had died on World Cup-related construction over ~12 years. (3) The Guardian's 2021 investigation counted 6,500+ deaths of migrant workers from India, Pakistan, Nepal, Bangladesh and Sri Lanka between 2010 and 2020 (carried as the high) — explicitly ALL deaths of those nationals in Qatar over the decade, NOT all World Cup-linked and NOT all work-related, and excluding several other large sending countries (Philippines, Kenya), so the true figure across all nationalities is likely higher. Amnesty International found that ~70% of migrant deaths over the decade were not adequately explained — certified as 'natural causes' / 'cardiac arrest' / 'acute heart failure' with no underlying cause, against an expected ~1% in a well-resourced system — and a 2019 cardiology study estimated up to ~200 of 571 Nepali cardiovascular deaths in 2009–2017 could have been prevented with heat protection. The wide range is real and is shown rather than resolved; the low and high are both sourced."
+      },
+      "received_lens": "contested",
+      "summary": "As Qatar built the stadiums, metro, hotels and roads for the 2022 World Cup, hundreds of thousands of migrant labourers — overwhelmingly from South Asia — worked under the Kafala system that tied them to their employers, often in extreme heat. The Guardian counted more than 6,500 deaths of workers from five countries over the decade to 2020; Qatar's own World Cup chief later admitted 400–500 had died on tournament projects, while the official stadium count was a handful. Amnesty found roughly seven in ten deaths were certified as vague 'natural causes' and never properly investigated, leaving families without answers or compensation.",
+      "relevance": "The same peninsula whose towns were razed and whose people once starved became, in its gas-rich present, a state whose labour system worked migrant workers to death and then declined to ask why — victim of catastrophe in one era, author of one in the next.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "Human Rights Watch, \"Qatar World Cup Chief Publicly Admits High Migrant Death Tolls\" (30 Nov 2022) — Hassan al-Thawadi's admission of 400–500 migrant-worker deaths on World Cup-related projects; Qatar's prior official claim of 3 work-related and 37 non-work-related stadium deaths; thousands of deaths left 'unexplained, uninvestigated, and uncompensated'",
+          "supports": "toll.low",
+          "url": "https://www.hrw.org/news/2022/11/30/qatar-world-cup-chief-publicly-admits-high-migrant-death-tolls",
+          "caveat": "HRW is a human-rights advocacy/monitoring organisation; it is used here for the al-Thawadi admission, the official 3+37 stadium figure (the basis for the carried low of 37), and the pattern of uninvestigated deaths — its framing is explicitly critical of Qatar."
+        },
+        {
+          "kind": "press",
+          "cite": "The Guardian investigation (Pete Pattisson and others, Feb 2021), as widely reported (e.g. Democracy Now!, Middle East Monitor, Business & Human Rights Resource Centre) — 6,500+ migrant-worker deaths from India, Pakistan, Nepal, Bangladesh and Sri Lanka in Qatar 2010–2020 (5,927 from four countries 2011–2020 plus ~824 Pakistanis 2010–2020); average ~12 deaths/week; figure excludes Philippines, Kenya and others, so the all-nationality total is higher",
+          "supports": "toll.high",
+          "url": "https://www.business-humanrights.org/en/latest-news/qatar-guardian-investigation-finds-6500-migrant-workers-have-died-in-world-cup-host-country-since-2010/",
+          "caveat": "AUDIT (2026-06-19): The Guardian's own article (theguardian.com) was not directly machine-fetchable in research, so the 6,500 figure and its breakdown are carried via reputable secondary relays (Business & Human Rights Resource Centre, Democracy Now!, Middle East Monitor) that quote the Guardian investigation. The 6,500 is ALL deaths of those five nationalities over the decade, NOT all work- or World Cup-related — a critical caveat reflected in the toll note; the Guardian itself stresses the figure is not a count of World Cup-construction deaths."
+        },
+        {
+          "kind": "press",
+          "cite": "Amnesty International / relayed coverage (Kathmandu Post, 26 Aug 2021, on Amnesty's report 'In the prime of their lives') — ~70% of migrant deaths over the decade not adequately explained (vs ~1% expected); 18 death certificates reviewed (15 with no underlying cause, using 'acute heart failure natural causes' etc.); pathologist Dr David Bailey's critique; 2019 study estimating up to ~200 of 571 Nepali cardiovascular deaths (2009–2017) preventable with heat protection",
+          "supports": "summary",
+          "url": "https://kathmandupost.com/national/2021/08/26/amnesty-calls-qatar-out-for-unexplained-deaths-of-migrant-workers",
+          "caveat": "Amnesty International is a human-rights advocacy organisation and the Amnesty page itself returned HTTP 403 on direct fetch; the findings (70% unexplained, the 18 certificates, the heat study) are carried via the Kathmandu Post's reporting of Amnesty's report and corroborated by HRW's coverage — used for the uninvestigated-deaths pattern, not as an independent death count."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

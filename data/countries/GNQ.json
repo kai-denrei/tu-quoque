@@ -1,0 +1,133 @@
+{
+  "iso": "GNQ",
+  "name": "Equatorial Guinea",
+  "note": "Equatorial Guinea's ledgers are unusual because the worst atrocity in its history was committed by its own first independent government against its own people. Under Spanish rule (to 1968) the indigenous Bubi of Fernando Po (Bioko) suffered demographic collapse from imported disease and a coercive cocoa-plantation labour system that the League of Nations found 'scarcely distinguishable' from slavery — the clearest pure-victim chapter, and the one placed in the victim ledger here. The perpetrator ledger then carries the regime of Francisco Macías Nguema (1968–1979), whose terror killed and exiled up to a third of the population and was prosecuted as genocide against the Bubi: the state was perpetrator, but the dead and exiled were Equatorial Guineans, so this event is simultaneously the largest thing 'done to them' — the dual lens collapsed into a single regime. The second perpetrator entry, the continuing repression under Teodoro Obiang Nguema (1979–present), is real and documented by Amnesty International, Human Rights Watch and the U.S. State Department but is a record of torture, arbitrary killing and political imprisonment rather than mass death, so it carries no large death toll. Two honesty caveats run through the file: (1) the colonial-era deaths were overwhelmingly disease-driven demographic collapse rather than a deliberate extermination, tiered STR accordingly; (2) the Macías death toll is wildly contested, with serious scholars putting the floor far below the widely repeated 50,000–80,000, so both ends are sourced and the event is marked UNVERIFIED for the toll.",
+  "events": [
+    {
+      "id": "gnq-1",
+      "country": "GNQ",
+      "role": "victim",
+      "title": "Spanish forced labour on Fernando Pó and the Bubi demographic collapse",
+      "era": "1880s–1968",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The great majority of indigenous deaths came from imported epidemic disease compounded by a coercive plantation-labour regime — demographic collapse and predatory exploitation rather than a campaign to exterminate a group, so STR.",
+      "agent": "Spanish colonial authorities and plantation owners on Fernando Pó (Bioko), supplied by recruiters trafficking contract labourers from Liberia and Nigeria",
+      "toll": {
+        "display": "Bubi reduced to a minority; death count uncounted",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "No reliable death count exists for the colonial period. The measurable harm is demographic: the Bubi, once the majority of Bioko, fell to roughly a third of the island's population by the 1930s and are now a minority in their own homeland, the decline driven by yellow fever, sleeping sickness, smallpox, dysentery and whooping cough brought by Europeans, alongside coerced plantation labour. Because the deaths were overwhelmingly disease-driven and never counted, low and high are left null and the event is marked UNVERIFIED for the toll metric; the demographic collapse itself is well attested. Audit 2026-06-19: both sources verified as real — the League of Nations Christy Commission (1930) confirmed verbatim ('scarcely distinguishable from slave raiding and slave trading'; chaired by Cuthbert Christy with Arthur Barclay and Charles S. Johnson) and supports the forced-labour summary; the Wikipedia 'Bubi people' cite was trimmed because the article does not carry the '30% by the 1930s', yellow-fever, or plantation-labour specifics it had been credited with. Event stays UNVERIFIED on the toll (no count exists), not for any source failure."
+      },
+      "received_lens": "suppressed",
+      "summary": "From the 1880s Spanish planters built a cocoa economy on Fernando Pó that ran on coerced labour — first the indigenous Bubi, then trafficked contract workers from Liberia and Nigeria. Imported epidemics tore through a population with no immunity, and across the colonial decades the Bubi fell from the island's majority to a minority; a 1930 League of Nations commission found Liberian recruits had been shipped in under conditions barely distinguishable from slave-trading.",
+      "relevance": "Before Equatorial Guinea ever ruled itself, its indigenous people were worked and died on plantations whose owners answered to Madrid — the colonial victim chapter beneath the better-known horrors of independence.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "League of Nations Christy Commission of Inquiry into the existence of slavery and forced labour in Liberia (report submitted September 1930) — found Liberian labourers shipped to Fernando Pó under conditions scarcely distinguishable from slave raiding and trading",
+          "supports": "summary",
+          "url": "https://liberiapastandpresent.org/ForcedLabourScandal.htm",
+          "caveat": "The Christy Commission's primary target was the Liberian government's complicity; it documents the recruitment-and-shipment system feeding Fernando Pó rather than counting deaths on the island."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Bubi people' — the Bubi were once the majority group of Bioko and are now a minority, with the decline attributed to disease caught from foreigners (whooping cough, smallpox, dysentery) and, later, political violence",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Bubi_people",
+          "caveat": "Tertiary aggregator. Audit note (2026-06-19): the current article supports the once-majority/now-minority trend and the foreigner-borne diseases (whooping cough, smallpox, dysentery) but does NOT itself carry the 'roughly 30% by the 1930s' figure, the yellow-fever attribution, or the plantation-labour attribution that an earlier version of this cite asserted — those specifics were trimmed to match the source. The broader claim (yellow fever on Fernando Pó from 1829; coerced cocoa-plantation labour from the 1880s 'effectively constituting slavery') is independently attested but is not carried by this particular article, so this source is used only for the well-attested demographic trend, not for any absolute toll."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "gnq-2",
+      "country": "GNQ",
+      "role": "perpetrator",
+      "title": "The Macías Nguema terror",
+      "era": "1968–1979",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "The 1979 court convicted Macías of genocide for the targeted destruction of the Bubi and the killing of perceived enemies as groups — directed at defined populations, so EXT; much of the loss was killing and engineered death, the rest mass flight.",
+      "agent": "The government of President Francisco Macías Nguema and its security forces and Juventud militia",
+      "toll": {
+        "display": "~5,000 to ~80,000 killed; ~100,000–150,000 fled",
+        "disputed": true,
+        "low": 5000,
+        "high": 80000,
+        "unit": "deaths",
+        "note": "The toll is sharply contested. The widely repeated figures put deaths at 50,000–80,000 out of a population of ~300,000, but scholars Scott Straus and Max Liniger-Goumaz give a far lower floor of about 5,000 killed, used here for the low end; the 80,000 high is the most-cited maximum. The flight is better established: by 1978 roughly 100,000–150,000 people — close to a third, and by some counts nearly half, of the population — had fled to neighbouring countries. Because killing and death-in-detention were never systematically counted and the estimates span more than an order of magnitude, the event is marked UNVERIFIED for the death toll; the mass exodus is firmly attested. Audit 2026-06-19: all three sources verified as real and supporting their attached claims — the ~5,000 floor (Straus/Liniger-Goumaz) is confirmed in the Wikipedia 'Francisco Macías Nguema' article (toll.low sourced); the ~80,000-of-300,000 maximum and Bubi-targeting are confirmed in 'Genocides in history (1946–1999)' (toll.high sourced); and JSTOR Daily ('Grappling with Equatorial Guinea', Rob Crossan, 18 Apr 2025) confirms the 474 murder counts, ~50,000 killed / ~125,000 fled, Black Beach beatings, 1977 village massacres, and the Sundiata/Decalo/Okenve Martínez citations. BOTH ends of the contested toll are sourced; the event stays UNVERIFIED because the range spans an order of magnitude, not for any source failure."
+      },
+      "received_lens": "memorial",
+      "summary": "After independence in 1968 President Francisco Macías Nguema turned Equatorial Guinea into a one-man terror state, executing dissidents, intellectuals and the educated Bubi minority, working prisoners to death and emptying the country into exile — on Christmas Eve 1969 scores of alleged dissidents were shot in a Malabo stadium. By his overthrow and execution in 1979, tens of thousands were dead and up to half the population had fled; his successors' court convicted him of genocide.",
+      "relevance": "Equatorial Guinea's own first government inflicted the worst atrocity in its history on Equatorial Guineans — the rare case where the perpetrator ledger and the 'done to them' ledger name the same victims.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Scott Straus, citing Max Liniger-Goumaz, gives a conservative death estimate of roughly 5,000 (reported in the Wikipedia survey of toll estimates) against contemporary population figures",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Francisco_Mac%C3%ADas_Nguema",
+          "caveat": "Accessed via Wikipedia's compilation of competing estimates rather than the original monographs; the ~5,000 floor sits far below the popular figures and reflects scholarly scepticism about the higher counts."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Francisco Macías Nguema' / 'Genocides in history (1946–1999)' — most-cited maximum of ~80,000 killed out of ~300,000, Bubi minority particularly targeted; 1969 stadium executions; ~101,000–150,000 fled by 1978 (nearly half the population by some counts)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Genocides_in_history_(1946_to_1999)",
+          "caveat": "Tertiary aggregator; the 80,000 figure is the upper bound of a contested range, not a settled count."
+        },
+        {
+          "kind": "press",
+          "cite": "JSTOR Daily, 'Grappling with Equatorial Guinea' — Macías convicted on 474 counts of murder; ~50,000 killed and ~125,000 fled of ~300,000; reports of prisoners beaten to death at Black Beach and villages wiped out by troops in 1977",
+          "supports": "summary",
+          "url": "https://daily.jstor.org/grappling-with-equatorial-guinea/",
+          "caveat": "Popular history drawing on academic sources (Sundiata, Decalo, Okenve Martínez); the murder-count and death figures derive from the 1979 trial, whose evidentiary standards were limited."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "gnq-3",
+      "country": "GNQ",
+      "role": "perpetrator",
+      "title": "Repression under Teodoro Obiang Nguema",
+      "era": "1979–present",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Sustained state repression — torture, arbitrary detention, enforced disappearance and occasional extrajudicial killing of opponents — directed at silencing dissent rather than destroying a group or fighting a war, so POL; this is a record of systematic abuse, not mass death.",
+      "agent": "The government of President Teodoro Obiang Nguema Mbasogo and its security and prison services",
+      "toll": {
+        "display": "no mass-death toll; ongoing torture, disappearances and political killings",
+        "disputed": false,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "This is a repression record rather than a mass-killing event, so no aggregate death toll applies and low/high are null. Human-rights bodies document recurring torture (including deaths in incommunicado detention), arbitrary and incommunicado detention, enforced disappearances and periodic extrajudicial executions over more than four decades; the harm is measured in tortured and disappeared individuals, not in a body count."
+      },
+      "received_lens": "denied",
+      "summary": "Teodoro Obiang seized power from his uncle Macías in 1979 and has ruled ever since, making him the world's longest-serving head of state. His government has run Black Beach prison and other sites as places of torture and incommunicado detention, jailed and disappeared opponents, and at times killed detainees, while oil wealth flowed to a ruling clan and the abuses were denied.",
+      "relevance": "The regime that ended the Macías genocide built its own apparatus of torture and political imprisonment — Equatorial Guinea as perpetrator again, against its own citizens, for decades.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Amnesty International, 'Equatorial Guinea: A country subject to terror and harassment' (AFR 24/001/1999) and ongoing country reporting — documents torture, incommunicado detention, deaths in custody and political imprisonment",
+          "supports": "summary",
+          "url": "https://www.amnesty.org/en/wp-content/uploads/2021/06/afr240011999en.pdf",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "Human Rights Watch, 'Equatorial Guinea: Halt Prisoner Torture' (30 July 2014) and U.S. State Department Country Reports on Human Rights Practices — torture, harsh and life-threatening prison conditions, arbitrary and unlawful killings including extrajudicial killings",
+          "supports": "summary",
+          "url": "https://www.hrw.org/news/2014/07/30/equatorial-guinea-halt-prisoner-torture",
+          "caveat": "The State Department is a U.S. government body; its human-rights reporting on a small oil state should be read with awareness of geopolitical interest, though its findings here align with independent NGOs."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

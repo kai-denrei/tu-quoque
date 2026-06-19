@@ -1,0 +1,140 @@
+{
+  "iso": "EST",
+  "name": "Estonia",
+  "note": "Estonia's twentieth century is a textbook of being ground between two totalitarian millstones — and of a minority of its own people serving the grinder. The victim ledger is dominated by Soviet violence: the June 1941 deportation, the far larger March 1949 Operation Priboi, the executions and Gulag deaths of the occupations and the postwar 'Forest Brothers' war. These are best read as a sustained Soviet campaign to break Estonian society and farm collectivisation, with tens of thousands deported and many never returning. The perpetrator ledger is narrower but real and must not be flinched from: during the 1941–44 German occupation, Estonian auxiliary units — the Security Police under Ain-Ervin Mere, the Omakaitse home guard, and police battalions — took part in the Holocaust. Estonia's own pre-war Jewish community of roughly 4,500 was small and most fled east, so under a thousand local Jews were murdered; but Estonia was declared 'Judenfrei' and the Nazis then shipped in some 10,000 foreign Jews (mostly from Lithuania, Latvia, Germany and Czechoslovakia) to camps like Vaivara and Klooga and killing grounds like Kalevi-Liiva, where Estonian collaborators participated in the killing. The asymmetry — a huge victim toll, a smaller but undeniable perpetrator role mostly against non-Estonians — is the dual-lens point: a nation can be overwhelmingly the prey of empires and still field the men who pull the trigger on someone else's people. Estonian war-crimes accountability is itself contested: the Soviet 1961 Tallinn trial of Mere, Gerrets and Viik is real but was also a propaganda instrument, and post-1991 Estonia's reckoning with collaboration has been uneven.",
+  "events": [
+    {
+      "id": "est-1",
+      "country": "EST",
+      "role": "victim",
+      "title": "Operation Priboi: the March 1949 mass deportation",
+      "era": "1949",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "The forced removal of roughly 20,000 Estonians — overwhelmingly women and children — to Siberian forced settlements to break resistance and force farm collectivisation was political-group destruction by deportation, not an attempt to exterminate Estonians as a people, so POL.",
+      "agent": "The Soviet state — the Ministry of State Security (MGB) and Ministry of Internal Affairs (MVD), with MGB troops under Lt. Gen. Pyotr Burmak, coordinated locally by Boris Kumm and Major General Ivan Yermolin, plus local Communist activists and destruction battalions",
+      "toll": {
+        "display": "~20,500–20,700 deported from Estonia; thousands died in exile",
+        "disputed": true,
+        "low": 20480,
+        "high": 20722,
+        "unit": "deaths",
+        "note": "This is a deportation toll, not a death count. Sources give 20,480 to 20,722 people deported from Estonia (about 2.5–3% of the population) in late March 1949 — roughly 48% women, 30% children under 16, 22% men. Recorded en-route deaths from Estonia were low (about 45), but mortality in the Siberian settlements over the following years was high from cold, hunger, disease and forced labour; across all three Baltic republics ~4,123 of ~90,000 deportees (about 4.5%) had died by the end of 1950, with many more in later years. A single agreed Estonian death figure does not exist, hence the toll here is the deportation count and the death note is qualitative. AUDIT 2026-06-19: toll.low (20,480) and toll.high (20,722) each confirmed verbatim against their cited sources; low/high rest on independent reference pages. Commanders (Burmak, Ogoltsov, Kumm, Yermolin) and Baltic-wide ~4,123 / 4.5% by end-1950 confirmed. Tier independently re-derived as POL (deliberate deportation-as-repression of a political/social group, not extermination, not diffuse-intent STR). Status: VERIFIED."
+      },
+      "received_lens": "memorial",
+      "summary": "In three days in late March 1949 the Soviet security apparatus seized roughly 20,500 Estonians — nearly half of them women and a third children — and packed them onto cattle trains to remote Siberian settlements. The aim was to decapitate rural society and force peasants into collective farms by removing 'kulaks' and the families of suspected partisans. Many died in exile from cold, hunger and overwork; the survivors were not allowed home for years.",
+      "relevance": "The largest single act of violence done to Estonians in the modern era was Soviet, not German — a reminder that the country's dominant historical wound is the one its perpetrator ledger does not balance.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Operation Priboi' — 20,480 deported from Estonia (4,566 men, 9,866 women, 6,048 children), 19 trains, 7,471 families; ~45 Estonian deportees died en route; Baltic-wide ~4,123 dead (4.5%) by 31 Dec 1950; carried out by MGB/MVD under Burmak, Ogoltsov",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Operation_Priboi",
+          "caveat": "Tertiary aggregator; the deportee counts trace to Estonian state-commission and archival figures, the Baltic-wide death figure to Soviet MVD records."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Soviet deportations from Estonia' — March 1949 deportation of 20,722 people, over 2.5% of the Estonian population, roughly half women, over 6,000 children under 16, ~4,300 men",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Soviet_deportations_from_Estonia",
+          "caveat": "Tertiary aggregator; figures derive from the Estonian Repressed Persons Records Bureau and the Estonian International Commission for the Investigation of Crimes Against Humanity."
+        },
+        {
+          "kind": "press",
+          "cite": "Estonian World, 'The victims of Soviet deportations remembered in Estonia' — over 20,000 seized in March 1949 (nearly 3% of the 1945 population), 49.4% women, 29.8% children; observed annually as a day of mourning",
+          "supports": "summary",
+          "url": "https://estonianworld.com/life/25-march-victims-soviet-deportations-remembered-estonia/",
+          "caveat": "Estonian diaspora outlet; figures consistent with the scholarly state-commission record but the source is national-memorial in tone."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "est-2",
+      "country": "EST",
+      "role": "victim",
+      "title": "The June 1941 deportation",
+      "era": "1941",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "The seizure and deportation of over 10,000 Estonians to camps and exile to liquidate the 'anti-Soviet element' was destruction of targeted political and social groups, not extermination of the Estonian people as such, so POL.",
+      "agent": "The Soviet NKGB/NKVD occupation apparatus, with operational headquarters under Boris Kumm",
+      "toll": {
+        "display": "~9,250–10,900 deported; fewer than half (4,331) returned",
+        "disputed": true,
+        "low": 9254,
+        "high": 10861,
+        "unit": "deaths",
+        "note": "Again a deportation toll. Sources give 9,254 to 10,861 people deported on 14–17 June 1941 — over 5,000 women and over 2,500 children, including roughly 400 Estonian Jews. Men were separated and sent to Gulag camps where mortality was catastrophic: of the more than 3,000 men deported, only a few hundred were still alive by spring 1942. Only 4,331 of all those deported ever returned to Estonia. No single agreed death figure exists; the low/high here are the deportation counts and the death scale is given qualitatively. AUDIT 2026-06-19: figures confirmed verbatim against the cited Wikipedia and Estonian World pages (9,254–10,861; >5,000 women; >2,500 children; 439 Estonian Jews ≈ '~400'; only 4,331 returned; of 3,000+ men only a few hundred alive by spring 1942; organised by Boris Kumm's NKGB headquarters). FLAG: the toll.low/toll.high range derives from a single reference page (the high end is not independently second-sourced), but it is a genuine scholarly min/max range rather than an invented single number, so it does not trigger quarantine. Tier independently re-derived as POL. Status: VERIFIED."
+      },
+      "received_lens": "memorial",
+      "summary": "A week before the German invasion, the Soviet occupation rounded up over 10,000 Estonians in a single night-and-day operation — families pulled from their homes, men split off to die in Gulag camps, women and children sent into Siberian exile. Fewer than half ever came home. It was the first of the great Soviet blows to Estonian society and is mourned annually on 14 June.",
+      "relevance": "The June 1941 deportation, days before the Wehrmacht arrived, is why many Estonians at first saw the Germans as liberators — the context in which a minority then collaborated in German crimes, tying the two ledgers together.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Soviet deportations from Estonia' — June 1941: 9,254–10,861 deported on 14 June and the two following days, over 5,000 women and over 2,500 children; only 4,331 returned",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Soviet_deportations_from_Estonia",
+          "caveat": "Tertiary aggregator; figures derive from Estonian state-commission and Memento association records."
+        },
+        {
+          "kind": "press",
+          "cite": "Estonian World, 'Soviet deportations in Estonia: the June 1941 tragedy' — over 10,000 deported, over 7,000 women/children/elderly, ~25% minors, ~400 Estonian Jews; only 4,331 returned; of 3,000+ men deported to camps only a few hundred alive by spring 1942",
+          "supports": "summary",
+          "url": "https://estonianworld.com/life/soviet-deportations-in-estonia-the-june-1941-tragedy/",
+          "caveat": "Estonian diaspora outlet, national-memorial in tone; the survival figures are consistent with the scholarly record."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "est-3",
+      "country": "EST",
+      "role": "perpetrator",
+      "title": "Estonian collaboration in the Holocaust",
+      "era": "1941–1944",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "The murder of Estonia's Jews and of foreign Jews shipped into Estonia was the deliberate destruction of a people, the defining EXT case; it is entered on Estonia's perpetrator ledger because Estonian auxiliary units took part in the killing, even though most victims were not Estonian.",
+      "agent": "Estonian auxiliary forces — the Estonian Security Police under Ain-Ervin Mere, the Omakaitse home guard, and Estonian police battalions — acting under and alongside the German Einsatzkommando 1A (Martin Sandberger), with German SS direction",
+      "toll": {
+        "display": "~950–1,000 Estonian Jews plus several thousand foreign Jews killed on Estonian soil",
+        "disputed": true,
+        "low": 950,
+        "high": 7500,
+        "unit": "deaths",
+        "note": "The figures separate two groups. Estonia's small pre-war Jewish community was ~4,500; about 75% fled east, and virtually all of the ~950–1,000 who remained were murdered by the end of 1941. Separately, the Nazis shipped roughly 10,000 foreign Jews into Estonian camps (Vaivara, Klooga and others); thousands were murdered, including ~1,700–2,000 at Kalevi-Liiva (Sept 1942) and ~2,000–2,500 at Klooga (Sept 1944). The high end (~7,500) is an order-of-magnitude figure for those killed on Estonian soil with Estonian-auxiliary participation; the broader Estonian History Commission estimate of ~35,000 deaths in Nazi-occupied Estonia includes Soviet POWs and others beyond the Holocaust and is not used as the toll here. Figures are disputed and category-dependent. AUDIT 2026-06-19: all three sources verified real and supporting their claims — Wikipedia 'The Holocaust in Estonia' (929–963 Estonian Jews, ~4,500 prewar, ~10,000 foreign Jews, Kalevi-Liiva 1,700–1,750 Sept 1942, Klooga 2,500 on 19 Sept 1944, units under Ain-Ervin Mere / Omakaitse / police battalions / Einsatzkommando 1A under Martin Sandberger); USHMM Estonia ('German SS and police units, together with Estonian auxiliaries, massacred the Jews of Estonia by the end of 1941'); Klooga / Estonian History Museum (Kalevi-Liiva 1,800–2,000 incl. Estonian Roma). The toll.high (~7,500) is independently corroborated: the Estonian History Museum states 7,000–8,000 Jews died or were killed in Estonia. Ain-Ervin Mere, the 1961 Tallinn trial (Mere/Gerrets/Viik), and Sandberger confirmed as real. Tier independently re-derived as EXT (deliberate destruction of a people by shooting — the STR/EXT disease-trap does not apply). Status: VERIFIED."
+      },
+      "received_lens": "contested",
+      "summary": "After the Germans arrived in 1941, Estonian Jews who had not fled — fewer than a thousand people — were hunted down and shot by the year's end, and Estonia was declared 'Judenfrei.' The Nazis then used Estonia as a killing site for foreign Jews: Estonian auxiliary police and the Omakaitse helped round up and machine-gun some 1,700–2,000 mostly German and Czech Jews at Kalevi-Liiva in 1942, and an Estonian police battalion took part in shooting around 2,000–2,500 prisoners at Klooga in 1944 as the Red Army closed in.",
+      "relevance": "Estonia's perpetrator ledger is the hard one: a people overwhelmingly victimised by the USSR still supplied the men who killed Jews — most of them not even Estonian — on Estonian ground, which is precisely the dual lens the atlas insists on.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'The Holocaust in Estonia' — ~929–963 Estonian Jews killed (virtually all who remained by Jan 1942); ~10,000 foreign Jews deported into Estonia; Kalevi-Liiva ~1,700–1,750 killed Sept 1942; Klooga ~2,000–2,500 shot 19 Sept 1944; Estonian Security Police (Mere), Omakaitse and police battalions participated under Einsatzkommando 1A (Sandberger)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/The_Holocaust_in_Estonia",
+          "caveat": "Tertiary aggregator; underlying figures trace to the Estonian International Commission for the Investigation of Crimes Against Humanity and standard Holocaust scholarship."
+        },
+        {
+          "kind": "reference",
+          "cite": "USHMM Holocaust Encyclopedia, 'Estonia' — ~4,500 Jews in 1939, virtually no Estonian Jews in the country survived; tens of thousands of foreign Jews sent to Estonian forced-labour camps (Vaivara); thousands killed at Kalevi-Liiva; German SS and police 'together with Estonian auxiliaries' massacred Estonia's Jews by the end of 1941",
+          "supports": "summary",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/estonia",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "Estonian World, 'Remembering the once vibrant Jewish community of Estonia' / Klooga memorial materials — Klooga ~2,000 prisoners ordered executed 19 Aug/Sept 1944; Kalevi-Liiva ~1,800–2,000 killed including Estonian Roma; Estonia declared 'Judenfrei'",
+          "supports": "toll.high",
+          "url": "https://klooga.nazismvictims.ee/en/materjalid/holokaust-eestis/",
+          "caveat": "Estonian institutional/memorial source; the high-end count for foreign Jews killed on Estonian soil is approximate and varies by which camps and transports are included."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

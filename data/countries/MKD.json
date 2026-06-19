@@ -1,0 +1,126 @@
+{
+  "iso": "MKD",
+  "name": "North Macedonia",
+  "note": "North Macedonia is a young state — independent from Yugoslavia in 1991, renamed from 'the former Yugoslav Republic of Macedonia' to 'North Macedonia' in 2019 — so most of the heaviest atrocities on its territory were committed by outside powers and ruling empires, not by a Macedonian state that did not yet exist. The victim ledger is therefore deep: the Ottoman army's massacre of villagers after the Ilinden Uprising of 1903 (foundational to Macedonian national memory), and the 1943 deportation of almost the entire Jewish community to Treblinka, carried out by the Bulgarian occupation authorities who then governed the region. The perpetrator ledger is correspondingly thin, because the modern Macedonian state has existed for only a generation: its clearest documented atrocity is the 2001 Ljuboten operation, in which Macedonian police killed ten ethnic Albanian civilians — an event small in scale beside the victim entries but established beyond dispute by an ICTY conviction. This asymmetry is real and reflects the country's youth, not an absence of moral complexity; no event, toll, or source has been invented to balance the two columns. Where the historical record runs through Ottoman, Bulgarian, Greek, and Serbian agency, the people who became Macedonians appear repeatedly as victims, while the modern state's own short record of perpetration is documented here in full rather than padded.",
+  "events": [
+    {
+      "id": "mkd-1",
+      "country": "MKD",
+      "role": "victim",
+      "title": "Ottoman Suppression of the Ilinden Uprising",
+      "era": "1903",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "The Ottoman army crushed a regional revolt by burning villages and killing civilians without distinguishing rebels from non-combatants — collective punishment and mass killing of a population to restore imperial control, below the threshold of attempted extermination of a group.",
+      "agent": "The Ottoman regular army and irregular bashi-bazouks, under commanders including Hüseyin Hilmi Pasha, suppressing the revolt in Ottoman Macedonia (the Manastir/Bitola region of present-day North Macedonia)",
+      "toll": {
+        "display": "~4,500–4,700 civilians killed; 100–200+ villages burned; tens of thousands made homeless",
+        "disputed": true,
+        "low": 4500,
+        "high": 4700,
+        "unit": "deaths",
+        "note": "Relief organisations active at the time reported more than 4,500 dead, while IMARO (the revolutionary organisation) and the historian Khristo Khadzhiev counted 4,694 civilians killed; these figures cover the whole Ilinden–Preobrazhenie theatre, of which the Macedonian (Manastir) region was the centre. Accounts of destruction range from about 200 villages and ~9,830 houses burned (Bulgarian figures) up to ~12,440 houses (IMARO), with displaced persons counted from ~61,000 to over 100,000 and roughly 30,000 fleeing to Bulgaria. The death range is reasonably consistent across relief and revolutionary sources; the destruction and displacement figures vary more widely and are partly drawn from Bulgarian and IMARO advocacy."
+      },
+      "received_lens": "memorial",
+      "summary": "In August 1903 the Internal Macedonian-Adrianople Revolutionary Organisation launched the Ilinden Uprising against Ottoman rule and briefly held the town of Kruševo. The empire answered with some 200,000 troops, who broke the revolt within weeks and made little distinction between fighters and villagers — burning around two hundred villages and killing roughly 4,500–4,700 civilians, while tens of thousands fled their homes. Ilinden became the founding event of modern Macedonian national memory.",
+      "relevance": "Ilinden is the keystone of Macedonian victimhood and national identity — the date itself names the modern republic's 1991 statehood day — yet the same revolt is claimed by Bulgarian national history too, so the wound sits at the centre of a memory dispute among the very neighbours who later occupied the region.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Ilinden Uprising' — Aug–Oct 1903 revolt suppressed by the Ottoman Empire; relief organisations reported >4,500 dead, IMARO/Khadzhiev counted 4,694 civilians killed; ~200 villages and 9,830–12,440 houses burned; 61,000–100,000+ left homeless, ~30,000 fled to Bulgaria",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Ilinden_Uprising",
+          "caveat": "Tertiary aggregator relaying figures from contemporary relief bodies and from IMARO/Bulgarian sources that have a stake in the count; used for the documented range and the perpetrators, not as a single authoritative figure. Audit 2026-06-19: WebFetch confirmed the cited figures (relief >4,500; IMARO/Khadzhiev 4,694 killed and 12,440 houses; Bulgarian 9,830 houses; homeless 60,953–100,000+; ~30,000 to Bulgaria) and the Ottoman commander Hüseyin Hilmi Pasha."
+        },
+        {
+          "kind": "reference",
+          "cite": "EBSCO Research Starters, 'Ilinden Uprising in Macedonia' — organised revolt by the Macedonian-Adrianople revolutionary movement against Ottoman rule, August 1903, met by mass Ottoman reprisals against civilians",
+          "supports": "summary",
+          "url": "https://www.ebsco.com/research-starters/history/ilinden-uprising-macedonia",
+          "caveat": "Audit 2026-06-19: page exists and supports the summary (IMRO-led revolt, 2 Aug 1903 St. Elijah's Day, Ottoman reprisals, thousands dead, tens of thousands of refugees)."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "mkd-2",
+      "country": "MKD",
+      "role": "victim",
+      "title": "Deportation of Macedonian Jews to Treblinka",
+      "era": "1943",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "The Bulgarian occupation authorities rounded up almost the entire Jewish population of the region and deported it to a death camp where nearly all were murdered — the deliberate destruction of a group as such, the defining act of genocide.",
+      "agent": "Bulgarian occupation authorities (the Commissariat for Jewish Questions and Bulgarian police and railways) governing Vardar Macedonia, acting under a February 1943 agreement with Nazi Germany, whose soldiers helped load the trains",
+      "toll": {
+        "display": "~7,144 deported; ~98% murdered (only ~200 survived)",
+        "disputed": false,
+        "low": 7000,
+        "high": 7215,
+        "unit": "deaths",
+        "note": "The most commonly cited figure is 7,144 Macedonian Jews deported in March 1943; the USHMM gives approximately 7,215 deported in three transports (22, 25, and 29 March 1943) from a transit camp at the Tobacco Monopoly in Skopje. Nearly all were murdered at Treblinka; about 98% of Macedonia's Jewish population perished and only roughly 200 survived the war, wiping out the historic communities of Skopje, Bitola (Monastir), and Štip. The figures are consistent across the USHMM, Yad Vashem, and IHRA and are not seriously disputed; the small spread (7,000–7,215) reflects rounding and transport-by-transport tallies."
+      },
+      "received_lens": "memorial",
+      "summary": "Bulgaria, allied with Nazi Germany, administered Vardar Macedonia during the Second World War. In March 1943 its authorities arrested almost the entire Jewish population — around 7,144 people from Skopje, Bitola, and Štip — held them in a converted tobacco warehouse in Skopje, and deported them in three trainloads to the Treblinka death camp in occupied Poland. Nearly all were murdered on arrival; only about two hundred Macedonian Jews survived the war.",
+      "relevance": "This is the single deadliest event in the region's modern history measured by proportion — a near-total annihilation of one community — and it complicates Bulgaria's national narrative of having 'saved its Jews,' since the Jews of occupied Macedonia and Thrace, whom Bulgaria governed but did not grant citizenship, were the ones it handed over to die.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "USHMM Holocaust Encyclopedia, 'The Holocaust in Macedonia: Deportation of Monastir Jewry' — ~7,215 Jews deported by Bulgarian occupation authorities in three transports (22/25/29 March 1943) from the Skopje Tobacco Monopoly transit camp to Treblinka, with German soldiers assisting",
+          "supports": "toll.high",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/the-holocaust-in-macedonia-deportation-of-monastir-jewry",
+          "caveat": "Audit 2026-06-19: WebFetch confirmed ~7,215 deported in three transports (22/25/29 March 1943) from the Tobacco Monopoly (Monopol) transit camp in Skopje to Treblinka, with German soldiers assisting the loading."
+        },
+        {
+          "kind": "reference",
+          "cite": "IHRA, 'North Macedonia commemorates the 80th anniversary of the deportation of the Macedonian Jews' — 7,144 Macedonian Jews deported to Treblinka in March 1943; 98% of Macedonia's Jews murdered, only ~200 survived; communities of Skopje, Bitola, and Štip destroyed",
+          "supports": "toll.low",
+          "url": "https://holocaustremembrance.com/news/macedonia-anniversary-deportations",
+          "caveat": "Audit 2026-06-19: direct WebFetch returned HTTP 403, but the figures (7,144 deported, 98% murdered, ~200 survivors, communities of Skopje/Bitola/Štip) were confirmed via the IHRA page's search snippet and independently corroborated by the European Jewish Congress and Balkan Insight reporting on the same 2023 commemoration."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "mkd-3",
+      "country": "MKD",
+      "role": "perpetrator",
+      "title": "Ljuboten Killings",
+      "era": "2001",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Macedonian police killed unarmed ethnic Albanian civilians, burned homes, and beat detainees in reprisal during an internal armed conflict — war crimes against a captive civilian population, established by an international tribunal, rather than an attempt to destroy a group.",
+      "agent": "Macedonian Interior Ministry police — about 60–70 reservists plus a private security unit — in the ethnic-Albanian village of Ljuboten, led on the ground by police officer Johan Tarčulovski; Interior Minister Ljube Boškoski was tried but acquitted",
+      "toll": {
+        "display": "10 ethnic Albanian civilians killed (3 murders proven at trial); ~100 detained and beaten",
+        "disputed": false,
+        "low": 10,
+        "high": 10,
+        "unit": "deaths",
+        "note": "Ten ethnic Albanian civilians were killed during the three-day operation of 10–12 August 2001, including a child; the ICTY convicted Tarčulovski specifically for the murder of three of them, the wanton destruction of twelve houses, and the cruel treatment of thirteen detainees — the count of three reflecting what the court found proven to his individual responsibility, not the total dead. More than one hundred ethnic Albanian men were arrested, many beaten or tortured in custody, and around fourteen houses were burned. The figures come from the ICTY judgment and are not disputed."
+      },
+      "received_lens": "contested",
+      "summary": "During the 2001 insurgency by the ethnic-Albanian National Liberation Army, a landmine killed eight Macedonian soldiers near Ljuboten on 10 August. Two days later Macedonian police entered the village and, over three days, shot ten ethnic Albanian civilians, burned houses, and arrested more than a hundred men, many of whom were beaten or tortured in custody. The ICTY convicted the operation's police commander, Johan Tarčulovski, sentencing him to twelve years; Interior Minister Ljube Boškoski was acquitted for lack of evidence he knew of or had to investigate the crimes.",
+      "relevance": "Ljuboten is the modern Macedonian state's clearest documented atrocity and the mirror image of its own victim history — the same Macedonians who carry the memory of Ilinden and Treblinka here turned, through their police, on a captive minority, the only such case to reach an international war-crimes conviction.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "ICTY press release, 'Boškoski Acquitted and Tarčulovski Sentenced to 12 Years' Imprisonment' (Prosecutor v. Boškoski & Tarčulovski, IT-04-82) — Tarčulovski found guilty of ordering/planning/instigating the murder of three ethnic Albanian civilians, wanton destruction of twelve houses, and cruel treatment of thirteen civilians at Ljuboten, 12 Aug 2001; Boškoski acquitted",
+          "supports": "tier",
+          "url": "https://www.icty.org/en/press/bo%C5%A1koski-acquitted-and-tar%C4%8Dulovski-sentenced-12-years%E2%80%99-imprisonment",
+          "caveat": "Audit 2026-06-19: WebFetch confirmed Tarčulovski guilty of the murder of three named ethnic Albanian civilians (Rami Jusufi, Sulejman Bajrami, Muharem Ramadani), wanton destruction of property of twelve residents, and cruel treatment of thirteen detainees at Adem Ametovski's house (with ten further at Braca's house), sentenced to 12 years; Boškoski acquitted of all charges. Conviction and sentence upheld on appeal 19 May 2010."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Ljuboten incident' — three-day police operation 10–12 August 2001; ten ethnic Albanian civilians killed (incl. a child), >100 arrested and many abused, ~14 houses burned; carried out by ~60–70 reserve police plus the 'Kometa' security unit under Tarčulovski",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Ljuboten_incident",
+          "caveat": "Tertiary aggregator; used for the overall toll of ten dead and the detention/arson figures, which align with the ICTY record relied on for the conviction itself. Audit 2026-06-19: WebFetch confirmed ten ethnic Albanian civilians killed (including a child), fourteen houses burned, ~60–70 reserve police plus the 'Kometa' security unit under Tarčulovski, triggered by a 10 August 2001 landmine strike that killed eight Macedonian soldiers."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

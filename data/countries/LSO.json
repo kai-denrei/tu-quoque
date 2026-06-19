@@ -1,0 +1,140 @@
+{
+  "iso": "LSO",
+  "name": "Lesotho",
+  "note": "Lesotho's ledger is heaviest, and best documented, on the victim side, because the Basotho nation was itself forged out of catastrophe — King Moshoeshoe I assembled it in the 1820s-1830s from refugees of the Difaqane, the cascade of war and famine that swept the southern African highveld. The deadliest blow of the modern era came from outside: South Africa's 1998 SADC-flagged intervention (Operation Boleas) left much of Maseru burned and tens of Basotho dead. The perpetrator ledger is genuinely thinner — Lesotho is a small, mostly homogeneous kingdom that has not invaded or occupied neighbours — but it is not empty: after Prime Minister Leabua Jonathan annulled the 1970 election in a self-coup, his Basotho National Party government and its Police Mobile Unit detained, tortured and killed its own citizens, the opposition Basutoland Congress Party, through the 1970s. Two caveats run through the file: (1) the Difaqane toll is a region-wide, heavily disputed estimate of demographic collapse, not a Basotho body count, so the Basotho-specific number is left null; (2) the 1998 and 1970s tolls are contested and in part rest on figures claimed by the victims' own party, with no full independent accounting. No event, toll or source here has been invented to balance the two ledgers.",
+  "events": [
+    {
+      "id": "lso-1",
+      "country": "LSO",
+      "role": "victim",
+      "title": "The Difaqane and the making of the Basotho",
+      "era": "c. 1822–1836",
+      "era_band": "pre-colonial",
+      "tier": "STR",
+      "tier_reasoning": "The mass death of this period came through chained raiding, displacement, drought and the famine those produced — a structural collapse of the highveld's people rather than a campaign to destroy a named group — so STR, even though the killing within individual raids was deliberate.",
+      "agent": "Successive raiding chiefdoms displaced across the highveld during the Mfecane/Difaqane (no single perpetrator), compounded by drought and famine",
+      "toll": {
+        "display": "Basotho-specific deaths unknown; wider Mfecane/Difaqane traditionally estimated at ~1–2 million, heavily disputed",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "No reliable death count exists for the Basotho region specifically. The traditional estimate for the entire Mfecane/Difaqane across southern Africa is roughly 1 to 2 million dead, but that figure is contested: recent scholarship revises mortality sharply downward and reframes the upheaval as driven by complex political, economic and environmental factors rather than a single cause. Famine was severe enough that some groups in what is now Lesotho turned to cannibalism between roughly 1822 and 1828. Because the broad figure is region-wide, disputed and not attributable to Lesotho, the low/high are left null."
+      },
+      "received_lens": "memorial",
+      "summary": "Through the 1820s and 1830s waves of raiding, displacement and drought tore across the southern African highveld, scattering and destroying chiefdoms in what is now Lesotho and bringing famine so severe that some groups resorted to cannibalism. Out of the survivors and refugees, the chief Moshoeshoe I gathered a defensible kingdom at the mountain stronghold of Thaba Bosiu, forging the Basotho nation from the wreckage.",
+      "relevance": "The founding catastrophe of the Basotho — a people who exist as a nation because their ancestors survived a mass dying — and a reminder that the same upheaval made some highveld groups raiders and others their prey.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Mfecane' — traditional death-toll estimates of 1–2 million for the Mfecane/Difaqane (1815–1840), with a note that the figures are controversial and that recent scholars revise mortality downward and attribute causes to complex political, economic and environmental factors",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Mfecane",
+          "caveat": "Tertiary aggregator, and the 1–2 million figure is region-wide, contested and explicitly not broken down for the Basotho/Caledon area. Re-verified (audit) 2026-06-19: the article states the traditional range (1–2 million), flags it as controversial with downward revisions, attributes causes to complex political/economic/environmental factors, and notes the Shaka-centric near-genocidal reading has fallen out of favour; it gives no Lesotho-specific toll, which is why the Basotho number is left null."
+        },
+        {
+          "kind": "reference",
+          "cite": "Encyclopædia Britannica, 'Lesotho — The Sotho kingdom, 1824–69' / 'history of Lesotho' — the Difaqane upheavals intensified in Lesotho in the 1820s, with chiefdoms annihilated, dispersed or absorbed, and Moshoeshoe I gathering refugees into a unified Basotho nation",
+          "supports": "summary",
+          "url": "https://www.britannica.com/place/Lesotho/The-Sotho-kingdom-1824-69",
+          "caveat": "Tertiary reference; describes the upheaval and Moshoeshoe's consolidation qualitatively but gives no Basotho death figure. Re-verified (audit) 2026-06-19 via Britannica search-result text (direct fetch of the history page returns HTTP 403): the 1820s Difaqane intensifying in Lesotho, chiefdoms annihilated/dispersed/incorporated, Moshoeshoe occupying Thaba Bosiu in 1824 and gathering refugees into the Sotho kingdom all appear as stated."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "lso-2",
+      "country": "LSO",
+      "role": "victim",
+      "title": "Operation Boleas: the 1998 South African / SADC intervention",
+      "era": "1998",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "A cross-border military intervention that killed soldiers and civilians and burned a capital's centre during a contested election crisis is armed-conflict atrocity (WAR), not a campaign to destroy a group.",
+      "agent": "The South African National Defence Force (SANDF), later joined by the Botswana Defence Force, intervening under a SADC mandate on the orders of the South African government",
+      "toll": {
+        "display": "~66–134 deaths (incl. ~47 Basotho civilians)",
+        "disputed": true,
+        "low": 66,
+        "high": 134,
+        "unit": "deaths",
+        "note": "Reported tolls diverge widely because no full accounting was made. A commonly cited breakdown is roughly 9–11 South African soldiers, 29 Lesotho Defence Force members and about 47 Basotho civilians killed (a composite of roughly 85). Lower aggregate reports cite 'at least 66 killed', and the initial days were reported at 'more than 23' dead; contemporaneous reporting (Green Left Weekly, Oct 1998) put the toll in the first three days at 'at least 113 ... as high as 134', including at least 47 civilians. The low (66) and high (134) here bound that spread; both ends are independently sourceable in period media even though the file's hard citations rest on the ~85 composite (M&G) and the Wikipedia infobox 134. Much of downtown Maseru — the central business district — was looted and burned, and the lowland towns of Mafeteng and Mohale's Hoek were also damaged."
+      },
+      "received_lens": "contested",
+      "summary": "After a disputed May 1998 election triggered opposition protests and a mutiny in Lesotho's army, South African troops crossed the border on 22 September 1998 to prop up the government, joined days later by Botswana. The fighting killed soldiers on both sides and dozens of Basotho civilians, and much of central Maseru was looted and burned to the ground during the operation.",
+      "relevance": "The deadliest external blow against Basotho in living memory — carried out by a neighbour that frames its own apartheid-era suffering as foundational, showing how a liberation-era state became, for Lesotho, the invading agent.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'South African intervention in Lesotho' — Operation Boleas began 22 September 1998; infobox lists South African losses (11 killed, 17+ wounded) and a casualty figure of 134 for the opposing side; the central business district of Maseru was burned down",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/South_African_intervention_in_Lesotho",
+          "caveat": "Tertiary aggregator; the infobox '134' is ambiguous (it does not clearly separate killed from wounded or specify faction), and the article gives no consolidated total or civilian breakdown. Re-verified (audit) 2026-06-19: the 22 Sept 1998 start date, the 11-killed/17+-wounded South African figures, the '134' infobox number and the burning of Maseru's central business district appear as stated. Note the article attributes the CBD burning to 'opposition supporters', not directly to the SANDF — the high-end '134' is independently corroborated as a first-three-days toll by Green Left Weekly (Oct 1998)."
+        },
+        {
+          "kind": "press",
+          "cite": "Mail & Guardian, 'Mandela and military force: its use is determined by the situation' (19 Sept 2018) — the 1998 intervention killed about 9 South African soldiers, 29 Lesotho military and roughly 47 Basotho civilians; much of downtown Maseru was destroyed",
+          "supports": "toll.low",
+          "url": "https://mg.co.za/article/2018-09-19-mandela-and-military-force-its-use-is-determined-by-the-situation/",
+          "caveat": "Mainstream South African press, retrospective. Re-verified (audit) 2026-06-19: the article gives the 9 / 29 / ~47 breakdown verbatim ('nine South African soldiers, 29 members of Lesotho's military, and about 47 Basotho civilians were killed') and states 'much of downtown Maseru was destroyed'; combined this is roughly 85, and separate aggregate reports of 'at least 66' bound the lower end of the disputed range used here."
+        },
+        {
+          "kind": "press",
+          "cite": "World Socialist Web Site, 'Mandela government sends invasion force to Lesotho' (Sept 1998) — contemporaneous report of 'more than 23' dead in the first days, nine South African soldiers killed, and the looting and burning of shops, government buildings and the High Court in central Maseru",
+          "supports": "summary",
+          "url": "https://www.wsws.org/en/articles/1998/09/saf-s24.html",
+          "caveat": "Explicitly anti-intervention socialist outlet, so its framing ('invasion') is partisan and disclosed; used only for the contemporaneous early death count and the documented destruction in Maseru. Re-verified (audit) 2026-06-19: the 'more than 23' dead figure, nine South African soldiers killed, the looting of central Maseru shops and the burning of government buildings including the High Court appear as stated."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "lso-3",
+      "country": "LSO",
+      "role": "perpetrator",
+      "title": "Leabua Jonathan's self-coup and the repression of the BCP",
+      "era": "1970–1979",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "A government's detention, torture and extrajudicial killing of its own citizens for belonging to the losing opposition party is political mass killing of perceived enemies, so POL, not warfare or group destruction.",
+      "agent": "Prime Minister Leabua Jonathan's Basotho National Party government and its Police Mobile Unit",
+      "toll": {
+        "display": "BCP claimed 80+ killed (1974); at least ~50 more killed by the Police Mobile Unit (1979); 170+ detained",
+        "disputed": true,
+        "low": 50,
+        "high": 80,
+        "unit": "deaths",
+        "note": "Figures are partial and partly claimed by the victims' own party, with no full independent accounting. After the failed January 1974 BCP uprising, more than 170 people were arrested and the Basutoland Congress Party claimed over 80 of its supporters were killed by the government in retaliation (the high here). In 1979, following clashes attributed to the BCP's armed wing (the Lesotho Liberation Army), the Police Mobile Unit conducted retaliatory attacks in Butha-Buthe District; political refugees claimed at least 50 suspected insurgent supporters were killed (the low here), and more than 600 people fled to South Africa. Audit note: the cited Wikipedia source names the Police Mobile Unit for the Butha-Buthe retaliation in the same passage but attributes the 'at least fifty' deaths to 'the government' broadly — the PMU attribution is a same-paragraph composite, and the figure remains a refugee claim, not an independent enumeration. The two figures cover different episodes; the low/high bound the single-episode death claims rather than a verified cumulative total, and torture of detainees was documented by Amnesty International across the period."
+      },
+      "received_lens": "suppressed",
+      "summary": "When his party lost the January 1970 election, Prime Minister Leabua Jonathan annulled the result, declared a state of emergency, suspended the constitution and ruled by decree. Over the following decade his government and its Police Mobile Unit jailed, tortured and killed members of the rival Basutoland Congress Party — dozens reportedly killed after the failed 1974 uprising and again in 1979 — driving hundreds of Basotho into exile.",
+      "relevance": "The same Basotho state that was victimised from outside in 1998 had, a generation earlier, turned its own security forces against its own people — the dual lens within a single small kingdom.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Human rights in Lesotho' — after the failed 6 January 1974 BCP uprising, more than 170 people were arrested and the Basutoland Congress Party claimed over 80 people were killed by the government in retaliation; by the end of 1979 more than 600 had fled to South Africa, where refugees claimed at least fifty suspected insurgent supporters had been killed by the Police Mobile Unit",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Human_rights_in_Lesotho",
+          "caveat": "Tertiary aggregator, and the death figures are claimed by the BCP / by refugees rather than independently verified. Re-verified (audit) 2026-06-19 by direct fetch: the article states 'the BCP claimed over 80 people were killed by the government in retaliation' for 1974 (after 170+ arrests) and 'By the end of 1979 more than 600 people had fled to South Africa. These political refugees claimed at least fifty suspected supporters of the insurgents had been killed by the government', and separately that 'the Police Mobile Unit (PMU) began retaliatory attacks, assaulting and killing civilians in Butha-Buthe District'. The PMU is thus named in-source for the 1979 retaliation, though the specific '50' is attributed to 'the government'."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, '1970 Lesotho coup d'état' — on 30 January 1970 Prime Minister Leabua Jonathan, after losing the election to the BCP, declared a state of emergency, annulled the election, dissolved parliament and suspended the constitution; King Moshoeshoe II was exiled June–December 1970",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/1970_Lesotho_coup_d%27%C3%A9tat",
+          "caveat": "Tertiary aggregator and a brief stub; documents the self-coup itself but not the casualty figures. Re-verified (audit) 2026-06-19: the 30 Jan 1970 date, Jonathan declaring a state of emergency, annulling the election (won by the BCP), dissolving parliament, suspending the constitution, and King Moshoeshoe II's exile (5 June–5 December 1970) appear as stated; the article characterises the event as a 'self-coup'."
+        },
+        {
+          "kind": "reference",
+          "cite": "Amnesty International, country page and reporting on Lesotho — documents that the post-1970 government used the Internal Security (General) Act to authorise indefinite incommunicado detention without trial, and recorded torture and assaults against political detainees through the 1970s and 1980s",
+          "supports": "summary",
+          "url": "https://www.amnesty.org/en/location/africa/southern-africa/lesotho/",
+          "caveat": "Human-rights NGO reporting; corroborates the pattern of detention and torture rather than a specific death toll. Re-verified (audit) 2026-06-19 via search-result corroboration (Amnesty's live country page no longer hosts the 1970s-era reporting directly): the Jonathan government invoked the Internal Security (General) Act — originating 1967, with 1974 and 1982 amendments enabling incommunicado detention without charge for up to 60 days — and Amnesty documented torture/ill-treatment (isolation, blindfolding, assaults) of political detainees through the period. The specific death numbers rest on the BCP/refugee claims cited above, not on Amnesty enumeration. Audit flag: this source supports the pattern (summary), not a toll; the Amnesty live page itself is now dominated by post-2016 material, so the 1970s specifics are corroborated rather than fetched verbatim from amnesty.org."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

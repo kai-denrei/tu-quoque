@@ -1,0 +1,140 @@
+{
+  "iso": "BWA",
+  "name": "Botswana",
+  "note": "Botswana's ledgers are deliberately asymmetric, and the asymmetry is the honest finding. On the victim side the dominant catastrophe is the Difaqane (c.1820-1840), when Ndebele armies under Mzilikazi and the migrating Bakololo under Sebetwane raided, scattered and absorbed the Tswana merafe and shattered older polities such as the Kalanga. A Botswana-specific death count for that era does not exist in the scholarship — the region-wide Mfecane figure of 1-2 million is itself contested (Julian Cobbing's revisionism, Elizabeth Eldredge's qualifications) and cannot be apportioned to the territory of modern Botswana — so that toll is left null with the dispute flagged. Crucially, the large-scale SETTLER GENOCIDE of San peoples did NOT happen on Botswana's soil: the exterminatory campaigns were in the Cape Colony, Transorangia and Natal (modern South Africa), and the Cambridge World History of Genocide notes that late-nineteenth-century white pastoralists in western Bechuanaland instead established relatively peaceful relations with the San. Inventing a 'Botswana San genocide' to fill the victim ledger would be a fabrication, so it is not here. The perpetrator side is real but is structural oppression rather than mass killing: Tswana chiefdoms (above all the Bamangwato under Khama III and Tshekedi Khama) held San (Basarwa/Masarwa) and Bakgalagadi in hereditary serfdom (bolata) into the twentieth century, and the independent Botswana state forcibly evicted the San and Bakgalagadi from the Central Kalahari Game Reserve between 1997 and 2005 — a removal its own High Court ruled unlawful and unconstitutional in 2006. Neither perpetrator event has a death toll, because the harm was bondage and displacement, not slaughter, and the file says so rather than borrowing the killing-counts of events that belong to other countries.",
+  "events": [
+    {
+      "id": "bwa-1",
+      "country": "BWA",
+      "role": "victim",
+      "title": "The Difaqane: Ndebele and Kololo raids on the Tswana merafe",
+      "era": "c.1820–1840",
+      "era_band": "pre-colonial",
+      "tier": "WAR",
+      "tier_reasoning": "Two decades of conquest-raiding, displacement and absorption of one set of African polities by others — armed predation that scattered and ruined communities rather than a campaign to exterminate a defined people, so WAR; the deaths came through raids, famine and flight.",
+      "agent": "Ndebele armies under Mzilikazi and the migrating Bakololo under Sebetwane",
+      "toll": {
+        "display": "tens of thousands killed/displaced (no Botswana-specific count)",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "No death count specific to the territory of modern Botswana exists in the scholarship. The traditional region-wide Mfecane/Difaqane toll of 1–2 million deaths is itself heavily contested — Julian Cobbing argued the apartheid-era 'Black-on-Black destruction' narrative was distorted, and Elizabeth Eldredge, while rejecting his Portuguese-slaving thesis, agreed the Zulu-centred explanation is unreliable — and that figure spans the whole of southern and central Africa, not Botswana alone, so it cannot be apportioned here. What is documented for Botswana is qualitative: whole communities 'completely ruined' and others 'weakened and scattered', people and cattle seized, and the disintegration of the Kalanga kingdom. Toll left null; event marked UNVERIFIED for the death metric, while the events themselves are well attested."
+      },
+      "received_lens": "memorial",
+      "summary": "Through the 1820s and 1830s Ndebele warriors under Mzilikazi and the displaced Bakololo under Sebetwane swept across what is now Botswana, raiding the Tswana merafe — Bakwena, Bangwaketse, Bangwato, Bahurutshe and others — seizing people and livestock and absorbing captives into their ranks; older polities including the Kalanga kingdom were broken up, some communities destroyed outright and others scattered.",
+      "relevance": "The defining catastrophe done to Botswana's peoples was inflicted not by European colonisers but by other African armies — and the Tswana states that survived it went on to build chiefdoms that subjected the San, so the victims of one era became perpetrators in the next.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "GlobalSecurity.org, 'The Difaqane wars – Botswana' — Mzilikazi/Matabele 'ravaged a great part of Bechuanaland'; conquered peoples moved 'in vast numbers (80,000–100,000) destroying everything in their path'",
+          "supports": "summary",
+          "url": "https://www.globalsecurity.org/military/world/botswana/history-5.htm",
+          "caveat": "Tertiary aggregator drawing on older colonial-era accounts; the 80,000–100,000 figure is for migrating populations on the move, not a death count, and is used only to indicate scale."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Mfecane' — traditional death-toll estimates of 1–2 million (described as controversial); Cobbing revisionism and Eldredge's qualification; Mzilikazi's raids on the Bangwaketse and western Tswana polities",
+          "supports": "tier",
+          "url": "https://en.wikipedia.org/wiki/Mfecane",
+          "caveat": "Tertiary aggregator; the 1–2 million figure is region-wide and explicitly contested, and cannot be apportioned to Botswana — cited to show why a Botswana-specific toll is left null."
+        },
+        {
+          "kind": "reference",
+          "cite": "South African History Online, 'Political changes from 1750 to 1835' — Ndebele under Mzilikazi defeated/absorbed Sotho-Tswana groups (Ngwaketse 1825, Rolong, Kwena, Hurutshe), captives incorporated as dependent groups",
+          "supports": "summary",
+          "url": "https://sahistory.org.za/article/political-changes-1750-1835",
+          "caveat": "Public-history reference site; provides qualitative detail on which groups were attacked but gives no casualty figures."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "bwa-2",
+      "country": "BWA",
+      "role": "perpetrator",
+      "title": "Bolata: Tswana serfdom over the San and Bakgalagadi",
+      "era": "19th c.–c.1940s",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "A hereditary system of compelled labour and bondage embedded in the structure of the Tswana chiefdoms — institutionalised servitude that ground down a people over generations rather than a discrete killing event, so STR.",
+      "agent": "Tswana chiefdoms, above all the Bamangwato under chiefs Khama III and Tshekedi Khama",
+      "toll": {
+        "display": "no death count; thousands held in hereditary bondage",
+        "disputed": false,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "Bolata was a system of servitude, not a massacre, so a death toll is not the right metric and none is claimed. The harm was hereditary bondage, denial of political rights and corporal punishment of San (Basarwa/Masarwa) and many Bakgalagadi serfs by Tswana cattle-owners; colonial officials in 1887 already described it as 'slavery', and the Tagart report (1931) examined corporal punishment of the Masarwa in the Bamangwato Reserve. The number held in bolata is not precisely quantified in the sources consulted, so it is left null rather than estimated."
+      },
+      "received_lens": "suppressed",
+      "summary": "Within the Tswana chiefdoms — the Bamangwato under Khama III and Tshekedi Khama most prominently — San (Basarwa) and many Bakgalagadi were held as hereditary serfs under a system called bolata: bound to cattle-owning patrons, owing compelled labour, denied membership of the morafe and the rights that came with it, and subject to corporal punishment, an arrangement British officials themselves likened to slavery from 1887 onward and that persisted into the twentieth century.",
+      "relevance": "The Tswana, victims of the Difaqane raids, in turn built states that reduced southern Africa's oldest inhabitants to bondage — Botswana's founding people as perpetrators against the San long before any independence-era dispute.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Bruce S. Bennett, 'Some historical background on minorities in Botswana' — Basarwa and many Bakgalagari held as serfs (bolata) in Tswana chiefdoms; Bamangwato under Khama III and Tshekedi Khama; 1887 colonial inquiry used the term 'slavery'; Tagart report (1931) on corporal punishment in the Bamangwato Reserve",
+          "supports": "summary",
+          "url": "https://www.brucebennett.net/ac/archive/BENNETT-Minorities-revised-HTML.htm",
+          "caveat": "Audit-verified: author and document real; the page directly states Basarwa/Bakgalagari were serfs, names Khama III and Tshekedi, quotes the 1887 'slavery' inquiry and the Tagart report (1931)."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'San people' — Ghanzi district divided among white cattle farmers in the later 19th c., forcing San to become 'farm Bushmen' working as cattle herders; San and Bakgalagadi historically marginalised within the wider Tswana/colonial order",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/San_people",
+          "caveat": "Tertiary aggregator; corroborates the servile/dependent status documented in Bennett, not any numerical claim. Audit note: the originally cited 'Ngwato tribe' page does NOT contain the serf/Sarwa/Kgalagadi/Yei material, so the URL was corrected to the 'San people' page, which does support the 'farm Bushmen' point; the formal bolata-serfdom claim rests on the Bennett scholarly source, which is fully verified."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "bwa-3",
+      "country": "BWA",
+      "role": "perpetrator",
+      "title": "Forced eviction of the San from the Central Kalahari Game Reserve",
+      "era": "1997–2005",
+      "era_band": "contemporary",
+      "tier": "STR",
+      "tier_reasoning": "A state-directed forced removal of an indigenous people from their ancestral land — coercive displacement (services and water cut off, boreholes sealed) rather than mass killing, so STR; the High Court itself found it unlawful.",
+      "agent": "The government of Botswana (Quett Masire and Festus Mogae administrations)",
+      "toll": {
+        "display": "no deaths recorded; ~1,739+ San and Bakgalagadi forcibly relocated",
+        "disputed": false,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "This was a forced displacement, not a killing campaign; no deaths are recorded as resulting from the relocations, so the death toll is null by nature of the event rather than for lack of data. The harm metric is people removed: a US Congressional Research Service report records approximately 1,739 San relocated to the New !Xade and Kaudwane resettlement camps, with additional Bakgalagadi removed for whom no separate figure is given. To force compliance the government terminated all services to Remote Area Dwellers on 31 January 2002 and, by critics' accounts, sealed boreholes and destroyed San water-storage structures inside the reserve."
+      },
+      "received_lens": "contested",
+      "summary": "In three main clearances in 1997, 2002 and 2005 the government of Botswana forcibly removed almost all the San (Basarwa) and Bakgalagadi from the Central Kalahari Game Reserve, their ancestral land, into resettlement camps outside it; in 2002 it cut off water and services and sealed boreholes to drive out those who remained. In Sesana and Others v Attorney-General (December 2006) the High Court ruled the removals and the denial of return unlawful and unconstitutional.",
+      "relevance": "The independent state held up as one of Africa's success stories drove its own indigenous minority off their land — and the case made it, uniquely among the entries here, into a courtroom that named the government as the wrongdoer.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "U.S. Congressional Research Service, 'Botswana: The San (Bushmen) Rights Case' (RS21956, 2004) — ~1,739 San relocated to New !Xade and Kaudwane; services to Remote Area Dwellers ceased 31 Jan 2002; boreholes sealed and water storage destroyed (per critics)",
+          "supports": "toll.low",
+          "url": "https://www.everycrsreport.com/reports/RS21956.html",
+          "caveat": "A US legislative-branch research report; predates the 2006 ruling, so used for the relocation figures and the 2002 service cut-off only."
+        },
+        {
+          "kind": "primary",
+          "cite": "Sesana and Others v Attorney-General, Misca No 52 of 2002, [2006] BWHC 1 (High Court of Botswana, 13 Dec 2006) — found applicants were in lawful possession before 31 Jan 2002, deprived forcibly and without consent; refusal to allow return ruled unlawful and unconstitutional",
+          "supports": "summary",
+          "url": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/journals/AUIndigLawRw/2007/16.html",
+          "caveat": "Cited via the AustLII case summary of the judgment rather than the full court record."
+        },
+        {
+          "kind": "press",
+          "cite": "Mongabay, 'Harsh treatment for indigenous Botswanans ousted from Kalahari wildlife reserve' (2015); allAfrica, 'Botswana: The Basarwa San Evicted From Ancestral Lands' (2013) — three clearances (1997, 2002, 2005); New Xade and Kaudwane camps; diamond-mining allegations denied by government",
+          "supports": "summary",
+          "url": "https://news.mongabay.com/2015/08/harsh-treatment-for-indigenous-botswanans-ousted-from-kalahari-wildlife-reserve/",
+          "caveat": "Advocacy-leaning environmental and pan-African outlets sympathetic to the San; the diamond-mining motive they report is contested and denied by the government, so it is not asserted here as fact."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

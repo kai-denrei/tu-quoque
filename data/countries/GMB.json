@@ -1,0 +1,133 @@
+{
+  "iso": "GMB",
+  "name": "Gambia",
+  "note": "The Gambia's two ledgers sit four centuries apart, and the dual lens is unusually clean. On the victim side, the Gambia River was one of West Africa's principal arteries of the Atlantic slave trade: for some three centuries Europeans anchored at James Island (today Kunta Kinteh Island) and at Juffure in the kingdom of Niumi, and the river's peoples were carried off in chains to the Americas — the demographic wound Alex Haley's 'Roots' later made world-famous. But the same event is also a perpetrator story that the atlas refuses to hide: the captives were overwhelmingly sold to Europeans by other Africans, and the Mandinka kings (mansas) of Niumi, Kombo and the riverine states levied tolls on the trade, permitted the slaving factories, and sold prisoners of their own wars — so the people of the Gambia appear in the slave trade as both the hunted and, through their rulers, among the hunters; this is recorded inside the slave-trade event rather than split off, because the historical record does not cleanly separate them. On the perpetrator side, the modern Gambian state under Yahya Jammeh (1994-2017) became the killer of its own: a Truth, Reconciliation and Reparations Commission (TRRC) found that at least 240 people were murdered by the state or its agents, including the July 2005 execution of dozens of West African migrants by Jammeh's 'Junglers' death squad. TWO HONESTY NOTES. First, the slave-trade toll is an EXPORT / ENSLAVEMENT count, not a death count, and no rigorous Gambia-River-only total exists — the often-quoted figures (an annual rate from Boubacar Barry; a loose 'as many as 3 million from the region' tourism-facing aggregate) are region-wide Senegambia estimates of people DEPORTED, so that event is marked UNVERIFIED and the numbers are flagged throughout; a specific Philip Curtin '304,330' figure that circulates online could not be verified to any real source and has been deliberately excluded. Second, nothing was invented to balance the columns; the colonial-era Soninke-Marabout wars and the British conquest are real but are not tiered here because no defensible mass-death figure could be sourced for them.",
+  "events": [
+    {
+      "id": "gmb-1",
+      "country": "GMB",
+      "role": "victim",
+      "title": "The Atlantic slave trade on the Gambia River",
+      "era": "c.1450s–1860s",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The organized, centuries-long seizure and permanent removal of the river's people for sale into bondage was a structural, demography-destroying predation rather than a single targeted extermination campaign, so STR; the headline figure is an export/enslavement count of those deported, not a death toll.",
+      "agent": "European slaving companies (Portuguese, English, French, Courlander and others) operating from James Island and Juffure, supplied with captives by African middlemen and by the Mandinka kings (mansas) of Niumi, Kombo and the riverine states, who taxed the trade, licensed the slaving factories, and sold war-captives, debtors and kidnap victims",
+      "toll": {
+        "low": 600000,
+        "high": 3000000,
+        "unit": "deaths",
+        "display": "~600,000–3,000,000 people enslaved/deported from the Senegambia region (export count, not deaths; disputed)",
+        "disputed": true,
+        "note": "CAVEAT: these are counts of people ENSLAVED AND DEPORTED, not killed, and they are for the broader Senegambia region, not the Gambia River alone — no rigorous Gambia-only total exists. The high bound (~3 million 'taken from the region during the three centuries' of the trade) is a loose, tourism-and-reference-facing aggregate repeated by GlobalSecurity and AccessGambia; treat it as an upper-limit estimate, not a precise figure. The low bound (~600,000) is a conservative floor derived from Boubacar Barry's scholarly estimate of about 6,000 slaves exported per year from Senegambia across the 18th century (roughly 600,000 for that century alone, before adding the 16th, 17th and 19th centuries); AccessGambia separately cites ~5,000–6,000/year 'from The Gambia' at the 17th-century peak and the standard estimate that about 1 in 6 of all West Africans enslaved came from Senegambia. The actual DEATH toll — those killed resisting capture, on the march to the coast, in the barracoons and in the Middle Passage (trade-wide Middle Passage mortality ran around 15%) — is genuinely unrecoverable and is left unquantified by design rather than invented. AUDIT CORRECTION (2026-06-19): an earlier note here claimed the Philip Curtin '304,330 (1681–1810)' figure could not be verified to Curtin's actual text; that exclusion rationale was WRONG. The figure is genuinely attributable — it traces to a real scholarly work, Philip D. Curtin, 'Economic Change in Precolonial Africa: Senegambia in the Era of the Slave Trade' (Univ. of Wisconsin Press, 1975), and is reported as 'from 1681 to 1810, a total of 304,330 slaves were exported from the Senegambia region' by the peer-reviewed Migration Policy Institute article (C. Omar Kebbeh, 'The Gambia: Migration in Africa's Smiling Coast'). It is a Senegambia-region export count, not a Gambia-only count and not a death count, so it sits inside the existing low–high band and changes no bound; it is no longer treated as unverifiable. Event status remains UNVERIFIED because the irreducible numerical uncertainty persists: every figure here is a region-wide export/enslavement count, not a Gambia-River-only death toll, and the death toll is unrecoverable."
+      },
+      "received_lens": "memorial",
+      "summary": "For roughly three centuries European ships came up the Gambia River to James Island and to Juffure in the kingdom of Niumi to buy human beings, and the river's people were carried across the Atlantic into slavery. The captives were overwhelmingly sold to Europeans by other Africans: the Mandinka kings taxed and licensed the trade and sold prisoners of their own wars, while others were kidnapped or seized for debt. Alex Haley traced his ancestor Kunta Kinte to Juffure, and the island is now a UNESCO memorial site renamed Kunta Kinteh Island.",
+      "relevance": "The Gambia's people were prey in the Atlantic trade, yet their own rulers were among the sellers — so a single event carries both halves of the dual lens, the hunted and, through the mansas, the hunters.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "GlobalSecurity.org, 'The Gambia – Slave Trade' — 'as many as 3 million slaves may have been taken from the region during the three centuries' of the transatlantic trade; 'most of those taken were sold to Europeans by other Africans'; James Island as the slaving fort; the Courlanders' relationship with the king of Niumi at Juffure",
+          "supports": "toll.high",
+          "url": "https://www.globalsecurity.org/military/world/africa/gm-history-04.htm",
+          "caveat": "RESEARCHED 2026-06-19: on-page text confirms the ~3-million regional figure and the 'sold by other Africans' statement. The 3-million figure is a loose multi-century, region-wide aggregate with no methodology shown — used here only as a flagged upper bound, not a precise count, and it is a deportation count, not deaths."
+        },
+        {
+          "kind": "reference",
+          "cite": "AccessGambia, 'Gambia Slavery, History' — at the 17th-century peak ~5,000–6,000 slaves transported 'from The Gambia' each year; about 1 in 6 of all West Africans enslaved between the 17th and 19th centuries came from Senegambia; Europeans depended on African middlemen who bought slaves from tribal leaders and local chiefs in exchange for guns and goods",
+          "supports": "summary",
+          "url": "https://accessgambia.com/information/slavery-history.html",
+          "caveat": "RESEARCHED 2026-06-19: tourism/reference site; figures align with scholarly annual-rate estimates but are not individually footnoted on the page. The annual peak and '1 in 6' figures are export/enslavement counts, not deaths, and the middleman/local-chief role is the load-bearing dual-lens claim corroborated independently."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Boubacar Barry, 'Senegambia and the Atlantic Slave Trade' (Cambridge UP, 1998) — estimate of ~6,000 slaves exported per year from Senegambia across the 18th century, the basis for the ~600,000 conservative low bound for that century",
+          "supports": "toll.low",
+          "url": "https://www.fulcrum.org/concern/monographs/1831ck195",
+          "caveat": "VERIFIED 2026-06-19 (source genuine; figure flagged): the monograph is real and correctly attributed — Boubacar Barry, 'Senegambia and the Atlantic Slave Trade,' trans. Ayi Kwei Armah, Cambridge UP, African Studies no. 92, 1998 (confirmed via Cambridge Core, the AHR review, and the Internet Archive). Barry's ~6,000/year 18th-century Senegambia figure is corroborated verbatim by Wikle 2014, 'Landscapes of the Slave Trade in Senegal and The Gambia' (Focus on Geography, Wiley): 'During the 18th century, slavers operating out of Senegambia exported an estimated 6,000 slaves per year (Barry 1998).' The figure is region-wide, not Gambia-River-only; the ~600,000 low bound is a conservative single-century extrapolation of that rate and is itself a deportation count, not a death count. The fulcrum.org full-text URL returns HTTP 403 and could not be opened, but the figure no longer rests on that page — it is independently confirmed in the Wikle survey."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "gmb-2",
+      "country": "GMB",
+      "role": "perpetrator",
+      "title": "State killings under Yahya Jammeh",
+      "era": "1994–2017",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "The deliberate killing of political opponents, dissidents, prisoners and detainees by the state and its security organs to entrench a ruler's power is political mass killing, so POL rather than the targeted group-destruction of EXT.",
+      "agent": "The government of President Yahya Jammeh — the army, the National Intelligence Agency (NIA), and especially the 'Junglers' paramilitary death squad that took orders directly from Jammeh — which executed coup suspects and detainees, killed student protesters, ran a fatal HIV 'treatment' program and a 'witch-hunt' detention campaign, and murdered journalists and critics",
+      "toll": {
+        "low": 240,
+        "high": 250,
+        "unit": "deaths",
+        "display": "at least 240–250 killed by the state or its agents (1994–2017)",
+        "disputed": false,
+        "note": "The Gambia's Truth, Reconciliation and Reparations Commission (TRRC), whose final report was handed over in November 2021 and published in December 2021, found that at least 240 people were murdered by the state or its agents during Jammeh's 22-year rule; the TRRC chairman and lead counsel put the figure at 240–250 Gambians and non-Gambians. The toll includes roughly 17 student protesters (April 2000), about 41 victims of Jammeh's bogus HIV/AIDS 'treatment,' about 39–41 people killed in his 'witch-hunt' detentions (2009), nine death-row inmates executed at Mile Two prison (2012), journalist Deyda Hydara (2004), and dozens of West African migrants in 2005 (treated as gmb-3). The TRRC said Jammeh personally bore responsibility for more than 200 of these deaths. The figure is a floor ('at least'), reflecting documented cases; the true number including unrecovered disappearances may be higher."
+      },
+      "received_lens": "suppressed",
+      "summary": "Over 22 years in power, Yahya Jammeh's government killed at least 240 people: alleged coup plotters and detainees, student demonstrators shot in 2000, dozens who died after being forced into a fake presidential HIV 'cure,' people seized and beaten in a 2009 'witch-hunt,' executed prisoners, and murdered journalists and critics. Much of the killing was carried out by the 'Junglers,' a death squad that answered directly to Jammeh. After he was forced from power in 2017, the TRRC documented the crimes and recommended his prosecution; in 2024 ECOWAS approved a special tribunal to try him.",
+      "relevance": "The same country whose people were carried off in the Atlantic trade became, in independence, a state that hunted and killed its own citizens and foreign migrants — perpetrator on its own soil rather than only victim of others.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "Human Rights Watch, 'Gambia: Commission Uncovered Ex-President's Alleged Crimes' (24 May 2021) — categories and tolls of Jammeh-era killings (2005 migrants ~59; 2009 witch-hunt deaths ~41; HIV program 30+; 2000 student protesters 12–14; nine Mile Two executions in 2012; Deyda Hydara 2004)",
+          "supports": "summary",
+          "url": "https://www.hrw.org/news/2021/05/24/gambia-commission-uncovered-ex-presidents-alleged-crimes",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "JusticeInfo.net / The Point (Banjul), reporting the TRRC final report — the commission found at least 240 people murdered by the state or its agents under Jammeh, with the chair/lead counsel citing 240–250 deaths and Jammeh personally responsible for more than 200",
+          "supports": "toll.low",
+          "url": "https://www.justiceinfo.net/en/86069-trrc-final-report-gambia-between-prosecutions-and-amnesties.html",
+          "caveat": "VERIFIED 2026-06-19: the 240 / 240–250 figure is corroborated across JusticeInfo, The Point and Human Rights Watch reporting on the TRRC's final report; on-page text at the JusticeInfo URL reads 'at least 240 persons were found to have been murdered by state agents under his rule.' It is an 'at least' floor of documented cases, so the true toll may be higher."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "gmb-3",
+      "country": "GMB",
+      "role": "perpetrator",
+      "title": "The 2005 massacre of West African migrants",
+      "era": "July 2005",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "The summary execution of detained, unarmed migrants by a state death squad acting on the ruler's orders is a deliberate state killing, so POL.",
+      "agent": "President Yahya Jammeh and the 'Junglers' paramilitary unit, which took its orders directly from him; the detentions involved the inspector general of police, the head of the National Intelligence Agency, the chief of defence staff and the National Guards commander",
+      "toll": {
+        "low": 50,
+        "high": 59,
+        "unit": "deaths",
+        "display": "~50–59 migrants executed (Ghanaian, Nigerian and other West Africans)",
+        "disputed": true,
+        "note": "In July 2005 a group of West African migrants en route to Europe were detained in The Gambia, suspected (wrongly) of being mercenaries plotting to overthrow Jammeh, and then summarily executed over about a week near Banjul and along the Senegal–Gambia border close to Jammeh's hometown of Kanilai. Human Rights Watch and TRIAL International report 'more than 50' killed, with later HRW reporting citing 'about 59'; some 44 of the dead were Ghanaians, the rest Nigerian and other West Africans. The low bound (50) is the conservative 'more than 50' figure; the high bound (59) is HRW's later count. A few of those detained are believed to have survived, which is part of why the exact total is disputed. This massacre is a subset of the broader Jammeh-era toll in gmb-2, recorded separately because it is the regime's single best-documented atrocity."
+      },
+      "received_lens": "suppressed",
+      "summary": "In July 2005 some fifty-odd West African migrants — most of them Ghanaians, plus Nigerians and others — heading for Europe were seized in The Gambia on Jammeh's suspicion that they were coup-plotting mercenaries. Over roughly a week the 'Junglers' death squad executed them near Banjul and just over the Senegalese border near Jammeh's hometown. No one has been convicted; in 2018 former Junglers testified that they carried out the killings on Jammeh's orders, and the case is among those slated for the planned special tribunal.",
+      "relevance": "A modern African state hunting and killing migrants from neighbouring African countries inverts the usual North–South frame and puts The Gambia squarely in the perpetrator column for crimes against non-citizens.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "Human Rights Watch, 'Gambia: Ex-President Tied to 2005 Murders of Ghanaian and Nigerian Migrants' (16 May 2018) — 'more than 50' migrants summarily executed by the Junglers on Jammeh's orders; ~44 Ghanaians among the dead; killings near Banjul and along the Senegal–Gambia border near Kanilai",
+          "supports": "toll.low",
+          "url": "https://www.hrw.org/news/2018/05/16/gambia-ex-president-tied-2005-murders-ghanaian-and-nigerian-migrants",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "Human Rights Watch, 'Gambia: Ex-President Tied to Killing of 59 Migrants' (12 March 2021) — later HRW count of about 59 migrants killed in the July 2005 massacre",
+          "supports": "toll.high",
+          "url": "https://www.hrw.org/news/2021/03/12/gambia-ex-president-tied-killing-59-migrants",
+          "caveat": "VERIFIED 2026-06-19: HRW's 2021 reporting cites ~59 killed (on-page text confirmed), higher than the 'more than 50' of the 2018 report (also on-page confirmed); the discrepancy reflects evolving documentation and a small number of believed survivors, so the toll is shown as a range. Note the TRRC final report (per JusticeInfo) put the migrant count as high as 66; the 50–59 range here is the conservative, both-ends-sourced HRW band."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

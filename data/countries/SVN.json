@@ -1,0 +1,172 @@
+{
+  "iso": "SVN",
+  "name": "Slovenia",
+  "note": "Slovenia's twentieth century is a tight, painful illustration of the dual lens, because in 1941–1945 the same small people appears in both ledgers within four years and often within the same families. As victims, Slovenes were carved up between three occupiers — Fascist Italy, Nazi Germany, and Hungary. Italy interned roughly a quarter of the Province of Ljubljana's population in camps where thousands died; Germany pursued Germanisation, mass executions of hostages and partisans, and child abductions; and the old, small Jewish community was almost entirely destroyed, one of the highest extermination rates in Europe. As perpetrators, the picture splits two ways. During the occupation, the collaborationist Slovene Home Guard (domobranci) — under overall German/SS command but Slovene-manned — helped round up Jews for deportation and ran an anti-Partisan terror apparatus (the Black Hand). Then, after the war, the victorious Slovene/Yugoslav Partisans and the Slovenian OZNA secret police carried out mass summary executions in 1945, killing tens of thousands of returned Home Guard soldiers and others without trial and concealing the bodies in karst pits and mine shafts (Kočevski Rog, Huda Jama, Tezno). The same domobranci who were perpetrators against Jews and the resistance became, months later, the victims of one of the largest mass killings on Slovenian soil — which is precisely why neither a 'heroic anti-fascist' nor a 'martyred nation' single lens survives contact with the record. Numbers throughout are contested and politically charged; the post-war killings were a state secret for nearly half a century and only began to be excavated and counted after independence (the Commission on Concealed Mass Graves, established 2005). Tolls below are given as sourced ranges with the disputes shown.",
+  "events": [
+    {
+      "id": "svn-1",
+      "country": "SVN",
+      "role": "victim",
+      "title": "Italian Fascist internment and occupation of the Province of Ljubljana",
+      "era": "1941–1943",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "A wartime occupier's mass internment and reprisal killing of an enemy civilian population to crush resistance — brutal and lethal, but a counter-insurgency terror campaign rather than a project to exterminate Slovenes as a people, so WAR.",
+      "agent": "Fascist Italy's army and occupation authorities under General Mario Roatta, who ordered ethnic 'cleansing' of the annexed Province of Ljubljana and ran internment camps at Rab, Gonars, Monigo, Renicci, and Chiesanuova",
+      "toll": {
+        "display": "~3,500–4,600 deaths at Rab alone; ~25,000 Slovenes interned (7.5% of the province)",
+        "disputed": true,
+        "low": 3500,
+        "high": 4600,
+        "unit": "deaths",
+        "note": "Figures are for deaths in the Rab camp, the deadliest, not the full Italian-occupation toll, for which no single agreed number exists. A 1943 Church report documented 'at least 3,500' dead at Rab; Yugoslav authorities reported 4,641 (including ~800 during transfers). Rab's annual mortality of roughly 18% exceeded Buchenwald's. Italy interned about 25,000 people — some 7.5% of the Province of Ljubljana's population — described by historians as one of Europe's most drastic deportation operations; total occupation deaths from internment, executions, and reprisals across all camps are higher but unconsolidated."
+      },
+      "received_lens": "contested",
+      "summary": "After Italy annexed central Slovenia as the Province of Ljubljana in 1941, General Roatta's army answered the Partisan rising with collective punishment: roughly 25,000 people — about one in thirteen of the province — were interned in camps such as Rab and Gonars, where thousands died of starvation, exposure, and disease. Roatta's own orders told troops not to 'shy away from cruelty.' At Rab alone the documented dead range from about 3,500 to 4,600.",
+      "relevance": "The Italian occupation is the clearest 'done to them' case for Slovenia — and a contested one beyond its borders, because Italy never prosecuted Roatta (he fled to Spain) or compensated survivors, while Italian public memory has long centred the later foibe killings of Italians instead. AUDIT 2026-06-19: both sources re-fetched and confirmed — Rab 4,641 (Yugoslav) vs 'at least 3,500' (1943 Church report), 18% mortality > Buchenwald 15%, 25,000 interned / 7.5%, Gonars first transport 5,343 incl. 1,643 children. Note Wikipedia also lists an 'around 2,000' lower alternative for Rab not reflected in the range; range retained as defensible. VERIFIED.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Rab concentration camp' — run by the Royal Italian Army under Mario Roatta, June 1942–Sept 1943; Yugoslav authorities reported 4,641 deaths (incl. ~800 in transfers), a 1943 Church report 'at least 3,500' (article also notes 'other sources place the figure at around 2,000'); ~18% annual mortality vs Buchenwald 15%",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Rab_concentration_camp",
+          "caveat": "Tertiary aggregator; the death figures trace to Yugoslav state reporting and a contemporaneous 1943 ecclesiastical report, which diverge, hence the disputed range."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Province of Ljubljana' — 25,000 people deported, '7.5% of the total population,' described as one of the most drastic operations in Europe; Gonars camp opened Feb 1942 with a first transport of 5,343 internees including 1,643 children",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Province_of_Ljubljana",
+          "caveat": "Tertiary aggregator used for the internment scale and proportion; the underlying figures derive from Italian and Yugoslav documentation cited there."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "svn-2",
+      "country": "SVN",
+      "role": "victim",
+      "title": "The Holocaust of Slovenia's Jews",
+      "era": "1941–1945",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "The hunting down and deportation to killing centres of a defined people until it was nearly erased — roughly 87–90% of Slovenia's prewar Jews murdered — is the deliberate destruction of a group as such, so EXT.",
+      "agent": "Nazi Germany in the annexed north, and German and Hungarian authorities in Prekmurje, with documented assistance from the collaborationist Slovene Home Guard and Rupnik's Ljubljana provincial administration in arrests and round-ups",
+      "toll": {
+        "display": "~800 murdered (~87–90% of a prewar community of roughly 1,500)",
+        "disputed": false,
+        "low": 800,
+        "high": 800,
+        "unit": "deaths",
+        "note": "Of roughly 1,500 Jews in Slovenia in 1939 (the 1939 Yugoslav census recorded 1,533 self-declared Jews), only about 200 survived — an extermination rate of around 87–90%, among the highest in Europe. The largest single deportation was of about 387–400 Jews from Prekmurje (annexed by Hungary), sent via Nagykanizsa to Auschwitz-Birkenau in spring 1944, of whom only 67 are known to have survived. The figure is small in absolute terms but near-total in proportion, hence EXT and a tight, undisputed range rather than a contested one."
+      },
+      "received_lens": "memorial",
+      "summary": "Slovenia's Jewish community was old and small. In the north, annexed to the Reich, Jews were deported to camps from 1941; in Italian-held Ljubljana they were relatively safe until the German takeover of September 1943, after which most were seized — 32 hidden Jews were betrayed and arrested by the Slovene Home Guard in 1944 and sent to Auschwitz. In Prekmurje, under Hungary, some 400 Jews were deported to Auschwitz in 1944 with help from Hungarian forces and local collaborators. Of about 1,500 prewar, only roughly 200 survived.",
+      "relevance": "The clearest dual-lens hinge in Slovenia's record: the destruction of its Jews was a crime done to people on Slovenian soil, but Slovene collaborators — the Home Guard and Rupnik's administration — helped carry out the arrests, so this victim event and the perpetrator ledger touch the same hands. AUDIT 2026-06-19: toll independently confirmed by TWO sources — 'Holocaust in Slovenia' (1,533 census / 1,500 / 200 survived / 87%) and USHMM Rupnik ('Roughly 800 Jews—around 90%'). The 32 hidden Ljubljana Jews betrayed by the Home Guard (Sept 1944) verified. Prekmurje: 387 deported via Nagykanizsa confirmed (sistory.si History of the Holocaust in Slovenia); the specific 'only 67 survived' figure was NOT confirmed against the cited Wikipedia URL — minor, as the headline toll is doubly sourced. VERIFIED.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'The Holocaust in Slovenia' — ~1,500 Jews in 1939, only ~200 survived ('87% exterminated'); 1939 Yugoslav census 1,533 self-declared Jews; 32 hidden Ljubljana Jews betrayed and arrested by the Slovene Home Guard in Sept 1944 and sent to Auschwitz",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/The_Holocaust_in_Slovenia",
+          "caveat": "Tertiary aggregator; the population and survival figures derive from the 1939 census and postwar community reconstructions cited there."
+        },
+        {
+          "kind": "reference",
+          "cite": "USHMM Holocaust Encyclopedia, 'Leon Rupnik' — after the Sept 1943 German occupation, German forces rounded up Jews with help from Rupnik's provincial administration, the police, and the Home Guard; remaining Jews deported to Auschwitz in Sept 1944; ~90% of Slovenia's prewar Jews (~800 people) killed",
+          "supports": "summary",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/leon-rupnik",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "svn-3",
+      "country": "SVN",
+      "role": "perpetrator",
+      "title": "Slovene Home Guard collaboration and anti-Partisan terror",
+      "era": "1943–1945",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "A collaborationist auxiliary's role in arresting Jews for deportation and in torturing and killing suspected resistance supporters was complicity in occupation terror against defined enemies, not an independent campaign to exterminate a people, so WAR.",
+      "agent": "The Slovene Home Guard (Slovensko domobranstvo) and Leon Rupnik's Province of Ljubljana administration, under overall command of SS and police general Erwin Rösener, including the secret-police 'Black Hand' organisation",
+      "toll": {
+        "display": "unquantified; thousands killed by Home Guard / Black Hand actions, plus assistance in the deportation of Slovenian Jews",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "No reliable consolidated death figure exists for killings carried out specifically by the Slovene Home Guard and its associated Black Hand secret police, who tortured and killed people believed to be helping the Partisans and assisted German round-ups of Jews. The Home Guard fought alongside German forces and helped arrest the Ljubljana and other Jews who were then deported to Auschwitz, so its contribution is documented but not separable into a single sourced number. Toll left null rather than invented. AUDIT 2026-06-19: BOTH sources re-fetched and confirmed sound — USHMM Rupnik verifies the Black Hand 'tortured and killed people believed to be helping the resistance', the Rösener/SS command, and the Sept 1944 Ljubljana Jewish roundup; the 'Slovene Home Guard' article verifies the German-armed collaborationist status, command under SS-Lt-Gen Rösener reporting to Himmler, and fighting alongside German units. The null toll is a law-1-compliant honest gap (no invented number), NOT a failed citation. Status remains UNVERIFIED only because both toll ends are null and unquantifiable from the record; sources and tier are verified."
+      },
+      "received_lens": "denied",
+      "summary": "After Italy's 1943 surrender the Germans armed a Slovene auxiliary, the Home Guard, sworn against the Partisans and placed under SS command. Its men fought beside German troops, and Rupnik's administration — through the police and the 'Black Hand' secret police — identified, tortured, and killed suspected resistance supporters and helped round up Slovenia's remaining Jews for deportation to Auschwitz. It was a small army of Slovenes serving the occupier against other Slovenes.",
+      "relevance": "Slovenia's clearest 'in their name' case of the war years: Slovenes who chose collaboration and became instruments of occupation terror and of the Holocaust — and who, months later, would themselves fill the mass graves of 1945, which is why their memory is still bitterly fought over.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "USHMM Holocaust Encyclopedia, 'Leon Rupnik' — Home Guard under SS/police general Erwin Rösener; Rupnik's 'Information Bureau' and the connected 'Black Hand' tortured and killed suspected resistance supporters; Home Guard helped round up Jews for deportation",
+          "supports": "summary",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/leon-rupnik",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Slovene Home Guard' — German-armed collaborationist force established after the Sept 1943 Italian capitulation; fought alongside German units against the Partisans; later massacred after the war",
+          "supports": "tier",
+          "url": "https://en.wikipedia.org/wiki/Slovene_Home_Guard",
+          "caveat": "Tertiary aggregator; the Home Guard's collaborationist status and command structure are well established in the scholarly literature, but no consolidated victim count is given there."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "svn-4",
+      "country": "SVN",
+      "role": "perpetrator",
+      "title": "Post-war Partisan and OZNA mass killings of 1945",
+      "era": "1945",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "The systematic summary execution of defeated enemies and perceived political opponents without trial, to eliminate an internal class of adversaries and consolidate Communist power, is mass political killing, so POL.",
+      "agent": "The Yugoslav Partisan army (KNOJ) and the Department for People's Protection (OZNA), with the liquidations in Slovenia carried out at the request of the Slovenian OZNA leadership; Josip Broz Tito's command oversaw the wider campaign",
+      "toll": {
+        "display": "~10,000+ at Kočevski Rog; tens of thousands across Slovenia in 1945 (commission estimate ~100,000 in 581 concealed graves)",
+        "disputed": true,
+        "low": 10000,
+        "high": 100000,
+        "unit": "deaths",
+        "note": "AUDIT (2026-06-19): toll low/high retained but one supporting citation failed falsification — see quarantine note below. Estimates diverge by site and by whether one counts Slovenia-territory killings or all victims buried in Slovenia. Kočevski Rog: Wikipedia's infobox gives '10,000+' (verified); Borivoje Karapandžić (1958) estimated ~18,500 (verified — note the source describes him not merely as an émigré but as a wartime propaganda chief for the fascist/Nazi-collaborationist Zbor, a stronger bias disclosure than the caveat originally stated); broader spring–autumn 1945 estimates for Slovenia run 30,000–55,000 (verified). Tezno near Maribor is estimated at ~15,000 (overwhelmingly Croatian POWs — verified). Teharje camp ~5,000 Slovene Home Guard, almost all dead by Aug 1945 (verified via Teharje camp sources, NOT via the Bleiburg article originally cited). The Slovenian government's Commission on Concealed Mass Graves (report Oct 2009) estimated ~100,000 victims in 581 sites (verified) — the high end here — most non-Slovene Axis combatants returned via the Bleiburg repatriations. QUARANTINE: the original third citation attributed '~130,000 executed in Slovenia', '~15,000 of Slovenian nationality', '~5,000 Teharje', and 'liquidations by KNOJ and OZNA at the request of the Slovenian OZNA leadership' to the Bleiburg repatriations Wikipedia article. On re-fetch (2026-06-19) that article contains NONE of those figures — it gives a total range of 30,000–100,000 and does not attribute the campaign to Slovenian OZNA leadership. The ~15,000 in that article is the Tezno Croatian-POW figure, not a Slovenian-nationality count. The OZNA-oversight and Teharje facts are independently real (gov.si; Teharje camp sources) but were misattributed to the wrong URL, so the citation as written could not be verified and the event is marked UNVERIFIED. The wide range reflects genuine scholarly and political dispute, not a single agreed figure."
+      },
+      "received_lens": "suppressed",
+      "summary": "When the war ended in May 1945, the victorious Partisans and the OZNA secret police executed their defeated enemies without trial. The British handed back more than 10,000 Slovene Home Guard soldiers who had fled north; these and others — Croats, Serbs, Montenegrins who had fought on the Axis side, and civilians — were marched to karst pits and mine shafts and shot, the entrances sealed with concrete and explosives. At Kočevski Rog over 10,000 died; across Slovenia the concealed graves later found number in the hundreds, the dead in the tens of thousands. The killings were ordered by the Slovenian OZNA leadership and kept secret for nearly fifty years.",
+      "relevance": "The decisive 'in their name' event: a mass killing carried out by Slovene and Yugoslav forces, long buried as a founding state secret of socialist Yugoslavia, and the mirror image of svn-2 and svn-3 — many of the dead were the very Home Guard collaborators who had served the occupier, which is why post-1991 Slovenia is split between memorialising them as victims and condemning their wartime record. AUDIT 2026-06-19: tier POL re-derived and confirmed (summary execution of defeated/political enemies to consolidate power; NOT EXT — victims targeted as political/military adversaries, not for biological group destruction). Toll low (Kočevski Rog 10,000+) and high (Commission ~100,000 / 581 graves) BOTH independently confirmed against their cited URLs. HOWEVER the third citation (Bleiburg repatriations) failed falsification: it does not contain the '~130,000 / ~15,000 Slovenian-nationality / ~5,000 Teharje / Slovenian-OZNA-request' claims attributed to it — that URL gives 30,000–100,000 and no Slovenian-OZNA attribution. Citation corrected to what the source supports; misattributed specifics moved to their real (separately verified) sources in the toll note. Status set UNVERIFIED on the source-integrity defect.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Kočevski Rog massacre' — series of massacres late May 1945; thousands of Slovene Home Guard plus Croat, Serb, Montenegrin Axis fighters executed without trial by Yugoslav Partisans; infobox '10,000+'; Karapandžić (1958) ~18,500; broader 1945 estimates 30,000–55,000",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Ko%C4%8Devski_Rog_massacre",
+          "caveat": "Tertiary aggregator; figures derive from contested sources. Bias disclosure (verified 2026-06-19): the Wikipedia article describes Karapandžić not merely as an émigré anti-communist but as a wartime propaganda chief for the Serbian fascist, anti-Semitic, Nazi-collaborationist Zbor organisation — so his ~18,500 estimate carries a heavy partisan bias and the higher estimates are disputed; hence the wide disputed range."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Commission on Concealed Mass Graves in Slovenia' — Slovenian government office est. 2005, report to government Oct 2009 estimating ~100,000 victims in 581 mass graves; killings attributed to the Yugoslav Partisan army in 1945–1946",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Commission_on_Concealed_Mass_Graves_in_Slovenia",
+          "caveat": "Tertiary aggregator citing the official commission; the ~100,000 figure covers all victims buried in Slovenia, most of them non-Slovene Axis combatants, not Slovenes alone."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Bleiburg repatriations' — repatriated Axis-allied prisoners (incl. Slovene Home Guard) handed back by British forces from May 1945 and summarily executed; total deaths during and after the repatriations estimated at 30,000–100,000; KNOJ (People's Defence Corps, founded Aug 1944 to 'liquidate ... White Guard and other anti-people gangs') and OZNA (Tito's NKVD-modelled secret police) identified as the instruments of the killings",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Bleiburg_repatriations",
+          "caveat": "AUDIT 2026-06-19: CORRECTED. The original cite attached '~130,000 executed in Slovenia', '~15,000 of Slovenian nationality', '~5,000 Teharje', and 'at the request of the Slovenian OZNA leadership' to this URL; on re-fetch the article supports NONE of those — it gives a 30,000–100,000 total and no Slovenian-OZNA attribution. Cite rewritten to what the source actually states. The OZNA/Slovenian-oversight and Teharje ~5,000 facts are real but sourced elsewhere (Slovenian gov.si post-war-killings material; 'Teharje camp'), not here; treat those specifics as separately sourced, not from this citation."
+        }
+      ],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

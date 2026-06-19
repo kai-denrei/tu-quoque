@@ -1,0 +1,186 @@
+{
+  "iso": "JAM",
+  "name": "Jamaica",
+  "note": "Researched 2026-06-19. Built from scratch; no prior seed. The dual lens is unusually layered here. Victim side: the demographic collapse of the indigenous Taíno (Yamaye) after the Spanish arrival of 1494, and the British colonial state's reprisal massacre after the 1865 Morant Bay rebellion. Perpetrator side: the independent Jamaican state's 2010 Tivoli Gardens incursion, in which its own security forces killed scores of civilians; and the colonial-era role of the Jamaican Maroons, who under their 1739–40 treaties hunted and returned escaped slaves for bounty and helped the British crush slave revolts (Tacky's War 1760, the Baptist War 1831–32) and the Morant Bay rising. Attribution caveats: the Taíno collapse and the slave economy itself were driven by foreign powers (Spain, then Britain) and predate the Jamaican state — they sit in the victim ledger with agency named plainly. The Morant Bay reprisal was ordered by the British governor, but Jamaican Maroons did some of the killing, so that event bridges both ledgers. The clearest case of atrocity by Jamaicans against Jamaicans is Tivoli Gardens. The Maroon slave-catching record is real and well documented qualitatively but carries no countable death toll, so its event is marked UNVERIFIED on the number. Deep-historical tolls are population-decline figures, not body counts, and are flagged as such. Status UNVERIFIED overall: the Taíno population figure rests on popular/reference rather than peer-reviewed sources, and the Maroon event has no sourceable toll.",
+  "events": [
+    {
+      "id": "jam-1",
+      "country": "JAM",
+      "role": "victim",
+      "title": "Collapse of the Taíno of Jamaica",
+      "era": "1494–1600s",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "The collapse was driven mainly by Old World epidemic disease against which the Taíno had no immunity, compounded by enslavement, forced labor under repartimiento/encomienda, and famine — a structural demographic collapse rather than a single program to exterminate the group, though the enslavement and violence were deliberate.",
+      "agent": "The Spanish crown and colonists who occupied Jamaica from 1494 (forced-labor allocation, tribute, and conquest)",
+      "toll": {
+        "display": "~60,000 reduced to near-extinction (population-decline estimate, not a counted death toll)",
+        "disputed": true,
+        "low": null,
+        "high": 60000,
+        "unit": "deaths",
+        "note": "QUARANTINE (audit 2026-06-19): Population-DECLINE figure, not a register of the dead. The cited Jamaicans.com page does NOT actually state 60,000 — on fetch it gives ~6 million Arawak-speakers across the whole Greater Antilles/Bahamas and 'over 200 village sites' for Jamaica; the 60,000 Jamaica-specific figure is surfaced from other popular Jamaican-history sites and is itself unsettled (e.g. Jamaica Global Online cites ~100,000, exterminated within 40 years). No peer-reviewed basis for any Jamaica-specific contact population was found; pre-contact Caribbean estimates vary by an order of magnitude. No reliable low bound for deaths is sourceable — the figure is lost population, not deaths attributable to Spanish violence versus disease. toll.low left null; toll.high (60,000) retained only as a widely-repeated popular high bound, not a verified count; status UNVERIFIED."
+      },
+      "received_lens": "memorial",
+      "summary": "When Columbus reached Jamaica in 1494 the island held an indigenous Taíno (Yamaye) population estimated around 60,000 across some 200 villages. Within roughly a century Spanish settlers had all but erased them: the colonists forced the Taíno into labor under the repartimiento and encomienda systems and demanded tribute, while smallpox, measles, and other diseases tore through a people with no immunity, leaving only scattered survivors who mixed into later Maroon and African populations.",
+      "relevance": "Jamaica's first people were nearly wiped out before the enslaved Africans who would build and define the island ever arrived — the foundational atrocity beneath everything that followed, with the perpetrators a foreign crown, not any Jamaican state.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'The Taino of Jamaica' (Jamaicans.com) — 'over 200 village sites' on Jamaica and the Jamaican Taino as part of ~6 million Arawak-speakers of the Greater Antilles and Bahamas at Columbus's 1494 arrival, reduced to harsh slavery and 'virtual extinction' under the Spanish (some survivors). The ~60,000 Jamaica-specific population is NOT on this page; it is repeated by other popular Jamaican-history sites (search-surfaced) and is unsettled (some cite ~100,000).",
+          "supports": "toll.high",
+          "url": "https://jamaicans.com/taino/",
+          "caveat": "AUDIT 2026-06-19: the cited URL supports the ~200 villages and the qualitative collapse, but does NOT carry the 60,000 figure (it gives ~6 million for the whole Greater Antilles). The 60,000 is a popular, non-peer-reviewed high bound contradicted by other popular figures (~100,000); pre-contact Caribbean estimates vary by an order of magnitude. Toll.high is therefore an unverified popular figure, not a sourced count — event correctly UNVERIFIED."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Taíno genocide' overview — across the Greater Antilles 80–90% of the Taíno died within three decades of contact; causes include epidemic disease (smallpox, measles, influenza, typhus), enslavement and forced mine/field labor, famine, and massacre",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Ta%C3%ADno_genocide",
+          "caveat": "Tertiary aggregator covering the Antilles broadly rather than Jamaica specifically; pre-contact populations vary by an order of magnitude across scholars."
+        },
+        {
+          "kind": "reference",
+          "cite": "Minority Rights Group, 'Yamaye Taíno People in Jamaica' — the indigenous Yamaye were devastated under Spanish rule by enslavement, hard labor, and disease, with descendants surviving through intermixing (an estimated few thousand identify as Taíno descendants today)",
+          "supports": "summary",
+          "url": "https://minorityrights.org/communities/yamaye-taino-people-in-jamaica/",
+          "caveat": "Page returned access errors on fetch; cited from search-surfaced summary, used for the qualitative record of survival/decline, not for a toll."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "jam-2",
+      "country": "JAM",
+      "role": "victim",
+      "title": "The Morant Bay reprisals",
+      "era": "October–November 1865",
+      "era_band": "colonial",
+      "tier": "POL",
+      "tier_reasoning": "A colonial government answered a local rising with mass political reprisal under martial law — summary courts-martial, floggings, and killings of black Jamaicans to terrorize the population into submission — punishment of a subject population for dissent, not destruction of an ethnic group as such.",
+      "agent": "The British colonial government of Jamaica under Governor Edward John Eyre, its troops, and allied Moore Town Maroons",
+      "toll": {
+        "display": "~439–469 killed; ~600 flogged; ~1,000 homes burned",
+        "disputed": true,
+        "low": 439,
+        "high": 469,
+        "unit": "deaths",
+        "note": "The rising itself killed about 25 (including officials and militia at the courthouse). The colonial reprisal under month-long martial law (13 Oct–13 Nov 1865) is the mass-death event: sources give roughly 439 killed outright and a total around 469 black Jamaicans dead — about 354 executed after summary courts-martial plus ~85 shot or hanged without trial. Some 600 men and women were flogged, including pregnant women, and around 1,000 houses and huts were burned. The low (439) and high (469) bracket the cited death range; the flogging and arson figures are separate harm counts, not deaths."
+      },
+      "received_lens": "memorial",
+      "summary": "After Paul Bogle led several hundred black Jamaicans into Morant Bay on 11 October 1865 — protesting poverty, injustice, and the conditions of the recently emancipated — the militia opened fire and the crowd burned the courthouse, leaving about 25 dead. Governor Eyre declared martial law and unleashed a reprisal far heavier than the rising: troops and Moore Town Maroons killed some 439 people, executed others including Bogle and the wrongly implicated George William Gordon after summary trials, flogged about 600, and burned roughly 1,000 homes. The brutality caused a furor in Britain and Eyre was recalled.",
+      "relevance": "The clearest atrocity done TO Jamaica's people in the colonial era — yet Jamaican Maroons helped carry out the killing, the same bridge between victim and perpetrator that recurs across the island's history.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Morant Bay rebellion' overview — ~25 killed in the initial clash; reprisals of ~439 black Jamaicans killed by soldiers, ~354 arrested and largely executed, over 600 flogged, thousands of homes burned; Moore Town Maroons under Alexander Fyfe committed atrocities and extrajudicial murders; described as the most severe suppression in British West Indian history",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Morant_Bay_rebellion",
+          "caveat": "Tertiary aggregator; martial-law killings were recorded unevenly."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "History Guild, 'Jamaica's Morant Bay Rebellion and its brutal repression' — by early November 1865 some 469 black Jamaicans were dead (354 executed at hasty courts-martial plus ~85 shot or hanged without trial); 600 flogged; 1,000 houses burned under Eyre's month-long martial law",
+          "supports": "toll.high",
+          "url": "https://historyguild.org/jamaicas-morant-bay-rebellion-and-its-brutal-repression/",
+          "caveat": "Popular-history site; direct fetch returned HTTP 403 but the article exists at this URL (search-confirmed title and content). The 469 total (354 court-martial executions + ~85 killed without trial) is independently corroborated by EBSCO and other accounts; figures align with standard scholarship. Audit 2026-06-19: VERIFIED."
+        },
+        {
+          "kind": "reference",
+          "cite": "Encyclopaedia Britannica / Encyclopedia.com entries on the Morant Bay Rebellion and the Eyre–Gordon controversy — Eyre's martial-law reprisals, Gordon's and Bogle's executions, the Royal Commission, and Eyre's recall",
+          "supports": "summary",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/morant-bay-rebellion",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "jam-3",
+      "country": "JAM",
+      "role": "perpetrator",
+      "title": "The Tivoli Gardens incursion",
+      "era": "May 2010",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "State security forces killed scores of civilians in a single operation, with credible findings of unlawful and extrajudicial killings under a state of emergency — lethal state violence against the population in the course of an internal security operation.",
+      "agent": "The Jamaican state's security forces (Jamaica Defence Force and Jamaica Constabulary Force) under a state of public emergency",
+      "toll": {
+        "display": "~70–74 killed (including ~1–3 security personnel); at least 15 to 40+ alleged extrajudicial executions",
+        "disputed": true,
+        "low": 70,
+        "high": 74,
+        "unit": "deaths",
+        "note": "Within days of the 23 May 2010 state of emergency, at least 74 people were killed in Tivoli Gardens (commonly reported as ~70 civilians plus a small number of security personnel). The number of unlawful killings is disputed: the 2016 West Kingston Commission of Enquiry found evidence of at least 15 extrajudicial killings and called parts of the operation 'disproportionate, unjustified and unjustifiable', while Amnesty International reported that more than 40 of the dead were alleged to be victims of extrajudicial execution. The low (70) and high (74) bracket the death range; the extrajudicial-killing figures are a contested subset. No one has been prosecuted for the killings."
+      },
+      "received_lens": "contested",
+      "summary": "On 24 May 2010, hundreds of Jamaican soldiers and police stormed the Tivoli Gardens district of West Kingston to seize Christopher 'Dudus' Coke, a 'don' wanted for extradition to the United States. Over several days at least 74 people died — the large majority civilians — and a 2016 commission of enquiry found at least 15 extrajudicial killings, while Amnesty International put alleged unlawful executions above 40. Coke was not caught in the operation; he surrendered weeks later. No member of the security forces has been prosecuted for the deaths.",
+      "relevance": "The clearest case of atrocity committed BY independent Jamaica against its own people — the state's security forces killing civilians in a poor Kingston neighbourhood, the perpetrator ledger pointed inward.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "West Kingston Commission of Enquiry report (2016) as summarized in press and academic accounts — ~70 civilians and ~3 security personnel killed in May 2010; evidence of at least 15 extrajudicial killings; operation 'justified' but its execution by some forces 'disproportionate, unjustified and unjustifiable'; 1,138 witness statements considered",
+          "supports": "toll.low",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6474581/",
+          "caveat": "Peer-reviewed forensic summary of the official enquiry; the precise civilian/security split varies slightly across reports."
+        },
+        {
+          "kind": "press",
+          "cite": "Amnesty International, media briefing on Jamaica's state of emergency (2011, AI index AMR 38/003/2011) — within two days of the 23 May 2010 emergency at least 74 people, INCLUDING one member of the security forces, were killed in Tivoli Gardens; more than 40 of those killed are alleged to have been victims of extrajudicial execution by the security forces; thousands detained",
+          "supports": "toll.high",
+          "url": "https://www.amnesty.org/en/wp-content/uploads/2021/07/amr380032011en.pdf",
+          "caveat": "Direct PDF returned HTTP 403 on fetch, but the document exists (AMR 38/003/2011, also mirrored at amnistia.pt) and the figures are confirmed via Amnesty's own search-surfaced summaries and the UK Amnesty 'No justice for 74 killed' page. Audit 2026-06-19: VERIFIED. Note Amnesty's count is ~74 incl. ONE security member (vs the enquiry's ~3), so the civilian/security split is itself contested; rights-NGO source used for documented allegations."
+        },
+        {
+          "kind": "press",
+          "cite": "Human Rights Watch, 'Jamaica: Investigate Killings in Tivoli Gardens' (4 June 2010) — call for an independent investigation into civilian deaths and abuses during the West Kingston operation",
+          "supports": "summary",
+          "url": "https://www.hrw.org/news/2010/06/04/jamaica-investigate-killings-tivoli-gardens",
+          "caveat": null
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "jam-4",
+      "country": "JAM",
+      "role": "perpetrator",
+      "title": "Maroon slave-catching and suppression of slave revolts",
+      "era": "1739–1865",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "By treaty, an armed Jamaican community became enforcers of the slave system — hunting and returning escaped people for bounty and helping crush slave revolts — sustaining a regime of mass bondage and lethal labor; an act of upholding structural enslavement rather than a single mass-killing campaign with a counted toll.",
+      "agent": "The Jamaican Maroons (Leeward and Windward communities) under the 1739–40 treaties with the British",
+      "toll": {
+        "display": "no countable death toll (slaves captured/returned and rebels killed not reliably quantified)",
+        "disputed": true,
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "note": "There is no reliable count of how many escaped people the Maroons captured and returned, nor of how many rebels they killed across Tacky's War (1760), the Baptist War (1831–32), and the Morant Bay rising (1865). The 1739 treaty set a bounty of about two dollars per recaptured runaway; individual Maroon officers (e.g. Samuel Grant) made careers hunting runaways; a Maroon officer killed the rebel leader Tacky in 1760; and Moore Town Maroons committed atrocities at Morant Bay. The harm is real and well documented qualitatively, but no sourceable number exists — toll left null and status UNVERIFIED."
+      },
+      "received_lens": "suppressed",
+      "summary": "Under the treaties of 1739–40 that won them their own freedom, the Jamaican Maroons agreed to return all future runaways to the British for a bounty and to help suppress slave revolts. Over the next century and a quarter they did exactly that: hunting escaped people, killing the rebel leader Tacky in 1760, helping crush Samuel Sharpe's Baptist War of 1831–32, and committing atrocities while running down Paul Bogle's followers at Morant Bay in 1865 — a freed black community enforcing the bondage of others.",
+      "relevance": "Jamaica's starkest internal dual lens: a people who had escaped slavery and beaten the British in war then bound themselves, for freedom and bounty, to capture and crush the still-enslaved — perpetrators drawn directly from the ranks of the victims.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Jamaican Maroons' overview — the 1739 treaty obliged the Maroons to return runaways for a bounty (~two dollars each); Maroon officers made careers hunting runaways; Lieutenant Davy killed Tacky in 1760; Maroons helped suppress the 1831–32 Baptist War under Alexander Fyfe and committed atrocities at Morant Bay in 1865",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Jamaican_Maroons",
+          "caveat": "Tertiary aggregator; no quantitative toll is given for captures or killings."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Stephen Vasciannie, 'The Maroon Treaty of 1739', ch. 2 in 'Maroon Claims to Sovereignty in Jamaican Territory' (Palgrave Macmillan, 2024; DOI 10.1007/978-3-031-81880-6) — analysis of the treaty's clause obliging the Maroons, as a quid pro quo, to capture and return all enslaved people to British owners and to refuse to harbor future runaways",
+          "supports": "summary",
+          "url": "https://link.springer.com/chapter/10.1007/978-3-031-81880-6_2",
+          "caveat": "Audit 2026-06-19: VERIFIED that the chapter exists (author Stephen Vasciannie; book confirmed via search/ResearchGate) and supports the treaty-terms claim. Full text paywalled (Springer auth redirect); consulted via abstract/summary."
+        }
+      ],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

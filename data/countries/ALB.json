@@ -1,0 +1,190 @@
+{
+  "iso": "ALB",
+  "name": "Albania",
+  "note": "Albania's dual ledger is unusual in that its single heaviest perpetrator event was committed by an Albanian state against Albania's own people: Enver Hoxha's communist regime (1944–1991) executed, imprisoned, and interned tens of thousands of Albanians, making the same population both perpetrator and victim of one event. To avoid letting the same deaths cancel each other across the two columns, the regime terror is placed once, on the perpetrator ledger, because the agent was Albania's own ruling party and secret police acting in the national name. The victim ledger draws instead on harms done to Albanians by outside powers: the killing of Albanian civilians by Serbian and Montenegrin forces during the Balkan Wars (large but bitterly contested in scale, and centred on Kosovo and 'Old Serbia' rather than the modern Albanian state), and German reprisal massacres under WWII occupation. The other perpetrator entries are smaller but well-documented and uncomfortable for national memory: Albanian Waffen-SS recruits (the Skanderbeg Division) and Cham Albanian collaborators massacred Serb, Jewish, and Greek civilians in 1943–44. Albania-proper is also, separately, one of the few Axis-occupied countries where most Jews survived — a fact noted here but not entered as a perpetrator atrocity. Where scholarship diverges sharply (the Balkan Wars toll especially), the dispute is shown rather than resolved, and no figure has been invented to balance the two columns.",
+  "events": [
+    {
+      "id": "alb-1",
+      "country": "ALB",
+      "role": "victim",
+      "title": "Massacres of Albanians in the Balkan Wars",
+      "era": "1912–1913",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "Serbian and Montenegrin forces killed Albanian civilians and drove out the population to alter the ethnic make-up of newly conquered territory — removal and destruction of a national group below the threshold of total extermination.",
+      "agent": "Kingdom of Serbia and Kingdom of Montenegro armies and Chetnik paramilitaries, in Kosovo, present-day Albania, and Macedonia, after Ottoman forces were expelled",
+      "toll": {
+        "display": "tens of thousands to ~120,000+ Albanians killed (sharply disputed)",
+        "disputed": true,
+        "low": 25000,
+        "high": 120000,
+        "unit": "deaths",
+        "note": "Estimates diverge widely and are politically charged. Contemporary early-1913 reports counted roughly 20,000–25,000 killed in the Kosovo Vilayet alone, and a figure of about 25,000 is given for the first phase of the First Balkan War. Higher scholarly and contemporary estimates reach about 120,000 Albanians killed across Serbian-occupied regions (with figures up to 120,000–270,000 cited for the wider 1912–1914 period that overlaps WWI). Justin McCarthy estimates roughly 100,000 Muslim deaths in present-day Albania. There is no scholarly consensus; the range here spans the lower contemporary count to the higher scholarly estimate, and a far larger number were expelled (Serbian records claim ~240,000–280,000 by 1914)."
+      },
+      "received_lens": "memorial",
+      "summary": "As the Balkan League drove the Ottomans out of Europe in 1912–13, Serbian and Montenegrin armies and Chetnik bands moved into Kosovo and the Albanian lands and killed, burned, and expelled Albanian civilians to secure and ethnically reshape the conquered territory. The Carnegie Commission and contemporary observers documented massacred villages and mass flight; counts of the dead range from tens of thousands into the hundreds of thousands and remain bitterly contested.",
+      "relevance": "This is the heaviest entry on Albania's victim ledger and the foundational wound of Albanian–Serbian enmity — the same Kosovo ground over which, eighty-six years later, the Serbian state would expel Albanians again, and over which Albanian forces would also kill (the dual lens runs through one valley in both directions).",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Massacres of Albanians in the Balkan Wars' — perpetrated by Serbian and Montenegrin forces and Chetniks; contemporary count ~20,000–25,000 in Kosovo Vilayet; scholarly estimates up to ~120,000 across regions; no consensus",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Massacres_of_Albanians_in_the_Balkan_Wars",
+          "caveat": "Tertiary aggregator relaying a contested span of estimates from multiple scholars (McCarthy, Novaković, others); used for the range and the perpetrators, not as a single authoritative figure. Audit 2026-06-19: source verified live; the ~120,000 high is attributable to Kosta Novaković and the ~20,000–25,000 low (Kosovo Vilayet, Freundlich/Trotsky/Mjeda) confirmed; no scholarly consensus confirmed."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Massacres of Albanians in World War I' — continuation of Serbian/Montenegrin (and later Bulgarian) killings; contemporary Albanian claims of 200,000+ killed 1913–15, including ~100,000 in Kosovo",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Massacres_of_Albanians_in_World_War_I",
+          "caveat": "Tertiary aggregator; the high contemporary Albanian claims it relays are nationalist-sourced and unverified, included only to show the upper bound of the dispute, not as established fact."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "alb-2",
+      "country": "ALB",
+      "role": "victim",
+      "title": "Borovë Massacre and German Reprisals",
+      "era": "1943",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "German occupation forces shot and burned the inhabitants of a village in reprisal for a partisan ambush — collective punishment of a captive civilian population, a war crime rather than an attempt to destroy a group as such.",
+      "agent": "German Wehrmacht forces (98th Regiment, 1st Mountain Division) in occupied southeastern Albania",
+      "toll": {
+        "display": "107 killed at Borovë (plus ~18 at neighbouring Barmash)",
+        "disputed": false,
+        "low": 107,
+        "high": 125,
+        "unit": "deaths",
+        "note": "Standard accounts give 107 civilians killed at Borovë on 6 July 1943, with about 18 more killed at the neighbouring village of Barmash, for a combined toll around 125. The Borovë figure of 107 is consistently reported and not seriously disputed; the victims were predominantly women, children, and the elderly."
+      },
+      "received_lens": "memorial",
+      "summary": "On 6 July 1943, after Albanian partisans ambushed a German convoy near Barmash, German mountain troops returned to the village of Borovë, set every house on fire with flamethrowers, shot inhabitants, and burned others alive inside the village church. They killed 107 people — mostly women, children, and the old — before moving on toward Greece, killing more civilians at Barmash on the way.",
+      "relevance": "Borovë is the emblematic massacre of Albania's wartime occupation and a fixture of national memory — a German reprisal atrocity that sits on the victim ledger beside the perpetrator entries committed in 1943–44 by Albanian SS recruits and Cham collaborators against their own neighbours.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Borovë massacre' — 107 civilians killed by the German 98th Regiment, 1st Mountain Division, on 6 July 1943 in reprisal for a partisan attack; ~18 more killed at Barmash",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Borov%C3%AB_massacre",
+          "caveat": "Tertiary aggregator; relays the consistently reported toll but is not itself the primary authority."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "alb-3",
+      "country": "ALB",
+      "role": "perpetrator",
+      "title": "Communist Regime Terror under Enver Hoxha",
+      "era": "1944–1991",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "Albania's ruling party and secret police systematically executed, imprisoned, and interned political opponents and 'class enemies' over four decades — sustained state killing and persecution of a domestic population for political ends.",
+      "agent": "The Communist Party of Labour of Albania and the Sigurimi secret police, directed by Enver Hoxha (with Mehmet Shehu and others), throughout Albania",
+      "toll": {
+        "display": "~5,000–6,000+ executed; tens of thousands imprisoned or interned",
+        "disputed": true,
+        "low": 5000,
+        "high": 25000,
+        "unit": "deaths",
+        "note": "Albanian state and former-political-prisoner bodies estimate more than 6,000 people executed (the association of former political prisoners counts 5,577 men and 450 women executed 1946–1991), with the remains of over 5,000 still in unmarked mass graves. Broader estimates of those who died from execution and other regime causes range from at least ~5,000 to as many as ~25,000. Separately, the Institute for the Studies of Communist Crimes (ISKK) documents 34,135 imprisoned and 59,009 deported or persecuted; thousands more died in prisons and internment/forced-labour camps. The execution count is reasonably firm; the wider death toll (including camp and prison deaths) is disputed and incompletely documented because Sigurimi archives remain only partly opened."
+      },
+      "received_lens": "suppressed",
+      "summary": "From the communist seizure of power in 1944 until the regime's collapse around 1991, Enver Hoxha's party and its Sigurimi secret police executed intellectuals, clergy, former officials, and accused 'enemies' — often on fabricated charges and without real trials, as in the 1951 execution of twenty-three Tirana professionals over a bombing they had not committed — while sending tens of thousands more to prisons and internment camps. More than a third of the population was woven into the Sigurimi's informer network.",
+      "relevance": "This is the single heaviest event touching Albania's people, and the atlas places it on the perpetrator ledger precisely because the killers were Albania's own state acting in the national name — the dual lens turned inward, where victim and perpetrator are the same nation in the same event.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "Balkan Insight / AP reporting on Albania's search for communist-era victims — more than 6,000 executed, often without trial; remains of over 5,000 in unmarked mass graves; former political prisoners' association counts 5,577 men and 450 women executed 1946–1991; ~100,000 imprisoned, interned, or executed",
+          "supports": "toll.low",
+          "url": "https://balkaninsight.com/2023/06/02/albania-to-start-searching-for-remains-of-communist-camp-victims/",
+          "caveat": "Press reporting relaying Albanian official and former-prisoner-association figures; the execution count is well attested but the broader '~100,000 affected' figure mixes executed, imprisoned, and interned and should not be read as a death toll."
+        },
+        {
+          "kind": "reference",
+          "cite": "Britannica, 'Enver Hoxha' — leader of communist Albania 1944–1985; ran a Stalinist regime marked by repeated purges, executions, and pervasive secret-police surveillance",
+          "supports": "summary",
+          "url": "https://www.britannica.com/biography/Enver-Hoxha",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, '1951 executions in Albania' — 23 intellectuals executed February 1951 on fabricated charges over a Soviet-embassy bombing they did not commit, on Hoxha's order",
+          "supports": "tier",
+          "url": "https://en.wikipedia.org/wiki/1951_executions_in_Albania",
+          "caveat": "Tertiary aggregator; relays the documented case used here to illustrate the regime's method of fabricated charges, not the overall toll."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "alb-4",
+      "country": "ALB",
+      "role": "perpetrator",
+      "title": "SS Skanderbeg Division Atrocities in Kosovo and Montenegro",
+      "era": "1944",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "An Albanian Waffen-SS division massacred Serb civilians and rounded up Jews for deportation during anti-partisan operations — killings of captive civilian populations and complicity in the Holocaust, war crimes against civilian groups.",
+      "agent": "The 21st Waffen Mountain Division of the SS 'Skanderbeg' — Muslim Albanian recruits under German command (SS-Standartenführer August Schmidhuber) — in Kosovo and Montenegro",
+      "toll": {
+        "display": "~950+ Serb civilians killed; 281 (up to ~510) Jews and others arrested for deportation",
+        "disputed": true,
+        "low": 950,
+        "high": 1000,
+        "unit": "deaths",
+        "note": "The division's documented killings include 400+ Orthodox Christian civilians summarily executed at Andrijevica, Montenegro, in June 1944 and around 550 Serb villagers massacred at Velika on 28 July 1944 — roughly 950 civilians across those two events. Separately, on 14 May 1944 it arrested 281 Jews in Pristina and handed them to the Germans for deportation to Bergen-Belsen, where many were killed; between late May and early July it apprehended around 510 Jews, communists, and anti-fascists in all. It was also linked to the expulsion of up to 10,000 Slavic families from Kosovo. One Albanian historian (Shaban Sinani) disputes the deportation role; the Serb-civilian massacres are well documented."
+      },
+      "received_lens": "denied",
+      "summary": "In 1944 the Waffen-SS raised an Albanian division named for the national hero Skanderbeg. Better known for plunder than for combat, its recruits massacred Serb civilians during German anti-partisan sweeps — over 400 killed at Andrijevica and some 550 at Velika in Montenegro — and in May 1944 raided Jewish homes in Pristina, arresting hundreds and handing them to the Germans for deportation to Bergen-Belsen, an act the historian Noel Malcolm called the most shameful episode of Kosovo's wartime history.",
+      "relevance": "The Skanderbeg Division is the clearest case of Albanians as perpetrators in the Second World War — and it sits in tension with Albania-proper's record of sheltering Jews, showing that the same nation in the same war appears on both sides of the ledger depending on who is doing the looking and where.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, '21st Waffen Mountain Division of the SS Skanderbeg' — Albanian Waffen-SS unit; 400+ civilians executed at Andrijevica and ~550 at Velika (Montenegro, 1944); 281 Jews arrested in Pristina 14 May 1944 and deported via the Germans to Bergen-Belsen; Noel Malcolm's 'most shameful episode' assessment",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/21st_Waffen_Mountain_Division_of_the_SS_Skanderbeg",
+          "caveat": "Tertiary aggregator; it relays the documented massacre and arrest figures and also notes Albanian historian Shaban Sinani's dispute of the deportation role, which is recorded here as the contested element."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "alb-5",
+      "country": "ALB",
+      "role": "perpetrator",
+      "title": "Cham Albanian Collaborationist Massacres in Greece",
+      "era": "1943–1944",
+      "era_band": "modern",
+      "tier": "WAR",
+      "tier_reasoning": "Cham Albanian paramilitaries allied with Axis forces massacred Greek civilians, executed local notables, and burned villages in Thesprotia — killings of a captive civilian population, war crimes rather than an attempt to destroy a group as such.",
+      "agent": "Cham Albanian collaborationist militia (the Këshilla and Cham security battalions) under the Dino brothers (Nuri, Mazar, Xhemil Dino), alongside German Wehrmacht units, in Thesprotia (Chameria), northwestern Greece",
+      "toll": {
+        "display": "~1,065 Greeks killed in Greece (plus village destruction and deportations)",
+        "disputed": true,
+        "low": 1000,
+        "high": 1065,
+        "unit": "deaths",
+        "note": "Standard accounts attribute about 1,065 Greek deaths to Cham collaborationist activity, including roughly 600 killed in the joint German-Cham 'Operation Augustus' (July–August 1943) and around 200 executed at Paramythia in September 1943, with 70 villages destroyed and hundreds deported to forced labour. The numbers and the degree of collective Cham responsibility are politically contested between Greek and Albanian historiography; not all Chams collaborated, and the community itself was largely expelled and several hundred killed in reprisals in 1944–45."
+      },
+      "received_lens": "contested",
+      "summary": "During the Axis occupation of Greece, paramilitary units drawn from the Cham Albanian minority of Thesprotia allied with the occupiers and turned on their Greek neighbours — taking part in the German 'Operation Augustus' that destroyed dozens of villages, and executing scores of prominent Greeks at Paramythia in September 1943 under the Dino brothers. Around 1,065 Greeks were killed in all, alongside burnings, rapes, and deportations to forced labour.",
+      "relevance": "The Cham massacres are the perpetrator mirror of Albanian victimhood elsewhere: the same community was both an agent of Axis terror against Greeks and, soon after, a target of expulsion and reprisal killing by Greek forces — a single people on both ledgers within two years.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Cham Albanian collaboration with the Axis' — Cham militia under the Dino brothers; ~1,065 Greeks killed (incl. ~600 in Operation Augustus, July–Aug 1943, and ~200 executed at Paramythia, Sept 1943); 70 villages destroyed",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Cham_Albanian_collaboration_with_the_Axis",
+          "caveat": "Tertiary aggregator drawing on a Greek–Albanian historiographical dispute; the casualty figures and the question of collective Cham responsibility are politically contested between the two national narratives."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

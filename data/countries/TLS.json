@@ -1,0 +1,225 @@
+{
+  "iso": "TLS",
+  "name": "Timor-Leste",
+  "note": "Two ledgers held together, but they are deeply asymmetric, and the asymmetry is itself the truth of this case. As victim: across a quarter-century Indonesian occupation (1975-1999) a UN truth commission found that conflict-related deaths reached roughly 102,800 and possibly far higher — on the order of a third of the pre-invasion population — through massacre, forced relocation and engineered famine, with set-piece atrocities like the 1991 Santa Cruz cemetery shooting and the 1999 post-referendum scorched-earth campaign. As perpetrator, the honest record is small and almost entirely internal: Timor-Leste has been a sovereign state only since 2002 and has committed no mass atrocity against another people. The two events on the perpetrator side are Timorese killing Timorese — the 1975 UDT-FRETILIN civil war and the 2006 security-force collapse in which national soldiers shot unarmed national police and ministers illegally armed civilians. These are real and belong in the ledger, but they are an order of magnitude smaller than what was done to Timor-Leste, and we do not invent or inflate anything to balance the two sides. Tiers tag the act, never the nation, and there is no ranking.",
+  "events": [
+    {
+      "id": "tls-1",
+      "country": "TLS",
+      "role": "victim",
+      "title": "The Indonesian occupation of East Timor",
+      "era": "1975–1999",
+      "era_band": "contemporary",
+      "tier": "EXT",
+      "tier_reasoning": "Over a 24-year occupation Indonesian forces killed, disappeared and starved a large fraction of a small population through massacres, forced relocation and engineered famine; the deliberate destruction of much of a people in their own land fits EXT, and the period is widely termed the East Timor genocide.",
+      "agent": "Indonesian armed forces (TNI/ABRI) and allied militias under Suharto's New Order, after the December 1975 invasion",
+      "toll": {
+        "display": "~102,800 conflict-related deaths (CAVR central estimate); ~18,600 violent killings/disappearances; higher estimates to ~200,000+",
+        "disputed": true,
+        "low": 102800,
+        "high": 200000,
+        "unit": "deaths",
+        "note": "The UN-backed Commission for Reception, Truth and Reconciliation (CAVR, 'Chega!', 2005) put minimum conflict-related deaths at ~102,800 (±12,000): ~18,600 (±1,000) violent killings or disappearances and ~84,000 above-baseline deaths from hunger and illness, with an upper bound for conflict-related hunger/illness around 183,000. CAVR attributed roughly 70% of documented violent killings to Indonesian forces. Amnesty International and others cite ~200,000 (about a third of the pre-invasion population); Gabriel Defert estimated ~308,000 for 1975-81 and Ben Kiernan judges ~150,000 close to the truth, while Robert Cribb argues for a lower floor nearer 100,000 or less. The low here is the CAVR central minimum; the high is the widely cited ~200,000. These are demographic/statistical estimates over a starvation-and-counterinsurgency catastrophe, not a body count."
+      },
+      "received_lens": "memorial",
+      "summary": "Indonesia invaded the former Portuguese colony of East Timor in December 1975 and occupied it for nearly a quarter-century, during which its forces conducted massacres, forced relocations and counter-insurgency operations that, together with the famine and disease they helped cause, killed a large share of the territory's people. A UN truth commission later documented at least about 102,800 conflict-related deaths and attributed most of the violent killings to Indonesian forces; estimates of the total reach 200,000 and beyond. In independent Timor-Leste the occupation dead are publicly memorialised and central to the national story.",
+      "relevance": "This is the overwhelming weight of Timor-Leste's victim ledger — and it is the perpetrator ledger of its larger neighbour Indonesia, the same atrocity read from the opposite side.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "Commission for Reception, Truth and Reconciliation in East Timor (CAVR), 'Chega!' final report (2005) — ~102,800 minimum conflict-related deaths; ~18,600 violent killings/disappearances; ~84,000 from hunger/illness",
+          "supports": "toll.low",
+          "url": "https://hrdag.org/timorleste/",
+          "caveat": "Verified 2026-06-19. The statistical core of CAVR's mortality estimate was produced by the Human Rights Data Analysis Group (HRDAG/Benetech) for the commission; HRDAG's Timor-Leste project page and its 'Profile of Human Rights Violations in Timor-Leste, 1974-1999' report carry the ~102,800 (±12,000) minimum conflict-related deaths, ~18,600 violent killings/disappearances and ~84,000 hunger/illness figures. Supports toll.low."
+        },
+        {
+          "kind": "reference",
+          "cite": "'East Timor genocide,' Wikipedia, summarizing CAVR figures, Amnesty International (~200,000), Ben Kiernan (~150,000) and Gabriel Defert (~308,000)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/East_Timor_genocide",
+          "caveat": "Verified 2026-06-19: page carries the CAVR central estimate, Amnesty/HRW ~200,000, Kiernan ~150,000, Cribb's lower floor and Defert ~308,000 (≈44% of pre-invasion population). Reference summary of contested scholarship; supports toll.high."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Human Rights Data Analysis Group (Benetech), 'The Profile of Human Rights Violations in Timor-Leste, 1974-1999: A Report to the Commission on Reception, Truth and Reconciliation' (2006)",
+          "supports": "summary",
+          "url": "https://hrdag.org/content/timorleste/Benetech-Report-to-CAVR.pdf",
+          "caveat": "Verified 2026-06-19: real HRDAG/Benetech statistical report underpinning CAVR's mortality estimate (excess-mortality and multiple-systems-estimation methodology). Supports the summary and the ~70% attribution of documented violent killings to Indonesian forces."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "tls-2",
+      "country": "TLS",
+      "role": "victim",
+      "title": "The Santa Cruz (Dili) massacre",
+      "era": "1991",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Indonesian troops opened fire on an unarmed pro-independence funeral procession and detained, tortured and killed survivors afterward — a deliberate massacre of a political crowd, so POL rather than the wider EXT pattern of the occupation.",
+      "agent": "Indonesian Army troops in Dili",
+      "toll": {
+        "display": "~250–271 killed at and after the cemetery (Indonesian government claimed 19)",
+        "disputed": true,
+        "low": 250,
+        "high": 271,
+        "unit": "deaths",
+        "note": "Witnesses and human-rights groups put the dead at around 250, with one widely repeated tally of 271 killed (plus ~278 wounded and ~270 'disappeared'); some lower estimates run 50-100 for the cemetery itself, while further victims were detained, tortured and killed in custody afterward. The Indonesian government initially claimed only 19 dead, a figure rejected by witnesses, the ICJ fact-finding mission and rights organisations. The massacre was filmed by British cameraman Max Stahl and witnessed by foreign journalists, which broke the occupation into international view."
+      },
+      "received_lens": "memorial",
+      "summary": "On 12 November 1991 a funeral procession for a young independence supporter killed by Indonesian forces became a pro-independence demonstration of thousands at the Santa Cruz cemetery in Dili. Indonesian troops opened fire on the unarmed crowd, killing on the order of 250 people, and detained, tortured and killed more in the days that followed. Smuggled-out video footage made the massacre a turning point in international awareness of the occupation; in independent Timor-Leste it is a national day of remembrance.",
+      "relevance": "The killing the world finally saw on film — the moment Timor-Leste's status as victim of its occupier became impossible to deny.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "Amnesty International, 'East Timor: The Santa Cruz Massacre' (ASA 21/023/1991)",
+          "supports": "summary",
+          "url": "https://www.amnesty.org/en/documents/asa21/023/1991/en/",
+          "caveat": "Contemporaneous human-rights report by a party advocating for accountability; documents the shooting of unarmed demonstrators and detentions/killings in custody. Verified 2026-06-19. Treated as advocacy-adjacent primary documentation, not a neutral state record."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Santa Cruz massacre,' Wikipedia, summarizing the ~250–271 toll, the disputed Indonesian figure of 19, and the role of Max Stahl's footage",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Santa_Cruz_massacre",
+          "caveat": "Verified 2026-06-19: page carries 'at least 250' killed, a 271-killed tally, the 19-dead government claim, and ~278 wounded / ~270 disappeared. Supports toll.low and toll.high."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "International Commission of Jurists, 'The November 12 1991 Massacre in Dili, East Timor, and the Response of the Indonesian Government' (fact-finding mission report, 1992)",
+          "supports": "tier",
+          "url": "https://www.icj.org/wp-content/uploads/1992/02/East-Timor-blaming-the-victims-fact-finding-mission-report-1992-eng.pdf",
+          "caveat": "Verified 2026-06-19: real ICJ fact-finding report; independent legal-body assessment that disputes the Indonesian state's account and characterises the killing of unarmed demonstrators. Supports tier."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "tls-3",
+      "country": "TLS",
+      "role": "victim",
+      "title": "The 1999 post-referendum scorched-earth violence",
+      "era": "1999",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "After East Timorese voted for independence, Indonesian forces and the militias they directed carried out a campaign of killings, forced deportation and systematic destruction to punish and reverse the vote — organised political violence against a population, so POL.",
+      "agent": "Pro-Indonesian militias directed and backed by the Indonesian military (TNI) and police",
+      "toll": {
+        "display": "~1,400+ civilians killed before and after the vote; ~80% of Dili's infrastructure and much of the country destroyed",
+        "disputed": true,
+        "low": 1400,
+        "high": 1500,
+        "unit": "deaths",
+        "note": "At least about 1,400 civilians are believed to have been killed in the violence surrounding the 30 August 1999 referendum, much of it after the pro-independence result; the campaign also forcibly displaced hundreds of thousands into West Timor and destroyed roughly 80% of Dili's infrastructure. Counts are estimates from a chaotic period of mass displacement and burned records; the ~1,400 figure is the most commonly cited and the range here reflects the narrow band around it rather than a major scholarly dispute. The 2008 Commission of Truth and Friendship (Indonesia-Timor-Leste) found Indonesia bore institutional responsibility for the militia violence."
+      },
+      "received_lens": "memorial",
+      "summary": "When East Timorese voted overwhelmingly for independence in the UN-run referendum of 30 August 1999, pro-Indonesian militias backed and directed by the Indonesian military launched a wave of retaliatory violence — shooting and hacking civilians, burning towns and church refuges like Liquiçá and Suai, and forcibly deporting hundreds of thousands across the border. At least roughly 1,400 people were killed and most of the country's infrastructure was destroyed before an Australian-led UN force restored order. A joint Indonesian-Timorese commission later found Indonesia institutionally responsible.",
+      "relevance": "The occupier's parting blow — proof that Timor-Leste's victimhood ran right up to the threshold of the independence it had voted for.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'1999 East Timorese crisis,' Wikipedia, summarizing the ~1,400 civilian death toll, the destruction of ~80% of Dili and the CTF finding of Indonesian responsibility",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/1999_East_Timorese_crisis",
+          "caveat": "Verified 2026-06-19: page carries 'at least 1,400 civilians' killed, the ~80% infrastructure-destruction figure, and the Commission of Truth and Friendship finding that Indonesia directed the militia violence. Supports toll.low."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Geoffrey Robinson, 'East Timor 1999: Crimes against Humanity' (report commissioned for the CAVR / OHCHR, 2006)",
+          "supports": "summary",
+          "url": "https://www.etan.org/etanpdf/2006/CAVR/12-Annexe1-East-Timor-1999-GeoffreyRobinson.pdf",
+          "caveat": "Verified 2026-06-19: real report by historian Geoffrey Robinson (UCLA), an annexe to the CAVR record, documenting the 1999 campaign as militia violence organised and directed by Indonesian forces. Hosted on ETAN (an East Timor solidarity network) but authored independently for the truth-commission process. Supports summary and tier."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Liquiçá Church massacre,' Wikipedia (April 1999) — up to ~100 killed at the church by militia working with Indonesian soldiers and police",
+          "supports": "tier",
+          "url": "https://en.wikipedia.org/wiki/Liqui%C3%A7%C3%A1_Church_massacre",
+          "caveat": "Verified 2026-06-19: page documents the 6 April 1999 attack on refugees sheltering in Liquiçá church, with witness estimates of 30–100 dead versus a police claim of 5, illustrating the set-piece massacres within the 1999 campaign. Supports tier."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "tls-4",
+      "country": "TLS",
+      "role": "perpetrator",
+      "title": "The 1975 UDT–FRETILIN civil war",
+      "era": "1975",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "A brief but bloody internal war between rival Timorese independence parties in which both sides' supporters carried out purges, prisoner killings and revenge murders by political affiliation — political killing of fellow Timorese, so POL, with the open-warfare element shading toward WAR.",
+      "agent": "Timorese partisans of the União Democrática Timorense (UDT) and the Frente Revolucionária de Timor-Leste Independente (FRETILIN)",
+      "toll": {
+        "display": "~1,500–3,000 killed (CAVR estimate)",
+        "disputed": true,
+        "low": 1500,
+        "high": 3000,
+        "unit": "deaths",
+        "note": "The CAVR ('Chega!') report estimates between roughly 1,500 and 3,000 people killed during the August–September 1975 civil war and its associated violence, with most deaths in the central mountains and perhaps fewer than 500 in Dili. Both UDT and FRETILIN forces carried out killings, including purges, beatings and the killing of prisoners; party leaders were reported to have lost control of their armed supporters, fuelling revenge killings amid a free flow of weapons. The range reflects genuine uncertainty in a short, chaotic conflict, not two opposing scholarly camps."
+      },
+      "received_lens": "contested",
+      "summary": "In August 1975, as Portuguese rule collapsed, the two main Timorese independence parties turned on each other: UDT mounted an armed move against FRETILIN, FRETILIN counter-attacked and seized most of the territory within weeks. Both sides' supporters carried out arrests, beatings, prisoner killings and revenge murders along party lines, and a truth commission later estimated 1,500 to 3,000 dead. The episode — Timorese killing Timorese on the eve of the Indonesian invasion — remains politically sensitive and is sometimes invoked to justify that invasion.",
+      "relevance": "Before Timor-Leste was a state and long before it was only a victim, its own factions killed each other — the small but real perpetrator entry that keeps the ledger honest.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'East Timorese Civil War,' Wikipedia, citing the CAVR ('Chega!') estimate of 1,500–3,000 killed and documenting killings by both UDT and FRETILIN forces",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/East_Timorese_civil_war",
+          "caveat": "Verified 2026-06-19: page attributes the 1,500–3,000 toll to the CAVR report, notes mass killings by both sides, prisoner deaths at FRETILIN headquarters, and that leaders 'lost control' of supporters. Supports toll.low and toll.high."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Indonesian invasion of East Timor,' Wikipedia, on the 1975 civil-war context and casualties preceding the December 1975 invasion",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Indonesian_invasion_of_East_Timor",
+          "caveat": "Verified 2026-06-19: corroborates the August–September 1975 UDT–FRETILIN war, FRETILIN's rapid takeover, and the disputed political use of the civil war to justify Indonesia's invasion. Supports summary."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "tls-5",
+      "country": "TLS",
+      "role": "perpetrator",
+      "title": "The 2006 security-force crisis: soldiers kill unarmed police",
+      "era": "2006",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "Amid a politicised split in the security forces, national soldiers shot unarmed national police after a ceasefire and government ministers illegally armed civilians, producing lethal state-on-state and state-armed violence — small-scale but deliberate killing by organs of the state, so POL.",
+      "agent": "The Timor-Leste Defence Force (F-FDTL) and the national police (PNTL), with weapons illegally distributed to civilians by named government ministers and the defence chief",
+      "toll": {
+        "display": "~37+ killed and ~150,000 displaced in the broader crisis; ~8–10 unarmed police shot dead by soldiers on 25 May",
+        "disputed": true,
+        "low": 8,
+        "high": 37,
+        "unit": "deaths",
+        "note": "The UN Independent Special Commission of Inquiry and contemporary reporting put around 37 people killed in the April–May 2006 fighting, with roughly 150,000 people displaced from Dili. On 25 May, F-FDTL soldiers shot 8–10 unarmed PNTL police officers (and wounded ~27 more) after a UN-brokered ceasefire. The low here is the documented count of police killed in that single incident; the high is the broader crisis toll. An unverified claim that loyalist soldiers killed ~60 civilians on 28 April was never substantiated and is excluded from the count. The UN commission found Interior Minister Rogério Lobato, Defence Minister Roque Rodrigues and defence chief Taur Matan Ruak had illegally transferred weapons to civilians and recommended prosecutions."
+      },
+      "received_lens": "contested",
+      "summary": "In 2006 a grievance among dismissed soldiers split Timor-Leste's young security forces along regional and political lines and tipped Dili into weeks of street fighting. On 25 May, soldiers of the national army shot dead a group of unarmed national police officers after a ceasefire, and a UN inquiry found that two government ministers and the defence chief had illegally handed weapons to civilians, deepening the violence. Around 37 people were killed and some 150,000 displaced before an Australian-led force intervened. It is the clearest case of lethal wrongdoing by the independent Timorese state — committed against its own.",
+      "relevance": "The perpetrator ledger of a state barely four years old turns out to point inward: Timorese institutions killing Timorese, a reminder that even a textbook victim nation owns its own small share of the other column.",
+      "sources": [
+        {
+          "kind": "primary",
+          "cite": "UN News, 'UN commission of inquiry issues report on violent crisis that shook Timor-Leste' (11 Oct 2006), reporting the Independent Special Commission of Inquiry for Timor-Leste",
+          "supports": "summary",
+          "url": "https://news.un.org/en/story/2006/10/196482-un-commission-inquiry-issues-report-violent-crisis-shook-timor-leste",
+          "caveat": "Verified 2026-06-19: UN reporting on the Independent Special Commission of Inquiry (Pinheiro, Holtsman, Zacklin) findings — the 25 May shooting of unarmed police by soldiers and the illegal arming of civilians by Lobato, Rodrigues and Taur Matan Ruak with a recommendation to prosecute. Supports summary and tier."
+        },
+        {
+          "kind": "reference",
+          "cite": "'2006 crisis in Timor-Leste,' Wikipedia, summarizing the ~37 dead, ~150,000 displaced, the 25 May killing of ~8–10 unarmed PNTL police by F-FDTL soldiers, and the UN inquiry's findings",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/2006_crisis_in_Timor-Leste",
+          "caveat": "Verified 2026-06-19: page carries the ~37 killed and ~150,000 displaced figures, the 25 May shooting of unarmed police (8–10 killed, ~27 wounded), and the unverified 60-civilian claim flagged as unsubstantiated. Supports toll.low and toll.high."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "VERIFIED"
+}

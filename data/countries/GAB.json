@@ -1,0 +1,108 @@
+{
+  "iso": "GAB",
+  "name": "Gabon",
+  "note": "Gabon's atrocity record is sharply asymmetric, and the entry reflects that honestly rather than balancing the two ledgers artificially. The VICTIM side is the heavy one: as a territory of French Equatorial Africa, Gabon was carved up around 1899-1900 into monopoly concessions whose companies extracted rubber, ivory and timber by forced labour under the indigénat code, while the same decades brought catastrophic demographic collapse from sleeping sickness, smallpox, the 1918-19 influenza and the disruption of the food economy. That is the central thing done TO the Gabonese. CRITICAL TOLL CAVEAT: the popular claim that 'about half the population died' during the colonial period is widely repeated but has NOT been reconstructed as a defensible, Gabon-specific death count, so the colonial event's toll is left null and held UNVERIFIED on the NUMBER only; the often-cited '10 million / half the population' figure belongs to the BELGIAN Congo Free State (ISO COD) and must NOT be transferred here, exactly as for neighbouring Congo-Brazzaville (COG). The PERPETRATOR ledger is genuinely thin: Gabon's post-independence state — Léon Mba, then Omar Bongo and his son Ali Bongo across more than half a century — ruled through patronage, co-optation and targeted repression (arbitrary arrest, torture, the unexplained 1990 death of opposition leader Joseph Rendjambé, periodic crackdowns), but there is no documented large-scale state massacre or campaign of mass killing on the scale seen elsewhere in the region. The single clearest, best-documented perpetrator event is the August-September 2016 post-election crackdown, when the Presidential (Republican) Guard bombed and stormed the opposition headquarters and security forces killed protesters; its toll is small and bitterly disputed (official ~3-5 vs the opposition's claim of 50-100). No perpetrator event has been invented to match the weight of the victim ledger.",
+  "events": [
+    {
+      "id": "gab-1",
+      "country": "GAB",
+      "role": "victim",
+      "title": "Concessionary-company forced labour and colonial demographic collapse",
+      "era": "c.1899-1930s",
+      "era_band": "colonial",
+      "tier": "STR",
+      "tier_reasoning": "Death was dominated by disease (sleeping sickness, smallpox, the 1918-19 influenza) compounded by forced-labour conditions, hunger and social disruption rather than a campaign to destroy a defined group, so STR; the intent was extraction, the dying diffuse, and no defensible aggregate count survives.",
+      "agent": "French concessionary companies operating in Gabon under French Equatorial Africa, backed by the French colonial administration which imposed head taxes, labour requisition and the indigénat penal code",
+      "toll": {
+        "low": null,
+        "high": null,
+        "unit": "deaths",
+        "display": "mass mortality; no defensible Gabon-specific death count exists",
+        "disputed": true,
+        "note": "QUARANTINE (death metric): low/high are null and the event is held UNVERIFIED on the NUMBER only — the atrocity pattern (forced rubber/ivory/timber labour, hostage-taking, beatings, requisition, and epidemic collapse) is well attested, but no rigorous aggregate death toll has ever been reconstructed for Gabon specifically. The frequently repeated claim that 'roughly half the population died' over the colonial period is a popular summary, not a sourced count, and is NOT used here as a number. IMPORTANT: the figure of about 10 million dead, or 'half the population', refers to the BELGIAN Congo Free State (ISO COD) and must NOT be transferred to Gabon, just as it must not be borrowed for Congo-Brazzaville (COG). Documented mechanisms of death include sleeping sickness and smallpox epidemics, the 1918-19 influenza, malnutrition from the collapse of subsistence farming, and abuse, exhaustion and killings in logging and rubber camps."
+      },
+      "received_lens": "suppressed",
+      "summary": "From around 1899 France divided its Gabon territory into vast concessions and let private companies extract rubber, ivory and later okoumé timber by force, compelling Africans through head taxes, labour requisition and the indigénat code that let administrators punish without trial. Company agents and officials seized labour, broke the food economy and ruled remote camps by violence. Across the same decades sleeping sickness, smallpox and the 1918-19 influenza tore through populations already weakened by coercion and hunger, and whole districts were depopulated. The dying was on a vast scale, but no reliable count was kept and it has never been reconstructed.",
+      "relevance": "The foundational violence done to the people of Gabon — a French concessionary forced-labour system and a colonial-era demographic collapse — long overshadowed by the better-known horrors of the Belgian Congo, and seldom counted because the colonial state never tried to.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Encyclopaedia Britannica, 'Gabon — History' — French policy from 1898 to 1914 of developing the economy through monopolistic concessionary companies devastated settlement, agricultural production and trade; head taxes, labour taxes and forced labour provoked resistance",
+          "supports": "summary",
+          "url": "https://www.britannica.com/place/Gabon/History",
+          "caveat": null
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Christopher J. Gray & François Ngolet, 'Lambaréné, Okoumé and the Transformation of Labor along the Middle Ogooué (Gabon), 1870-1945', Journal of African History (Cambridge University Press) — the coercive transformation of labour for resource extraction (rubber, then okoumé timber) along the Ogooué under French rule",
+          "supports": "summary",
+          "url": "https://www.cambridge.org/core/journals/journal-of-african-history/article/abs/lambarene-okoume-and-the-transformation-of-labor-along-the-middle-ogooue-gabon-18701945/661A45F1338BCBA4B8804DCD4C42CE23",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "Africa Center for Strategic Studies, 'Lessons from the 1918-1919 Spanish Flu Pandemic in Africa' — the 1918-19 influenza pandemic was acutely lethal across colonial Africa, in places infecting up to 90% of a community with mortality rates around 15%, providing the regional epidemic context for the demographic collapse in French Equatorial Africa",
+          "supports": "summary",
+          "url": "https://africacenter.org/spotlight/lessons-1918-1919-spanish-flu-africa/",
+          "caveat": "Used for the regional pandemic mortality context, not for a Gabon-specific death count, which it does not give."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "gab-2",
+      "country": "GAB",
+      "role": "perpetrator",
+      "title": "The 2016 post-election crackdown",
+      "era": "2016",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "The state's Presidential (Republican) Guard bombed and stormed the opposition headquarters and security forces killed protesters and arrested hundreds to suppress dissent over a disputed election — deliberate state repression and lethal violence against political opponents, so POL, not a campaign to destroy a defined group.",
+      "agent": "the Gabonese state under President Ali Bongo Ondimba: the Presidential (Republican) Guard and police, who bombed and stormed the campaign headquarters of opposition candidate Jean Ping",
+      "toll": {
+        "low": 3,
+        "high": 100,
+        "unit": "deaths",
+        "display": "official ~3-5; opposition (Jean Ping) claimed 50-100 killed",
+        "disputed": true,
+        "note": "Sharply contested. Reuters reported at least 3 killed (with more than 1,000 arrested) and Wikipedia's account gives about 5 deaths; the U.S. State Department and other reporting cite figures in this low single-digit range. Opposition candidate Jean Ping told FRANCE 24 that between 50 and 100 people had died, and said many others had disappeared after the Presidential Guard's overnight assault on his headquarters. The low anchor (3) is the conservative official/agency figure; the high anchor (100) is the top of Ping's claimed range. Around 800-1,100 people were arrested. No independent forensic count was produced and the government dismissed the opposition's toll."
+      },
+      "received_lens": "denied",
+      "summary": "After the 27 August 2016 presidential election, results announced on 31 August gave incumbent Ali Bongo Ondimba a narrow win over opposition candidate Jean Ping, who also claimed victory. As protests erupted, Gabon's Presidential (Republican) Guard surrounded Ping's campaign headquarters overnight, bombarded it from a helicopter and then stormed it on the ground, killing people inside, while security forces killed protesters elsewhere in Libreville and arrested some 800 to 1,100. The internet was cut. The government put the dead at a handful; Ping said between 50 and 100 had been killed.",
+      "relevance": "Gabon as perpetrator against its own citizens: the clearest modern entry in an otherwise thin perpetrator ledger, a dynastic state using military force on the opposition and the streets to hold power after a contested vote.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "BBC News, 'Gabon presidential guard bombed Jean Ping's party HQ' (1 Sept 2016) — the Republican/Presidential Guard surrounded and bombed the opposition headquarters of Jean Ping, killing people inside; clashes after Ali Bongo's disputed re-election",
+          "supports": "summary",
+          "url": "https://www.bbc.com/news/world-africa-37243309",
+          "caveat": null
+        },
+        {
+          "kind": "press",
+          "cite": "FRANCE 24, ''Between 50 and 100 killed' in Gabon election violence, presidential challenger tells FRANCE 24' (6 Sept 2016) — opposition candidate Jean Ping's estimate of 50-100 dead in the post-election violence, disputed by the government",
+          "supports": "toll.high",
+          "url": "https://www.france24.com/en/20160906-deaths-gabon-presidential-election-violence-ping-bongo",
+          "caveat": "The high figure is the opposition leader's own claim, not an independently verified count; included as the contested upper bound."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, '2016 Gabonese protests' — about 5 deaths and roughly 1,100 arrested after the disputed 27 August 2016 election; Reuters cited at least 3 killed and more than 1,000 arrested; the Presidential Guard bombed Ping's headquarters by helicopter",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/2016_Gabonese_protests",
+          "caveat": "Tertiary aggregator; the low official figures it relays (3-5 dead) sit against the opposition's far higher claim, and no independent forensic count exists."
+        },
+        {
+          "kind": "reference",
+          "cite": "U.S. Department of State, 2016 Country Reports on Human Rights Practices — Gabon — security forces' use of force and mass arrests during the post-election unrest of August-September 2016, including the assault on the opposition headquarters",
+          "supports": "summary",
+          "url": "https://www.state.gov/reports/2016-country-reports-on-human-rights-practices/gabon",
+          "caveat": "A foreign government's human-rights report; used for the documented pattern of state force and arrests, not for a precise toll."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

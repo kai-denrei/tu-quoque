@@ -1,0 +1,165 @@
+{
+  "iso": "GNB",
+  "name": "Guinea-Bissau",
+  "note": "Guinea-Bissau's documented atrocity record is small in absolute numbers but unusually clean on the dual lens, because the same liberation movement (the PAIGC) sits on both sides of it. The victim ledger is the colonial one: the 1959 Pidjiguiti dock massacre by the Portuguese secret police, and the thirteen-year war of independence (1963–1974) in which Portuguese counter-insurgency — bombing, napalm and defoliants, village raids — killed civilians and drove perhaps a fifth of the population into exile. The perpetrator ledger is what the victorious PAIGC then did: after the 1974 ceasefire it summarily executed thousands of Guinean soldiers who had fought for Portugal (the figure most cited, 7,447, traces to a real scholarly source — Munslow 1981 — but is a single contested count with no independent census; see the event note), and over the following decades the PAIGC state under João 'Nino' Vieira executed political rivals (most prominently in 1986) and, during the 1998–99 civil war, shelled its own capital. Two honest caveats run through the file: (1) the post-independence execution figure and the civil-war toll are both poorly counted and disputed, so they are bounded loosely and flagged; (2) the 1998–99 war was as much done TO Guinea-Bissau's people (by intervening Senegalese and Guinean troops as well as both domestic factions) as it was done BY any one side — that war is therefore primarily logged as perpetrator-conduct by the government, with the shared culpability stated plainly.",
+  "events": [
+    {
+      "id": "gnb-1",
+      "country": "GNB",
+      "role": "victim",
+      "title": "The Pidjiguiti dock massacre",
+      "era": "1959",
+      "era_band": "colonial",
+      "tier": "POL",
+      "tier_reasoning": "Colonial police opening fire on striking workers to break a labour action — lethal political repression of civilians, not warfare or an attempt to destroy a group, so POL.",
+      "agent": "Portuguese secret police (PIDE) and colonial authorities at the Port of Bissau",
+      "toll": {
+        "display": "~25–50+ deaths",
+        "disputed": true,
+        "low": 25,
+        "high": 50,
+        "unit": "deaths",
+        "note": "Accounts of the 3 August 1959 shooting range from about 25 killed at the scene to 50 or more, with many wounded; no independent count was ever made under the colonial state, so the figures are estimates and the high end is open-ended ('50+'). The event's significance is political rather than numerical — it is treated in Guinea-Bissau as the spark of the independence war."
+      },
+      "received_lens": "memorial",
+      "summary": "On 3 August 1959 dockworkers at the Pidjiguiti quay in Bissau struck for higher wages; the manager summoned the Portuguese secret police (PIDE), who broke through the gate and opened fire on the strikers, killing tens of them within minutes. The killing pushed the PAIGC to abandon non-violent agitation and prepare for armed struggle.",
+      "relevance": "Pidjiguiti is the founding wound Guinea-Bissau remembers — colonial violence against its own people that the same movement, the PAIGC, would later answer with a liberation war and, after victory, with executions of its own.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Pidjiguiti massacre' — PIDE opened fire (and threw grenades) on striking dockworkers on 3 Aug 1959; deaths given as 25–50+",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Pidjiguiti_massacre",
+          "caveat": "Tertiary aggregator; the wide 25–50+ range reflects the absence of any independent count under the colonial regime."
+        },
+        {
+          "kind": "press",
+          "cite": "Face2Face Africa, 'The little-talked about massacre that pushed Guinea-Bissau's fight for independence' — strike at the docks, PIDE firing on the crowd, killings that radicalised the PAIGC",
+          "supports": "summary",
+          "url": "https://face2faceafrica.com/article/the-little-talked-about-massacre-that-pushed-guinea-bissaus-fight-for-independence",
+          "caveat": "Popular history outlet; used for narrative corroboration of the event and its political consequences, not for a precise toll. AUDIT: WebFetch to this URL returns HTTP 403 (bot-block), but the article's existence, title and content (Pidjiguiti strike, PIDE firing, PAIGC radicalisation) are confirmed via search index; not a dead/fabricated link."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "gnb-2",
+      "country": "GNB",
+      "role": "victim",
+      "title": "The war of independence and Portuguese counter-insurgency",
+      "era": "1963–1974",
+      "era_band": "colonial",
+      "tier": "WAR",
+      "tier_reasoning": "Eleven years of colonial counter-insurgency — aerial bombing, napalm and defoliants, raids on villages — that killed combatants and civilians and displaced a large share of the population, but was not a campaign to destroy a defined group, so WAR.",
+      "agent": "Portuguese armed forces and air force (including African commando units in Portuguese service)",
+      "toll": {
+        "display": "~10,000s killed; ~106,000 displaced",
+        "disputed": true,
+        "low": 5000,
+        "high": 13000,
+        "unit": "deaths",
+        "note": "The low/high bound the war's directly attributed dead from one common tabulation: ~2,069 Portuguese troops, ~6,000 PAIGC fighters and ~5,000 civilians killed (≈13,000 total at the high end; the ~5,000 civilian figure alone sets a rough floor for the toll done specifically to Guinea-Bissau's people). Bombing campaigns in 1965 and 1967 displaced about 106,000 Guineans — nearly a fifth of the territory — into Guinea-Conakry and Senegal, and from around 1970 Portugal used napalm and defoliants. None of these figures rests on a reliable census, so all are estimates."
+      },
+      "received_lens": "memorial",
+      "summary": "From 1963 to 1974 the PAIGC fought a guerrilla war against Portuguese rule; Portugal answered with aerial bombing, napalm and defoliants, and helicopter-borne raids on villages it judged to support the insurgents. The fighting and bombing killed thousands and drove roughly 106,000 people into neighbouring countries before the 1974 Carnation Revolution in Lisbon ended the war.",
+      "relevance": "The war Guinea-Bissau celebrates as liberation was also a decade of bombing and displacement inflicted on its civilians — and its victors, the PAIGC, then turned on Guineans who had fought for the other side.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Guinea-Bissau War of Independence' — casualties ~2,069 Portuguese, ~6,000 PAIGC, ~5,000 civilians; 1965/1967 bombing displaced ~106,000 (~20% of the population); use of napalm and defoliants from ~1970",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Guinea-Bissau_War_of_Independence",
+          "caveat": "Tertiary aggregator; the casualty tabulation and displacement figure are estimates with no underlying census."
+        },
+        {
+          "kind": "reference",
+          "cite": "Encyclopaedia Britannica / GlobalSecurity.org, 'Guinea-Bissau War of Independence' — colonial counter-insurgency, Portuguese bombing and the flight of large numbers of civilians across the borders",
+          "supports": "summary",
+          "url": "https://www.globalsecurity.org/military/world/war/guineabissau.htm",
+          "caveat": "Reference/defence-analysis source used for the conflict outline rather than for a precise toll. AUDIT: source verified — confirms Portuguese bombing/raids, ~35,000 troops, and large-scale civilian resettlement/displacement (it cites ~150,000 / 30% resettled, a figure in the same order as the ~106,000 displacement on the Wikipedia source)."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "gnb-3",
+      "country": "GNB",
+      "role": "perpetrator",
+      "title": "PAIGC executions of African soldiers who served Portugal",
+      "era": "1974–1975",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "The victorious party's mass summary execution of defeated enemy collaborators after the ceasefire — political killing of a perceived enemy category, classed POL.",
+      "agent": "PAIGC (African Party for the Independence of Guinea and Cape Verde), the new ruling movement",
+      "toll": {
+        "display": "thousands killed (figure of ~7,447 widely cited but contested)",
+        "disputed": true,
+        "low": null,
+        "high": 7447,
+        "unit": "deaths",
+        "note": "The most-repeated figure is 7,447 Guinean soldiers who had served in Portuguese commando, security and militia units and, having declined to join the PAIGC, were summarily executed after Portugal's 1974 withdrawal. AUDIT: the source chain is verifiable — Wikipedia and reference aggregators (GlobalSecurity.org, EBSCO research starter, Military-History wiki) all attribute the figure to Lloyd-Jones and to Barry Munslow, 'The 1980 Coup in Guinea Bissau', Review of African Political Economy No. 21 (May–Sep 1981), pp. 109–113, which is a real, citable scholarly work (JSTOR 3998113; T&F doi 10.1080/03056248108703470). The figure is therefore not 'unsourced', but it remains CONTESTED: it rests on a single scholarly count with no independent census or body recovery, so it is carried only as a high-end claim and the low end is left null. What is firmly attested independently is that mass executions did occur — the PAIGC itself acknowledged in its newspaper Nó Pintcha (Nov 1980) that many Guinean soldiers had been killed and buried in unmarked mass graves in the woods of Cumerá, Portogole and Mansabá, with a known massacre at Bissorã. Status UNVERIFIED because the magnitude is single-sourced and disputed (no source for a low bound) even though the event itself is firmly real."
+      },
+      "received_lens": "denied",
+      "summary": "After Portugal agreed in 1974 to withdraw and recognise an independent Guinea-Bissau, the victorious PAIGC summarily executed large numbers of Guinean men who had fought for the Portuguese army as commandos, militia and security troops and who refused to join the new ruling party. The dead were buried in unmarked mass graves; the PAIGC only acknowledged the killings, in its own newspaper, six years later.",
+      "relevance": "The same movement that suffered Portuguese bombing and is celebrated for liberation became, at the moment of victory, the perpetrator of a mass execution of its own countrymen — Guinea-Bissau as victim and killer in a single year.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Guinea-Bissau War of Independence' (Aftermath / Casualties) — ~7,447 African ex-Portuguese soldiers executed by the PAIGC after the war; Nó Pintcha (Nov 1980) acknowledgment of mass graves at Cumerá, Portogole, Mansabá; massacre at Bissorã. Footnotes cite Lloyd-Jones and Munslow (1981)",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Guinea-Bissau_War_of_Independence",
+          "caveat": "Tertiary aggregator; the precise 7,447 figure is repeated from a source chain attributed to Lloyd-Jones / Munslow 1981. AUDIT: the underlying Munslow article is real and citable (see scholarly source below), so the chain is verifiable — but the figure is a single count with no independent census, so it remains a contested high-end claim, not a settled toll."
+        },
+        {
+          "kind": "scholarly",
+          "cite": "Barry Munslow, 'The 1980 Coup in Guinea Bissau', Review of African Political Economy, No. 21 (May–Sep 1981), pp. 109–113 — the scholarly work the 7,447 post-independence execution figure is attributed to; documents the post-war killings of ex-Portuguese Guinean soldiers",
+          "supports": "toll.high",
+          "url": "https://www.jstor.org/stable/3998113",
+          "caveat": "AUDIT-ADDED: existence and bibliographic details independently verified (JSTOR 3998113; T&F doi 10.1080/03056248108703470; ROAPE vol. 8 no. 21). The figure rests on this single count plus Lloyd-Jones; no independent census or body recovery exists, so the magnitude stays contested and the low end null."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "gnb-4",
+      "country": "GNB",
+      "role": "perpetrator",
+      "title": "Vieira-era political executions and the 1998–99 civil war",
+      "era": "1986–1999",
+      "era_band": "contemporary",
+      "tier": "POL",
+      "tier_reasoning": "State killing of political rivals (the 1986 treason executions) plus a government's lethal conduct in a civil war it provoked — political repression and armed-conflict atrocity by the state, classed POL; the war strand is itself partly an atrocity done TO the country, as the note explains.",
+      "agent": "The PAIGC state under President João 'Nino' Vieira, backed in 1998–99 by Senegalese and Guinean intervention troops",
+      "toll": {
+        "display": "6 executed (1986); ~655 to 'thousands' killed in the 1998–99 war",
+        "disputed": true,
+        "low": 655,
+        "high": 2000,
+        "unit": "deaths",
+        "note": "Two strands. (1) In 1986 the Vieira regime executed Vice-President Paulo Correia and five others for an alleged coup plot after a long trial, with several more dying in detention — a small, well-attested political toll. (2) The 1998–99 civil war, triggered when Vieira tried to crush a military mutiny, is loosely counted: at least ~655 killed in the fighting per one tabulation, with other sources saying 'thousands', and roughly 350,000 people displaced (about 250,000 fleeing Bissau alone) amid sustained artillery bombardment of the capital. The low/high here bound the civil-war fighting deaths only; the displacement and the indeterminacy of civilian deaths from shelling mean the true toll is unknown. Status UNVERIFIED for the war toll."
+      },
+      "received_lens": "contested",
+      "summary": "President João 'Nino' Vieira's PAIGC government executed Vice-President Paulo Correia and five others for an alleged 1986 coup plot, and in 1998–99 — after Vieira sacked and then fought a mutinous army chief — government forces, joined by Senegalese and Guinean troops, shelled Bissau during a year of civil war that killed hundreds to thousands and displaced some 350,000 people.",
+      "relevance": "Guinea-Bissau's own state turned its violence inward — executing rivals and bombarding its capital — making the country perpetrator against its own people, even as foreign intervention meant much of the 1998–99 suffering was also done TO it.",
+      "sources": [
+        {
+          "kind": "press",
+          "cite": "ExecutedToday.com, '1986: Vice-President Paulo Correia and five others' — Correia and five others executed in July 1986 for an alleged coup against Vieira after a lengthy treason trial",
+          "supports": "summary",
+          "url": "http://www.executedtoday.com/2010/07/21/1986-vice-president-paulo-correia-guinea-bissau/",
+          "caveat": "Popular-history site; used for the 1986 executions, corroborated by the Wikipedia biography of Paulo Correia."
+        },
+        {
+          "kind": "reference",
+          "cite": "Wikipedia, 'Guinea-Bissau Civil War' — 7 June 1998 to 10 May 1999; ≥655 killed (other sources 'thousands'); ~350,000 displaced (≈250,000 fleeing Bissau); Senegalese (~1,300) and Guinean (~400) troops backing Vieira; sustained artillery bombardment of the capital",
+          "supports": "toll.high",
+          "url": "https://en.wikipedia.org/wiki/Guinea-Bissau_Civil_War",
+          "caveat": "Tertiary aggregator; the death toll is unsettled (≥655 vs 'thousands') and civilian deaths from the bombardment were never counted."
+        }
+      ],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}

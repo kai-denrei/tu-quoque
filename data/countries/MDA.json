@@ -1,0 +1,179 @@
+{
+  "iso": "MDA",
+  "name": "Moldova",
+  "note": "Moldova's dual ledger is deeply asymmetric, and honestly so. The land between the Prut and the Dniester - Bessarabia, today's Republic of Moldova - spent most of the modern era ruled by others: the Ottomans, the Russian Empire, interwar Romania, and the Soviet Union. Its people were ground between those powers as victims of three distinct catastrophes within a single decade: the Holocaust of Bessarabian Jewry (committed by the Romanian state, 1941), the Soviet mass deportations (NKVD/MGB, 1941-1951), and the Soviet-engineered famine of 1946-1947. The perpetrator side is genuinely thin because an independent Moldovan state has existed only since 1991. The one event in which Moldova's own state and armed forces were a belligerent is the 1992 Transnistria War - a two-sided conflict in which human-rights monitors documented abuses by both Moldovan and Transnistrian/Russian forces. That war is ledgered as the perpetrator entry not to manufacture balance but because it is the only episode where Moldovan state agency is documented; the asymmetry is a fact of Moldova's short statehood, not an absence of scrutiny. The 1907 peasant revolt and 1941 Holocaust crimes committed ON Bessarabian soil belong to the Russian Empire and Romania respectively, and are credited to those states' ledgers, not Moldova's.",
+  "events": [
+    {
+      "id": "mda-1",
+      "country": "MDA",
+      "role": "victim",
+      "title": "The Holocaust of Bessarabian Jewry",
+      "era": "1941-1944",
+      "era_band": "modern",
+      "tier": "EXT",
+      "tier_reasoning": "Deliberate, targeted destruction of a group - mass shootings of Jews followed by deportation into conditions engineered to kill - is genocide by intent.",
+      "agent": "Ion Antonescu's Romanian army, gendarmerie, and police, with German Einsatzgruppe D and some local collaborators",
+      "toll": {
+        "low": 45000,
+        "high": 120000,
+        "unit": "deaths",
+        "display": "45,000-60,000 killed in Bessarabia/Bukovina in 1941; up to ~120,000 more died in the Transnistria deportation",
+        "disputed": true,
+        "note": "The 2004 Elie Wiesel International Commission found that 45,000-60,000 Jews were murdered in Bessarabia and Bukovina in the summer of 1941 by Romanian forces, gendarmerie, and locals. A further 105,000-120,000 Romanian Jews, the majority of them Bessarabian and Bukovinian deportees, died in the Transnistria ghettos and camps from murder, starvation, cold, and typhus by 1944. The low figure here is the Bessarabia/Bukovina 1941 killings; the high reflects the combined toll including the deportation deaths. Bessarabian and Transnistrian counts overlap in the literature, hence the wide range."
+      },
+      "received_lens": "memorial",
+      "summary": "When Romania and Germany invaded the USSR in 1941, Romanian forces reconquered Bessarabia and turned on its Jews: tens of thousands were shot in the summer of 1941, and the survivors were force-marched and deported into Transnistria, where most died of starvation, cold, and disease. Fewer than a thousand Jews are thought to have survived the Holocaust inside Bessarabia itself. Post-Soviet Moldova has officially acknowledged and commemorated the slaughter.",
+      "relevance": "Moldova's Jews were among the first communities the Holocaust consumed in 1941 - victims of a fellow small nation's state, Romania, not of Germany alone.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "International Commission on the Holocaust in Romania (Elie Wiesel Commission), Final Report, 2004 (45,000-60,000 killed in Bessarabia/Bukovina 1941)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Wiesel_Commission",
+          "caveat": "Audit 2026-06-19: Commission and report confirmed to exist; report's 45,000-60,000 Bessarabia/Bukovina 1941 figure and overall 280,000-380,000 total independently confirmed."
+        },
+        {
+          "kind": "reference",
+          "cite": "Yad Vashem, 'Murder of the Jews of Romania' (105,000-120,000 deportees died in Transnistria)",
+          "supports": "toll.high",
+          "url": "https://www.yadvashem.org/holocaust/about/final-solution-beginning/romania.html",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "United States Holocaust Memorial Museum, Holocaust Encyclopedia, 'Transnistria Governorate'",
+          "supports": "summary",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/transnistria-governorate",
+          "caveat": "Audit 2026-06-19: USHMM article confirmed live; supports the deportation/death-by-deprivation narrative."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "mda-2",
+      "country": "MDA",
+      "role": "victim",
+      "title": "Soviet Mass Deportations from the Moldavian SSR",
+      "era": "1941-1951",
+      "era_band": "modern",
+      "tier": "POL",
+      "tier_reasoning": "State deportation of designated social and political categories into exile and forced labor, killing many through deprivation - political mass repression of a civilian population.",
+      "agent": "The Soviet state - the NKVD (1941) and the MGB/Ministry of State Security under General I. L. Mordovets (1949)",
+      "toll": {
+        "low": 22648,
+        "high": null,
+        "unit": "deaths",
+        "display": "~22,648 deported in June 1941 and ~35,796 in 1949; total deaths in exile uncertain",
+        "disputed": true,
+        "note": "These are deportation counts, not death counts. The NKVD deported about 22,648 people from the Moldavian SSR on 12-13 June 1941; Operation South ('Iug') deported about 35,796 in July 1949 (including ~11,899 children); a third wave followed in 1951. Across all of Soviet rule, deportee totals are sometimes cited as high as ~half a million when broader annexed-territory and 'planned transfer' figures are included, but that figure is contested and mixes categories. Mortality in the Siberian and Kazakh exile sites was high from starvation, disease, and exposure, but a defensible aggregate death toll could not be sourced, so toll.high is null and the event is UNVERIFIED on deaths. Audit quarantine 2026-06-19: all cited sources confirmed real and on-topic (Securitas Imperii / Igor Casu article exists; June 1941 ~22,648 MSSR-specific count and 1949 Operation South 35,796/11,899 children figures independently triple-confirmed), but the event remains UNVERIFIED because the toll is a deportation count with no sourced death figure - the unit is 'deaths' yet only displacements are documented."
+      },
+      "received_lens": "memorial",
+      "summary": "After the Soviet Union annexed Bessarabia in 1940 and reoccupied it in 1944, it deported tens of thousands of Moldavians to Siberia and the Kazakh steppe in successive waves - the NKVD operation of June 1941, the 1949 'Operation South' aimed at breaking resistance to collectivization, and a further sweep in 1951. Families labeled kulaks, nationalists, or 'unreliable' were loaded onto cattle wagons, including roughly twelve thousand children in 1949 alone. Many died in exile of hunger, cold, and disease. Independent Moldova marks the deportations with an annual day of remembrance.",
+      "relevance": "The same decade that saw Moldova's Jews murdered by Romania saw its general population deported by the Soviet state - two occupiers, two atrocities, one battered land.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Securitas Imperii Journal, 'The Mass Deportation from Bessarabia/Moldavian SSR in Mid-June 1941' (June 1941 NKVD deportation)",
+          "supports": "summary",
+          "url": "https://securitas-imperii-journal.com/2021/02/23/the-mass-deportation-from-bessarabia-moldavian-ssr-in-mid%E2%80%91june-1941-enhancing-security-a-social-engineering-operation-or-something-else/?lang=en",
+          "caveat": null
+        },
+        {
+          "kind": "reference",
+          "cite": "'1949 Soviet deportations from the Moldavian SSR' / Operation South (35,796 deported, including 11,899 children, by the MGB under Mordovets)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/1949_Soviet_deportations_from_Moldavian_SSR",
+          "caveat": "Encyclopedia summary of the figures published by historian Igor Casu from the former KGB archive of the Moldavian SSR; deportation counts, not death counts. Audit 2026-06-19: the 35,796 / 11,899-children / Mordovets figures are independently corroborated across multiple sources; these are displacement counts, so they cannot satisfy the event's 'deaths' unit - this is why the event stays UNVERIFIED."
+        },
+        {
+          "kind": "press",
+          "cite": "Balkan Insight, 'Victims of Stalin's Deportations Commemorated in Moldova', 2018",
+          "supports": "summary",
+          "url": "https://balkaninsight.com/2018/07/06/victims-of-stalin-s-deportations-commemorated-in-moldova-07-06-2018/",
+          "caveat": "Press commemoration coverage; used for context and the memorial reception, not for a precise death toll."
+        }
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "id": "mda-3",
+      "country": "MDA",
+      "role": "victim",
+      "title": "The Soviet Moldavian Famine of 1946-1947",
+      "era": "1946-1947",
+      "era_band": "modern",
+      "tier": "STR",
+      "tier_reasoning": "Mass death driven by drought compounded by ruinous state grain requisitioning - structural and policy-driven famine rather than a deliberate attempt to destroy a defined group.",
+      "agent": "The Soviet state, whose grain-procurement quotas stripped peasant households during a drought",
+      "toll": {
+        "low": 100000,
+        "high": 200000,
+        "unit": "deaths",
+        "display": "~100,000-200,000 dead (often cited ~123,000-200,000)",
+        "disputed": true,
+        "note": "A severe 1945-1946 drought slashed harvests, but historians hold that Soviet grain requisitioning - confiscation 'at any price to human life' - turned dearth into mass starvation. Cormac O Grada (2019) estimates about 100,000 deaths in the Moldavian SSR; Moldovan historians and commemorations cite figures from at least ~123,000 (about 5% of the population) up to ~200,000 (about 10%), and note archival evidence that official counts undercounted. The excess-death rate was several times higher than in Ukraine or Russia in the same famine."
+      },
+      "received_lens": "memorial",
+      "summary": "In the first post-war years, drought wrecked Moldavia's harvest - but the Soviet state kept extracting punishing grain quotas from starving villages, in many cases leaving peasants nothing to eat. The result was a famine that killed somewhere between roughly one hundred and two hundred thousand people, proportionally far worse than the same famine elsewhere in the USSR, with documented cases of starvation deaths across the countryside. Moldova now commemorates it alongside the deportations as a man-made catastrophe.",
+      "relevance": "Moldova's deadliest peacetime catastrophe was inflicted by the policies of the state that ruled it, a famine sharpened from drought into mass death by grain seizure.",
+      "sources": [
+        {
+          "kind": "scholarly",
+          "cite": "Cormac O Grada, scholarship on the Soviet famine of 1946-1947 (~100,000 deaths in the Moldavian SSR), via 'Soviet famine of 1946-1947'",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Soviet_famine_of_1946%E2%80%931947",
+          "caveat": "Encyclopedia entry attributing the ~100,000 Moldavian figure to O Grada (2019); used for the lower bound. Audit 2026-06-19: confirmed live; the entry attributes ~100,000-115,000 MSSR deaths to O Grada and identifies grain confiscation 'at any price to human life' as the primary driver over drought - which corroborates the STR (policy/structural) tier rather than EXT."
+        },
+        {
+          "kind": "press",
+          "cite": "IPN (Info-Prim Neo), 'The famine of 1946-1947. History-making events' (Moldovan historians' figures up to ~200,000 / ~10% of population)",
+          "supports": "toll.high",
+          "url": "https://ipn.md/en/the-famine-of-1946-1947-history-making-events/",
+          "caveat": "Moldovan press/commemorative source; the upper figure reflects national memory and archival reassessment and is contested against lower scholarly counts. Audit 2026-06-19: article confirmed to exist and to state 'almost 200,000' died (with archival ~123,000 / ~5% and village-level ~10% loss figures); bias as a national-memory source is disclosed here."
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "mda-4",
+      "country": "MDA",
+      "role": "perpetrator",
+      "title": "Moldovan Forces in the Transnistria War",
+      "era": "1992",
+      "era_band": "contemporary",
+      "tier": "WAR",
+      "tier_reasoning": "Wartime conduct - civilian deaths and documented abuses during urban combat in a short armed conflict - rather than a campaign aimed at destroying a group.",
+      "agent": "The Moldovan armed forces and police (alongside Transnistrian separatists and Russia's 14th Army on the other side)",
+      "toll": {
+        "low": 279,
+        "high": 324,
+        "unit": "deaths",
+        "display": "279-324 Moldovan combatants killed; ~316-637 civilians killed on both sides; ~1,100 total dead",
+        "disputed": true,
+        "note": "This is a two-sided war, not a one-sided atrocity, and the toll is split across belligerents. Total deaths are estimated near 1,100-1,132, including roughly 316-637 civilians. Moldovan forces lost about 279-324 killed; Transnistrian/Russian forces about 364-913. The figures here record Moldovan military losses and the shared civilian toll; responsibility for individual civilian deaths is contested between the sides. Human-rights monitors documented abuses by Moldovan forces (firing on houses and civilians in Bender, beating prisoners) as well as by the Transnistrian side."
+      },
+      "received_lens": "contested",
+      "summary": "When the Moldavian SSR moved toward independence, the Russian-speaking left bank of the Dniester broke away as Transnistria, and in 1992 the two fought a short war that peaked in the city of Bender. Moldovan troops and police shelled and stormed the densely populated town; the Memorial human-rights center documented Moldovan forces firing heavy machine guns at houses and civilians and beating captured prisoners - abuses also committed by the Transnistrian side, which was backed by Russia's 14th Army. Hundreds of civilians died and tens of thousands were displaced before a Russian-brokered ceasefire froze the conflict.",
+      "relevance": "The only war fought by Moldova's own state shows even a long-victimized people, once armed and at war, capable of killing civilians - the dual lens turned on the newest state on this list.",
+      "sources": [
+        {
+          "kind": "reference",
+          "cite": "'Transnistria War', Wikipedia (casualty breakdown: ~279-324 Moldovan killed; ~316-637 civilians; ~1,100 total)",
+          "supports": "toll.low",
+          "url": "https://en.wikipedia.org/wiki/Transnistria_War",
+          "caveat": "Tertiary source compiling competing official and scholarly casualty estimates that diverge between the warring sides. Audit 2026-06-19: confirmed live; casualty breakdown matches exactly (279-324 Moldovan killed, 364-913 Transnistrian/Russian, 316-637 civilians) - both the low and high ends of the contested toll are sourced here."
+        },
+        {
+          "kind": "reference",
+          "cite": "'Battle of Bender (1992)', Wikipedia, citing the Human Rights Center 'Memorial' report on conduct in Bender",
+          "supports": "summary",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Bender_(1992)",
+          "caveat": "Encyclopedia summary of a Russian human-rights NGO report; documents allegations of abuses by both Moldovan and Transnistrian forces, independently unverified. Audit 2026-06-19: the Human Rights Center 'Memorial' field investigation (2-30 July 1992) is real and its finding that Moldovan troops fired heavy machine guns at houses/courtyards/cars and civilians in Bender is confirmed across the Bender and Transnistria War articles; crucially Memorial concluded there was NO systematic extermination of civilians (criminal indiscriminate shelling, not genocide), which supports the WAR tier over any group-destruction tier."
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "modern": null,
+  "status": "UNVERIFIED"
+}
