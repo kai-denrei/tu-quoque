@@ -7,6 +7,15 @@ let TIERS = null;
 const esc = (s) => String(s ?? '').replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
 const fmt = (n) => (n == null ? null : Number(n).toLocaleString('en-US'));
 
+// country note → one sentence + a "more"/"−" toggle (native <details>) so it doesn't eat the screen
+function noteHTML(note) {
+  if (!note) return '';
+  const t = note.trim();
+  const m = t.match(/^(.*?[.!?])\s+(.+)$/s);
+  if (!m || !m[2].trim()) return `<p class="note">${esc(t)}</p>`;
+  return `<details class="note note-collapse"><summary>${esc(m[1])}</summary> ${esc(m[2])}</details>`;
+}
+
 function tollLine(toll = {}) {
   let val = esc(toll.display || '');
   if (toll.low != null && toll.high != null) {
@@ -67,7 +76,7 @@ export async function openLedger(iso, name) {
     <div class="ledger-head">
       <h2 id="ovTitle">${esc(c.name || name)}</h2>
       <div class="sub">${esc(c.iso)} · ${c.events.length} entries · both ledgers · <span class="status-badge status-${esc(c.status)}">${esc(c.status)}</span></div>
-      ${c.note ? `<p class="note">${esc(c.note)}</p>` : ''}
+      ${noteHTML(c.note)}
     </div>
     <div class="ledger-cols">
       <section class="ledger-col ledger-col--victim">

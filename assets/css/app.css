@@ -138,10 +138,16 @@
 }
 .country-search input::placeholder { color: var(--faint); }
 .country-search input:focus { outline: none; border-color: var(--glow); }
+.overlay:has(.ledger-modal) { padding: 0; } /* let the modal use the full viewport — fixes esc clipped off-screen */
 .overlay-card.ledger-modal {
   max-width: min(1280px, 96vw); width: 96vw; height: 90dvh;
   padding: 0; overflow: hidden; display: flex; flex-direction: column;
 }
+/* collapsible country note — one sentence + more/− */
+.note-collapse summary { cursor: pointer; list-style: none; }
+.note-collapse summary::-webkit-details-marker { display: none; }
+.note-collapse summary::after { content: ' more +'; color: var(--glow); font-family: var(--mono); font-size: .82em; white-space: nowrap; }
+.note-collapse[open] summary::after { content: ' less −'; }
 .ledger-modal .ov-close { position: absolute; top: .6rem; right: .6rem; z-index: 3; float: none; background: var(--panel-2); }
 .ledger-head { flex-shrink: 0; padding: 1.1rem 1.4rem .8rem; border-bottom: 1px solid var(--line); }
 .ledger-head h2 { font-family: var(--display); font-weight: 600; font-size: var(--step-2); line-height: 1; }
@@ -164,11 +170,27 @@
 .ledger-col--perp .ledger-col-head   { color: var(--amber); }
 .ledger-col-head .n { color: var(--faint); border: 1px solid var(--line); border-radius: 999px; padding: 0 .55em; }
 .ledger-foot { flex-shrink: 0; padding: .7rem 1.4rem; border-top: 1px solid var(--line-soft); font-family: var(--mono); font-size: 10px; color: var(--fainter); }
+
+/* Learn: location pin on the world map + magnifier lens inset (zoom AND where-it-is) */
+.map-pin {
+  fill: none; stroke: var(--glow); stroke-width: 2; vector-effect: non-scaling-stroke; opacity: .95;
+  transform-box: fill-box; transform-origin: center; animation: pinpulse 1.6s ease-in-out infinite;
+}
+.map-pin.victim { stroke: var(--teal); }
+.map-pin.perp   { stroke: var(--amber); }
+@keyframes pinpulse { 0%,100% { transform: scale(.7); } 50% { transform: scale(1.15); } }
+.map-lens { position: absolute; top: 8px; right: 8px; width: min(44%, 185px); z-index: 4; }
+.map-lens .magnifier { width: 100%; margin: 0; }
+
 @media (max-width: 760px) {
-  .overlay-card.ledger-modal { width: 100vw; max-width: 100vw; height: 92dvh; }
-  .ledger-cols { grid-template-columns: 1fr; grid-auto-rows: min-content; overflow-y: auto; }
-  .ledger-col { overflow-y: visible; }
-  .ledger-spine { height: 1px; }
+  /* full-bleed modal (esc on-screen) — and KEEP the two side-by-side ledger columns on mobile */
+  .overlay-card.ledger-modal { width: 100vw; max-width: 100vw; height: 100dvh; border-radius: 0; }
+  .ledger-head { padding: 1rem 1rem .7rem; }
+  .ledger-head h2 { font-size: var(--step-1); }
+  .ledger-col { padding: .85rem .65rem 1.3rem; }
+  .ledger-col-head { margin: -.85rem -.65rem .8rem; padding: .55rem .65rem; font-size: 10px; letter-spacing: .06em; }
+  .event h3 { font-size: var(--step-0); }
+  .ledger-foot { padding: .6rem 1rem; }
 }
 
 /* ============ CALIBRATE / GEO QUIZ (shared quiz shell) ============ */

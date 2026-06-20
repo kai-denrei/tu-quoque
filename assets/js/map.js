@@ -86,8 +86,21 @@ export function createMap(worldData, opts = {}) {
       const p = byIso[iso];
       if (p) { p.classList.add('sel'); selEl = p; }
     },
-    clearMarks() { svg.querySelectorAll('.q-target,.q-other,.sel').forEach(p => p.classList.remove('q-target', 'q-other', 'sel')); selEl = null; },
+    clearMarks() {
+      svg.querySelectorAll('.q-target,.q-other,.sel').forEach(p => p.classList.remove('q-target', 'q-other', 'sel'));
+      svg.querySelectorAll('.map-pin').forEach(p => p.remove());
+      selEl = null;
+    },
     mark(iso, cls) { if (byIso[iso]) byIso[iso].classList.add(cls); },
+    // prominent location ring at a country's centroid — visible even for tiny countries
+    pin(iso, cls = '') {
+      const c = centroids[iso];
+      if (!c) return;
+      const ring = document.createElementNS(NS, 'circle');
+      ring.setAttribute('cx', c[0]); ring.setAttribute('cy', c[1]); ring.setAttribute('r', 11);
+      ring.setAttribute('class', 'map-pin ' + cls);
+      svg.appendChild(ring);
+    },
   };
   return api;
 }

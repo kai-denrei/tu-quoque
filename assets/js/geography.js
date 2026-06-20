@@ -78,6 +78,17 @@ export async function mountLearn(container) {
     return wrap;
   }
 
+  // place the magnifier as an inset ON the world map (so you see the zoom AND where it is at once)
+  function showLens(iso) {
+    clearLens();
+    const mg = buildMagnifier(iso);
+    if (!mg) return;
+    const lens = el('div', 'map-lens');
+    lens.appendChild(mg);
+    map.el.appendChild(lens);
+  }
+  function clearLens() { map.el.querySelectorAll('.map-lens').forEach((n) => n.remove()); }
+
   const MODES = [['capital', 'Find the capital'], ['population', 'Which is bigger?'], ['name', 'Name it · 3s']];
   function renderModes() {
     modeSwitch.innerHTML = '';
@@ -95,6 +106,7 @@ export async function mountLearn(container) {
   function next() {
     clearTimeout(advanceTimer);
     map.clearMarks();
+    clearLens();
     delete qBox.dataset.answered;
     if (i >= ROUND) return finish();
     updateScore();
@@ -103,18 +115,17 @@ export async function mountLearn(container) {
     else nameQ();
   }
 
-  // "Name it": a zoomed lens of the country, 3-second countdown, flash the name, honor-system self-grade
+  // "Name it": lens on the map (zoom) + pin (location), 3s countdown, flash the name, self-grade
   function nameQ() {
     const c = pick(pool);
-    map.mark(c.iso, 'q-target');                            // also mark on the world map for global context
+    map.mark(c.iso, 'q-target');     // shape highlight
+    map.pin(c.iso, 'victim');        // location ring (visible even for tiny countries)
+    showLens(c.iso);                 // zoomed lens inset on the map
     let t = 3;
     qBox.innerHTML = `
-      <div class="quiz-prog">name it · the country in the lens</div>
-      <div id="mgmount"></div>
+      <div class="quiz-prog">name it · the country in the lens (see the map)</div>
       <div class="quiz-q name-count" id="ndown">${t}</div>
       <div class="quiz-ask">Recall its name before it flashes…</div>`;
-    const mg = buildMagnifier(c.iso);
-    if (mg) qBox.querySelector('#mgmount').appendChild(mg);
     const dEl = qBox.querySelector('#ndown');
     const tick = () => {
       t--;
@@ -125,15 +136,12 @@ export async function mountLearn(container) {
     function reveal() {
       qBox.innerHTML = `
         <div class="quiz-prog">name it</div>
-        <div id="mgmount2"></div>
         <div class="quiz-q name-flash">${c.name}</div>
         <div class="quiz-ask">Did you get it? (honor system)</div>
         <div class="choices">
           <button class="choice" data-ok="1"><span class="opt">✓</span>Correct</button>
           <button class="choice" data-ok="0"><span class="opt">✗</span>Incorrect</button>
         </div>`;
-      const mg2 = buildMagnifier(c.iso);
-      if (mg2) qBox.querySelector('#mgmount2').appendChild(mg2);
       qBox.querySelectorAll('.choice').forEach((b) => (b.onclick = () => {
         if (qBox.dataset.answered) return;
         qBox.dataset.answered = '1';
@@ -152,6 +160,8 @@ export async function mountLearn(container) {
   function capitalQ() {
     const ans = pick(pool);
     map.mark(ans.iso, 'q-target');
+    map.pin(ans.iso, 'victim');   // location ring on the world map
+    showLens(ans.iso);            // zoomed lens inset so small countries are visible
     const sameRegion = pool.filter((c) => c.iso !== ans.iso && c.region === ans.region);
     const distractors = shuffle(sameRegion.length >= 3 ? sameRegion.slice() : pool.filter((c) => c.iso !== ans.iso)).slice(0, 3);
     const options = shuffle([ans, ...distractors]);
@@ -194,6 +204,8 @@ export async function mountLearn(container) {
     const [a, b] = shuffle(pool.slice()).slice(0, 2);
     map.mark(a.iso, 'q-target');
     map.mark(b.iso, 'q-other');
+    map.pin(a.iso, 'victim');     // teal ring
+    map.pin(b.iso, 'perp');       // amber ring — both locations visible regardless of size
     qBox.innerHTML = `
       <div class="quiz-prog">population · teal vs amber on the map</div>
       <div class="quiz-q">Which has more people?</div>
