@@ -6,6 +6,8 @@
 
 v1 prototype. Expands the PoC `both_hands.html`. Editorial constitution: [`TU_QUOQUE_HANDOVER.md`](TU_QUOQUE_HANDOVER.md).
 
+**Live: https://tu-quoque.pages.dev** (Cloudflare Pages). 165 countries, dual ledgers, geography quiz.
+
 ## Run it
 
 ```bash

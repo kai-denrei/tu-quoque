@@ -109,7 +109,9 @@ batches (5h window was at 53% when starting), most-populous first. Script (reusa
 - ✅ **CAMPAIGN COMPLETE: 165 / 165 countries researched.** 605 events, 1,587 sources, 0 invalid JSON.
       Country status: 80 VERIFIED, 85 UNVERIFIED. Event status: 480 VERIFIED, 125 UNVERIFIED (held, not fabricated — law 6).
       Note: VUT (Vanuatu) is victim-only — no documented perpetrator atrocity; correctly not invented (one-sided ledger flagged).
-- ⏳ Only Pages deploy remains blocked (account Actions still disabled). Auto-retry continues; deploys all 165 the moment Actions returns.
+- ✅ **PUBLIC SITE LIVE: https://tu-quoque.pages.dev** (Kai Denrei Cloudflare Pages account, deployed 2026-06-20). All 165 countries, verified rendering.
+      Redeploy after content changes: `set -a; source ~/.config/kainode/cloudflare.env; set +a` then build /tmp/tq-publish (index.html, offline.html, manifest.webmanifest, sw.js, assets/, data/) and `wrangler pages deploy /tmp/tq-publish --project-name=tu-quoque --branch=main --commit-dirty=true`.
+- ℹ️ GitHub Pages (kai-denrei.github.io/tu-quoque) stays blocked: the kai-denrei GitHub account is FLAGGED (confirmed — Cloudflare's GitHub OAuth also refused it). Support ticket open (~7 business days). Will work if/when the account is un-flagged; repo already wired.
 - ⚠️ **GitHub Pages BLOCKED:** account-level "Actions has been disabled for this user" (kai-denrei) — breaks both legacy + Actions Pages builders → 404. Repo is correctly configured (build_type=workflow, .nojekyll, .github/workflows/pages.yml) and WILL auto-deploy once Actions is re-enabled on the account (operator action / GitHub support). Site works locally (localhost:8848) + content is in the public repo. Awaiting operator decision (re-enable Actions vs alternative host).
 - ☐ Batches 2…N: after each, regenerate `data/countries/index.json`, validate JSON, `node build/bump-version.mjs`, check 5h budget before the next. RESUME a stuck batch via resumeFromRunId.
 - NEXT-BATCH RECIPE: `node -e` over data/geo/reference.json minus existing data/countries/*.json, sort by population,
