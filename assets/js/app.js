@@ -32,17 +32,26 @@ async function mountMap(container, arg) {
   };
   const map = createMap(worldData, { hasSet, onSelect: (iso, name) => { if (hasSet.has(iso)) select(iso, name); } });
 
-  // keyboard-accessible entry to the lit countries — the map paths are mouse/touch only
-  const list = el('div', 'geo-fact');
-  list.append(el('span', null, 'ledgers&nbsp;·&nbsp;'));
-  idx.countries.forEach((c) => {
-    const b = el('button', 'chip');
-    b.type = 'button'; b.textContent = c.name; b.style.cursor = 'pointer';
-    b.onclick = () => select(c.iso, c.name);
-    list.append(b);
-  });
+  // country search — compact, scales to 165, and the reliable way to open a country
+  // that's too small to finger-tap on the map (replaces the old all-countries chip wall)
+  const searchWrap = el('div', 'country-search');
+  const input = el('input');
+  input.type = 'text'; input.id = 'cpick'; input.autocomplete = 'off';
+  input.placeholder = `Search ${idx.count} countries → open its ledger`;
+  input.setAttribute('list', 'country-options');
+  input.setAttribute('aria-label', 'Search a country to open its ledger');
+  const dl = el('datalist'); dl.id = 'country-options';
+  const byName = {};
+  idx.countries.forEach((c) => { const o = el('option'); o.value = c.name; dl.append(o); byName[c.name.toLowerCase()] = c; });
+  const pickFromInput = () => {
+    const c = byName[input.value.trim().toLowerCase()];
+    if (c) { select(c.iso, c.name); input.value = ''; }
+  };
+  input.addEventListener('change', pickFromInput);
+  input.addEventListener('keydown', (e) => { if (e.key === 'Enter') pickFromInput(); });
+  searchWrap.append(input, dl);
 
-  view.append(toolbar, map.el, list);
+  view.append(toolbar, map.el, searchWrap);
   container.append(view);
 
   // deep-link: #/map/<ISO> opens that country's ledger directly
@@ -91,6 +100,7 @@ function parseHash() {
 
 async function route() {
   const { view: v, arg } = parseHash();
+  closeOverlay(); // navigating views dismisses any open ledger/About/Calibrate modal
   document.querySelectorAll('.navlink[data-view]').forEach((a) => a.classList.toggle('is-active', a.dataset.view === v));
   const view = document.getElementById('view');
   view.innerHTML = '';

@@ -129,6 +129,15 @@
 
 /* ============ full-screen dual-ledger modal (click a country) ============ */
 .map-view { width: 100%; }
+.country-search { margin-top: .8rem; }
+.country-search input {
+  width: 100%; max-width: 440px; display: block;
+  font-family: var(--mono); font-size: var(--step--1); color: var(--text);
+  background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: .65rem .85rem;
+}
+.country-search input::placeholder { color: var(--faint); }
+.country-search input:focus { outline: none; border-color: var(--glow); }
 .overlay-card.ledger-modal {
   max-width: min(1280px, 96vw); width: 96vw; height: 90dvh;
   padding: 0; overflow: hidden; display: flex; flex-direction: column;
